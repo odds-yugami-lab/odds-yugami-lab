@@ -1,0 +1,56 @@
+name: Free Windows SDK feasibility probe
+on:
+  push:
+    branches:
+      - dev/free-windows-probe-20261011
+    paths:
+      - .github/workflows/free-windows-probe.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  sdk-inventory:
+    if: github.repository == 'odds-yugami-lab/odds-yugami-lab'
+    runs-on: windows-2022
+    timeout-minutes: 8
+    steps:
+      - name: Inspect official SDK package without credentials or data acquisition
+        shell: pwsh
+        run: |
+          $ErrorActionPreference = 'Stop'
+          $root = Join-Path $env:RUNNER_TEMP 'jra-sdk-probe'
+          New-Item -ItemType Directory -Path $root -Force | Out-Null
+          $zip = Join-Path $root 'sdk.zip'
+          Invoke-WebRequest -Uri 'https://jra-van.jp/dlb/sdv/sdk/JVDTLABSDK500_64bit.zip' -OutFile $zip -TimeoutSec 120
+          $digest = (Get-FileHash $zip -Algorithm SHA256).Hash
+          $expanded = Join-Path $root 'sdk'
+          Expand-Archive -Path $zip -DestinationPath $expanded
+          $files = Get-ChildItem $expanded -Recurse -File
+          $packages = $files | Where-Object { $_.Extension -in '.msi', '.exe', '.dll', '.ocx', '.py' }
+          $inventory = @($packages | ForEach-Object {
+            $signature = Get-AuthenticodeSignature $_.FullName
+            [ordered]@{
+              path = $_.FullName.Substring($expanded.Length + 1)
+              bytes = $_.Length
+              signature = [string]$signature.Status
+              signer = [string]$signature.SignerCertificate.Subject
+            }
+          })
+          $report = [ordered]@{
+            status = 'SDK_INVENTORY_ONLY'
+            windows = [Environment]::OSVersion.VersionString
+            sdk_sha256 = $digest
+            sdk_file_count = $files.Count
+            credential_used = $false
+            race_data_acquired = $false
+            installed = $false
+            files = $inventory
+          }
+          $report | ConvertTo-Json -Depth 6
+          @(
+            '## Free Windows feasibility probe'
+            'Official SDK downloaded and expanded; no credentials, registration, installation or race data access.'
+            ('SDK files: ' + $files.Count)
+            ('SDK SHA256: ' + $digest)
+            'Live operation is not ready.'
+          ) | Out-File -FilePath $env:GITHUB_STEP_SUMMARY -Encoding utf8
