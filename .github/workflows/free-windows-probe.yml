@@ -28,7 +28,7 @@ jobs:
           $files = Get-ChildItem $expanded -Recurse -File
           $packages = $files | Where-Object { $_.Extension -in '.msi', '.exe', '.dll', '.ocx', '.py' }
           $inventory = @($packages | ForEach-Object {
-            $signature = Get-AuthenticodeSignature $_.FullName
+            $signature = Get-AuthenticodeSignature -LiteralPath $_.FullName
             [ordered]@{
               path = $_.FullName.Substring($expanded.Length + 1)
               bytes = $_.Length
