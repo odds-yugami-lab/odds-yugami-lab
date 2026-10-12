@@ -1,0 +1,3474 @@
+{
+  "purpose": "post_race_ingestion",
+  "is_pre_race_prediction": false,
+  "exported_at": "2026-10-12T23:56:54.596451+00:00",
+  "meetings": [
+    "26050405",
+    "26080405"
+  ],
+  "expected_races": [
+    "2605040501",
+    "2605040502",
+    "2605040503",
+    "2605040504",
+    "2605040505",
+    "2605040506",
+    "2605040507",
+    "2605040508",
+    "2605040509",
+    "2605040510",
+    "2605040511",
+    "2605040512",
+    "2608040501",
+    "2608040502",
+    "2608040503",
+    "2608040504",
+    "2608040505",
+    "2608040506",
+    "2608040507",
+    "2608040508",
+    "2608040509",
+    "2608040510",
+    "2608040511",
+    "2608040512"
+  ],
+  "successful_races": {
+    "2605040501": 16,
+    "2605040502": 12,
+    "2605040503": 11,
+    "2605040504": 14,
+    "2605040505": 12,
+    "2605040506": 16,
+    "2605040507": 16,
+    "2605040508": 6,
+    "2605040509": 14,
+    "2605040510": 11,
+    "2605040511": 18,
+    "2605040512": 16,
+    "2608040501": 15,
+    "2608040502": 12,
+    "2608040503": 12,
+    "2608040504": 16,
+    "2608040505": 9,
+    "2608040506": 12,
+    "2608040507": 16,
+    "2608040508": 11,
+    "2608040509": 12,
+    "2608040510": 10,
+    "2608040511": 18,
+    "2608040512": 16
+  },
+  "failures": [],
+  "races": [
+    {
+      "race_id": "2605040501",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605040501",
+      "retrieved_at": "2026-10-12T23:54:31.449350+00:00",
+      "page_sha256": "4226581db4c0ddf9abe873a06fda09b7e32ddfd53bba80d8e62c5199b753662a",
+      "rows": [
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024102994",
+          "horse_number": 1,
+          "finish_text": "15",
+          "jockey_id": "01207",
+          "trainer_id": "01052",
+          "horse_detail": "ノーブルフォース 牡2/430(-2)",
+          "jockey_weight": "佐藤 翔馬 ▲53.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024106772",
+          "horse_number": 2,
+          "finish_text": "11",
+          "jockey_id": "01115",
+          "trainer_id": "01059",
+          "horse_detail": "トロフィアス 牡2/450(+8)",
+          "jockey_weight": "浜中 俊 56.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024109080",
+          "horse_number": 3,
+          "finish_text": "8",
+          "jockey_id": "01161",
+          "trainer_id": "01043",
+          "horse_detail": "ファイアリーボルト 牡2/446(+8)",
+          "jockey_weight": "菊沢 一樹 56.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024102821",
+          "horse_number": 4,
+          "finish_text": "3",
+          "jockey_id": "01077",
+          "trainer_id": "01020",
+          "horse_detail": "オーケーエース 牡2/464(+10)",
+          "jockey_weight": "石橋 脩 56.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024101728",
+          "horse_number": 5,
+          "finish_text": "10",
+          "jockey_id": "00422",
+          "trainer_id": "01153",
+          "horse_detail": "ビスクヴィート 牡2/438(+6)",
+          "jockey_weight": "内田 博幸 56.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024100448",
+          "horse_number": 6,
+          "finish_text": "2",
+          "jockey_id": "01140",
+          "trainer_id": "01202",
+          "horse_detail": "アンバーバレット 牡2/460(-4)",
+          "jockey_weight": "横山 和生 56.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024108270",
+          "horse_number": 7,
+          "finish_text": "13",
+          "jockey_id": "01085",
+          "trainer_id": "01119",
+          "horse_detail": "ライジングファイト 牡2/442(0)",
+          "jockey_weight": "松岡 正海 56.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024108106",
+          "horse_number": 8,
+          "finish_text": "16",
+          "jockey_id": "01009",
+          "trainer_id": "01143",
+          "horse_detail": "カシノヴィタ 牝2/386(-2)",
+          "jockey_weight": "柴田 大知 55.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024102462",
+          "horse_number": 9,
+          "finish_text": "7",
+          "jockey_id": "01177",
+          "trainer_id": "01131",
+          "horse_detail": "ダイチマイスター 牡2/482(+14)",
+          "jockey_weight": "小林 凌大 56.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024108024",
+          "horse_number": 10,
+          "finish_text": "9",
+          "jockey_id": "01169",
+          "trainer_id": "01064",
+          "horse_detail": "アドバンスアゲイン 牝2/438(+2)",
+          "jockey_weight": "武藤 雅 55.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024106770",
+          "horse_number": 11,
+          "finish_text": "6",
+          "jockey_id": "01214",
+          "trainer_id": "01204",
+          "horse_detail": "エマルタ 牝2/468(0)",
+          "jockey_weight": "長浜 鴻緒 ☆54.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024105137",
+          "horse_number": 12,
+          "finish_text": "12",
+          "jockey_id": "01218",
+          "trainer_id": "01156",
+          "horse_detail": "プリマラクーン 牝2/452(-2)",
+          "jockey_weight": "遠藤 汰月 ▲52.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024102784",
+          "horse_number": 13,
+          "finish_text": "4",
+          "jockey_id": "00689",
+          "trainer_id": "01207",
+          "horse_detail": "ヤマニンスペッキオ 牡2/496(0)",
+          "jockey_weight": "江田 照男 56.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024103548",
+          "horse_number": 14,
+          "finish_text": "14",
+          "jockey_id": "01153",
+          "trainer_id": "01096",
+          "horse_detail": "キタノエフロレス 牝2/458(+4)",
+          "jockey_weight": "木幡 初也 55.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024101687",
+          "horse_number": 15,
+          "finish_text": "1",
+          "jockey_id": "01091",
+          "trainer_id": "01051",
+          "horse_detail": "イトウカカリチョウ 牡2/444(+8)",
+          "jockey_weight": "丹内 祐次 56.0"
+        },
+        {
+          "race_id": "2605040501",
+          "horse_id": "2024106013",
+          "horse_number": 16,
+          "finish_text": "5",
+          "jockey_id": "01135",
+          "trainer_id": "01189",
+          "horse_detail": "ルバルマン 牡2/460(0)",
+          "jockey_weight": "杉原 誠人 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2605040502",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605040502",
+      "retrieved_at": "2026-10-12T23:54:39.103280+00:00",
+      "page_sha256": "b468ae1693d9e25e92e2a59d77d269596043096364185c173963a748da5ab5ed",
+      "rows": [
+        {
+          "race_id": "2605040502",
+          "horse_id": "2024100295",
+          "horse_number": 1,
+          "finish_text": "8",
+          "jockey_id": "01115",
+          "trainer_id": "01112",
+          "horse_detail": "クラオルグジェシダ 牝2/428(-4)",
+          "jockey_weight": "浜中 俊 55.0"
+        },
+        {
+          "race_id": "2605040502",
+          "horse_id": "2024106429",
+          "horse_number": 2,
+          "finish_text": "1",
+          "jockey_id": "05339",
+          "trainer_id": "01219",
+          "horse_detail": "ソニックアイル 牝2/430(-12)",
+          "jockey_weight": "C.ルメール 55.0"
+        },
+        {
+          "race_id": "2605040502",
+          "horse_id": "2024105028",
+          "horse_number": 3,
+          "finish_text": "11",
+          "jockey_id": "01209",
+          "trainer_id": "01220",
+          "horse_detail": "ベールダウン 牝2/456(+6)/B",
+          "jockey_weight": "石神 深道 △53.0"
+        },
+        {
+          "race_id": "2605040502",
+          "horse_id": "2024102327",
+          "horse_number": 4,
+          "finish_text": "12",
+          "jockey_id": "01207",
+          "trainer_id": "01052",
+          "horse_detail": "シンボリサーブル 牡2/510(+2)",
+          "jockey_weight": "佐藤 翔馬 ▲53.0"
+        },
+        {
+          "race_id": "2605040502",
+          "horse_id": "2024105040",
+          "horse_number": 5,
+          "finish_text": "7",
+          "jockey_id": "01162",
+          "trainer_id": "01106",
+          "horse_detail": "コールオンユー 牝2/446(+8)",
+          "jockey_weight": "木幡 巧也 55.0"
+        },
+        {
+          "race_id": "2605040502",
+          "horse_id": "2024106840",
+          "horse_number": 6,
+          "finish_text": "6",
+          "jockey_id": "01218",
+          "trainer_id": "01031",
+          "horse_detail": "アイレバルバドス 牡2/436(+4)",
+          "jockey_weight": "遠藤 汰月 ▲53.0"
+        },
+        {
+          "race_id": "2605040502",
+          "horse_id": "2024102727",
+          "horse_number": 7,
+          "finish_text": "4",
+          "jockey_id": "01134",
+          "trainer_id": "01089",
+          "horse_detail": "コスモティタノ 牡2/478(+2)",
+          "jockey_weight": "嶋田 純次 56.0"
+        },
+        {
+          "race_id": "2605040502",
+          "horse_id": "2024103328",
+          "horse_number": 8,
+          "finish_text": "9",
+          "jockey_id": "01117",
+          "trainer_id": "01043",
+          "horse_detail": "マホロ 牝2/464(+2)",
+          "jockey_weight": "丸田 恭介 55.0"
+        },
+        {
+          "race_id": "2605040502",
+          "horse_id": "2024100987",
+          "horse_number": 9,
+          "finish_text": "10",
+          "jockey_id": "01203",
+          "trainer_id": "01141",
+          "horse_detail": "ナムラジョン 牡2/414(+4)",
+          "jockey_weight": "石田 拓郎 △54.0"
+        },
+        {
+          "race_id": "2605040502",
+          "horse_id": "2024102782",
+          "horse_number": 10,
+          "finish_text": "5",
+          "jockey_id": "00689",
+          "trainer_id": "01195",
+          "horse_detail": "ビップラージャ 牡2/426(+6)",
+          "jockey_weight": "江田 照男 56.0"
+        },
+        {
+          "race_id": "2605040502",
+          "horse_id": "2024100210",
+          "horse_number": 11,
+          "finish_text": "2",
+          "jockey_id": "01085",
+          "trainer_id": "01189",
+          "horse_detail": "サンレガート 牡2/434(0)",
+          "jockey_weight": "松岡 正海 56.0"
+        },
+        {
+          "race_id": "2605040502",
+          "horse_id": "2024102622",
+          "horse_number": 12,
+          "finish_text": "3",
+          "jockey_id": "01161",
+          "trainer_id": "01115",
+          "horse_detail": "フォンターナドーロ 牝2/454(+4)",
+          "jockey_weight": "菊沢 一樹 55.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2605040503",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605040503",
+      "retrieved_at": "2026-10-12T23:54:44.920194+00:00",
+      "page_sha256": "0da4d550115f8343e615f786da3688872c1f189974a45c8caa90fe0dc58a0ccd",
+      "rows": [
+        {
+          "race_id": "2605040503",
+          "horse_id": "2024103630",
+          "horse_number": 1,
+          "finish_text": "11",
+          "jockey_id": "01009",
+          "trainer_id": "00423",
+          "horse_detail": "ツェルプスト 牡2/476(+6)",
+          "jockey_weight": "柴田 大知 56.0"
+        },
+        {
+          "race_id": "2605040503",
+          "horse_id": "2024106831",
+          "horse_number": 2,
+          "finish_text": "9",
+          "jockey_id": "01143",
+          "trainer_id": "01008",
+          "horse_detail": "エレスレイプニル 牡2/446(+6)",
+          "jockey_weight": "原田 和真 56.0"
+        },
+        {
+          "race_id": "2605040503",
+          "horse_id": "2024107007",
+          "horse_number": 3,
+          "finish_text": "6",
+          "jockey_id": "01091",
+          "trainer_id": "01187",
+          "horse_detail": "ロワデュモンド 牡2/494(0)",
+          "jockey_weight": "丹内 祐次 56.0"
+        },
+        {
+          "race_id": "2605040503",
+          "horse_id": "2024100477",
+          "horse_number": 4,
+          "finish_text": "1",
+          "jockey_id": "05586",
+          "trainer_id": "01110",
+          "horse_detail": "モンサンラパージュ 牝2/464(0)",
+          "jockey_weight": "M.ミシェル 55.0"
+        },
+        {
+          "race_id": "2605040503",
+          "horse_id": "2024100942",
+          "horse_number": 5,
+          "finish_text": "10",
+          "jockey_id": "01169",
+          "trainer_id": "01064",
+          "horse_detail": "ラインディーバ 牝2/416(+16)",
+          "jockey_weight": "武藤 雅 55.0"
+        },
+        {
+          "race_id": "2605040503",
+          "horse_id": "2024106419",
+          "horse_number": 6,
+          "finish_text": "3",
+          "jockey_id": "01122",
+          "trainer_id": "01097",
+          "horse_detail": "マイネルリシャール 牡2/486(0)",
+          "jockey_weight": "三浦 皇成 56.0"
+        },
+        {
+          "race_id": "2605040503",
+          "horse_id": "2024105454",
+          "horse_number": 7,
+          "finish_text": "7",
+          "jockey_id": "01108",
+          "trainer_id": "01063",
+          "horse_detail": "テングカゼ 牡2/472(+6)",
+          "jockey_weight": "的場 勇人 56.0"
+        },
+        {
+          "race_id": "2605040503",
+          "horse_id": "2024106621",
+          "horse_number": 8,
+          "finish_text": "5",
+          "jockey_id": "05339",
+          "trainer_id": "01201",
+          "horse_detail": "マルスレジーナ 牝2/472(+2)",
+          "jockey_weight": "C.ルメール 55.0"
+        },
+        {
+          "race_id": "2605040503",
+          "horse_id": "2024106145",
+          "horse_number": 9,
+          "finish_text": "4",
+          "jockey_id": "01160",
+          "trainer_id": "01103",
+          "horse_detail": "ライカホウ 牡2/490(+6)",
+          "jockey_weight": "荻野 極 56.0"
+        },
+        {
+          "race_id": "2605040503",
+          "horse_id": "2024101787",
+          "horse_number": 10,
+          "finish_text": "8",
+          "jockey_id": "01077",
+          "trainer_id": "01125",
+          "horse_detail": "キャッチアップ 牝2/426(-2)",
+          "jockey_weight": "石橋 脩 55.0"
+        },
+        {
+          "race_id": "2605040503",
+          "horse_id": "2024103610",
+          "horse_number": 11,
+          "finish_text": "2",
+          "jockey_id": "01161",
+          "trainer_id": "01171",
+          "horse_detail": "コスモバルムンク 牡2/420(+2)",
+          "jockey_weight": "菊沢 一樹 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2605040504",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605040504",
+      "retrieved_at": "2026-10-12T23:54:50.718005+00:00",
+      "page_sha256": "d8ed84760fff9c6b79814678d7c5ad2f9b533ac2ec0d10a4f1970907d7406793",
+      "rows": [
+        {
+          "race_id": "2605040504",
+          "horse_id": "2020105914",
+          "horse_number": 1,
+          "finish_text": "12",
+          "jockey_id": "01198",
+          "trainer_id": "01043",
+          "horse_detail": "ヒロピアーナ 牡6/544(-4)",
+          "jockey_weight": "土田 真翔 ▲57.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2019104915",
+          "horse_number": 2,
+          "finish_text": "6",
+          "jockey_id": "01069",
+          "trainer_id": "01051",
+          "horse_detail": "バンデルオーラ 牡7/486(-4)/B",
+          "jockey_weight": "五十嵐 雄祐 60.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2022101203",
+          "horse_number": 3,
+          "finish_text": "1",
+          "jockey_id": "01087",
+          "trainer_id": "01125",
+          "horse_detail": "ゲレル 牝4/452(+2)",
+          "jockey_weight": "上野 翔 58.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2022101461",
+          "horse_number": 4,
+          "finish_text": "5",
+          "jockey_id": "01066",
+          "trainer_id": "01092",
+          "horse_detail": "セイフウサツキ 牡4/482(+4)",
+          "jockey_weight": "難波 剛健 60.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2022101532",
+          "horse_number": 5,
+          "finish_text": "9",
+          "jockey_id": "01151",
+          "trainer_id": "01119",
+          "horse_detail": "エポカスピーガ 牝4/484(0)",
+          "jockey_weight": "井上 敏樹 ▲57.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2022101587",
+          "horse_number": 6,
+          "finish_text": "11",
+          "jockey_id": "01120",
+          "trainer_id": "01063",
+          "horse_detail": "クリアクォーツ 牡4/480(+2)",
+          "jockey_weight": "大江原 圭 60.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2021100363",
+          "horse_number": 7,
+          "finish_text": "中止",
+          "jockey_id": "01139",
+          "trainer_id": "01044",
+          "horse_detail": "パワーホール せん5/498(+2)",
+          "jockey_weight": "森 一馬 60.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2022100737",
+          "horse_number": 8,
+          "finish_text": "3",
+          "jockey_id": "01201",
+          "trainer_id": "01024",
+          "horse_detail": "セイウンビッグバン 牡4/462(+2)",
+          "jockey_weight": "水沼 元輝 ▲57.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2020103048",
+          "horse_number": 9,
+          "finish_text": "10",
+          "jockey_id": "01196",
+          "trainer_id": "01039",
+          "horse_detail": "ティムール 牡6/482(0)",
+          "jockey_weight": "小牧 加矢太 60.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2020100209",
+          "horse_number": 10,
+          "finish_text": "2",
+          "jockey_id": "01123",
+          "trainer_id": "01132",
+          "horse_detail": "コトブキヘスペラス 牡6/486(+6)",
+          "jockey_weight": "小野寺 祐太 60.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2023103189",
+          "horse_number": 11,
+          "finish_text": "13",
+          "jockey_id": "01101",
+          "trainer_id": "01042",
+          "horse_detail": "スラッシュ 牡3/470(0)",
+          "jockey_weight": "中村 将之 58.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2022104887",
+          "horse_number": 12,
+          "finish_text": "8",
+          "jockey_id": "01046",
+          "trainer_id": "01178",
+          "horse_detail": "シュバルツマサムネ 牡4/478(-4)",
+          "jockey_weight": "高田 潤 60.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2020103803",
+          "horse_number": 13,
+          "finish_text": "4",
+          "jockey_id": "01177",
+          "trainer_id": "01124",
+          "horse_detail": "アヴニールドブリエ せん6/514(+10)",
+          "jockey_weight": "小林 凌大 ▲57.0"
+        },
+        {
+          "race_id": "2605040504",
+          "horse_id": "2022103285",
+          "horse_number": 14,
+          "finish_text": "7",
+          "jockey_id": "01023",
+          "trainer_id": "01096",
+          "horse_detail": "バトンロード 牡4/496(+6)",
+          "jockey_weight": "江田 勇亮 60.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2605040505",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605040505",
+      "retrieved_at": "2026-10-12T23:54:56.434863+00:00",
+      "page_sha256": "28077455ad4329a86ca7a98829a10d2a1f93268e84240307e3ea5cf207504c9c",
+      "rows": [
+        {
+          "race_id": "2605040505",
+          "horse_id": "2024105504",
+          "horse_number": 1,
+          "finish_text": "10",
+          "jockey_id": "01091",
+          "trainer_id": "01191",
+          "horse_detail": "ダンツトリノ 牝2/434(0)",
+          "jockey_weight": "丹内 祐次 55.0"
+        },
+        {
+          "race_id": "2605040505",
+          "horse_id": "2024108159",
+          "horse_number": 2,
+          "finish_text": "11",
+          "jockey_id": "00733",
+          "trainer_id": "01134",
+          "horse_detail": "スリーエンジェル 牝2/432(0)",
+          "jockey_weight": "吉田 豊 55.0"
+        },
+        {
+          "race_id": "2605040505",
+          "horse_id": "2024100825",
+          "horse_number": 3,
+          "finish_text": "9",
+          "jockey_id": "01161",
+          "trainer_id": "01103",
+          "horse_detail": "エリティエ 牝2/422(0)",
+          "jockey_weight": "菊沢 一樹 55.0"
+        },
+        {
+          "race_id": "2605040505",
+          "horse_id": "2024107375",
+          "horse_number": 4,
+          "finish_text": "12",
+          "jockey_id": "01122",
+          "trainer_id": "00423",
+          "horse_detail": "ピコチェリー 牝2/444(0)",
+          "jockey_weight": "三浦 皇成 55.0"
+        },
+        {
+          "race_id": "2605040505",
+          "horse_id": "2024101516",
+          "horse_number": 5,
+          "finish_text": "6",
+          "jockey_id": "01217",
+          "trainer_id": "01220",
+          "horse_detail": "ジーティーカッサイ 牝2/402(0)",
+          "jockey_weight": "上里 直汰 ▲52.0"
+        },
+        {
+          "race_id": "2605040505",
+          "horse_id": "2024106242",
+          "horse_number": 6,
+          "finish_text": "2",
+          "jockey_id": "05339",
+          "trainer_id": "01127",
+          "horse_detail": "フォンテキアーラ 牝2/440(0)",
+          "jockey_weight": "C.ルメール 55.0"
+        },
+        {
+          "race_id": "2605040505",
+          "horse_id": "2024102376",
+          "horse_number": 7,
+          "finish_text": "4",
+          "jockey_id": "05586",
+          "trainer_id": "01119",
+          "horse_detail": "エイシンスパニエル 牝2/456(0)",
+          "jockey_weight": "M.ミシェル 55.0"
+        },
+        {
+          "race_id": "2605040505",
+          "horse_id": "2024103819",
+          "horse_number": 8,
+          "finish_text": "5",
+          "jockey_id": "01214",
+          "trainer_id": "01202",
+          "horse_detail": "プルケル 牝2/452(0)",
+          "jockey_weight": "長浜 鴻緒 ☆54.0"
+        },
+        {
+          "race_id": "2605040505",
+          "horse_id": "2024103653",
+          "horse_number": 9,
+          "finish_text": "7",
+          "jockey_id": "01009",
+          "trainer_id": "00423",
+          "horse_detail": "コスモオルト 牝2/418(0)",
+          "jockey_weight": "柴田 大知 55.0"
+        },
+        {
+          "race_id": "2605040505",
+          "horse_id": "2024106156",
+          "horse_number": 10,
+          "finish_text": "3",
+          "jockey_id": "01160",
+          "trainer_id": "01192",
+          "horse_detail": "サントシャペル 牝2/454(0)",
+          "jockey_weight": "荻野 極 55.0"
+        },
+        {
+          "race_id": "2605040505",
+          "horse_id": "2024105353",
+          "horse_number": 11,
+          "finish_text": "8",
+          "jockey_id": "01077",
+          "trainer_id": "01080",
+          "horse_detail": "ケイツーラリ 牝2/418(0)",
+          "jockey_weight": "石橋 脩 55.0"
+        },
+        {
+          "race_id": "2605040505",
+          "horse_id": "2024105305",
+          "horse_number": 12,
+          "finish_text": "1",
+          "jockey_id": "01140",
+          "trainer_id": "01145",
+          "horse_detail": "スパリエーラ 牝2/466(0)",
+          "jockey_weight": "横山 和生 55.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2605040506",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605040506",
+      "retrieved_at": "2026-10-12T23:55:02.253549+00:00",
+      "page_sha256": "de163c8907fac93dab32e18925ad42f45eb2396b5af664f7427907c6ae2c3a9e",
+      "rows": [
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024101279",
+          "horse_number": 1,
+          "finish_text": "7",
+          "jockey_id": "01162",
+          "trainer_id": "01106",
+          "horse_detail": "アルタイルテソーロ 牡2/492(0)",
+          "jockey_weight": "木幡 巧也 56.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024102377",
+          "horse_number": 2,
+          "finish_text": "10",
+          "jockey_id": "05586",
+          "trainer_id": "01167",
+          "horse_detail": "クシャナーダ 牝2/452(0)",
+          "jockey_weight": "M.ミシェル 55.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024105070",
+          "horse_number": 3,
+          "finish_text": "15",
+          "jockey_id": "01109",
+          "trainer_id": "01179",
+          "horse_detail": "ヒミツヘイキ 牡2/472(0)",
+          "jockey_weight": "黛 弘人 56.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024100974",
+          "horse_number": 4,
+          "finish_text": "12",
+          "jockey_id": "01129",
+          "trainer_id": "01131",
+          "horse_detail": "デルマモガミ 牝2/484(0)",
+          "jockey_weight": "菅原 隆一 55.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024102662",
+          "horse_number": 5,
+          "finish_text": "8",
+          "jockey_id": "01077",
+          "trainer_id": "01080",
+          "horse_detail": "ツジベン 牝2/466(0)",
+          "jockey_weight": "石橋 脩 55.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024100041",
+          "horse_number": 6,
+          "finish_text": "5",
+          "jockey_id": "01085",
+          "trainer_id": "01191",
+          "horse_detail": "マオスカイシー 牡2/530(0)",
+          "jockey_weight": "松岡 正海 56.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024107277",
+          "horse_number": 7,
+          "finish_text": "6",
+          "jockey_id": "01140",
+          "trainer_id": "01115",
+          "horse_detail": "マインドブレイズ 牡2/478(0)",
+          "jockey_weight": "横山 和生 56.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024103403",
+          "horse_number": 8,
+          "finish_text": "14",
+          "jockey_id": "01153",
+          "trainer_id": "01152",
+          "horse_detail": "パーレンチャン 牝2/490(0)",
+          "jockey_weight": "木幡 初也 55.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024103854",
+          "horse_number": 9,
+          "finish_text": "11",
+          "jockey_id": "01207",
+          "trainer_id": "01023",
+          "horse_detail": "ニシノイッセン 牡2/508(0)",
+          "jockey_weight": "佐藤 翔馬 ▲53.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024106112",
+          "horse_number": 10,
+          "finish_text": "3",
+          "jockey_id": "01209",
+          "trainer_id": "01147",
+          "horse_detail": "ワイドカリオン 牡2/440(0)",
+          "jockey_weight": "石神 深道 △54.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024101332",
+          "horse_number": 11,
+          "finish_text": "4",
+          "jockey_id": "01203",
+          "trainer_id": "01116",
+          "horse_detail": "シュトラールモルン 牝2/432(0)",
+          "jockey_weight": "石田 拓郎 △53.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024104656",
+          "horse_number": 12,
+          "finish_text": "13",
+          "jockey_id": "01218",
+          "trainer_id": "01090",
+          "horse_detail": "ドンドキリシマ 牝2/426(0)",
+          "jockey_weight": "遠藤 汰月 ▲52.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024104998",
+          "horse_number": 13,
+          "finish_text": "9",
+          "jockey_id": "01158",
+          "trainer_id": "01063",
+          "horse_detail": "カンタベリーアップ 牝2/438(0)",
+          "jockey_weight": "野中 悠太郎 55.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024101608",
+          "horse_number": 14,
+          "finish_text": "2",
+          "jockey_id": "01091",
+          "trainer_id": "01141",
+          "horse_detail": "サノノソルジャー 牡2/480(0)",
+          "jockey_weight": "丹内 祐次 56.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024102842",
+          "horse_number": 15,
+          "finish_text": "16",
+          "jockey_id": "01134",
+          "trainer_id": "01131",
+          "horse_detail": "ティキタカ 牡2/528(0)",
+          "jockey_weight": "嶋田 純次 56.0"
+        },
+        {
+          "race_id": "2605040506",
+          "horse_id": "2024105078",
+          "horse_number": 16,
+          "finish_text": "1",
+          "jockey_id": "01183",
+          "trainer_id": "01052",
+          "horse_detail": "グラスラリー 牡2/466(0)",
+          "jockey_weight": "小林 脩斗 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2605040507",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605040507",
+      "retrieved_at": "2026-10-12T23:55:08.124523+00:00",
+      "page_sha256": "4c949ae746984047bc086fd6d784167a15f30ab225e7b9d05c71101e998c3510",
+      "rows": [
+        {
+          "race_id": "2605040507",
+          "horse_id": "2023101644",
+          "horse_number": 1,
+          "finish_text": "6",
+          "jockey_id": "01209",
+          "trainer_id": "01008",
+          "horse_detail": "オルブライト 牡3/496(+12)/B",
+          "jockey_weight": "石神 深道 △54.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2022106359",
+          "horse_number": 2,
+          "finish_text": "16",
+          "jockey_id": "01077",
+          "trainer_id": "01106",
+          "horse_detail": "ラントレイル 牡4/472(+2)/B",
+          "jockey_weight": "石橋 脩 58.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2022103321",
+          "horse_number": 3,
+          "finish_text": "15",
+          "jockey_id": "00689",
+          "trainer_id": "01074",
+          "horse_detail": "ベンメリア せん4/508(+10)",
+          "jockey_weight": "江田 照男 58.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2022105448",
+          "horse_number": 4,
+          "finish_text": "7",
+          "jockey_id": "01158",
+          "trainer_id": "01207",
+          "horse_detail": "エマージェンス 牡4/520(+3)",
+          "jockey_weight": "野中 悠太郎 58.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2021104155",
+          "horse_number": 5,
+          "finish_text": "10",
+          "jockey_id": "01161",
+          "trainer_id": "01222",
+          "horse_detail": "サトノリアン 牡5/464(-4)/B",
+          "jockey_weight": "菊沢 一樹 58.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2023100332",
+          "horse_number": 6,
+          "finish_text": "11",
+          "jockey_id": "01135",
+          "trainer_id": "01153",
+          "horse_detail": "アスパラゴ 牝3/472(+4)",
+          "jockey_weight": "杉原 誠人 54.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2021100884",
+          "horse_number": 7,
+          "finish_text": "12",
+          "jockey_id": "01214",
+          "trainer_id": "01119",
+          "horse_detail": "タケルゴールド 牡5/462(0)",
+          "jockey_weight": "長浜 鴻緒 ☆57.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2022106199",
+          "horse_number": 8,
+          "finish_text": "13",
+          "jockey_id": "05203",
+          "trainer_id": "01182",
+          "horse_detail": "タマモトリノ 牡4/508(+4)",
+          "jockey_weight": "岩田 康誠 58.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2023106177",
+          "horse_number": 9,
+          "finish_text": "14",
+          "jockey_id": "00422",
+          "trainer_id": "01115",
+          "horse_detail": "エクセルクラウン 牡3/484(0)",
+          "jockey_weight": "内田 博幸 56.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2023104958",
+          "horse_number": 10,
+          "finish_text": "2",
+          "jockey_id": "01162",
+          "trainer_id": "01108",
+          "horse_detail": "ターフクリスタル 牡3/462(-2)/B",
+          "jockey_weight": "木幡 巧也 56.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2019103219",
+          "horse_number": 11,
+          "finish_text": "3",
+          "jockey_id": "01109",
+          "trainer_id": "01201",
+          "horse_detail": "ブレイクザアイス せん7/464(+2)/B",
+          "jockey_weight": "黛 弘人 58.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2022100485",
+          "horse_number": 12,
+          "finish_text": "8",
+          "jockey_id": "01143",
+          "trainer_id": "01189",
+          "horse_detail": "スーパーホース せん4/494(+8)",
+          "jockey_weight": "原田 和真 58.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2023106981",
+          "horse_number": 13,
+          "finish_text": "1",
+          "jockey_id": "05339",
+          "trainer_id": "01153",
+          "horse_detail": "ウィロークリーク 牡3/476(-16)/B",
+          "jockey_weight": "C.ルメール 56.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2022102991",
+          "horse_number": 14,
+          "finish_text": "5",
+          "jockey_id": "01009",
+          "trainer_id": "01143",
+          "horse_detail": "カイトヴィント 牡4/496(+4)/B",
+          "jockey_weight": "柴田 大知 58.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2023101301",
+          "horse_number": 15,
+          "finish_text": "4",
+          "jockey_id": "01091",
+          "trainer_id": "01023",
+          "horse_detail": "クアッドフォルツァ 牡3/474(+2)/B",
+          "jockey_weight": "丹内 祐次 56.0"
+        },
+        {
+          "race_id": "2605040507",
+          "horse_id": "2023101087",
+          "horse_number": 16,
+          "finish_text": "9",
+          "jockey_id": "01203",
+          "trainer_id": "01182",
+          "horse_detail": "ベストブラザーズ 牡3/492(-2)",
+          "jockey_weight": "石田 拓郎 △54.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2605040508",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605040508",
+      "retrieved_at": "2026-10-12T23:55:14.000804+00:00",
+      "page_sha256": "207beb78de09532af064c7f5216563faaf4bfc117a0521cd77ab8e0bb59f5b5f",
+      "rows": [
+        {
+          "race_id": "2605040508",
+          "horse_id": "2024106872",
+          "horse_number": 1,
+          "finish_text": "3",
+          "jockey_id": "01140",
+          "trainer_id": "01177",
+          "horse_detail": "レガメデルヴェント 牡2/508(+6)",
+          "jockey_weight": "横山 和生 56.0"
+        },
+        {
+          "race_id": "2605040508",
+          "horse_id": "2024100431",
+          "horse_number": 2,
+          "finish_text": "2",
+          "jockey_id": "01153",
+          "trainer_id": "01152",
+          "horse_detail": "ユイノリュウギ 牡2/444(+2)",
+          "jockey_weight": "木幡 初也 56.0"
+        },
+        {
+          "race_id": "2605040508",
+          "horse_id": "2024106566",
+          "horse_number": 3,
+          "finish_text": "6",
+          "jockey_id": "01209",
+          "trainer_id": "01147",
+          "horse_detail": "ハイネスプラウド 牡2/438(-8)",
+          "jockey_weight": "石神 深道 56.0"
+        },
+        {
+          "race_id": "2605040508",
+          "horse_id": "2024108321",
+          "horse_number": 4,
+          "finish_text": "4",
+          "jockey_id": "01160",
+          "trainer_id": "00427",
+          "horse_detail": "リーチツモドライチ 牡2/510(+4)",
+          "jockey_weight": "荻野 極 56.0"
+        },
+        {
+          "race_id": "2605040508",
+          "horse_id": "2024106106",
+          "horse_number": 5,
+          "finish_text": "1",
+          "jockey_id": "05339",
+          "trainer_id": "01162",
+          "horse_detail": "ウィンターブリーズ 牡2/480(-2)",
+          "jockey_weight": "C.ルメール 56.0"
+        },
+        {
+          "race_id": "2605040508",
+          "horse_id": "2024105474",
+          "horse_number": 6,
+          "finish_text": "5",
+          "jockey_id": "00422",
+          "trainer_id": "01174",
+          "horse_detail": "ユイノヘラクレス 牡2/446(-6)",
+          "jockey_weight": "内田 博幸 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2605040509",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605040509",
+      "retrieved_at": "2026-10-12T23:55:19.716851+00:00",
+      "page_sha256": "919e3b288d4641df58c4f61798c5f0bae8e3259e1646550c1b6444215b41d1df",
+      "rows": [
+        {
+          "race_id": "2605040509",
+          "horse_id": "2021107279",
+          "horse_number": 1,
+          "finish_text": "14",
+          "jockey_id": "01183",
+          "trainer_id": "01068",
+          "horse_detail": "トクシージェネラル 牡5/522(-2)",
+          "jockey_weight": "小林 脩斗 58.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2023105345",
+          "horse_number": 2,
+          "finish_text": "13",
+          "jockey_id": "01160",
+          "trainer_id": "01163",
+          "horse_detail": "ルージュダリア 牝3/468(+4)",
+          "jockey_weight": "荻野 極 54.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2022101908",
+          "horse_number": 3,
+          "finish_text": "10",
+          "jockey_id": "01122",
+          "trainer_id": "01112",
+          "horse_detail": "イズルード 牡4/486(+2)",
+          "jockey_weight": "三浦 皇成 58.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2023103917",
+          "horse_number": 4,
+          "finish_text": "3",
+          "jockey_id": "01135",
+          "trainer_id": "01201",
+          "horse_detail": "タイセイアストロ 牡3/454(0)",
+          "jockey_weight": "杉原 誠人 56.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2023102694",
+          "horse_number": 5,
+          "finish_text": "9",
+          "jockey_id": "01214",
+          "trainer_id": "01191",
+          "horse_detail": "トワニ 牝3/432(+8)",
+          "jockey_weight": "長浜 鴻緒 ☆53.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2023105811",
+          "horse_number": 6,
+          "finish_text": "12",
+          "jockey_id": "01161",
+          "trainer_id": "01167",
+          "horse_detail": "ハニーオーケストラ 牝3/444(0)",
+          "jockey_weight": "菊沢 一樹 54.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2022104533",
+          "horse_number": 7,
+          "finish_text": "8",
+          "jockey_id": "00689",
+          "trainer_id": "01035",
+          "horse_detail": "チョングク 牡4/502(+16)",
+          "jockey_weight": "江田 照男 58.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2023107014",
+          "horse_number": 8,
+          "finish_text": "1",
+          "jockey_id": "05339",
+          "trainer_id": "01162",
+          "horse_detail": "サレジオ 牡3/512(+2)",
+          "jockey_weight": "C.ルメール 56.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2023103820",
+          "horse_number": 9,
+          "finish_text": "11",
+          "jockey_id": "01091",
+          "trainer_id": "01187",
+          "horse_detail": "ターンザテーブルス 牝3/426(-2)",
+          "jockey_weight": "丹内 祐次 54.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2023103413",
+          "horse_number": 10,
+          "finish_text": "5",
+          "jockey_id": "05586",
+          "trainer_id": "01133",
+          "horse_detail": "マツリダイコ 牝3/430(0)",
+          "jockey_weight": "M.ミシェル 54.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2023100776",
+          "horse_number": 11,
+          "finish_text": "6",
+          "jockey_id": "01117",
+          "trainer_id": "01169",
+          "horse_detail": "シャオママル 牡3/450(+2)",
+          "jockey_weight": "丸田 恭介 56.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2023105239",
+          "horse_number": 12,
+          "finish_text": "4",
+          "jockey_id": "01115",
+          "trainer_id": "01059",
+          "horse_detail": "ゴバド 牝3/432(+2)",
+          "jockey_weight": "浜中 俊 54.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2022105010",
+          "horse_number": 13,
+          "finish_text": "2",
+          "jockey_id": "01162",
+          "trainer_id": "01213",
+          "horse_detail": "ヴァイスクレー 牝4/444(+5)",
+          "jockey_weight": "木幡 巧也 56.0"
+        },
+        {
+          "race_id": "2605040509",
+          "horse_id": "2022102961",
+          "horse_number": 14,
+          "finish_text": "7",
+          "jockey_id": "05203",
+          "trainer_id": "01054",
+          "horse_detail": "シックスパック 牡4/470(+4)/B",
+          "jockey_weight": "岩田 康誠 58.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2605040510",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605040510",
+      "retrieved_at": "2026-10-12T23:55:25.207244+00:00",
+      "page_sha256": "2583deb49bde7d7460e6f570c803770a220bd1f95ff727e9ae51e1e5eddd7dd5",
+      "rows": [
+        {
+          "race_id": "2605040510",
+          "horse_id": "2023107278",
+          "horse_number": 1,
+          "finish_text": "2",
+          "jockey_id": "01140",
+          "trainer_id": "01092",
+          "horse_detail": "バドリナート 牡3/490(-6)",
+          "jockey_weight": "横山 和生 55.0"
+        },
+        {
+          "race_id": "2605040510",
+          "horse_id": "2022105801",
+          "horse_number": 2,
+          "finish_text": "7",
+          "jockey_id": "01122",
+          "trainer_id": "01145",
+          "horse_detail": "ショウナンサムデイ 牝4/442(0)",
+          "jockey_weight": "三浦 皇成 56.0"
+        },
+        {
+          "race_id": "2605040510",
+          "horse_id": "2021105453",
+          "horse_number": 3,
+          "finish_text": "10",
+          "jockey_id": "00689",
+          "trainer_id": "01191",
+          "horse_detail": "エラン 牡5/470(+4)",
+          "jockey_weight": "江田 照男 58.0"
+        },
+        {
+          "race_id": "2605040510",
+          "horse_id": "2022104859",
+          "horse_number": 4,
+          "finish_text": "9",
+          "jockey_id": "01160",
+          "trainer_id": "01177",
+          "horse_detail": "プレシャスデイ 牡4/504(+2)",
+          "jockey_weight": "荻野 極 58.0"
+        },
+        {
+          "race_id": "2605040510",
+          "horse_id": "2021105247",
+          "horse_number": 5,
+          "finish_text": "8",
+          "jockey_id": "05203",
+          "trainer_id": "01164",
+          "horse_detail": "オメガナビゲーター せん5/488(-8)",
+          "jockey_weight": "岩田 康誠 58.0"
+        },
+        {
+          "race_id": "2605040510",
+          "horse_id": "2021105352",
+          "horse_number": 6,
+          "finish_text": "6",
+          "jockey_id": "01169",
+          "trainer_id": "01167",
+          "horse_detail": "ベンサレム 牡5/498(-2)",
+          "jockey_weight": "武藤 雅 58.0"
+        },
+        {
+          "race_id": "2605040510",
+          "horse_id": "2021102577",
+          "horse_number": 7,
+          "finish_text": "4",
+          "jockey_id": "00422",
+          "trainer_id": "01079",
+          "horse_detail": "バレンタインガール 牝5/490(+12)",
+          "jockey_weight": "内田 博幸 56.0"
+        },
+        {
+          "race_id": "2605040510",
+          "horse_id": "2022104845",
+          "horse_number": 8,
+          "finish_text": "5",
+          "jockey_id": "00733",
+          "trainer_id": "01075",
+          "horse_detail": "ホウオウアートマン 牡4/472(-10)",
+          "jockey_weight": "吉田 豊 58.0"
+        },
+        {
+          "race_id": "2605040510",
+          "horse_id": "2022101227",
+          "horse_number": 9,
+          "finish_text": "11",
+          "jockey_id": "01085",
+          "trainer_id": "01190",
+          "horse_detail": "ヴォンフレ 牝4/492(+12)",
+          "jockey_weight": "松岡 正海 56.0"
+        },
+        {
+          "race_id": "2605040510",
+          "horse_id": "2022100619",
+          "horse_number": 10,
+          "finish_text": "3",
+          "jockey_id": "01091",
+          "trainer_id": "01062",
+          "horse_detail": "ロードガレリア 牡4/448(-6)",
+          "jockey_weight": "丹内 祐次 58.0"
+        },
+        {
+          "race_id": "2605040510",
+          "horse_id": "2022105466",
+          "horse_number": 11,
+          "finish_text": "1",
+          "jockey_id": "05339",
+          "trainer_id": "01102",
+          "horse_detail": "レッドバンデ 牡4/496(+16)",
+          "jockey_weight": "C.ルメール 58.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2605040511",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605040511",
+      "retrieved_at": "2026-10-12T23:55:30.862730+00:00",
+      "page_sha256": "deae05bafefdc352c4ca628e7a02d904ed8909327e7e4d36b47225ff66de9e64",
+      "rows": [
+        {
+          "race_id": "2605040511",
+          "horse_id": "2023102039",
+          "horse_number": 1,
+          "finish_text": "4",
+          "jockey_id": "01091",
+          "trainer_id": "01113",
+          "horse_detail": "メイショウハチコウ 牡3/514(+2)",
+          "jockey_weight": "丹内 祐次 54.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2022105202",
+          "horse_number": 2,
+          "finish_text": "1",
+          "jockey_id": "05203",
+          "trainer_id": "01203",
+          "horse_detail": "アスクセクシーモア 牡4/486(+6)",
+          "jockey_weight": "岩田 康誠 55.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2020100254",
+          "horse_number": 3,
+          "finish_text": "11",
+          "jockey_id": "00422",
+          "trainer_id": "00423",
+          "horse_detail": "ニシノレヴナント せん6/482(0)",
+          "jockey_weight": "内田 博幸 56.5"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2022104812",
+          "horse_number": 4,
+          "finish_text": "15",
+          "jockey_id": "01085",
+          "trainer_id": "01112",
+          "horse_detail": "テリオスララ 牝4/532(+24)",
+          "jockey_weight": "松岡 正海 53.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2019104658",
+          "horse_number": 5,
+          "finish_text": "9",
+          "jockey_id": "01162",
+          "trainer_id": "01106",
+          "horse_detail": "ボーンディスウェイ 牡7/496(+6)/B",
+          "jockey_weight": "木幡 巧也 56.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2020102870",
+          "horse_number": 6,
+          "finish_text": "7",
+          "jockey_id": "01214",
+          "trainer_id": "01099",
+          "horse_detail": "ブレイヴロッカー せん6/448(-8)",
+          "jockey_weight": "長浜 鴻緒 56.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2020105424",
+          "horse_number": 7,
+          "finish_text": "10",
+          "jockey_id": "01203",
+          "trainer_id": "01116",
+          "horse_detail": "シルトホルン 牡6/482(+2)",
+          "jockey_weight": "石田 拓郎 57.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2018101348",
+          "horse_number": 8,
+          "finish_text": "12",
+          "jockey_id": "01169",
+          "trainer_id": "01220",
+          "horse_detail": "シルブロン せん8/484(-28)",
+          "jockey_weight": "武藤 雅 55.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2021104324",
+          "horse_number": 9,
+          "finish_text": "5",
+          "jockey_id": "01161",
+          "trainer_id": "01080",
+          "horse_detail": "ディマイザキッド 牡5/464(-4)",
+          "jockey_weight": "菊沢 一樹 56.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2019105118",
+          "horse_number": 10,
+          "finish_text": "3",
+          "jockey_id": "01135",
+          "trainer_id": "01061",
+          "horse_detail": "ジュンブロッサム 牡7/474(+2)",
+          "jockey_weight": "杉原 誠人 57.5"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2019102628",
+          "horse_number": 11,
+          "finish_text": "18",
+          "jockey_id": "01158",
+          "trainer_id": "01199",
+          "horse_detail": "セイウンプラチナ 牡7/496(-4)",
+          "jockey_weight": "野中 悠太郎 53.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2022104813",
+          "horse_number": 12,
+          "finish_text": "17",
+          "jockey_id": "01160",
+          "trainer_id": "01075",
+          "horse_detail": "ジュタ 牡4/506(-10)",
+          "jockey_weight": "荻野 極 56.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2021102895",
+          "horse_number": 13,
+          "finish_text": "13",
+          "jockey_id": "01140",
+          "trainer_id": "01173",
+          "horse_detail": "ナムラエイハブ 牡5/508(-2)",
+          "jockey_weight": "横山 和生 56.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2020106234",
+          "horse_number": 14,
+          "finish_text": "16",
+          "jockey_id": "00733",
+          "trainer_id": "01112",
+          "horse_detail": "グランドカリナン 牡6/458(-2)/B",
+          "jockey_weight": "吉田 豊 54.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2021104791",
+          "horse_number": 15,
+          "finish_text": "6",
+          "jockey_id": "01077",
+          "trainer_id": "01061",
+          "horse_detail": "メリオーレム 牡5/498(0)",
+          "jockey_weight": "石橋 脩 55.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2022104765",
+          "horse_number": 16,
+          "finish_text": "2",
+          "jockey_id": "01122",
+          "trainer_id": "01071",
+          "horse_detail": "ミッキーゴールド せん4/492(+4)",
+          "jockey_weight": "三浦 皇成 55.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2021106782",
+          "horse_number": 17,
+          "finish_text": "8",
+          "jockey_id": "01009",
+          "trainer_id": "01125",
+          "horse_detail": "コスモブッドレア 牡5/492(+6)",
+          "jockey_weight": "柴田 大知 53.0"
+        },
+        {
+          "race_id": "2605040511",
+          "horse_id": "2019104711",
+          "horse_number": 18,
+          "finish_text": "14",
+          "jockey_id": "01115",
+          "trainer_id": "01059",
+          "horse_detail": "トーセンリョウ 牡7/450(-10)",
+          "jockey_weight": "浜中 俊 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2605040512",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605040512",
+      "retrieved_at": "2026-10-12T23:55:36.695583+00:00",
+      "page_sha256": "f2817e142470716c54ffc87657a4bc39272f87cbc1afef4cab9d47b20e37ab33",
+      "rows": [
+        {
+          "race_id": "2605040512",
+          "horse_id": "2022107272",
+          "horse_number": 1,
+          "finish_text": "15",
+          "jockey_id": "01162",
+          "trainer_id": "01106",
+          "horse_detail": "ピコレッド 牡4/540(+8)/B",
+          "jockey_weight": "木幡 巧也 58.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2023107400",
+          "horse_number": 2,
+          "finish_text": "5",
+          "jockey_id": "01122",
+          "trainer_id": "01150",
+          "horse_detail": "ベアハンドキャッチ 牡3/494(-8)",
+          "jockey_weight": "三浦 皇成 57.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2023101656",
+          "horse_number": 3,
+          "finish_text": "6",
+          "jockey_id": "01161",
+          "trainer_id": "01156",
+          "horse_detail": "キイチムーブメント せん3/476(+8)",
+          "jockey_weight": "菊沢 一樹 57.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2023103320",
+          "horse_number": 4,
+          "finish_text": "12",
+          "jockey_id": "01207",
+          "trainer_id": "01023",
+          "horse_detail": "ヴェネチアンキング 牡3/514(-8)/B",
+          "jockey_weight": "佐藤 翔馬 ▲54.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2023100626",
+          "horse_number": 5,
+          "finish_text": "16",
+          "jockey_id": "01134",
+          "trainer_id": "01038",
+          "horse_detail": "マルターズドン 牡3/480(-14)",
+          "jockey_weight": "嶋田 純次 57.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2023100533",
+          "horse_number": 6,
+          "finish_text": "9",
+          "jockey_id": "00422",
+          "trainer_id": "01079",
+          "horse_detail": "タイセイブルーム 牡3/494(+2)",
+          "jockey_weight": "内田 博幸 57.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2023106577",
+          "horse_number": 7,
+          "finish_text": "8",
+          "jockey_id": "01153",
+          "trainer_id": "01152",
+          "horse_detail": "ユイノカタリベ 牡3/514(+6)",
+          "jockey_weight": "木幡 初也 57.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2023102171",
+          "horse_number": 8,
+          "finish_text": "7",
+          "jockey_id": "01140",
+          "trainer_id": "01199",
+          "horse_detail": "ロードトライデント 牡3/482(0)/B",
+          "jockey_weight": "横山 和生 57.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2023101495",
+          "horse_number": 9,
+          "finish_text": "2",
+          "jockey_id": "01091",
+          "trainer_id": "01169",
+          "horse_detail": "アヴァランチ 牡3/468(0)/B",
+          "jockey_weight": "丹内 祐次 57.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2022101114",
+          "horse_number": 10,
+          "finish_text": "14",
+          "jockey_id": "01085",
+          "trainer_id": "01063",
+          "horse_detail": "アイファージェット 牡4/502(-10)",
+          "jockey_weight": "松岡 正海 58.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2022105459",
+          "horse_number": 11,
+          "finish_text": "1",
+          "jockey_id": "01135",
+          "trainer_id": "01116",
+          "horse_detail": "エテオクロス 牡4/520(-10)",
+          "jockey_weight": "杉原 誠人 58.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2020104936",
+          "horse_number": 12,
+          "finish_text": "11",
+          "jockey_id": "01158",
+          "trainer_id": "01165",
+          "horse_detail": "カサブランカキッド 牡6/522(+8)",
+          "jockey_weight": "野中 悠太郎 58.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2023106626",
+          "horse_number": 13,
+          "finish_text": "3",
+          "jockey_id": "01218",
+          "trainer_id": "01031",
+          "horse_detail": "ノボリフジ 牡3/474(+4)",
+          "jockey_weight": "遠藤 汰月 ▲54.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2021106361",
+          "horse_number": 14,
+          "finish_text": "10",
+          "jockey_id": "01077",
+          "trainer_id": "01106",
+          "horse_detail": "ボナーテソーロ 牡5/474(-2)/B",
+          "jockey_weight": "石橋 脩 58.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2023101146",
+          "horse_number": 15,
+          "finish_text": "4",
+          "jockey_id": "01160",
+          "trainer_id": "01051",
+          "horse_detail": "アンプイットアップ 牡3/500(+6)",
+          "jockey_weight": "荻野 極 57.0"
+        },
+        {
+          "race_id": "2605040512",
+          "horse_id": "2019106938",
+          "horse_number": 16,
+          "finish_text": "13",
+          "jockey_id": "01183",
+          "trainer_id": "01074",
+          "horse_detail": "ブエナディオサ 牝7/464(+12)/B",
+          "jockey_weight": "小林 脩斗 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2608040501",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040501",
+      "retrieved_at": "2026-10-12T23:55:48.582057+00:00",
+      "page_sha256": "09b701d52839a78eab94343ee49aad58effb72369b88d87e3fea0fa4affc46c8",
+      "rows": [
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024102335",
+          "horse_number": 1,
+          "finish_text": "8",
+          "jockey_id": "01126",
+          "trainer_id": "01111",
+          "horse_detail": "ナイスウーマン 牝2/412(+8)",
+          "jockey_weight": "松山 弘平 55.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024104245",
+          "horse_number": 2,
+          "finish_text": "11",
+          "jockey_id": "01204",
+          "trainer_id": "01099",
+          "horse_detail": "ツーエムマドンナ 牝2/462(-2)",
+          "jockey_weight": "河原田 菜々 ★51.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024104742",
+          "horse_number": 3,
+          "finish_text": "12",
+          "jockey_id": "01102",
+          "trainer_id": "01216",
+          "horse_detail": "ワインオクロック 牝2/446(-4)",
+          "jockey_weight": "北村 友一 55.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024100838",
+          "horse_number": 4,
+          "finish_text": "6",
+          "jockey_id": "01186",
+          "trainer_id": "01121",
+          "horse_detail": "スマートライナー 牝2/410(-2)",
+          "jockey_weight": "角田 大和 55.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024100762",
+          "horse_number": 5,
+          "finish_text": "15",
+          "jockey_id": "01208",
+          "trainer_id": "01073",
+          "horse_detail": "ウインクローバー 牝2/450(+2)",
+          "jockey_weight": "田口 貫太 55.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024105431",
+          "horse_number": 6,
+          "finish_text": "7",
+          "jockey_id": "01220",
+          "trainer_id": "01172",
+          "horse_detail": "シャプシュ 牝2/428(-6)",
+          "jockey_weight": "田山 旺佑 ☆54.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024107426",
+          "horse_number": 7,
+          "finish_text": "14",
+          "jockey_id": "01187",
+          "trainer_id": "01135",
+          "horse_detail": "セイフェリーチェ 牝2/452(+6)",
+          "jockey_weight": "永島 まなみ ◇53.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024105100",
+          "horse_number": 8,
+          "finish_text": "2",
+          "jockey_id": "01170",
+          "trainer_id": "01210",
+          "horse_detail": "サノノマリーナ 牝2/454(+2)",
+          "jockey_weight": "横山 武史 55.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024104733",
+          "horse_number": 9,
+          "finish_text": "9",
+          "jockey_id": "01034",
+          "trainer_id": "01117",
+          "horse_detail": "オンアロール 牝2/450(-6)",
+          "jockey_weight": "酒井 学 55.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024100009",
+          "horse_number": 10,
+          "finish_text": "3",
+          "jockey_id": "01222",
+          "trainer_id": "00431",
+          "horse_detail": "クリコキアナ 牝2/444(0)",
+          "jockey_weight": "森田 誠也 ▲52.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024105051",
+          "horse_number": 11,
+          "finish_text": "10",
+          "jockey_id": "01193",
+          "trainer_id": "01099",
+          "horse_detail": "ルイスイメル 牝2/426(-6)",
+          "jockey_weight": "今村 聖奈 ◇53.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024106740",
+          "horse_number": 12,
+          "finish_text": "4",
+          "jockey_id": "01171",
+          "trainer_id": "01170",
+          "horse_detail": "ファーストステイト 牝2/446(-4)/B",
+          "jockey_weight": "西村 淳也 55.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024102756",
+          "horse_number": 13,
+          "finish_text": "5",
+          "jockey_id": "01176",
+          "trainer_id": "01159",
+          "horse_detail": "ヴァニーユ 牝2/442(0)",
+          "jockey_weight": "亀田 温心 55.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024104298",
+          "horse_number": 14,
+          "finish_text": "1",
+          "jockey_id": "01163",
+          "trainer_id": "01129",
+          "horse_detail": "パストザクラウン 牝2/452(+2)",
+          "jockey_weight": "坂井 瑠星 55.0"
+        },
+        {
+          "race_id": "2608040501",
+          "horse_id": "2024105104",
+          "horse_number": 15,
+          "finish_text": "13",
+          "jockey_id": "01213",
+          "trainer_id": "01101",
+          "horse_detail": "ペンタクルクイーン 牝2/436(-6)",
+          "jockey_weight": "高杉 吏麒 55.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2608040502",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040502",
+      "retrieved_at": "2026-10-12T23:55:54.378673+00:00",
+      "page_sha256": "7daff9ea8eef834a9b5491b61befff3026ba66b7de7b7367e235a905257d12b2",
+      "rows": [
+        {
+          "race_id": "2608040502",
+          "horse_id": "2024105295",
+          "horse_number": 1,
+          "finish_text": "11",
+          "jockey_id": "01141",
+          "trainer_id": "01186",
+          "horse_detail": "アテンド 牝2/484(+8)",
+          "jockey_weight": "中井 裕二 55.0"
+        },
+        {
+          "race_id": "2608040502",
+          "horse_id": "2024101204",
+          "horse_number": 2,
+          "finish_text": "5",
+          "jockey_id": "01212",
+          "trainer_id": "01091",
+          "horse_detail": "サンライズブレイド 牡2/458(0)",
+          "jockey_weight": "柴田 裕一郎 △54.0"
+        },
+        {
+          "race_id": "2608040502",
+          "horse_id": "2024101947",
+          "horse_number": 3,
+          "finish_text": "7",
+          "jockey_id": "01220",
+          "trainer_id": "01155",
+          "horse_detail": "アントラヴァースト 牡2/474(+8)",
+          "jockey_weight": "田山 旺佑 ☆55.0"
+        },
+        {
+          "race_id": "2608040502",
+          "horse_id": "2024103401",
+          "horse_number": 4,
+          "finish_text": "4",
+          "jockey_id": "01138",
+          "trainer_id": "01082",
+          "horse_detail": "ケイアイトリノ 牡2/504(-2)",
+          "jockey_weight": "藤懸 貴志 56.0"
+        },
+        {
+          "race_id": "2608040502",
+          "horse_id": "2024101216",
+          "horse_number": 5,
+          "finish_text": "10",
+          "jockey_id": "01185",
+          "trainer_id": "01138",
+          "horse_detail": "テーオーライガ 牡2/486(-2)",
+          "jockey_weight": "小沢 大仁 56.0"
+        },
+        {
+          "race_id": "2608040502",
+          "horse_id": "2024103510",
+          "horse_number": 6,
+          "finish_text": "3",
+          "jockey_id": "01186",
+          "trainer_id": "01039",
+          "horse_detail": "カフジカニステル 牡2/440(+2)",
+          "jockey_weight": "角田 大和 56.0"
+        },
+        {
+          "race_id": "2608040502",
+          "horse_id": "2024105611",
+          "horse_number": 7,
+          "finish_text": "8",
+          "jockey_id": "01204",
+          "trainer_id": "01120",
+          "horse_detail": "メイショウペルル 牡2/460(+14)",
+          "jockey_weight": "河原田 菜々 ★52.0"
+        },
+        {
+          "race_id": "2608040502",
+          "horse_id": "2024105551",
+          "horse_number": 8,
+          "finish_text": "6",
+          "jockey_id": "05690",
+          "trainer_id": "01215",
+          "horse_detail": "ベヒル せん2/426(+2)",
+          "jockey_weight": "安藤 洋一 56.0"
+        },
+        {
+          "race_id": "2608040502",
+          "horse_id": "2024100681",
+          "horse_number": 9,
+          "finish_text": "12",
+          "jockey_id": "01171",
+          "trainer_id": "01121",
+          "horse_detail": "フリーレイン 牝2/428(-4)",
+          "jockey_weight": "西村 淳也 55.0"
+        },
+        {
+          "race_id": "2608040502",
+          "horse_id": "2024106761",
+          "horse_number": 10,
+          "finish_text": "2",
+          "jockey_id": "01102",
+          "trainer_id": "01178",
+          "horse_detail": "ルボワ 牡2/520(-2)",
+          "jockey_weight": "北村 友一 56.0"
+        },
+        {
+          "race_id": "2608040502",
+          "horse_id": "2024100227",
+          "horse_number": 11,
+          "finish_text": "1",
+          "jockey_id": "01208",
+          "trainer_id": "01032",
+          "horse_detail": "ホシヲミテルンナ 牡2/490(-6)",
+          "jockey_weight": "田口 貫太 56.0"
+        },
+        {
+          "race_id": "2608040502",
+          "horse_id": "2024100551",
+          "horse_number": 12,
+          "finish_text": "9",
+          "jockey_id": "01200",
+          "trainer_id": "01061",
+          "horse_detail": "サトノステラ 牡2/474(-8)",
+          "jockey_weight": "西塚 洸二 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2608040503",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040503",
+      "retrieved_at": "2026-10-12T23:56:01.286976+00:00",
+      "page_sha256": "5fd1f655c40621ff3a4a0c176a13e17c769f7aee70203dd3a0a392ffe3bc16e4",
+      "rows": [
+        {
+          "race_id": "2608040503",
+          "horse_id": "2024101893",
+          "horse_number": 1,
+          "finish_text": "5",
+          "jockey_id": "01216",
+          "trainer_id": "01110",
+          "horse_detail": "アヴァロン 牡2/446(+2)",
+          "jockey_weight": "吉村 誠之助 56.0"
+        },
+        {
+          "race_id": "2608040503",
+          "horse_id": "2024102745",
+          "horse_number": 2,
+          "finish_text": "10",
+          "jockey_id": "00732",
+          "trainer_id": "01200",
+          "horse_detail": "ウォーターケプリ 牡2/454(-2)",
+          "jockey_weight": "幸 英明 56.0"
+        },
+        {
+          "race_id": "2608040503",
+          "horse_id": "2024108108",
+          "horse_number": 3,
+          "finish_text": "12",
+          "jockey_id": "01154",
+          "trainer_id": "01092",
+          "horse_detail": "ワッザイカ 牡2/452(+4)",
+          "jockey_weight": "松若 風馬 56.0"
+        },
+        {
+          "race_id": "2608040503",
+          "horse_id": "2024106342",
+          "horse_number": 4,
+          "finish_text": "8",
+          "jockey_id": "01092",
+          "trainer_id": "01148",
+          "horse_detail": "ムスペルヘイム 牡2/442(-2)/B",
+          "jockey_weight": "津村 明秀 56.0"
+        },
+        {
+          "race_id": "2608040503",
+          "horse_id": "2024102590",
+          "horse_number": 5,
+          "finish_text": "1",
+          "jockey_id": "01037",
+          "trainer_id": "01139",
+          "horse_detail": "メイショウスパーク 牡2/464(0)",
+          "jockey_weight": "太宰 啓介 56.0"
+        },
+        {
+          "race_id": "2608040503",
+          "horse_id": "2024105886",
+          "horse_number": 6,
+          "finish_text": "3",
+          "jockey_id": "01170",
+          "trainer_id": "01194",
+          "horse_detail": "ジャストワナフライ 牡2/450(-2)",
+          "jockey_weight": "横山 武史 56.0"
+        },
+        {
+          "race_id": "2608040503",
+          "horse_id": "2024101847",
+          "horse_number": 7,
+          "finish_text": "9",
+          "jockey_id": "05690",
+          "trainer_id": "00431",
+          "horse_detail": "ドリームリボン 牝2/450(-8)",
+          "jockey_weight": "安藤 洋一 55.0"
+        },
+        {
+          "race_id": "2608040503",
+          "horse_id": "2024103484",
+          "horse_number": 8,
+          "finish_text": "6",
+          "jockey_id": "01102",
+          "trainer_id": "01180",
+          "horse_detail": "ジョリープリュム 牝2/472(+12)",
+          "jockey_weight": "北村 友一 55.0"
+        },
+        {
+          "race_id": "2608040503",
+          "horse_id": "2024108368",
+          "horse_number": 9,
+          "finish_text": "7",
+          "jockey_id": "01220",
+          "trainer_id": "01172",
+          "horse_detail": "レクリドジョワ 牝2/444(-4)",
+          "jockey_weight": "田山 旺佑 ☆54.0"
+        },
+        {
+          "race_id": "2608040503",
+          "horse_id": "2024100673",
+          "horse_number": 10,
+          "finish_text": "4",
+          "jockey_id": "01184",
+          "trainer_id": "01205",
+          "horse_detail": "ティンタアマレラ 牡2/452(+2)",
+          "jockey_weight": "原 優介 56.0"
+        },
+        {
+          "race_id": "2608040503",
+          "horse_id": "2024108329",
+          "horse_number": 11,
+          "finish_text": "2",
+          "jockey_id": "01191",
+          "trainer_id": "00427",
+          "horse_detail": "エコログレイス 牝2/514(+4)",
+          "jockey_weight": "松本 大輝 55.0"
+        },
+        {
+          "race_id": "2608040503",
+          "horse_id": "2024103815",
+          "horse_number": 12,
+          "finish_text": "11",
+          "jockey_id": "01126",
+          "trainer_id": "01144",
+          "horse_detail": "エアロクリスタ 牡2/478(+6)",
+          "jockey_weight": "松山 弘平 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2608040504",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040504",
+      "retrieved_at": "2026-10-12T23:56:06.895313+00:00",
+      "page_sha256": "65d30e7a8345b8db1a6de4b639fd12bd667150fe6dfa5a9616c18a803f715579",
+      "rows": [
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024100776",
+          "horse_number": 1,
+          "finish_text": "13",
+          "jockey_id": "01185",
+          "trainer_id": "01128",
+          "horse_detail": "エクリプスノヴァ 牡2/498(0)",
+          "jockey_weight": "小沢 大仁 56.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024102451",
+          "horse_number": 2,
+          "finish_text": "11",
+          "jockey_id": "01204",
+          "trainer_id": "01136",
+          "horse_detail": "メイショウオパール 牡2/504(0)",
+          "jockey_weight": "河原田 菜々 ★52.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024103757",
+          "horse_number": 3,
+          "finish_text": "14",
+          "jockey_id": "01220",
+          "trainer_id": "01216",
+          "horse_detail": "コトダマスティール 牝2/446(0)",
+          "jockey_weight": "田山 旺佑 ☆54.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024106022",
+          "horse_number": 4,
+          "finish_text": "9",
+          "jockey_id": "01157",
+          "trainer_id": "01105",
+          "horse_detail": "テーオータイタン 牡2/544(0)",
+          "jockey_weight": "鮫島 克駿 56.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024108380",
+          "horse_number": 5,
+          "finish_text": "2",
+          "jockey_id": "01102",
+          "trainer_id": "01176",
+          "horse_detail": "マーゴットバサラ 牡2/552(0)",
+          "jockey_weight": "北村 友一 56.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024104043",
+          "horse_number": 6,
+          "finish_text": "15",
+          "jockey_id": "01168",
+          "trainer_id": "01173",
+          "horse_detail": "ミラクルケリー 牝2/504(0)",
+          "jockey_weight": "富田 暁 55.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024105318",
+          "horse_number": 7,
+          "finish_text": "7",
+          "jockey_id": "01154",
+          "trainer_id": "01200",
+          "horse_detail": "ロードグレイル 牡2/462(0)",
+          "jockey_weight": "松若 風馬 56.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024104680",
+          "horse_number": 8,
+          "finish_text": "8",
+          "jockey_id": "01176",
+          "trainer_id": "01078",
+          "horse_detail": "ドリームアムニス 牡2/536(0)",
+          "jockey_weight": "亀田 温心 56.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024105933",
+          "horse_number": 9,
+          "finish_text": "4",
+          "jockey_id": "01216",
+          "trainer_id": "01166",
+          "horse_detail": "サンライズサンダー 牡2/476(0)",
+          "jockey_weight": "吉村 誠之助 56.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024103085",
+          "horse_number": 10,
+          "finish_text": "12",
+          "jockey_id": "01208",
+          "trainer_id": "01193",
+          "horse_detail": "キーチジャンプ 牡2/500(0)",
+          "jockey_weight": "田口 貫太 56.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024105015",
+          "horse_number": 11,
+          "finish_text": "16",
+          "jockey_id": "05690",
+          "trainer_id": "00431",
+          "horse_detail": "ゴールドアーク 牡2/454(0)",
+          "jockey_weight": "安藤 洋一 56.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024108310",
+          "horse_number": 12,
+          "finish_text": "1",
+          "jockey_id": "01163",
+          "trainer_id": "01075",
+          "horse_detail": "アメリカンソウル 牡2/528(0)",
+          "jockey_weight": "坂井 瑠星 56.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024107387",
+          "horse_number": 13,
+          "finish_text": "3",
+          "jockey_id": "00666",
+          "trainer_id": "01121",
+          "horse_detail": "グランビート 牡2/496(0)",
+          "jockey_weight": "武 豊 56.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024101860",
+          "horse_number": 14,
+          "finish_text": "5",
+          "jockey_id": "01170",
+          "trainer_id": "01146",
+          "horse_detail": "アシュトン 牡2/484(0)",
+          "jockey_weight": "横山 武史 56.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024105975",
+          "horse_number": 15,
+          "finish_text": "10",
+          "jockey_id": "01171",
+          "trainer_id": "01110",
+          "horse_detail": "ロータスピーク 牡2/530(0)",
+          "jockey_weight": "西村 淳也 56.0"
+        },
+        {
+          "race_id": "2608040504",
+          "horse_id": "2024104667",
+          "horse_number": 16,
+          "finish_text": "6",
+          "jockey_id": "01178",
+          "trainer_id": "01181",
+          "horse_detail": "ヴィクトマインド 牡2/502(0)",
+          "jockey_weight": "斎藤 新 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2608040505",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040505",
+      "retrieved_at": "2026-10-12T23:56:12.980666+00:00",
+      "page_sha256": "9b6ad6d7b8555cd59d3f86e747c00ed72e0e8357c7ba05f8dd37b45a50c0462b",
+      "rows": [
+        {
+          "race_id": "2608040505",
+          "horse_id": "2024100879",
+          "horse_number": 1,
+          "finish_text": "8",
+          "jockey_id": "01187",
+          "trainer_id": "01135",
+          "horse_detail": "ドゥラドゥーラ せん2/442(0)",
+          "jockey_weight": "永島 まなみ ◇54.0"
+        },
+        {
+          "race_id": "2608040505",
+          "horse_id": "2024106752",
+          "horse_number": 2,
+          "finish_text": "2",
+          "jockey_id": "01171",
+          "trainer_id": "01092",
+          "horse_detail": "サンティエリュール 牝2/442(0)",
+          "jockey_weight": "西村 淳也 55.0"
+        },
+        {
+          "race_id": "2608040505",
+          "horse_id": "2024100290",
+          "horse_number": 3,
+          "finish_text": "6",
+          "jockey_id": "01032",
+          "trainer_id": "01039",
+          "horse_detail": "ナショナルフラッグ 牡2/474(0)",
+          "jockey_weight": "池添 謙一 56.0"
+        },
+        {
+          "race_id": "2608040505",
+          "horse_id": "2024105897",
+          "horse_number": 4,
+          "finish_text": "3",
+          "jockey_id": "01163",
+          "trainer_id": "01075",
+          "horse_detail": "ホウオウビースト 牡2/460(0)",
+          "jockey_weight": "坂井 瑠星 56.0"
+        },
+        {
+          "race_id": "2608040505",
+          "horse_id": "2024105926",
+          "horse_number": 5,
+          "finish_text": "5",
+          "jockey_id": "01157",
+          "trainer_id": "01105",
+          "horse_detail": "エコロリンド 牝2/456(0)",
+          "jockey_weight": "鮫島 克駿 55.0"
+        },
+        {
+          "race_id": "2608040505",
+          "horse_id": "2024103469",
+          "horse_number": 6,
+          "finish_text": "1",
+          "jockey_id": "01102",
+          "trainer_id": "01180",
+          "horse_detail": "レインインザスカイ 牝2/458(0)",
+          "jockey_weight": "北村 友一 55.0"
+        },
+        {
+          "race_id": "2608040505",
+          "horse_id": "2024101614",
+          "horse_number": 7,
+          "finish_text": "7",
+          "jockey_id": "01168",
+          "trainer_id": "01173",
+          "horse_detail": "プランシングホース 牡2/426(0)",
+          "jockey_weight": "富田 暁 56.0"
+        },
+        {
+          "race_id": "2608040505",
+          "horse_id": "2024102196",
+          "horse_number": 8,
+          "finish_text": "9",
+          "jockey_id": "01128",
+          "trainer_id": "01198",
+          "horse_detail": "エーゲフレイバー 牝2/446(0)",
+          "jockey_weight": "川須 栄彦 55.0"
+        },
+        {
+          "race_id": "2608040505",
+          "horse_id": "2024107263",
+          "horse_number": 9,
+          "finish_text": "4",
+          "jockey_id": "01126",
+          "trainer_id": "01209",
+          "horse_detail": "コスモベネチア 牡2/514(0)",
+          "jockey_weight": "松山 弘平 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2608040506",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040506",
+      "retrieved_at": "2026-10-12T23:56:18.828567+00:00",
+      "page_sha256": "e641e70a1d840712903c8dcf615cdc65d13b9554abbdae621561098f2fd3497c",
+      "rows": [
+        {
+          "race_id": "2608040506",
+          "horse_id": "2024104860",
+          "horse_number": 1,
+          "finish_text": "4",
+          "jockey_id": "01212",
+          "trainer_id": "01084",
+          "horse_detail": "コパノアクション 牝2/452(0)",
+          "jockey_weight": "柴田 裕一郎 △53.0"
+        },
+        {
+          "race_id": "2608040506",
+          "horse_id": "2024104221",
+          "horse_number": 2,
+          "finish_text": "10",
+          "jockey_id": "01142",
+          "trainer_id": "01018",
+          "horse_detail": "プリティランサー 牝2/472(0)",
+          "jockey_weight": "長岡 禎仁 55.0"
+        },
+        {
+          "race_id": "2608040506",
+          "horse_id": "2024102264",
+          "horse_number": 3,
+          "finish_text": "1",
+          "jockey_id": "01204",
+          "trainer_id": "01155",
+          "horse_detail": "ベニーバローズ 牡2/446(0)",
+          "jockey_weight": "河原田 菜々 ★52.0"
+        },
+        {
+          "race_id": "2608040506",
+          "horse_id": "2024102641",
+          "horse_number": 4,
+          "finish_text": "8",
+          "jockey_id": "01037",
+          "trainer_id": "01212",
+          "horse_detail": "オノイチコマチ 牝2/398(0)",
+          "jockey_weight": "太宰 啓介 55.0"
+        },
+        {
+          "race_id": "2608040506",
+          "horse_id": "2024105314",
+          "horse_number": 5,
+          "finish_text": "5",
+          "jockey_id": "01154",
+          "trainer_id": "01188",
+          "horse_detail": "エクセレントワード 牝2/394(0)",
+          "jockey_weight": "松若 風馬 55.0"
+        },
+        {
+          "race_id": "2608040506",
+          "horse_id": "2024101441",
+          "horse_number": 6,
+          "finish_text": "11",
+          "jockey_id": "01194",
+          "trainer_id": "01082",
+          "horse_detail": "カレンラヴュー 牝2/428(0)",
+          "jockey_weight": "大久保 友雅 ▲52.0"
+        },
+        {
+          "race_id": "2608040506",
+          "horse_id": "2024102411",
+          "horse_number": 7,
+          "finish_text": "2",
+          "jockey_id": "01126",
+          "trainer_id": "01149",
+          "horse_detail": "クールガモーン 牝2/434(0)",
+          "jockey_weight": "松山 弘平 55.0"
+        },
+        {
+          "race_id": "2608040506",
+          "horse_id": "2024106619",
+          "horse_number": 8,
+          "finish_text": "7",
+          "jockey_id": "01102",
+          "trainer_id": "01181",
+          "horse_detail": "ルーチェドンナ 牝2/408(0)",
+          "jockey_weight": "北村 友一 55.0"
+        },
+        {
+          "race_id": "2608040506",
+          "horse_id": "2024100765",
+          "horse_number": 9,
+          "finish_text": "12",
+          "jockey_id": "01187",
+          "trainer_id": "01082",
+          "horse_detail": "エクセルブリーズ 牝2/404(0)",
+          "jockey_weight": "永島 まなみ ◇53.0"
+        },
+        {
+          "race_id": "2608040506",
+          "horse_id": "2024105425",
+          "horse_number": 10,
+          "finish_text": "9",
+          "jockey_id": "01147",
+          "trainer_id": "01211",
+          "horse_detail": "ナムラレーヴ 牝2/420(0)",
+          "jockey_weight": "城戸 義政 55.0"
+        },
+        {
+          "race_id": "2608040506",
+          "horse_id": "2024105300",
+          "horse_number": 11,
+          "finish_text": "3",
+          "jockey_id": "01216",
+          "trainer_id": "01209",
+          "horse_detail": "クラストムーン 牡2/438(0)",
+          "jockey_weight": "吉村 誠之助 56.0"
+        },
+        {
+          "race_id": "2608040506",
+          "horse_id": "2024102038",
+          "horse_number": 12,
+          "finish_text": "6",
+          "jockey_id": "00666",
+          "trainer_id": "01140",
+          "horse_detail": "メイショウギフト 牡2/474(0)",
+          "jockey_weight": "武 豊 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2608040507",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040507",
+      "retrieved_at": "2026-10-12T23:56:24.503824+00:00",
+      "page_sha256": "a3ddb1227ae8bc73febc6d83a4743b698222b1e6efd485906d4d4bcdbae3c816",
+      "rows": [
+        {
+          "race_id": "2608040507",
+          "horse_id": "2022103143",
+          "horse_number": 1,
+          "finish_text": "12",
+          "jockey_id": "05690",
+          "trainer_id": "01218",
+          "horse_detail": "ロックウイズユー せん4/460(+10)/B",
+          "jockey_weight": "安藤 洋一 58.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2023106175",
+          "horse_number": 2,
+          "finish_text": "1",
+          "jockey_id": "01032",
+          "trainer_id": "01087",
+          "horse_detail": "アレンスター 牡3/506(+10)",
+          "jockey_weight": "池添 謙一 56.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2021103682",
+          "horse_number": 3,
+          "finish_text": "7",
+          "jockey_id": "01222",
+          "trainer_id": "01095",
+          "horse_detail": "マジックブルー 牡5/490(+2)",
+          "jockey_weight": "森田 誠也 ▲55.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2023104963",
+          "horse_number": 4,
+          "finish_text": "11",
+          "jockey_id": "01034",
+          "trainer_id": "01135",
+          "horse_detail": "ハンドフル 牡3/470(-15)/B",
+          "jockey_weight": "酒井 学 56.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2023103315",
+          "horse_number": 5,
+          "finish_text": "8",
+          "jockey_id": "01186",
+          "trainer_id": "01180",
+          "horse_detail": "ゴールドコット 牡3/462(0)/B",
+          "jockey_weight": "角田 大和 56.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2023104674",
+          "horse_number": 6,
+          "finish_text": "14",
+          "jockey_id": "01157",
+          "trainer_id": "01117",
+          "horse_detail": "タイセイサーブル 牡3/488(-4)/B",
+          "jockey_weight": "鮫島 克駿 56.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2023105445",
+          "horse_number": 7,
+          "finish_text": "4",
+          "jockey_id": "01208",
+          "trainer_id": "01149",
+          "horse_detail": "ドメイン 牡3/500(0)",
+          "jockey_weight": "田口 貫太 56.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2019103506",
+          "horse_number": 8,
+          "finish_text": "9",
+          "jockey_id": "01144",
+          "trainer_id": "01032",
+          "horse_detail": "エアフォースワン 牡7/478(+4)",
+          "jockey_weight": "菱田 裕二 58.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2022102710",
+          "horse_number": 9,
+          "finish_text": "3",
+          "jockey_id": "01126",
+          "trainer_id": "01142",
+          "horse_detail": "エイユーファイヤー 牡4/496(+8)/B",
+          "jockey_weight": "松山 弘平 58.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2023105329",
+          "horse_number": 10,
+          "finish_text": "13",
+          "jockey_id": "01170",
+          "trainer_id": "01146",
+          "horse_detail": "エクストラプッシュ 牡3/532(-2)/B",
+          "jockey_weight": "横山 武史 56.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2023104476",
+          "horse_number": 11,
+          "finish_text": "15",
+          "jockey_id": "01099",
+          "trainer_id": "01198",
+          "horse_detail": "カイラーサ せん3/502(-4)/B",
+          "jockey_weight": "鮫島 良太 56.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2022106566",
+          "horse_number": 12,
+          "finish_text": "5",
+          "jockey_id": "01171",
+          "trainer_id": "01206",
+          "horse_detail": "ダイシンレアレア 牡4/496(-4)/B",
+          "jockey_weight": "西村 淳也 58.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2023101586",
+          "horse_number": 13,
+          "finish_text": "10",
+          "jockey_id": "01184",
+          "trainer_id": "01211",
+          "horse_detail": "リオンサーガ 牡3/516(+6)",
+          "jockey_weight": "原 優介 56.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2021107022",
+          "horse_number": 14,
+          "finish_text": "16",
+          "jockey_id": "01187",
+          "trainer_id": "00431",
+          "horse_detail": "セルリアンゲーゲン 牡5/482(+4)",
+          "jockey_weight": "永島 まなみ ◇56.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2022104654",
+          "horse_number": 15,
+          "finish_text": "2",
+          "jockey_id": "01102",
+          "trainer_id": "01176",
+          "horse_detail": "ジーティーアメリカ 牡4/552(-2)",
+          "jockey_weight": "北村 友一 58.0"
+        },
+        {
+          "race_id": "2608040507",
+          "horse_id": "2023104057",
+          "horse_number": 16,
+          "finish_text": "6",
+          "jockey_id": "01181",
+          "trainer_id": "01198",
+          "horse_detail": "タニセンゴールド 牡3/470(0)",
+          "jockey_weight": "秋山 稔樹 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2608040508",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040508",
+      "retrieved_at": "2026-10-12T23:56:30.874907+00:00",
+      "page_sha256": "3347f084776ee0ee7df5caa826002d42f2adc75d258fff75799d17497531dc6f",
+      "rows": [
+        {
+          "race_id": "2608040508",
+          "horse_id": "2022103705",
+          "horse_number": 1,
+          "finish_text": "2",
+          "jockey_id": "01168",
+          "trainer_id": "01159",
+          "horse_detail": "エレガンシア 牝4/448(0)/B",
+          "jockey_weight": "富田 暁 56.0"
+        },
+        {
+          "race_id": "2608040508",
+          "horse_id": "2022102957",
+          "horse_number": 2,
+          "finish_text": "4",
+          "jockey_id": "01154",
+          "trainer_id": "01209",
+          "horse_detail": "ヴィーナスバブル 牝4/444(0)",
+          "jockey_weight": "松若 風馬 56.0"
+        },
+        {
+          "race_id": "2608040508",
+          "horse_id": "2023106887",
+          "horse_number": 3,
+          "finish_text": "7",
+          "jockey_id": "01216",
+          "trainer_id": "01137",
+          "horse_detail": "ストロベリーツリー 牝3/496(+14)",
+          "jockey_weight": "吉村 誠之助 54.0"
+        },
+        {
+          "race_id": "2608040508",
+          "horse_id": "2022100457",
+          "horse_number": 4,
+          "finish_text": "10",
+          "jockey_id": "01141",
+          "trainer_id": "01170",
+          "horse_detail": "テレプシコーラ 牝4/414(-4)",
+          "jockey_weight": "中井 裕二 56.0"
+        },
+        {
+          "race_id": "2608040508",
+          "horse_id": "2023103417",
+          "horse_number": 5,
+          "finish_text": "6",
+          "jockey_id": "01102",
+          "trainer_id": "01168",
+          "horse_detail": "ウィズクィーン 牝3/440(+10)",
+          "jockey_weight": "北村 友一 54.0"
+        },
+        {
+          "race_id": "2608040508",
+          "horse_id": "2023107291",
+          "horse_number": 6,
+          "finish_text": "8",
+          "jockey_id": "01163",
+          "trainer_id": "01075",
+          "horse_detail": "カドーダムール 牝3/500(0)",
+          "jockey_weight": "坂井 瑠星 54.0"
+        },
+        {
+          "race_id": "2608040508",
+          "horse_id": "2022100655",
+          "horse_number": 7,
+          "finish_text": "3",
+          "jockey_id": "01204",
+          "trainer_id": "01194",
+          "horse_detail": "レーヌマロン 牝4/470(+6)",
+          "jockey_weight": "河原田 菜々 ★52.0"
+        },
+        {
+          "race_id": "2608040508",
+          "horse_id": "2022104779",
+          "horse_number": 8,
+          "finish_text": "5",
+          "jockey_id": "01185",
+          "trainer_id": "01216",
+          "horse_detail": "リトルスカーレット 牝4/486(-2)",
+          "jockey_weight": "小沢 大仁 56.0"
+        },
+        {
+          "race_id": "2608040508",
+          "horse_id": "2023106935",
+          "horse_number": 9,
+          "finish_text": "1",
+          "jockey_id": "01171",
+          "trainer_id": "01155",
+          "horse_detail": "レゼルフォート 牝3/440(+22)",
+          "jockey_weight": "西村 淳也 54.0"
+        },
+        {
+          "race_id": "2608040508",
+          "horse_id": "2023102494",
+          "horse_number": 10,
+          "finish_text": "11",
+          "jockey_id": "01178",
+          "trainer_id": "01173",
+          "horse_detail": "スリラーナイト 牝3/438(-4)",
+          "jockey_weight": "斎藤 新 54.0"
+        },
+        {
+          "race_id": "2608040508",
+          "horse_id": "2023102376",
+          "horse_number": 11,
+          "finish_text": "9",
+          "jockey_id": "01126",
+          "trainer_id": "01186",
+          "horse_detail": "ベルシュヴァル 牝3/420(+2)",
+          "jockey_weight": "松山 弘平 54.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2608040509",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040509",
+      "retrieved_at": "2026-10-12T23:56:36.506194+00:00",
+      "page_sha256": "7fa096caf869c1685ada363cb093fd795206edbf9ef8227720cb4c831d2919c3",
+      "rows": [
+        {
+          "race_id": "2608040509",
+          "horse_id": "2022107301",
+          "horse_number": 1,
+          "finish_text": "4",
+          "jockey_id": "01154",
+          "trainer_id": "01085",
+          "horse_detail": "イプシロンナンバー 牡4/510(+2)",
+          "jockey_weight": "松若 風馬 58.0"
+        },
+        {
+          "race_id": "2608040509",
+          "horse_id": "2022100650",
+          "horse_number": 2,
+          "finish_text": "5",
+          "jockey_id": "01192",
+          "trainer_id": "01086",
+          "horse_detail": "ロードソルスティス 牡4/522(-2)",
+          "jockey_weight": "横山 琉人 58.0"
+        },
+        {
+          "race_id": "2608040509",
+          "horse_id": "2022110123",
+          "horse_number": 3,
+          "finish_text": "2",
+          "jockey_id": "01126",
+          "trainer_id": "01130",
+          "horse_detail": "クロノスバレット 牡4/514(-2)",
+          "jockey_weight": "松山 弘平 58.0"
+        },
+        {
+          "race_id": "2608040509",
+          "horse_id": "2023102075",
+          "horse_number": 4,
+          "finish_text": "1",
+          "jockey_id": "00732",
+          "trainer_id": "01032",
+          "horse_detail": "ソルチェリア 牡3/502(0)",
+          "jockey_weight": "幸 英明 56.0"
+        },
+        {
+          "race_id": "2608040509",
+          "horse_id": "2022110135",
+          "horse_number": 5,
+          "finish_text": "7",
+          "jockey_id": "00660",
+          "trainer_id": "01139",
+          "horse_detail": "ゼンエスポワール 牡4/526(+8)",
+          "jockey_weight": "横山 典弘 58.0"
+        },
+        {
+          "race_id": "2608040509",
+          "horse_id": "2023105387",
+          "horse_number": 6,
+          "finish_text": "8",
+          "jockey_id": "01163",
+          "trainer_id": "01166",
+          "horse_detail": "マシン 牡3/472(-2)",
+          "jockey_weight": "坂井 瑠星 56.0"
+        },
+        {
+          "race_id": "2608040509",
+          "horse_id": "2022102700",
+          "horse_number": 7,
+          "finish_text": "6",
+          "jockey_id": "01179",
+          "trainer_id": "01182",
+          "horse_detail": "トゥーザムーン 牝4/494(-6)",
+          "jockey_weight": "菅原 明良 56.0"
+        },
+        {
+          "race_id": "2608040509",
+          "horse_id": "2021106353",
+          "horse_number": 8,
+          "finish_text": "9",
+          "jockey_id": "01138",
+          "trainer_id": "01051",
+          "horse_detail": "シグムンド 牡5/510(0)/B",
+          "jockey_weight": "藤懸 貴志 58.0"
+        },
+        {
+          "race_id": "2608040509",
+          "horse_id": "2023101542",
+          "horse_number": 9,
+          "finish_text": "12",
+          "jockey_id": "01181",
+          "trainer_id": "01077",
+          "horse_detail": "サザンウォリアー 牡3/476(+2)",
+          "jockey_weight": "秋山 稔樹 56.0"
+        },
+        {
+          "race_id": "2608040509",
+          "horse_id": "2022104214",
+          "horse_number": 10,
+          "finish_text": "11",
+          "jockey_id": "01208",
+          "trainer_id": "01193",
+          "horse_detail": "ニホンピロデヴィン 牡4/456(+8)",
+          "jockey_weight": "田口 貫太 58.0"
+        },
+        {
+          "race_id": "2608040509",
+          "horse_id": "2022105055",
+          "horse_number": 11,
+          "finish_text": "10",
+          "jockey_id": "01176",
+          "trainer_id": "01180",
+          "horse_detail": "レッドボブ 牡4/526(-2)/B",
+          "jockey_weight": "亀田 温心 58.0"
+        },
+        {
+          "race_id": "2608040509",
+          "horse_id": "2023102576",
+          "horse_number": 12,
+          "finish_text": "3",
+          "jockey_id": "01099",
+          "trainer_id": "01198",
+          "horse_detail": "テイエムサンレーヴ 牡3/520(+8)",
+          "jockey_weight": "鮫島 良太 56.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2608040510",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040510",
+      "retrieved_at": "2026-10-12T23:56:42.250648+00:00",
+      "page_sha256": "2b94c9d03cbe48f55f2515c4aa47a687b67b4d31db05dc49166db0ddb2a45afe",
+      "rows": [
+        {
+          "race_id": "2608040510",
+          "horse_id": "2023109164",
+          "horse_number": 1,
+          "finish_text": "6",
+          "jockey_id": "01179",
+          "trainer_id": "01130",
+          "horse_detail": "アンヘリータス 牝3/424(+6)",
+          "jockey_weight": "菅原 明良 54.0"
+        },
+        {
+          "race_id": "2608040510",
+          "horse_id": "2023104386",
+          "horse_number": 2,
+          "finish_text": "2",
+          "jockey_id": "01171",
+          "trainer_id": "01138",
+          "horse_detail": "カムアップローゼス 牡3/476(+2)",
+          "jockey_weight": "西村 淳也 56.0"
+        },
+        {
+          "race_id": "2608040510",
+          "horse_id": "2021103821",
+          "horse_number": 3,
+          "finish_text": "9",
+          "jockey_id": "00732",
+          "trainer_id": "01142",
+          "horse_detail": "ハイディージェン せん5/470(-4)",
+          "jockey_weight": "幸 英明 58.0"
+        },
+        {
+          "race_id": "2608040510",
+          "horse_id": "2022110060",
+          "horse_number": 4,
+          "finish_text": "4",
+          "jockey_id": "01184",
+          "trainer_id": "01176",
+          "horse_detail": "エリカアンディーヴ 牝4/504(-8)",
+          "jockey_weight": "原 優介 56.0"
+        },
+        {
+          "race_id": "2608040510",
+          "horse_id": "2023100947",
+          "horse_number": 5,
+          "finish_text": "1",
+          "jockey_id": "01102",
+          "trainer_id": "01168",
+          "horse_detail": "アクセス 牡3/478(0)",
+          "jockey_weight": "北村 友一 56.0"
+        },
+        {
+          "race_id": "2608040510",
+          "horse_id": "2022106224",
+          "horse_number": 6,
+          "finish_text": "7",
+          "jockey_id": "01208",
+          "trainer_id": "01193",
+          "horse_detail": "ウインリベラシオン 牡4/494(-4)",
+          "jockey_weight": "田口 貫太 58.0"
+        },
+        {
+          "race_id": "2608040510",
+          "horse_id": "2023106960",
+          "horse_number": 7,
+          "finish_text": "5",
+          "jockey_id": "01213",
+          "trainer_id": "01176",
+          "horse_detail": "キシダンチョウ 牡3/518(-4)/B",
+          "jockey_weight": "高杉 吏麒 56.0"
+        },
+        {
+          "race_id": "2608040510",
+          "horse_id": "2021102561",
+          "horse_number": 8,
+          "finish_text": "8",
+          "jockey_id": "01138",
+          "trainer_id": "01156",
+          "horse_detail": "キーウェーブ 牡5/438(+4)",
+          "jockey_weight": "藤懸 貴志 58.0"
+        },
+        {
+          "race_id": "2608040510",
+          "horse_id": "2023101180",
+          "horse_number": 9,
+          "finish_text": "3",
+          "jockey_id": "01200",
+          "trainer_id": "01062",
+          "horse_detail": "ミリタリータトゥー 牝3/498(-12)",
+          "jockey_weight": "西塚 洸二 54.0"
+        },
+        {
+          "race_id": "2608040510",
+          "horse_id": "2021105886",
+          "horse_number": 10,
+          "finish_text": "10",
+          "jockey_id": "01126",
+          "trainer_id": "01071",
+          "horse_detail": "ホウオウトランプ 牡5/524(-10)",
+          "jockey_weight": "松山 弘平 58.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2608040511",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040511",
+      "retrieved_at": "2026-10-12T23:56:47.978095+00:00",
+      "page_sha256": "aa1bbae5eedbd2ed525e18d265880000de09c13b28157a1e5744cb12f4b1584e",
+      "rows": [
+        {
+          "race_id": "2608040511",
+          "horse_id": "2023105685",
+          "horse_number": 1,
+          "finish_text": "1",
+          "jockey_id": "01170",
+          "trainer_id": "01203",
+          "horse_detail": "ダイヤモンドノット 牡3/480(-4)",
+          "jockey_weight": "横山 武史 55.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2022105071",
+          "horse_number": 2,
+          "finish_text": "17",
+          "jockey_id": "01032",
+          "trainer_id": "01149",
+          "horse_detail": "ショウナンザナドゥ 牝4/460(0)/B",
+          "jockey_weight": "池添 謙一 55.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2020110155",
+          "horse_number": 3,
+          "finish_text": "15",
+          "jockey_id": "01157",
+          "trainer_id": "01097",
+          "horse_detail": "レイベリング 牡6/480(-6)",
+          "jockey_weight": "鮫島 克駿 57.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2020105018",
+          "horse_number": 4,
+          "finish_text": "2",
+          "jockey_id": "01138",
+          "trainer_id": "01123",
+          "horse_detail": "スズハローム 牡6/462(-6)",
+          "jockey_weight": "藤懸 貴志 57.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2020100896",
+          "horse_number": 5,
+          "finish_text": "7",
+          "jockey_id": "05212",
+          "trainer_id": "01157",
+          "horse_detail": "ビッグシーザー 牡6/520(+2)",
+          "jockey_weight": "M.デムーロ 57.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2019100213",
+          "horse_number": 6,
+          "finish_text": "13",
+          "jockey_id": "01126",
+          "trainer_id": "01174",
+          "horse_detail": "ウインマーベル 牡7/478(-6)/B",
+          "jockey_weight": "松山 弘平 57.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2020101301",
+          "horse_number": 7,
+          "finish_text": "18",
+          "jockey_id": "05690",
+          "trainer_id": "05625",
+          "horse_detail": "ネオトキオ 牡6/454(-7)/B",
+          "jockey_weight": "安藤 洋一 57.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2023107053",
+          "horse_number": 8,
+          "finish_text": "4",
+          "jockey_id": "01216",
+          "trainer_id": "01126",
+          "horse_detail": "サンダーストラック 牡3/518(-12)/B",
+          "jockey_weight": "吉村 誠之助 55.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2021110031",
+          "horse_number": 9,
+          "finish_text": "3",
+          "jockey_id": "01179",
+          "trainer_id": "01130",
+          "horse_detail": "オフトレイル 牡5/468(+6)",
+          "jockey_weight": "菅原 明良 58.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2021100935",
+          "horse_number": 10,
+          "finish_text": "14",
+          "jockey_id": "01192",
+          "trainer_id": "01102",
+          "horse_detail": "ララマセラシオン 牡5/526(-4)",
+          "jockey_weight": "横山 琉人 57.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2023103268",
+          "horse_number": 11,
+          "finish_text": "10",
+          "jockey_id": "01184",
+          "trainer_id": "01149",
+          "horse_detail": "レザベーション 牡3/468(+6)",
+          "jockey_weight": "原 優介 56.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2022103875",
+          "horse_number": 12,
+          "finish_text": "16",
+          "jockey_id": "00732",
+          "trainer_id": "01218",
+          "horse_detail": "アイサンサン 牝4/458(+4)",
+          "jockey_weight": "幸 英明 55.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2022106768",
+          "horse_number": 13,
+          "finish_text": "6",
+          "jockey_id": "01092",
+          "trainer_id": "01018",
+          "horse_detail": "マイネルチケット 牡4/468(-6)",
+          "jockey_weight": "津村 明秀 57.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2021104434",
+          "horse_number": 14,
+          "finish_text": "12",
+          "jockey_id": "01102",
+          "trainer_id": "01055",
+          "horse_detail": "ワイドラトゥール 牝5/440(-6)",
+          "jockey_weight": "北村 友一 55.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2022105369",
+          "horse_number": 15,
+          "finish_text": "5",
+          "jockey_id": "01096",
+          "trainer_id": "01102",
+          "horse_detail": "ジョイフルニュース 牝4/458(+4)",
+          "jockey_weight": "大野 拓弥 55.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2022105291",
+          "horse_number": 16,
+          "finish_text": "9",
+          "jockey_id": "01150",
+          "trainer_id": "01203",
+          "horse_detail": "ランフォーヴァウ 牝4/454(-2)/B",
+          "jockey_weight": "石川 裕紀人 55.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2022105230",
+          "horse_number": 17,
+          "finish_text": "11",
+          "jockey_id": "01171",
+          "trainer_id": "01178",
+          "horse_detail": "ミニトランザット 牡4/466(-6)",
+          "jockey_weight": "西村 淳也 57.0"
+        },
+        {
+          "race_id": "2608040511",
+          "horse_id": "2022103205",
+          "horse_number": 18,
+          "finish_text": "8",
+          "jockey_id": "00666",
+          "trainer_id": "01157",
+          "horse_detail": "エリカエクスプレス 牝4/472(0)",
+          "jockey_weight": "武 豊 55.0"
+        }
+      ]
+    },
+    {
+      "race_id": "2608040512",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040512",
+      "retrieved_at": "2026-10-12T23:56:54.594196+00:00",
+      "page_sha256": "92f2db5152296777dd4f656ff82fab9e5825bd0bf24824c80a25426c7c445c1a",
+      "rows": [
+        {
+          "race_id": "2608040512",
+          "horse_id": "2022101456",
+          "horse_number": 1,
+          "finish_text": "5",
+          "jockey_id": "01216",
+          "trainer_id": "01110",
+          "horse_detail": "ダイヤモンド 牡4/522(-4)",
+          "jockey_weight": "吉村 誠之助 58.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2022110062",
+          "horse_number": 2,
+          "finish_text": "14",
+          "jockey_id": "01032",
+          "trainer_id": "01216",
+          "horse_detail": "レネネト 牝4/522(-6)",
+          "jockey_weight": "池添 謙一 56.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2023107545",
+          "horse_number": 3,
+          "finish_text": "8",
+          "jockey_id": "01204",
+          "trainer_id": "01198",
+          "horse_detail": "ウェルカムソング 牡3/470(0)",
+          "jockey_weight": "河原田 菜々 ★53.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2021103550",
+          "horse_number": 4,
+          "finish_text": "15",
+          "jockey_id": "01213",
+          "trainer_id": "01101",
+          "horse_detail": "キープライジング 牝5/462(-4)",
+          "jockey_weight": "高杉 吏麒 56.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2023107538",
+          "horse_number": 5,
+          "finish_text": "16",
+          "jockey_id": "01034",
+          "trainer_id": "01212",
+          "horse_detail": "ジャレッド せん3/462(-12)",
+          "jockey_weight": "酒井 学 57.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2023105839",
+          "horse_number": 6,
+          "finish_text": "7",
+          "jockey_id": "01178",
+          "trainer_id": "01194",
+          "horse_detail": "メリフルアス 牝3/490(+14)",
+          "jockey_weight": "斎藤 新 55.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2022110133",
+          "horse_number": 7,
+          "finish_text": "12",
+          "jockey_id": "01037",
+          "trainer_id": "01140",
+          "horse_detail": "メイショウアイナ 牡4/488(+4)",
+          "jockey_weight": "太宰 啓介 58.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2020110051",
+          "horse_number": 8,
+          "finish_text": "11",
+          "jockey_id": "01184",
+          "trainer_id": "01205",
+          "horse_detail": "ザングウィル 牡6/510(-6)/B",
+          "jockey_weight": "原 優介 58.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2022100065",
+          "horse_number": 9,
+          "finish_text": "3",
+          "jockey_id": "01206",
+          "trainer_id": "01178",
+          "horse_detail": "トゥインクルアップ 牝4/496(+16)/B",
+          "jockey_weight": "小林 美駒 ◇54.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2023100552",
+          "horse_number": 10,
+          "finish_text": "1",
+          "jockey_id": "00666",
+          "trainer_id": "01120",
+          "horse_detail": "ビービーシナジー 牡3/498(-6)",
+          "jockey_weight": "武 豊 57.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2022106705",
+          "horse_number": 11,
+          "finish_text": "13",
+          "jockey_id": "01142",
+          "trainer_id": "01018",
+          "horse_detail": "テーオーミリカン 牡4/474(+18)",
+          "jockey_weight": "長岡 禎仁 58.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2023106968",
+          "horse_number": 12,
+          "finish_text": "2",
+          "jockey_id": "01171",
+          "trainer_id": "01197",
+          "horse_detail": "ベラジオリン 牝3/434(+12)",
+          "jockey_weight": "西村 淳也 55.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2023100126",
+          "horse_number": 13,
+          "finish_text": "10",
+          "jockey_id": "00732",
+          "trainer_id": "01148",
+          "horse_detail": "ラッキーバック 牡3/512(-6)/B",
+          "jockey_weight": "幸 英明 57.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2023103517",
+          "horse_number": 14,
+          "finish_text": "6",
+          "jockey_id": "01168",
+          "trainer_id": "01161",
+          "horse_detail": "ビスケットアソート 牡3/470(+2)",
+          "jockey_weight": "富田 暁 57.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2022100203",
+          "horse_number": 15,
+          "finish_text": "4",
+          "jockey_id": "01220",
+          "trainer_id": "01139",
+          "horse_detail": "マダムイグレイン 牝4/502(+6)",
+          "jockey_weight": "田山 旺佑 ☆55.0"
+        },
+        {
+          "race_id": "2608040512",
+          "horse_id": "2021104151",
+          "horse_number": 16,
+          "finish_text": "9",
+          "jockey_id": "01126",
+          "trainer_id": "01069",
+          "horse_detail": "カネコメファミリー 牝5/512(+8)",
+          "jockey_weight": "松山 弘平 56.0"
+        }
+      ]
+    }
+  ],
+  "complete": true,
+  "validation": {
+    "race_count": 24,
+    "row_count": 321,
+    "unique_race_horse_count": 321,
+    "existing_pilot_horse_jockey_trainer_id_matches": 321,
+    "prior_performance_updated": false
+  }
+}
