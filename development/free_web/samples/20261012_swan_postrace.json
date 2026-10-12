@@ -1,0 +1,136 @@
+{
+  "purpose": "post_race_ingestion_test",
+  "is_pre_race_prediction": false,
+  "race_id": "2608040511",
+  "race_date": "2026-10-12",
+  "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608040511",
+  "retrieved_at": "2026-10-12T23:50:31.140587+00:00",
+  "rows": [
+    {
+      "horse_id": "2023105685",
+      "horse_number": 1,
+      "finish_text": "1",
+      "jockey_id": "01170",
+      "trainer_id": "01203"
+    },
+    {
+      "horse_id": "2022105071",
+      "horse_number": 2,
+      "finish_text": "17",
+      "jockey_id": "01032",
+      "trainer_id": "01149"
+    },
+    {
+      "horse_id": "2020110155",
+      "horse_number": 3,
+      "finish_text": "15",
+      "jockey_id": "01157",
+      "trainer_id": "01097"
+    },
+    {
+      "horse_id": "2020105018",
+      "horse_number": 4,
+      "finish_text": "2",
+      "jockey_id": "01138",
+      "trainer_id": "01123"
+    },
+    {
+      "horse_id": "2020100896",
+      "horse_number": 5,
+      "finish_text": "7",
+      "jockey_id": "05212",
+      "trainer_id": "01157"
+    },
+    {
+      "horse_id": "2019100213",
+      "horse_number": 6,
+      "finish_text": "13",
+      "jockey_id": "01126",
+      "trainer_id": "01174"
+    },
+    {
+      "horse_id": "2020101301",
+      "horse_number": 7,
+      "finish_text": "18",
+      "jockey_id": "05690",
+      "trainer_id": "05625"
+    },
+    {
+      "horse_id": "2023107053",
+      "horse_number": 8,
+      "finish_text": "4",
+      "jockey_id": "01216",
+      "trainer_id": "01126"
+    },
+    {
+      "horse_id": "2021110031",
+      "horse_number": 9,
+      "finish_text": "3",
+      "jockey_id": "01179",
+      "trainer_id": "01130"
+    },
+    {
+      "horse_id": "2021100935",
+      "horse_number": 10,
+      "finish_text": "14",
+      "jockey_id": "01192",
+      "trainer_id": "01102"
+    },
+    {
+      "horse_id": "2023103268",
+      "horse_number": 11,
+      "finish_text": "10",
+      "jockey_id": "01184",
+      "trainer_id": "01149"
+    },
+    {
+      "horse_id": "2022103875",
+      "horse_number": 12,
+      "finish_text": "16",
+      "jockey_id": "00732",
+      "trainer_id": "01218"
+    },
+    {
+      "horse_id": "2022106768",
+      "horse_number": 13,
+      "finish_text": "6",
+      "jockey_id": "01092",
+      "trainer_id": "01018"
+    },
+    {
+      "horse_id": "2021104434",
+      "horse_number": 14,
+      "finish_text": "12",
+      "jockey_id": "01102",
+      "trainer_id": "01055"
+    },
+    {
+      "horse_id": "2022105369",
+      "horse_number": 15,
+      "finish_text": "5",
+      "jockey_id": "01096",
+      "trainer_id": "01102"
+    },
+    {
+      "horse_id": "2022105291",
+      "horse_number": 16,
+      "finish_text": "9",
+      "jockey_id": "01150",
+      "trainer_id": "01203"
+    },
+    {
+      "horse_id": "2022105230",
+      "horse_number": 17,
+      "finish_text": "11",
+      "jockey_id": "01171",
+      "trainer_id": "01178"
+    },
+    {
+      "horse_id": "2022103205",
+      "horse_number": 18,
+      "finish_text": "8",
+      "jockey_id": "00666",
+      "trainer_id": "01157"
+    }
+  ]
+}
