@@ -49,6 +49,7 @@ def save_result(con, page, race_id, source_url, retrieved_at):
     stamp = dt.datetime.fromisoformat(retrieved_at)
     if stamp.tzinfo is None:
         raise ValueError("Timezone required")
+    retrieved_at = stamp.astimezone(dt.timezone.utc).isoformat()
     digest = hashlib.sha256(page.encode("utf-8")).hexdigest()
     con.executescript('''
     CREATE TABLE IF NOT EXISTS fetches (
