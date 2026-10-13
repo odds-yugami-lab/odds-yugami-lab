@@ -10,6 +10,7 @@ import re
 
 COLUMNS = ["race_code", "ketto_toroku_bango", "race_date", "keibajo_code",
            "track_code", "distance_m", "jockey_code", "trainer_code", "sire_code",
+           "body_weight_kg", "body_weight_change_kg",
            "is_cancelled_or_excluded", "target_finish_position", "target_win", "target_top3"]
 
 def normalize(results, entries):
@@ -45,6 +46,9 @@ def normalize(results, entries):
         row = {name: entry[name] for name in COLUMNS if name not in {"target_finish_position","target_win","target_top3"}}
         row.update(race_date=date, target_finish_position=finish,
                    target_win=finish==1, target_top3=finish is not None and finish<=3)
+        weight=re.search(r'/(\d+)\(([+-]?\d+)\)',result['horse_detail'])
+        row['body_weight_kg']=int(weight.group(1)) if weight else None
+        row['body_weight_change_kg']=int(weight.group(2)) if weight else None
         output.append(row)
     return output
 
