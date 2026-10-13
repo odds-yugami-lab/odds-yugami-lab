@@ -1,0 +1,13 @@
+{
+  "record_type": "source_bundle_validation",
+  "test_uses_synthetic_clock_and_evidence": true,
+  "source_gate_tests": {
+    "final_odds_rejected": true,
+    "stale_odds_rejected": true,
+    "wrong_race_rejected": true,
+    "historical_entry_rejected": true
+  },
+  "current_entries_and_live_odds_acquisition_tested": false,
+  "actual_cancelled_entry_row_tested": false,
+  "live_operation_ready": false
+}
