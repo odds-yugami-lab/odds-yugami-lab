@@ -1,0 +1,18 @@
+{
+  "race_id": "2026092706040911",
+  "runners": 16,
+  "feature_count": 52,
+  "is_live_prediction": false,
+  "model_reload_deterministic": true,
+  "unknown_category_supported": true,
+  "missing_feature_rejected": true,
+  "win_range": [
+    0.00927512339365353,
+    0.1529157277676702
+  ],
+  "top3_range": [
+    0.05501806817681032,
+    0.26777993589565735
+  ],
+  "performance_ROI_not_tested": true
+}
