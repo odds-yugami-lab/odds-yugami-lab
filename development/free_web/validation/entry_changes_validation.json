@@ -1,0 +1,14 @@
+{
+  "record_type": "entry_change_processing_test",
+  "historical_race": "2026092706040901",
+  "listed_horses": 16,
+  "active_horses": 15,
+  "withdrawn_horses": 1,
+  "field_size_matches_historical_reference": true,
+  "incomplete_status_rejected": true,
+  "jockey_change_detected": true,
+  "jockey_aggregates_recalculated": true,
+  "participation_fixture_is_synthetic": true,
+  "automatic_authoritative_participation_acquisition_verified": false,
+  "finding": "Free denma page retains cancelled runner without explicit cancellation label; missing weight/odds alone is not sufficient."
+}
