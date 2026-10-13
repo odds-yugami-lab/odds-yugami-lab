@@ -3,13 +3,23 @@
 Not scheduled. No model, prior-performance update, or GitHub writer.
 """
 import argparse
+import concurrent.futures
 import datetime as dt
 import json
 from pathlib import Path
 import re
 import sqlite3
 import urllib.request
-from result_store import fetch_and_save
+from result_store import save_result
+
+def download_result(race_id):
+    url = "https://sports.yahoo.co.jp/keiba/race/result/" + race_id
+    try:
+        with urllib.request.urlopen(url, timeout=30) as response:
+            page = response.read().decode("utf-8")
+        return race_id, page, url, dt.datetime.now(dt.timezone.utc).isoformat(), None
+    except Exception as e:
+        return race_id, None, url, None, str(e)
 
 def list_races(meeting_id):
     if not re.fullmatch(r"\d{8}", meeting_id):
@@ -34,13 +44,17 @@ def collect(con, meeting_ids, export_path):
             failures.append({"meeting": meeting, "error": str(e)})
             continue
         expected.extend(ids)
-        for race in ids:
-            try:
-                counts[race] = fetch_and_save(con, race)
-                print(race, counts[race], flush=True)
-            except Exception as e:
-                failures.append({"race": race, "error": str(e)})
-                print(race, "FAILED", str(e), flush=True)
+        # Downloads only are parallel; all SQLite mutations remain sequential.
+        with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+            for race, page, url, stamp, error in pool.map(download_result, ids):
+                try:
+                    if error:
+                        raise ValueError(error)
+                    counts[race] = save_result(con, page, race, url, stamp)
+                    print(race, counts[race], flush=True)
+                except Exception as e:
+                    failures.append({"race": race, "error": str(e)})
+                    print(race, "FAILED", str(e), flush=True)
     result = {"purpose": "post_race_ingestion", "is_pre_race_prediction": False,
               "exported_at": dt.datetime.now(dt.timezone.utc).isoformat(),
               "meetings": meeting_ids, "expected_races": expected,
