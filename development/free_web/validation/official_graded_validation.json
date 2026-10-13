@@ -1,0 +1,26 @@
+{
+  "record_type": "official_graded_result_validation",
+  "g2_result_link_resolved_from_official_index": true,
+  "g3_official_index_and_result_downloaded": true,
+  "g3_race_code": "2026101005040311",
+  "g3_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/092.html",
+  "g3_payouts_per_100_yen": {
+    "umaren": {
+      "0304": 5180
+    },
+    "sanrenpuku": {
+      "030405": 3400
+    }
+  },
+  "g3_horses": 11,
+  "all_finish_rows_match_previously_collected_free_results": true,
+  "future_race_result_rejected": true,
+  "pre_race_cancellation_acquisition_verified": false,
+  "formats_tested": [
+    "G1 static result",
+    "G2 replay result",
+    "G3 replay result",
+    "desktop dynamic correct linked result"
+  ],
+  "cancelled_horse_found_in_official_past_result": 6
+}
