@@ -1,0 +1,301 @@
+{
+  "record_type": "retrospective_pipeline_verification",
+  "is_pre_race_prediction": false,
+  "is_live_operation_ready": false,
+  "race_code": "2026092706040911",
+  "created_at": "2026-10-13T00:43:41.633797+00:00",
+  "model_package": "JRA_FREE_NO_WORKOUT_52_20261013",
+  "feature_count": 52,
+  "allocation_rule": "corrected_V2",
+  "allocation_core_sha256": "3799c8a536a332581204f20f5f26bfeaf93240c863042a0225e3ef3382f795ae",
+  "budget_yen": 10000,
+  "odds_status": "final_postrace",
+  "all_combination_count": 680,
+  "selected_ticket_count": 13,
+  "horse_probabilities": [
+    {
+      "race_code": "2026092706040911",
+      "umaban": 1,
+      "win_probability": 0.00927512339365353,
+      "top3_probability": 0.05501806817681032
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 2,
+      "win_probability": 0.04218757201493903,
+      "top3_probability": 0.1026639912461508
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 3,
+      "win_probability": 0.0376735435371255,
+      "top3_probability": 0.20193099372447376
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 4,
+      "win_probability": 0.06691641129927633,
+      "top3_probability": 0.2008587728155483
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 5,
+      "win_probability": 0.06981783755607611,
+      "top3_probability": 0.24978976348417162
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 6,
+      "win_probability": 0.08616319738885612,
+      "top3_probability": 0.2664650550881165
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 7,
+      "win_probability": 0.020799498241317937,
+      "top3_probability": 0.11214475595284357
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 8,
+      "win_probability": 0.02852897907984795,
+      "top3_probability": 0.11258536825143403
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 9,
+      "win_probability": 0.12150153573236089,
+      "top3_probability": 0.22322648557451902
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 10,
+      "win_probability": 0.07397779741376082,
+      "top3_probability": 0.2670314488634511
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 11,
+      "win_probability": 0.042899038197214294,
+      "top3_probability": 0.1373009581267079
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 12,
+      "win_probability": 0.08889297768469699,
+      "top3_probability": 0.26715899823169703
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 13,
+      "win_probability": 0.06527672851997464,
+      "top3_probability": 0.17850047117997506
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 14,
+      "win_probability": 0.046248608276647014,
+      "top3_probability": 0.1678421733123805
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 15,
+      "win_probability": 0.1529157277676702,
+      "top3_probability": 0.26777993589565735
+    },
+    {
+      "race_code": "2026092706040911",
+      "umaban": 16,
+      "win_probability": 0.07677087853156561,
+      "top3_probability": 0.22935764768116654
+    }
+  ],
+  "selected_bets": [
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "umaren",
+      "kumiban": "0915",
+      "ai_probability": 0.024396553774751792,
+      "decimal_odds": 19.2,
+      "ev": 0.4684138324752344,
+      "probability_rank": 1,
+      "min_units": 6,
+      "min_stake": 600,
+      "allocation_weight": 0.016697188056623326,
+      "stake": 1100
+    },
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "umaren",
+      "kumiban": "1215",
+      "ai_probability": 0.022753906510004564,
+      "decimal_odds": 500.8,
+      "ev": 11.395156380210286,
+      "probability_rank": 2,
+      "min_units": 1,
+      "min_stake": 100,
+      "allocation_weight": 0.0768097080044987,
+      "stake": 2300
+    },
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "umaren",
+      "kumiban": "0615",
+      "ai_probability": 0.022354878547179168,
+      "decimal_odds": 44.7,
+      "ev": 0.9992630710589089,
+      "probability_rank": 3,
+      "min_units": 3,
+      "min_stake": 300,
+      "allocation_weight": 0.022346640050614805,
+      "stake": 900
+    },
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "umaren",
+      "kumiban": "1015",
+      "ai_probability": 0.020666250751743245,
+      "decimal_odds": 66.3,
+      "ev": 1.370172424840577,
+      "probability_rank": 4,
+      "min_units": 2,
+      "min_stake": 200,
+      "allocation_weight": 0.02419074848334735,
+      "stake": 900
+    },
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "umaren",
+      "kumiban": "1516",
+      "ai_probability": 0.019464698987298707,
+      "decimal_odds": 64.4,
+      "ev": 1.2535266147820368,
+      "probability_rank": 5,
+      "min_units": 2,
+      "min_stake": 200,
+      "allocation_weight": 0.021792872178040917,
+      "stake": 800
+    },
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "sanrenpuku",
+      "kumiban": "091215",
+      "ai_probability": 0.008009691014836565,
+      "decimal_odds": 823.0,
+      "ev": 6.591975705210493,
+      "probability_rank": 1,
+      "min_units": 1,
+      "min_stake": 100,
+      "allocation_weight": 0.02056475604459532,
+      "stake": 700
+    },
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "sanrenpuku",
+      "kumiban": "060915",
+      "ai_probability": 0.007861838165002572,
+      "decimal_odds": 79.3,
+      "ev": 0.6234437664847039,
+      "probability_rank": 2,
+      "min_units": 2,
+      "min_stake": 200,
+      "allocation_weight": 0.0062075859740111684,
+      "stake": 400
+    },
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "sanrenpuku",
+      "kumiban": "061215",
+      "ai_probability": 0.007304070384283034,
+      "decimal_odds": 1933.3,
+      "ev": 14.12095927393439,
+      "probability_rank": 3,
+      "min_units": 1,
+      "min_stake": 100,
+      "allocation_weight": 0.027447136982433874,
+      "stake": 900
+    },
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "sanrenpuku",
+      "kumiban": "091015",
+      "ai_probability": 0.00723926171133874,
+      "decimal_odds": 128.8,
+      "ev": 0.9324169084204298,
+      "probability_rank": 4,
+      "min_units": 1,
+      "min_stake": 100,
+      "allocation_weight": 0.006990356866345071,
+      "stake": 300
+    },
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "sanrenpuku",
+      "kumiban": "091516",
+      "ai_probability": 0.006799301627804735,
+      "decimal_odds": 150.0,
+      "ev": 1.0198952441707103,
+      "probability_rank": 5,
+      "min_units": 1,
+      "min_stake": 100,
+      "allocation_weight": 0.006866605403235606,
+      "stake": 300
+    },
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "sanrenpuku",
+      "kumiban": "050915",
+      "ai_probability": 0.006763922160736513,
+      "decimal_odds": 156.7,
+      "ev": 1.0599066025874115,
+      "probability_rank": 6,
+      "min_units": 1,
+      "min_stake": 100,
+      "allocation_weight": 0.006963577283595875,
+      "stake": 300
+    },
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "sanrenpuku",
+      "kumiban": "101215",
+      "ai_probability": 0.006725661643043985,
+      "decimal_odds": 2426.5,
+      "ev": 16.31981797684623,
+      "probability_rank": 7,
+      "min_units": 1,
+      "min_stake": 100,
+      "allocation_weight": 0.027170189670084062,
+      "stake": 800
+    },
+    {
+      "race_code": "2026092706040911",
+      "bet_type": "sanrenpuku",
+      "kumiban": "061015",
+      "ai_probability": 0.00660151009644279,
+      "decimal_odds": 239.4,
+      "ev": 1.580401517088404,
+      "probability_rank": 8,
+      "min_units": 1,
+      "min_stake": 100,
+      "allocation_weight": 0.008299023813875055,
+      "stake": 300
+    }
+  ],
+  "odds_sources": {
+    "umaren": {
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/ur/2606040911?ninki=0",
+      "updated_at_text": "2026/9/27 15:49"
+    },
+    "sanrenpuku": {
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/sf/2606040911?ninki=0",
+      "updated_at_text": "2026/9/27 15:49"
+    }
+  },
+  "validation": {
+    "complete_odds": true,
+    "probability_sums": true,
+    "stake_sum_yen": 10000,
+    "stake_unit_yen": 100,
+    "single_ticket_payout_min_yen": 21120.0
+  }
+}
