@@ -11,7 +11,7 @@ import urllib.request
 from result_store import text
 from official_results import VENUES
 
-def fetch(source_url,race_code,historical_test=False):
+def fetch(source_url,race_code,historical_test=False,include_page=False):
     if urllib.parse.urlparse(source_url).hostname not in {'jra.jp','www.jra.jp','jra.go.jp','www.jra.go.jp'}:
         raise ValueError('Official entry URL required')
     req=urllib.request.Request(source_url,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
@@ -20,8 +20,10 @@ def fetch(source_url,race_code,historical_test=False):
     if not charset:
         m=re.search(br'charset=["\x27]?([A-Za-z0-9_-]+)',raw[:2000],re.I)
         charset=m.group(1).decode() if m else 'utf-8'
-    result=parse(raw.decode(charset),race_code,final,dt.datetime.now(dt.timezone.utc).isoformat(),historical_test)
+    page=raw.decode(charset)
+    result=parse(page,race_code,final,dt.datetime.now(dt.timezone.utc).isoformat(),historical_test)
     result['raw_page_sha256']=hashlib.sha256(raw).hexdigest()
+    if include_page:result['entry_page']=page
     return result
 
 def parse(page,race_code,source_url,obtained_at,historical_test=False):
