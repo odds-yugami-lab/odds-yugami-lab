@@ -1,0 +1,13 @@
+{
+  "record_type": "official_entries_validation",
+  "official_desktop_entries_downloaded": true,
+  "race_code": "2026101208040511",
+  "source_url": "https://jra.jp/JRADB/accessD.html?CNAME=pw01dde1008202604051120261012%2FBB",
+  "horses": 18,
+  "all_horse_ids_numbers_participants_weights_match_free_entries": true,
+  "nonJRA_participants_matched_by_explicit_name": true,
+  "historical_page_rejected_for_live_use": true,
+  "official_status_parser_connected": true,
+  "actual_cancelled_desktop_entry_row_tested": false,
+  "pre_race_current_day_snapshot_tested": false
+}
