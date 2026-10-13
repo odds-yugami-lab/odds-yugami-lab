@@ -1,0 +1,117 @@
+{
+  "record_type": "scheduled_latest_pipeline_preflight",
+  "is_pre_race_prediction": false,
+  "race_code": "2026101208040511",
+  "runners": 18,
+  "feature_count": 52,
+  "prior_30_features_recalculated": true,
+  "previous_information_assembled": true,
+  "previous_styles_from_saved_seed_not_web": false,
+  "official_free_entries_reconciled": true,
+  "previous_features_all_horses_publicly_sourced": true,
+  "previous_record_seed_fallback_count": 0,
+  "future_local_runner_previous_start_update_unresolved": false,
+  "model_inference_executed": true,
+  "all_odds_count": 969,
+  "selected_ticket_count": 13,
+  "budget_yen": 10000,
+  "live_source_bundle_acquire_executed": false,
+  "live_pre_race_prepare_executed": false,
+  "github_saved": true,
+  "chat_generated": true,
+  "settlement_checked": true,
+  "future_preparation": {
+    "record_type": "upcoming_registration_preparation",
+    "is_final_prediction": false,
+    "history_through": "2026-10-12",
+    "races": [
+      {
+        "name": "fuji",
+        "race_code": "2026101705040611",
+        "registered_horses": 14,
+        "previous_styles_resolved": 14,
+        "sire_ids_resolved": 14,
+        "known_feature_counts": [
+          42
+        ],
+        "feature_columns": 52,
+        "prediction_ready": false,
+        "not_yet_announced": [
+          "body_weight_change_kg",
+          "body_weight_kg",
+          "field_size",
+          "jockey_code",
+          "start_time",
+          "umaban",
+          "wakuban"
+        ]
+      },
+      {
+        "name": "shuka",
+        "race_code": "2026101808040711",
+        "registered_horses": 18,
+        "previous_styles_resolved": 18,
+        "sire_ids_resolved": 18,
+        "known_feature_counts": [
+          38,
+          40,
+          42
+        ],
+        "feature_columns": 52,
+        "prediction_ready": false,
+        "not_yet_announced": [
+          "body_weight_change_kg",
+          "body_weight_kg",
+          "field_size",
+          "jockey_code",
+          "start_time",
+          "umaban",
+          "wakuban"
+        ]
+      }
+    ]
+  },
+  "official_entry_links": [
+    {
+      "race_code": "2026101705040611",
+      "status": "not_yet_published",
+      "entry_url": null,
+      "entry_hub_url": "https://www.jra.go.jp/keiba/race/095/syutsuba.html",
+      "expected_publication_date": "2026-10-15",
+      "official_index_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/jyusyo.html",
+      "landing_url": "https://www.jra.go.jp/keiba/race/095.html",
+      "retrieved_at": "2026-10-13T03:41:53.304931+00:00",
+      "page_sha256": "a3f7631e6648e9f1a9b9e1e3f366e908a4f9e8d2ea0e73e15e3fe2804b3bda6f"
+    },
+    {
+      "race_code": "2026101808040711",
+      "status": "not_yet_published",
+      "entry_url": null,
+      "entry_hub_url": "https://www.jra.go.jp/keiba/g1/shuka/syutsuba.html",
+      "expected_publication_date": "2026-10-15",
+      "official_index_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/jyusyo.html",
+      "landing_url": "https://www.jra.go.jp/keiba/g1/shuka.html",
+      "retrieved_at": "2026-10-13T03:42:16.620727+00:00",
+      "page_sha256": "a5046b931eb106f3240c0e4bc9696961d62f07789f8c90a6ed732345c6143677"
+    }
+  ],
+  "prepared_at": "2026-10-13T03:42:16.621732+00:00",
+  "receipt": {
+    "status": "test_saved",
+    "race_code": "2026101208040511",
+    "commit_sha": "ffc039a82898736628ada56a0ba87e86151a23ab",
+    "recorded_at": "2026-10-13T03:42:30+00:00",
+    "record_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/ffc039a82898736628ada56a0ba87e86151a23ab/development/free_web/publication_tests/scheduled_preflight_20261013/2026101208040511.json",
+    "content_sha256": "20253f9f4ab82a9236066aadaeac8b51a37e6001855dfbe1986fbc655eea4234",
+    "test_only": true
+  },
+  "investment_yen": 10000,
+  "payout_yen": 0,
+  "current_live_pipeline_verified": false,
+  "remaining_live_checks": [
+    "current_cancelled_entry_row",
+    "in_sale_complete_odds",
+    "deadline_delivery"
+  ],
+  "source_code_commit": "0e63b2eb38134d59c72951fb30000cb8847b2baa"
+}
