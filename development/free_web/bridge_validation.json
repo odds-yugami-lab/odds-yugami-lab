@@ -1,0 +1,11 @@
+{
+  "new_rows": 321,
+  "race_count": 24,
+  "wins": 24,
+  "top3": 72,
+  "racing_stop": 1,
+  "repeat_extra_rows": 0,
+  "entry_metadata_source": "existing uploaded pilot, not a future web entry generator",
+  "missing_dates_between_baseline_and_added_results": true,
+  "prior_features_latest_certified": false
+}
