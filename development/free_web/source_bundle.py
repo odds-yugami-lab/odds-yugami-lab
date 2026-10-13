@@ -7,6 +7,7 @@ The official entry URL must be resolved from actual JRA links, never guessed.
 import concurrent.futures
 import datetime as dt
 import hashlib
+import re
 import urllib.request
 from entries import parse as parse_entries
 from official_entries import fetch as fetch_official,match_free_entries
@@ -18,7 +19,10 @@ JST=dt.timezone(dt.timedelta(hours=9))
 def download(url):
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
     with urllib.request.urlopen(req,timeout=25) as response:
-        raw=response.read();encoding=response.headers.get_content_charset() or 'utf-8'
+        raw=response.read();encoding=response.headers.get_content_charset()
+    if not encoding:
+        match=re.search(br'charset\s*=\s*["\x27]?([A-Za-z0-9_-]+)',raw[:3000],re.I)
+        encoding=match.group(1).decode() if match else 'utf-8'
     return raw.decode(encoding),dt.datetime.now(dt.timezone.utc).isoformat(),hashlib.sha256(raw).hexdigest()
 
 def verify_odds(parsed,official_snapshot,retrieved_at,page_sha256,source_url,now=None):
@@ -41,8 +45,13 @@ def verify_odds(parsed,official_snapshot,retrieved_at,page_sha256,source_url,now
                 source_updated_at=update.isoformat(),page_sha256=page_sha256,
                 official_entry_page_sha256=official_snapshot['page_sha256'])
 
-def acquire(race_code,official_entry_url):
-    # Resolve official URL outside this function through published JRA links.
+def acquire(race_code,official_entry_url=None):
+    if official_entry_url is None:
+        from entry_link_resolver import resolve
+        linked=resolve(race_code)
+        if linked['status']!='published':
+            raise ValueError('Official entries unavailable: '+linked['status'])
+        official_entry_url=linked['entry_url']
     official=fetch_official(official_entry_url,race_code,include_page=True)
     official_page=official.pop('entry_page')
     web_id=race_code[2:4]+race_code[8:]
