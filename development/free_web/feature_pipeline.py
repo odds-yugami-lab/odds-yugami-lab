@@ -9,17 +9,27 @@ import duckdb
 from entries import parse,attach_known_sires
 from previous_features import calculate as previous
 from prior_features import calculate as priors
+from entry_changes import reconcile
 
 CURRENT=['keibajo_code','track_code','distance_m','grade_code','field_size',
          'wakuban','umaban','sex_code','age','carried_weight_kg','sire_code',
          'body_weight_kg','body_weight_change_kg','jockey_code','trainer_code','start_time']
 
 def assemble(page,race_id,stage,history_path,feature_spec,style_evidence,
-             obtained_at,history_complete_through,pedigree_paths=()):
+             obtained_at,history_complete_through,pedigree_paths=(),participation_snapshot=None):
     obtained=dt.datetime.fromisoformat(obtained_at)
     if obtained.tzinfo is None:raise ValueError('Timezone required')
     known_date=obtained.astimezone(dt.timezone(dt.timedelta(hours=9))).date()
     rows=parse(page,race_id,stage)
+    withdrawn=[]
+    if participation_snapshot is not None:
+        if stage!='entries':raise ValueError('Participation requires confirmed entries')
+        participation_time=dt.datetime.fromisoformat(participation_snapshot['obtained_at'])
+        if participation_time.tzinfo is None or participation_time>obtained:
+            raise ValueError('Invalid participation time')
+        if obtained-participation_time>dt.timedelta(seconds=90):
+            raise ValueError('Stale participation information')
+        rows,withdrawn=reconcile(rows,participation_snapshot)
     target=dt.date.fromisoformat(rows[0]['race_date'])
     if target<known_date:raise ValueError('Future/current race assembly only')
     coverage=dt.date.fromisoformat(history_complete_through)
@@ -39,7 +49,8 @@ def assemble(page,race_id,stage,history_path,feature_spec,style_evidence,
     blockers=[]
     if coverage<known_date-dt.timedelta(days=1):blockers.append('history_coverage_not_current')
     if stage!='entries':blockers.append('confirmed_entries_not_available')
-    if stage=='entries':blockers.append('cancellation_handling_not_verified')
+    if stage=='entries' and participation_snapshot is None:
+        blockers.append('verified_participation_snapshot_missing')
     numbers=[r['umaban'] for r in rows if r['umaban'] is not None]
     if len(numbers)!=len(set(numbers)):raise ValueError('Duplicate horse numbers')
     for row in rows:
@@ -57,4 +68,5 @@ def assemble(page,race_id,stage,history_path,feature_spec,style_evidence,
             'feature_count':len(feature_spec['features']),'runners':rows,
             'blockers':blockers,'prediction_ready':all(r['prediction_ready'] for r in rows),
             'is_pre_race_prediction':False,
-            'cancellation_handling_verified':False}
+            'withdrawn_horse_ids':[r['ketto_toroku_bango'] for r in withdrawn],
+            'cancellation_handling_verified':participation_snapshot is not None}
