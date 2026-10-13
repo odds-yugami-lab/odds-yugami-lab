@@ -494,7 +494,7 @@
       "prediction_ready": false
     }
   ],
-  "retrieved_at": "2026-10-13T00:18:43.690283+00:00",
+  "retrieved_at": "2026-10-13T00:16:50.921314+00:00",
   "pedigree_lookup_cutoff": "2026-10-13",
   "validation": {
     "registration_rows": 14,
@@ -502,5 +502,6 @@
     "historical_entry_field_checks": 198,
     "historical_entry_field_mismatches": 0,
     "is_prediction_ready": false
-  }
+  },
+  "processed_at": "2026-10-13T00:18:43.690283+00:00"
 }
