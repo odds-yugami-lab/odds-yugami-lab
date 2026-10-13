@@ -16,7 +16,7 @@ CURRENT=['keibajo_code','track_code','distance_m','grade_code','field_size',
          'body_weight_kg','body_weight_change_kg','jockey_code','trainer_code','start_time']
 
 def assemble(page,race_id,stage,history_path,feature_spec,style_evidence,
-             obtained_at,history_complete_through,pedigree_paths=(),participation_snapshot=None,test_only=False):
+             obtained_at,history_complete_through,pedigree_paths=(),participation_snapshot=None,test_only=False,previous_overrides=()):
     obtained=dt.datetime.fromisoformat(obtained_at)
     if obtained.tzinfo is None:raise ValueError('Timezone required')
     known_date=obtained.astimezone(dt.timezone(dt.timedelta(hours=9))).date()
@@ -46,6 +46,22 @@ def assemble(page,race_id,stage,history_path,feature_spec,style_evidence,
         rows=attach_known_sires(con,rows,[history_path,*pedigree_paths],known_date.isoformat())
         rows=previous(con,history_path,rows,target.isoformat(),styles)
         rows=priors(con,history_path,rows,target.isoformat())
+    overrides={}
+    for evidence in previous_overrides:
+        if evidence['horse_id'] in overrides:raise ValueError('Duplicate previous evidence')
+        if evidence.get('jra_nar_previous_fields_matched') is not True:raise ValueError('Unverified previous override')
+        if dt.date.fromisoformat(evidence['previous_race_date'])>=target:raise ValueError('Future previous override')
+        overrides[evidence['horse_id']]=evidence
+    for row in rows:
+        if row['ketto_toroku_bango'] not in overrides:continue
+        evidence=overrides[row['ketto_toroku_bango']]
+        if row['previous_race_date'] and evidence['previous_race_date']<row['previous_race_date']:
+            raise ValueError('Older previous override')
+        fields=['previous_race_date','days_since_last_race','days_since_previous_race',
+                'previous_finish_position','previous_running_style_code','previous_distance_m',
+                'previous_keibajo_code','previous_track_code','previous_body_weight_kg','previous_body_weight_change_kg']
+        row.update({k:evidence[k] for k in fields})
+        row['previous_evidence_url']=evidence['source_url']
     blockers=[]
     if test_only:blockers.append('historical_rehearsal_not_live_prediction')
     if coverage<known_date-dt.timedelta(days=1):blockers.append('history_coverage_not_current')
