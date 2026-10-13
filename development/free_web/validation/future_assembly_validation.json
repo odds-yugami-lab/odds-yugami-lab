@@ -1,0 +1,23 @@
+{
+  "record_type": "future_feature_assembly_test",
+  "race_code": "2026101705040611",
+  "registered_horses": 14,
+  "feature_columns_present": 52,
+  "previous_styles_resolved": 14,
+  "prediction_ready": false,
+  "blockers": [
+    "confirmed_entries_not_available"
+  ],
+  "unresolved_current_fields": [
+    "body_weight_change_kg",
+    "body_weight_kg",
+    "field_size",
+    "jockey_code",
+    "start_time",
+    "umaban",
+    "wakuban"
+  ],
+  "cancellation_handling_verified": false,
+  "test_source": "Cached free registration page and source-attributed prior styles; no forecast generated.",
+  "stale_history_blocks_prediction": true
+}
