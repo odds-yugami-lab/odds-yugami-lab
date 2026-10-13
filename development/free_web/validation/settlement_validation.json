@@ -1,0 +1,13 @@
+{
+  "record_type": "settlement_validation",
+  "actual_public_payout_table_parsed": true,
+  "payout_table_source": "https://sports.yahoo.co.jp/keiba/race/result/2608040511",
+  "test_tickets_are_synthetic": true,
+  "winning_ticket_math_checked": true,
+  "refund_math_checked": true,
+  "original_ticket_record_unchanged": true,
+  "unverified_payout_rejected": true,
+  "non_pre_race_record_rejected_for_live_performance": true,
+  "official_result_acquisition_connected": false,
+  "real_prediction_settled": false
+}
