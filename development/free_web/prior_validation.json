@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "race_date": "2025-09-28",
+      "runners": 345,
+      "checks": 10350,
+      "mismatches": 0
+    },
+    {
+      "race_date": "2026-01-04",
+      "runners": 333,
+      "checks": 9990,
+      "mismatches": 0
+    },
+    {
+      "race_date": "2026-10-04",
+      "runners": 362,
+      "checks": 10860,
+      "mismatches": 0,
+      "scope": "historical replay only; web-result integration pending"
+    }
+  ],
+  "scope": "historical replay; web-result integration pending"
+}
