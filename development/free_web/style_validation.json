@@ -1,0 +1,20 @@
+{
+  "definition_url": "https://jra-van.jp/dlb/sdv/sdk/JV-Data4901.pdf",
+  "tests": [
+    {
+      "race_id": "2609040211",
+      "result_horses": 16,
+      "reference_comparisons": 11,
+      "mismatches": 0
+    },
+    {
+      "race_id": "2605020611",
+      "result_horses": 18,
+      "reference_comparisons": 14,
+      "mismatches": 0
+    }
+  ],
+  "unresolved_not_zero_filled": true,
+  "straight_course_supported": false,
+  "swan_unresolved": 18
+}
