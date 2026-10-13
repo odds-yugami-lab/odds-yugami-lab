@@ -1,0 +1,38 @@
+{
+  "record_type": "integration_rehearsal",
+  "is_pre_race_prediction": false,
+  "race_code": "2026101208040511",
+  "runners": 18,
+  "feature_count": 52,
+  "prior_30_features_recalculated": true,
+  "previous_information_assembled": true,
+  "previous_styles_from_saved_seed_not_web": true,
+  "official_free_entries_reconciled": true,
+  "previous_record_seed_fallback_count": 1,
+  "future_local_runner_previous_start_update_unresolved": true,
+  "model_inference_executed": true,
+  "all_odds_count": 969,
+  "selected_ticket_count": 13,
+  "budget_yen": 10000,
+  "live_source_bundle_acquire_executed": false,
+  "live_pre_race_prepare_executed": false,
+  "github_saved": true,
+  "chat_generated": true,
+  "settlement_checked": true,
+  "receipt": {
+    "status": "test_saved",
+    "race_code": "2026101208040511",
+    "commit_sha": "aca98f1324359f046708331910b95130e7757a64",
+    "recorded_at": "2026-10-13T02:46:42+00:00",
+    "record_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/aca98f1324359f046708331910b95130e7757a64/development/free_web/publication_tests/2026101208040511.json",
+    "content_sha256": "b95a77eb57140c988ddf1ec60dbf94be86f5d687ac313e4f70f6228f7180c34b",
+    "test_only": true
+  },
+  "settlement": {
+    "investment_yen": 10000,
+    "payout_yen": 0,
+    "profit_yen": -10000,
+    "recovery_percent": 0.0
+  },
+  "current_live_pipeline_verified": false
+}
