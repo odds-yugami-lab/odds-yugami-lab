@@ -1,0 +1,18 @@
+# 無料予想の実行手順（2026-10-13）
+
+追加料金なし。モデル・履歴は非公開。購入ルールは凍結corrected V2。
+
+## 予想
+1. LibraryのJRA_free_model_52_20261013.zip、JRA_free_history_20261012.zipを取得・展開する。coverage_manifest.jsonの履歴更新日を確認し、開催が追加された場合は無料結果と確定出走情報からhistory_bridgeで履歴を追記する。元のファイルは上書きしない。更新した履歴は同じLibraryファイルの新しいバージョンとして保存する。
+2. 無料の当日出馬表と、JRA公式で確認した全頭の出走/取消/除外情報を取得する。出馬表の****や馬体重未発表だけで取消を推定しない。entry_changesの完全なhorse_statusesを作る。確認できなければverified=trueを設定しない。
+3. 前走通過順位から取得した脚質を出典付きで準備する。feature_pipeline.assembleを実行し、prediction_ready=trueであることを確認する。新しい騎手・取消に合わせて過去成績を再計算する。
+4. 馬連・3連複全組合せをodds.parseで取得する。この関数だけではverified_liveにならない。取得ページが発売中で当該レースに対応し、更新時刻・取得時刻・公式出走情報と整合することを実際に確認する。発走前であることを時計で確認する。未確認のまま状態を書き換えない。
+5. pre_race_record.prepareで52項目の推論とcorrected V2配分を実行する。publication.requestでGitHub保存要求を作る。content_sha256とtest_onlyはGitHub create_fileへの引数から除く。
+6. 対象pathをfetch_fileして存在確認する。既存なら上書きせず確認済み事前記録を参照する。404で存在しなければcreate_fileする。commit_shaを取得し、fetch_file(ref=commit_sha)のcontentとfetch_commitのcreated_atを確認してpublication.confirmへ渡す。保存/確認/提示のいずれも発走12分前を超えたら事前予想の完了を宣言しない。
+7. confirmのreceiptはpredictions/free52_receipts/<race_code>.jsonに新規保存する。記録本体を後から書き換えない。チャット用一覧とX投稿文を提示する。Xへ送信しない。test_onlyの記録にはX投稿文を作らない。
+
+## 答え合わせ
+事前記録とreceiptを読み、commit指定で同一内容を確認する。JRA公式の確定払戻と返還対象を取得する。無料補助ページのsettlement.parse_payoutsは未照合の候補として扱い、official_verified=trueを未確認で設定しない。settlement.settleのrecordとpublicationには保存済み本体とreceiptを渡し、結果をresults/free52/<race_code>.jsonへ新規保存する。test_onlyの記録は実戦成績から除外し、後付けの再予想はしない。
+
+## 未接続・未検証
+当日のJRA公式出走/取消情報の自動取得、発売中オッズの実証、公式払戻の自動取得、本番での期限内完走。手順の設定は運用完成の証拠ではない。対象時刻は現行15:30/15:40/15:45枠で、他の発走時刻の全重賞対応は未確認。
