@@ -1,0 +1,20 @@
+{
+  "record_type": "local_previous_update_validation",
+  "horse_id": "2020101301",
+  "previous_date": "2026-07-20",
+  "previous_source": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_babaCode=20&k_raceDate=2026%2F07%2F20&k_raceNo=11",
+  "jra_previous_reference_matched": true,
+  "all_previous_9_features_resolved_from_jra_nar": true,
+  "model_recalculated": true,
+  "same_tickets_and_stakes_as_previous_rehearsal": true,
+  "previous_record_seed_fallback_count": 0,
+  "runners": 18,
+  "all_odds_count": 969,
+  "selected_ticket_count": 13,
+  "budget_yen": 10000,
+  "supported_local_venue": "大井・ダート右",
+  "other_local_venues_tested": false,
+  "result_url_resolution_automatic": false,
+  "is_pre_race_prediction": false,
+  "other_17_styles_still_saved_seed_in_this_rehearsal": true
+}
