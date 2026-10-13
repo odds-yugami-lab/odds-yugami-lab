@@ -1,0 +1,64 @@
+{
+  "record_type": "scheduled_retrospective_rehearsal",
+  "created_at": "2026-10-13T01:30:15.322124+00:00",
+  "race_code": "2026092706040911",
+  "is_pre_race_prediction": false,
+  "is_live_operation_ready": false,
+  "odds_status": "final_postrace",
+  "model_package": "JRA_FREE_NO_WORKOUT_52_20261013",
+  "feature_count": 52,
+  "runners": 16,
+  "checks": {
+    "library_model_materialized": true,
+    "library_history_materialized": true,
+    "python_model_inference_executed": true,
+    "github_source_read": true,
+    "all_680_odds_downloaded_and_parsed": true,
+    "probabilities_match_previous_calculation": true,
+    "max_probability_absolute_difference": 0.0,
+    "tickets_and_amounts_match_previous_calculation": true,
+    "allocation_core_bytes_match_frozen_reference": true
+  },
+  "allocation_rule": "corrected_V2",
+  "allocation_core_sha256": "3799c8a536a332581204f20f5f26bfeaf93240c863042a0225e3ef3382f795ae",
+  "all_combination_count": 680,
+  "selected_ticket_count": 13,
+  "validation": {
+    "complete_odds": true,
+    "probability_sums": true,
+    "stake_sum_yen": 10000,
+    "stake_unit_yen": 100,
+    "single_ticket_payout_min_yen": 21120.0
+  },
+  "model_files_sha256": {
+    "win_model.joblib": "0d098fe95abfe1453cedbca9803be68d6ce8b8f82bf36514b3f6557aac02b645",
+    "top3_model.joblib": "f0e1109be2bd6a4dfcd2099df46cb95f17d846d202b0e1b0a39f6e5123cd4115",
+    "win_platt.joblib": "191cff046054aecd53ed62d72376e6a11fc9c3ee244bcffd0f0bd37569581ded",
+    "top3_platt.joblib": "5df2d77bfb2e595158a740d76233183f6c11ad1f26139f7196d5af8fe7756dec"
+  },
+  "input_features_sha256": "4920cf95f08929b48eed21419036cb2663b81c2c7513c00bda48277a48047c19",
+  "odds_sources": {
+    "umaren": {
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/ur/2606040911?ninki=0",
+      "retrieved_at": "2026-10-13T01:30:14.373791+00:00",
+      "page_sha256": "ef6708acf435a78ab38cc11b9c43976d4e7687256f183abe96f80cf57fd9aa4b",
+      "source_updated_at_text": "2026/9/27 15:49",
+      "combination_count": 120
+    },
+    "sanrenpuku": {
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/sf/2606040911?ninki=0",
+      "retrieved_at": "2026-10-13T01:30:14.517180+00:00",
+      "page_sha256": "abe11df6f12e3ad1e09e208faea37ec64f4ec7b61537fe4857fc09ac6c56ab25",
+      "source_updated_at_text": "2026/9/27 15:49",
+      "combination_count": 560
+    }
+  },
+  "not_verified": [
+    "future_race_feature_generation_end_to_end",
+    "live_pre_race_odds_fetch",
+    "deadline_delivery",
+    "future_run_reliability"
+  ],
+  "github_save_confirmation": "Verified externally after file creation; this file alone is not confirmation."
+}
+
