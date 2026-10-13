@@ -15,7 +15,7 @@ from odds import parse as odds_parse
 from bet_pipeline import retrospective
 from publication import request
 
-def run(model_dir,history_path,pilot_path,official_page,free_page):
+def run(model_dir,history_path,pilot_path,official_page,free_page,previous_overrides=()):
     race='2026101208040511';web='2608040511'
     stamp=dt.datetime.now(dt.timezone.utc).isoformat()
     official=official_parse(official_page,race,
@@ -28,7 +28,7 @@ def run(model_dir,history_path,pilot_path,official_page,free_page):
             for horse,date,style in values if date is not None]
     assembly=assemble(free_page,web,'entries',history_path,
        json.loads((Path(model_dir)/'feature_spec.json').read_text()),styles,stamp,'2026-10-12',
-       pedigree_paths=[pilot_path],participation_snapshot=official,test_only=True)
+       pedigree_paths=[pilot_path],participation_snapshot=official,test_only=True,previous_overrides=previous_overrides)
     assert not assembly['prediction_ready']
     runners=assembly['runners'];assert len(runners)==18
     # One local runner has a newer local start absent from the JRA result
