@@ -1,0 +1,19 @@
+{
+  "record_type": "publication_validation",
+  "test_only": true,
+  "actual_github_create_succeeded": true,
+  "committed_bytes_confirmed": true,
+  "commit_time_confirmed": true,
+  "chat_ticket_list_generated": true,
+  "x_post_sent": false,
+  "real_pre_race_publication_tested": false,
+  "receipt": {
+    "status": "test_saved",
+    "race_code": "2026092706040911",
+    "commit_sha": "7558d9e3481e4e4889d80601c35ef9893ccd00dd",
+    "recorded_at": "2026-10-13T01:47:48+00:00",
+    "record_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/7558d9e3481e4e4889d80601c35ef9893ccd00dd/development/free_web/publication_tests/2026092706040911.json",
+    "content_sha256": "f920ca5041cf7929f6a74142a9cea91a46a4481c75f4fe526c0c262b6beb584d",
+    "test_only": true
+  }
+}
