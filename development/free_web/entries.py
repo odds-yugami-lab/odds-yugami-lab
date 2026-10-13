@@ -90,6 +90,8 @@ def parse(page, race_id, stage):
             body=re.fullmatch(r'(\d+)\(([+-]?\d+)\)',text(cells[6]))
             bw=int(body.group(1)) if body else None;change=int(body.group(2)) if body else None
         rows.append(dict(common,ketto_toroku_bango=identity(horse_cell,'horse'),
+                         trainer_name=text(re.search(r'<a\b[^>]*>(.*?)</a>',trainer_cell,re.S).group(1)),
+                         jockey_name=text(re.search(r'<a\b[^>]*>(.*?)</a>',cells[3],re.S).group(1)) if stage=='entries' else None,
                          trainer_code=identity(trainer_cell,'trainer'),jockey_code=jockey,
                          sire_name=sire,sire_code=None,sex_code=SEX[sexage.group(1)],age=int(sexage.group(2)),
                          carried_weight_kg=float(weight) if re.fullmatch(r'\d+(?:\.\d+)?',weight) else None,
