@@ -1,0 +1,24 @@
+{
+  "record_type": "official_result_acquisition_test",
+  "official_static_html_downloaded": true,
+  "race_code": "2026092706040911",
+  "source_url": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint2026.html",
+  "payouts_per_100_yen": {
+    "umaren": {
+      "0616": 13560
+    },
+    "sanrenpuku": {
+      "050616": 73620
+    }
+  },
+  "result_horses": 16,
+  "wrong_race_rejected": true,
+  "nonofficial_source_rejected": true,
+  "retrospective_test_payout_yen": 0,
+  "is_live_performance_record": false,
+  "dynamic_result_page_access": "HTTP403",
+  "official_pdf_downloaded": true,
+  "official_pdf_digits_extract_reliably": false,
+  "g2_g3_official_result_acquisition_verified": false,
+  "pre_race_cancellation_acquisition_verified": false
+}
