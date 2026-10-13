@@ -16,3 +16,10 @@
 
 ## 未接続・未検証
 当日のJRA公式出走/取消情報の自動取得、発売中オッズの実証、公式払戻の自動取得、本番での期限内完走。手順の設定は運用完成の証拠ではない。対象時刻は現行15:30/15:40/15:45枠で、他の発走時刻の全重賞対応は未確認。
+
+## 取得処理の接続更新
+- source_bundle.acquire(race_code, official_entry_url)で当日の公式出馬表、無料出馬表、馬連・3連複全組合せオッズを取得する。official_entry_urlは実際のJRA出馬表リンクから解決し、チェックサム付きURLを推測しない。公式出馬表の過去ページを当日確認に使用しない。
+- official_entries.match_free_entriesで馬番・騎手・調教師・馬体重を照合する。地方所属など公式IDがない場合は名前を厳密に照合する。取消をオッズ欠落だけで決めない。
+- source_bundleのofficial_participationをfeature_pipeline.assembleのparticipation_snapshotへ渡す。entry_page、entry_retrieved_at、odds_snapshotsもそれぞれ後続処理へ渡す。脚質履歴と最新の過去履歴が別途必要。
+- official_results.fetch_for_race(race_code)で公式重賞一覧から結果ページを選択し、GⅠ・GⅡ・GⅢの払戻と返還対象を取得する。対応ページが未公開・未対応なら未確定と報告する。
+- 過去GⅡ18頭の公式出馬表照合とGⅠ/GⅡ/GⅢの公式結果取得を確認済み。source_bundleの当日発売中実行、実際の公式取消行、当日発走12分前の完走は未検証。
