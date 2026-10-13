@@ -1,0 +1,51 @@
+{
+  "record_type": "upcoming_registration_preparation",
+  "is_final_prediction": false,
+  "history_through": "2026-10-12",
+  "races": [
+    {
+      "name": "fuji",
+      "race_code": "2026101705040611",
+      "registered_horses": 14,
+      "previous_styles_resolved": 14,
+      "sire_ids_resolved": 14,
+      "known_feature_counts": [
+        42
+      ],
+      "feature_columns": 52,
+      "prediction_ready": false,
+      "not_yet_announced": [
+        "body_weight_change_kg",
+        "body_weight_kg",
+        "field_size",
+        "jockey_code",
+        "start_time",
+        "umaban",
+        "wakuban"
+      ]
+    },
+    {
+      "name": "shuka",
+      "race_code": "2026101808040711",
+      "registered_horses": 18,
+      "previous_styles_resolved": 18,
+      "sire_ids_resolved": 18,
+      "known_feature_counts": [
+        38,
+        40,
+        42
+      ],
+      "feature_columns": 52,
+      "prediction_ready": false,
+      "not_yet_announced": [
+        "body_weight_change_kg",
+        "body_weight_kg",
+        "field_size",
+        "jockey_code",
+        "start_time",
+        "umaban",
+        "wakuban"
+      ]
+    }
+  ]
+}
