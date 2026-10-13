@@ -16,7 +16,7 @@ CURRENT=['keibajo_code','track_code','distance_m','grade_code','field_size',
          'body_weight_kg','body_weight_change_kg','jockey_code','trainer_code','start_time']
 
 def assemble(page,race_id,stage,history_path,feature_spec,style_evidence,
-             obtained_at,history_complete_through,pedigree_paths=(),participation_snapshot=None):
+             obtained_at,history_complete_through,pedigree_paths=(),participation_snapshot=None,test_only=False):
     obtained=dt.datetime.fromisoformat(obtained_at)
     if obtained.tzinfo is None:raise ValueError('Timezone required')
     known_date=obtained.astimezone(dt.timezone(dt.timedelta(hours=9))).date()
@@ -29,9 +29,9 @@ def assemble(page,race_id,stage,history_path,feature_spec,style_evidence,
             raise ValueError('Invalid participation time')
         if obtained-participation_time>dt.timedelta(seconds=90):
             raise ValueError('Stale participation information')
-        rows,withdrawn=reconcile(rows,participation_snapshot)
+        rows,withdrawn=reconcile(rows,participation_snapshot,test_only=test_only)
     target=dt.date.fromisoformat(rows[0]['race_date'])
-    if target<known_date:raise ValueError('Future/current race assembly only')
+    if target<known_date and not test_only:raise ValueError('Future/current race assembly only')
     coverage=dt.date.fromisoformat(history_complete_through)
     if coverage>known_date:raise ValueError('Future history coverage')
     styles={}
@@ -47,6 +47,7 @@ def assemble(page,race_id,stage,history_path,feature_spec,style_evidence,
         rows=previous(con,history_path,rows,target.isoformat(),styles)
         rows=priors(con,history_path,rows,target.isoformat())
     blockers=[]
+    if test_only:blockers.append('historical_rehearsal_not_live_prediction')
     if coverage<known_date-dt.timedelta(days=1):blockers.append('history_coverage_not_current')
     if stage!='entries':blockers.append('confirmed_entries_not_available')
     if stage=='entries' and participation_snapshot is None:
