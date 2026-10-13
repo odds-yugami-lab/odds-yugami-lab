@@ -1,0 +1,363 @@
+{
+  "race_id": "2605040611",
+  "registration_horses": 14,
+  "previous_selection_replay_checks": 2896,
+  "previous_selection_replay_mismatches": 0,
+  "style_source": "free public result pages for actual previous races",
+  "rows": [
+    {
+      "horse_id": "2022105396",
+      "previous_race_date": "2026-04-26",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2021110030",
+      "previous_race_date": "2026-07-26",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2021100953",
+      "previous_race_date": "2026-06-07",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2023103184",
+      "previous_race_date": "2026-06-21",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2022106691",
+      "previous_race_date": "2026-04-04",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2021105119",
+      "previous_race_date": "2026-08-16",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2021102224",
+      "previous_race_date": "2026-06-14",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2022110114",
+      "previous_race_date": "2026-06-21",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2019104878",
+      "previous_race_date": "2026-06-28",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2021105557",
+      "previous_race_date": "2026-06-07",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2022105836",
+      "previous_race_date": "2026-09-05",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2021104893",
+      "previous_race_date": "2026-07-26",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2022104772",
+      "previous_race_date": "2026-08-16",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    },
+    {
+      "horse_id": "2022104053",
+      "previous_race_date": "2026-04-05",
+      "unresolved_fields": [
+        "field_size",
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg",
+        "jockey_prior_starts",
+        "jockey_prior_wins",
+        "jockey_prior_top3",
+        "jockey_prior_win_rate",
+        "jockey_prior_top3_rate"
+      ]
+    }
+  ],
+  "previous_web_style_resolved": 14,
+  "previous_style_sources": [
+    {
+      "horse_id": "2021100953",
+      "race_id": "2605030211",
+      "race_date": "2026-06-07",
+      "style": "4",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605030211",
+      "retrieved_at": "2026-10-13T00:30:29.360967+00:00"
+    },
+    {
+      "horse_id": "2021110030",
+      "race_id": "2604020207",
+      "race_date": "2026-07-26",
+      "style": "4",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2604020207",
+      "retrieved_at": "2026-10-13T00:30:23.372982+00:00"
+    },
+    {
+      "horse_id": "2022104053",
+      "race_id": "2609020410",
+      "race_date": "2026-04-05",
+      "style": "3",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2609020410",
+      "retrieved_at": "2026-10-13T00:30:35.365623+00:00"
+    },
+    {
+      "horse_id": "2022106691",
+      "race_id": "2606030311",
+      "race_date": "2026-04-04",
+      "style": "1",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2606030311",
+      "retrieved_at": "2026-10-13T00:30:29.343536+00:00"
+    },
+    {
+      "horse_id": "2021105119",
+      "race_id": "2607020807",
+      "race_date": "2026-08-16",
+      "style": "4",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2607020807",
+      "retrieved_at": "2026-10-13T00:30:35.298365+00:00"
+    },
+    {
+      "horse_id": "2019104878",
+      "race_id": "2602010611",
+      "race_date": "2026-06-28",
+      "style": "3",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2602010611",
+      "retrieved_at": "2026-10-13T00:30:23.390822+00:00"
+    },
+    {
+      "horse_id": "2023103184",
+      "race_id": "2609030611",
+      "race_date": "2026-06-21",
+      "style": "4",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2609030611",
+      "retrieved_at": "2026-10-13T00:30:41.793127+00:00"
+    },
+    {
+      "horse_id": "2022104772",
+      "race_id": "2601010811",
+      "race_date": "2026-08-16",
+      "style": "3",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2601010811",
+      "retrieved_at": "2026-10-13T00:30:23.260144+00:00"
+    },
+    {
+      "horse_id": "2022105836",
+      "race_id": "2606040111",
+      "race_date": "2026-09-05",
+      "style": "4",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2606040111",
+      "retrieved_at": "2026-10-13T00:30:29.427190+00:00"
+    },
+    {
+      "horse_id": "2022110114",
+      "race_id": "2609030611",
+      "race_date": "2026-06-21",
+      "style": "3",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2609030611",
+      "retrieved_at": "2026-10-13T00:30:41.793127+00:00"
+    },
+    {
+      "horse_id": "2021102224",
+      "race_id": "2609030411",
+      "race_date": "2026-06-14",
+      "style": "3",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2609030411",
+      "retrieved_at": "2026-10-13T00:30:41.603145+00:00"
+    },
+    {
+      "horse_id": "2021104893",
+      "race_id": "2604020207",
+      "race_date": "2026-07-26",
+      "style": "2",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2604020207",
+      "retrieved_at": "2026-10-13T00:30:23.372982+00:00"
+    },
+    {
+      "horse_id": "2022105396",
+      "race_id": "2608030211",
+      "race_date": "2026-04-26",
+      "style": "2",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2608030211",
+      "retrieved_at": "2026-10-13T00:30:35.195663+00:00"
+    },
+    {
+      "horse_id": "2021105557",
+      "race_id": "2605030211",
+      "race_date": "2026-06-07",
+      "style": "4",
+      "error": null,
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/result/2605030211",
+      "retrieved_at": "2026-10-13T00:30:29.360967+00:00"
+    }
+  ],
+  "is_prediction_ready": false
+}
