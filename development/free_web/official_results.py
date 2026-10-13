@@ -1,6 +1,7 @@
-"""Fetch/parse supported JRA official static G1 result HTML.
+"""Fetch/parse supported JRA official desktop result HTML.
 
-Does not support dynamic result pages or pre-race participation acquisition.
+Supports tested static G1/G2 and correct linked desktop result pages.
+Does not support pre-race participation acquisition.
 Unsupported pages fail closed. PDF digit extraction is not trusted.
 """
 import datetime as dt
@@ -12,6 +13,30 @@ from result_store import text
 
 VENUES={'01':'札幌','02':'函館','03':'福島','04':'新潟','05':'東京',
         '06':'中山','07':'中京','08':'京都','09':'阪神','10':'小倉'}
+
+def result_url(index_page,race_code):
+    date=dt.datetime.strptime(race_code[:8],'%Y%m%d').date()
+    candidates=[]
+    for row in re.findall(r'<tr\b[^>]*>(.*?)</tr>',index_page,re.S):
+        date_cell=re.search(r'<td\b[^>]*class="date"[^>]*>(.*?)</td>',row,re.S)
+        place=re.search(r'<td\b[^>]*class="place"[^>]*>(.*?)</td>',row,re.S)
+        if not date_cell or not place:continue
+        if not re.match(f'{date.month}月{date.day}日(?:[^0-9]|$)',text(date_cell.group(1))):continue
+        if text(place.group(1))!=VENUES[race_code[8:10]]:continue
+        if not re.search(r'grade_icon g[123]"',row):continue
+        result=re.search(r'<td\b[^>]*class="result"[^>]*>(.*?)</td>',row,re.S)
+        links=re.findall(r'href="([^"]+)"',result.group(1)) if result else []
+        if len(links)==1:candidates.append(urllib.parse.urljoin('https://www.jra.go.jp',links[0]))
+    if len(candidates)!=1:raise ValueError('Official graded result unavailable or ambiguous')
+    return candidates[0]
+
+def fetch_for_race(race_code):
+    index_url=f'https://www.jra.go.jp/datafile/seiseki/replay/{race_code[:4]}/jyusyo.html'
+    request=urllib.request.Request(index_url,headers={'User-Agent':'Mozilla/5.0'})
+    with urllib.request.urlopen(request,timeout=25) as response:
+        raw=response.read();charset=response.headers.get_content_charset() or 'shift_jis'
+    url=result_url(raw.decode(charset),race_code)
+    return fetch(url,race_code)
 
 def parse(page,race_code,source_url,obtained_at):
     host=urllib.parse.urlparse(source_url).hostname
@@ -64,7 +89,7 @@ def parse(page,race_code,source_url,obtained_at):
     return {'race_code':race_code,'official_verified':True,'source_url':source_url,
             'obtained_at':stamp.isoformat(),'page_sha256':hashlib.sha256(page.encode()).hexdigest(),
             'payouts_per_100_yen':payouts,'refunded_horse_numbers':refunds,
-            'finish_rows':finishes,'source_format':'JRA_static_G1_HTML',
+            'finish_rows':finishes,'source_format':'JRA_desktop_result_HTML',
             'usable_for_pre_race_participation':False}
 
 def fetch(source_url,race_code):
