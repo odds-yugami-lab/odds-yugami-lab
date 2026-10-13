@@ -49,7 +49,8 @@ def assemble(page,race_id,stage,history_path,feature_spec,style_evidence,
     overrides={}
     for evidence in previous_overrides:
         if evidence['horse_id'] in overrides:raise ValueError('Duplicate previous evidence')
-        if evidence.get('jra_nar_previous_fields_matched') is not True:raise ValueError('Unverified previous override')
+        if evidence.get('jra_nar_previous_fields_matched') is not True and evidence.get('official_previous_fields_matched') is not True:
+            raise ValueError('Unverified previous override')
         if dt.date.fromisoformat(evidence['previous_race_date'])>=target:raise ValueError('Future previous override')
         overrides[evidence['horse_id']]=evidence
     for row in rows:
