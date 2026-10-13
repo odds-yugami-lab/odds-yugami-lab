@@ -1,0 +1,13 @@
+{
+  "validation_type": "synthetic_clock_and_source_evidence",
+  "real_live_odds_verified": false,
+  "accepted_complete_fixture": true,
+  "rejected": [
+    "final_odds",
+    "stale_source",
+    "late",
+    "horse_missing",
+    "current_race_result_labels"
+  ],
+  "github_publisher_connected": false
+}
