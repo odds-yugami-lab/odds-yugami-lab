@@ -1,0 +1,32 @@
+{
+  "record_type": "official_entry_link_resolution_validation",
+  "future_races": [
+    {
+      "race_code": "2026101705040611",
+      "status": "not_yet_published",
+      "entry_url": null,
+      "entry_hub_url": "https://www.jra.go.jp/keiba/race/095/syutsuba.html",
+      "expected_publication_date": "2026-10-15",
+      "official_index_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/jyusyo.html",
+      "landing_url": "https://www.jra.go.jp/keiba/race/095.html",
+      "retrieved_at": "2026-10-13T03:28:38.312396+00:00",
+      "page_sha256": "a3f7631e6648e9f1a9b9e1e3f366e908a4f9e8d2ea0e73e15e3fe2804b3bda6f"
+    },
+    {
+      "race_code": "2026101808040711",
+      "status": "not_yet_published",
+      "entry_url": null,
+      "entry_hub_url": "https://www.jra.go.jp/keiba/g1/shuka/syutsuba.html",
+      "expected_publication_date": "2026-10-15",
+      "official_index_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/jyusyo.html",
+      "landing_url": "https://www.jra.go.jp/keiba/g1/shuka.html",
+      "retrieved_at": "2026-10-13T03:28:38.197743+00:00",
+      "page_sha256": "a5046b931eb106f3240c0e4bc9696961d62f07789f8c90a6ed732345c6143677"
+    }
+  ],
+  "actual_published_hub_fixture_used": false,
+  "published_link_parser_test_uses_synthetic_hub_and_real_previously_verified_entry_url": true,
+  "matching_published_link_detected": true,
+  "wrong_race_link_rejected": true,
+  "actual_current_published_entry_url_resolved": false
+}
