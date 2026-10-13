@@ -43,7 +43,8 @@ def verify_odds(parsed,official_snapshot,retrieved_at,page_sha256,source_url,now
 
 def acquire(race_code,official_entry_url):
     # Resolve official URL outside this function through published JRA links.
-    official=fetch_official(official_entry_url,race_code)
+    official=fetch_official(official_entry_url,race_code,include_page=True)
+    official_page=official.pop('entry_page')
     web_id=race_code[2:4]+race_code[8:]
     denma_url=f'https://sports.yahoo.co.jp/keiba/race/denma/{web_id}'
     page,entry_time,entry_sha=download(denma_url)
@@ -62,7 +63,7 @@ def acquire(race_code,official_entry_url):
         return kind,verify_odds(parsed,official,retrieved,sha,url)
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
         snapshots=dict(pool.map(odds,['umaren','sanrenpuku']))
-    return {'race_code':race_code,'official_participation':official,'entry_page':page,
+    return {'race_code':race_code,'official_participation':official,'official_entry_page':official_page,'entry_page':page,
             'entry_source_url':denma_url,'entry_retrieved_at':entry_time,'entry_page_sha256':entry_sha,
             'active_entries':active,'withdrawn_entries':withdrawn,'odds_snapshots':snapshots,
             'obtained_at':dt.datetime.now(dt.timezone.utc).isoformat()}
