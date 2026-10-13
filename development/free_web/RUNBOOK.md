@@ -23,3 +23,6 @@
 - source_bundleのofficial_participationをfeature_pipeline.assembleのparticipation_snapshotへ渡す。entry_page、entry_retrieved_at、odds_snapshotsもそれぞれ後続処理へ渡す。脚質履歴と最新の過去履歴が別途必要。
 - official_results.fetch_for_race(race_code)で公式重賞一覧から結果ページを選択し、GⅠ・GⅡ・GⅢの払戻と返還対象を取得する。対応ページが未公開・未対応なら未確定と報告する。
 - 過去GⅡ18頭の公式出馬表照合とGⅠ/GⅡ/GⅢの公式結果取得を確認済み。source_bundleの当日発売中実行、実際の公式取消行、当日発走12分前の完走は未検証。
+
+## 地方所属馬の前走補完
+JRA結果履歴だけでは最新の地方出走が欠ける馬がある。local_previous.reference_from_jraで現在の公式出馬表の前走日・競馬場・着順・距離・馬体重を取得し、対応するNAR公式RaceMarkTableを検索で解決する。local_previous.resolveで照合して前走9項目を作り、feature_pipeline.assembleのprevious_overridesへ渡す。ネオトキオの大井ダート右回りは実データで一致し再計算を確認。結果URL自動解決、他の地方場、海外は未対応。地方IDをJRA馬IDとして使わない。最新の前走があるのに古いJRA前走を黙って採用しない。
