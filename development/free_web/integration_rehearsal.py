@@ -20,9 +20,13 @@ def run(model_dir,history_path,pilot_path,official_page,free_page,previous_overr
     stamp=dt.datetime.now(dt.timezone.utc).isoformat()
     official=official_parse(official_page,race,
       'https://jra.jp/JRADB/accessD.html?CNAME=pw01dde1008202604051120261012%2FBB',stamp,historical_test=True)
-    with duckdb.connect() as con:
-        values=con.execute('''SELECT DISTINCT ketto_toroku_bango,previous_race_date,previous_running_style_code
-          FROM read_parquet(?) WHERE race_code=?''',[str(pilot_path),race]).fetchall()
+    public_ids={e['horse_id'] for e in previous_overrides}
+    all_previous_public=public_ids==set(official['horse_statuses'])
+    values=[]
+    if not all_previous_public:
+        with duckdb.connect() as con:
+            values=con.execute('''SELECT DISTINCT ketto_toroku_bango,previous_race_date,previous_running_style_code
+              FROM read_parquet(?) WHERE race_code=?''',[str(pilot_path),race]).fetchall()
     styles=[{'horse_id':horse,'race_date':date.isoformat(),'style':style,
              'source_url':'private_historical_feature_seed','error':None}
             for horse,date,style in values if date is not None]
@@ -64,14 +68,15 @@ def run(model_dir,history_path,pilot_path,official_page,free_page,previous_overr
             'race_name':'スワンS・一括動作テスト','total_stake_yen':result['budget_yen'],
             'tickets':result['selected_bets'],'model_package':result['model_package'],
             'odds_status':'final_postrace','is_live_operation_ready':False,
-            'historical_feature_seed_used_for_previous_styles':True,
+            'historical_feature_seed_used_for_previous_styles':not all_previous_public,
             'source_urls':[official['source_url'],'https://sports.yahoo.co.jp/keiba/race/denma/'+web],
             'validation':result['validation']}
     write=request(record,'dev/free-windows-probe-20261011',test_only=True)
     report={'record_type':'integration_rehearsal','is_pre_race_prediction':False,
             'race_code':race,'runners':18,'feature_count':52,
             'prior_30_features_recalculated':True,'previous_information_assembled':True,
-            'previous_styles_from_saved_seed_not_web':True,'official_free_entries_reconciled':True,
+            'previous_styles_from_saved_seed_not_web':not all_previous_public,'official_free_entries_reconciled':True,
+            'previous_features_all_horses_publicly_sourced':all_previous_public,
             'previous_record_seed_fallback_count':len(fallback_horses),
             'future_local_runner_previous_start_update_unresolved':bool(fallback_horses),
             'model_inference_executed':True,'all_odds_count':result['all_combination_count'],
