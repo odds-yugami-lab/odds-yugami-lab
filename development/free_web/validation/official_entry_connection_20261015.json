@@ -1,0 +1,182 @@
+{
+  "record_type": "official_entry_connection_validation",
+  "checked_at": "2026-10-15T10:48:28.682545+00:00",
+  "source_branch": "dev/free-windows-probe-20261011",
+  "is_prediction": false,
+  "races": [
+    {
+      "race_code": "2026101705040611",
+      "current_live_participation_verified": false,
+      "resolver": {
+        "race_code": "2026101705040611",
+        "status": "published",
+        "entry_url": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0105202604061120261017/22",
+        "entry_hub_url": "https://www.jra.go.jp/keiba/race/095.html",
+        "official_index_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/jyusyo.html",
+        "landing_url": "https://www.jra.go.jp/keiba/race/095.html",
+        "retrieved_at": "2026-10-15T10:48:23.302968+00:00",
+        "page_sha256": "294a78a21bca4dd6c9a32eb5b4dded06d51754927f95961825a2c9c58a821509",
+        "link_location": "race_landing_page"
+      },
+      "entry_page_retrieved": true,
+      "entry_retrieved_at": "2026-10-15T10:48:27.974746+00:00",
+      "entry_page_sha256": "9ed29418370d396ffcc66aae9941048574d2452f0a655a3ec2a486fc9cf1c7a0",
+      "normal_parser_status": "rejected",
+      "normal_parser_error": "Not a current pre-race entry snapshot",
+      "preliminary_parser_only": true,
+      "parser_status": "success",
+      "runner_count": 14,
+      "horse_numbers": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "horse_names": [
+        "アドマイヤズーム",
+        "アンパドゥ",
+        "ウォーターリヒト",
+        "エコロアルバ",
+        "エンペラーズソード",
+        "キープカルム",
+        "シュガークン",
+        "シンフォーエバー",
+        "デビットバローズ",
+        "トロヴァトーレ",
+        "ファンダム",
+        "ファーヴェント",
+        "マジックサンズ",
+        "ミトノオルフェ"
+      ],
+      "horse_names_present": true,
+      "horse_numbers_missing": 14,
+      "frames_missing": 14,
+      "entry_stage": "official_declared_entries_before_draw",
+      "unannounced_fields": [
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg"
+      ],
+      "prediction_ready": false,
+      "horse_ids_unique": true,
+      "jockey_names_present": true,
+      "trainer_names_present": true,
+      "body_weights_missing": 14,
+      "race_start_at": "2026-10-17T15:45:00+09:00"
+    },
+    {
+      "race_code": "2026101808040711",
+      "current_live_participation_verified": false,
+      "resolver": {
+        "race_code": "2026101808040711",
+        "status": "published",
+        "entry_url": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0108202604071120261018/30",
+        "entry_hub_url": "https://www.jra.go.jp/keiba/g1/shuka.html",
+        "official_index_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/jyusyo.html",
+        "landing_url": "https://www.jra.go.jp/keiba/g1/shuka.html",
+        "retrieved_at": "2026-10-15T10:48:23.316703+00:00",
+        "page_sha256": "04abb118f4363c4d36e2e15112c0289e132a615f3d3035f6de74824482a6364c",
+        "link_location": "race_landing_page"
+      },
+      "entry_page_retrieved": true,
+      "entry_retrieved_at": "2026-10-15T10:48:28.670803+00:00",
+      "entry_page_sha256": "9f5aa04adcc040749deb9d2d7980eed1de31ec712945b906f7b4e975153861ca",
+      "normal_parser_status": "rejected",
+      "normal_parser_error": "Not a current pre-race entry snapshot",
+      "preliminary_parser_only": true,
+      "parser_status": "success",
+      "runner_count": 17,
+      "horse_numbers": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "horse_names": [
+        "エンネ",
+        "カナルサンマルタン",
+        "ガーネットフレア",
+        "ギャラボーグ",
+        "サムシングスイート",
+        "スウィートハピネス",
+        "タイセイボーグ",
+        "テイエムアイラン",
+        "ドリームコア",
+        "ナイスプレーアスク",
+        "ハヤブササキチャン",
+        "バースデイフライト",
+        "フェスティバルヒル",
+        "マスターソアラ",
+        "モンローウォーク",
+        "ラベルセーヌ",
+        "ロザーンジュ"
+      ],
+      "horse_names_present": true,
+      "horse_numbers_missing": 17,
+      "frames_missing": 17,
+      "entry_stage": "official_declared_entries_before_draw",
+      "unannounced_fields": [
+        "wakuban",
+        "umaban",
+        "body_weight_kg",
+        "body_weight_change_kg"
+      ],
+      "prediction_ready": false,
+      "horse_ids_unique": true,
+      "jockey_names_present": true,
+      "trainer_names_present": true,
+      "body_weights_missing": 17,
+      "race_start_at": "2026-10-18T15:40:00+09:00"
+    }
+  ],
+  "remaining_checks": [
+    "in_sale_complete_odds",
+    "race_day_weight_and_cancellations",
+    "deadline_delivery"
+  ],
+  "source_code_sha256": {
+    "entry_link_resolver.py": "ea2fedb40e4f39b494b2f7951ee799ccf9fbbb3251e955ec4bf88308e423c285",
+    "official_entries.py": "7fd3cecb901c5a32f6c2cf9f0db86a455110cc5a39152cf600f12be57270a19d"
+  },
+  "initial_resolver_failure": "entry_hub_not_linked_or_archived",
+  "fixes_executed": [
+    "resolve_actual_entry_links_on_race_landing_page",
+    "explicit_preliminary_parser_for_blank_horse_numbers"
+  ],
+  "historical_numbered_parser_regression": {
+    "runner_count": 18,
+    "passed": true
+  },
+  "live_parser_rejects_future_snapshots": true,
+  "forecasts_created": false,
+  "x_sent": false,
+  "implementation_commits": [
+    "20f0dfdabdcd767a4d216cad6867ec9ea01475c3",
+    "12312f2442e3caf651de4812336ed212dffd7ccd",
+    "dce74e94013aaca3eb2b5c54ddc14b7e202a4617"
+  ]
+}
