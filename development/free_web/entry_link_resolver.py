@@ -61,7 +61,12 @@ def from_hub(page,source_url,race_code):
 def resolve(race_code):
     index=f'{BASE}/datafile/seiseki/replay/{race_code[:4]}/jyusyo.html'
     page,_,_=download(index);landing=landing_url(page,race_code)
-    page,_,_=download(landing)
+    page,stamp,digest=download(landing)
+    direct=from_hub(page,landing,race_code)
+    if direct['status']=='published':
+        direct.update(official_index_url=index,landing_url=landing,retrieved_at=stamp,
+                      page_sha256=digest,link_location='race_landing_page')
+        return direct
     try:hub=hub_url(page,landing)
     except ValueError:
         return {'race_code':race_code,'status':'unresolved','entry_url':None,
