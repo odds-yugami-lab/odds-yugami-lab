@@ -26,7 +26,7 @@ def fetch(source_url,race_code,historical_test=False,include_page=False):
     if include_page:result['entry_page']=page
     return result
 
-def parse(page,race_code,source_url,obtained_at,historical_test=False):
+def parse(page,race_code,source_url,obtained_at,historical_test=False,preliminary=False):
     if urllib.parse.urlparse(source_url).hostname not in {'jra.jp','www.jra.jp','jra.go.jp','www.jra.go.jp'}:
         raise ValueError('Official entry source required')
     stamp=dt.datetime.fromisoformat(obtained_at)
@@ -42,7 +42,9 @@ def parse(page,race_code,source_url,obtained_at,historical_test=False):
     start=re.search(r'発走時刻：\s*(\d+)時(\d+)分',plain)
     if not start:raise ValueError('Start time missing')
     start_at=dt.datetime.combine(date,dt.time(*map(int,start.groups())),dt.timezone(dt.timedelta(hours=9)))
-    if not historical_test and not (stamp.astimezone(start_at.tzinfo).date()==date and stamp<start_at):
+    if preliminary and (historical_test or stamp>=start_at):
+        raise ValueError('Preliminary snapshot must precede race and cannot be historical')
+    if not historical_test and not preliminary and not (stamp.astimezone(start_at.tzinfo).date()==date and stamp<start_at):
         raise ValueError('Not a current pre-race entry snapshot')
     body=re.search(r'<tbody\b[^>]*>(.*?)</tbody>',table,re.S)
     if not body:raise ValueError('Official entry body missing')
@@ -58,7 +60,12 @@ def parse(page,race_code,source_url,obtained_at,historical_test=False):
         # Status labels must be inside this horse's present-entry cells.
         current=text(cells['horse'])+' '+text(cells['jockey'])
         status='cancelled' if re.search(r'(?:出走取消|取消)',current) else 'excluded' if re.search(r'(?:競走除外|除外)',current) else 'active'
-        if not num.isdigit() or not 1<=int(num)<=18 or len(set(horse))!=1:raise ValueError('Invalid entry identity')
+        if len(set(horse))!=1:raise ValueError('Invalid entry identity')
+        number=int(num) if num.isdigit() and 1<=int(num)<=18 else None
+        if number is None and (not preliminary or num):raise ValueError('Invalid entry identity')
+        horse_names=re.findall(r'<a\b[^>]*href="[^"]*pw01dud00\d{10}/[^"]*"[^>]*>(.*?)</a>',cells['horse'],re.S)
+        if len(horse_names)!=1 or not text(horse_names[0]):raise ValueError('Horse name missing or ambiguous')
+        frame=re.search(r'alt="([1-8])枠"',cells.get('waku',''))
         jockey_name=re.search(r'<p class="jockey"[^>]*>(.*?)</p>',cells['jockey'],re.S)
         trainer_name=re.search(r'<p class="trainer"[^>]*>(.*?)</p>',cells['horse'],re.S)
         jname=text(jockey_name.group(1)) if jockey_name else None
@@ -66,15 +73,18 @@ def parse(page,race_code,source_url,obtained_at,historical_test=False):
         if status=='active' and (not jname or not tname):raise ValueError('Current participant missing')
         weight=re.search(r'class="cell weight"[^>]*>(.*?)</div>',cells['horse'],re.S)
         bw=re.fullmatch(r'(\d+)kg\s*\(([+-]?\d+)\)',text(weight.group(1))) if weight else None
-        rows.append({'ketto_toroku_bango':horse[0],'umaban':int(num),
+        rows.append({'ketto_toroku_bango':horse[0],'umaban':number,
+                     'horse_name':text(horse_names[0]),'wakuban':int(frame.group(1)) if frame else None,
                      'jockey_code':jockey[0] if jockey else None,'trainer_code':trainer[0] if trainer else None,
                      'jockey_name':jname,'trainer_name':tname,
                      'body_weight_kg':int(bw.group(1)) if bw else None,
                      'body_weight_change_kg':int(bw.group(2)) if bw else None,'participation_status':status})
-    if not rows or len({r['umaban'] for r in rows})!=len(rows) or len({r['ketto_toroku_bango'] for r in rows})!=len(rows):
+    numbers=[r['umaban'] for r in rows if r['umaban'] is not None]
+    if not rows or len(set(numbers))!=len(numbers) or len({r['ketto_toroku_bango'] for r in rows})!=len(rows):
         raise ValueError('Duplicate/empty official entries')
     return {'race_code':race_code,'obtained_at':stamp.isoformat(),'source_url':source_url,
-            'verified':not historical_test,'historical_test':historical_test,
+            'verified':not historical_test and not preliminary,'historical_test':historical_test,
+            'preliminary':preliminary,
             'horse_statuses':{r['ketto_toroku_bango']:r['participation_status'] for r in rows},
             'rows':rows,'race_start_at':start_at.isoformat(),
             'page_sha256':hashlib.sha256(page.encode()).hexdigest()}
