@@ -10,7 +10,8 @@ from pathlib import Path
 import re
 import pandas as pd
 from infer_free_model import predict
-from corrected_v2_core import generate_combinations,allocate
+from corrected_v2_core import generate_combinations
+from balanced_A_v1 import allocate_balanced
 
 def timestamp(value):
     stamp=dt.datetime.fromisoformat(value)
@@ -59,20 +60,21 @@ def prepare(model_dir,runners,snapshots,metadata,now=None):
     merged=combos.merge(odds,on=['race_code','bet_type','kumiban'],how='outer',validate='one_to_one',indicator=True)
     if not merged['_merge'].eq('both').all():raise ValueError('Incomplete or extra odds')
     if not merged['decimal_odds'].map(lambda x:pd.notna(x) and 1<=x<float('inf')).all():raise ValueError('Invalid odds')
-    tickets=allocate(merged.drop(columns='_merge'))
+    tickets, allocation_audit=allocate_balanced(merged.drop(columns='_merge'),pred)
     if tickets.empty or tickets['stake'].sum()!=10000 or not ((tickets['stake']>0)&(tickets['stake']%100==0)).all():raise ValueError('Invalid budget allocation')
     if not (tickets['stake']*tickets['decimal_odds']>=10000-1e-8).all():raise ValueError('Single-ticket payout condition failed')
     model_manifest=json.loads((Path(model_dir)/'manifest.json').read_text())
     input_json=json.dumps(runners,ensure_ascii=False,sort_keys=True,allow_nan=False,default=str)
     model_files={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(Path(model_dir).glob('*.joblib'))}
-    record={'schema_version':2,'status':'prepared_not_published','race_code':race,'race_name':metadata['race_name'],
+    record={'schema_version':3,'status':'prepared_not_published','race_code':race,'race_name':metadata['race_name'],
             'race_start_at':metadata['race_start_at'],'prediction_finalized_at':now.isoformat(),
             'features_obtained_at':metadata['features_obtained_at'],'active_horse_numbers':active,
             'model_package':model_manifest['package'],'model_file_sha256':model_files,
             'feature_spec_sha256':hashlib.sha256((Path(model_dir)/'feature_spec.json').read_bytes()).hexdigest(),
             'input_snapshot_sha256':hashlib.sha256(input_json.encode()).hexdigest(),
-            'allocation_rule':'corrected_V2','total_stake_yen':10000,
-            'allocation_core_sha256':hashlib.sha256(Path(__file__).with_name('corrected_v2_core.py').read_bytes()).hexdigest(),
+            'allocation_rule':'balanced_A_v1','total_stake_yen':10000,
+            'allocation_core_sha256':hashlib.sha256(Path(__file__).with_name('balanced_A_v1.py').read_bytes()).hexdigest(),
+            'allocation_audit':allocation_audit,
             'horse_probabilities':pred.to_dict('records'),'tickets':tickets.to_dict('records'),
             'odds_sources':{k:{n:v[n] for n in ['source_url','retrieved_at','source_updated_at','page_sha256']} for k,v in snapshots.items()}}
     content=json.dumps(record,ensure_ascii=False,sort_keys=True,indent=2,allow_nan=False)+'\n'
