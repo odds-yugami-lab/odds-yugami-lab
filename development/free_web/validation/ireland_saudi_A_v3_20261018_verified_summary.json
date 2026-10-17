@@ -1,0 +1,115 @@
+{
+  "record_type": "retrospective_final_odds_52_feature_A_v3_verification",
+  "model_package": "JRA_FREE_NO_WORKOUT_52_20261013",
+  "allocation_rule": "balanced_A_v3",
+  "is_pre_race_prediction": false,
+  "counts_toward_live_performance": false,
+  "history_cutoffs": {
+    "2026101005040311": "2026-10-09",
+    "2026101105040411": "2026-10-10"
+  },
+  "historical_source_caveat": "Saudi RC two earlier race records for Demian and Satono Hakumai were absent from historical archive and were reconstructed in-memory using authenticated public preceding race result evidence; private training model unchanged. All historical inputs predate target race.",
+  "source_action_run": "https://github.com/odds-yugami-lab/odds-yugami-lab/actions/runs/39054345223",
+  "source_action_artifact": "https://github.com/odds-yugami-lab/odds-yugami-lab/actions/runs/39054345223/artifacts/12108279701",
+  "source_verification_code_commit": "8e9762a9df891da453f5414421f3a448a486db14",
+  "races": [
+    {
+      "race_code": "2026101005040311",
+      "name": "サウジアラビアロイヤルカップ",
+      "grade": "GIII",
+      "date": "2026-10-10",
+      "runner_count": 11,
+      "combos": {
+        "umaren": 55,
+        "sanrenpuku": 165
+      },
+      "tickets": {
+        "umaren": 38,
+        "sanrenpuku": 45,
+        "total": 83
+      },
+      "virtual_stake_yen": 10000,
+      "hit": true,
+      "winning_bet": {
+        "type": "umaren",
+        "kumiban": "0304",
+        "stake_yen": 200,
+        "final_odds": 51.8,
+        "payout_yen": 10360
+      },
+      "official_winners": {
+        "umaren": "0304",
+        "sanrenpuku": "030405"
+      },
+      "official_payout_per100": {
+        "umaren": 5180,
+        "sanrenpuku": 3400
+      },
+      "gross_payout_yen": 10360,
+      "net_profit_yen": 360,
+      "return_percentage": 103.6,
+      "all_selected_bets_at_minimum_stake": true,
+      "max_ticket_stake_yen": 600,
+      "conditional_hit_outcome_arithmetic_mean_payout_yen": 94582.26890756302,
+      "conditional_hit_outcome_median_payout_yen": 21250,
+      "final_odds_urls": {
+        "umaren": "https://sports.yahoo.co.jp/keiba/race/odds/ur/2605040311?ninki=0",
+        "sanrenpuku": "https://sports.yahoo.co.jp/keiba/race/odds/sf/2605040311?ninki=0"
+      },
+      "official_result_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/092.html"
+    },
+    {
+      "race_code": "2026101105040411",
+      "name": "アイルランドトロフィー",
+      "grade": "GII",
+      "date": "2026-10-11",
+      "runner_count": 16,
+      "combos": {
+        "umaren": 120,
+        "sanrenpuku": 560
+      },
+      "tickets": {
+        "umaren": 49,
+        "sanrenpuku": 44,
+        "total": 93
+      },
+      "virtual_stake_yen": 10000,
+      "hit": false,
+      "winning_bet": null,
+      "official_winners": {
+        "umaren": "1516",
+        "sanrenpuku": "111516"
+      },
+      "official_payout_per100": {
+        "umaren": 1110,
+        "sanrenpuku": 2100
+      },
+      "gross_payout_yen": 0,
+      "net_profit_yen": -10000,
+      "return_percentage": 0,
+      "all_selected_bets_at_minimum_stake": true,
+      "max_ticket_stake_yen": 300,
+      "conditional_hit_outcome_arithmetic_mean_payout_yen": 522771.4563106796,
+      "conditional_hit_outcome_median_payout_yen": 39900,
+      "final_odds_urls": {
+        "umaren": "https://sports.yahoo.co.jp/keiba/race/odds/ur/2605040411?ninki=0",
+        "sanrenpuku": "https://sports.yahoo.co.jp/keiba/race/odds/sf/2605040411?ninki=0"
+      },
+      "official_result_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/093.html"
+    }
+  ],
+  "totals": {
+    "races": 2,
+    "hits": 1,
+    "stake_yen": 20000,
+    "payout_yen": 10360,
+    "profit_yen": -9640,
+    "return_percentage": 51.8
+  },
+  "notes": [
+    "All 1st/2nd/3rd winning results known only to settlement, not used in model inference or ticket selection.",
+    "Archived entries and previous race results from public sources, no original post-race finish data fed to probability model.",
+    "Exact historical final odds may differ from market odds available before race; these are not recorded live wagers.",
+    "Retrospective combined statistics should not be merged with prospective live results."
+  ]
+}
