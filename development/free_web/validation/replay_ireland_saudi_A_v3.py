@@ -16,6 +16,7 @@ from itertools import permutations
 import json,datetime as dt,traceback,sys
 import pandas as pd
 import requests
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]))
 from corrected_v2_core import generate_combinations
 from balanced_A_v3 import allocate_balanced
 from odds import parse as parse_odds
