@@ -11,7 +11,7 @@ import re
 import pandas as pd
 from infer_free_model import predict
 from corrected_v2_core import generate_combinations
-from balanced_A_v2 import allocate_balanced
+from balanced_A_v3 import allocate_balanced
 
 def timestamp(value):
     stamp=dt.datetime.fromisoformat(value)
@@ -66,14 +66,14 @@ def prepare(model_dir,runners,snapshots,metadata,now=None):
     model_manifest=json.loads((Path(model_dir)/'manifest.json').read_text())
     input_json=json.dumps(runners,ensure_ascii=False,sort_keys=True,allow_nan=False,default=str)
     model_files={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(Path(model_dir).glob('*.joblib'))}
-    record={'schema_version':4,'status':'prepared_not_published','race_code':race,'race_name':metadata['race_name'],
+    record={'schema_version':5,'status':'prepared_not_published','race_code':race,'race_name':metadata['race_name'],
             'race_start_at':metadata['race_start_at'],'prediction_finalized_at':now.isoformat(),
             'features_obtained_at':metadata['features_obtained_at'],'active_horse_numbers':active,
             'model_package':model_manifest['package'],'model_file_sha256':model_files,
             'feature_spec_sha256':hashlib.sha256((Path(model_dir)/'feature_spec.json').read_bytes()).hexdigest(),
             'input_snapshot_sha256':hashlib.sha256(input_json.encode()).hexdigest(),
-            'allocation_rule':'balanced_A_v2','total_stake_yen':10000,
-            'allocation_core_sha256':hashlib.sha256(Path(__file__).with_name('balanced_A_v2.py').read_bytes()).hexdigest(),
+            'allocation_rule':'balanced_A_v3','total_stake_yen':10000,
+            'allocation_core_sha256':hashlib.sha256(Path(__file__).with_name('balanced_A_v3.py').read_bytes()).hexdigest(),
             'allocation_audit':allocation_audit,
             'horse_probabilities':pred.to_dict('records'),'tickets':tickets.to_dict('records'),
             'odds_sources':{k:{n:v[n] for n in ['source_url','retrieved_at','source_updated_at','page_sha256']} for k,v in snapshots.items()}}
