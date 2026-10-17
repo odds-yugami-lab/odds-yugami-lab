@@ -73,6 +73,7 @@ def settle(record,payout_snapshot,publication=None,test_only=False):
     gross=returned+refunded
     return {'record_type':'settlement_test' if test_only else 'virtual_bet_settlement',
             'race_code':race,'is_live_performance_record':not test_only,
+            'allocation_rule':record.get('allocation_rule'), 'model_package':record.get('model_package'),
             'prediction_commit_sha':publication['commit_sha'] if publication else None,
             'prediction_sha256':hashlib.sha256(json.dumps(record,sort_keys=True,ensure_ascii=False).encode()).hexdigest(),
             'investment_yen':investment,'payout_yen':returned,'refund_yen':refunded,
