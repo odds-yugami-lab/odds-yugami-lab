@@ -1,0 +1,71 @@
+{
+  "record_type": "retrospective_balanced_A_v2_validation",
+  "run_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/actions/runs/39048187898",
+  "validation_script": "development/free_web/validate_recent_balanced_v2.py",
+  "selection_code": "development/free_web/balanced_A_v2.py",
+  "test_mode": "actual complete FINAL odds retrospective simulation",
+  "live_performance": false,
+  "safe_to_add_to_stats": false,
+  "scope": "two completed races; no outcomes supplied to the selection model",
+  "constraints": {
+    "budget_yen": 10000,
+    "ticket_unit_yen": 100,
+    "single_ticket_min_return_yen": 10000,
+    "discretionary_ticket_max_yen": 1000,
+    "min_stake_exception": true,
+    "fixed_number_of_bets": false,
+    "odds_capped_in_actual_payout": false,
+    "odds_ceiling_proxy_for_ranking": 50
+  },
+  "cases": [
+    {
+      "race": "2026101705040611",
+      "race_name": "Fuji Stakes GII",
+      "horse_count": 14,
+      "complete_umaren_odds": 91,
+      "complete_sanrenpuku_odds": 364,
+      "bets_total": 45,
+      "bets_umaren": 45,
+      "bets_sanrenpuku": 0,
+      "invested_yen": 10000,
+      "maximum_ticket_stake_yen": 1000,
+      "payout_yen": 12340,
+      "profit_yen": 2340,
+      "recovery_percent": 123.4,
+      "winning_ticket": "umaren 1013",
+      "winning_stake_yen": 100,
+      "modeled_hit_chance": 0.7076100900017951,
+      "robust_proxy_yen": 8613.986158625052,
+      "max_potential_single_ticket_return_yen": 160540
+    },
+    {
+      "race": "2026092706040911",
+      "race_name": "Sprinters Stakes GI",
+      "horse_count": 16,
+      "complete_umaren_odds": 120,
+      "complete_sanrenpuku_odds": 560,
+      "bets_total": 58,
+      "bets_umaren": 58,
+      "bets_sanrenpuku": 0,
+      "invested_yen": 10000,
+      "maximum_ticket_stake_yen": 1000,
+      "payout_yen": 13560,
+      "profit_yen": 3560,
+      "recovery_percent": 135.6,
+      "winning_ticket": "umaren 0616",
+      "winning_stake_yen": 100,
+      "modeled_hit_chance": 0.6799179609521088,
+      "robust_proxy_yen": 7166.717721261689,
+      "max_potential_single_ticket_return_yen": 500800
+    }
+  ],
+  "limitations": [
+    "Historical closing odds are not available before start; not a forward-valid betting result.",
+    "Single-ticket upper cap is allowed to be exceeded ONLY when the minimum stake for the 10000-yen return floor is itself higher.",
+    "The 50x ceiling applies only to ranking utility, not payout or odds.",
+    "Test cases selected after races; no profitability claims are supported.",
+    "The algorithm may choose only one bet type, since there is no fixed ticket count or forced split.",
+    "Live data integration and 12-minute-before-start completion remain to be verified.",
+    "Risk guard values are provisional design choices and should be re-evaluated using multiple holdout races."
+  ]
+}
