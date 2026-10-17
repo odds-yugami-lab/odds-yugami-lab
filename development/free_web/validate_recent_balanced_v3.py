@@ -99,5 +99,45 @@ def main():
           "winning_bets":[t for t in stakes if t["payout_yen"]>0],
           "max_potential_single_payout":audit.get("maximum_potential_single_ticket_payout_yen")})
     print("A_V3_SUMMARY="+json.dumps(summaries,ensure_ascii=False,sort_keys=True))
+    # Unweighted conditional payout distribution over ALL distinct ordered top-3
+    # outcomes. Do not use AI probability in this arithmetic average.
+    from itertools import permutations
+    distributions=[]
+    for c in reports:
+        if c.get("status")!="ok":
+            distributions.append({"race":c.get("race"),"status":c.get("status")})
+            continue
+        pred=json.loads((ROOT/c["prediction_source"]).read_text())
+        nums=sorted(int(h["umaban"]) for h in pred["horse_probabilities"])
+        tickets=c["tickets"]
+        stakes={(t["type"],t["kumiban"]):float(t["stake_yen"])*float(t["odds_used"])
+                for t in tickets}
+        payout_if_any=[]
+        single_ticket_pay=[float(t["stake_yen"])*float(t["odds_used"]) for t in tickets]
+        for a,b,z in permutations(nums,3):
+            pk=''.join(f"{h:02d}" for h in sorted((a,b)))
+            tk=''.join(f"{h:02d}" for h in sorted((a,b,z)))
+            pay=stakes.get(("umaren",pk),0.)+stakes.get(("sanrenpuku",tk),0.)
+            if pay>0: payout_if_any.append(pay)
+        payout_if_any.sort()
+        if not payout_if_any:
+            raise ValueError("No winning top-3 scenarios")
+        mean=sum(payout_if_any)/len(payout_if_any)
+        distributions.append({
+            "race":c["race"],"race_name":c["label"],
+            "unweighted_ordered_top3_scenarios":len(nums)*(len(nums)-1)*(len(nums)-2),
+            "covered_scenarios":len(payout_if_any),
+            "conditional_arithmetic_mean_payout_yen":round(mean,2),
+            "conditional_arithmetic_mean_profit_yen":round(mean-10000,2),
+            "conditional_median_payout_yen":round(payout_if_any[len(payout_if_any)//2],2),
+            "conditional_min_payout_yen":round(payout_if_any[0],2),
+            "conditional_max_payout_yen":round(payout_if_any[-1],2),
+            "selected_ticket_simple_mean_payout_yen":round(sum(single_ticket_pay)/len(single_ticket_pay),2),
+            "ticket_count":len(single_ticket_pay),
+            "one_race_realized_payout_yen":c["payout_yen"],
+            "ai_probability_used_in_average":False
+        })
+    print("A_V3_PAYOUT_DISTRIBUTION="+json.dumps(distributions,ensure_ascii=False,sort_keys=True))
+
     return 0 if all(t["status"]=="ok" for t in reports) else 2
 if __name__=="__main__":sys.exit(main())
