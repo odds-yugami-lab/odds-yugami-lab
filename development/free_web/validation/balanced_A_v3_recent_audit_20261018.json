@@ -1,0 +1,75 @@
+{
+  "record_type": "retrospective_final_odds_balanced_A_v3_validation",
+  "allocation_rule": "balanced_A_v3",
+  "produced_at": "2026-10-18 JST",
+  "official_pre_race_record": false,
+  "actual_live_betting_performance": false,
+  "source_action_run": "https://github.com/odds-yugami-lab/odds-yugami-lab/actions/runs/39049840297",
+  "source_version": "d9fdba3845a22f809efc6026a8994bc46bfe4806",
+  "prediction_sources": {
+    "2026101705040611": "predictions/free52/2026101705040611.json",
+    "2026092706040911": "development/free_web/samples/retrospective_pipeline_20260927.json"
+  },
+  "odds_type": "complete postrace final odds, not live odds",
+  "note": "Postrace final odds are different from the odds actually available at pre-race prediction time. Outcomes are not proof of ex-ante performance. Large model-estimated expected values are not reliable until probability calibration is validated.",
+  "cases": [
+    {
+      "covered_hit_probability": 0.6172485080650458,
+      "error": null,
+      "extra_stake_yen": 0,
+      "investment_yen": 10000,
+      "largest_stake": 700,
+      "largest_stake_share_pct": 7.000000000000001,
+      "max_potential_single_payout": 2260230,
+      "minimum_stake_only": true,
+      "model_expected_payout": 51051.21909266062,
+      "over_100x_count": 69,
+      "payout_yen": 12340,
+      "race": "2026101705040611",
+      "recovery_percent": 123.4,
+      "sanrenpuku_count": 30,
+      "status": "ok",
+      "ticket_count": 80,
+      "umaren_count": 50,
+      "winning_bets": [
+        {
+          "ai_probability": 0.01825552806465763,
+          "kumiban": "1013",
+          "odds_used": 123.4,
+          "payout_yen": 12340,
+          "stake_yen": 100,
+          "type": "umaren"
+        }
+      ]
+    },
+    {
+      "covered_hit_probability": 0.5546290204413932,
+      "error": null,
+      "extra_stake_yen": 0,
+      "investment_yen": 10000,
+      "largest_stake": 200,
+      "largest_stake_share_pct": 2,
+      "max_potential_single_payout": 1297530,
+      "minimum_stake_only": true,
+      "model_expected_payout": 92810.21263175327,
+      "over_100x_count": 88,
+      "payout_yen": 13560,
+      "race": "2026092706040911",
+      "recovery_percent": 135.6,
+      "sanrenpuku_count": 49,
+      "status": "ok",
+      "ticket_count": 94,
+      "umaren_count": 45,
+      "winning_bets": [
+        {
+          "ai_probability": 0.01433791433124521,
+          "kumiban": "0616",
+          "odds_used": 135.6,
+          "payout_yen": 13560,
+          "stake_yen": 100,
+          "type": "umaren"
+        }
+      ]
+    }
+  ]
+}
