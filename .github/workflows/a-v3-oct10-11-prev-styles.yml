@@ -1,0 +1,28 @@
+name: A v3 previous running style collection
+on:
+  push:
+    branches:
+      - dev/free-windows-probe-20261011
+    paths:
+      - .github/workflows/a-v3-oct10-11-prev-styles.yml
+      - development/free_web/validation/collect_previous_styles_oct10_11.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  previous-styles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Collect previous-race styles from public pre-race history
+        run: python development/free_web/validation/collect_previous_styles_oct10_11.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: a-v3-oct10-11-previous-styles
+          path: development/free_web/validation/public_previous_styles_oct10_11.json
+          if-no-files-found: warn
