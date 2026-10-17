@@ -1,0 +1,30 @@
+name: A v3 three winning pair rank audit
+on:
+  push:
+    branches:
+      - dev/free-windows-probe-20261011
+    paths:
+      - .github/workflows/a-v3-winning-pair-ranks.yml
+      - development/free_web/validation/rank_A_v3_winning_tickets.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  rankings:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install numerical analysis packages
+        run: python -m pip install --disable-pip-version-check numpy pandas scipy requests
+      - name: Recalculate descriptive ranks for winning tickets
+        run: python development/free_web/validation/rank_A_v3_winning_tickets.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: a-v3-winner-rank-report
+          path: development/free_web/validation/rank_A_v3_winning_tickets_result.json
+          if-no-files-found: warn
