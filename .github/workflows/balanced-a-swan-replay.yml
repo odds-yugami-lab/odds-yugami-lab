@@ -1,0 +1,31 @@
+name: Swan S A v3 retrospective verification
+on:
+  push:
+    branches:
+      - dev/free-windows-probe-20261011
+    paths:
+      - .github/workflows/balanced-a-swan-replay.yml
+      - development/free_web/validate_swan_balanced_A_v3.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  swan-replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install runtime dependencies
+        run: python -m pip install --disable-pip-version-check numpy pandas scipy requests
+      - name: Historical final-odds A v3 Swan S simulation
+        run: python development/free_web/validate_swan_balanced_A_v3.py
+      - name: Keep audit details
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: swan-2026-a-v3-retrospective-results
+          path: development/free_web/validation/balanced_A_v3_swan_20261012_result.json
+          if-no-files-found: warn
