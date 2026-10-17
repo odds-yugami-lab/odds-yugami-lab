@@ -62,6 +62,14 @@ def main():
     dest=Path('development/free_web/validation/public_oct10_11_collection.json')
     dest.parent.mkdir(parents=True,exist_ok=True)
     dest.write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+    print('PUBLIC_RUNNER_COMPACT='+json.dumps([{"race_code":c["race_code"],
+        "rows":[{"number":r["umaban"],"horse_id":r["ketto_toroku_bango"],
+          "wakuban":r["wakuban"],"sex_code":r["sex_code"],"age":r["age"],
+          "carried_weight_kg":r["carried_weight_kg"],"jockey_code":r["jockey_code"],
+          "trainer_code":r["trainer_code"],"body_weight_kg":r["body_weight_kg"],
+          "body_weight_change_kg":r["body_weight_change_kg"]}
+          for r in c.get("full_runners",[])]}
+        for c in cases],ensure_ascii=False,separators=(",",":")))
     print('PUBLIC_CASE_OVERVIEW='+json.dumps([{
          'race_code':c['race_code'],'status':c['status'],
          'runner_count':c.get('runner_count'),'prior_coverage':c.get('prior_coverage'),
