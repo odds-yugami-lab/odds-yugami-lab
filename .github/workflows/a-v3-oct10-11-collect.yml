@@ -1,0 +1,29 @@
+name: A v3 public historical entry collection
+on:
+  push:
+    branches:
+      - dev/free-windows-probe-20261011
+    paths:
+      - .github/workflows/a-v3-oct10-11-collect.yml
+      - development/free_web/validation/collect_public_20261010_11.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Download public JRA and Yahoo pre-race entry evidence only
+        run: python development/free_web/validation/collect_public_20261010_11.py
+      - name: Retain public input evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: a-v3-oct10-11-public-entry-evidence
+          path: development/free_web/validation/public_oct10_11_collection.json
+          if-no-files-found: warn
