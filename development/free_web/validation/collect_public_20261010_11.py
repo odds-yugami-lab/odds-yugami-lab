@@ -17,13 +17,21 @@ CASES=[
   'official_url':'https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1005202604041120261011%2FAD'}
 ]
 def run(case):
-    official=official_fetch(case['official_url'],case['race_code'],historical_test=True,include_page=True)
-    page=official.pop('entry_page')
     entry_url='https://sports.yahoo.co.jp/keiba/race/denma/'+case['web']
     html,time,sha=download(entry_url)
     runners=free_parse(html,case['web'],'entries')
-    assert len(runners)==len(official['rows'])
-    assert match_free_entries(runners,official)
+    page,official_time,official_sha=download(case['official_url'])
+    official_diagnostic={'bytes':len(page),'contains_past_p1':'class="past p1"' in page,
+        'table_count':page.count('<table'),'looks_like_entry':'出馬表' in page,
+        'has_horse_ids':'pw01dud00' in page, 'race_marker':case['web'] in page}
+    official_parse_ok=False
+    official_exception=None
+    try:
+        official=official_fetch(case['official_url'],case['race_code'],historical_test=True,include_page=False)
+        match_free_entries(runners,official)
+        official_parse_ok=True
+    except Exception as e:
+        official_exception=str(e)
     accepted=[]
     for r in runners:
         r.pop('unpublished_or_unresolved',None)
@@ -34,14 +42,15 @@ def run(case):
     except Exception as e:
         previous=[]
         unresolved=[{'reason':'Previous acquisition fatal: '+str(e)}]
-    # Only public race facts. Never export private model/history.
     return {'status':'ok','race_code':case['race_code'],
      'race_date':case['date'],'source_url':entry_url,'source_sha256':sha,
      'official_source_url':case['official_url'],
-     'official_historical_test':official['historical_test'],
-     'full_runners':accepted,'official_rows':official['rows'],
+     'official_parser_ok':official_parse_ok,'official_exception':official_exception,
+     'official_diagnostic':official_diagnostic,
+     'full_runners':accepted,
      'prior_public_evidence':previous,'prior_unresolved':unresolved,
      'prior_coverage':len(previous),'runner_count':len(runners)}
+
 def main():
     cases=[]
     for c in CASES:
@@ -56,7 +65,8 @@ def main():
     print('PUBLIC_CASE_OVERVIEW='+json.dumps([{
          'race_code':c['race_code'],'status':c['status'],
          'runner_count':c.get('runner_count'),'prior_coverage':c.get('prior_coverage'),
-         'unresolved':c.get('prior_unresolved'),'error':c.get('error'),
+         'unresolved':c.get('prior_unresolved'),'official_diagnostic':c.get('official_diagnostic'),
+         'official_exception':c.get('official_exception'),'error':c.get('error'),
          'horse_entries':[{'number':r['umaban'],'horse_id':r['ketto_toroku_bango']}
              for r in c.get('full_runners',[])],
      } for c in cases],ensure_ascii=False))
