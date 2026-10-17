@@ -1,0 +1,520 @@
+{
+  "record_type": "retrospective_real_final_odds_backtest",
+  "execution_environment": "GitHub Actions Ubuntu",
+  "source_run_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/actions/runs/39046599451",
+  "source_commit": "ea988f8097b771eaf6ea658272e66fac37a86d57",
+  "official_payout_independently_checked": true,
+  "limitations": [
+    "Historical final-odds replay, NOT pre-race odds and NOT live performance",
+    "No postrace results used in model input, but one race has retrospective precomputed probabilities",
+    "Only two cases; positive results do not validate calibration or guarantee future performance",
+    "Optimizer balances estimated expectation and any-hit chance, approximate nonlinear tradeoff",
+    "Model estimated expected payouts were unusually large; evaluate calibration before using for real money"
+  ],
+  "run_time_utc": "2026-10-17T15:47:59.545466+00:00",
+  "rule": "balanced_A_v1",
+  "cases": [
+    {
+      "status": "ok",
+      "label": "2026-10-17 Fuji Stakes G2",
+      "race": "2026101705040611",
+      "prediction_source": "predictions/free52/2026101705040611.json",
+      "final_odds": {
+        "umaren": {
+          "url": "https://sports.yahoo.co.jp/keiba/race/odds/ur/2605040611?ninki=0",
+          "count": 91,
+          "updated": "2026/10/17 15:53"
+        },
+        "sanrenpuku": {
+          "url": "https://sports.yahoo.co.jp/keiba/race/odds/sf/2605040611?ninki=0",
+          "count": 364,
+          "updated": "2026/10/17 15:53"
+        }
+      },
+      "results_source": "https://www.jra.go.jp/datafile/seiseki/replay/2026/095.html",
+      "official_payout_per_100": {
+        "umaren": 12340,
+        "sanrenpuku": 27050
+      },
+      "investment_yen": 10000,
+      "payout_yen": 12340,
+      "profit_yen": 2340,
+      "recovery_percent": 123.4,
+      "ticket_count": 20,
+      "allocation_audit": {
+        "record_type": "allocation_audit",
+        "rule": "balanced_A_v1",
+        "ticket_count": 20,
+        "budget_yen": 10000,
+        "minimum_ticket_return_yen": 10180,
+        "expected_payout_yen": 204162.3305565008,
+        "probability_any_win": 0.35755340039889133,
+        "E_ref": 264748.18040131906,
+        "H_ref_incumbent": 0.7698066228669854,
+        "weights_attempted": [
+          0.02,
+          0.1,
+          0.2,
+          0.35,
+          0.5,
+          0.65,
+          0.8,
+          0.92,
+          1
+        ],
+        "solutions_found": 9,
+        "selected_weight": 0.5,
+        "solver_status": 0,
+        "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "global_optimality_proven": false
+      },
+      "tickets": [
+        {
+          "type": "sanrenpuku",
+          "kumiban": "010213",
+          "stake_yen": 7400,
+          "odds_used": 10550.7,
+          "payout_yen": 0,
+          "ai_probability": 0.002509294932102316
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0102",
+          "stake_yen": 100,
+          "odds_used": 621.5,
+          "payout_yen": 0,
+          "ai_probability": 0.015999287931245023
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0103",
+          "stake_yen": 100,
+          "odds_used": 1605.4,
+          "payout_yen": 0,
+          "ai_probability": 0.0066051167187306265
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0104",
+          "stake_yen": 400,
+          "odds_used": 29,
+          "payout_yen": 0,
+          "ai_probability": 0.038736721191298194
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0105",
+          "stake_yen": 200,
+          "odds_used": 62,
+          "payout_yen": 0,
+          "ai_probability": 0.031669437560995765
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0106",
+          "stake_yen": 100,
+          "odds_used": 240.5,
+          "payout_yen": 0,
+          "ai_probability": 0.010900208926757372
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0108",
+          "stake_yen": 100,
+          "odds_used": 101.8,
+          "payout_yen": 0,
+          "ai_probability": 0.018110381334595988
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0109",
+          "stake_yen": 100,
+          "odds_used": 185.3,
+          "payout_yen": 0,
+          "ai_probability": 0.010605660293707462
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0110",
+          "stake_yen": 300,
+          "odds_used": 36.2,
+          "payout_yen": 0,
+          "ai_probability": 0.05777337456260977
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0111",
+          "stake_yen": 100,
+          "odds_used": 187.8,
+          "payout_yen": 0,
+          "ai_probability": 0.01533060214654328
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0113",
+          "stake_yen": 100,
+          "odds_used": 519.4,
+          "payout_yen": 0,
+          "ai_probability": 0.013348631490602439
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0114",
+          "stake_yen": 200,
+          "odds_used": 70,
+          "payout_yen": 0,
+          "ai_probability": 0.028833390062063112
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0204",
+          "stake_yen": 100,
+          "odds_used": 172.1,
+          "payout_yen": 0,
+          "ai_probability": 0.014647479580340572
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0205",
+          "stake_yen": 100,
+          "odds_used": 290.6,
+          "payout_yen": 0,
+          "ai_probability": 0.01196857293497712
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0210",
+          "stake_yen": 100,
+          "odds_used": 178.3,
+          "payout_yen": 0,
+          "ai_probability": 0.021877925830137982
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0214",
+          "stake_yen": 100,
+          "odds_used": 429.2,
+          "payout_yen": 0,
+          "ai_probability": 0.010894370298988786
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0310",
+          "stake_yen": 100,
+          "odds_used": 701.8,
+          "payout_yen": 0,
+          "ai_probability": 0.009035884219174098
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0413",
+          "stake_yen": 100,
+          "odds_used": 126.1,
+          "payout_yen": 0,
+          "ai_probability": 0.012220442248334875
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0513",
+          "stake_yen": 100,
+          "odds_used": 225.8,
+          "payout_yen": 0,
+          "ai_probability": 0.009984870022338858
+        },
+        {
+          "type": "umaren",
+          "kumiban": "1013",
+          "stake_yen": 100,
+          "odds_used": 123.4,
+          "payout_yen": 12340,
+          "ai_probability": 0.01825552806465763
+        }
+      ],
+      "postrace_replay": true,
+      "is_pre_race_prediction": false
+    },
+    {
+      "status": "ok",
+      "label": "2026-09-27 Sprinters Stakes G1",
+      "race": "2026092706040911",
+      "prediction_source": "development/free_web/samples/retrospective_pipeline_20260927.json",
+      "final_odds": {
+        "umaren": {
+          "url": "https://sports.yahoo.co.jp/keiba/race/odds/ur/2606040911?ninki=0",
+          "count": 120,
+          "updated": "2026/9/27 15:49"
+        },
+        "sanrenpuku": {
+          "url": "https://sports.yahoo.co.jp/keiba/race/odds/sf/2606040911?ninki=0",
+          "count": 560,
+          "updated": "2026/9/27 15:49"
+        }
+      },
+      "results_source": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint2026.html",
+      "official_payout_per_100": {
+        "umaren": 13560,
+        "sanrenpuku": 73620
+      },
+      "investment_yen": 10000,
+      "payout_yen": 13560,
+      "profit_yen": 3560,
+      "recovery_percent": 135.6,
+      "ticket_count": 28,
+      "allocation_audit": {
+        "record_type": "allocation_audit",
+        "rule": "balanced_A_v1",
+        "ticket_count": 28,
+        "budget_yen": 10000,
+        "minimum_ticket_return_yen": 10220,
+        "expected_payout_yen": 219912.6033776533,
+        "probability_any_win": 0.3755135494174884,
+        "E_ref": 289321.4346275195,
+        "H_ref_incumbent": 0.7911891050211107,
+        "weights_attempted": [
+          0.02,
+          0.1,
+          0.2,
+          0.35,
+          0.5,
+          0.65,
+          0.8,
+          0.92,
+          1
+        ],
+        "solutions_found": 9,
+        "selected_weight": 0.5,
+        "solver_status": 0,
+        "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "global_optimality_proven": false
+      },
+      "tickets": [
+        {
+          "type": "sanrenpuku",
+          "kumiban": "051216",
+          "stake_yen": 7000,
+          "odds_used": 7362.9,
+          "payout_yen": 0,
+          "ai_probability": 0.003929449464579439
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0212",
+          "stake_yen": 100,
+          "odds_used": 1793.4,
+          "payout_yen": 0,
+          "ai_probability": 0.0070950961790960795
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0215",
+          "stake_yen": 100,
+          "odds_used": 267.1,
+          "payout_yen": 0,
+          "ai_probability": 0.009465946102863802
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0312",
+          "stake_yen": 100,
+          "odds_used": 944.1,
+          "payout_yen": 0,
+          "ai_probability": 0.009462221361045445
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0405",
+          "stake_yen": 100,
+          "odds_used": 158.4,
+          "payout_yen": 0,
+          "ai_probability": 0.010795806517155716
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0406",
+          "stake_yen": 100,
+          "odds_used": 115.6,
+          "payout_yen": 0,
+          "ai_probability": 0.012462903804347374
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0410",
+          "stake_yen": 100,
+          "odds_used": 217.2,
+          "payout_yen": 0,
+          "ai_probability": 0.011520415082987871
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0412",
+          "stake_yen": 100,
+          "odds_used": 1109.8,
+          "payout_yen": 0,
+          "ai_probability": 0.012685642431104528
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0415",
+          "stake_yen": 100,
+          "odds_used": 115.9,
+          "payout_yen": 0,
+          "ai_probability": 0.01692065773585968
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0416",
+          "stake_yen": 100,
+          "odds_used": 267.5,
+          "payout_yen": 0,
+          "ai_probability": 0.010849889287727206
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0506",
+          "stake_yen": 100,
+          "odds_used": 102.8,
+          "payout_yen": 0,
+          "ai_probability": 0.014266475967854159
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0510",
+          "stake_yen": 100,
+          "odds_used": 252.7,
+          "payout_yen": 0,
+          "ai_probability": 0.013187819195900997
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0512",
+          "stake_yen": 100,
+          "odds_used": 1229.2,
+          "payout_yen": 0,
+          "ai_probability": 0.014521389879856277
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0515",
+          "stake_yen": 200,
+          "odds_used": 90.2,
+          "payout_yen": 0,
+          "ai_probability": 0.019367778176366486
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0516",
+          "stake_yen": 100,
+          "odds_used": 241.1,
+          "payout_yen": 0,
+          "ai_probability": 0.012420395463737941
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0610",
+          "stake_yen": 100,
+          "odds_used": 102.2,
+          "payout_yen": 0,
+          "ai_probability": 0.015223591508413948
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0612",
+          "stake_yen": 100,
+          "odds_used": 762.1,
+          "payout_yen": 0,
+          "ai_probability": 0.016762591892446107
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0616",
+          "stake_yen": 100,
+          "odds_used": 135.6,
+          "payout_yen": 13560,
+          "ai_probability": 0.01433791433124521
+        },
+        {
+          "type": "umaren",
+          "kumiban": "0912",
+          "stake_yen": 100,
+          "odds_used": 295.6,
+          "payout_yen": 0,
+          "ai_probability": 0.018294687606112716
+        },
+        {
+          "type": "umaren",
+          "kumiban": "1012",
+          "stake_yen": 100,
+          "odds_used": 976.1,
+          "payout_yen": 0,
+          "ai_probability": 0.015495574137202206
+        },
+        {
+          "type": "umaren",
+          "kumiban": "1015",
+          "stake_yen": 200,
+          "odds_used": 66.3,
+          "payout_yen": 0,
+          "ai_probability": 0.020666250751743245
+        },
+        {
+          "type": "umaren",
+          "kumiban": "1016",
+          "stake_yen": 100,
+          "odds_used": 241.6,
+          "payout_yen": 0,
+          "ai_probability": 0.013253865195444282
+        },
+        {
+          "type": "umaren",
+          "kumiban": "1112",
+          "stake_yen": 100,
+          "odds_used": 818.2,
+          "payout_yen": 0,
+          "ai_probability": 0.008300388667753289
+        },
+        {
+          "type": "umaren",
+          "kumiban": "1213",
+          "stake_yen": 100,
+          "odds_used": 371.3,
+          "payout_yen": 0,
+          "ai_probability": 0.011782908853469984
+        },
+        {
+          "type": "umaren",
+          "kumiban": "1214",
+          "stake_yen": 100,
+          "odds_used": 1085.3,
+          "payout_yen": 0,
+          "ai_probability": 0.009560631408007536
+        },
+        {
+          "type": "umaren",
+          "kumiban": "1215",
+          "stake_yen": 100,
+          "odds_used": 500.8,
+          "payout_yen": 0,
+          "ai_probability": 0.022753906510004564
+        },
+        {
+          "type": "umaren",
+          "kumiban": "1216",
+          "stake_yen": 100,
+          "odds_used": 1217.1,
+          "payout_yen": 0,
+          "ai_probability": 0.014594102382443547
+        },
+        {
+          "type": "umaren",
+          "kumiban": "1516",
+          "stake_yen": 200,
+          "odds_used": 64.4,
+          "payout_yen": 0,
+          "ai_probability": 0.019464698987298707
+        }
+      ],
+      "postrace_replay": true,
+      "is_pre_race_prediction": false
+    }
+  ]
+}
