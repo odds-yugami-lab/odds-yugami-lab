@@ -1,0 +1,30 @@
+name: Balanced A retrospective audit (read only)
+on:
+  push:
+    branches:
+      - dev/free-windows-probe-20261011
+    paths:
+      - .github/workflows/balanced-a-replay.yml
+      - development/free_web/validate_recent_balanced.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install numeric tools
+        run: python -m pip install --disable-pip-version-check numpy pandas scipy requests
+      - name: Verify historical odds and replay two races
+        run: python development/free_web/validate_recent_balanced.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: balanced-a-retrospective-result
+          path: development/free_web/validation/balanced_A_recent_replay_result.json
+          if-no-files-found: warn
