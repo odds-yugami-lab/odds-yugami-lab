@@ -1,0 +1,73 @@
+{
+  "record_type": "retrospective_final_odds_validation_summary",
+  "is_pre_race_prediction": false,
+  "counts_toward_live_performance": false,
+  "race_code": "2026101208040511",
+  "race_date": "2026-10-12",
+  "race_name": "MBS賞スワンステークス（GⅡ）",
+  "allocation_rule": "balanced_A_v3",
+  "horse_model": "JRA_FREE_NO_WORKOUT_52_20261013",
+  "model_reconstruction": "Private model and as-of-2026-10-11 historical inputs; preserved prior test pair probabilities 01-15,01-08,01-17 matched exactly. No result data used in model input.",
+  "final_odds_sources": {
+    "umaren": {
+      "url": "https://sports.yahoo.co.jp/keiba/race/odds/ur/2608040511?ninki=0",
+      "count": 153,
+      "updated_at": "2026/10/12 15:55"
+    },
+    "sanrenpuku": {
+      "url": "https://sports.yahoo.co.jp/keiba/race/odds/sf/2608040511?ninki=0",
+      "count": 816,
+      "updated_at": "2026/10/12 15:55"
+    }
+  },
+  "official_result_source": "https://www.jra.go.jp/datafile/seiseki/replay/2026/094.html",
+  "official_results": {
+    "first": "01",
+    "second": "04",
+    "third": "09",
+    "winning_umaren": "0104",
+    "umaren_payout_per_100": 8550,
+    "winning_sanrenpuku": "010409",
+    "sanrenpuku_payout_per_100": 9380
+  },
+  "winning_combination_model": {
+    "umaren": {
+      "ai_probability": 0.004642902476493456,
+      "final_odds": 85.5,
+      "expected_return_multiple": 0.39696816174019045,
+      "minimum_stake_yen": 200,
+      "selected": false
+    },
+    "sanrenpuku": {
+      "ai_probability": 0.0008363490721230911,
+      "final_odds": 93.8,
+      "expected_return_multiple": 0.07844954296514595,
+      "minimum_stake_yen": 200,
+      "selected": false
+    }
+  },
+  "simulation": {
+    "bet_count": 96,
+    "umaren_bets": 68,
+    "sanrenpuku_bets": 28,
+    "investment_yen": 10000,
+    "selected_bets_hit": 0,
+    "payout_yen": 0,
+    "profit_yen": -10000,
+    "recovery_percent": 0,
+    "maximum_stake_one_ticket_yen": 200,
+    "all_minimum_required_stakes": true,
+    "model_probability_any_hit": 0.5782204133132957,
+    "arithmetic_conditional_mean_payout_yen": 287587.9440937782,
+    "arithmetic_conditional_median_payout_yen": 39480,
+    "model_expected_payout_yen": 91657.83950581333
+  },
+  "important_limitations": [
+    "Actual final odds from 15:55, not pre-race 15:45",
+    "Reconstructed 52-feature pre-race probabilities from archived historical data and snapshots, not an immutable official pre-race publication",
+    "No actual wager and no claim of live prediction success",
+    "Probability/calibration and expected payout are model estimates; especially extreme for longshots"
+  ],
+  "full_audit_execution": "https://github.com/odds-yugami-lab/odds-yugami-lab/actions/runs/39052747918",
+  "full_audit_artifact": "https://github.com/odds-yugami-lab/odds-yugami-lab/actions/runs/39052747918/artifacts/12107379326"
+}
