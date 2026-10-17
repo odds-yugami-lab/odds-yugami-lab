@@ -1,0 +1,30 @@
+name: Ireland T and Saudi RC historical A v3 full-odds audit
+on:
+  push:
+    branches:
+      - dev/free-windows-probe-20261011
+    paths:
+      - .github/workflows/a-v3-ireland-saudi-replay.yml
+      - development/free_web/validation/replay_ireland_saudi_A_v3.py
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  replay:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install numerical analysis tools
+        run: python -m pip install --disable-pip-version-check numpy pandas scipy requests
+      - name: Replay two races using final odds only
+        run: python development/free_web/validation/replay_ireland_saudi_A_v3.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: a-v3-ireland-saudi-full-final-odds-audit
+          path: development/free_web/validation/ireland_saudi_A_v3_full_result.json
+          if-no-files-found: warn
