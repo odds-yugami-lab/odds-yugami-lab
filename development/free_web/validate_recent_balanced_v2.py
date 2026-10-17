@@ -80,6 +80,21 @@ def main():
     dest.parent.mkdir(parents=True,exist_ok=True)
     dest.write_text(json.dumps({"run_time_utc":dt.datetime.now(dt.timezone.utc).isoformat(),
       "rule":"balanced_A_v2","cases":reports},ensure_ascii=False,indent=2)+"\n")
-    print(dest.read_text()[:24000])
+    summaries=[]
+    for c in reports:
+        audit=c.get("allocation_audit") or {}
+        stakes=c.get("tickets",[])
+        summaries.append({
+          "race":c.get("race"),"status":c.get("status"),
+          "error":c.get("error"),"investment_yen":c.get("investment_yen"),
+          "payout_yen":c.get("payout_yen"),"recovery_percent":c.get("recovery_percent"),
+          "ticket_count":c.get("ticket_count"),"largest_stake":audit.get("largest_ticket_stake_yen"),
+          "largest_stake_share_pct":audit.get("largest_ticket_stake_share_percent"),
+          "umaren_count":audit.get("umaren_count"),"sanrenpuku_count":audit.get("sanrenpuku_count"),
+          "covered_hit_probability":audit.get("probability_any_win"),
+          "proxy_expected_payout":audit.get("robust_expected_payout_proxy_yen"),
+          "winning_bets":[t for t in stakes if t["payout_yen"]>0],
+          "max_potential_single_payout":audit.get("maximum_potential_single_ticket_payout_yen")})
+    print("A_V2_SUMMARY="+json.dumps(summaries,ensure_ascii=False,sort_keys=True))
     return 0 if all(t["status"]=="ok" for t in reports) else 2
 if __name__=="__main__":sys.exit(main())
