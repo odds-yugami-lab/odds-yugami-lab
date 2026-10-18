@@ -1,0 +1,79 @@
+{
+  "record_type": "publication_gap_incident",
+  "race_code": "2026101808040711",
+  "race_name": "第31回秋華賞（GⅠ）",
+  "race_start_at": "2026-10-18T15:40:00+09:00",
+  "incident_recorded_date": "2026-10-18",
+  "pre_race_claim": {
+    "source_type": "prior_conversation_summary_of_separate_work_environment",
+    "independently_authenticated_source": false,
+    "prediction_finalized_at_reported": "2026-10-18T15:19:52+09:00",
+    "odds_acquired_between_reported": [
+      "2026-10-18T15:19:50+09:00",
+      "2026-10-18T15:19:51+09:00"
+    ],
+    "horse_count": 17,
+    "model_features": 52,
+    "allocation_rule": "cap30_minimum_E50",
+    "ticket_types": [
+      "umaren"
+    ],
+    "ticket_count": 30,
+    "stake_total_yen_reported": 10000,
+    "ticket_details_available_to_auditor": false,
+    "x_post_status": "posted_reported_by_user_not_independently_verified",
+    "x_post_url": null,
+    "claimed_winning_ticket": "0108",
+    "claimed_winning_ticket_amount_yen": null
+  },
+  "github_audit": {
+    "repository": "odds-yugami-lab/odds-yugami-lab",
+    "branch": "dev/free-windows-probe-20261011",
+    "branch_head_before_incident": "d186244bffe017709033e0a199c7a3fe6c8ba2d3",
+    "prediction_path": "predictions/free52/2026101808040711.json",
+    "receipt_path": "predictions/free52_receipts/2026101808040711.json",
+    "result_path": "results/free52/2026101808040711.json",
+    "prediction_present_at_audit": false,
+    "receipt_present_at_audit": false,
+    "result_present_at_audit": false,
+    "live_automatic_prediction_workflow_found": false,
+    "workflow_audit_note": "Present workflows were probe/retrospective test workflows, not a verified live prediction publisher.",
+    "cause": "Unconfirmed: forecast reportedly produced in separate Work/local environment; no authenticated live publication record found in target GitHub branch."
+  },
+  "official_result": {
+    "official_verified": true,
+    "source_url": "https://jra.jp/datafile/seiseki/g1/shuka/result/shuka2026.html",
+    "finish_top3_horse_numbers": [
+      8,
+      1,
+      13
+    ],
+    "payouts_per_100_yen": {
+      "umaren": {
+        "0108": 1600
+      },
+      "sanrenpuku": {
+        "010813": 3520
+      }
+    },
+    "refunds_confirmed_none": true,
+    "finish_status_notes": {
+      "09": "競走中止（返還対象ではない）"
+    }
+  },
+  "settlement_status": {
+    "state": "blocked_missing_immutable_pre_race_tickets_and_receipt",
+    "is_live_performance_record": false,
+    "include_in_live_performance_totals": false,
+    "investment_yen": null,
+    "payout_yen": null,
+    "profit_yen": null,
+    "recovery_percent": null,
+    "note": "Never reconstruct pre-race tickets after the result from model output. Retrieve original 30 tickets/stakes and timestamped X evidence. Post-race GitHub recovery must not claim pre-race commit or receipt."
+  },
+  "historical_immutability": "Existing predictions, receipts, old settlements, and allocation models were not changed.",
+  "next_evidence_needed": [
+    "original 30 pre-race ticket combinations and stake amounts from Work/local output",
+    "verifiable X post URL and pre-race timestamp"
+  ]
+}
