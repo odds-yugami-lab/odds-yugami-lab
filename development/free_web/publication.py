@@ -54,4 +54,50 @@ def confirm(write_request,commit_sha,committed_content,commit_recorded_at,now=No
         name={'umaren':'馬連','sanrenpuku':'3連複'}[t['bet_type']]
         lines.append(f"{name} {nums}：{t['stake']:,}円（取得時オッズ {t['decimal_odds']}倍）")
     lines.append(url)
-    return receipt,'\n'.join(lines),None if write_request['test_only'] else x_draft(record,url,commit_sha)
+    return receipt,'\n'.join(lines),None  # X draft is withheld until receipt is committed and verified
+
+def x_draft_after_receipt(record, publication_receipt, receipt_commit_sha,
+                          receipt_content_by_commit, receipt_content_by_branch,
+                          receipt_commit_recorded_at, now=None):
+    """Release an X draft only after both immutable GitHub files are read back.
+
+    The caller MUST fetch receipt content independently by receipt commit SHA and
+    by the pinned branch and verify receipt commit ancestry. This function
+    checks both returned bodies and all available timestamp/hash invariants.
+    It never creates a new pre-race record or a backdated receipt.
+    """
+    now = now or dt.datetime.now(dt.timezone.utc)
+    if now.tzinfo is None:
+        raise ValueError('Timezone required')
+    if publication_receipt.get('status') != 'published' or publication_receipt.get('test_only') is not False:
+        raise ValueError('No confirmed live publication')
+    if not re.fullmatch(r'[0-9a-f]{40}', receipt_commit_sha):
+        raise ValueError('Invalid receipt commit SHA')
+    if not receipt_content_by_commit or receipt_content_by_commit != receipt_content_by_branch:
+        raise ValueError('Receipt branch/commit readbacks differ')
+    try:
+        saved_receipt = json.loads(receipt_content_by_commit)
+    except (TypeError, ValueError) as exc:
+        raise ValueError('Invalid saved receipt JSON') from exc
+    if saved_receipt != publication_receipt:
+        raise ValueError('Saved receipt differs from confirmed publication')
+    if record['race_code'] != saved_receipt['race_code']:
+        raise ValueError('Receipt race differs from record')
+    expected_payload = dict(record, is_pre_race_prediction=True, record_type='pre_race_prediction')
+    expected_bytes = (json.dumps(expected_payload, ensure_ascii=False,
+                                 sort_keys=True, indent=2, allow_nan=False) + '\n').encode()
+    if hashlib.sha256(expected_bytes).hexdigest() != saved_receipt['content_sha256']:
+        raise ValueError('Publication payload hash differs from pre-race record')
+    predicted_at = timestamp(record['prediction_finalized_at'])
+    committed_at = timestamp(saved_receipt['recorded_at'])
+    receipt_saved_at = timestamp(receipt_commit_recorded_at)
+    deadline = timestamp(record['race_start_at']) - dt.timedelta(minutes=12)
+    if not predicted_at <= committed_at <= receipt_saved_at <= deadline:
+        raise ValueError('Receipt or publication missed the pre-race deadline')
+    if now.astimezone(dt.timezone.utc) > deadline:
+        raise ValueError('X release deadline passed')
+    if saved_receipt['record_url'] != (f'https://github.com/{REPOSITORY}/blob/'
+                                     f"{saved_receipt['commit_sha']}/predictions/free52/"
+                                     f"{record['race_code']}.json"):
+        raise ValueError('Unexpected publication URL')
+    return x_draft(record, saved_receipt['record_url'], saved_receipt['commit_sha'])
