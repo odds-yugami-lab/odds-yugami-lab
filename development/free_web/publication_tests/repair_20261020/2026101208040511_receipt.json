@@ -1,0 +1,9 @@
+{
+  "commit_sha": "b750f49206f5ca0ed37b57795962770eaf5d5e07",
+  "content_sha256": "eb18b91c20fc72b8f7249e74841f22975be3203df1c03cd2197c92c3c74bc9f9",
+  "race_code": "2026101208040511",
+  "record_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/b750f49206f5ca0ed37b57795962770eaf5d5e07/development/free_web/publication_tests/repair_20261020/2026101208040511.json",
+  "recorded_at": "2026-10-20T06:00:25+00:00",
+  "status": "test_saved",
+  "test_only": true
+}
