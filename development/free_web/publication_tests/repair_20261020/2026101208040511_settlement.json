@@ -1,0 +1,689 @@
+{
+  "allocation_rule": "balanced_A_v3",
+  "investment_yen": 10000,
+  "is_live_performance_record": false,
+  "model_package": "JRA_FREE_NO_WORKOUT_52_20261013",
+  "payout_yen": 0,
+  "prediction_commit_sha": "b750f49206f5ca0ed37b57795962770eaf5d5e07",
+  "prediction_sha256": "7bcf9041e95f544a1fdfa8780359cc78875d1df067c401440d3011a9507eb3da",
+  "profit_yen": -10000,
+  "race_code": "2026101208040511",
+  "record_type": "settlement_test",
+  "recovery_percent": 0.0,
+  "refund_yen": 0,
+  "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/094.html",
+  "ticket_results": [
+    {
+      "bet_type": "umaren",
+      "kumiban": "0102",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 200
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0103",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0105",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0107",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0108",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0110",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0114",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0116",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0117",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 200
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0203",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0205",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0208",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0210",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0212",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0214",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0215",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0216",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0217",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0305",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0306",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0308",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0309",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0310",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0312",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0313",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0314",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0315",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0316",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0317",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0318",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0506",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0508",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0509",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0510",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0512",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0513",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0514",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0515",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0516",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0517",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0518",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0608",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0610",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0617",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0708",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0710",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0810",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0812",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0813",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0814",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0815",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0816",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0817",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "0818",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1012",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1013",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1014",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1015",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1016",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1017",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1018",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1217",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1417",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1516",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1517",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 200
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1617",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1618",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "umaren",
+      "kumiban": "1718",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 200
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "030510",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "030516",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "030517",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "030715",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "030717",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "030810",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "030816",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "030817",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "031016",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "031017",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "031617",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "050708",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "050710",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "050714",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "050715",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "050716",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "050717",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "050810",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "050816",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "051617",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "070810",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "070814",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "070816",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "070817",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "070818",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "071016",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "071617",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "kumiban": "081617",
+      "payout_yen": 0,
+      "refund_yen": 0,
+      "stake": 100
+    }
+  ]
+}
