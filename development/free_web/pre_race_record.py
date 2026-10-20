@@ -19,7 +19,8 @@ def timestamp(value):
         raise ValueError('Timezone required')
     return stamp.astimezone(dt.timezone.utc)
 
-def prepare(model_dir,runners,snapshots,metadata,now=None):
+def prepare(model_dir,runners,snapshots,metadata,now=None,clock=None):
+    now_was_supplied=now is not None
     now=now or dt.datetime.now(dt.timezone.utc)
     if now.tzinfo is None:raise ValueError('Timezone required')
     now=now.astimezone(dt.timezone.utc)
@@ -66,8 +67,18 @@ def prepare(model_dir,runners,snapshots,metadata,now=None):
     model_manifest=json.loads((Path(model_dir)/'manifest.json').read_text())
     input_json=json.dumps(runners,ensure_ascii=False,sort_keys=True,allow_nan=False,default=str)
     model_files={p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(Path(model_dir).glob('*.joblib'))}
+    # Finalization is AFTER inference/optimization, using the actual wall clock.
+    # A supplied now remains a deterministic test clock unless clock is supplied.
+    finalized=clock() if clock else (now if now_was_supplied else dt.datetime.now(dt.timezone.utc))
+    if finalized.tzinfo is None or finalized<now or start-finalized<dt.timedelta(minutes=12):
+        raise ValueError('Calculation finished outside publication deadline')
+    if any(finalized-timestamp(s['retrieved_at'])>dt.timedelta(seconds=90) or
+           finalized-timestamp(s['source_updated_at'])>dt.timedelta(seconds=90) for s in snapshots.values()):
+        raise ValueError('Odds became stale during calculation; acquire again')
+    if metadata.get('participation_obtained_at') and not dt.timedelta(0)<=finalized-timestamp(metadata['participation_obtained_at'])<=dt.timedelta(seconds=90):
+        raise ValueError('Participation became stale during calculation; acquire again')
     record={'schema_version':5,'status':'prepared_not_published','race_code':race,'race_name':metadata['race_name'],
-            'race_start_at':metadata['race_start_at'],'prediction_finalized_at':now.isoformat(),
+            'race_start_at':metadata['race_start_at'],'prediction_finalized_at':finalized.isoformat(),
             'features_obtained_at':metadata['features_obtained_at'],'active_horse_numbers':active,
             'model_package':model_manifest['package'],'model_file_sha256':model_files,
             'feature_spec_sha256':hashlib.sha256((Path(model_dir)/'feature_spec.json').read_bytes()).hexdigest(),

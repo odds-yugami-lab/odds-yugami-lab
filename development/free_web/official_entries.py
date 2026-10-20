@@ -82,7 +82,9 @@ def parse(page,race_code,source_url,obtained_at,historical_test=False,preliminar
     numbers=[r['umaban'] for r in rows if r['umaban'] is not None]
     if not rows or len(set(numbers))!=len(numbers) or len({r['ketto_toroku_bango'] for r in rows})!=len(rows):
         raise ValueError('Duplicate/empty official entries')
-    return {'race_code':race_code,'obtained_at':stamp.isoformat(),'source_url':source_url,
+    race_name=re.search(r'<span class="race_name"[^>]*>(.*?)</span>',table,re.S)
+    return {'race_code':race_code,'race_name':text(race_name.group(1)) if race_name else race_code,
+            'obtained_at':stamp.isoformat(),'source_url':source_url,
             'verified':not historical_test and not preliminary,'historical_test':historical_test,
             'preliminary':preliminary,
             'horse_statuses':{r['ketto_toroku_bango']:r['participation_status'] for r in rows},

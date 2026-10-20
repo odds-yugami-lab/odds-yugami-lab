@@ -16,11 +16,12 @@ CURRENT=['keibajo_code','track_code','distance_m','grade_code','field_size',
          'body_weight_kg','body_weight_change_kg','jockey_code','trainer_code','start_time']
 
 def assemble(page,race_id,stage,history_path,feature_spec,style_evidence,
-             obtained_at,history_complete_through,pedigree_paths=(),participation_snapshot=None,test_only=False,previous_overrides=()):
+             obtained_at,history_complete_through,pedigree_paths=(),participation_snapshot=None,test_only=False,previous_overrides=(),entry_rows=None):
     obtained=dt.datetime.fromisoformat(obtained_at)
     if obtained.tzinfo is None:raise ValueError('Timezone required')
     known_date=obtained.astimezone(dt.timezone(dt.timedelta(hours=9))).date()
-    rows=parse(page,race_id,stage)
+    rows=parse(page,race_id,stage) if entry_rows is None else [dict(r) for r in entry_rows]
+    if not rows:raise ValueError('Confirmed entries missing')
     withdrawn=[]
     if participation_snapshot is not None:
         if stage!='entries':raise ValueError('Participation requires confirmed entries')

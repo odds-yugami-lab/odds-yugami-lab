@@ -19,6 +19,8 @@ def request(record,branch,now=None,test_only=False):
     if not test_only and timestamp(record['race_start_at'])-now<dt.timedelta(minutes=12):
         raise ValueError('Publication deadline passed')
     if record.get('status')!='prepared_not_published':raise ValueError('Not a prepared record')
+    if not test_only and (record.get('test_only') is True or record.get('odds_status')=='final_postrace' or record.get('is_live_operation_ready') is False):
+        raise ValueError('Historical/test record cannot become a live prediction')
     if record['total_stake_yen']!=10000 or sum(t['stake'] for t in record['tickets'])!=10000:
         raise ValueError('Invalid saved budget')
     payload=dict(record,is_pre_race_prediction=not test_only,

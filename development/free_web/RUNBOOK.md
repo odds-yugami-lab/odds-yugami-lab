@@ -1,6 +1,19 @@
-# 無料予想の実行手順（2026-10-13）
+# 無料予想の実行手順（2026-10-20更新）
 
 追加料金なし。モデル・履歴は非公開。2026-10-18以降の本番買い目配分は balanced_A_v3（最低必要額・実オッズ方式）。旧corrected V2と試作balanced A v1/v2は保存・区別する。
+
+## クラウド一括実行（2026-10-20・現行）
+
+下記の過去の個別手順を手作業でつなぎ直さず、一括実行を入口にする。
+1. 対象ブランチの先頭commitを確定し、`development/free_web/` 直下の全Pythonと `connector_bridge.js` を同じcommitから取得する。モデルZIP・履歴ZIPはLibraryの最新バージョンを取得・展開する。モデル依存に加えてSciPyの `milp` が必要。ユーザーのPCは使用しない。
+2. JRA公式の当日平地GⅠ/GⅡ/GⅢ一覧と正式発走時刻を確認。予約は14:55（15:35以前）、15:05（15:36～15:42）、15:10（15:43以降）に分担し、正確な発走時刻で振り分ける。対象なしと公式で確認できたときだけ通知を省略する。15:45という予約名だけで15:40のレースを重複処理しない。
+3. `connector_bridge.js` は `new Function('tools', source)(tools)` でロードし、返された `.run({cmd,workdir})` を実行する。`cmd` は `python3 -u operation_runner.py live --race <16桁> --window <00:00-15:35|15:36-15:42|15:43-23:59> --model-dir <モデル展開先> --history-dir <履歴展開先> --output <ローカル結果JSON>`。必要な既知血統の照合資料は非公開の `--pedigree <parquet>` で指定する。コードや設定の取得だけで実行成功としない。
+4. `live_pipeline` は履歴SHA256、更新対象の開催日欠落、公開前走の全頭照合、当日正式出走と全発売中オッズ、52項目、配分、計算終了時点の鮮度を確認する。非開催日の空白は公式月別カレンダーJSONで確認し、平日だから非開催と決めつけない。履歴が実開催日分不足していたら停止し、無断でcoverageを書き進めない。
+5. `operation_runner.GitHub` が同一固定ブランチの完全なtreeで存在確認し、新規保存または同一原本の再利用を行う。コミット/ブランチの本文・blob SHA・祖先関係・サーバー時刻を照合する。原本とreceiptの両方の保存を終えた後にだけチャット一覧・X草稿を返す。既存原本がある再実行では再推論・上書きをしない。締切は原本・receipt・表示のすべて発走12分前まで。
+6. `connector_bridge` で `python3 -u operation_runner.py settle --race <16桁> --output <ローカル結果JSON>` を実行する。公式払戻を実取得し、保存された原本とreceiptを認証して仮想収支を `results/free52` に保存・読み戻す。実購入の有無は予想成績の計算条件ではない。X送信・馬券購入はしない。
+7. 失敗時はローカル結果JSONに工程・エラー・未完了を記録し、GitHubが利用できれば `incidents/operation_runs/<日付>/` に新規保存して照合する。エラーログ保存に失敗した場合も隠さない。未保存・締切超過を「公開完了」と通知しない。
+
+過去テストは `--test-only --run-id <一意名>` で `publication_tests` 配下にだけ保存し、X草稿は返さず本番成績にも入れない。`test_operation_runner.py` は保存失敗・期限・再実行・改変拒否を検証する。10月20日の実GitHub往復テストは `publication_tests/repair_20261020/`、要約は `validation/operation_repair_20261020.json`。
 
 ## balanced_A_v3 最低必要額・実オッズ選別方式（2026-10-18以降）
 - `development/free_web/balanced_A_v3.py` が選定・配分プログラム。`pre_race_record.py` は v3 の `allocate_balanced` を使用し、確率生成は変更しない。旧 `balanced_A_v1.py`、`balanced_A_v2.py`、`corrected_v2_core.py` は過去方式として不変。
@@ -23,9 +36,9 @@
 ## X公開ゲートと事後復旧（2026-10-18運用補強）
 - 予測算出とGitHubへの事前保存は別工程。Work/チャットでの予想確定、X投稿、GitHub API書込要求は、GitHubの事前保存成功を意味しない。対象ブランチに当該レースの `predictions/free52/<race_code>.json` と `predictions/free52_receipts/<race_code>.json` が両方存在し、commit指定/branch指定の読戻し・内容一致・期限内コミット・祖先関係を確認するまで、GitHub事前公開済みや本番記録確定と表示しない。
 - `publication.confirm(...)` は今後X文面を返さない（3番目はNone）。receiptをcanonical JSONでGitHubにcommitし、対象ブランチとreceipt commitそれぞれから完全一致の本文を取得、コミットが対象ブランチの履歴に存在することを確認した後、`publication.x_draft_after_receipt(...)` のゲートを通過した場合だけX草案を表示する。GitHub上に両ファイルがあっても期限を超過していたら本番予測として認定しない。
-- 当日自動実行ワークフローは未実装・未検証。現存するGitHub Actionsの試験/回顧的検証ジョブを本番自動予測ジョブと誤認しない。新たな本番ジョブについては、発売中オッズ、52項目、予測確定、事前コミット、receiptコミット・読戻し、X草案リリースまでを実物の発走前レースで完走するまで「稼働中」と主張しない。
+- 2026-10-20にChatGPTクラウド用の `operation_runner.py` と `connector_bridge.js` を追加。一括処理の過去テストはGitHub保存・receipt・読み戻し・公式収支まで通過した。GitHub Actionsの回顧的検証ジョブは本番予測ジョブではない。発売中データを用いる本番での期限内完走は、次回レースで別に確認する。
 - 期限内のGitHub保存・receiptが欠けたまま発走した場合、事前原本を遡及して作成しない。旧原本・旧receipt・旧収支を変更しない。 `development/free_web/incidents/<race_code>.json` に「事後インシデント」として時刻のある外部証拠、判明した確定結果、欠損、未検証事項を記す。原本が完全に復元できた場合も元の事前予測ではなく証拠付復元記録として別管理し、本番回収率への算入は既定の保存期限条件を満たすことを独立検証した場合に限る。
-- 2026-10-18 秋華賞 `2026101808040711`：15:19:52 JSTの発走前予想は別作業環境の記録要約にあり、ユーザーはX投稿・馬連的中を報告。上記GitHub事前原本/receiptは発走後の監査時に欠損。30点の元データとX投稿URLを未取得のため、払戻・損益を推定せず本番成績集計から一時除外。公式着順・配当はJRA公式で検証済み。詳細は `incidents/2026101808040711.json` に保存。事前予測の事実まで「存在しない」と断定しない。
+- 2026-10-18 秋華賞 `2026101808040711`：15:19:52 JSTの発走前予想は別作業環境の記録要約にあり、ユーザーはX投稿・馬連的中を報告。上記GitHub事前原本/receiptは発走後の監査時に欠損。その後ユーザーから元の30点を取得し、仮想払戻11,200円・利益1,200円・回収率112%を `incidents/2026101808040711_recovered_settlement.json` に別保存済み。発走前GitHub原本・receiptの存在は未確認のままであり、遡及原本は作成しない。公式着順・配当はJRA公式で検証済み。詳細は `incidents/2026101808040711.json` に保存。事前予測の事実まで「存在しない」と断定しない。
 
 ## 予想
 1. LibraryのJRA_free_model_52_20261013.zip、JRA_free_history_20261012.zipを取得・展開する。coverage_manifest.jsonの履歴更新日を確認し、開催が追加された場合は無料結果と確定出走情報からhistory_bridgeで履歴を追記する。元のファイルは上書きしない。更新した履歴は同じLibraryファイルの新しいバージョンとして保存する。
@@ -40,7 +53,7 @@
 事前記録とreceiptを読み、commit指定で同一内容を確認する。JRA公式の確定払戻と返還対象を取得する。無料補助ページのsettlement.parse_payoutsは未照合の候補として扱い、official_verified=trueを未確認で設定しない。settlement.settleのrecordとpublicationには保存済み本体とreceiptを渡し、結果をresults/free52/<race_code>.jsonへ新規保存する。test_onlyの記録は実戦成績から除外し、後付けの再予想はしない。
 
 ## 未接続・未検証
-当日のJRA公式出走/取消情報の自動取得、発売中オッズの実証、公式払戻の自動取得、本番での期限内完走。手順の設定は運用完成の証拠ではない。対象時刻は現行15:30/15:40/15:45枠で、他の発走時刻の全重賞対応は未確認。
+取得・モデル計算・保存・receipt・表示・公式収支は一括処理へ接続済み。未検証は、実際の当日取消表示、発売中オッズを使った自動実行、締切までの本番完走。手順や予約の設定だけでは完走の証拠にしない。地方・海外・直線等の前走未解決は引き続き停止理由であり、推測・古い前走への代替をしない。
 
 ## 取得処理の接続更新
 - source_bundle.acquire(race_code, official_entry_url)で当日の公式出馬表、無料出馬表、馬連・3連複全組合せオッズを取得する。official_entry_urlは実際のJRA出馬表リンクから解決し、チェックサム付きURLを推測しない。公式出馬表の過去ページを当日確認に使用しない。
@@ -64,3 +77,4 @@ source_bundleが返すofficial_entry_pageからpublic_previous.acquireを呼ぶ�
 
 ## 公式出馬表の公開後確認（2026-10-15）
 公式重賞一覧から両レース案内をたどり、案内ページに直接公開されたaccessDリンクの取得に対応。富士S14頭、秋華賞17頭の公式出馬表を実際に取得して、馬ID・馬名・騎手・調教師・日付・開催・発走時刻を解析した。現時点は枠順発表前で枠・馬番・馬体重は空欄。official_entries.parse(..., preliminary=True)は準備段階専用でverified=Falseを返し、本番のparseは引き続き当日発走前の有効な馬番を要求する。過去テスト扱いに切り替えて未来の出馬表を本番確認済みとしない。登録18頭の秋華賞と現在の出馬表17頭を混同せず、当日は公式出馬表を再取得する。発売中オッズ、当日の馬体重・取消、発走12分前までの完走は未検証のまま。詳細はvalidation/official_entry_connection_20261015.json。
+
