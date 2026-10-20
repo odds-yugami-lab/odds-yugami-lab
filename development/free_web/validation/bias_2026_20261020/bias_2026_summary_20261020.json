@@ -1,0 +1,577 @@
+{
+  "record_type": "2026_retrospective_prediction_and_selection_bias_audit",
+  "created_at": "2026-10-20T06:54:49.711786+00:00",
+  "period": [
+    "2026-01-04",
+    "2026-10-18"
+  ],
+  "official_flat_graded_races": 103,
+  "completed_races": 103,
+  "horses": 1547,
+  "model_package": "JRA_FREE_NO_WORKOUT_52_20261013",
+  "training_end": "2025-12-31",
+  "calibration_year": 2025,
+  "training_or_calibration_used_2026": false,
+  "feature_count": 52,
+  "allocation_rule": "balanced_A_v3",
+  "production_model_or_rule_changed": false,
+  "is_live_pre_race_performance": false,
+  "final_odds_used": true,
+  "horse_win_expected_events": 100.33511348895823,
+  "horse_win_actual_events": 103,
+  "horse_top3_expected_events": 300.49111790251254,
+  "horse_top3_actual_events": 309,
+  "horse_popularity_bias": [
+    {
+      "popularity_group": "1番人気",
+      "horses": 103,
+      "model_win_rate": 0.1365664570561706,
+      "actual_win_rate": 0.33980582524271846,
+      "model_expected_wins": 14.066345076785572,
+      "actual_wins": 35,
+      "model_top3_rate": 0.34238349692297304,
+      "actual_top3_rate": 0.6310679611650486,
+      "model_expected_top3": 35.26550018306622,
+      "actual_top3": 65
+    },
+    {
+      "popularity_group": "2～3番人気",
+      "horses": 206,
+      "model_win_rate": 0.10565791747815495,
+      "actual_win_rate": 0.10679611650485436,
+      "model_expected_wins": 21.76553100049992,
+      "actual_wins": 22,
+      "model_top3_rate": 0.2959332461038349,
+      "actual_top3_rate": 0.3640776699029126,
+      "model_expected_top3": 60.962248697389995,
+      "actual_top3": 75
+    },
+    {
+      "popularity_group": "4～6番人気",
+      "horses": 309,
+      "model_win_rate": 0.07574324917764869,
+      "actual_win_rate": 0.06796116504854369,
+      "model_expected_wins": 23.404663995893443,
+      "actual_wins": 21,
+      "model_top3_rate": 0.2329679083292225,
+      "actual_top3_rate": 0.255663430420712,
+      "model_expected_top3": 71.98708367372976,
+      "actual_top3": 79
+    },
+    {
+      "popularity_group": "7～10番人気",
+      "horses": 405,
+      "model_win_rate": 0.05534871926844762,
+      "actual_win_rate": 0.04691358024691358,
+      "model_expected_wins": 22.416231303721286,
+      "actual_wins": 19,
+      "model_top3_rate": 0.17669958353744825,
+      "actual_top3_rate": 0.14320987654320988,
+      "model_expected_top3": 71.56333133266654,
+      "actual_top3": 58
+    },
+    {
+      "popularity_group": "11番人気以下",
+      "horses": 524,
+      "model_win_rate": 0.03565332464133205,
+      "actual_win_rate": 0.011450381679389313,
+      "model_expected_wins": 18.682342112057995,
+      "actual_wins": 6,
+      "model_top3_rate": 0.11586441606041996,
+      "actual_top3_rate": 0.061068702290076333,
+      "model_expected_top3": 60.71295401566006,
+      "actual_top3": 32
+    }
+  ],
+  "win_probability_bins": [
+    {
+      "predicted_probability_band": "(-0.001, 0.01]",
+      "horses": 27,
+      "mean_model_probability": 0.007322060304150195,
+      "observed_rate": 0.0,
+      "expected_events": 0.19769562821205525,
+      "actual_events": 0
+    },
+    {
+      "predicted_probability_band": "(0.01, 0.03]",
+      "horses": 366,
+      "mean_model_probability": 0.021030632569329483,
+      "observed_rate": 0.02185792349726776,
+      "expected_events": 7.697211520374591,
+      "actual_events": 8
+    },
+    {
+      "predicted_probability_band": "(0.03, 0.05]",
+      "horses": 372,
+      "mean_model_probability": 0.039855628478708556,
+      "observed_rate": 0.03763440860215054,
+      "expected_events": 14.826293794079582,
+      "actual_events": 14
+    },
+    {
+      "predicted_probability_band": "(0.05, 0.1]",
+      "horses": 516,
+      "mean_model_probability": 0.07082913679935142,
+      "observed_rate": 0.07364341085271318,
+      "expected_events": 36.547834588465335,
+      "actual_events": 38
+    },
+    {
+      "predicted_probability_band": "(0.1, 0.2]",
+      "horses": 225,
+      "mean_model_probability": 0.13376154082848674,
+      "observed_rate": 0.16,
+      "expected_events": 30.096346686409518,
+      "actual_events": 36
+    },
+    {
+      "predicted_probability_band": "(0.2, 0.4]",
+      "horses": 40,
+      "mean_model_probability": 0.26320153778505884,
+      "observed_rate": 0.175,
+      "expected_events": 10.528061511402353,
+      "actual_events": 7
+    },
+    {
+      "predicted_probability_band": "(0.4, 0.6]",
+      "horses": 1,
+      "mean_model_probability": 0.4416697600147836,
+      "observed_rate": 0.0,
+      "expected_events": 0.4416697600147836,
+      "actual_events": 0
+    }
+  ],
+  "top3_probability_bins": [
+    {
+      "predicted_probability_band": "(-0.001, 0.05]",
+      "horses": 71,
+      "mean_model_probability": 0.037201046065615695,
+      "observed_rate": 0.056338028169014086,
+      "expected_events": 2.6412742706587142,
+      "actual_events": 4
+    },
+    {
+      "predicted_probability_band": "(0.05, 0.1]",
+      "horses": 258,
+      "mean_model_probability": 0.07607956415755775,
+      "observed_rate": 0.08139534883720931,
+      "expected_events": 19.6285275526499,
+      "actual_events": 21
+    },
+    {
+      "predicted_probability_band": "(0.1, 0.2]",
+      "horses": 584,
+      "mean_model_probability": 0.1490697164399197,
+      "observed_rate": 0.1386986301369863,
+      "expected_events": 87.05671440091311,
+      "actual_events": 81
+    },
+    {
+      "predicted_probability_band": "(0.2, 0.4]",
+      "horses": 541,
+      "mean_model_probability": 0.2676644191997517,
+      "observed_rate": 0.2975970425138632,
+      "expected_events": 144.80645078706567,
+      "actual_events": 161
+    },
+    {
+      "predicted_probability_band": "(0.4, 0.6]",
+      "horses": 80,
+      "mean_model_probability": 0.4754464487361446,
+      "observed_rate": 0.425,
+      "expected_events": 38.03571589889157,
+      "actual_events": 34
+    },
+    {
+      "predicted_probability_band": "(0.6, 0.8]",
+      "horses": 13,
+      "mean_model_probability": 0.6401873071025841,
+      "observed_rate": 0.6153846153846154,
+      "expected_events": 8.322434992333593,
+      "actual_events": 8
+    }
+  ],
+  "portfolio": {
+    "races": 103,
+    "tickets": 8753,
+    "investment_yen": 1030000,
+    "payout_yen": 593130,
+    "profit_yen": -436870,
+    "recovery_percent": 57.585436893203884,
+    "actual_hit_races": 31,
+    "actual_hit_rate": 0.30097087378640774,
+    "actual_hit_rate_wilson_95": [
+      0.22085929894836628,
+      0.39539453685138604
+    ],
+    "model_expected_hit_races": 60.11672021056588,
+    "mean_model_hit_rate": 0.5836574777724842,
+    "model_expected_payout_yen": 7157942.610435117,
+    "at_or_above_100x_ticket_share": 0.8960356449217411,
+    "at_or_above_100x_stake_share": 0.7614563106796116,
+    "at_or_above_10000x_stake_yen": 168100,
+    "at_or_above_10000x_payout_yen": 0
+  },
+  "ticket_odds_bands": [
+    {
+      "odds_band": "100～300倍未満",
+      "tickets": 1864,
+      "stake_yen": 186400,
+      "stake_share": 0.18097087378640778,
+      "actual_winning_tickets": 13,
+      "payout_yen": 184650,
+      "recovery_percent": 99.06115879828326,
+      "model_expected_payout_yen": 392251.67501961155
+    },
+    {
+      "odds_band": "300～1,000倍未満",
+      "tickets": 1683,
+      "stake_yen": 168300,
+      "stake_share": 0.16339805825242718,
+      "actual_winning_tickets": 2,
+      "payout_yen": 96560,
+      "recovery_percent": 57.37373737373738,
+      "model_expected_payout_yen": 777013.3395815003
+    },
+    {
+      "odds_band": "1,000～10,000倍未満",
+      "tickets": 2615,
+      "stake_yen": 261500,
+      "stake_share": 0.2538834951456311,
+      "actual_winning_tickets": 1,
+      "payout_yen": 135650,
+      "recovery_percent": 51.87380497131931,
+      "model_expected_payout_yen": 2531631.2259820215
+    },
+    {
+      "odds_band": "10～30倍未満",
+      "tickets": 117,
+      "stake_yen": 60100,
+      "stake_share": 0.058349514563106795,
+      "actual_winning_tickets": 4,
+      "payout_yen": 43610,
+      "recovery_percent": 72.56239600665558,
+      "model_expected_payout_yen": 57350.1175010927
+    },
+    {
+      "odds_band": "30～100倍未満",
+      "tickets": 791,
+      "stake_yen": 182900,
+      "stake_share": 0.17757281553398058,
+      "actual_winning_tickets": 11,
+      "payout_yen": 132660,
+      "recovery_percent": 72.53143794423183,
+      "model_expected_payout_yen": 245690.4988612422
+    },
+    {
+      "odds_band": "10,000倍以上",
+      "tickets": 1681,
+      "stake_yen": 168100,
+      "stake_share": 0.16320388349514564,
+      "actual_winning_tickets": 0,
+      "payout_yen": 0,
+      "recovery_percent": 0.0,
+      "model_expected_payout_yen": 3151395.988518268
+    },
+    {
+      "odds_band": "10倍未満",
+      "tickets": 2,
+      "stake_yen": 2700,
+      "stake_share": 0.002621359223300971,
+      "actual_winning_tickets": 0,
+      "payout_yen": 0,
+      "recovery_percent": 0.0,
+      "model_expected_payout_yen": 2609.7649713812943
+    }
+  ],
+  "combination_probability_calibration_by_odds": [
+    {
+      "bet_type": "umaren",
+      "odds_band": "10～30倍未満",
+      "combinations": 828,
+      "model_expected_wins": 18.152118783078368,
+      "normalized_market_expected_wins": 34.41339103104116,
+      "actual_wins": 30
+    },
+    {
+      "bet_type": "umaren",
+      "odds_band": "300～1,000倍未満",
+      "combinations": 2779,
+      "model_expected_wins": 15.855814788069852,
+      "normalized_market_expected_wins": 4.217744350256669,
+      "actual_wins": 3
+    },
+    {
+      "bet_type": "umaren",
+      "odds_band": "30～100倍未満",
+      "combinations": 2186,
+      "model_expected_wins": 29.850561719689743,
+      "normalized_market_expected_wins": 30.851795829558213,
+      "actual_wins": 31
+    },
+    {
+      "bet_type": "umaren",
+      "odds_band": "100～300倍未満",
+      "combinations": 2679,
+      "model_expected_wins": 24.046796746457602,
+      "normalized_market_expected_wins": 12.438605035895787,
+      "actual_wins": 20
+    },
+    {
+      "bet_type": "umaren",
+      "odds_band": "10倍未満",
+      "combinations": 166,
+      "model_expected_wins": 6.689337686339371,
+      "normalized_market_expected_wins": 19.085123205810376,
+      "actual_wins": 17
+    },
+    {
+      "bet_type": "umaren",
+      "odds_band": "1,000～10,000倍未満",
+      "combinations": 2407,
+      "model_expected_wins": 7.374824133520753,
+      "normalized_market_expected_wins": 0.9918523025230896,
+      "actual_wins": 1
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "odds_band": "10～30倍未満",
+      "combinations": 454,
+      "model_expected_wins": 6.249861649868621,
+      "normalized_market_expected_wins": 16.969249788986048,
+      "actual_wins": 17
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "odds_band": "300～1,000倍未満",
+      "combinations": 11102,
+      "model_expected_wins": 25.441433012840506,
+      "normalized_market_expected_wins": 15.59012378633744,
+      "actual_wins": 15
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "odds_band": "30～100倍未満",
+      "combinations": 2519,
+      "model_expected_wins": 16.95521873234864,
+      "normalized_market_expected_wins": 31.658765887616685,
+      "actual_wins": 26
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "odds_band": "100～300倍未満",
+      "combinations": 6313,
+      "model_expected_wins": 23.807907767248942,
+      "normalized_market_expected_wins": 26.847168342093532,
+      "actual_wins": 28
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "odds_band": "1,000～10,000倍未満",
+      "combinations": 22389,
+      "model_expected_wins": 24.904634772317685,
+      "normalized_market_expected_wins": 6.871065223184333,
+      "actual_wins": 9
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "odds_band": "10,000倍以上",
+      "combinations": 8324,
+      "model_expected_wins": 3.4691728362768512,
+      "normalized_market_expected_wins": 0.3394227729592476,
+      "actual_wins": 0
+    },
+    {
+      "bet_type": "umaren",
+      "odds_band": "10,000倍以上",
+      "combinations": 23,
+      "model_expected_wins": 0.030546142844307123,
+      "normalized_market_expected_wins": 0.001488244914710416,
+      "actual_wins": 0
+    },
+    {
+      "bet_type": "sanrenpuku",
+      "odds_band": "10倍未満",
+      "combinations": 32,
+      "model_expected_wins": 1.1717712290987614,
+      "normalized_market_expected_wins": 3.724204198822715,
+      "actual_wins": 7
+    }
+  ],
+  "sensitivity_excluding_3_public_reconstructions": {
+    "races": 100,
+    "horse_popularity_bias": [
+      {
+        "popularity_group": "1番人気",
+        "horses": 100,
+        "model_win_rate": 0.13741910064955803,
+        "actual_win_rate": 0.34,
+        "model_expected_wins": 13.741910064955803,
+        "actual_wins": 34,
+        "model_top3_rate": 0.34272457790980176,
+        "actual_top3_rate": 0.63,
+        "model_expected_top3": 34.27245779098018,
+        "actual_top3": 63
+      },
+      {
+        "popularity_group": "2～3番人気",
+        "horses": 200,
+        "model_win_rate": 0.10607933652096127,
+        "actual_win_rate": 0.105,
+        "model_expected_wins": 21.215867304192255,
+        "actual_wins": 21,
+        "model_top3_rate": 0.296856924140369,
+        "actual_top3_rate": 0.365,
+        "model_expected_top3": 59.37138482807381,
+        "actual_top3": 73
+      },
+      {
+        "popularity_group": "4～6番人気",
+        "horses": 300,
+        "model_win_rate": 0.07598468312146531,
+        "actual_win_rate": 0.06666666666666667,
+        "model_expected_wins": 22.795404936439592,
+        "actual_wins": 20,
+        "model_top3_rate": 0.23317473478685122,
+        "actual_top3_rate": 0.25333333333333335,
+        "model_expected_top3": 69.95242043605536,
+        "actual_top3": 76
+      },
+      {
+        "popularity_group": "7～10番人気",
+        "horses": 393,
+        "model_win_rate": 0.054613204832310504,
+        "actual_win_rate": 0.04834605597964377,
+        "model_expected_wins": 21.46298949909803,
+        "actual_wins": 19,
+        "model_top3_rate": 0.17506662624692643,
+        "actual_top3_rate": 0.14249363867684478,
+        "model_expected_top3": 68.80118411504209,
+        "actual_top3": 56
+      },
+      {
+        "popularity_group": "11番人気以下",
+        "horses": 509,
+        "model_win_rate": 0.03537955854311229,
+        "actual_win_rate": 0.011787819253438114,
+        "model_expected_wins": 18.008195298444157,
+        "actual_wins": 6,
+        "model_top3_rate": 0.11481688368021822,
+        "actual_top3_rate": 0.06286836935166994,
+        "model_expected_top3": 58.44179379323108,
+        "actual_top3": 32
+      }
+    ],
+    "actual_hit_races": 31,
+    "model_expected_hit_races": 58.17804333919041,
+    "payout_yen": 593130,
+    "recovery_percent": 59.313
+  },
+  "sensitivity_archive_96_only": {
+    "races": 96,
+    "horse_popularity_bias": [
+      {
+        "popularity_group": "1番人気",
+        "horses": 96,
+        "model_win_rate": 0.13826094993687557,
+        "actual_win_rate": 0.34375,
+        "model_expected_wins": 13.273051193940056,
+        "actual_wins": 33,
+        "model_top3_rate": 0.34183746700728257,
+        "actual_top3_rate": 0.625,
+        "model_expected_top3": 32.81639683269913,
+        "actual_top3": 60
+      },
+      {
+        "popularity_group": "2～3番人気",
+        "horses": 192,
+        "model_win_rate": 0.10698205704784113,
+        "actual_win_rate": 0.09895833333333333,
+        "model_expected_wins": 20.540554953185495,
+        "actual_wins": 19,
+        "model_top3_rate": 0.29868507073583345,
+        "actual_top3_rate": 0.359375,
+        "model_expected_top3": 57.34753358128002,
+        "actual_top3": 69
+      },
+      {
+        "popularity_group": "4～6番人気",
+        "horses": 288,
+        "model_win_rate": 0.07628313064620008,
+        "actual_win_rate": 0.06944444444444445,
+        "model_expected_wins": 21.969541626105624,
+        "actual_wins": 20,
+        "model_top3_rate": 0.2335863440509613,
+        "actual_top3_rate": 0.2534722222222222,
+        "model_expected_top3": 67.27286708667685,
+        "actual_top3": 73
+      },
+      {
+        "popularity_group": "7～10番人気",
+        "horses": 377,
+        "model_win_rate": 0.055051802714592264,
+        "actual_win_rate": 0.050397877984084884,
+        "model_expected_wins": 20.754529623401282,
+        "actual_wins": 19,
+        "model_top3_rate": 0.1755792822679181,
+        "actual_top3_rate": 0.14588859416445624,
+        "model_expected_top3": 66.19338941500513,
+        "actual_top3": 55
+      },
+      {
+        "popularity_group": "11番人気以下",
+        "horses": 490,
+        "model_win_rate": 0.035166331616607545,
+        "actual_win_rate": 0.01020408163265306,
+        "model_expected_wins": 17.231502492137697,
+        "actual_wins": 5,
+        "model_top3_rate": 0.11434195657612913,
+        "actual_top3_rate": 0.06326530612244897,
+        "model_expected_top3": 56.02755872230327,
+        "actual_top3": 31
+      }
+    ],
+    "actual_hit_races": 29,
+    "model_expected_hit_races": 55.76785043994108,
+    "payout_yen": 570430,
+    "recovery_percent": 59.41979166666667
+  },
+  "reconstructed_races": [
+    "2026061302010111",
+    "2026091209040311",
+    "2026101808040711"
+  ],
+  "deadheat_excluded_from_combination_calibration": [
+    "2026060705030211"
+  ],
+  "actual_payout_always_from_official": true,
+  "final_odds_and_official_payout_differences": [
+    {
+      "race_code": "2026060705030211",
+      "differences": [
+        {
+          "bet_type": "umaren",
+          "kumiban": "0411",
+          "odds_times_100": 12919.999999999998,
+          "official_per100": 6390
+        },
+        {
+          "bet_type": "umaren",
+          "kumiban": "0414",
+          "odds_times_100": 4820.0,
+          "official_per100": 2430
+        }
+      ]
+    }
+  ],
+  "limits": [
+    "Final market popularity and final odds are retrospective diagnostic groups, not the odds available at the original publication time.",
+    "Current allocation was designed after some tested races; this is not a strictly preregistered strategy backtest or live performance.",
+    "The original full exported features have not been certified point-in-time; current outcome labels were excluded from inference.",
+    "96 races were re-inferred from stored complete features; Saudi/Ireland/Fuji use previously verified same-model probability checkpoints; Swan was re-inferred from private archived public snapshots; 3 races were publicly reconstructed.",
+    "One Hakodate previous straight-course running style was unresolved and kept missing, not guessed. Sensitivity excludes all 3 reconstructions.",
+    "The original October 18 Shuka cap30 forecast and recovered 112% result are preserved separately; the A_v3 replay is not a replacement.",
+    "Yasuda Kinen had a second-place dead heat. Official payout, not odds times stake, determines settlement; one selected winner returned less than 10000 yen.",
+    "Extreme payouts are rare; a 103-race sample alone does not establish each tail-price category true expectation."
+  ]
+}

@@ -1,0 +1,1856 @@
+[
+  {
+    "race_code": "2026010406010111",
+    "race_name": "GⅢ 中山金杯",
+    "date": "2026-01-04",
+    "grade": "g3",
+    "runners": 14,
+    "all_combinations": 455,
+    "ticket_count": 76,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5868941237508027,
+    "predicted_expected_payout_yen": 28249.42770260071,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/001.html"
+  },
+  {
+    "race_code": "2026010408010111",
+    "race_name": "GⅢ 京都金杯",
+    "date": "2026-01-04",
+    "grade": "g3",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 88,
+    "stake_yen": 10000,
+    "payout_yen": 10620,
+    "any_hit": true,
+    "predicted_hit_probability": 0.5561230132858213,
+    "predicted_expected_payout_yen": 50499.45315549617,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/002.html"
+  },
+  {
+    "race_code": "2026011106010411",
+    "race_name": "GⅢ フェアリーS",
+    "date": "2026-01-11",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 95,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.45815470549580395,
+    "predicted_expected_payout_yen": 79158.19782387956,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/003.html"
+  },
+  {
+    "race_code": "2026011208010511",
+    "race_name": "GⅢ シンザン記念",
+    "date": "2026-01-12",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 95,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.49126987556391405,
+    "predicted_expected_payout_yen": 52879.84053178808,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/004.html"
+  },
+  {
+    "race_code": "2026011806010711",
+    "race_name": "GⅢ 京成杯",
+    "date": "2026-01-18",
+    "grade": "g3",
+    "runners": 15,
+    "all_combinations": 560,
+    "ticket_count": 94,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5318491123713142,
+    "predicted_expected_payout_yen": 41920.90401841562,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/005.html"
+  },
+  {
+    "race_code": "2026011808010711",
+    "race_name": "GⅡ 日経新春杯",
+    "date": "2026-01-18",
+    "grade": "g2",
+    "runners": 13,
+    "all_combinations": 364,
+    "ticket_count": 83,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6219595840433665,
+    "predicted_expected_payout_yen": 27237.90243832952,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/006.html"
+  },
+  {
+    "race_code": "2026012410010111",
+    "race_name": "GⅢ 小倉牝馬S",
+    "date": "2026-01-24",
+    "grade": "g3",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 88,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.49519290390047355,
+    "predicted_expected_payout_yen": 61343.06326796104,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/007.html"
+  },
+  {
+    "race_code": "2026012506010911",
+    "race_name": "GⅡ アメリカJCC",
+    "date": "2026-01-25",
+    "grade": "g2",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 94,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.4132291659653347,
+    "predicted_expected_payout_yen": 103918.1002808866,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/008.html"
+  },
+  {
+    "race_code": "2026012508010911",
+    "race_name": "GⅡ プロキオンS",
+    "date": "2026-01-25",
+    "grade": "g2",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 88,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5997044163078745,
+    "predicted_expected_payout_yen": 102920.108201,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/009.html"
+  },
+  {
+    "race_code": "2026020105010211",
+    "race_name": "GⅢ 根岸S",
+    "date": "2026-02-01",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 91,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.4591404054968005,
+    "predicted_expected_payout_yen": 43236.80095317182,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/010.html"
+  },
+  {
+    "race_code": "2026020108020211",
+    "race_name": "GⅢ シルクロードS",
+    "date": "2026-02-01",
+    "grade": "g3",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 90,
+    "stake_yen": 10000,
+    "payout_yen": 65620,
+    "any_hit": true,
+    "predicted_hit_probability": 0.5399093668057944,
+    "predicted_expected_payout_yen": 44567.717412061524,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/011.html"
+  },
+  {
+    "race_code": "2026021005010411",
+    "race_name": "GⅢ 東京新聞杯",
+    "date": "2026-02-10",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 91,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5298174980138319,
+    "predicted_expected_payout_yen": 40431.66585991583,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/013.html"
+  },
+  {
+    "race_code": "2026021008020411",
+    "race_name": "GⅢ きさらぎ賞",
+    "date": "2026-02-10",
+    "grade": "g3",
+    "runners": 9,
+    "all_combinations": 120,
+    "ticket_count": 60,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.8129601672583849,
+    "predicted_expected_payout_yen": 22347.30094126726,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/012.html"
+  },
+  {
+    "race_code": "2026021405010511",
+    "race_name": "GⅢ クイーンC",
+    "date": "2026-02-14",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 81,
+    "stake_yen": 10000,
+    "payout_yen": 12450,
+    "any_hit": true,
+    "predicted_hit_probability": 0.5793139080615876,
+    "predicted_expected_payout_yen": 51334.20306306285,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/014.html"
+  },
+  {
+    "race_code": "2026021505010611",
+    "race_name": "GⅢ 共同通信杯",
+    "date": "2026-02-15",
+    "grade": "g3",
+    "runners": 9,
+    "all_combinations": 120,
+    "ticket_count": 80,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.7925526143067056,
+    "predicted_expected_payout_yen": 40730.07225628801,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/016.html"
+  },
+  {
+    "race_code": "2026021508020611",
+    "race_name": "GⅡ 京都記念",
+    "date": "2026-02-15",
+    "grade": "g2",
+    "runners": 12,
+    "all_combinations": 286,
+    "ticket_count": 73,
+    "stake_yen": 10000,
+    "payout_yen": 10290,
+    "any_hit": true,
+    "predicted_hit_probability": 0.661167307407323,
+    "predicted_expected_payout_yen": 22631.14590740902,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/017.html"
+  },
+  {
+    "race_code": "2026022105010711",
+    "race_name": "GⅢ ダイヤモンドS",
+    "date": "2026-02-21",
+    "grade": "g3",
+    "runners": 15,
+    "all_combinations": 560,
+    "ticket_count": 92,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.4503263001036705,
+    "predicted_expected_payout_yen": 46241.409880503415,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/018.html"
+  },
+  {
+    "race_code": "2026022109010111",
+    "race_name": "GⅢ 阪急杯",
+    "date": "2026-02-21",
+    "grade": "g3",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 91,
+    "stake_yen": 10000,
+    "payout_yen": 11090,
+    "any_hit": true,
+    "predicted_hit_probability": 0.4825108992891999,
+    "predicted_expected_payout_yen": 53838.08896312601,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/019.html"
+  },
+  {
+    "race_code": "2026022205010811",
+    "race_name": "GⅠ フェブラリーS",
+    "date": "2026-02-22",
+    "grade": "g1",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 90,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.49196458802773924,
+    "predicted_expected_payout_yen": 72473.36604208636,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/feb/result/feb2026.html"
+  },
+  {
+    "race_code": "2026022210011011",
+    "race_name": "GⅢ 小倉大賞典",
+    "date": "2026-02-22",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 86,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.44984882152238737,
+    "predicted_expected_payout_yen": 47207.26265288974,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/020.html"
+  },
+  {
+    "race_code": "2026022806020111",
+    "race_name": "GⅢ オーシャンS",
+    "date": "2026-02-28",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 84,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6901328667036645,
+    "predicted_expected_payout_yen": 83868.50818194635,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/021.html"
+  },
+  {
+    "race_code": "2026030106020211",
+    "race_name": "GⅡ 中山記念",
+    "date": "2026-03-01",
+    "grade": "g2",
+    "runners": 14,
+    "all_combinations": 455,
+    "ticket_count": 81,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.7123763048307693,
+    "predicted_expected_payout_yen": 97879.28737598642,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/022.html"
+  },
+  {
+    "race_code": "2026030109010411",
+    "race_name": "GⅡ チューリップ賞",
+    "date": "2026-03-01",
+    "grade": "g2",
+    "runners": 15,
+    "all_combinations": 560,
+    "ticket_count": 98,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5094546306507832,
+    "predicted_expected_payout_yen": 171750.25486789472,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/023.html"
+  },
+  {
+    "race_code": "2026030706020311",
+    "race_name": "GⅢ 中山牝馬S",
+    "date": "2026-03-07",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 89,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.4881479276816288,
+    "predicted_expected_payout_yen": 45801.744631191956,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/024.html"
+  },
+  {
+    "race_code": "2026030709010511",
+    "race_name": "GⅡ フィリーズレビュー",
+    "date": "2026-03-07",
+    "grade": "g2",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 93,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.565824926488318,
+    "predicted_expected_payout_yen": 47748.720054930134,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/025.html"
+  },
+  {
+    "race_code": "2026030806020411",
+    "race_name": "GⅡ 弥生賞",
+    "date": "2026-03-08",
+    "grade": "g2",
+    "runners": 10,
+    "all_combinations": 165,
+    "ticket_count": 67,
+    "stake_yen": 10000,
+    "payout_yen": 10600,
+    "any_hit": true,
+    "predicted_hit_probability": 0.7423162547508614,
+    "predicted_expected_payout_yen": 30267.260287428486,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/026.html"
+  },
+  {
+    "race_code": "2026031506020611",
+    "race_name": "GⅡ スプリングS",
+    "date": "2026-03-15",
+    "grade": "g2",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 98,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.4160797588363782,
+    "predicted_expected_payout_yen": 107700.09588271056,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/028.html"
+  },
+  {
+    "race_code": "2026031507010211",
+    "race_name": "GⅡ 金鯱賞",
+    "date": "2026-03-15",
+    "grade": "g2",
+    "runners": 14,
+    "all_combinations": 455,
+    "ticket_count": 76,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6341547248164611,
+    "predicted_expected_payout_yen": 40118.2218691312,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/029.html"
+  },
+  {
+    "race_code": "2026032106020711",
+    "race_name": "GⅢ フラワーC",
+    "date": "2026-03-21",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 87,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6522138339820388,
+    "predicted_expected_payout_yen": 75828.22123232808,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/030.html"
+  },
+  {
+    "race_code": "2026032107010311",
+    "race_name": "GⅢ ファルコンS",
+    "date": "2026-03-21",
+    "grade": "g3",
+    "runners": 17,
+    "all_combinations": 816,
+    "ticket_count": 98,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.42792999370810103,
+    "predicted_expected_payout_yen": 116687.25905248261,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/031.html"
+  },
+  {
+    "race_code": "2026032207010411",
+    "race_name": "GⅢ 愛知杯",
+    "date": "2026-03-22",
+    "grade": "g3",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 95,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.43596727051483153,
+    "predicted_expected_payout_yen": 72991.77808935689,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/033.html"
+  },
+  {
+    "race_code": "2026032209011011",
+    "race_name": "GⅡ 阪神大賞典",
+    "date": "2026-03-22",
+    "grade": "g2",
+    "runners": 10,
+    "all_combinations": 165,
+    "ticket_count": 71,
+    "stake_yen": 10000,
+    "payout_yen": 10780,
+    "any_hit": true,
+    "predicted_hit_probability": 0.7158077125900938,
+    "predicted_expected_payout_yen": 51387.74857699569,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/032.html"
+  },
+  {
+    "race_code": "2026032806030111",
+    "race_name": "GⅡ 日経賞",
+    "date": "2026-03-28",
+    "grade": "g2",
+    "runners": 15,
+    "all_combinations": 560,
+    "ticket_count": 90,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.45574027952576396,
+    "predicted_expected_payout_yen": 37043.37567999284,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/034.html"
+  },
+  {
+    "race_code": "2026032809020111",
+    "race_name": "GⅢ 毎日杯",
+    "date": "2026-03-28",
+    "grade": "g3",
+    "runners": 7,
+    "all_combinations": 56,
+    "ticket_count": 41,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.7170128088640059,
+    "predicted_expected_payout_yen": 14210.091087058854,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/035.html"
+  },
+  {
+    "race_code": "2026032906030211",
+    "race_name": "GⅢ マーチS",
+    "date": "2026-03-29",
+    "grade": "g3",
+    "runners": 15,
+    "all_combinations": 560,
+    "ticket_count": 76,
+    "stake_yen": 10000,
+    "payout_yen": 12720,
+    "any_hit": true,
+    "predicted_hit_probability": 0.6260166696870945,
+    "predicted_expected_payout_yen": 31424.017441211843,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/036.html"
+  },
+  {
+    "race_code": "2026032907010611",
+    "race_name": "GⅠ 高松宮記念",
+    "date": "2026-03-29",
+    "grade": "g1",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 94,
+    "stake_yen": 10000,
+    "payout_yen": 11220,
+    "any_hit": true,
+    "predicted_hit_probability": 0.4626488340034066,
+    "predicted_expected_payout_yen": 117748.21919349387,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/takamatsu/result/takamatsu2026.html"
+  },
+  {
+    "race_code": "2026040406030311",
+    "race_name": "GⅢ ダービー卿チャレンジT",
+    "date": "2026-04-04",
+    "grade": "g3",
+    "runners": 15,
+    "all_combinations": 560,
+    "ticket_count": 83,
+    "stake_yen": 10000,
+    "payout_yen": 13450,
+    "any_hit": true,
+    "predicted_hit_probability": 0.4554334544475295,
+    "predicted_expected_payout_yen": 20676.88046115425,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/037.html"
+  },
+  {
+    "race_code": "2026040409020311",
+    "race_name": "GⅢ チャーチルダウンズC",
+    "date": "2026-04-04",
+    "grade": "g3",
+    "runners": 14,
+    "all_combinations": 455,
+    "ticket_count": 88,
+    "stake_yen": 10000,
+    "payout_yen": 135650,
+    "any_hit": true,
+    "predicted_hit_probability": 0.49583182608234583,
+    "predicted_expected_payout_yen": 54498.28002926948,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/038.html"
+  },
+  {
+    "race_code": "2026040509020411",
+    "race_name": "GⅠ 大阪杯",
+    "date": "2026-04-05",
+    "grade": "g1",
+    "runners": 15,
+    "all_combinations": 560,
+    "ticket_count": 89,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.659306509653946,
+    "predicted_expected_payout_yen": 68487.61199046104,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/osaka/result/osaka2026.html"
+  },
+  {
+    "race_code": "2026041106030511",
+    "race_name": "GⅡ ニュージーランドT",
+    "date": "2026-04-11",
+    "grade": "g2",
+    "runners": 15,
+    "all_combinations": 560,
+    "ticket_count": 91,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6097638212038647,
+    "predicted_expected_payout_yen": 100449.44616649629,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/039.html"
+  },
+  {
+    "race_code": "2026041109020511",
+    "race_name": "GⅡ 阪神牝馬S",
+    "date": "2026-04-11",
+    "grade": "g2",
+    "runners": 10,
+    "all_combinations": 165,
+    "ticket_count": 75,
+    "stake_yen": 10000,
+    "payout_yen": 11460,
+    "any_hit": true,
+    "predicted_hit_probability": 0.6169169049937081,
+    "predicted_expected_payout_yen": 26662.762618552755,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/040.html"
+  },
+  {
+    "race_code": "2026041209020611",
+    "race_name": "GⅠ 桜花賞",
+    "date": "2026-04-12",
+    "grade": "g1",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 93,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5780747662068761,
+    "predicted_expected_payout_yen": 127460.4563463561,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/ouka/result/ouka2026.html"
+  },
+  {
+    "race_code": "2026041809020711",
+    "race_name": "GⅢ アンタレスS",
+    "date": "2026-04-18",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 87,
+    "stake_yen": 10000,
+    "payout_yen": 11450,
+    "any_hit": true,
+    "predicted_hit_probability": 0.6369863476456485,
+    "predicted_expected_payout_yen": 119782.91860523747,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/041.html"
+  },
+  {
+    "race_code": "2026041903010411",
+    "race_name": "GⅢ 福島牝馬S",
+    "date": "2026-04-19",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 88,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6133457466346747,
+    "predicted_expected_payout_yen": 51558.6703686598,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/042.html"
+  },
+  {
+    "race_code": "2026041906030811",
+    "race_name": "GⅠ 皐月賞",
+    "date": "2026-04-19",
+    "grade": "g1",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 97,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.4235565584571432,
+    "predicted_expected_payout_yen": 103904.96616677176,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/satsuki/result/satsuki2026.html"
+  },
+  {
+    "race_code": "2026042505020111",
+    "race_name": "GⅡ 青葉賞",
+    "date": "2026-04-25",
+    "grade": "g2",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 96,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.4405806685409995,
+    "predicted_expected_payout_yen": 138954.3476067059,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/043.html"
+  },
+  {
+    "race_code": "2026042605020211",
+    "race_name": "GⅡ フローラS",
+    "date": "2026-04-26",
+    "grade": "g2",
+    "runners": 12,
+    "all_combinations": 286,
+    "ticket_count": 85,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.7248784645309502,
+    "predicted_expected_payout_yen": 66987.95014370809,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/044.html"
+  },
+  {
+    "race_code": "2026042608030211",
+    "race_name": "GⅡ マイラーズC",
+    "date": "2026-04-26",
+    "grade": "g2",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 87,
+    "stake_yen": 10000,
+    "payout_yen": 12420,
+    "any_hit": true,
+    "predicted_hit_probability": 0.5365361026033967,
+    "predicted_expected_payout_yen": 126416.83472032343,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/045.html"
+  },
+  {
+    "race_code": "2026050205020311",
+    "race_name": "GⅡ 京王杯スプリングC",
+    "date": "2026-05-02",
+    "grade": "g2",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 75,
+    "stake_yen": 10000,
+    "payout_yen": 24590,
+    "any_hit": true,
+    "predicted_hit_probability": 0.5730419594250633,
+    "predicted_expected_payout_yen": 26386.379491105727,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/046.html"
+  },
+  {
+    "race_code": "2026050208030311",
+    "race_name": "GⅢ ユニコーンS",
+    "date": "2026-05-02",
+    "grade": "g3",
+    "runners": 12,
+    "all_combinations": 286,
+    "ticket_count": 96,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5300643396740274,
+    "predicted_expected_payout_yen": 59841.494951325934,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/047.html"
+  },
+  {
+    "race_code": "2026050308030411",
+    "race_name": "GⅠ 天皇賞（春）",
+    "date": "2026-05-03",
+    "grade": "g1",
+    "runners": 15,
+    "all_combinations": 560,
+    "ticket_count": 92,
+    "stake_yen": 10000,
+    "payout_yen": 18240,
+    "any_hit": true,
+    "predicted_hit_probability": 0.5933912890407935,
+    "predicted_expected_payout_yen": 132120.98371170397,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/haruten/result/haruten2026.html"
+  },
+  {
+    "race_code": "2026050905020511",
+    "race_name": "GⅢ エプソムC",
+    "date": "2026-05-09",
+    "grade": "g3",
+    "runners": 17,
+    "all_combinations": 816,
+    "ticket_count": 80,
+    "stake_yen": 10000,
+    "payout_yen": 11640,
+    "any_hit": true,
+    "predicted_hit_probability": 0.6297753730863441,
+    "predicted_expected_payout_yen": 29797.944035345266,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/048.html"
+  },
+  {
+    "race_code": "2026050908030511",
+    "race_name": "GⅡ 京都新聞杯",
+    "date": "2026-05-09",
+    "grade": "g2",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 80,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6783940658318264,
+    "predicted_expected_payout_yen": 73999.79589926188,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/049.html"
+  },
+  {
+    "race_code": "2026051005020611",
+    "race_name": "GⅠ NHKマイルC",
+    "date": "2026-05-10",
+    "grade": "g1",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 94,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.4379333110865583,
+    "predicted_expected_payout_yen": 90221.26168610783,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/nmc/result/nmc2026.html"
+  },
+  {
+    "race_code": "2026051604010511",
+    "race_name": "GⅢ 新潟大賞典",
+    "date": "2026-05-16",
+    "grade": "g3",
+    "runners": 15,
+    "all_combinations": 560,
+    "ticket_count": 72,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6678547340413847,
+    "predicted_expected_payout_yen": 23324.3634917527,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/051.html"
+  },
+  {
+    "race_code": "2026051705020811",
+    "race_name": "GⅠ ヴィクトリアマイル",
+    "date": "2026-05-17",
+    "grade": "g1",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 96,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.3783264430364092,
+    "predicted_expected_payout_yen": 71123.46453869747,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/victoria/result/victoria2026.html"
+  },
+  {
+    "race_code": "2026052308030911",
+    "race_name": "GⅢ 平安S",
+    "date": "2026-05-23",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 88,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6726120674701864,
+    "predicted_expected_payout_yen": 80754.69281168155,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/052.html"
+  },
+  {
+    "race_code": "2026052405021011",
+    "race_name": "GⅠ オークス",
+    "date": "2026-05-24",
+    "grade": "g1",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 98,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.4878696053463614,
+    "predicted_expected_payout_yen": 359522.1642789234,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/oaks/result/oaks2026.html"
+  },
+  {
+    "race_code": "2026053008031111",
+    "race_name": "GⅢ 葵S",
+    "date": "2026-05-30",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 100,
+    "stake_yen": 10000,
+    "payout_yen": 11190,
+    "any_hit": true,
+    "predicted_hit_probability": 0.43947334695413703,
+    "predicted_expected_payout_yen": 85246.06566590886,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/053.html"
+  },
+  {
+    "race_code": "2026053105021211",
+    "race_name": "GⅠ 日本ダービー",
+    "date": "2026-05-31",
+    "grade": "g1",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 95,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.48757445724059834,
+    "predicted_expected_payout_yen": 280494.38752661645,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/derby/result/derby2026.html"
+  },
+  {
+    "race_code": "2026053105021212",
+    "race_name": "GⅡ 目黒記念",
+    "date": "2026-05-31",
+    "grade": "g2",
+    "runners": 14,
+    "all_combinations": 455,
+    "ticket_count": 72,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5876394599497442,
+    "predicted_expected_payout_yen": 28071.257763812377,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/054.html"
+  },
+  {
+    "race_code": "2026060705030211",
+    "race_name": "GⅠ 安田記念",
+    "date": "2026-06-07",
+    "grade": "g1",
+    "runners": 17,
+    "all_combinations": 816,
+    "ticket_count": 88,
+    "stake_yen": 10000,
+    "payout_yen": 6390,
+    "any_hit": true,
+    "predicted_hit_probability": 0.5753942031765398,
+    "predicted_expected_payout_yen": 152503.8305734738,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/yasuda/result/yasuda2026.html"
+  },
+  {
+    "race_code": "2026061302010111",
+    "race_name": "GⅢ 函館スプリントS",
+    "date": "2026-06-13",
+    "grade": "g3",
+    "runners": 12,
+    "all_combinations": 286,
+    "ticket_count": 74,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.7836913513495676,
+    "predicted_expected_payout_yen": 43380.263111973654,
+    "input_sources": [
+      "retrospective_public_entry_profile_history_reconstruction"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/056.html"
+  },
+  {
+    "race_code": "2026061409030411",
+    "race_name": "GⅠ 宝塚記念",
+    "date": "2026-06-14",
+    "grade": "g1",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 98,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.41055718218207826,
+    "predicted_expected_payout_yen": 219662.2219187896,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/takara/result/takara2026.html"
+  },
+  {
+    "race_code": "2026062105030611",
+    "race_name": "GⅢ 府中牝馬S",
+    "date": "2026-06-21",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 91,
+    "stake_yen": 10000,
+    "payout_yen": 13070,
+    "any_hit": true,
+    "predicted_hit_probability": 0.4943831559548136,
+    "predicted_expected_payout_yen": 56327.722997920464,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/057.html"
+  },
+  {
+    "race_code": "2026062109030611",
+    "race_name": "GⅢ しらさぎS",
+    "date": "2026-06-21",
+    "grade": "g3",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 94,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.4821726107684996,
+    "predicted_expected_payout_yen": 65286.9995820967,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/058.html"
+  },
+  {
+    "race_code": "2026062802010611",
+    "race_name": "GⅢ 函館記念",
+    "date": "2026-06-28",
+    "grade": "g3",
+    "runners": 15,
+    "all_combinations": 560,
+    "ticket_count": 64,
+    "stake_yen": 10000,
+    "payout_yen": 12080,
+    "any_hit": true,
+    "predicted_hit_probability": 0.654396074965261,
+    "predicted_expected_payout_yen": 13319.853377804324,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/060.html"
+  },
+  {
+    "race_code": "2026062803020211",
+    "race_name": "GⅢ ラジオNIKKEI賞",
+    "date": "2026-06-28",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 91,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5711611807340926,
+    "predicted_expected_payout_yen": 57319.91562421734,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/059.html"
+  },
+  {
+    "race_code": "2026070510020411",
+    "race_name": "GⅢ 北九州記念",
+    "date": "2026-07-05",
+    "grade": "g3",
+    "runners": 13,
+    "all_combinations": 364,
+    "ticket_count": 74,
+    "stake_yen": 10000,
+    "payout_yen": 11790,
+    "any_hit": true,
+    "predicted_hit_probability": 0.6044292516362828,
+    "predicted_expected_payout_yen": 15643.458428780901,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/061.html"
+  },
+  {
+    "race_code": "2026071203020611",
+    "race_name": "GⅢ 七夕賞",
+    "date": "2026-07-12",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 89,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6286897156526571,
+    "predicted_expected_payout_yen": 49588.07107631125,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/062.html"
+  },
+  {
+    "race_code": "2026071902011211",
+    "race_name": "GⅢ 函館2歳S",
+    "date": "2026-07-19",
+    "grade": "g3",
+    "runners": 13,
+    "all_combinations": 364,
+    "ticket_count": 92,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6284897373561713,
+    "predicted_expected_payout_yen": 41534.66176427958,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/064.html"
+  },
+  {
+    "race_code": "2026071910020811",
+    "race_name": "GⅢ 小倉記念",
+    "date": "2026-07-19",
+    "grade": "g3",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 84,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5602038580392654,
+    "predicted_expected_payout_yen": 52809.68539205609,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/063.html"
+  },
+  {
+    "race_code": "2026072604020207",
+    "race_name": "GⅢ 関屋記念",
+    "date": "2026-07-26",
+    "grade": "g3",
+    "runners": 14,
+    "all_combinations": 455,
+    "ticket_count": 88,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5587998528253044,
+    "predicted_expected_payout_yen": 19158.85181330049,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/065.html"
+  },
+  {
+    "race_code": "2026072607020207",
+    "race_name": "GⅢ 東海S",
+    "date": "2026-07-26",
+    "grade": "g3",
+    "runners": 14,
+    "all_combinations": 455,
+    "ticket_count": 69,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.7685788071279132,
+    "predicted_expected_payout_yen": 31514.622198226396,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/066.html"
+  },
+  {
+    "race_code": "2026080201010411",
+    "race_name": "GⅢ クイーンS",
+    "date": "2026-08-02",
+    "grade": "g3",
+    "runners": 14,
+    "all_combinations": 455,
+    "ticket_count": 94,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6455747185284659,
+    "predicted_expected_payout_yen": 79464.44519978267,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/068.html"
+  },
+  {
+    "race_code": "2026080204020407",
+    "race_name": "GⅢ アイビスサマーダッシュ",
+    "date": "2026-08-02",
+    "grade": "g3",
+    "runners": 17,
+    "all_combinations": 816,
+    "ticket_count": 93,
+    "stake_yen": 10000,
+    "payout_yen": 14560,
+    "any_hit": true,
+    "predicted_hit_probability": 0.5498043949634159,
+    "predicted_expected_payout_yen": 102871.52647363982,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/067.html"
+  },
+  {
+    "race_code": "2026080801010511",
+    "race_name": "GⅢ エルムS",
+    "date": "2026-08-08",
+    "grade": "g3",
+    "runners": 11,
+    "all_combinations": 220,
+    "ticket_count": 68,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6997469432777026,
+    "predicted_expected_payout_yen": 23640.55848749512,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/069.html"
+  },
+  {
+    "race_code": "2026080904020607",
+    "race_name": "GⅢ レパードS",
+    "date": "2026-08-09",
+    "grade": "g3",
+    "runners": 12,
+    "all_combinations": 286,
+    "ticket_count": 82,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.7665034885207873,
+    "predicted_expected_payout_yen": 52933.02146179103,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/070.html"
+  },
+  {
+    "race_code": "2026080907020607",
+    "race_name": "GⅢ CBC賞",
+    "date": "2026-08-09",
+    "grade": "g3",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 90,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.4468162816372561,
+    "predicted_expected_payout_yen": 55837.867972809545,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/071.html"
+  },
+  {
+    "race_code": "2026081601010811",
+    "race_name": "GⅡ 札幌記念",
+    "date": "2026-08-16",
+    "grade": "g2",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 89,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5954045576587618,
+    "predicted_expected_payout_yen": 88109.13487645167,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/074.html"
+  },
+  {
+    "race_code": "2026081607020807",
+    "race_name": "GⅢ 中京記念",
+    "date": "2026-08-16",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 88,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6057478290858189,
+    "predicted_expected_payout_yen": 53567.96196517353,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/073.html"
+  },
+  {
+    "race_code": "2026082301020211",
+    "race_name": "GⅢ キーンランドC",
+    "date": "2026-08-23",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 91,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.628662833213675,
+    "predicted_expected_payout_yen": 108208.98185517726,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/076.html"
+  },
+  {
+    "race_code": "2026082304030207",
+    "race_name": "GⅢ 新潟2歳S",
+    "date": "2026-08-23",
+    "grade": "g3",
+    "runners": 10,
+    "all_combinations": 165,
+    "ticket_count": 53,
+    "stake_yen": 10000,
+    "payout_yen": 10780,
+    "any_hit": true,
+    "predicted_hit_probability": 0.7460953648069072,
+    "predicted_expected_payout_yen": 16725.646532028695,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/075.html"
+  },
+  {
+    "race_code": "2026083004030408",
+    "race_name": "GⅢ 新潟記念",
+    "date": "2026-08-30",
+    "grade": "g3",
+    "runners": 11,
+    "all_combinations": 220,
+    "ticket_count": 43,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.7969623836311769,
+    "predicted_expected_payout_yen": 11543.653900245401,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/077.html"
+  },
+  {
+    "race_code": "2026083007030407",
+    "race_name": "GⅢ 中京2歳S",
+    "date": "2026-08-30",
+    "grade": "g3",
+    "runners": 9,
+    "all_combinations": 120,
+    "ticket_count": 65,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.7591111932956941,
+    "predicted_expected_payout_yen": 24941.583066093797,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/078.html"
+  },
+  {
+    "race_code": "2026090501020511",
+    "race_name": "GⅢ 札幌2歳S",
+    "date": "2026-09-05",
+    "grade": "g3",
+    "runners": 9,
+    "all_combinations": 120,
+    "ticket_count": 57,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.8643611085858932,
+    "predicted_expected_payout_yen": 30684.656353359645,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/080.html"
+  },
+  {
+    "race_code": "2026090506040111",
+    "race_name": "GⅢ 京成杯オータムH",
+    "date": "2026-09-05",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 81,
+    "stake_yen": 10000,
+    "payout_yen": 17840,
+    "any_hit": true,
+    "predicted_hit_probability": 0.5682023163438776,
+    "predicted_expected_payout_yen": 48499.322341961706,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/079.html"
+  },
+  {
+    "race_code": "2026090606040211",
+    "race_name": "GⅡ 紫苑S",
+    "date": "2026-09-06",
+    "grade": "g2",
+    "runners": 11,
+    "all_combinations": 220,
+    "ticket_count": 72,
+    "stake_yen": 10000,
+    "payout_yen": 11070,
+    "any_hit": true,
+    "predicted_hit_probability": 0.7698500681303971,
+    "predicted_expected_payout_yen": 30870.880509173287,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/081.html"
+  },
+  {
+    "race_code": "2026090609040211",
+    "race_name": "GⅡ セントウルS",
+    "date": "2026-09-06",
+    "grade": "g2",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 95,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.43699693545564183,
+    "predicted_expected_payout_yen": 78035.19996804724,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/082.html"
+  },
+  {
+    "race_code": "2026091209040311",
+    "race_name": "GⅢ チャレンジC",
+    "date": "2026-09-12",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 95,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6076340435376921,
+    "predicted_expected_payout_yen": 72470.03892728669,
+    "input_sources": [
+      "retrospective_public_entry_profile_history_reconstruction"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/083.html"
+  },
+  {
+    "race_code": "2026091306040411",
+    "race_name": "GⅡ セントライト記念",
+    "date": "2026-09-13",
+    "grade": "g2",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 99,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.3994341130226964,
+    "predicted_expected_payout_yen": 103434.91014855333,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/084.html"
+  },
+  {
+    "race_code": "2026091309040411",
+    "race_name": "GⅡ ローズS",
+    "date": "2026-09-13",
+    "grade": "g2",
+    "runners": 12,
+    "all_combinations": 286,
+    "ticket_count": 66,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.7010457372199027,
+    "predicted_expected_payout_yen": 28548.065666230457,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/085.html"
+  },
+  {
+    "race_code": "2026092006040611",
+    "race_name": "GⅡ オールカマー",
+    "date": "2026-09-20",
+    "grade": "g2",
+    "runners": 13,
+    "all_combinations": 364,
+    "ticket_count": 95,
+    "stake_yen": 10000,
+    "payout_yen": 30940,
+    "any_hit": true,
+    "predicted_hit_probability": 0.48697973134860345,
+    "predicted_expected_payout_yen": 54568.70069601899,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/087.html"
+  },
+  {
+    "race_code": "2026092109040711",
+    "race_name": "GⅡ 神戸新聞杯",
+    "date": "2026-09-21",
+    "grade": "g2",
+    "runners": 11,
+    "all_combinations": 220,
+    "ticket_count": 86,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.7578396117450804,
+    "predicted_expected_payout_yen": 69600.64487521451,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/088.html"
+  },
+  {
+    "race_code": "2026092609040811",
+    "race_name": "GⅢ シリウスS",
+    "date": "2026-09-26",
+    "grade": "g3",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 87,
+    "stake_yen": 10000,
+    "payout_yen": 22870,
+    "any_hit": true,
+    "predicted_hit_probability": 0.5685975931078381,
+    "predicted_expected_payout_yen": 41187.60747312339,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/089.html"
+  },
+  {
+    "race_code": "2026092706040911",
+    "race_name": "GⅠ スプリンターズS",
+    "date": "2026-09-27",
+    "grade": "g1",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 94,
+    "stake_yen": 10000,
+    "payout_yen": 13560,
+    "any_hit": true,
+    "predicted_hit_probability": 0.5546290204413932,
+    "predicted_expected_payout_yen": 92810.21263175327,
+    "input_sources": [
+      "race_features.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/sprint/result/sprint2026.html"
+  },
+  {
+    "race_code": "2026100405040211",
+    "race_name": "GⅡ 毎日王冠",
+    "date": "2026-10-04",
+    "grade": "g2",
+    "runners": 17,
+    "all_combinations": 816,
+    "ticket_count": 84,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.6757006759972858,
+    "predicted_expected_payout_yen": 90280.58051999903,
+    "input_sources": [
+      "jra_features_pilot_2025_2026.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/090.html"
+  },
+  {
+    "race_code": "2026100408040211",
+    "race_name": "GⅡ 京都大賞典",
+    "date": "2026-10-04",
+    "grade": "g2",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 85,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5956527117070781,
+    "predicted_expected_payout_yen": 37530.618768945475,
+    "input_sources": [
+      "jra_features_pilot_2025_2026.parquet"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/091.html"
+  },
+  {
+    "race_code": "2026101005040311",
+    "race_name": "GⅢ サウジアラビアロイヤルC",
+    "date": "2026-10-10",
+    "grade": "g3",
+    "runners": 11,
+    "all_combinations": 220,
+    "ticket_count": 83,
+    "stake_yen": 10000,
+    "payout_yen": 10360,
+    "any_hit": true,
+    "predicted_hit_probability": 0.677916840295271,
+    "predicted_expected_payout_yen": 46837.851120780164,
+    "input_sources": [
+      "verified_52_model_retrospective_checkpoint_20261018"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/092.html"
+  },
+  {
+    "race_code": "2026101105040411",
+    "race_name": "GⅡ アイルランドT",
+    "date": "2026-10-11",
+    "grade": "g2",
+    "runners": 16,
+    "all_combinations": 680,
+    "ticket_count": 93,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5368071375760349,
+    "predicted_expected_payout_yen": 119548.76541882833,
+    "input_sources": [
+      "verified_52_model_retrospective_checkpoint_20261018"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/093.html"
+  },
+  {
+    "race_code": "2026101208040511",
+    "race_name": "GⅡ スワンS",
+    "date": "2026-10-12",
+    "grade": "g2",
+    "runners": 18,
+    "all_combinations": 969,
+    "ticket_count": 96,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5782204133129804,
+    "predicted_expected_payout_yen": 91657.83950585025,
+    "input_sources": [
+      "private_archived_public_entry_previous_evidence_reinference"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/094.html"
+  },
+  {
+    "race_code": "2026101705040611",
+    "race_name": "GⅡ 富士S",
+    "date": "2026-10-17",
+    "grade": "g2",
+    "runners": 14,
+    "all_combinations": 455,
+    "ticket_count": 80,
+    "stake_yen": 10000,
+    "payout_yen": 12340,
+    "any_hit": true,
+    "predicted_hit_probability": 0.6172485080650458,
+    "predicted_expected_payout_yen": 51051.21909266062,
+    "input_sources": [
+      "immutable_52_model_prediction_checkpoint_20261017"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/095.html"
+  },
+  {
+    "race_code": "2026101808040711",
+    "race_name": "GⅠ 秋華賞",
+    "date": "2026-10-18",
+    "grade": "g1",
+    "runners": 17,
+    "all_combinations": 816,
+    "ticket_count": 92,
+    "stake_yen": 10000,
+    "payout_yen": 0,
+    "any_hit": false,
+    "predicted_hit_probability": 0.5473514764882109,
+    "predicted_expected_payout_yen": 112064.74083519226,
+    "input_sources": [
+      "retrospective_public_entry_profile_history_reconstruction"
+    ],
+    "result_source_url": "https://www.jra.go.jp/datafile/seiseki/g1/shuka/result/shuka2026.html"
+  }
+]

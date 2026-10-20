@@ -1,0 +1,1038 @@
+{
+  "source_url": "https://www.jra.go.jp/datafile/seiseki/replay/2026/jyusyo.html",
+  "retrieved_at": "2026-10-20T06:33:15.597192+00:00",
+  "sha256": "022b2403bc8a1a2efd798902760fc7187c67cfc4f658886030ddab6dae27b911",
+  "flat_races": [
+    {
+      "date": "2026-01-04",
+      "venue": "中山",
+      "name": "GⅢ 中山金杯",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/001.html"
+      ],
+      "race_code": "2026010406010111"
+    },
+    {
+      "date": "2026-01-04",
+      "venue": "京都",
+      "name": "GⅢ 京都金杯",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/002.html"
+      ],
+      "race_code": "2026010408010111"
+    },
+    {
+      "date": "2026-01-11",
+      "venue": "中山",
+      "name": "GⅢ フェアリーS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/003.html"
+      ],
+      "race_code": "2026011106010411"
+    },
+    {
+      "date": "2026-01-12",
+      "venue": "京都",
+      "name": "GⅢ シンザン記念",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/004.html"
+      ],
+      "race_code": "2026011208010511"
+    },
+    {
+      "date": "2026-01-18",
+      "venue": "中山",
+      "name": "GⅢ 京成杯",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/005.html"
+      ],
+      "race_code": "2026011806010711"
+    },
+    {
+      "date": "2026-01-18",
+      "venue": "京都",
+      "name": "GⅡ 日経新春杯",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/006.html"
+      ],
+      "race_code": "2026011808010711"
+    },
+    {
+      "date": "2026-01-24",
+      "venue": "小倉",
+      "name": "GⅢ 小倉牝馬S",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/007.html"
+      ],
+      "race_code": "2026012410010111"
+    },
+    {
+      "date": "2026-01-25",
+      "venue": "中山",
+      "name": "GⅡ アメリカJCC",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/008.html"
+      ],
+      "race_code": "2026012506010911"
+    },
+    {
+      "date": "2026-01-25",
+      "venue": "京都",
+      "name": "GⅡ プロキオンS",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/009.html"
+      ],
+      "race_code": "2026012508010911"
+    },
+    {
+      "date": "2026-02-01",
+      "venue": "東京",
+      "name": "GⅢ 根岸S",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/010.html"
+      ],
+      "race_code": "2026020105010211"
+    },
+    {
+      "date": "2026-02-01",
+      "venue": "京都",
+      "name": "GⅢ シルクロードS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/011.html"
+      ],
+      "race_code": "2026020108020211"
+    },
+    {
+      "date": "2026-02-10",
+      "venue": "京都",
+      "name": "GⅢ きさらぎ賞",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/012.html"
+      ],
+      "race_code": "2026021008020411"
+    },
+    {
+      "date": "2026-02-10",
+      "venue": "東京",
+      "name": "GⅢ 東京新聞杯",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/013.html"
+      ],
+      "race_code": "2026021005010411"
+    },
+    {
+      "date": "2026-02-14",
+      "venue": "東京",
+      "name": "GⅢ クイーンC",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/014.html"
+      ],
+      "race_code": "2026021405010511"
+    },
+    {
+      "date": "2026-02-15",
+      "venue": "東京",
+      "name": "GⅢ 共同通信杯",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/016.html"
+      ],
+      "race_code": "2026021505010611"
+    },
+    {
+      "date": "2026-02-15",
+      "venue": "京都",
+      "name": "GⅡ 京都記念",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/017.html"
+      ],
+      "race_code": "2026021508020611"
+    },
+    {
+      "date": "2026-02-21",
+      "venue": "東京",
+      "name": "GⅢ ダイヤモンドS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/018.html"
+      ],
+      "race_code": "2026022105010711"
+    },
+    {
+      "date": "2026-02-21",
+      "venue": "阪神",
+      "name": "GⅢ 阪急杯",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/019.html"
+      ],
+      "race_code": "2026022109010111"
+    },
+    {
+      "date": "2026-02-22",
+      "venue": "東京",
+      "name": "GⅠ フェブラリーS",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/feb/result/feb2026.html"
+      ],
+      "race_code": "2026022205010811"
+    },
+    {
+      "date": "2026-02-22",
+      "venue": "小倉",
+      "name": "GⅢ 小倉大賞典",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/020.html"
+      ],
+      "race_code": "2026022210011011"
+    },
+    {
+      "date": "2026-02-28",
+      "venue": "中山",
+      "name": "GⅢ オーシャンS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/021.html"
+      ],
+      "race_code": "2026022806020111"
+    },
+    {
+      "date": "2026-03-01",
+      "venue": "中山",
+      "name": "GⅡ 中山記念",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/022.html"
+      ],
+      "race_code": "2026030106020211"
+    },
+    {
+      "date": "2026-03-01",
+      "venue": "阪神",
+      "name": "GⅡ チューリップ賞",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/023.html"
+      ],
+      "race_code": "2026030109010411"
+    },
+    {
+      "date": "2026-03-07",
+      "venue": "中山",
+      "name": "GⅢ 中山牝馬S",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/024.html"
+      ],
+      "race_code": "2026030706020311"
+    },
+    {
+      "date": "2026-03-07",
+      "venue": "阪神",
+      "name": "GⅡ フィリーズレビュー",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/025.html"
+      ],
+      "race_code": "2026030709010511"
+    },
+    {
+      "date": "2026-03-08",
+      "venue": "中山",
+      "name": "GⅡ 弥生賞",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/026.html"
+      ],
+      "race_code": "2026030806020411"
+    },
+    {
+      "date": "2026-03-15",
+      "venue": "中山",
+      "name": "GⅡ スプリングS",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/028.html"
+      ],
+      "race_code": "2026031506020611"
+    },
+    {
+      "date": "2026-03-15",
+      "venue": "中京",
+      "name": "GⅡ 金鯱賞",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/029.html"
+      ],
+      "race_code": "2026031507010211"
+    },
+    {
+      "date": "2026-03-21",
+      "venue": "中山",
+      "name": "GⅢ フラワーC",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/030.html"
+      ],
+      "race_code": "2026032106020711"
+    },
+    {
+      "date": "2026-03-21",
+      "venue": "中京",
+      "name": "GⅢ ファルコンS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/031.html"
+      ],
+      "race_code": "2026032107010311"
+    },
+    {
+      "date": "2026-03-22",
+      "venue": "阪神",
+      "name": "GⅡ 阪神大賞典",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/032.html"
+      ],
+      "race_code": "2026032209011011"
+    },
+    {
+      "date": "2026-03-22",
+      "venue": "中京",
+      "name": "GⅢ 愛知杯",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/033.html"
+      ],
+      "race_code": "2026032207010411"
+    },
+    {
+      "date": "2026-03-28",
+      "venue": "中山",
+      "name": "GⅡ 日経賞",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/034.html"
+      ],
+      "race_code": "2026032806030111"
+    },
+    {
+      "date": "2026-03-28",
+      "venue": "阪神",
+      "name": "GⅢ 毎日杯",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/035.html"
+      ],
+      "race_code": "2026032809020111"
+    },
+    {
+      "date": "2026-03-29",
+      "venue": "中山",
+      "name": "GⅢ マーチS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/036.html"
+      ],
+      "race_code": "2026032906030211"
+    },
+    {
+      "date": "2026-03-29",
+      "venue": "中京",
+      "name": "GⅠ 高松宮記念",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/takamatsu/result/takamatsu2026.html"
+      ],
+      "race_code": "2026032907010611"
+    },
+    {
+      "date": "2026-04-04",
+      "venue": "中山",
+      "name": "GⅢ ダービー卿チャレンジT",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/037.html"
+      ],
+      "race_code": "2026040406030311"
+    },
+    {
+      "date": "2026-04-04",
+      "venue": "阪神",
+      "name": "GⅢ チャーチルダウンズC",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/038.html"
+      ],
+      "race_code": "2026040409020311"
+    },
+    {
+      "date": "2026-04-05",
+      "venue": "阪神",
+      "name": "GⅠ 大阪杯",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/osaka/result/osaka2026.html"
+      ],
+      "race_code": "2026040509020411"
+    },
+    {
+      "date": "2026-04-11",
+      "venue": "中山",
+      "name": "GⅡ ニュージーランドT",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/039.html"
+      ],
+      "race_code": "2026041106030511"
+    },
+    {
+      "date": "2026-04-11",
+      "venue": "阪神",
+      "name": "GⅡ 阪神牝馬S",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/040.html"
+      ],
+      "race_code": "2026041109020511"
+    },
+    {
+      "date": "2026-04-12",
+      "venue": "阪神",
+      "name": "GⅠ 桜花賞",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/ouka/result/ouka2026.html"
+      ],
+      "race_code": "2026041209020611"
+    },
+    {
+      "date": "2026-04-18",
+      "venue": "阪神",
+      "name": "GⅢ アンタレスS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/041.html"
+      ],
+      "race_code": "2026041809020711"
+    },
+    {
+      "date": "2026-04-19",
+      "venue": "中山",
+      "name": "GⅠ 皐月賞",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/satsuki/result/satsuki2026.html"
+      ],
+      "race_code": "2026041906030811"
+    },
+    {
+      "date": "2026-04-19",
+      "venue": "福島",
+      "name": "GⅢ 福島牝馬S",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/042.html"
+      ],
+      "race_code": "2026041903010411"
+    },
+    {
+      "date": "2026-04-25",
+      "venue": "東京",
+      "name": "GⅡ 青葉賞",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/043.html"
+      ],
+      "race_code": "2026042505020111"
+    },
+    {
+      "date": "2026-04-26",
+      "venue": "東京",
+      "name": "GⅡ フローラS",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/044.html"
+      ],
+      "race_code": "2026042605020211"
+    },
+    {
+      "date": "2026-04-26",
+      "venue": "京都",
+      "name": "GⅡ マイラーズC",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/045.html"
+      ],
+      "race_code": "2026042608030211"
+    },
+    {
+      "date": "2026-05-02",
+      "venue": "東京",
+      "name": "GⅡ 京王杯スプリングC",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/046.html"
+      ],
+      "race_code": "2026050205020311"
+    },
+    {
+      "date": "2026-05-02",
+      "venue": "京都",
+      "name": "GⅢ ユニコーンS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/047.html"
+      ],
+      "race_code": "2026050208030311"
+    },
+    {
+      "date": "2026-05-03",
+      "venue": "京都",
+      "name": "GⅠ 天皇賞（春）",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/haruten/result/haruten2026.html"
+      ],
+      "race_code": "2026050308030411"
+    },
+    {
+      "date": "2026-05-09",
+      "venue": "東京",
+      "name": "GⅢ エプソムC",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/048.html"
+      ],
+      "race_code": "2026050905020511"
+    },
+    {
+      "date": "2026-05-09",
+      "venue": "京都",
+      "name": "GⅡ 京都新聞杯",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/049.html"
+      ],
+      "race_code": "2026050908030511"
+    },
+    {
+      "date": "2026-05-10",
+      "venue": "東京",
+      "name": "GⅠ NHKマイルC",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/nmc/result/nmc2026.html"
+      ],
+      "race_code": "2026051005020611"
+    },
+    {
+      "date": "2026-05-16",
+      "venue": "新潟",
+      "name": "GⅢ 新潟大賞典",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/051.html"
+      ],
+      "race_code": "2026051604010511"
+    },
+    {
+      "date": "2026-05-17",
+      "venue": "東京",
+      "name": "GⅠ ヴィクトリアマイル",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/victoria/result/victoria2026.html"
+      ],
+      "race_code": "2026051705020811"
+    },
+    {
+      "date": "2026-05-23",
+      "venue": "京都",
+      "name": "GⅢ 平安S",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/052.html"
+      ],
+      "race_code": "2026052308030911"
+    },
+    {
+      "date": "2026-05-24",
+      "venue": "東京",
+      "name": "GⅠ オークス",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/oaks/result/oaks2026.html"
+      ],
+      "race_code": "2026052405021011"
+    },
+    {
+      "date": "2026-05-30",
+      "venue": "京都",
+      "name": "GⅢ 葵S",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/053.html"
+      ],
+      "race_code": "2026053008031111"
+    },
+    {
+      "date": "2026-05-31",
+      "venue": "東京",
+      "name": "GⅠ 日本ダービー",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/derby/result/derby2026.html"
+      ],
+      "race_code": "2026053105021211"
+    },
+    {
+      "date": "2026-05-31",
+      "venue": "東京",
+      "name": "GⅡ 目黒記念",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/054.html"
+      ],
+      "race_code": "2026053105021212"
+    },
+    {
+      "date": "2026-06-07",
+      "venue": "東京",
+      "name": "GⅠ 安田記念",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/yasuda/result/yasuda2026.html"
+      ],
+      "race_code": "2026060705030211"
+    },
+    {
+      "date": "2026-06-13",
+      "venue": "函館",
+      "name": "GⅢ 函館スプリントS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/056.html"
+      ],
+      "race_code": "2026061302010111"
+    },
+    {
+      "date": "2026-06-14",
+      "venue": "阪神",
+      "name": "GⅠ 宝塚記念",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/takara/result/takara2026.html"
+      ],
+      "race_code": "2026061409030411"
+    },
+    {
+      "date": "2026-06-21",
+      "venue": "東京",
+      "name": "GⅢ 府中牝馬S",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/057.html"
+      ],
+      "race_code": "2026062105030611"
+    },
+    {
+      "date": "2026-06-21",
+      "venue": "阪神",
+      "name": "GⅢ しらさぎS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/058.html"
+      ],
+      "race_code": "2026062109030611"
+    },
+    {
+      "date": "2026-06-28",
+      "venue": "福島",
+      "name": "GⅢ ラジオNIKKEI賞",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/059.html"
+      ],
+      "race_code": "2026062803020211"
+    },
+    {
+      "date": "2026-06-28",
+      "venue": "函館",
+      "name": "GⅢ 函館記念",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/060.html"
+      ],
+      "race_code": "2026062802010611"
+    },
+    {
+      "date": "2026-07-05",
+      "venue": "小倉",
+      "name": "GⅢ 北九州記念",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/061.html"
+      ],
+      "race_code": "2026070510020411"
+    },
+    {
+      "date": "2026-07-12",
+      "venue": "福島",
+      "name": "GⅢ 七夕賞",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/062.html"
+      ],
+      "race_code": "2026071203020611"
+    },
+    {
+      "date": "2026-07-19",
+      "venue": "小倉",
+      "name": "GⅢ 小倉記念",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/063.html"
+      ],
+      "race_code": "2026071910020811"
+    },
+    {
+      "date": "2026-07-19",
+      "venue": "函館",
+      "name": "GⅢ 函館2歳S",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/064.html"
+      ],
+      "race_code": "2026071902011211"
+    },
+    {
+      "date": "2026-07-26",
+      "venue": "新潟",
+      "name": "GⅢ 関屋記念",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/065.html"
+      ],
+      "race_code": "2026072604020207"
+    },
+    {
+      "date": "2026-07-26",
+      "venue": "中京",
+      "name": "GⅢ 東海S",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/066.html"
+      ],
+      "race_code": "2026072607020207"
+    },
+    {
+      "date": "2026-08-02",
+      "venue": "新潟",
+      "name": "GⅢ アイビスサマーダッシュ",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/067.html"
+      ],
+      "race_code": "2026080204020407"
+    },
+    {
+      "date": "2026-08-02",
+      "venue": "札幌",
+      "name": "GⅢ クイーンS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/068.html"
+      ],
+      "race_code": "2026080201010411"
+    },
+    {
+      "date": "2026-08-08",
+      "venue": "札幌",
+      "name": "GⅢ エルムS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/069.html"
+      ],
+      "race_code": "2026080801010511"
+    },
+    {
+      "date": "2026-08-09",
+      "venue": "新潟",
+      "name": "GⅢ レパードS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/070.html"
+      ],
+      "race_code": "2026080904020607"
+    },
+    {
+      "date": "2026-08-09",
+      "venue": "中京",
+      "name": "GⅢ CBC賞",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/071.html"
+      ],
+      "race_code": "2026080907020607"
+    },
+    {
+      "date": "2026-08-16",
+      "venue": "中京",
+      "name": "GⅢ 中京記念",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/073.html"
+      ],
+      "race_code": "2026081607020807"
+    },
+    {
+      "date": "2026-08-16",
+      "venue": "札幌",
+      "name": "GⅡ 札幌記念",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/074.html"
+      ],
+      "race_code": "2026081601010811"
+    },
+    {
+      "date": "2026-08-23",
+      "venue": "新潟",
+      "name": "GⅢ 新潟2歳S",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/075.html"
+      ],
+      "race_code": "2026082304030207"
+    },
+    {
+      "date": "2026-08-23",
+      "venue": "札幌",
+      "name": "GⅢ キーンランドC",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/076.html"
+      ],
+      "race_code": "2026082301020211"
+    },
+    {
+      "date": "2026-08-30",
+      "venue": "新潟",
+      "name": "GⅢ 新潟記念",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/077.html"
+      ],
+      "race_code": "2026083004030408"
+    },
+    {
+      "date": "2026-08-30",
+      "venue": "中京",
+      "name": "GⅢ 中京2歳S",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/078.html"
+      ],
+      "race_code": "2026083007030407"
+    },
+    {
+      "date": "2026-09-05",
+      "venue": "中山",
+      "name": "GⅢ 京成杯オータムH",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/079.html"
+      ],
+      "race_code": "2026090506040111"
+    },
+    {
+      "date": "2026-09-05",
+      "venue": "札幌",
+      "name": "GⅢ 札幌2歳S",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/080.html"
+      ],
+      "race_code": "2026090501020511"
+    },
+    {
+      "date": "2026-09-06",
+      "venue": "中山",
+      "name": "GⅡ 紫苑S",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/081.html"
+      ],
+      "race_code": "2026090606040211"
+    },
+    {
+      "date": "2026-09-06",
+      "venue": "阪神",
+      "name": "GⅡ セントウルS",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/082.html"
+      ],
+      "race_code": "2026090609040211"
+    },
+    {
+      "date": "2026-09-12",
+      "venue": "阪神",
+      "name": "GⅢ チャレンジC",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/083.html"
+      ],
+      "race_code": "2026091209040311"
+    },
+    {
+      "date": "2026-09-13",
+      "venue": "中山",
+      "name": "GⅡ セントライト記念",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/084.html"
+      ],
+      "race_code": "2026091306040411"
+    },
+    {
+      "date": "2026-09-13",
+      "venue": "阪神",
+      "name": "GⅡ ローズS",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/085.html"
+      ],
+      "race_code": "2026091309040411"
+    },
+    {
+      "date": "2026-09-20",
+      "venue": "中山",
+      "name": "GⅡ オールカマー",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/087.html"
+      ],
+      "race_code": "2026092006040611"
+    },
+    {
+      "date": "2026-09-21",
+      "venue": "阪神",
+      "name": "GⅡ 神戸新聞杯",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/088.html"
+      ],
+      "race_code": "2026092109040711"
+    },
+    {
+      "date": "2026-09-26",
+      "venue": "阪神",
+      "name": "GⅢ シリウスS",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/089.html"
+      ],
+      "race_code": "2026092609040811"
+    },
+    {
+      "date": "2026-09-27",
+      "venue": "中山",
+      "name": "GⅠ スプリンターズS",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/sprint/result/sprint2026.html"
+      ],
+      "race_code": "2026092706040911"
+    },
+    {
+      "date": "2026-10-04",
+      "venue": "東京",
+      "name": "GⅡ 毎日王冠",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/090.html"
+      ],
+      "race_code": "2026100405040211"
+    },
+    {
+      "date": "2026-10-04",
+      "venue": "京都",
+      "name": "GⅡ 京都大賞典",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/091.html"
+      ],
+      "race_code": "2026100408040211"
+    },
+    {
+      "date": "2026-10-10",
+      "venue": "東京",
+      "name": "GⅢ サウジアラビアロイヤルC",
+      "grade": "g3",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/092.html"
+      ],
+      "race_code": "2026101005040311"
+    },
+    {
+      "date": "2026-10-11",
+      "venue": "東京",
+      "name": "GⅡ アイルランドT",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/093.html"
+      ],
+      "race_code": "2026101105040411"
+    },
+    {
+      "date": "2026-10-12",
+      "venue": "京都",
+      "name": "GⅡ スワンS",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/094.html"
+      ],
+      "race_code": "2026101208040511"
+    },
+    {
+      "date": "2026-10-17",
+      "venue": "東京",
+      "name": "GⅡ 富士S",
+      "grade": "g2",
+      "result_links": [
+        "/datafile/seiseki/replay/2026/095.html"
+      ],
+      "race_code": "2026101705040611"
+    },
+    {
+      "date": "2026-10-18",
+      "venue": "京都",
+      "name": "GⅠ 秋華賞",
+      "grade": "g1",
+      "result_links": [
+        "/datafile/seiseki/g1/shuka/result/shuka2026.html"
+      ],
+      "race_code": "2026101808040711"
+    }
+  ],
+  "jump_races_excluded": 8
+}
