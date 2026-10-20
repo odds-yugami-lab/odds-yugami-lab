@@ -1,0 +1,177 @@
+{
+  "record_type": "operation_repair_validation",
+  "checked_at": "2026-10-20T06:11:42.629Z",
+  "test_only": true,
+  "repository": "odds-yugami-lab/odds-yugami-lab",
+  "branch": "dev/free-windows-probe-20261011",
+  "weekend_findings": {
+    "fuji_20261017": {
+      "race_code": "2026101705040611",
+      "prediction_receipt_result_present": true
+    },
+    "shuka_20261018": {
+      "race_code": "2026101808040711",
+      "forecast_and_x_user_reported": true,
+      "pre_race_prediction_file_present": false,
+      "pre_race_receipt_present": false,
+      "postrace_recovered_original_tickets_preserved": true,
+      "original_allocation_unchanged": true,
+      "verified_virtual_recovered_payout_yen": 11200
+    },
+    "structural_cause": "Acquisition, inference, immutable publication, receipt, delivery and settlement had separate modules/prompts but no executable cloud coordinator; output generation was not proof of GitHub publication.",
+    "exact_original_failure_exception_known": false,
+    "exact_exception_limitation": "No original failure trace established the precise API/runtime exception. Do not assert a specific HTTP error, credential failure or scheduler failure without evidence."
+  },
+  "repair": {
+    "code_commit_sha": "7d1b58bb39268774a52dcc20db31424ac8824a72",
+    "source_files_read_back_exact": true,
+    "files": [
+      {
+        "path": "development/free_web/operation_runner.py",
+        "sha": "ccb4d0cdd7233d32c9ea784388586a5ca83e2173",
+        "exact": true
+      },
+      {
+        "path": "development/free_web/connector_bridge.js",
+        "sha": "80478f1b0b56c56e356e4077241173d3ea60657f",
+        "exact": true
+      },
+      {
+        "path": "development/free_web/live_pipeline.py",
+        "sha": "9b4bd9765b4aa4d48414c2173f0d57cdb9b649d9",
+        "exact": true
+      },
+      {
+        "path": "development/free_web/public_live_collector.py",
+        "sha": "16a682037fbbd1e0b8c34a078e83e36104cbdaab",
+        "exact": true
+      },
+      {
+        "path": "development/free_web/history_coverage.py",
+        "sha": "0c7a3a098b29739f53fc1341394257cc248458d8",
+        "exact": true
+      },
+      {
+        "path": "development/free_web/test_operation_runner.py",
+        "sha": "70d8373a2d289c62691823cfdb88ab13c71526d8",
+        "exact": true
+      },
+      {
+        "path": "development/free_web/pre_race_record.py",
+        "sha": "7b8c8d00e7031f1a0cd12d343d916db3c9416a47",
+        "exact": true
+      },
+      {
+        "path": "development/free_web/feature_pipeline.py",
+        "sha": "f238ebdbc3c129ec347d871faba2bc3d2f3b7c1c",
+        "exact": true
+      },
+      {
+        "path": "development/free_web/official_entries.py",
+        "sha": "81edd26c7f9166205b1ab4774a05047258d09fc3",
+        "exact": true
+      },
+      {
+        "path": "development/free_web/publication.py",
+        "sha": "3773a73d3f51196c2707c69af9ccff4f5c456b4e",
+        "exact": true
+      },
+      {
+        "path": "development/free_web/RUNBOOK.md",
+        "sha": "9031ed9ec1712c93f44d0782bc7650436ae610e4",
+        "exact": true
+      },
+      {
+        "path": "development/free_web/PIPELINE_STATUS.md",
+        "sha": "55b68d848b2dfe6d3397f355c54a9dade10731de",
+        "exact": true
+      }
+    ],
+    "features": [
+      "Executable cloud coordinator using existing GitHub connection",
+      "Both immutable prediction and receipt verified before chat/X draft release",
+      "Exact bytes, Git blob SHA, branch ancestry and server commit time checks",
+      "Idempotent identical-file reuse; conflicting files never overwritten",
+      "Current entry/previous evidence/history/model/odds composition",
+      "Finalization clock and source freshness rechecked after calculation",
+      "Official calendar verifies non-race gaps; missing race days block publication",
+      "Official start windows verified in Python",
+      "Append-only failure diagnostics when GitHub is reachable"
+    ]
+  },
+  "tests": {
+    "unit_tests_passed": 17,
+    "numerical_recalculation": {
+      "race_code": "2026101208040511",
+      "description": "Historical Swan S, final post-race odds; operational connection test only",
+      "runners": 18,
+      "feature_count": 52,
+      "prior_features_recalculated": 30,
+      "public_previous_evidence_horses": 18,
+      "win_top3_models_loaded_and_executed": true,
+      "all_combination_odds": 969,
+      "selected_tickets": 96,
+      "total_stake_yen": 10000,
+      "allocation_rule": "balanced_A_v3"
+    },
+    "real_github_round_trip": {
+      "prediction_commit_sha": "b750f49206f5ca0ed37b57795962770eaf5d5e07",
+      "receipt_commit_sha": "f3e8986c5169b01cefbf1a6057a05f42c5ab87bf",
+      "settlement_commit_sha": "57dd2d1af270b9819d9375f0d2ae1e5d600b9759",
+      "commit_and_branch_content_verified": true,
+      "ancestry_and_server_time_verified": true,
+      "retry_reused_same_prediction_and_receipt_commits": true,
+      "official_payouts_fetched": true,
+      "settlement_test_only": true,
+      "x_draft_released": false,
+      "normal_predictions_results_stats_written": false
+    }
+  },
+  "reservations": [
+    {
+      "title": "重賞 答え合わせ・履歴更新",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Tokyo:20261003T163500\nRRULE:FREQ=DAILY;UNTIL=20261227T235959\nEND:VEVENT",
+      "uses_runner": true,
+      "uses_bridge": true
+    },
+    {
+      "title": "重賞予想・公開 15:45以降",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Tokyo:20261021T151000\nRRULE:FREQ=DAILY;UNTIL=20261227T145959Z\nEND:VEVENT",
+      "uses_runner": true,
+      "uses_bridge": true
+    },
+    {
+      "title": "重賞予想・公開 15:40前後",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Tokyo:20261021T150500\nRRULE:FREQ=DAILY;UNTIL=20261227T145959Z\nEND:VEVENT",
+      "uses_runner": true,
+      "uses_bridge": true
+    },
+    {
+      "title": "重賞予想・公開 15:35以前",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Tokyo:20261021T145500\nRRULE:FREQ=DAILY;UNTIL=20261227T145959Z\nEND:VEVENT",
+      "uses_runner": true,
+      "uses_bridge": true
+    }
+  ],
+  "remaining_live_validation": [
+    "Actual in-sale odds in the scheduled runtime",
+    "Actual same-day cancellation rows",
+    "Complete scheduled live run and both commits/delivery before race start minus 12 minutes"
+  ],
+  "limitations": [
+    "Unsupported local/overseas/straight-course previous starts remain explicit blockers; no guessed fallback",
+    "Result-history ingestion and Library version save remain separately verified steps; do not mark missing race days complete",
+    "Reservation settings readback does not prove a future execution will complete"
+  ],
+  "privacy": {
+    "private_model_history_or_fixtures_published": false,
+    "paid_service_added": false,
+    "user_pc_required": false,
+    "x_sent": false,
+    "tickets_purchased": false
+  }
+}
