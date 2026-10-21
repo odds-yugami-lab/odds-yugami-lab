@@ -1,0 +1,70 @@
+{
+  "record_type": "probability_correction_protocol",
+  "created_at": "2026-10-21T02:32:31.342676+00:00",
+  "experiment": "market_strength_calibration_v1_20261021",
+  "test_only": true,
+  "base_commit": "4c5c79e784a415c866e3f013a64bb2f73fbfff79",
+  "purpose": "Correct popularity-conditional probability bias without tuning ticket allocation or historical ROI.",
+  "base_training_end": "2024-12-31 for reconstructed calibration predictions; 2025-12-31 for frozen 2026 model",
+  "fit_period": [
+    "2025-01-01",
+    "2025-12-31"
+  ],
+  "fit_races": "All complete JRA flat G1/G2/G3 races available in the supplied feature archive, validated against public final entries and ranking; exclude incomplete fields and top-three dead heats.",
+  "fit_outcome": "ordered top-three ranking negative log likelihood per race",
+  "formula": "strength=softmax(alpha*log(normalized_sqrt(WIN*TOP3))+beta*log(normalized_inverse_WIN_odds))",
+  "bounds": {
+    "alpha": [
+      0.0,
+      1.0
+    ],
+    "beta": [
+      0.0,
+      2.0
+    ]
+  },
+  "optimizer": "scipy L-BFGS-B, deterministic fixed start alpha=0.5 beta=0.5; check bounded optima and gradients",
+  "hyperparameters_selected_using_2026": false,
+  "evaluation_period": [
+    "2026-01-04",
+    "2026-10-18"
+  ],
+  "evaluation_is_untouched": false,
+  "evaluation_context": "2026 outcomes were already inspected to diagnose the original model. This comparison is a retrospective temporal holdout for coefficient fitting, not independent prospective proof.",
+  "baselines": [
+    "frozen_saved_WIN_TOP3_and_current_strength",
+    "normalized_inverse_WIN_odds_strength_alpha0_beta1"
+  ],
+  "metrics": [
+    "horse_WIN_and_TOP3_Brier_and_binary_logloss",
+    "pair_and_triple_multiclass_logloss_and_Brier",
+    "ordered_top3_logloss",
+    "popularity_group_predicted_vs_observed",
+    "fixed_balanced_A_v3_portfolio_hit_calibration_and_official_ROI",
+    "paired_race_bootstrap_95CI",
+    "2026_H1_vs_H2_sensitivity"
+  ],
+  "allocation": "balanced_A_v3 unchanged exact-10000-yen budget, minimum-only stakes, same default solver settings",
+  "joint_probability_requirement": "A single corrected strength drives horse marginals, all pair/triple probabilities and union hit chance; never independently rescale combination probabilities.",
+  "deployment_gates": [
+    "no source/data/mapping validation failures",
+    "candidate improves mean ordered-top3 and both pair/triple logloss vs old strength in 2026 and does not worsen aggregate horse probability Brier",
+    "improvement does not reverse direction in H1/H2 split for ordered-top3 logloss",
+    "portfolio actual-vs-estimated hit-rate gap narrows and total official ROI is not below old fixed-rule replay",
+    "candidate is at least competitive with market-only probability baseline; if AI coefficient is zero explicitly report no retained AI contribution",
+    "live data acquisition, odds freshness, publication roundtrip and runtime/deadline checks must pass before production activation"
+  ],
+  "deployment_policy": "Conditional. Do not activate merely because a retrospective ROI improved. Preserve all original models, allocations and historical predictions. If a gate fails, save rejection and do not alter production.",
+  "limitations": [
+    "final odds, final starter sets, original archive point-in-time alignment uncertified",
+    "103 races are too few for profit guarantees",
+    "future live validation remains necessary"
+  ],
+  "source_feature_sha256": "d87a7e8116e5648ffb872672953e22d367dde772812db680a45f76fb2300bbd2",
+  "base_model_sha256": {
+    "top3_model.joblib": "f0e1109be2bd6a4dfcd2099df46cb95f17d846d202b0e1b0a39f6e5123cd4115",
+    "top3_platt.joblib": "5df2d77bfb2e595158a740d76233183f6c11ad1f26139f7196d5af8fe7756dec",
+    "win_model.joblib": "0d098fe95abfe1453cedbca9803be68d6ce8b8f82bf36514b3f6557aac02b645",
+    "win_platt.joblib": "191cff046054aecd53ed62d72376e6a11fc9c3ee244bcffd0f0bd37569581ded"
+  }
+}
