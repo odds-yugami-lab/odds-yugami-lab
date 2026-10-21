@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-21T15:33:05.320514+00:00",
+  "test_only": true,
+  "baseline": "recent52 candidate no additional boost; priorROI88.27864077669904%,66/103hit",
+  "methods": [
+    "no_extra_boost",
+    "favorite_only",
+    "top3_favorites"
+  ],
+  "strength_multiplier": 1.2,
+  "applied_after_existing_market_correction": true,
+  "probability_policy": "Multiply selected shared PL horse strength1.2, renormalize joint, all marginals from same joint.",
+  "new_replays": 206,
+  "baseline_reused": true,
+  "no_retraining": true,
+  "no_2025_selection_this_exploration": true,
+  "2026_previously_inspected": true,
+  "no_production_changes_or_adoption": true,
+  "fixed_allocation": "balanced_A_v3 exact-minimum stake rules budget10000yen",
+  "input_sha256": "3cf089a36ec70e5c1f538c8f12db8fde6a3503413a13288e3f02b922800bfc35",
+  "base_selection_sha256": "8baa3d4b934868390fec6ac5b7d23dc01113381e500fbbd02793b534bc8fc199"
+}
