@@ -1,0 +1,64 @@
+{
+  "record_type": "base_model_review_protocol",
+  "created_at": "2026-10-21T13:09:04.006646+00:00",
+  "base_commit": "8e8bd3ff5e61b00eb31f9d437bc21e6e13b26584",
+  "test_only": true,
+  "production_changes_in_this_run": false,
+  "goal": "Improve the original horse-strength WIN/TOP3 learners; do not disguise this as only changing probability postprocessing.",
+  "audit_scope": [
+    "row and race identity",
+    "horse/frame/body-weight validity",
+    "WIN/TOP3 target counts including dead heats",
+    "past-date and aggregate-rate consistency",
+    "source feature gain and calibration",
+    "training versus future-input compatibility"
+  ],
+  "families": {
+    "incumbent": {
+      "features": 52,
+      "training": "existing reconstructed <=2024 model for 2025; existing <=2025 model for 2026"
+    },
+    "recent52": {
+      "features": 52,
+      "training": "most recent five complete years, flat tracks10..29 only, complete unique fields, exactly one winner and three top3 labels",
+      "parameters": "same 368-tree/24-leaf original binary classifiers"
+    },
+    "relative78": {
+      "features": 78,
+      "training": "same recent clean-flat cohort",
+      "parameters": "same original binary classifier settings",
+      "derived_features": "within-race percentile and centered difference for twelve prior rate columns and previous finish position; no new data source"
+    },
+    "relative78_detail": {
+      "features": 78,
+      "training": "same recent clean-flat cohort",
+      "parameters": "600 trees,31 leaves,max_depth8,min_child_samples80; remaining original settings unchanged"
+    }
+  },
+  "training_windows": {
+    "predict_2025": [
+      "2020-01-01",
+      "2024-12-31"
+    ],
+    "predict_2026_final_refit": [
+      "2021-01-01",
+      "2025-12-31"
+    ]
+  },
+  "within_2025_validation": "Use same four strictly forward folds as previous study, validation74 complete graded races; refit each base probability calibrator and the same 2-coefficient shared AI+market correction only on earlier training labels.",
+  "cohort_comparison": "For CV compare all four families on the same complete-flat calibration rows and same119 graded race identities.",
+  "candidate_selection": "Among the three new families, choose lowest pooled 2025 validation ordered-top3 logloss; ties within1e-6 choose fewer trees/features. Also report incumbent. This always freezes one research candidate for evaluation; selection is not deployment approval.",
+  "adoption_gates": [
+    "candidate improves 2025 CV joint logloss vs incumbent",
+    "both unassisted WIN/TOP3 probability Brier metrics improve or do not worsen in validation",
+    "2026 same-input paired comparison improves joint logloss and both horse probability Brier",
+    "no result-based retuning, no hidden data/coverage substitution",
+    "future live feature-generation compatibility must be tested separately"
+  ],
+  "evaluation": "Freeze candidate family and all coefficients before its 2026 predictions. Compare on same2026 inputs against newly inferred saved incumbent, and retain prior archived baseline as a distinct comparison. Report archive96-only sensitivity and all reconstructed inputs separately.",
+  "2026_is_untouched": false,
+  "warning": "2026 results were previously examined. This is a retrospective temporal test; no independent prospective proof or profit guarantee.",
+  "2026_inputs": "Recreate actual model feature rows for all103 races. Existing probability-only checkpoints are not sufficient for new models. Prefer complete private archived features; use audited public reconstruction only when needed, with strict pre-target history.",
+  "postprocessing": "Same two-coefficient geometric WIN/TOP3 plus market correction and unchanged balanced_A_v3 allocation. Fit correction separately for each base learner using2025 only.",
+  "data_preservation": "Original model ZIP, history, prior predictions/results, and automation prompts unchanged. New learned binaries must remain private. Only source and small derived reports may be public."
+}
