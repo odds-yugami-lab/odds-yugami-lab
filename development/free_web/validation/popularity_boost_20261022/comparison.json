@@ -1,0 +1,210 @@
+{
+  "record_type": "exploratory_popularity_strength_boost",
+  "created_at": "2026-10-21T15:34:32.829428+00:00",
+  "test_only": true,
+  "baseline": "recent52 candidate, no additional boost;88.27864077669904% from prior actual replay",
+  "baseline_reused_not_recomputed": true,
+  "new_portfolio_calculations": 206,
+  "aggregate": {
+    "no_extra_boost": {
+      "races": 103,
+      "tickets": 5412,
+      "stake_yen": 1030000,
+      "payout_yen": 909270,
+      "recovery_percent": 88.27864077669904,
+      "hit_races": 66,
+      "actual_hit_rate": 0.6407766990291263,
+      "mean_predicted_hit_probability": 0.6318711361919456,
+      "absolute_hit_calibration_gap": 0.008905562837180692,
+      "stake_share_at_100x_or_more": 0.3300970873786408,
+      "maximum_allocation_seconds": 3.238652921994799,
+      "mean_favorite_WIN_prediction": 0.22869179546842094,
+      "actual_favorite_WIN_rate": 0.33980582524271846,
+      "mean_ordered_nll": 6.650908134420439
+    },
+    "favorite_only": {
+      "races": 103,
+      "tickets": 5119,
+      "stake_yen": 1030000,
+      "payout_yen": 849920,
+      "recovery_percent": 82.51650485436893,
+      "hit_races": 66,
+      "actual_hit_rate": 0.6407766990291263,
+      "mean_predicted_hit_probability": 0.64597424405677,
+      "absolute_hit_calibration_gap": 0.005197545027643691,
+      "stake_share_at_100x_or_more": 0.3066019417475728,
+      "maximum_allocation_seconds": 1.4799452480001491,
+      "mean_favorite_WIN_prediction": 0.26130330050050876,
+      "actual_favorite_WIN_rate": 0.33980582524271846,
+      "mean_ordered_nll": 6.639123620698107
+    },
+    "top3_favorites": {
+      "races": 103,
+      "tickets": 5089,
+      "stake_yen": 1030000,
+      "payout_yen": 837790,
+      "recovery_percent": 81.3388349514563,
+      "hit_races": 64,
+      "actual_hit_rate": 0.6213592233009708,
+      "mean_predicted_hit_probability": 0.6559171387940096,
+      "absolute_hit_calibration_gap": 0.03455791549303877,
+      "stake_share_at_100x_or_more": 0.2980582524271845,
+      "maximum_allocation_seconds": 4.548666508999304,
+      "mean_favorite_WIN_prediction": 0.24775725738660032,
+      "actual_favorite_WIN_rate": 0.33980582524271846,
+      "mean_ordered_nll": 6.670071211121195
+    }
+  },
+  "halves": {
+    "H1": {
+      "no_extra_boost": {
+        "races": 68,
+        "tickets": 3689,
+        "stake_yen": 680000,
+        "payout_yen": 589650,
+        "recovery_percent": 86.71323529411765,
+        "hit_races": 43,
+        "actual_hit_rate": 0.6323529411764706,
+        "mean_predicted_hit_probability": 0.6204870874191972,
+        "absolute_hit_calibration_gap": 0.011865853757273337,
+        "stake_share_at_100x_or_more": 0.3498529411764706,
+        "maximum_allocation_seconds": 3.210376830000314
+      },
+      "favorite_only": {
+        "races": 68,
+        "tickets": 3409,
+        "stake_yen": 680000,
+        "payout_yen": 516060,
+        "recovery_percent": 75.89117647058823,
+        "hit_races": 42,
+        "actual_hit_rate": 0.6176470588235294,
+        "mean_predicted_hit_probability": 0.6403486778783635,
+        "absolute_hit_calibration_gap": 0.022701619054834032,
+        "stake_share_at_100x_or_more": 0.31323529411764706,
+        "maximum_allocation_seconds": 1.4799452480001491
+      },
+      "top3_favorites": {
+        "races": 68,
+        "tickets": 3470,
+        "stake_yen": 680000,
+        "payout_yen": 568470,
+        "recovery_percent": 83.5985294117647,
+        "hit_races": 42,
+        "actual_hit_rate": 0.6176470588235294,
+        "mean_predicted_hit_probability": 0.6457203295703426,
+        "absolute_hit_calibration_gap": 0.028073270746813206,
+        "stake_share_at_100x_or_more": 0.3175,
+        "maximum_allocation_seconds": 4.548666508999304
+      }
+    },
+    "H2": {
+      "no_extra_boost": {
+        "races": 35,
+        "tickets": 1723,
+        "stake_yen": 350000,
+        "payout_yen": 319620,
+        "recovery_percent": 91.32,
+        "hit_races": 23,
+        "actual_hit_rate": 0.6571428571428571,
+        "mean_predicted_hit_probability": 0.6539887166647137,
+        "absolute_hit_calibration_gap": 0.0031541404781434412,
+        "stake_share_at_100x_or_more": 0.2917142857142857,
+        "maximum_allocation_seconds": 3.238652921994799
+      },
+      "favorite_only": {
+        "races": 35,
+        "tickets": 1710,
+        "stake_yen": 350000,
+        "payout_yen": 333860,
+        "recovery_percent": 95.38857142857142,
+        "hit_races": 24,
+        "actual_hit_rate": 0.6857142857142857,
+        "mean_predicted_hit_probability": 0.6569039154891024,
+        "absolute_hit_calibration_gap": 0.02881037022518329,
+        "stake_share_at_100x_or_more": 0.2937142857142857,
+        "maximum_allocation_seconds": 0.8960901489990647
+      },
+      "top3_favorites": {
+        "races": 35,
+        "tickets": 1619,
+        "stake_yen": 350000,
+        "payout_yen": 269320,
+        "recovery_percent": 76.94857142857143,
+        "hit_races": 22,
+        "actual_hit_rate": 0.6285714285714286,
+        "mean_predicted_hit_probability": 0.6757280824285617,
+        "absolute_hit_calibration_gap": 0.04715665385713319,
+        "stake_share_at_100x_or_more": 0.2602857142857143,
+        "maximum_allocation_seconds": 2.9204775010002777
+      }
+    }
+  },
+  "archive96_only": {
+    "no_extra_boost": {
+      "races": 96,
+      "tickets": 5036,
+      "stake_yen": 960000,
+      "payout_yen": 835640,
+      "recovery_percent": 87.04583333333333,
+      "hit_races": 60,
+      "actual_hit_rate": 0.625,
+      "mean_predicted_hit_probability": 0.6319346859682892,
+      "absolute_hit_calibration_gap": 0.006934685968289167,
+      "stake_share_at_100x_or_more": 0.3302083333333333,
+      "maximum_allocation_seconds": 3.238652921994799
+    },
+    "favorite_only": {
+      "races": 96,
+      "tickets": 4746,
+      "stake_yen": 960000,
+      "payout_yen": 793990,
+      "recovery_percent": 82.70729166666666,
+      "hit_races": 61,
+      "actual_hit_rate": 0.6354166666666666,
+      "mean_predicted_hit_probability": 0.6470524385381076,
+      "absolute_hit_calibration_gap": 0.011635771871440936,
+      "stake_share_at_100x_or_more": 0.30520833333333336,
+      "maximum_allocation_seconds": 1.4799452480001491
+    },
+    "top3_favorites": {
+      "races": 96,
+      "tickets": 4733,
+      "stake_yen": 960000,
+      "payout_yen": 764760,
+      "recovery_percent": 79.6625,
+      "hit_races": 58,
+      "actual_hit_rate": 0.6041666666666666,
+      "mean_predicted_hit_probability": 0.6566242796471916,
+      "absolute_hit_calibration_gap": 0.05245761298052498,
+      "stake_share_at_100x_or_more": 0.2984375,
+      "maximum_allocation_seconds": 4.548666508999304
+    }
+  },
+  "paired_vs_no_extra_boost": {
+    "favorite_only": {
+      "total_payout_difference_yen": -59350,
+      "mean_difference_yen_per_race": -576.2135922330098,
+      "bootstrap95CI_yen_per_race": [
+        -2362.143203883495,
+        768.5558252427182
+      ]
+    },
+    "top3_favorites": {
+      "total_payout_difference_yen": -71480,
+      "mean_difference_yen_per_race": -693.9805825242719,
+      "bootstrap95CI_yen_per_race": [
+        -2784.1771844660193,
+        1369.2402912621358
+      ]
+    }
+  },
+  "exploratory_2026_previously_inspected": true,
+  "2025_selection_performed": false,
+  "model_retrained": false,
+  "production_or_automations_changed": false,
+  "source_point_in_time_certified": false,
+  "final_odds_and_final_starters": true,
+  "one_fixed_multiplier_only": 1.2,
+  "independent_future_validation_needed_for_adoption": true,
+  "original_model_or_history_published": false
+}

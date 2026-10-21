@@ -1,0 +1,12 @@
+{
+  "tests_passed": 2,
+  "new_replays": 206,
+  "baseline_reused": true,
+  "baseline_source_commit": "8237beb27aafb01ec297ae519275685a1f47be3c",
+  "base_model": "recent52 research candidate",
+  "multiplier_fixed_before_calculation": 1.2,
+  "no_2026_tuning_or_reselection": true,
+  "input_sha256": "3cf089a36ec70e5c1f538c8f12db8fde6a3503413a13288e3f02b922800bfc35",
+  "comparison_sha256": "e24a348fefca7a78b7ad836b8a7d01e9bb301b74874bc6355472ffecf9baa7b5",
+  "production_or_automations_changed": false
+}
