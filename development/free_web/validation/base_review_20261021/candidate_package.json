@@ -1,0 +1,15 @@
+{
+  "filename": "JRA_recent52_research_20261021.zip",
+  "size_bytes": 1108799,
+  "sha256": "10e5a08e91c43adcd21b1000b9c9efd09a1eeea9dcbad7bccdaf8258f7da4c40",
+  "binary_public": false,
+  "research_only": true,
+  "original_package_modified": false,
+  "model_hashes": {
+    "top3_model.joblib": "5b46f69fc5d706258a9e84c678435bb8b89b15922fdb18fee66c5332a982b0e0",
+    "top3_platt.joblib": "33ee5f89856f77b46cc1444c326c71a0750170712c00a0c29708409a717da77d",
+    "win_model.joblib": "7c5effe6938d4ce39bf351c0bff9bd4261fbab123b69981487e8e47e923dcafc",
+    "win_platt.joblib": "a0ee7cc995c7a1ebf4a1c15c2d3a577732c7b39e0ad174156a5ca5c2d4b15a87",
+    "feature_spec.json": "dfb8970f40c546b11a431ed900826eef574e4dcb79e36c0734aa05e5bab3953e"
+  }
+}

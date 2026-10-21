@@ -1,0 +1,122 @@
+{
+  "created_at": "2026-10-21T13:19:54.726343+00:00",
+  "test_only": true,
+  "final_odds_used": true,
+  "aggregate": {
+    "incumbent_same_input": {
+      "races": 103,
+      "tickets": 5378,
+      "stake_yen": 1030000,
+      "payout_yen": 815860,
+      "recovery_percent": 79.20970873786408,
+      "hit_races": 63,
+      "actual_hit_rate": 0.6116504854368932,
+      "mean_predicted_hit_probability": 0.6293987626873822,
+      "absolute_hit_calibration_gap": 0.017748277250488997,
+      "stake_share_at_100x_or_more": 0.3264077669902913,
+      "maximum_allocation_seconds": 3.677467360001174
+    },
+    "candidate": {
+      "races": 103,
+      "tickets": 5412,
+      "stake_yen": 1030000,
+      "payout_yen": 909270,
+      "recovery_percent": 88.27864077669904,
+      "hit_races": 66,
+      "actual_hit_rate": 0.6407766990291263,
+      "mean_predicted_hit_probability": 0.6318711361919456,
+      "absolute_hit_calibration_gap": 0.008905562837180692,
+      "stake_share_at_100x_or_more": 0.3300970873786408,
+      "maximum_allocation_seconds": 3.238652921994799
+    }
+  },
+  "archive96_only": {
+    "incumbent_same_input": {
+      "races": 96,
+      "tickets": 5032,
+      "stake_yen": 960000,
+      "payout_yen": 742070,
+      "recovery_percent": 77.29895833333333,
+      "hit_races": 57,
+      "actual_hit_rate": 0.59375,
+      "mean_predicted_hit_probability": 0.6278503551101172,
+      "absolute_hit_calibration_gap": 0.03410035511011722,
+      "stake_share_at_100x_or_more": 0.32979166666666665,
+      "maximum_allocation_seconds": 3.677467360001174
+    },
+    "candidate": {
+      "races": 96,
+      "tickets": 5036,
+      "stake_yen": 960000,
+      "payout_yen": 835640,
+      "recovery_percent": 87.04583333333333,
+      "hit_races": 60,
+      "actual_hit_rate": 0.625,
+      "mean_predicted_hit_probability": 0.6319346859682892,
+      "absolute_hit_calibration_gap": 0.006934685968289167,
+      "stake_share_at_100x_or_more": 0.3302083333333333,
+      "maximum_allocation_seconds": 3.238652921994799
+    }
+  },
+  "halves": {
+    "H1": {
+      "incumbent_same_input": {
+        "races": 68,
+        "tickets": 3665,
+        "stake_yen": 680000,
+        "payout_yen": 485520,
+        "recovery_percent": 71.4,
+        "hit_races": 39,
+        "actual_hit_rate": 0.5735294117647058,
+        "mean_predicted_hit_probability": 0.6196301737813203,
+        "absolute_hit_calibration_gap": 0.046100762016614505,
+        "stake_share_at_100x_or_more": 0.34441176470588236,
+        "maximum_allocation_seconds": 3.677467360001174
+      },
+      "candidate": {
+        "races": 68,
+        "tickets": 3689,
+        "stake_yen": 680000,
+        "payout_yen": 589650,
+        "recovery_percent": 86.71323529411765,
+        "hit_races": 43,
+        "actual_hit_rate": 0.6323529411764706,
+        "mean_predicted_hit_probability": 0.620487087419197,
+        "absolute_hit_calibration_gap": 0.011865853757273559,
+        "stake_share_at_100x_or_more": 0.3498529411764706,
+        "maximum_allocation_seconds": 3.210376830000314
+      }
+    },
+    "H2": {
+      "incumbent_same_input": {
+        "races": 35,
+        "tickets": 1713,
+        "stake_yen": 350000,
+        "payout_yen": 330340,
+        "recovery_percent": 94.38285714285715,
+        "hit_races": 24,
+        "actual_hit_rate": 0.6857142857142857,
+        "mean_predicted_hit_probability": 0.6483777354191594,
+        "absolute_hit_calibration_gap": 0.03733655029512628,
+        "stake_share_at_100x_or_more": 0.2914285714285714,
+        "maximum_allocation_seconds": 2.078750189000857
+      },
+      "candidate": {
+        "races": 35,
+        "tickets": 1723,
+        "stake_yen": 350000,
+        "payout_yen": 319620,
+        "recovery_percent": 91.32,
+        "hit_races": 23,
+        "actual_hit_rate": 0.6571428571428571,
+        "mean_predicted_hit_probability": 0.6539887166647137,
+        "absolute_hit_calibration_gap": 0.0031541404781434412,
+        "stake_share_at_100x_or_more": 0.2917142857142857,
+        "maximum_allocation_seconds": 3.238652921994799
+      }
+    }
+  },
+  "unchanged_rule": "balanced_A_v3, 10000 yen, exact minimum stakes; original solver time limits",
+  "archived_previous_baseline_ROI_percent": 79.19417475728156,
+  "production_or_automation_changed": false
+}

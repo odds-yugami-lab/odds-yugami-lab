@@ -1,0 +1,41 @@
+{
+  "original_training_rows": 725030,
+  "previous_date_at_or_after_target": 0,
+  "bodyweight_outside_screening_range": 1,
+  "outside_range_not_automatically_error": true,
+  "aggregate_internal_checks": {
+    "horse_prior": {
+      "invalid_counts": 0,
+      "win_rate_mismatches": 0,
+      "top3_rate_mismatches": 0
+    },
+    "horse_distance_prior": {
+      "invalid_counts": 0,
+      "win_rate_mismatches": 0,
+      "top3_rate_mismatches": 0
+    },
+    "horse_course_track_prior": {
+      "invalid_counts": 0,
+      "win_rate_mismatches": 0,
+      "top3_rate_mismatches": 0
+    },
+    "jockey_prior": {
+      "invalid_counts": 0,
+      "win_rate_mismatches": 0,
+      "top3_rate_mismatches": 0
+    },
+    "trainer_prior": {
+      "invalid_counts": 0,
+      "win_rate_mismatches": 0,
+      "top3_rate_mismatches": 0
+    },
+    "sire_prior": {
+      "invalid_counts": 0,
+      "win_rate_mismatches": 0,
+      "top3_rate_mismatches": 0
+    }
+  },
+  "counts_consistent_do_not_prove_point_in_time": "Historical source snapshot timing and full recomputation of source aggregates remain uncertified.",
+  "public_previous_2026_reconstruction": "Strictly preceding starts; source archives96 and public reconstruction7 separately reported.",
+  "original_model_modified": false
+}

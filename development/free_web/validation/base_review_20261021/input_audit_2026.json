@@ -1,0 +1,743 @@
+{
+  "races": 103,
+  "horses": 1547,
+  "archive_races": 96,
+  "reconstructed_races": 7,
+  "source_point_in_time_certified": false,
+  "races_detail": [
+    {
+      "race_code": "2026010406010111",
+      "runners": 14,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026010408010111",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026011106010411",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026011208010511",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026011806010711",
+      "runners": 15,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026011808010711",
+      "runners": 13,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026012410010111",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026012506010911",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026012508010911",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026020105010211",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026020108020211",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026021008020411",
+      "runners": 9,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026021005010411",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026021405010511",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026021505010611",
+      "runners": 9,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026021508020611",
+      "runners": 12,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026022105010711",
+      "runners": 15,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026022109010111",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026022205010811",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026022210011011",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026022806020111",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026030106020211",
+      "runners": 14,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026030109010411",
+      "runners": 15,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026030706020311",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026030709010511",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026030806020411",
+      "runners": 10,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026031506020611",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026031507010211",
+      "runners": 14,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026032106020711",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026032107010311",
+      "runners": 17,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026032209011011",
+      "runners": 10,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026032207010411",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026032806030111",
+      "runners": 15,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026032809020111",
+      "runners": 7,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026032906030211",
+      "runners": 15,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026032907010611",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026040406030311",
+      "runners": 15,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026040409020311",
+      "runners": 14,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026040509020411",
+      "runners": 15,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026041106030511",
+      "runners": 15,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026041109020511",
+      "runners": 10,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026041209020611",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026041809020711",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026041906030811",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026041903010411",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026042505020111",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026042605020211",
+      "runners": 12,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026042608030211",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026050205020311",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026050208030311",
+      "runners": 12,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026050308030411",
+      "runners": 15,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026050905020511",
+      "runners": 17,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026050908030511",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026051005020611",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026051604010511",
+      "runners": 15,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026051705020811",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026052308030911",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026052405021011",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026053008031111",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026053105021211",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026053105021212",
+      "runners": 14,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026060705030211",
+      "runners": 17,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026061302010111",
+      "runners": 12,
+      "archive": false,
+      "public_previous_starts": 12,
+      "unresolved_previous_style": 1,
+      "source": "public_card_profile_history",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026061409030411",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026062105030611",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026062109030611",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026062803020211",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026062802010611",
+      "runners": 15,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026070510020411",
+      "runners": 13,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026071203020611",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026071910020811",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026071902011211",
+      "runners": 13,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026072604020207",
+      "runners": 14,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026072607020207",
+      "runners": 14,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026080204020407",
+      "runners": 17,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026080201010411",
+      "runners": 14,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026080801010511",
+      "runners": 11,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026080904020607",
+      "runners": 12,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026080907020607",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026081607020807",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026081601010811",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026082304030207",
+      "runners": 10,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026082301020211",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026083004030408",
+      "runners": 11,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026083007030407",
+      "runners": 9,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026090506040111",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026090501020511",
+      "runners": 9,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026090606040211",
+      "runners": 11,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026090609040211",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026091209040311",
+      "runners": 16,
+      "archive": false,
+      "public_previous_starts": 16,
+      "unresolved_previous_style": 0,
+      "source": "public_card_profile_history",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026091306040411",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026091309040411",
+      "runners": 12,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026092006040611",
+      "runners": 13,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026092109040711",
+      "runners": 11,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026092609040811",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026092706040911",
+      "runners": 16,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026100405040211",
+      "runners": 17,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026100408040211",
+      "runners": 18,
+      "archive": true,
+      "source": "private_archive",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026101005040311",
+      "runners": 11,
+      "archive": false,
+      "public_previous_starts": 11,
+      "unresolved_previous_style": 0,
+      "source": "public_card_profile_history",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026101105040411",
+      "runners": 16,
+      "archive": false,
+      "public_previous_starts": 16,
+      "unresolved_previous_style": 0,
+      "source": "public_card_profile_history",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026101208040511",
+      "runners": 18,
+      "archive": false,
+      "public_previous_starts": 18,
+      "source": "official_fixture_public_previous_JRA17_NAR1",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026101705040611",
+      "runners": 14,
+      "archive": false,
+      "public_previous_starts": 14,
+      "unresolved_previous_style": 0,
+      "source": "public_card_profile_history",
+      "immutable_pre_race_snapshot": false
+    },
+    {
+      "race_code": "2026101808040711",
+      "runners": 17,
+      "archive": false,
+      "public_previous_starts": 17,
+      "unresolved_previous_style": 0,
+      "source": "public_card_profile_history",
+      "immutable_pre_race_snapshot": false
+    }
+  ]
+}

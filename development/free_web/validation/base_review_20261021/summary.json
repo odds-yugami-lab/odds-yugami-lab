@@ -1,0 +1,86 @@
+{
+  "record_type": "base_learner_review",
+  "created_at": "2026-10-21T13:23:28.452959+00:00",
+  "selected_candidate": "recent52",
+  "research_only": true,
+  "adopted": false,
+  "reason": "Prespecified gates fail. Higher retrospective payout alone is not sufficient.",
+  "gates": {
+    "2025_joint_improved": true,
+    "2025_unassisted_WIN_not_worse": false,
+    "2025_unassisted_TOP3_not_worse": false,
+    "2026_joint_improved": true,
+    "2026_corrected_WIN_not_worse": false,
+    "2026_corrected_TOP3_not_worse": true,
+    "2026_unassisted_WIN_not_worse": true,
+    "2026_unassisted_TOP3_not_worse": true,
+    "live_candidate_connected_and_validated": false
+  },
+  "2025_CV_paired_joint": {
+    "races": 74,
+    "mean_difference": -0.006964916229205371,
+    "bootstrap_95CI": [
+      -0.0186313161866628,
+      0.005052496378772829
+    ]
+  },
+  "2026_paired_payout_yen_per_race": {
+    "races": 103,
+    "mean_difference": 906.8932038834952,
+    "bootstrap_95CI": [
+      -200.98786407766988,
+      2544.1237864077652
+    ]
+  },
+  "candidate_and_incumbent_portfolios": {
+    "incumbent_same_input": {
+      "races": 103,
+      "tickets": 5378,
+      "stake_yen": 1030000,
+      "payout_yen": 815860,
+      "recovery_percent": 79.20970873786408,
+      "hit_races": 63,
+      "actual_hit_rate": 0.6116504854368932,
+      "mean_predicted_hit_probability": 0.6293987626873822,
+      "absolute_hit_calibration_gap": 0.017748277250488997,
+      "stake_share_at_100x_or_more": 0.3264077669902913,
+      "maximum_allocation_seconds": 3.677467360001174
+    },
+    "candidate": {
+      "races": 103,
+      "tickets": 5412,
+      "stake_yen": 1030000,
+      "payout_yen": 909270,
+      "recovery_percent": 88.27864077669904,
+      "hit_races": 66,
+      "actual_hit_rate": 0.6407766990291263,
+      "mean_predicted_hit_probability": 0.6318711361919456,
+      "absolute_hit_calibration_gap": 0.008905562837180692,
+      "stake_share_at_100x_or_more": 0.3300970873786408,
+      "maximum_allocation_seconds": 3.238652921994799
+    }
+  },
+  "changes_vs_previous_original_comparison": [
+    {
+      "race_code": "2026101005040311",
+      "old_tickets": 60,
+      "new_tickets": 39,
+      "old_payout_yen": 10200,
+      "new_payout_yen": 10360
+    }
+  ],
+  "difference_attribution": "Saudi RC input reconstruction changed; solver contribution not isolated. No other incumbent portfolio changed.",
+  "original_model_hashes_verified_unchanged": true,
+  "automations_or_operating_code_changed": false,
+  "tests_passed": 3,
+  "new_2026_model_inferences": {
+    "candidate_horses": 1547,
+    "original_horses": 1547
+  },
+  "new_portfolio_calculations": 206,
+  "all103_feature_inputs_recreated": true,
+  "inherited_source_point_in_time_certified": false,
+  "final_odds_and_final_starters_used": true,
+  "independent_prospective_proof": false,
+  "live_candidate_ready": false
+}
