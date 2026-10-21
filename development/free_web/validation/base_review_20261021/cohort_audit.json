@@ -1,0 +1,32 @@
+{
+  "source_rows_2020_2025": 283722,
+  "flat_rows": 275463,
+  "clean_rows": 263143,
+  "excluded_flat_races": 924,
+  "exclusion_not_automatically_data_error": "Includes dead heats, incomplete fields, other target-count exceptions.",
+  "rows_by_year": {
+    "2020": 44096,
+    "2021": 44216,
+    "2022": 43846,
+    "2023": 43993,
+    "2024": 43052,
+    "2025": 43940
+  },
+  "future_previous_dates": 0,
+  "negative_days": 0,
+  "rate_columns_outside_0_1": {
+    "horse_prior_win_rate": 0,
+    "horse_prior_top3_rate": 0,
+    "horse_distance_prior_win_rate": 0,
+    "horse_distance_prior_top3_rate": 0,
+    "horse_course_track_prior_win_rate": 0,
+    "horse_course_track_prior_top3_rate": 0,
+    "jockey_prior_win_rate": 0,
+    "jockey_prior_top3_rate": 0,
+    "trainer_prior_win_rate": 0,
+    "trainer_prior_top3_rate": 0,
+    "sire_prior_win_rate": 0,
+    "sire_prior_top3_rate": 0
+  },
+  "feature_point_in_time_certified": false
+}

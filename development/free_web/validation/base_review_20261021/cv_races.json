@@ -1,0 +1,2962 @@
+[
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025050305020311",
+    "ordered_nll": 4.571927967469685,
+    "raw_WIN_brier": 0.07991607868904425,
+    "raw_TOP3_brier": 0.1553592148289281,
+    "WIN_brier": 0.06598523031754458,
+    "TOP3_brier": 0.09794418812029836
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025050308020311",
+    "ordered_nll": 4.11793182730258,
+    "raw_WIN_brier": 0.08582386709218746,
+    "raw_TOP3_brier": 0.14410103010823339,
+    "WIN_brier": 0.07191703608552391,
+    "TOP3_brier": 0.06936192643353528
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025050408020411",
+    "ordered_nll": 5.80629032057646,
+    "raw_WIN_brier": 0.033513829378929896,
+    "raw_TOP3_brier": 0.11506140537392888,
+    "WIN_brier": 0.044944557005828896,
+    "TOP3_brier": 0.12012819890766809
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025051005020511",
+    "ordered_nll": 7.430148447085138,
+    "raw_WIN_brier": 0.05745870811386619,
+    "raw_TOP3_brier": 0.11907871071523633,
+    "WIN_brier": 0.054116912109217326,
+    "TOP3_brier": 0.1252228711929105
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025051008020511",
+    "ordered_nll": 6.74640888419603,
+    "raw_WIN_brier": 0.05644529405777976,
+    "raw_TOP3_brier": 0.1824429606935851,
+    "WIN_brier": 0.09811775952116243,
+    "TOP3_brier": 0.23653347025574473
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025051105020611",
+    "ordered_nll": 9.494651783065118,
+    "raw_WIN_brier": 0.05686081567485779,
+    "raw_TOP3_brier": 0.166300655930969,
+    "WIN_brier": 0.05760368519088129,
+    "TOP3_brier": 0.16373847483754986
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025051704010511",
+    "ordered_nll": 8.158462522726605,
+    "raw_WIN_brier": 0.0642919138094439,
+    "raw_TOP3_brier": 0.14523980250870405,
+    "WIN_brier": 0.062216550637365205,
+    "TOP3_brier": 0.15701489211712283
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025051805020811",
+    "ordered_nll": 6.034098440394555,
+    "raw_WIN_brier": 0.046388624058025664,
+    "raw_TOP3_brier": 0.10544726923961638,
+    "WIN_brier": 0.03706544455893817,
+    "TOP3_brier": 0.10337658244411771
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025052408020911",
+    "ordered_nll": 7.152712465288648,
+    "raw_WIN_brier": 0.06016740277407176,
+    "raw_TOP3_brier": 0.14232208829697016,
+    "WIN_brier": 0.054066809412029807,
+    "TOP3_brier": 0.13660699592078096
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025052505021011",
+    "ordered_nll": 7.725462712418361,
+    "raw_WIN_brier": 0.05645624868482724,
+    "raw_TOP3_brier": 0.15565634066661727,
+    "WIN_brier": 0.05586906437907172,
+    "TOP3_brier": 0.13353136097761154
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025053108021111",
+    "ordered_nll": 9.948528426247385,
+    "raw_WIN_brier": 0.05724054688959375,
+    "raw_TOP3_brier": 0.17127747632778875,
+    "WIN_brier": 0.06495654938025708,
+    "TOP3_brier": 0.18507908129052783
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025060105021211",
+    "ordered_nll": 5.3341692365622775,
+    "raw_WIN_brier": 0.05048986939301336,
+    "raw_TOP3_brier": 0.11315365565718952,
+    "WIN_brier": 0.03184173680389765,
+    "TOP3_brier": 0.08499727699905599
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025060805030211",
+    "ordered_nll": 6.510066264868733,
+    "raw_WIN_brier": 0.02130772404560839,
+    "raw_TOP3_brier": 0.13429243148846753,
+    "WIN_brier": 0.04336189134489796,
+    "TOP3_brier": 0.09851676239849488
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025061509030411",
+    "ordered_nll": 7.492064450331804,
+    "raw_WIN_brier": 0.0637981564878041,
+    "raw_TOP3_brier": 0.15675596297964267,
+    "WIN_brier": 0.056236055586478276,
+    "TOP3_brier": 0.13444952590156034
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025062205030611",
+    "ordered_nll": 6.0867211157476655,
+    "raw_WIN_brier": 0.06670411197440576,
+    "raw_TOP3_brier": 0.1414359020723795,
+    "WIN_brier": 0.06361209908926285,
+    "TOP3_brier": 0.1308999791491747
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025062209030611",
+    "ordered_nll": 8.606477355421873,
+    "raw_WIN_brier": 0.06887624933370215,
+    "raw_TOP3_brier": 0.16553800533654756,
+    "WIN_brier": 0.06571715719622458,
+    "TOP3_brier": 0.1704592047412008
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025062902010611",
+    "ordered_nll": 8.963797487533338,
+    "raw_WIN_brier": 0.056641491782605365,
+    "raw_TOP3_brier": 0.1602267315302417,
+    "WIN_brier": 0.06776739459075892,
+    "TOP3_brier": 0.19210808725702178
+  },
+  {
+    "family": "incumbent",
+    "fold": 1,
+    "race_code": "2025062903020211",
+    "ordered_nll": 6.779592335864964,
+    "raw_WIN_brier": 0.06587450143644728,
+    "raw_TOP3_brier": 0.16300627691512384,
+    "WIN_brier": 0.06370965441217931,
+    "TOP3_brier": 0.15038167295178398
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025070610020411",
+    "ordered_nll": 7.189696748159639,
+    "raw_WIN_brier": 0.05008430778284587,
+    "raw_TOP3_brier": 0.13551444276678054,
+    "WIN_brier": 0.046518423464240656,
+    "TOP3_brier": 0.11914372665904545
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025071303020611",
+    "ordered_nll": 6.481940311145717,
+    "raw_WIN_brier": 0.060129620768716426,
+    "raw_TOP3_brier": 0.14728923108354366,
+    "WIN_brier": 0.05291249411177015,
+    "TOP3_brier": 0.11764011437516783
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025072002011211",
+    "ordered_nll": 6.025722277976124,
+    "raw_WIN_brier": 0.07940829565692727,
+    "raw_TOP3_brier": 0.18568340856442433,
+    "WIN_brier": 0.09176540279347017,
+    "TOP3_brier": 0.1197633871420593
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025072010020811",
+    "ordered_nll": 6.980209384776651,
+    "raw_WIN_brier": 0.05802037122498659,
+    "raw_TOP3_brier": 0.1611692848286067,
+    "WIN_brier": 0.060894918709914994,
+    "TOP3_brier": 0.12897809476381197
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025072707030207",
+    "ordered_nll": 5.721740911999568,
+    "raw_WIN_brier": 0.0563252279454773,
+    "raw_TOP3_brier": 0.11258552157591914,
+    "WIN_brier": 0.0561795767441082,
+    "TOP3_brier": 0.09822604435091647
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025080301010411",
+    "ordered_nll": 4.716183413108412,
+    "raw_WIN_brier": 0.0505506272800334,
+    "raw_TOP3_brier": 0.10440563675733841,
+    "WIN_brier": 0.048496953512445665,
+    "TOP3_brier": 0.08853321679886572
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025080304020407",
+    "ordered_nll": 6.331282932317615,
+    "raw_WIN_brier": 0.0440947630168573,
+    "raw_TOP3_brier": 0.12842732604055743,
+    "WIN_brier": 0.04446974910989722,
+    "TOP3_brier": 0.1007267997095706
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025080901010511",
+    "ordered_nll": 6.86024899139429,
+    "raw_WIN_brier": 0.06301720287102255,
+    "raw_TOP3_brier": 0.13029380206354674,
+    "WIN_brier": 0.06633641066700885,
+    "TOP3_brier": 0.14131622636843288
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025081004020607",
+    "ordered_nll": 9.243169968030159,
+    "raw_WIN_brier": 0.062449964601472854,
+    "raw_TOP3_brier": 0.18374232001075358,
+    "WIN_brier": 0.061221554219780434,
+    "TOP3_brier": 0.19370371386207424
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025081007030607",
+    "ordered_nll": 6.748600318604,
+    "raw_WIN_brier": 0.0553891325024743,
+    "raw_TOP3_brier": 0.12678312859237673,
+    "WIN_brier": 0.05691618215756404,
+    "TOP3_brier": 0.11413606171154898
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025081701010811",
+    "ordered_nll": 9.401431720977836,
+    "raw_WIN_brier": 0.062060356120500385,
+    "raw_TOP3_brier": 0.16502927058056222,
+    "WIN_brier": 0.06412573590213479,
+    "TOP3_brier": 0.17245436173438305
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025081707030807",
+    "ordered_nll": 8.831316641193366,
+    "raw_WIN_brier": 0.06823204315266262,
+    "raw_TOP3_brier": 0.2300720500326162,
+    "WIN_brier": 0.07778014921860452,
+    "TOP3_brier": 0.24972490977871872
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025082401020211",
+    "ordered_nll": 6.052180597730446,
+    "raw_WIN_brier": 0.05543942296772555,
+    "raw_TOP3_brier": 0.14046226923450403,
+    "WIN_brier": 0.05214463230122564,
+    "TOP3_brier": 0.1084686518607895
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025082404030211",
+    "ordered_nll": 4.845670727487375,
+    "raw_WIN_brier": 0.08863485136529371,
+    "raw_TOP3_brier": 0.2029256826796268,
+    "WIN_brier": 0.06160625399476283,
+    "TOP3_brier": 0.14157157661361575
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025083104030411",
+    "ordered_nll": 5.490206092280251,
+    "raw_WIN_brier": 0.05374650727383605,
+    "raw_TOP3_brier": 0.1202104366534355,
+    "WIN_brier": 0.04641230733175993,
+    "TOP3_brier": 0.09698124790778559
+  },
+  {
+    "family": "incumbent",
+    "fold": 2,
+    "race_code": "2025083107040411",
+    "ordered_nll": 5.273055649017794,
+    "raw_WIN_brier": 0.07110332504593099,
+    "raw_TOP3_brier": 0.13877007585586953,
+    "WIN_brier": 0.07830433475586014,
+    "TOP3_brier": 0.10954467968380777
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025090601020511",
+    "ordered_nll": 6.414178001917464,
+    "raw_WIN_brier": 0.07548353448571009,
+    "raw_TOP3_brier": 0.19279631546151654,
+    "WIN_brier": 0.06094520719901939,
+    "TOP3_brier": 0.1614701262963474
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025090606040111",
+    "ordered_nll": 9.445237809061272,
+    "raw_WIN_brier": 0.06360228876625028,
+    "raw_TOP3_brier": 0.160393318391787,
+    "WIN_brier": 0.06735317735055972,
+    "TOP3_brier": 0.17438757742657593
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025090709040211",
+    "ordered_nll": 5.589414851873968,
+    "raw_WIN_brier": 0.05726191322691658,
+    "raw_TOP3_brier": 0.12139844719362869,
+    "WIN_brier": 0.06417521880303655,
+    "TOP3_brier": 0.08315957509564209
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025091309040311",
+    "ordered_nll": 5.436680664435861,
+    "raw_WIN_brier": 0.05623030501809708,
+    "raw_TOP3_brier": 0.0887649493072889,
+    "WIN_brier": 0.053943553682440554,
+    "TOP3_brier": 0.09949715883308667
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025091409040411",
+    "ordered_nll": 7.523912502152582,
+    "raw_WIN_brier": 0.04760660489404154,
+    "raw_TOP3_brier": 0.12241782419526973,
+    "WIN_brier": 0.03948872695925092,
+    "TOP3_brier": 0.13403319570948707
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025091506040511",
+    "ordered_nll": 5.651272801736808,
+    "raw_WIN_brier": 0.07297114343607913,
+    "raw_TOP3_brier": 0.1668012214614727,
+    "WIN_brier": 0.05338060088451083,
+    "TOP3_brier": 0.13650138361381106
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025092106040711",
+    "ordered_nll": 4.627133965320175,
+    "raw_WIN_brier": 0.08165640701970793,
+    "raw_TOP3_brier": 0.16043646569852926,
+    "WIN_brier": 0.06616046618762908,
+    "TOP3_brier": 0.1158700058800691
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025092109040711",
+    "ordered_nll": 3.4720241054816214,
+    "raw_WIN_brier": 0.07540914192396271,
+    "raw_TOP3_brier": 0.18273659778488044,
+    "WIN_brier": 0.06640785687746455,
+    "TOP3_brier": 0.06734813231343398
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025092709040811",
+    "ordered_nll": 9.01257371457881,
+    "raw_WIN_brier": 0.07204117959356722,
+    "raw_TOP3_brier": 0.19365925416614443,
+    "WIN_brier": 0.0763875726496961,
+    "TOP3_brier": 0.22066473259442893
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025092806040911",
+    "ordered_nll": 8.679911337408495,
+    "raw_WIN_brier": 0.06866115723347216,
+    "raw_TOP3_brier": 0.16087677819334298,
+    "WIN_brier": 0.06786899882200245,
+    "TOP3_brier": 0.16924364320160762
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025100505040211",
+    "ordered_nll": 4.843329851249367,
+    "raw_WIN_brier": 0.08413288508033617,
+    "raw_TOP3_brier": 0.16792226931323057,
+    "WIN_brier": 0.08557570498545679,
+    "TOP3_brier": 0.10997092488057447
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025100508030211",
+    "ordered_nll": 8.615080637261459,
+    "raw_WIN_brier": 0.058421383134448585,
+    "raw_TOP3_brier": 0.15341398430492317,
+    "WIN_brier": 0.054256493775748975,
+    "TOP3_brier": 0.14498457922728383
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025101105040311",
+    "ordered_nll": 5.76224201915469,
+    "raw_WIN_brier": 0.11510949629052346,
+    "raw_TOP3_brier": 0.22079554145998942,
+    "WIN_brier": 0.10074166985165386,
+    "TOP3_brier": 0.19402933404988637
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025101205040411",
+    "ordered_nll": 6.819659749970365,
+    "raw_WIN_brier": 0.06175667891480892,
+    "raw_TOP3_brier": 0.1242981103262934,
+    "WIN_brier": 0.055974441620223955,
+    "TOP3_brier": 0.1367439284156596
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025101308030511",
+    "ordered_nll": 7.976129100475498,
+    "raw_WIN_brier": 0.05294131182306969,
+    "raw_TOP3_brier": 0.13444601100617953,
+    "WIN_brier": 0.04975446385549928,
+    "TOP3_brier": 0.13424123343284808
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025101805040611",
+    "ordered_nll": 4.817805649939459,
+    "raw_WIN_brier": 0.08494646753791771,
+    "raw_TOP3_brier": 0.14269219170973274,
+    "WIN_brier": 0.06832161019868349,
+    "TOP3_brier": 0.0883199410110924
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025101908030711",
+    "ordered_nll": 7.496717051281243,
+    "raw_WIN_brier": 0.046538432660550834,
+    "raw_TOP3_brier": 0.14487045131165152,
+    "WIN_brier": 0.04772905803032768,
+    "TOP3_brier": 0.1331982840305343
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025102505040811",
+    "ordered_nll": 6.987565978712283,
+    "raw_WIN_brier": 0.07627982656323677,
+    "raw_TOP3_brier": 0.19131536355948775,
+    "WIN_brier": 0.07782240006846672,
+    "TOP3_brier": 0.2180244157360768
+  },
+  {
+    "family": "incumbent",
+    "fold": 3,
+    "race_code": "2025102608030911",
+    "ordered_nll": 7.216798743023929,
+    "raw_WIN_brier": 0.04600213456030173,
+    "raw_TOP3_brier": 0.12188295548230749,
+    "WIN_brier": 0.041729708505097315,
+    "TOP3_brier": 0.10577081952366381
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025110108031011",
+    "ordered_nll": 6.507890270300126,
+    "raw_WIN_brier": 0.05829399521282214,
+    "raw_TOP3_brier": 0.15003852944681503,
+    "WIN_brier": 0.054866744473303496,
+    "TOP3_brier": 0.15840898563731223
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025110205041111",
+    "ordered_nll": 6.110981005046915,
+    "raw_WIN_brier": 0.0542645440871105,
+    "raw_TOP3_brier": 0.14989196764805923,
+    "WIN_brier": 0.04656280253245472,
+    "TOP3_brier": 0.12947412668793806
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025110805050111",
+    "ordered_nll": 7.146918029953074,
+    "raw_WIN_brier": 0.05125234035182984,
+    "raw_TOP3_brier": 0.12804169215022482,
+    "WIN_brier": 0.03134630602031385,
+    "TOP3_brier": 0.12969853462117015
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025110905050211",
+    "ordered_nll": 6.700866599453925,
+    "raw_WIN_brier": 0.05804935659558335,
+    "raw_TOP3_brier": 0.10937967544938117,
+    "WIN_brier": 0.0574965729258108,
+    "TOP3_brier": 0.10238822801907811
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025111505050311",
+    "ordered_nll": 5.143562956848308,
+    "raw_WIN_brier": 0.044930031310440856,
+    "raw_TOP3_brier": 0.10618517301111716,
+    "WIN_brier": 0.05048536440310063,
+    "TOP3_brier": 0.08833020605185167
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025111508040311",
+    "ordered_nll": 4.871379768696141,
+    "raw_WIN_brier": 0.11816055542856987,
+    "raw_TOP3_brier": 0.22182851985971402,
+    "WIN_brier": 0.0843972122824318,
+    "TOP3_brier": 0.1832143196328279
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025111608040411",
+    "ordered_nll": 6.549129490768795,
+    "raw_WIN_brier": 0.04915782211312713,
+    "raw_TOP3_brier": 0.15597846523726105,
+    "WIN_brier": 0.037737829645780194,
+    "TOP3_brier": 0.12075487982572349
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025112203030511",
+    "ordered_nll": 5.775618034191984,
+    "raw_WIN_brier": 0.05199286947061339,
+    "raw_TOP3_brier": 0.1231384468376904,
+    "WIN_brier": 0.04752001311510685,
+    "TOP3_brier": 0.100532547739583
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025112308040611",
+    "ordered_nll": 6.892496703941697,
+    "raw_WIN_brier": 0.020774998792021854,
+    "raw_TOP3_brier": 0.12644236346962168,
+    "WIN_brier": 0.02693291397450122,
+    "TOP3_brier": 0.10549220608512738
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025112405050611",
+    "ordered_nll": 6.01218429197813,
+    "raw_WIN_brier": 0.0556605341462765,
+    "raw_TOP3_brier": 0.1646533847268915,
+    "WIN_brier": 0.07616943360706206,
+    "TOP3_brier": 0.15431357106053484
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025112908040711",
+    "ordered_nll": 8.693437780910994,
+    "raw_WIN_brier": 0.07015921606616693,
+    "raw_TOP3_brier": 0.20037699064630055,
+    "WIN_brier": 0.09604005421970686,
+    "TOP3_brier": 0.26030777433881147
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025120606050111",
+    "ordered_nll": 5.707632920150252,
+    "raw_WIN_brier": 0.06436931831288215,
+    "raw_TOP3_brier": 0.1424786999333295,
+    "WIN_brier": 0.056662220064989506,
+    "TOP3_brier": 0.11124102773548532
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025120609050111",
+    "ordered_nll": 6.605552851690701,
+    "raw_WIN_brier": 0.0706444708714881,
+    "raw_TOP3_brier": 0.18168089769016152,
+    "WIN_brier": 0.057856144891214635,
+    "TOP3_brier": 0.15166271867463152
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025120707050211",
+    "ordered_nll": 6.715358404151411,
+    "raw_WIN_brier": 0.047113625114083936,
+    "raw_TOP3_brier": 0.12485202818943837,
+    "WIN_brier": 0.05676084421554307,
+    "TOP3_brier": 0.1371174147670303
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025121406050411",
+    "ordered_nll": 5.723108094290827,
+    "raw_WIN_brier": 0.05738335627549554,
+    "raw_TOP3_brier": 0.12785614228505227,
+    "WIN_brier": 0.04462773421415844,
+    "TOP3_brier": 0.10310452685371442
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025121409050411",
+    "ordered_nll": 6.287949452159289,
+    "raw_WIN_brier": 0.054090732960432444,
+    "raw_TOP3_brier": 0.12161827403483105,
+    "WIN_brier": 0.04686792267737419,
+    "TOP3_brier": 0.11084058660099011
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025122006050511",
+    "ordered_nll": 7.920173154683011,
+    "raw_WIN_brier": 0.06138345594465819,
+    "raw_TOP3_brier": 0.1595155428546894,
+    "WIN_brier": 0.059145664053491094,
+    "TOP3_brier": 0.16016519334403145
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025122109050611",
+    "ordered_nll": 4.806268282284282,
+    "raw_WIN_brier": 0.05325977843515884,
+    "raw_TOP3_brier": 0.12543697955998956,
+    "WIN_brier": 0.053624169128842485,
+    "TOP3_brier": 0.09124884220136827
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025122706050711",
+    "ordered_nll": 8.327086554511352,
+    "raw_WIN_brier": 0.06092902407462898,
+    "raw_TOP3_brier": 0.15641238140912742,
+    "WIN_brier": 0.0634852195053423,
+    "TOP3_brier": 0.16943539036207758
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025122709050711",
+    "ordered_nll": 4.90153054571121,
+    "raw_WIN_brier": 0.06447362986604764,
+    "raw_TOP3_brier": 0.10480878420686851,
+    "WIN_brier": 0.05838944577560166,
+    "TOP3_brier": 0.07964043943194038
+  },
+  {
+    "family": "incumbent",
+    "fold": 4,
+    "race_code": "2025122806050811",
+    "ordered_nll": 7.267703792778169,
+    "raw_WIN_brier": 0.0510147371082801,
+    "raw_TOP3_brier": 0.13061790921661004,
+    "WIN_brier": 0.047878408364231774,
+    "TOP3_brier": 0.12289812215269943
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025050305020311",
+    "ordered_nll": 4.547725229081349,
+    "raw_WIN_brier": 0.0784664779927152,
+    "raw_TOP3_brier": 0.1400579526613824,
+    "WIN_brier": 0.0662960130516591,
+    "TOP3_brier": 0.09721272459432377
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025050308020311",
+    "ordered_nll": 4.1635961965786725,
+    "raw_WIN_brier": 0.07981099802912167,
+    "raw_TOP3_brier": 0.14868686587923285,
+    "WIN_brier": 0.07216455838057662,
+    "TOP3_brier": 0.07039715315942058
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025050408020411",
+    "ordered_nll": 5.755492239458318,
+    "raw_WIN_brier": 0.037742464846489174,
+    "raw_TOP3_brier": 0.11669831828245435,
+    "WIN_brier": 0.04343500785189134,
+    "TOP3_brier": 0.11883513163756036
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025051005020511",
+    "ordered_nll": 7.400372851127367,
+    "raw_WIN_brier": 0.0580210198566188,
+    "raw_TOP3_brier": 0.11609368905800703,
+    "WIN_brier": 0.05438371613551994,
+    "TOP3_brier": 0.12435548081613484
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025051008020511",
+    "ordered_nll": 6.6223514209209595,
+    "raw_WIN_brier": 0.0552173711912614,
+    "raw_TOP3_brier": 0.17097608454034294,
+    "WIN_brier": 0.09580197788701938,
+    "TOP3_brier": 0.2305216339236396
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025051105020611",
+    "ordered_nll": 9.499943606012508,
+    "raw_WIN_brier": 0.055159817674557424,
+    "raw_TOP3_brier": 0.16211119841569166,
+    "WIN_brier": 0.05745990540351826,
+    "TOP3_brier": 0.16378255991574864
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025051704010511",
+    "ordered_nll": 8.153323596564327,
+    "raw_WIN_brier": 0.06416852916130732,
+    "raw_TOP3_brier": 0.15000885710173317,
+    "WIN_brier": 0.062419655962608546,
+    "TOP3_brier": 0.15682937509471498
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025051805020811",
+    "ordered_nll": 5.952232770544638,
+    "raw_WIN_brier": 0.04325956671370533,
+    "raw_TOP3_brier": 0.10457867622760479,
+    "WIN_brier": 0.036616093340658365,
+    "TOP3_brier": 0.10148746447474197
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025052408020911",
+    "ordered_nll": 7.1384598126473495,
+    "raw_WIN_brier": 0.06018872905801717,
+    "raw_TOP3_brier": 0.13882127358395258,
+    "WIN_brier": 0.0545672059187277,
+    "TOP3_brier": 0.13713986664924066
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025052505021011",
+    "ordered_nll": 7.847034336920991,
+    "raw_WIN_brier": 0.05782007019287854,
+    "raw_TOP3_brier": 0.1555677743627269,
+    "WIN_brier": 0.05623497247809818,
+    "TOP3_brier": 0.1357287785164428
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025053108021111",
+    "ordered_nll": 9.98723456083096,
+    "raw_WIN_brier": 0.05951316525909947,
+    "raw_TOP3_brier": 0.1698804467367293,
+    "WIN_brier": 0.06483334496472201,
+    "TOP3_brier": 0.18613403699656839
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025060105021211",
+    "ordered_nll": 5.331060692752669,
+    "raw_WIN_brier": 0.04751091828219176,
+    "raw_TOP3_brier": 0.1185166876257487,
+    "WIN_brier": 0.03219157297878871,
+    "TOP3_brier": 0.08464303024912583
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025060805030211",
+    "ordered_nll": 6.544905790613546,
+    "raw_WIN_brier": 0.019711569977956193,
+    "raw_TOP3_brier": 0.1358724989091555,
+    "WIN_brier": 0.042134911081637735,
+    "TOP3_brier": 0.09922032554048596
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025061509030411",
+    "ordered_nll": 7.590738739883514,
+    "raw_WIN_brier": 0.06314380638758005,
+    "raw_TOP3_brier": 0.16508799539756644,
+    "WIN_brier": 0.056354117098984254,
+    "TOP3_brier": 0.13686415435460042
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025062205030611",
+    "ordered_nll": 6.09431112498988,
+    "raw_WIN_brier": 0.06872768645581678,
+    "raw_TOP3_brier": 0.13974296254129498,
+    "WIN_brier": 0.06405493476763634,
+    "TOP3_brier": 0.13137359759467707
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025062209030611",
+    "ordered_nll": 8.608555380604635,
+    "raw_WIN_brier": 0.0688892234302017,
+    "raw_TOP3_brier": 0.15208013630364187,
+    "WIN_brier": 0.06587541165505398,
+    "TOP3_brier": 0.17015070089246817
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025062902010611",
+    "ordered_nll": 8.885849450810031,
+    "raw_WIN_brier": 0.05964741453909687,
+    "raw_TOP3_brier": 0.1649279337567929,
+    "WIN_brier": 0.06734631480061747,
+    "TOP3_brier": 0.1907030863397861
+  },
+  {
+    "family": "recent52",
+    "fold": 1,
+    "race_code": "2025062903020211",
+    "ordered_nll": 6.785535305466629,
+    "raw_WIN_brier": 0.06254056506696158,
+    "raw_TOP3_brier": 0.16403681183826396,
+    "WIN_brier": 0.06345510044915331,
+    "TOP3_brier": 0.1507655908860204
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025070610020411",
+    "ordered_nll": 7.214966181285302,
+    "raw_WIN_brier": 0.05334527343219148,
+    "raw_TOP3_brier": 0.13317753937496565,
+    "WIN_brier": 0.04688929229312368,
+    "TOP3_brier": 0.11995751021371609
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025071303020611",
+    "ordered_nll": 6.450074656565277,
+    "raw_WIN_brier": 0.06016625222269971,
+    "raw_TOP3_brier": 0.1355771253009221,
+    "WIN_brier": 0.053031460915785256,
+    "TOP3_brier": 0.11605236402414211
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025072002011211",
+    "ordered_nll": 6.0264049672586975,
+    "raw_WIN_brier": 0.08121197035362769,
+    "raw_TOP3_brier": 0.18044032176045824,
+    "WIN_brier": 0.09184411007413407,
+    "TOP3_brier": 0.11929470266254859
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025072010020811",
+    "ordered_nll": 7.026671307140001,
+    "raw_WIN_brier": 0.06190943635241389,
+    "raw_TOP3_brier": 0.15342153649804036,
+    "WIN_brier": 0.06108094041406492,
+    "TOP3_brier": 0.1300994677178295
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025072707030207",
+    "ordered_nll": 5.699264543127983,
+    "raw_WIN_brier": 0.05903628204404478,
+    "raw_TOP3_brier": 0.11705842104008034,
+    "WIN_brier": 0.05622855656717436,
+    "TOP3_brier": 0.09801647500034578
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025080301010411",
+    "ordered_nll": 4.6635496096358935,
+    "raw_WIN_brier": 0.048711306537444,
+    "raw_TOP3_brier": 0.10892649410921343,
+    "WIN_brier": 0.04772910989876892,
+    "TOP3_brier": 0.08731082356960611
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025080304020407",
+    "ordered_nll": 6.30815826427595,
+    "raw_WIN_brier": 0.039497602277190694,
+    "raw_TOP3_brier": 0.12823690755205552,
+    "WIN_brier": 0.04342131339124148,
+    "TOP3_brier": 0.0999737565996307
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025080901010511",
+    "ordered_nll": 6.816389905408979,
+    "raw_WIN_brier": 0.06572076738861687,
+    "raw_TOP3_brier": 0.13576943388930615,
+    "WIN_brier": 0.06614126403256992,
+    "TOP3_brier": 0.14004420674745144
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025081004020607",
+    "ordered_nll": 9.211084373545502,
+    "raw_WIN_brier": 0.0647843137622321,
+    "raw_TOP3_brier": 0.18085757813489903,
+    "WIN_brier": 0.06110969652514332,
+    "TOP3_brier": 0.19311949818314847
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025081007030607",
+    "ordered_nll": 6.73024643698124,
+    "raw_WIN_brier": 0.053656501016884725,
+    "raw_TOP3_brier": 0.12692364567032616,
+    "WIN_brier": 0.056855084606778884,
+    "TOP3_brier": 0.11343724994515907
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025081701010811",
+    "ordered_nll": 9.438708904681853,
+    "raw_WIN_brier": 0.06310052599786789,
+    "raw_TOP3_brier": 0.17358248868257262,
+    "WIN_brier": 0.06432182547267391,
+    "TOP3_brier": 0.172965043609341
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025081707030807",
+    "ordered_nll": 8.833452149828595,
+    "raw_WIN_brier": 0.06719095242986199,
+    "raw_TOP3_brier": 0.23327767853753523,
+    "WIN_brier": 0.07723832777760306,
+    "TOP3_brier": 0.24906254836150118
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025082401020211",
+    "ordered_nll": 6.099108232338847,
+    "raw_WIN_brier": 0.05316792519463889,
+    "raw_TOP3_brier": 0.1502545506390354,
+    "WIN_brier": 0.0520158939898118,
+    "TOP3_brier": 0.11008890687383652
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025082404030211",
+    "ordered_nll": 4.855831606552455,
+    "raw_WIN_brier": 0.08979317975721715,
+    "raw_TOP3_brier": 0.19502249807189642,
+    "WIN_brier": 0.06267422716099401,
+    "TOP3_brier": 0.14165981042400802
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025083104030411",
+    "ordered_nll": 5.478341330354885,
+    "raw_WIN_brier": 0.05416682394855094,
+    "raw_TOP3_brier": 0.12189522491433177,
+    "WIN_brier": 0.046595991352180684,
+    "TOP3_brier": 0.09628266030976305
+  },
+  {
+    "family": "recent52",
+    "fold": 2,
+    "race_code": "2025083107040411",
+    "ordered_nll": 5.229834334502606,
+    "raw_WIN_brier": 0.06991271419296835,
+    "raw_TOP3_brier": 0.13624087273614927,
+    "WIN_brier": 0.07765213924729249,
+    "TOP3_brier": 0.10806636057631089
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025090601020511",
+    "ordered_nll": 6.428862034882998,
+    "raw_WIN_brier": 0.07397698710316243,
+    "raw_TOP3_brier": 0.21096479519149747,
+    "WIN_brier": 0.06104446507862421,
+    "TOP3_brier": 0.1618247159006673
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025090606040111",
+    "ordered_nll": 9.447061538668011,
+    "raw_WIN_brier": 0.06366171044182092,
+    "raw_TOP3_brier": 0.14936306495576748,
+    "WIN_brier": 0.0673836228246006,
+    "TOP3_brier": 0.17323644798357285
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025090709040211",
+    "ordered_nll": 5.5767852787657946,
+    "raw_WIN_brier": 0.05707786083898587,
+    "raw_TOP3_brier": 0.12049021232836477,
+    "WIN_brier": 0.06409025704638825,
+    "TOP3_brier": 0.0830936173096645
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025091309040311",
+    "ordered_nll": 5.323250076287978,
+    "raw_WIN_brier": 0.060249382979726686,
+    "raw_TOP3_brier": 0.0850240368922047,
+    "WIN_brier": 0.054187363342943225,
+    "TOP3_brier": 0.09637890548948778
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025091409040411",
+    "ordered_nll": 7.570469183440451,
+    "raw_WIN_brier": 0.05090931977278656,
+    "raw_TOP3_brier": 0.1441979017985416,
+    "WIN_brier": 0.03998393237721538,
+    "TOP3_brier": 0.13518591339046723
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025091506040511",
+    "ordered_nll": 5.64180706323333,
+    "raw_WIN_brier": 0.07115631747512076,
+    "raw_TOP3_brier": 0.1635383998369201,
+    "WIN_brier": 0.053183215240607366,
+    "TOP3_brier": 0.13649432966290967
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025092106040711",
+    "ordered_nll": 4.608042597671092,
+    "raw_WIN_brier": 0.08629235872682231,
+    "raw_TOP3_brier": 0.15877504169731993,
+    "WIN_brier": 0.06713857759246798,
+    "TOP3_brier": 0.11444554876578868
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025092109040711",
+    "ordered_nll": 3.480659559694371,
+    "raw_WIN_brier": 0.06187359477937686,
+    "raw_TOP3_brier": 0.18520624854352544,
+    "WIN_brier": 0.0646613945757308,
+    "TOP3_brier": 0.06912705066018596
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025092709040811",
+    "ordered_nll": 9.01711437210433,
+    "raw_WIN_brier": 0.07220053730121315,
+    "raw_TOP3_brier": 0.19057875055828544,
+    "WIN_brier": 0.07644439936889512,
+    "TOP3_brier": 0.22119780859422059
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025092806040911",
+    "ordered_nll": 8.564816375597424,
+    "raw_WIN_brier": 0.06491140433161599,
+    "raw_TOP3_brier": 0.14900614088753047,
+    "WIN_brier": 0.06772550630817879,
+    "TOP3_brier": 0.16715403578655014
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025100505040211",
+    "ordered_nll": 4.860909934231676,
+    "raw_WIN_brier": 0.08349996062798301,
+    "raw_TOP3_brier": 0.16900387563478195,
+    "WIN_brier": 0.08592837526098629,
+    "TOP3_brier": 0.11097515157674587
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025100508030211",
+    "ordered_nll": 8.689043798618506,
+    "raw_WIN_brier": 0.056254180678354665,
+    "raw_TOP3_brier": 0.1542841358604847,
+    "WIN_brier": 0.054475755435222394,
+    "TOP3_brier": 0.14614944292970125
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025101105040311",
+    "ordered_nll": 5.865601614202868,
+    "raw_WIN_brier": 0.12445502918020232,
+    "raw_TOP3_brier": 0.2394937566319086,
+    "WIN_brier": 0.10372405122743805,
+    "TOP3_brier": 0.19806120861457685
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025101205040411",
+    "ordered_nll": 6.831812250073069,
+    "raw_WIN_brier": 0.062132068892668126,
+    "raw_TOP3_brier": 0.13202566190896906,
+    "WIN_brier": 0.05663015206389993,
+    "TOP3_brier": 0.13714000919970984
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025101308030511",
+    "ordered_nll": 8.07310891310955,
+    "raw_WIN_brier": 0.05205793646907339,
+    "raw_TOP3_brier": 0.1497650733070952,
+    "WIN_brier": 0.05002742811229693,
+    "TOP3_brier": 0.13679687110470967
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025101805040611",
+    "ordered_nll": 4.829575012815246,
+    "raw_WIN_brier": 0.08670022811810471,
+    "raw_TOP3_brier": 0.1371807625376405,
+    "WIN_brier": 0.06939758880619364,
+    "TOP3_brier": 0.08886467155784283
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025101908030711",
+    "ordered_nll": 7.502455034528753,
+    "raw_WIN_brier": 0.04251306188444094,
+    "raw_TOP3_brier": 0.1481168226826871,
+    "WIN_brier": 0.04697560446269925,
+    "TOP3_brier": 0.13259730188839722
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025102505040811",
+    "ordered_nll": 6.904929007697208,
+    "raw_WIN_brier": 0.08342031448416115,
+    "raw_TOP3_brier": 0.1832441425963476,
+    "WIN_brier": 0.07714606475949431,
+    "TOP3_brier": 0.21414241434302964
+  },
+  {
+    "family": "recent52",
+    "fold": 3,
+    "race_code": "2025102608030911",
+    "ordered_nll": 7.162676549013182,
+    "raw_WIN_brier": 0.043109062714441405,
+    "raw_TOP3_brier": 0.11409817736776325,
+    "WIN_brier": 0.04116439077494436,
+    "TOP3_brier": 0.1041473653951457
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025110108031011",
+    "ordered_nll": 6.399417986436669,
+    "raw_WIN_brier": 0.06071717307245362,
+    "raw_TOP3_brier": 0.14386203182183202,
+    "WIN_brier": 0.05417704675362867,
+    "TOP3_brier": 0.1550857809742035
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025110205041111",
+    "ordered_nll": 6.098074631126785,
+    "raw_WIN_brier": 0.05038006768822107,
+    "raw_TOP3_brier": 0.1518410241830519,
+    "WIN_brier": 0.04587834790951632,
+    "TOP3_brier": 0.12893212948265623
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025110805050111",
+    "ordered_nll": 7.073308237694283,
+    "raw_WIN_brier": 0.04703555267526923,
+    "raw_TOP3_brier": 0.1257877461355439,
+    "WIN_brier": 0.030577328869897124,
+    "TOP3_brier": 0.12825728079489726
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025110905050211",
+    "ordered_nll": 6.688358257340607,
+    "raw_WIN_brier": 0.05614140780661895,
+    "raw_TOP3_brier": 0.11657076951398142,
+    "WIN_brier": 0.05757670895337182,
+    "TOP3_brier": 0.10235614333127185
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025111505050311",
+    "ordered_nll": 5.082424376487474,
+    "raw_WIN_brier": 0.040188763968256734,
+    "raw_TOP3_brier": 0.10746454139247685,
+    "WIN_brier": 0.050058347418058445,
+    "TOP3_brier": 0.0863206730289088
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025111508040311",
+    "ordered_nll": 4.916931890152668,
+    "raw_WIN_brier": 0.12067731961687514,
+    "raw_TOP3_brier": 0.24290622260902436,
+    "WIN_brier": 0.08715746560760475,
+    "TOP3_brier": 0.18467206646317635
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025111608040411",
+    "ordered_nll": 6.586120018170403,
+    "raw_WIN_brier": 0.05149472713036997,
+    "raw_TOP3_brier": 0.15270956297642954,
+    "WIN_brier": 0.037611426287088655,
+    "TOP3_brier": 0.12113703457734953
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025112203030511",
+    "ordered_nll": 5.813242495007168,
+    "raw_WIN_brier": 0.05616695444495739,
+    "raw_TOP3_brier": 0.1337063271259202,
+    "WIN_brier": 0.04741720351122168,
+    "TOP3_brier": 0.10159158224175525
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025112308040611",
+    "ordered_nll": 6.906212143693915,
+    "raw_WIN_brier": 0.023928648319062787,
+    "raw_TOP3_brier": 0.12732605875888525,
+    "WIN_brier": 0.025999342996071338,
+    "TOP3_brier": 0.1060140148097998
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025112405050611",
+    "ordered_nll": 5.971435326233394,
+    "raw_WIN_brier": 0.05526255277928824,
+    "raw_TOP3_brier": 0.16391078738822468,
+    "WIN_brier": 0.07510771094659639,
+    "TOP3_brier": 0.1532621613202819
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025112908040711",
+    "ordered_nll": 8.62176360154622,
+    "raw_WIN_brier": 0.07697243479830779,
+    "raw_TOP3_brier": 0.187695981971293,
+    "WIN_brier": 0.09564759903032445,
+    "TOP3_brier": 0.2594718407485414
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025120606050111",
+    "ordered_nll": 5.6755488218720345,
+    "raw_WIN_brier": 0.0667229813234325,
+    "raw_TOP3_brier": 0.13465731511533882,
+    "WIN_brier": 0.05689773365114512,
+    "TOP3_brier": 0.10922246576897006
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025120609050111",
+    "ordered_nll": 6.644321357816576,
+    "raw_WIN_brier": 0.06968745973069104,
+    "raw_TOP3_brier": 0.17520956848381286,
+    "WIN_brier": 0.058439206430520474,
+    "TOP3_brier": 0.15375061506127943
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025120707050211",
+    "ordered_nll": 6.649528898909511,
+    "raw_WIN_brier": 0.04883476982816433,
+    "raw_TOP3_brier": 0.1361148685375931,
+    "WIN_brier": 0.05621598985386038,
+    "TOP3_brier": 0.13500272788373968
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025121406050411",
+    "ordered_nll": 5.754068834353521,
+    "raw_WIN_brier": 0.05896649724128864,
+    "raw_TOP3_brier": 0.13208429305423441,
+    "WIN_brier": 0.04516622694829257,
+    "TOP3_brier": 0.10398373033029351
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025121409050411",
+    "ordered_nll": 6.215980127236364,
+    "raw_WIN_brier": 0.05123632623028396,
+    "raw_TOP3_brier": 0.12099788155159111,
+    "WIN_brier": 0.04651654708029824,
+    "TOP3_brier": 0.10877110395954329
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025122006050511",
+    "ordered_nll": 7.948324905531884,
+    "raw_WIN_brier": 0.05935496271968608,
+    "raw_TOP3_brier": 0.15666068269570962,
+    "WIN_brier": 0.05921758123026124,
+    "TOP3_brier": 0.16122823305691364
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025122109050611",
+    "ordered_nll": 4.719077183047347,
+    "raw_WIN_brier": 0.05310895311362357,
+    "raw_TOP3_brier": 0.129485294174689,
+    "WIN_brier": 0.052530169452789634,
+    "TOP3_brier": 0.08812009914940268
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025122706050711",
+    "ordered_nll": 8.299643334739518,
+    "raw_WIN_brier": 0.05941800736353184,
+    "raw_TOP3_brier": 0.14921351687064072,
+    "WIN_brier": 0.06337749934770728,
+    "TOP3_brier": 0.16860436128759873
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025122709050711",
+    "ordered_nll": 4.944266846153487,
+    "raw_WIN_brier": 0.06348642072306548,
+    "raw_TOP3_brier": 0.10465708931641352,
+    "WIN_brier": 0.05938425099522603,
+    "TOP3_brier": 0.08075200468048346
+  },
+  {
+    "family": "recent52",
+    "fold": 4,
+    "race_code": "2025122806050811",
+    "ordered_nll": 7.313423070397132,
+    "raw_WIN_brier": 0.051920229064310146,
+    "raw_TOP3_brier": 0.14015951151353997,
+    "WIN_brier": 0.04785441526358713,
+    "TOP3_brier": 0.12366071371942997
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025050305020311",
+    "ordered_nll": 4.5340886084530165,
+    "raw_WIN_brier": 0.07755315913701034,
+    "raw_TOP3_brier": 0.13118032841643276,
+    "WIN_brier": 0.06575478434706081,
+    "TOP3_brier": 0.09668889309643923
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025050308020311",
+    "ordered_nll": 4.114457158489936,
+    "raw_WIN_brier": 0.07872239599104656,
+    "raw_TOP3_brier": 0.1323462206970818,
+    "WIN_brier": 0.0717842710800087,
+    "TOP3_brier": 0.06897706249805849
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025050408020411",
+    "ordered_nll": 5.823156744457915,
+    "raw_WIN_brier": 0.03630284048023899,
+    "raw_TOP3_brier": 0.10962929965366656,
+    "WIN_brier": 0.045190772747102516,
+    "TOP3_brier": 0.12047014969226627
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025051005020511",
+    "ordered_nll": 7.40446628823789,
+    "raw_WIN_brier": 0.0644411450489793,
+    "raw_TOP3_brier": 0.12250991539796144,
+    "WIN_brier": 0.054207523294362944,
+    "TOP3_brier": 0.12468721996835898
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025051008020511",
+    "ordered_nll": 6.733030786082875,
+    "raw_WIN_brier": 0.05423865510209395,
+    "raw_TOP3_brier": 0.19685515874419243,
+    "WIN_brier": 0.09756783198553551,
+    "TOP3_brier": 0.23565133068952054
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025051105020611",
+    "ordered_nll": 9.55140029248791,
+    "raw_WIN_brier": 0.06178226367185773,
+    "raw_TOP3_brier": 0.176098244586382,
+    "WIN_brier": 0.05764908021598368,
+    "TOP3_brier": 0.16417272804103927
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025051704010511",
+    "ordered_nll": 8.132936750192282,
+    "raw_WIN_brier": 0.06592659231729289,
+    "raw_TOP3_brier": 0.1435894494726012,
+    "WIN_brier": 0.06226365519098354,
+    "TOP3_brier": 0.1566596526439453
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025051805020811",
+    "ordered_nll": 6.022747711957496,
+    "raw_WIN_brier": 0.03743926248158504,
+    "raw_TOP3_brier": 0.10977503635498437,
+    "WIN_brier": 0.036934351468750994,
+    "TOP3_brier": 0.10310170601565202
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025052408020911",
+    "ordered_nll": 7.106650678249565,
+    "raw_WIN_brier": 0.059207677367199035,
+    "raw_TOP3_brier": 0.1288225996088446,
+    "WIN_brier": 0.05405669569014222,
+    "TOP3_brier": 0.13600235126929883
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025052505021011",
+    "ordered_nll": 7.757352337285933,
+    "raw_WIN_brier": 0.06324899897442698,
+    "raw_TOP3_brier": 0.15012522413053256,
+    "WIN_brier": 0.05595691566122117,
+    "TOP3_brier": 0.13379753872165012
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025053108021111",
+    "ordered_nll": 9.966682882883301,
+    "raw_WIN_brier": 0.06340319278434342,
+    "raw_TOP3_brier": 0.17919073810726288,
+    "WIN_brier": 0.06497654810162776,
+    "TOP3_brier": 0.18555874108168297
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025060105021211",
+    "ordered_nll": 5.323274950825923,
+    "raw_WIN_brier": 0.04225593238971486,
+    "raw_TOP3_brier": 0.104450872712108,
+    "WIN_brier": 0.03163311761903308,
+    "TOP3_brier": 0.08468560771351213
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025060805030211",
+    "ordered_nll": 6.546723016250381,
+    "raw_WIN_brier": 0.02113613222371212,
+    "raw_TOP3_brier": 0.14229923342977274,
+    "WIN_brier": 0.0433489722350184,
+    "TOP3_brier": 0.09899821820963862
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025061509030411",
+    "ordered_nll": 7.526377764447384,
+    "raw_WIN_brier": 0.0632057454204274,
+    "raw_TOP3_brier": 0.17823351301437493,
+    "WIN_brier": 0.056269045466634166,
+    "TOP3_brier": 0.13520665446277172
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025062205030611",
+    "ordered_nll": 6.050091146168272,
+    "raw_WIN_brier": 0.06712469834846703,
+    "raw_TOP3_brier": 0.11084265210410905,
+    "WIN_brier": 0.06353628164505762,
+    "TOP3_brier": 0.12978604314424846
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025062209030611",
+    "ordered_nll": 8.594651048754576,
+    "raw_WIN_brier": 0.06542628922791117,
+    "raw_TOP3_brier": 0.15930064761234006,
+    "WIN_brier": 0.06550885322244777,
+    "TOP3_brier": 0.16975939692337486
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025062902010611",
+    "ordered_nll": 8.973723770970679,
+    "raw_WIN_brier": 0.060578837404804596,
+    "raw_TOP3_brier": 0.17383967648198412,
+    "WIN_brier": 0.0677023542536662,
+    "TOP3_brier": 0.1926240485596287
+  },
+  {
+    "family": "relative78",
+    "fold": 1,
+    "race_code": "2025062903020211",
+    "ordered_nll": 6.793204172103812,
+    "raw_WIN_brier": 0.07709452761865629,
+    "raw_TOP3_brier": 0.17964295483090278,
+    "WIN_brier": 0.06403220444156058,
+    "TOP3_brier": 0.15103005695996136
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025070610020411",
+    "ordered_nll": 7.180330501464313,
+    "raw_WIN_brier": 0.051711247252989354,
+    "raw_TOP3_brier": 0.13208670388676833,
+    "WIN_brier": 0.04652510805839418,
+    "TOP3_brier": 0.11905020100053597
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025071303020611",
+    "ordered_nll": 6.4702112718635,
+    "raw_WIN_brier": 0.060190767814545104,
+    "raw_TOP3_brier": 0.12571017975638288,
+    "WIN_brier": 0.052884137561595775,
+    "TOP3_brier": 0.11715891446551074
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025072002011211",
+    "ordered_nll": 6.001012485986891,
+    "raw_WIN_brier": 0.08248894123892385,
+    "raw_TOP3_brier": 0.15559829666517314,
+    "WIN_brier": 0.0919321693981358,
+    "TOP3_brier": 0.11845907237641784
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025072010020811",
+    "ordered_nll": 6.991020196900128,
+    "raw_WIN_brier": 0.06361665358404413,
+    "raw_TOP3_brier": 0.16144212225830568,
+    "WIN_brier": 0.06116381168562282,
+    "TOP3_brier": 0.12882842090002544
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025072707030207",
+    "ordered_nll": 5.706809470001316,
+    "raw_WIN_brier": 0.0611558647989863,
+    "raw_TOP3_brier": 0.10599893780279052,
+    "WIN_brier": 0.05635675375404991,
+    "TOP3_brier": 0.09775381801072242
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025080301010411",
+    "ordered_nll": 4.709766715189837,
+    "raw_WIN_brier": 0.04921351274834103,
+    "raw_TOP3_brier": 0.08933167028977876,
+    "WIN_brier": 0.04847523618518073,
+    "TOP3_brier": 0.08833713067380189
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025080304020407",
+    "ordered_nll": 6.306588976442194,
+    "raw_WIN_brier": 0.039278133695901114,
+    "raw_TOP3_brier": 0.1280566501157398,
+    "WIN_brier": 0.044166078324292875,
+    "TOP3_brier": 0.10043434950505613
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025080901010511",
+    "ordered_nll": 6.841922550319913,
+    "raw_WIN_brier": 0.06408809145484294,
+    "raw_TOP3_brier": 0.1334474829572228,
+    "WIN_brier": 0.06614464376967315,
+    "TOP3_brier": 0.14126216624323923
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025081004020607",
+    "ordered_nll": 9.258452095077345,
+    "raw_WIN_brier": 0.06902128512088261,
+    "raw_TOP3_brier": 0.18194340014669244,
+    "WIN_brier": 0.061436507668877156,
+    "TOP3_brier": 0.19438779998855588
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025081007030607",
+    "ordered_nll": 6.760710055776898,
+    "raw_WIN_brier": 0.04996256291728103,
+    "raw_TOP3_brier": 0.11987584969048365,
+    "WIN_brier": 0.05677868863062144,
+    "TOP3_brier": 0.11458922783900938
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025081701010811",
+    "ordered_nll": 9.375106677903297,
+    "raw_WIN_brier": 0.06498584234926126,
+    "raw_TOP3_brier": 0.16646964874296571,
+    "WIN_brier": 0.06423591169614014,
+    "TOP3_brier": 0.1716748339818892
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025081707030807",
+    "ordered_nll": 8.886277280740595,
+    "raw_WIN_brier": 0.0723213676440206,
+    "raw_TOP3_brier": 0.2644981123283134,
+    "WIN_brier": 0.0779972751148309,
+    "TOP3_brier": 0.25135009586441676
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025082401020211",
+    "ordered_nll": 6.11413607522438,
+    "raw_WIN_brier": 0.05851574286827839,
+    "raw_TOP3_brier": 0.1507047155069095,
+    "WIN_brier": 0.05242403552204964,
+    "TOP3_brier": 0.11038699535250734
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025082404030211",
+    "ordered_nll": 4.850987638749757,
+    "raw_WIN_brier": 0.08745911568314134,
+    "raw_TOP3_brier": 0.19191874223169117,
+    "WIN_brier": 0.061651259102413314,
+    "TOP3_brier": 0.14163479075272184
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025083104030411",
+    "ordered_nll": 5.478786079512085,
+    "raw_WIN_brier": 0.05275222975084767,
+    "raw_TOP3_brier": 0.11415332965629357,
+    "WIN_brier": 0.0464489406797572,
+    "TOP3_brier": 0.09682923372449703
+  },
+  {
+    "family": "relative78",
+    "fold": 2,
+    "race_code": "2025083107040411",
+    "ordered_nll": 5.27439182690117,
+    "raw_WIN_brier": 0.06918607709544401,
+    "raw_TOP3_brier": 0.13124361686712557,
+    "WIN_brier": 0.07777072876057635,
+    "TOP3_brier": 0.10965237161525189
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025090601020511",
+    "ordered_nll": 6.402574427284605,
+    "raw_WIN_brier": 0.07649202081398748,
+    "raw_TOP3_brier": 0.20535641937826118,
+    "WIN_brier": 0.06069684535490972,
+    "TOP3_brier": 0.16096648975097502
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025090606040111",
+    "ordered_nll": 9.376055718583284,
+    "raw_WIN_brier": 0.07098365672462813,
+    "raw_TOP3_brier": 0.14473587703712618,
+    "WIN_brier": 0.06725612031633757,
+    "TOP3_brier": 0.17207158237783854
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025090709040211",
+    "ordered_nll": 5.60206960385308,
+    "raw_WIN_brier": 0.0615695509658495,
+    "raw_TOP3_brier": 0.11528893993603201,
+    "WIN_brier": 0.06454431002067983,
+    "TOP3_brier": 0.08313114860283015
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025091309040311",
+    "ordered_nll": 5.433217737725639,
+    "raw_WIN_brier": 0.06004982595389206,
+    "raw_TOP3_brier": 0.0885990310397549,
+    "WIN_brier": 0.054094355353710745,
+    "TOP3_brier": 0.09922299233447483
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025091409040411",
+    "ordered_nll": 7.551876321193067,
+    "raw_WIN_brier": 0.05527182099024183,
+    "raw_TOP3_brier": 0.13789191680808888,
+    "WIN_brier": 0.0404353865014186,
+    "TOP3_brier": 0.1351893736196843
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025091506040511",
+    "ordered_nll": 5.680978195518522,
+    "raw_WIN_brier": 0.07799582155812365,
+    "raw_TOP3_brier": 0.1837943030531112,
+    "WIN_brier": 0.053944169331388535,
+    "TOP3_brier": 0.13774271450674633
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025092106040711",
+    "ordered_nll": 4.613606745937668,
+    "raw_WIN_brier": 0.08996204717752117,
+    "raw_TOP3_brier": 0.15141797310375538,
+    "WIN_brier": 0.06663415125421104,
+    "TOP3_brier": 0.11506160511414475
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025092109040711",
+    "ordered_nll": 3.4681750352682252,
+    "raw_WIN_brier": 0.07557838356379243,
+    "raw_TOP3_brier": 0.17927759522379885,
+    "WIN_brier": 0.06658489186854497,
+    "TOP3_brier": 0.06777904980903873
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025092709040811",
+    "ordered_nll": 9.048055723853624,
+    "raw_WIN_brier": 0.07867222311402323,
+    "raw_TOP3_brier": 0.198612705709099,
+    "WIN_brier": 0.07666953592540542,
+    "TOP3_brier": 0.22175600269356838
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025092806040911",
+    "ordered_nll": 8.662334247386104,
+    "raw_WIN_brier": 0.06948722973656421,
+    "raw_TOP3_brier": 0.14769361260870156,
+    "WIN_brier": 0.06782769688768513,
+    "TOP3_brier": 0.16907775009195244
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025100505040211",
+    "ordered_nll": 4.844592425069313,
+    "raw_WIN_brier": 0.09247512689213867,
+    "raw_TOP3_brier": 0.16477601412426757,
+    "WIN_brier": 0.0857371199492223,
+    "TOP3_brier": 0.10989423696849254
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025100508030211",
+    "ordered_nll": 8.573351212783454,
+    "raw_WIN_brier": 0.05538374298969683,
+    "raw_TOP3_brier": 0.15660529557815636,
+    "WIN_brier": 0.05362206083330765,
+    "TOP3_brier": 0.14391379291358808
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025101105040311",
+    "ordered_nll": 5.785797973649261,
+    "raw_WIN_brier": 0.10673366051622889,
+    "raw_TOP3_brier": 0.23826028353868817,
+    "WIN_brier": 0.09978757536228772,
+    "TOP3_brier": 0.19496478357909897
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025101205040411",
+    "ordered_nll": 6.8330230880190355,
+    "raw_WIN_brier": 0.064628963839851,
+    "raw_TOP3_brier": 0.12482162364276089,
+    "WIN_brier": 0.05614809944015951,
+    "TOP3_brier": 0.13678561395981054
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025101308030511",
+    "ordered_nll": 7.955119963409457,
+    "raw_WIN_brier": 0.052591182932777834,
+    "raw_TOP3_brier": 0.14005344346794232,
+    "WIN_brier": 0.049670060793045805,
+    "TOP3_brier": 0.1339041676126816
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025101805040611",
+    "ordered_nll": 4.822016368190799,
+    "raw_WIN_brier": 0.08962935286123062,
+    "raw_TOP3_brier": 0.13124827557053761,
+    "WIN_brier": 0.06785624985864218,
+    "TOP3_brier": 0.08849478375038768
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025101908030711",
+    "ordered_nll": 7.457641872595965,
+    "raw_WIN_brier": 0.03919355631302964,
+    "raw_TOP3_brier": 0.14873091570427568,
+    "WIN_brier": 0.047158649894002334,
+    "TOP3_brier": 0.13209091105206838
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025102505040811",
+    "ordered_nll": 6.951743353291436,
+    "raw_WIN_brier": 0.08040837603249361,
+    "raw_TOP3_brier": 0.1717538842022685,
+    "WIN_brier": 0.07832875704046642,
+    "TOP3_brier": 0.21778822701072978
+  },
+  {
+    "family": "relative78",
+    "fold": 3,
+    "race_code": "2025102608030911",
+    "ordered_nll": 7.205057328437674,
+    "raw_WIN_brier": 0.04196773990864504,
+    "raw_TOP3_brier": 0.12192841948585044,
+    "WIN_brier": 0.041660802940834976,
+    "TOP3_brier": 0.1057508309312246
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025110108031011",
+    "ordered_nll": 6.459579673290585,
+    "raw_WIN_brier": 0.052621788190960465,
+    "raw_TOP3_brier": 0.13978794626328647,
+    "WIN_brier": 0.054581427577024576,
+    "TOP3_brier": 0.15706420263796442
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025110205041111",
+    "ordered_nll": 6.09738855041735,
+    "raw_WIN_brier": 0.04217793300628553,
+    "raw_TOP3_brier": 0.15054848589443456,
+    "WIN_brier": 0.046150128001563165,
+    "TOP3_brier": 0.12917542422455225
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025110805050111",
+    "ordered_nll": 7.193832395827359,
+    "raw_WIN_brier": 0.05340601760348262,
+    "raw_TOP3_brier": 0.14209470387670975,
+    "WIN_brier": 0.03188544456151534,
+    "TOP3_brier": 0.13058799041144
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025110905050211",
+    "ordered_nll": 6.7049926581151915,
+    "raw_WIN_brier": 0.056911232785474684,
+    "raw_TOP3_brier": 0.1104016619260494,
+    "WIN_brier": 0.05736190110097639,
+    "TOP3_brier": 0.10252019349467814
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025111505050311",
+    "ordered_nll": 5.072534044962392,
+    "raw_WIN_brier": 0.032263989385373754,
+    "raw_TOP3_brier": 0.07029472317881927,
+    "WIN_brier": 0.049885757497756686,
+    "TOP3_brier": 0.08630842106567095
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025111508040311",
+    "ordered_nll": 4.844518346161424,
+    "raw_WIN_brier": 0.1141034254925877,
+    "raw_TOP3_brier": 0.20190335118381247,
+    "WIN_brier": 0.08420299313968167,
+    "TOP3_brier": 0.18213874831921717
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025111608040411",
+    "ordered_nll": 6.5798616697691195,
+    "raw_WIN_brier": 0.0581656707918965,
+    "raw_TOP3_brier": 0.16132868932326758,
+    "WIN_brier": 0.03853958801508172,
+    "TOP3_brier": 0.12109063384793586
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025112203030511",
+    "ordered_nll": 5.818128046431797,
+    "raw_WIN_brier": 0.0538760112692731,
+    "raw_TOP3_brier": 0.1370275624941118,
+    "WIN_brier": 0.047488031072692415,
+    "TOP3_brier": 0.1016445108445936
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025112308040611",
+    "ordered_nll": 6.927721306374904,
+    "raw_WIN_brier": 0.022096103341258996,
+    "raw_TOP3_brier": 0.1305649448600098,
+    "WIN_brier": 0.027069899004857338,
+    "TOP3_brier": 0.10592524384306706
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025112405050611",
+    "ordered_nll": 6.004243761643891,
+    "raw_WIN_brier": 0.05491018524355137,
+    "raw_TOP3_brier": 0.15459742000628754,
+    "WIN_brier": 0.07585525852600686,
+    "TOP3_brier": 0.15432282830297592
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025112908040711",
+    "ordered_nll": 8.690300478191947,
+    "raw_WIN_brier": 0.0755688878423837,
+    "raw_TOP3_brier": 0.1971559627214168,
+    "WIN_brier": 0.09588095409871168,
+    "TOP3_brier": 0.26000812561935255
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025120606050111",
+    "ordered_nll": 5.694243804254581,
+    "raw_WIN_brier": 0.057495245133101607,
+    "raw_TOP3_brier": 0.1320810879180956,
+    "WIN_brier": 0.05641668685937024,
+    "TOP3_brier": 0.11083759035122438
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025120609050111",
+    "ordered_nll": 6.601166472146572,
+    "raw_WIN_brier": 0.07150225290813898,
+    "raw_TOP3_brier": 0.19501061413221613,
+    "WIN_brier": 0.0577506881767309,
+    "TOP3_brier": 0.1518395658537469
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025120707050211",
+    "ordered_nll": 6.671725879789221,
+    "raw_WIN_brier": 0.046517438829252244,
+    "raw_TOP3_brier": 0.1248445705645883,
+    "WIN_brier": 0.05636041554752229,
+    "TOP3_brier": 0.1358622852634691
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025121406050411",
+    "ordered_nll": 5.708260542943353,
+    "raw_WIN_brier": 0.04980162236481462,
+    "raw_TOP3_brier": 0.11412693774477317,
+    "WIN_brier": 0.04412341275374339,
+    "TOP3_brier": 0.1026948211408368
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025121409050411",
+    "ordered_nll": 6.298196334699599,
+    "raw_WIN_brier": 0.05435079696340838,
+    "raw_TOP3_brier": 0.1293271678798892,
+    "WIN_brier": 0.046934974588790986,
+    "TOP3_brier": 0.1109354955546284
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025122006050511",
+    "ordered_nll": 7.911001825035024,
+    "raw_WIN_brier": 0.06172927013746964,
+    "raw_TOP3_brier": 0.1645213739879357,
+    "WIN_brier": 0.059051700539266685,
+    "TOP3_brier": 0.159832361212758
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025122109050611",
+    "ordered_nll": 4.771328821651625,
+    "raw_WIN_brier": 0.04773895108235506,
+    "raw_TOP3_brier": 0.1072984100640931,
+    "WIN_brier": 0.05308578805985291,
+    "TOP3_brier": 0.0897700193600849
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025122706050711",
+    "ordered_nll": 8.2988027976081,
+    "raw_WIN_brier": 0.058892949354859045,
+    "raw_TOP3_brier": 0.14444389266651517,
+    "WIN_brier": 0.06336824351270365,
+    "TOP3_brier": 0.16889510028361054
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025122709050711",
+    "ordered_nll": 4.862472435067145,
+    "raw_WIN_brier": 0.06609025710331395,
+    "raw_TOP3_brier": 0.08514766041085531,
+    "WIN_brier": 0.05802985751697761,
+    "TOP3_brier": 0.07853074415916696
+  },
+  {
+    "family": "relative78",
+    "fold": 4,
+    "race_code": "2025122806050811",
+    "ordered_nll": 7.290874282497997,
+    "raw_WIN_brier": 0.04759405436279981,
+    "raw_TOP3_brier": 0.13419964480446994,
+    "WIN_brier": 0.047674390822243715,
+    "TOP3_brier": 0.12270446317468657
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025050305020311",
+    "ordered_nll": 4.545279902868637,
+    "raw_WIN_brier": 0.07998911126758045,
+    "raw_TOP3_brier": 0.1325851663506196,
+    "WIN_brier": 0.06585507791028461,
+    "TOP3_brier": 0.09714146061103823
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025050308020311",
+    "ordered_nll": 4.112825605896342,
+    "raw_WIN_brier": 0.07731732038988882,
+    "raw_TOP3_brier": 0.12615953559229648,
+    "WIN_brier": 0.0716255846455933,
+    "TOP3_brier": 0.06881800743068045
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025050408020411",
+    "ordered_nll": 5.828298016528798,
+    "raw_WIN_brier": 0.03618157009251673,
+    "raw_TOP3_brier": 0.11528032804539327,
+    "WIN_brier": 0.045163067358877367,
+    "TOP3_brier": 0.12063252441569933
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025051005020511",
+    "ordered_nll": 7.385279879458565,
+    "raw_WIN_brier": 0.06480393545772348,
+    "raw_TOP3_brier": 0.11373734965958333,
+    "WIN_brier": 0.0541845292348604,
+    "TOP3_brier": 0.12431146095369588
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025051008020511",
+    "ordered_nll": 6.7272465158396955,
+    "raw_WIN_brier": 0.05299938558110158,
+    "raw_TOP3_brier": 0.20008546390683798,
+    "WIN_brier": 0.09733745335947297,
+    "TOP3_brier": 0.23535169320434637
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025051105020611",
+    "ordered_nll": 9.565411198963067,
+    "raw_WIN_brier": 0.06311538740917758,
+    "raw_TOP3_brier": 0.18288647914829653,
+    "WIN_brier": 0.05761818067016416,
+    "TOP3_brier": 0.16430175112513734
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025051704010511",
+    "ordered_nll": 8.126155015241547,
+    "raw_WIN_brier": 0.06451533078771411,
+    "raw_TOP3_brier": 0.14455674841139243,
+    "WIN_brier": 0.06221305968401374,
+    "TOP3_brier": 0.15644856523069528
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025051805020811",
+    "ordered_nll": 6.021794152709753,
+    "raw_WIN_brier": 0.042228936998165725,
+    "raw_TOP3_brier": 0.11149987917020435,
+    "WIN_brier": 0.037047626574056754,
+    "TOP3_brier": 0.10307671292228034
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025052408020911",
+    "ordered_nll": 7.120836364738803,
+    "raw_WIN_brier": 0.059792209718842575,
+    "raw_TOP3_brier": 0.13484817546399208,
+    "WIN_brier": 0.05423404781699187,
+    "TOP3_brier": 0.13656475637795848
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025052505021011",
+    "ordered_nll": 7.782172912011487,
+    "raw_WIN_brier": 0.0649926761821591,
+    "raw_TOP3_brier": 0.1501078770092627,
+    "WIN_brier": 0.05609233043586162,
+    "TOP3_brier": 0.13422183165184348
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025053108021111",
+    "ordered_nll": 9.992191192796518,
+    "raw_WIN_brier": 0.06297482196013654,
+    "raw_TOP3_brier": 0.18481873571527824,
+    "WIN_brier": 0.06498630495811726,
+    "TOP3_brier": 0.18599964719027443
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025060105021211",
+    "ordered_nll": 5.316108789188273,
+    "raw_WIN_brier": 0.04117382185725662,
+    "raw_TOP3_brier": 0.1048009787444191,
+    "WIN_brier": 0.03162308335761907,
+    "TOP3_brier": 0.08447223177040351
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025060805030211",
+    "ordered_nll": 6.555459806777238,
+    "raw_WIN_brier": 0.02509129087461681,
+    "raw_TOP3_brier": 0.13943441823356045,
+    "WIN_brier": 0.04338653167894742,
+    "TOP3_brier": 0.09897312233939524
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025061509030411",
+    "ordered_nll": 7.517590158447053,
+    "raw_WIN_brier": 0.060775951970100044,
+    "raw_TOP3_brier": 0.16960803804864802,
+    "WIN_brier": 0.05615094901696863,
+    "TOP3_brier": 0.135044213906721
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025062205030611",
+    "ordered_nll": 6.062687644430057,
+    "raw_WIN_brier": 0.06772683251047416,
+    "raw_TOP3_brier": 0.12102231854772452,
+    "WIN_brier": 0.06364438475931115,
+    "TOP3_brier": 0.13015446890592694
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025062209030611",
+    "ordered_nll": 8.592672625205994,
+    "raw_WIN_brier": 0.06797445172325826,
+    "raw_TOP3_brier": 0.15626959635031995,
+    "WIN_brier": 0.06559245275317431,
+    "TOP3_brier": 0.1697595861985391
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025062902010611",
+    "ordered_nll": 8.957830517367341,
+    "raw_WIN_brier": 0.06136913337372623,
+    "raw_TOP3_brier": 0.16920903484264221,
+    "WIN_brier": 0.06769587689070108,
+    "TOP3_brier": 0.19232625629782013
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 1,
+    "race_code": "2025062903020211",
+    "ordered_nll": 6.7918174858836995,
+    "raw_WIN_brier": 0.0700816168886199,
+    "raw_TOP3_brier": 0.17467367733374026,
+    "WIN_brier": 0.0639215955051051,
+    "TOP3_brier": 0.1509237467023973
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025070610020411",
+    "ordered_nll": 7.188568313738832,
+    "raw_WIN_brier": 0.05196680587920226,
+    "raw_TOP3_brier": 0.13127594208751103,
+    "WIN_brier": 0.04657895043522073,
+    "TOP3_brier": 0.1191618897781125
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025071303020611",
+    "ordered_nll": 6.463023595165849,
+    "raw_WIN_brier": 0.057989271398633406,
+    "raw_TOP3_brier": 0.1257859821001666,
+    "WIN_brier": 0.05277053317634907,
+    "TOP3_brier": 0.11723775759380987
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025072002011211",
+    "ordered_nll": 6.0150057866755695,
+    "raw_WIN_brier": 0.08239417476452843,
+    "raw_TOP3_brier": 0.172945328608985,
+    "WIN_brier": 0.09198475453619666,
+    "TOP3_brier": 0.11872029183108301
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025072010020811",
+    "ordered_nll": 6.981615292673684,
+    "raw_WIN_brier": 0.06349822722405156,
+    "raw_TOP3_brier": 0.16089800774408441,
+    "WIN_brier": 0.061111252019186525,
+    "TOP3_brier": 0.12851651815056797
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025072707030207",
+    "ordered_nll": 5.721196256823857,
+    "raw_WIN_brier": 0.06068009602972922,
+    "raw_TOP3_brier": 0.11641386414022167,
+    "WIN_brier": 0.056330476594335696,
+    "TOP3_brier": 0.09816142474811192
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025080301010411",
+    "ordered_nll": 4.714838376832581,
+    "raw_WIN_brier": 0.04766316474076488,
+    "raw_TOP3_brier": 0.083545684037304,
+    "WIN_brier": 0.048555942866971034,
+    "TOP3_brier": 0.0883650784657358
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025080304020407",
+    "ordered_nll": 6.3009967197223435,
+    "raw_WIN_brier": 0.03555272884634685,
+    "raw_TOP3_brier": 0.12289628624700503,
+    "WIN_brier": 0.044177815808680666,
+    "TOP3_brier": 0.10031120405521202
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025080901010511",
+    "ordered_nll": 6.860799499722189,
+    "raw_WIN_brier": 0.06604114546877946,
+    "raw_TOP3_brier": 0.14433647880309222,
+    "WIN_brier": 0.0662465604948922,
+    "TOP3_brier": 0.141743991117751
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025081004020607",
+    "ordered_nll": 9.262625976332572,
+    "raw_WIN_brier": 0.07078251230456115,
+    "raw_TOP3_brier": 0.18031573984350954,
+    "WIN_brier": 0.061367335782759574,
+    "TOP3_brier": 0.19434969624663628
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025081007030607",
+    "ordered_nll": 6.760413057744646,
+    "raw_WIN_brier": 0.047636130564868456,
+    "raw_TOP3_brier": 0.11906443617718025,
+    "WIN_brier": 0.05678879892523431,
+    "TOP3_brier": 0.11464871089918323
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025081701010811",
+    "ordered_nll": 9.37344353581858,
+    "raw_WIN_brier": 0.06431038926738583,
+    "raw_TOP3_brier": 0.17365456723390432,
+    "WIN_brier": 0.06417551970795592,
+    "TOP3_brier": 0.17209131866739905
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025081707030807",
+    "ordered_nll": 8.850252595352934,
+    "raw_WIN_brier": 0.07062130851698654,
+    "raw_TOP3_brier": 0.2594696411067493,
+    "WIN_brier": 0.07792344215126636,
+    "TOP3_brier": 0.2503861880297256
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025082401020211",
+    "ordered_nll": 6.10213735215781,
+    "raw_WIN_brier": 0.05707183180194243,
+    "raw_TOP3_brier": 0.1525390037567607,
+    "WIN_brier": 0.0523070780321995,
+    "TOP3_brier": 0.11008960201946863
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025082404030211",
+    "ordered_nll": 4.83606748502811,
+    "raw_WIN_brier": 0.08314304927512192,
+    "raw_TOP3_brier": 0.1900876473341945,
+    "WIN_brier": 0.06137473103062892,
+    "TOP3_brier": 0.14127089347991867
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025083104030411",
+    "ordered_nll": 5.483161842680103,
+    "raw_WIN_brier": 0.05219249609262411,
+    "raw_TOP3_brier": 0.11154779031076636,
+    "WIN_brier": 0.046355754787727285,
+    "TOP3_brier": 0.09690629591006189
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 2,
+    "race_code": "2025083107040411",
+    "ordered_nll": 5.275520181382492,
+    "raw_WIN_brier": 0.07089951100611981,
+    "raw_TOP3_brier": 0.12447401892638028,
+    "WIN_brier": 0.07801478962892151,
+    "TOP3_brier": 0.10972812057446026
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025090601020511",
+    "ordered_nll": 6.402644908231557,
+    "raw_WIN_brier": 0.07339111508388778,
+    "raw_TOP3_brier": 0.21875760750717946,
+    "WIN_brier": 0.06057624659632627,
+    "TOP3_brier": 0.16102637121936753
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025090606040111",
+    "ordered_nll": 9.37510010224744,
+    "raw_WIN_brier": 0.06991643363074143,
+    "raw_TOP3_brier": 0.14187822452619972,
+    "WIN_brier": 0.06726136674028035,
+    "TOP3_brier": 0.17201823132942157
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025090709040211",
+    "ordered_nll": 5.56086686432147,
+    "raw_WIN_brier": 0.05615912892796953,
+    "raw_TOP3_brier": 0.10184697172369046,
+    "WIN_brier": 0.06437894693480367,
+    "TOP3_brier": 0.08225205091278583
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025091309040311",
+    "ordered_nll": 5.434005001635043,
+    "raw_WIN_brier": 0.059079388782745504,
+    "raw_TOP3_brier": 0.0905819851186965,
+    "WIN_brier": 0.0541158278134719,
+    "TOP3_brier": 0.09920825751319673
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025091409040411",
+    "ordered_nll": 7.5590793018458164,
+    "raw_WIN_brier": 0.056634435782288536,
+    "raw_TOP3_brier": 0.13757392790298853,
+    "WIN_brier": 0.04056788809708881,
+    "TOP3_brier": 0.13545969709764683
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025091506040511",
+    "ordered_nll": 5.684454803128441,
+    "raw_WIN_brier": 0.07669300734007711,
+    "raw_TOP3_brier": 0.18777207449127845,
+    "WIN_brier": 0.05387486105226938,
+    "TOP3_brier": 0.13785619935781993
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025092106040711",
+    "ordered_nll": 4.581091371432631,
+    "raw_WIN_brier": 0.08353791670530732,
+    "raw_TOP3_brier": 0.14334875921927984,
+    "WIN_brier": 0.06595778911620719,
+    "TOP3_brier": 0.11358818059307908
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025092109040711",
+    "ordered_nll": 3.4749110697373005,
+    "raw_WIN_brier": 0.07363783421002862,
+    "raw_TOP3_brier": 0.17479897121040125,
+    "WIN_brier": 0.06646250805066874,
+    "TOP3_brier": 0.06810902729690387
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025092709040811",
+    "ordered_nll": 9.046711069195743,
+    "raw_WIN_brier": 0.07830333033806411,
+    "raw_TOP3_brier": 0.20126007350478944,
+    "WIN_brier": 0.07672613878133012,
+    "TOP3_brier": 0.2216552302973839
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025092806040911",
+    "ordered_nll": 8.652129943672474,
+    "raw_WIN_brier": 0.07192696083279188,
+    "raw_TOP3_brier": 0.14119224993146468,
+    "WIN_brier": 0.06785009426648815,
+    "TOP3_brier": 0.168751388099618
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025100505040211",
+    "ordered_nll": 4.847362401328672,
+    "raw_WIN_brier": 0.09558441740269913,
+    "raw_TOP3_brier": 0.15824532011781767,
+    "WIN_brier": 0.08565871080405131,
+    "TOP3_brier": 0.11012010573209302
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025100508030211",
+    "ordered_nll": 8.577785976793642,
+    "raw_WIN_brier": 0.05771573606595252,
+    "raw_TOP3_brier": 0.16051328380323737,
+    "WIN_brier": 0.053776575096030316,
+    "TOP3_brier": 0.1440070854002599
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025101105040311",
+    "ordered_nll": 5.801189863285715,
+    "raw_WIN_brier": 0.11157584739946476,
+    "raw_TOP3_brier": 0.23654646061195006,
+    "WIN_brier": 0.10018994014603902,
+    "TOP3_brier": 0.1957115475745741
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025101205040411",
+    "ordered_nll": 6.833688545227826,
+    "raw_WIN_brier": 0.06358855283797102,
+    "raw_TOP3_brier": 0.12297408270921183,
+    "WIN_brier": 0.0560750410850885,
+    "TOP3_brier": 0.13682201709432967
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025101308030511",
+    "ordered_nll": 7.971454379004396,
+    "raw_WIN_brier": 0.05250828672876597,
+    "raw_TOP3_brier": 0.142349737102563,
+    "WIN_brier": 0.04969151415133092,
+    "TOP3_brier": 0.13420792890827235
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025101805040611",
+    "ordered_nll": 4.821818456348044,
+    "raw_WIN_brier": 0.08875231369070379,
+    "raw_TOP3_brier": 0.12742141941893412,
+    "WIN_brier": 0.06807925191854645,
+    "TOP3_brier": 0.08828632006988497
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025101908030711",
+    "ordered_nll": 7.4455638868567195,
+    "raw_WIN_brier": 0.04058889108080663,
+    "raw_TOP3_brier": 0.14368904197200533,
+    "WIN_brier": 0.04704682568762061,
+    "TOP3_brier": 0.13175580149808708
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025102505040811",
+    "ordered_nll": 6.941132992615636,
+    "raw_WIN_brier": 0.08439890110276123,
+    "raw_TOP3_brier": 0.16707935108860092,
+    "WIN_brier": 0.07829662703676844,
+    "TOP3_brier": 0.21706937867011072
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 3,
+    "race_code": "2025102608030911",
+    "ordered_nll": 7.209980763105948,
+    "raw_WIN_brier": 0.041143169053268085,
+    "raw_TOP3_brier": 0.1222807522012807,
+    "WIN_brier": 0.04161091382775396,
+    "TOP3_brier": 0.10556745905232698
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025110108031011",
+    "ordered_nll": 6.455196457990692,
+    "raw_WIN_brier": 0.05436513319312262,
+    "raw_TOP3_brier": 0.14456439808472019,
+    "WIN_brier": 0.054631817937501825,
+    "TOP3_brier": 0.15684099165371923
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025110205041111",
+    "ordered_nll": 6.1046171969269,
+    "raw_WIN_brier": 0.046012088494472116,
+    "raw_TOP3_brier": 0.14568998875007053,
+    "WIN_brier": 0.046202872850977295,
+    "TOP3_brier": 0.12933517768856087
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025110805050111",
+    "ordered_nll": 7.1734325341128855,
+    "raw_WIN_brier": 0.05252138225322313,
+    "raw_TOP3_brier": 0.141061170337292,
+    "WIN_brier": 0.03181455923701478,
+    "TOP3_brier": 0.13024061044616092
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025110905050211",
+    "ordered_nll": 6.72721103959236,
+    "raw_WIN_brier": 0.05769744946745362,
+    "raw_TOP3_brier": 0.11119771982912546,
+    "WIN_brier": 0.057418262298359196,
+    "TOP3_brier": 0.1030073376551876
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025111505050311",
+    "ordered_nll": 5.058064659984524,
+    "raw_WIN_brier": 0.0344889594195106,
+    "raw_TOP3_brier": 0.06747766966101247,
+    "WIN_brier": 0.04983111655152243,
+    "TOP3_brier": 0.08569932076643896
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025111508040311",
+    "ordered_nll": 4.848034793363556,
+    "raw_WIN_brier": 0.11237172359148535,
+    "raw_TOP3_brier": 0.2116329504770142,
+    "WIN_brier": 0.08457372367649227,
+    "TOP3_brier": 0.18247204162683356
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025111608040411",
+    "ordered_nll": 6.580859415021483,
+    "raw_WIN_brier": 0.055457818692084555,
+    "raw_TOP3_brier": 0.15649211170459215,
+    "WIN_brier": 0.0384498191388291,
+    "TOP3_brier": 0.12106286058742757
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025112203030511",
+    "ordered_nll": 5.80847421081328,
+    "raw_WIN_brier": 0.05605299473902121,
+    "raw_TOP3_brier": 0.13254710146095017,
+    "WIN_brier": 0.04758119613183617,
+    "TOP3_brier": 0.10137137721905043
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025112308040611",
+    "ordered_nll": 6.968519878319329,
+    "raw_WIN_brier": 0.02622543491704891,
+    "raw_TOP3_brier": 0.13665062391237445,
+    "WIN_brier": 0.02709597747772276,
+    "TOP3_brier": 0.10688917613510969
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025112405050611",
+    "ordered_nll": 6.00563434546367,
+    "raw_WIN_brier": 0.060477442558733475,
+    "raw_TOP3_brier": 0.15477294620342244,
+    "WIN_brier": 0.07587848602711449,
+    "TOP3_brier": 0.15448260661915653
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025112908040711",
+    "ordered_nll": 8.68450950202989,
+    "raw_WIN_brier": 0.07923969000328207,
+    "raw_TOP3_brier": 0.21360488653760257,
+    "WIN_brier": 0.09585313830801359,
+    "TOP3_brier": 0.25985868191432204
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025120606050111",
+    "ordered_nll": 5.6831871461662065,
+    "raw_WIN_brier": 0.05818528036585364,
+    "raw_TOP3_brier": 0.12452566659815764,
+    "WIN_brier": 0.05634738156959775,
+    "TOP3_brier": 0.1104348433858273
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025120609050111",
+    "ordered_nll": 6.5915487426532735,
+    "raw_WIN_brier": 0.07071982265672398,
+    "raw_TOP3_brier": 0.1821892852566791,
+    "WIN_brier": 0.057776793299453066,
+    "TOP3_brier": 0.151772224298076
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025120707050211",
+    "ordered_nll": 6.661311973754467,
+    "raw_WIN_brier": 0.04831852074985841,
+    "raw_TOP3_brier": 0.12512707680014334,
+    "WIN_brier": 0.05624324653129392,
+    "TOP3_brier": 0.13548839119858958
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025121406050411",
+    "ordered_nll": 5.72085479366074,
+    "raw_WIN_brier": 0.05275616068387447,
+    "raw_TOP3_brier": 0.1193460127674587,
+    "WIN_brier": 0.044324147921936737,
+    "TOP3_brier": 0.10309511041356348
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025121409050411",
+    "ordered_nll": 6.303970788175236,
+    "raw_WIN_brier": 0.053728661695779556,
+    "raw_TOP3_brier": 0.1321452003140213,
+    "WIN_brier": 0.04702966677206311,
+    "TOP3_brier": 0.11097502670898307
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025122006050511",
+    "ordered_nll": 7.910471639605566,
+    "raw_WIN_brier": 0.06084847176298459,
+    "raw_TOP3_brier": 0.16680822478228688,
+    "WIN_brier": 0.05908846240983456,
+    "TOP3_brier": 0.15984145391808902
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025122109050611",
+    "ordered_nll": 4.765786001764991,
+    "raw_WIN_brier": 0.05245805138214429,
+    "raw_TOP3_brier": 0.11301331509149018,
+    "WIN_brier": 0.05312392082442742,
+    "TOP3_brier": 0.08943758326382448
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025122706050711",
+    "ordered_nll": 8.289815645178614,
+    "raw_WIN_brier": 0.05732439008004338,
+    "raw_TOP3_brier": 0.14282409906644356,
+    "WIN_brier": 0.06321044585642459,
+    "TOP3_brier": 0.16879962086090922
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025122709050711",
+    "ordered_nll": 4.855122417555591,
+    "raw_WIN_brier": 0.06335962380357736,
+    "raw_TOP3_brier": 0.08109646959536845,
+    "WIN_brier": 0.05809570211991824,
+    "TOP3_brier": 0.07822688798148333
+  },
+  {
+    "family": "relative78_detail",
+    "fold": 4,
+    "race_code": "2025122806050811",
+    "ordered_nll": 7.280788872421349,
+    "raw_WIN_brier": 0.048644474600657274,
+    "raw_TOP3_brier": 0.1407877316313558,
+    "WIN_brier": 0.04771565631307229,
+    "TOP3_brier": 0.12277278307271619
+  }
+]

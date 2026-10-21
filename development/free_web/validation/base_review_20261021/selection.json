@@ -1,0 +1,383 @@
+{
+  "created_at": "2026-10-21T13:16:19.983855+00:00",
+  "selection_year": 2025,
+  "2026_used_for_selection": false,
+  "selected_family": "recent52",
+  "ranking": [
+    {
+      "family": "incumbent",
+      "validation_races": 74,
+      "ordered_nll": 6.678468462822113,
+      "raw_WIN_brier": 0.06136962348586074,
+      "raw_TOP3_brier": 0.1488271717051549,
+      "WIN_brier": 0.05916298131098917,
+      "TOP3_brier": 0.13498637835557825
+    },
+    {
+      "family": "recent52",
+      "validation_races": 74,
+      "ordered_nll": 6.671503546592908,
+      "raw_WIN_brier": 0.06139276685759253,
+      "raw_TOP3_brier": 0.14921333184516178,
+      "WIN_brier": 0.059115869474623065,
+      "TOP3_brier": 0.1347133195848366
+    },
+    {
+      "family": "relative78",
+      "validation_races": 74,
+      "ordered_nll": 6.674729560476786,
+      "raw_WIN_brier": 0.06178275875789535,
+      "raw_TOP3_brier": 0.14674006169422008,
+      "WIN_brier": 0.05912322870915865,
+      "TOP3_brier": 0.13483677902202976
+    },
+    {
+      "family": "relative78_detail",
+      "validation_races": 74,
+      "ordered_nll": 6.674185235226678,
+      "raw_WIN_brier": 0.06191805230178289,
+      "raw_TOP3_brier": 0.1468175562439889,
+      "WIN_brier": 0.059120531527624545,
+      "TOP3_brier": 0.1348079378909903
+    }
+  ],
+  "folds": [
+    {
+      "family": "incumbent",
+      "fold": 1,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.041304518494685145,
+          0.7593976245553501
+        ],
+        "success": true,
+        "projected_gradient_max": 3.2075970719031626e-09,
+        "fit_nll": 6.635983525021239,
+        "free_parameters": 2
+      },
+      "calibration_rows": 14841,
+      "fit_races": 45,
+      "validation_races": 18
+    },
+    {
+      "family": "incumbent",
+      "fold": 2,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.05646823315977162,
+          0.7369144929636722
+        ],
+        "success": true,
+        "projected_gradient_max": 9.471160222938846e-09,
+        "fit_nll": 6.754720831563318,
+        "free_parameters": 2
+      },
+      "calibration_rows": 22445,
+      "fit_races": 63,
+      "validation_races": 16
+    },
+    {
+      "family": "incumbent",
+      "fold": 3,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.09394916574178087,
+          0.7518592574414511
+        ],
+        "success": true,
+        "projected_gradient_max": 4.217696774112137e-09,
+        "fit_nll": 6.729417568433482,
+        "free_parameters": 2
+      },
+      "calibration_rows": 30152,
+      "fit_races": 79,
+      "validation_races": 19
+    },
+    {
+      "family": "incumbent",
+      "fold": 4,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.06344372035754976,
+          0.7520144916642628
+        ],
+        "success": true,
+        "projected_gradient_max": 2.8863422237324756e-08,
+        "fit_nll": 6.714012480922373,
+        "free_parameters": 2
+      },
+      "calibration_rows": 36367,
+      "fit_races": 98,
+      "validation_races": 21
+    },
+    {
+      "family": "recent52",
+      "fold": 1,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.11675407589660378,
+          0.7350279942011586
+        ],
+        "success": true,
+        "projected_gradient_max": 7.145945346564986e-09,
+        "fit_nll": 6.633472150544286,
+        "free_parameters": 2
+      },
+      "calibration_rows": 14841,
+      "fit_races": 45,
+      "validation_races": 18
+    },
+    {
+      "family": "recent52",
+      "fold": 2,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.12454725206390123,
+          0.7158157769546762
+        ],
+        "success": true,
+        "projected_gradient_max": 1.5478129113496776e-08,
+        "fit_nll": 6.752137599512336,
+        "free_parameters": 2
+      },
+      "calibration_rows": 22445,
+      "fit_races": 63,
+      "validation_races": 16
+    },
+    {
+      "family": "recent52",
+      "fold": 3,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.16100798185910037,
+          0.7320681225171894
+        ],
+        "success": true,
+        "projected_gradient_max": 5.455445382641658e-08,
+        "fit_nll": 6.725983076085171,
+        "free_parameters": 2
+      },
+      "calibration_rows": 30152,
+      "fit_races": 79,
+      "validation_races": 19
+    },
+    {
+      "family": "recent52",
+      "fold": 4,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.13394571331709548,
+          0.7300058128451429
+        ],
+        "success": true,
+        "projected_gradient_max": 2.312622293212204e-09,
+        "fit_nll": 6.7112002645559805,
+        "free_parameters": 2
+      },
+      "calibration_rows": 36367,
+      "fit_races": 98,
+      "validation_races": 21
+    },
+    {
+      "family": "relative78",
+      "fold": 1,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.05636154778656863,
+          0.7488850011465185
+        ],
+        "success": true,
+        "projected_gradient_max": 4.427162897021238e-08,
+        "fit_nll": 6.6351358700712835,
+        "free_parameters": 2
+      },
+      "calibration_rows": 14841,
+      "fit_races": 45,
+      "validation_races": 18
+    },
+    {
+      "family": "relative78",
+      "fold": 2,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.05978699049090549,
+          0.7301787535209067
+        ],
+        "success": true,
+        "projected_gradient_max": 2.0510647515500692e-08,
+        "fit_nll": 6.7540691041367875,
+        "free_parameters": 2
+      },
+      "calibration_rows": 22445,
+      "fit_races": 63,
+      "validation_races": 16
+    },
+    {
+      "family": "relative78",
+      "fold": 3,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.07462215024689763,
+          0.7516001792251383
+        ],
+        "success": true,
+        "projected_gradient_max": 9.424348154195136e-09,
+        "fit_nll": 6.729343771719688,
+        "free_parameters": 2
+      },
+      "calibration_rows": 30152,
+      "fit_races": 79,
+      "validation_races": 19
+    },
+    {
+      "family": "relative78",
+      "fold": 4,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.07359075093095312,
+          0.7413785652748348
+        ],
+        "success": true,
+        "projected_gradient_max": 1.1980103186126181e-08,
+        "fit_nll": 6.712928023469075,
+        "free_parameters": 2
+      },
+      "calibration_rows": 36367,
+      "fit_races": 98,
+      "validation_races": 21
+    },
+    {
+      "family": "relative78_detail",
+      "fold": 1,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.06044055230965812,
+          0.7464068418424799
+        ],
+        "success": true,
+        "projected_gradient_max": 3.276864693665023e-08,
+        "fit_nll": 6.634998817033594,
+        "free_parameters": 2
+      },
+      "calibration_rows": 14841,
+      "fit_races": 45,
+      "validation_races": 18
+    },
+    {
+      "family": "relative78_detail",
+      "fold": 2,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.04627190893947695,
+          0.7358403110228039
+        ],
+        "success": true,
+        "projected_gradient_max": 1.2549464141585982e-08,
+        "fit_nll": 6.754624483171415,
+        "free_parameters": 2
+      },
+      "calibration_rows": 22445,
+      "fit_races": 63,
+      "validation_races": 16
+    },
+    {
+      "family": "relative78_detail",
+      "fold": 3,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.07488997894815072,
+          0.750912595510129
+        ],
+        "success": true,
+        "projected_gradient_max": 2.4086782818640247e-08,
+        "fit_nll": 6.72935122033436,
+        "free_parameters": 2
+      },
+      "calibration_rows": 30152,
+      "fit_races": 79,
+      "validation_races": 19
+    },
+    {
+      "family": "relative78_detail",
+      "fold": 4,
+      "fit": {
+        "method": "shared_ai_market",
+        "parameters": [
+          0.08224430367937643,
+          0.7370074018989962
+        ],
+        "success": true,
+        "projected_gradient_max": 7.058135141199514e-08,
+        "fit_nll": 6.712437595586297,
+        "free_parameters": 2
+      },
+      "calibration_rows": 36367,
+      "fit_races": 98,
+      "validation_races": 21
+    }
+  ],
+  "final_2025_fits": {
+    "incumbent": {
+      "method": "shared_ai_market",
+      "parameters": [
+        0.10891634376849817,
+        0.7585892737556981
+      ],
+      "success": true,
+      "projected_gradient_max": 1.5647999646739853e-09,
+      "fit_nll": 6.65964626925422,
+      "free_parameters": 2
+    },
+    "recent52": {
+      "method": "shared_ai_market",
+      "parameters": [
+        0.20128225159166283,
+        0.7307766351341288
+      ],
+      "success": true,
+      "projected_gradient_max": 6.839419550969443e-08,
+      "fit_nll": 6.653911989453781,
+      "free_parameters": 2
+    },
+    "relative78": {
+      "method": "shared_ai_market",
+      "parameters": [
+        0.12159811219156692,
+        0.7430681100815764
+      ],
+      "success": true,
+      "projected_gradient_max": 4.6867018620808365e-08,
+      "fit_nll": 6.656968822976956,
+      "free_parameters": 2
+    },
+    "relative78_detail": {
+      "method": "shared_ai_market",
+      "parameters": [
+        0.1275757402953317,
+        0.7398550619225156
+      ],
+      "success": true,
+      "projected_gradient_max": 1.604650545025933e-09,
+      "fit_nll": 6.656456026301801,
+      "free_parameters": 2
+    }
+  },
+  "protocol_sha256": "748936559d1cc6e2474237fd7f503780c092bae3c910adc42903a6837d15642a",
+  "production_changed": false,
+  "research_candidate_only": true
+}
