@@ -200,6 +200,7 @@ def main():
     parser.add_argument('--payout')
     parser.add_argument('--test-only', action='store_true')
     parser.add_argument('--run-id')
+    parser.add_argument('--probability-method', choices=['original','market_corrected_v1'], default='original')
     parser.add_argument('--model-dir')
     parser.add_argument('--history-dir')
     parser.add_argument('--pedigree', action='append', default=[])
@@ -223,7 +224,10 @@ def main():
                     for key in ('record_type', 'is_pre_race_prediction'):
                         record.pop(key, None)
                 else:
-                    from live_pipeline import prepare_live
+                    if args.probability_method=='market_corrected_v1':
+                        from calibrated_live_pipeline import prepare_live
+                    else:
+                        from live_pipeline import prepare_live
                     stage = 'live_sources_features_inference_allocation'
                     github.stage = None
                     record = prepare_live(args.race, args.model_dir, args.history_dir, args.pedigree, args.window)

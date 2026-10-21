@@ -1,0 +1,30 @@
+{
+  "test_only": true,
+  "race_code": "2026101208040511",
+  "actual_saved_model_inference": true,
+  "public_previous_for_all_18": true,
+  "prior_30_recalculated": true,
+  "all_combinations": 969,
+  "ticket_count": 59,
+  "stake_yen": 10000,
+  "matches_103_race_comparison_exactly": false,
+  "live_WIN_rejects_final_odds": true,
+  "fresh_in_sale_WIN_odds_pipeline_checked": false,
+  "github_roundtrip": true,
+  "original_and_receipt_readbacks_and_ancestry_verified": true,
+  "official_settlement_checked": true,
+  "prediction_commit": "00c4b3c90e7cb167365b01879895d65f23a23c2c",
+  "receipt_commit": "c4e5e80ef4c1100e40f44c641894b77218ac2e83",
+  "settlement_commit": "8e1fca5955013a14b42718c900469559d5cb2ba1",
+  "payout_yen": 17100,
+  "saved_model_probability_max_difference_from_103_race_input": 0.0,
+  "allocation_variation": {
+    "audit_tickets": 57,
+    "fresh_rehearsal_tickets": 59,
+    "audit_payout_yen": 17100,
+    "fresh_rehearsal_payout_yen": 17100,
+    "note": "Same model probabilities and fixed allocation algorithm. Solver is approximate (6% MIP gap and time limits); independently computed portfolios can differ. Both are retained; no best-return run was selected."
+  },
+  "test_count": 27,
+  "tests_passed": true
+}

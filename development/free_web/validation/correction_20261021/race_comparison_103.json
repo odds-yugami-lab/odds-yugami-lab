@@ -1,0 +1,5031 @@
+[
+  {
+    "race_code": "2026010406010111",
+    "date": "2026-01-04",
+    "race_name": "GⅢ 中山金杯",
+    "variants": {
+      "old": {
+        "ticket_count": 76,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5868941237508027,
+        "metrics": {
+          "ordered_top3_logloss": 7.471153923315243,
+          "umaren_logloss": 3.973821727316506,
+          "umaren_brier": 0.9848257080668181,
+          "sanrenpuku_logloss": 5.662243176126508,
+          "sanrenpuku_brier": 1.0005029682559752
+        }
+      },
+      "corrected": {
+        "ticket_count": 50,
+        "stake_yen": 10000,
+        "payout_yen": 10360,
+        "any_hit": true,
+        "model_hit_probability": 0.6509114187295171,
+        "metrics": {
+          "ordered_top3_logloss": 6.383072678156311,
+          "umaren_logloss": 3.5526952229354394,
+          "umaren_brier": 0.9700902009394863,
+          "sanrenpuku_logloss": 4.539688392782431,
+          "sanrenpuku_brier": 0.9888302381331362
+        }
+      },
+      "market": {
+        "ticket_count": 59,
+        "stake_yen": 10000,
+        "payout_yen": 11920,
+        "any_hit": true,
+        "model_hit_probability": 0.6951717081888302,
+        "metrics": {
+          "ordered_top3_logloss": 6.198383170019433,
+          "umaren_logloss": 3.454795091222959,
+          "umaren_brier": 0.9731106028237092,
+          "sanrenpuku_logloss": 4.336123914013149,
+          "sanrenpuku_brier": 0.9891063465445192
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026010408010111",
+    "date": "2026-01-04",
+    "race_name": "GⅢ 京都金杯",
+    "variants": {
+      "old": {
+        "ticket_count": 88,
+        "stake_yen": 10000,
+        "payout_yen": 10620,
+        "any_hit": true,
+        "model_hit_probability": 0.5561230132858213,
+        "metrics": {
+          "ordered_top3_logloss": 8.033343274685091,
+          "umaren_logloss": 3.9901585647382305,
+          "umaren_brier": 0.9784613298033438,
+          "sanrenpuku_logloss": 6.342164311550606,
+          "sanrenpuku_brier": 1.0008477444883925
+        }
+      },
+      "corrected": {
+        "ticket_count": 59,
+        "stake_yen": 10000,
+        "payout_yen": 10620,
+        "any_hit": true,
+        "model_hit_probability": 0.603710008814768,
+        "metrics": {
+          "ordered_top3_logloss": 9.150495974296684,
+          "umaren_logloss": 4.072850184303656,
+          "umaren_brier": 0.9907400167833973,
+          "sanrenpuku_logloss": 7.461472227106022,
+          "sanrenpuku_brier": 1.0069300058357287
+        }
+      },
+      "market": {
+        "ticket_count": 53,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6510529333478356,
+        "metrics": {
+          "ordered_top3_logloss": 9.807012343068546,
+          "umaren_logloss": 4.161387096936204,
+          "umaren_brier": 1.0079596338423888,
+          "sanrenpuku_logloss": 8.119048665423012,
+          "sanrenpuku_brier": 1.0134717097504935
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026011106010411",
+    "date": "2026-01-11",
+    "race_name": "GⅢ フェアリーS",
+    "variants": {
+      "old": {
+        "ticket_count": 95,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.45815470549580395,
+        "metrics": {
+          "ordered_top3_logloss": 10.29989127297898,
+          "umaren_logloss": 6.390852275783829,
+          "umaren_brier": 1.0104919721768721,
+          "sanrenpuku_logloss": 8.552807601372468,
+          "sanrenpuku_brier": 1.0033739652164415
+        }
+      },
+      "corrected": {
+        "ticket_count": 47,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6424050207572457,
+        "metrics": {
+          "ordered_top3_logloss": 9.477625477096048,
+          "umaren_logloss": 5.375237618248823,
+          "umaren_brier": 1.0180980642575246,
+          "sanrenpuku_logloss": 7.736773290321679,
+          "sanrenpuku_brier": 1.009350479879375
+        }
+      },
+      "market": {
+        "ticket_count": 62,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6947208596921609,
+        "metrics": {
+          "ordered_top3_logloss": 9.939450334329136,
+          "umaren_logloss": 5.553435882084946,
+          "umaren_brier": 1.0350350331435323,
+          "sanrenpuku_logloss": 8.199731864405154,
+          "sanrenpuku_brier": 1.0184846513417258
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026011208010511",
+    "date": "2026-01-12",
+    "race_name": "GⅢ シンザン記念",
+    "variants": {
+      "old": {
+        "ticket_count": 95,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.49126987556391405,
+        "metrics": {
+          "ordered_top3_logloss": 7.939622560975883,
+          "umaren_logloss": 4.797353337995097,
+          "umaren_brier": 0.9958644434446143,
+          "sanrenpuku_logloss": 6.144173260858224,
+          "sanrenpuku_brier": 0.998829346195463
+        }
+      },
+      "corrected": {
+        "ticket_count": 49,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6548984527214365,
+        "metrics": {
+          "ordered_top3_logloss": 7.198579729059845,
+          "umaren_logloss": 4.543481146242674,
+          "umaren_brier": 0.9980560731497404,
+          "sanrenpuku_logloss": 5.319825685607757,
+          "sanrenpuku_brier": 0.9965924193369029
+        }
+      },
+      "market": {
+        "ticket_count": 70,
+        "stake_yen": 10000,
+        "payout_yen": 18730,
+        "any_hit": true,
+        "model_hit_probability": 0.6752209105409435,
+        "metrics": {
+          "ordered_top3_logloss": 7.189946567604278,
+          "umaren_logloss": 4.633318834823634,
+          "umaren_brier": 1.006094651616788,
+          "sanrenpuku_logloss": 5.283806769398723,
+          "sanrenpuku_brier": 0.9996813641235421
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026011806010711",
+    "date": "2026-01-18",
+    "race_name": "GⅢ 京成杯",
+    "variants": {
+      "old": {
+        "ticket_count": 94,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5318491123713142,
+        "metrics": {
+          "ordered_top3_logloss": 6.6813786419012935,
+          "umaren_logloss": 4.178750249638913,
+          "umaren_brier": 0.9831445540428158,
+          "sanrenpuku_logloss": 4.895114387506114,
+          "sanrenpuku_brier": 0.9887875935705475
+        }
+      },
+      "corrected": {
+        "ticket_count": 60,
+        "stake_yen": 10000,
+        "payout_yen": 11120,
+        "any_hit": true,
+        "model_hit_probability": 0.6493916070740069,
+        "metrics": {
+          "ordered_top3_logloss": 5.598465139714287,
+          "umaren_logloss": 3.5745302824072662,
+          "umaren_brier": 0.9732341626686876,
+          "sanrenpuku_logloss": 3.7611942229195687,
+          "sanrenpuku_brier": 0.9654484568191924
+        }
+      },
+      "market": {
+        "ticket_count": 59,
+        "stake_yen": 10000,
+        "payout_yen": 11120,
+        "any_hit": true,
+        "model_hit_probability": 0.7475187565917092,
+        "metrics": {
+          "ordered_top3_logloss": 5.350805795761319,
+          "umaren_logloss": 3.4999567479662286,
+          "umaren_brier": 0.98145143021774,
+          "sanrenpuku_logloss": 3.4858433240500193,
+          "sanrenpuku_brier": 0.9597029960373042
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026011808010711",
+    "date": "2026-01-18",
+    "race_name": "GⅡ 日経新春杯",
+    "variants": {
+      "old": {
+        "ticket_count": 83,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6219595840433665,
+        "metrics": {
+          "ordered_top3_logloss": 7.476957065856156,
+          "umaren_logloss": 3.9962382272061943,
+          "umaren_brier": 0.9882759024810753,
+          "sanrenpuku_logloss": 5.75530319920848,
+          "sanrenpuku_brier": 1.0027090693722702
+        }
+      },
+      "corrected": {
+        "ticket_count": 47,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6455403553835178,
+        "metrics": {
+          "ordered_top3_logloss": 6.924694182344251,
+          "umaren_logloss": 3.6271893048344035,
+          "umaren_brier": 0.9796828937523708,
+          "sanrenpuku_logloss": 5.376055420282759,
+          "sanrenpuku_brier": 1.0033422099660634
+        }
+      },
+      "market": {
+        "ticket_count": 45,
+        "stake_yen": 10000,
+        "payout_yen": 12150,
+        "any_hit": true,
+        "model_hit_probability": 0.7061384179192839,
+        "metrics": {
+          "ordered_top3_logloss": 6.939994154490416,
+          "umaren_logloss": 3.5983480430194428,
+          "umaren_brier": 0.9918972134803271,
+          "sanrenpuku_logloss": 5.483222380083367,
+          "sanrenpuku_brier": 1.0103706375736576
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026012410010111",
+    "date": "2026-01-24",
+    "race_name": "GⅢ 小倉牝馬S",
+    "variants": {
+      "old": {
+        "ticket_count": 88,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.49519290390047355,
+        "metrics": {
+          "ordered_top3_logloss": 7.6343640565067385,
+          "umaren_logloss": 4.712793739891728,
+          "umaren_brier": 0.9928164597332121,
+          "sanrenpuku_logloss": 5.866629784493732,
+          "sanrenpuku_brier": 0.9969384759740492
+        }
+      },
+      "corrected": {
+        "ticket_count": 50,
+        "stake_yen": 10000,
+        "payout_yen": 13410,
+        "any_hit": true,
+        "model_hit_probability": 0.6058797829773639,
+        "metrics": {
+          "ordered_top3_logloss": 5.957436266275271,
+          "umaren_logloss": 3.87446110739402,
+          "umaren_brier": 0.9823849640109747,
+          "sanrenpuku_logloss": 4.1541475001679995,
+          "sanrenpuku_brier": 0.9769393414887784
+        }
+      },
+      "market": {
+        "ticket_count": 37,
+        "stake_yen": 10000,
+        "payout_yen": 28070,
+        "any_hit": true,
+        "model_hit_probability": 0.7227041358614003,
+        "metrics": {
+          "ordered_top3_logloss": 5.598784627600335,
+          "umaren_logloss": 3.770935729411955,
+          "umaren_brier": 0.9900384884679015,
+          "sanrenpuku_logloss": 3.7741048588242045,
+          "sanrenpuku_brier": 0.968764603801169
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026012506010911",
+    "date": "2026-01-25",
+    "race_name": "GⅡ アメリカJCC",
+    "variants": {
+      "old": {
+        "ticket_count": 94,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.4132291659653346,
+        "metrics": {
+          "ordered_top3_logloss": 7.436325882616233,
+          "umaren_logloss": 2.9129483931229965,
+          "umaren_brier": 0.9097233630951609,
+          "sanrenpuku_logloss": 5.767971288480636,
+          "sanrenpuku_brier": 0.9993452099774831
+        }
+      },
+      "corrected": {
+        "ticket_count": 59,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5685612111694923,
+        "metrics": {
+          "ordered_top3_logloss": 7.854047078360487,
+          "umaren_logloss": 2.4497849023893954,
+          "umaren_brier": 0.8648450873264673,
+          "sanrenpuku_logloss": 6.233813322550725,
+          "sanrenpuku_brier": 1.01334108363706
+        }
+      },
+      "market": {
+        "ticket_count": 42,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7215197440181351,
+        "metrics": {
+          "ordered_top3_logloss": 8.270364775401442,
+          "umaren_logloss": 2.2357456877668382,
+          "umaren_brier": 0.8378239644309885,
+          "sanrenpuku_logloss": 6.665385463318826,
+          "sanrenpuku_brier": 1.0255273163125986
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026012508010911",
+    "date": "2026-01-25",
+    "race_name": "GⅡ プロキオンS",
+    "variants": {
+      "old": {
+        "ticket_count": 88,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5997044163078745,
+        "metrics": {
+          "ordered_top3_logloss": 8.11395877163879,
+          "umaren_logloss": 5.377276064267468,
+          "umaren_brier": 1.0078523442173293,
+          "sanrenpuku_logloss": 6.245848580700505,
+          "sanrenpuku_brier": 1.0012231617576124
+        }
+      },
+      "corrected": {
+        "ticket_count": 59,
+        "stake_yen": 10000,
+        "payout_yen": 11940,
+        "any_hit": true,
+        "model_hit_probability": 0.6213033978519212,
+        "metrics": {
+          "ordered_top3_logloss": 7.870928926662892,
+          "umaren_logloss": 4.800875755672054,
+          "umaren_brier": 1.0033918083373363,
+          "sanrenpuku_logloss": 6.1565079759343915,
+          "sanrenpuku_brier": 1.0024798979301293
+        }
+      },
+      "market": {
+        "ticket_count": 39,
+        "stake_yen": 10000,
+        "payout_yen": 11940,
+        "any_hit": true,
+        "model_hit_probability": 0.6984254598528357,
+        "metrics": {
+          "ordered_top3_logloss": 8.070930899274735,
+          "umaren_logloss": 4.911038866473243,
+          "umaren_brier": 1.0119347684536726,
+          "sanrenpuku_logloss": 6.401456575097563,
+          "sanrenpuku_brier": 1.0071872414074061
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026020105010211",
+    "date": "2026-02-01",
+    "race_name": "GⅢ 根岸S",
+    "variants": {
+      "old": {
+        "ticket_count": 91,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.4591404054968005,
+        "metrics": {
+          "ordered_top3_logloss": 9.260920319925521,
+          "umaren_logloss": 6.322920330254753,
+          "umaren_brier": 1.0232069210029395,
+          "sanrenpuku_logloss": 7.424550002644205,
+          "sanrenpuku_brier": 1.0084461375060514
+        }
+      },
+      "corrected": {
+        "ticket_count": 50,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6286629571060242,
+        "metrics": {
+          "ordered_top3_logloss": 9.51909239252703,
+          "umaren_logloss": 6.719500229555433,
+          "umaren_brier": 1.0279233608296678,
+          "sanrenpuku_logloss": 7.6732392289713856,
+          "sanrenpuku_brier": 1.0118008238930398
+        }
+      },
+      "market": {
+        "ticket_count": 59,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6161324923830277,
+        "metrics": {
+          "ordered_top3_logloss": 10.131765408390502,
+          "umaren_logloss": 7.330012043678589,
+          "umaren_brier": 1.0402617762174273,
+          "sanrenpuku_logloss": 8.279182707680564,
+          "sanrenpuku_brier": 1.0202787576239938
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026020108020211",
+    "date": "2026-02-01",
+    "race_name": "GⅢ シルクロードS",
+    "variants": {
+      "old": {
+        "ticket_count": 90,
+        "stake_yen": 10000,
+        "payout_yen": 65620,
+        "any_hit": true,
+        "model_hit_probability": 0.5399093668057944,
+        "metrics": {
+          "ordered_top3_logloss": 8.001406593126058,
+          "umaren_logloss": 4.632372019088642,
+          "umaren_brier": 0.991728341186231,
+          "sanrenpuku_logloss": 6.204180071306391,
+          "sanrenpuku_brier": 0.9986675410346401
+        }
+      },
+      "corrected": {
+        "ticket_count": 63,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5782100667179091,
+        "metrics": {
+          "ordered_top3_logloss": 9.636301753610475,
+          "umaren_logloss": 6.158860901514346,
+          "umaren_brier": 1.0157179993529886,
+          "sanrenpuku_logloss": 7.797705636896534,
+          "sanrenpuku_brier": 1.005447161158265
+        }
+      },
+      "market": {
+        "ticket_count": 41,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6902936946836785,
+        "metrics": {
+          "ordered_top3_logloss": 10.333743929545555,
+          "umaren_logloss": 6.7563150608885545,
+          "umaren_brier": 1.0261891701061228,
+          "sanrenpuku_logloss": 8.494325568418573,
+          "sanrenpuku_brier": 1.009991007384467
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026021005010411",
+    "date": "2026-02-10",
+    "race_name": "GⅢ 東京新聞杯",
+    "variants": {
+      "old": {
+        "ticket_count": 91,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5298174980138319,
+        "metrics": {
+          "ordered_top3_logloss": 6.503919109926606,
+          "umaren_logloss": 3.5016035050876875,
+          "umaren_brier": 0.9527224696447658,
+          "sanrenpuku_logloss": 4.80327664472973,
+          "sanrenpuku_brier": 0.9870065884398239
+        }
+      },
+      "corrected": {
+        "ticket_count": 62,
+        "stake_yen": 10000,
+        "payout_yen": 12050,
+        "any_hit": true,
+        "model_hit_probability": 0.6109352051968102,
+        "metrics": {
+          "ordered_top3_logloss": 5.979588090238321,
+          "umaren_logloss": 3.466705835828147,
+          "umaren_brier": 0.9536078490546074,
+          "sanrenpuku_logloss": 4.202490272016131,
+          "sanrenpuku_brier": 0.9749050834129738
+        }
+      },
+      "market": {
+        "ticket_count": 50,
+        "stake_yen": 10000,
+        "payout_yen": 12050,
+        "any_hit": true,
+        "model_hit_probability": 0.6394351142586615,
+        "metrics": {
+          "ordered_top3_logloss": 5.753230928992629,
+          "umaren_logloss": 3.3751839538207706,
+          "umaren_brier": 0.9525439753754058,
+          "sanrenpuku_logloss": 3.9645590077408026,
+          "sanrenpuku_brier": 0.9693379672828835
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026021008020411",
+    "date": "2026-02-10",
+    "race_name": "GⅢ きさらぎ賞",
+    "variants": {
+      "old": {
+        "ticket_count": 60,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.8129601672583849,
+        "metrics": {
+          "ordered_top3_logloss": 6.2524639571280005,
+          "umaren_logloss": 3.326055644654512,
+          "umaren_brier": 0.9631391274958965,
+          "sanrenpuku_logloss": 4.444892903865832,
+          "sanrenpuku_brier": 0.9927645819705961
+        }
+      },
+      "corrected": {
+        "ticket_count": 30,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7165368431964948,
+        "metrics": {
+          "ordered_top3_logloss": 4.6854855081347075,
+          "umaren_logloss": 2.322573458421433,
+          "umaren_brier": 0.8512078647583468,
+          "sanrenpuku_logloss": 3.0000786320160797,
+          "sanrenpuku_brier": 0.9269799544776518
+        }
+      },
+      "market": {
+        "ticket_count": 27,
+        "stake_yen": 10000,
+        "payout_yen": 10010,
+        "any_hit": true,
+        "model_hit_probability": 0.7757121088655032,
+        "metrics": {
+          "ordered_top3_logloss": 4.383870778106205,
+          "umaren_logloss": 2.093579199134169,
+          "umaren_brier": 0.8135548354302627,
+          "sanrenpuku_logloss": 2.7508103353652444,
+          "sanrenpuku_brier": 0.9109237551117766
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026021405010511",
+    "date": "2026-02-14",
+    "race_name": "GⅢ クイーンC",
+    "variants": {
+      "old": {
+        "ticket_count": 81,
+        "stake_yen": 10000,
+        "payout_yen": 12450,
+        "any_hit": true,
+        "model_hit_probability": 0.5793139080615876,
+        "metrics": {
+          "ordered_top3_logloss": 6.805502656835609,
+          "umaren_logloss": 3.741238944703303,
+          "umaren_brier": 0.9677938113173928,
+          "sanrenpuku_logloss": 5.127686885892815,
+          "sanrenpuku_brier": 0.9923778874873592
+        }
+      },
+      "corrected": {
+        "ticket_count": 49,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6354556498763994,
+        "metrics": {
+          "ordered_top3_logloss": 7.3551436054398085,
+          "umaren_logloss": 4.105440210792364,
+          "umaren_brier": 1.0054574470737725,
+          "sanrenpuku_logloss": 5.728678907826657,
+          "sanrenpuku_brier": 1.0083018059046391
+        }
+      },
+      "market": {
+        "ticket_count": 49,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.717376826877966,
+        "metrics": {
+          "ordered_top3_logloss": 7.682409499916541,
+          "umaren_logloss": 4.287740201287676,
+          "umaren_brier": 1.0367614348955607,
+          "sanrenpuku_logloss": 6.090958782456351,
+          "sanrenpuku_brier": 1.0224940170415753
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026021505010611",
+    "date": "2026-02-15",
+    "race_name": "GⅢ 共同通信杯",
+    "variants": {
+      "old": {
+        "ticket_count": 80,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7925526143067056,
+        "metrics": {
+          "ordered_top3_logloss": 6.301000113747302,
+          "umaren_logloss": 3.6570458734788165,
+          "umaren_brier": 0.9778386756556149,
+          "sanrenpuku_logloss": 4.526144013356589,
+          "sanrenpuku_brier": 0.9913439015108684
+        }
+      },
+      "corrected": {
+        "ticket_count": 33,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7230484775623066,
+        "metrics": {
+          "ordered_top3_logloss": 4.860746948394927,
+          "umaren_logloss": 2.8697863465120657,
+          "umaren_brier": 0.9500764633391139,
+          "sanrenpuku_logloss": 3.0861016970874022,
+          "sanrenpuku_brier": 0.951536637844639
+        }
+      },
+      "market": {
+        "ticket_count": 21,
+        "stake_yen": 10000,
+        "payout_yen": 10150,
+        "any_hit": true,
+        "model_hit_probability": 0.8325414279551303,
+        "metrics": {
+          "ordered_top3_logloss": 4.76231065434373,
+          "umaren_logloss": 2.8460030642489924,
+          "umaren_brier": 0.9658097094946897,
+          "sanrenpuku_logloss": 2.989340735489798,
+          "sanrenpuku_brier": 0.9626954194077204
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026021508020611",
+    "date": "2026-02-15",
+    "race_name": "GⅡ 京都記念",
+    "variants": {
+      "old": {
+        "ticket_count": 73,
+        "stake_yen": 10000,
+        "payout_yen": 10290,
+        "any_hit": true,
+        "model_hit_probability": 0.6611673074073228,
+        "metrics": {
+          "ordered_top3_logloss": 5.258203933736637,
+          "umaren_logloss": 3.0116089002996786,
+          "umaren_brier": 0.9567272708412654,
+          "sanrenpuku_logloss": 3.365451263228642,
+          "sanrenpuku_brier": 0.9608721107943233
+        }
+      },
+      "corrected": {
+        "ticket_count": 40,
+        "stake_yen": 10000,
+        "payout_yen": 10290,
+        "any_hit": true,
+        "model_hit_probability": 0.7410836176628468,
+        "metrics": {
+          "ordered_top3_logloss": 5.425113441136505,
+          "umaren_logloss": 2.8044807675789847,
+          "umaren_brier": 0.960372553139884,
+          "sanrenpuku_logloss": 3.538532425836187,
+          "sanrenpuku_brier": 0.9845546935564309
+        }
+      },
+      "market": {
+        "ticket_count": 27,
+        "stake_yen": 10000,
+        "payout_yen": 10290,
+        "any_hit": true,
+        "model_hit_probability": 0.8062459273600501,
+        "metrics": {
+          "ordered_top3_logloss": 5.51001410028506,
+          "umaren_logloss": 2.7668043841594403,
+          "umaren_brier": 0.9940444018293674,
+          "sanrenpuku_logloss": 3.582211872677667,
+          "sanrenpuku_brier": 1.0098444185274469
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026022105010711",
+    "date": "2026-02-21",
+    "race_name": "GⅢ ダイヤモンドS",
+    "variants": {
+      "old": {
+        "ticket_count": 92,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.45032630010367053,
+        "metrics": {
+          "ordered_top3_logloss": 6.684736770514122,
+          "umaren_logloss": 3.367090882325323,
+          "umaren_brier": 0.9521550550949752,
+          "sanrenpuku_logloss": 5.112898142034706,
+          "sanrenpuku_brier": 0.9942055447635049
+        }
+      },
+      "corrected": {
+        "ticket_count": 48,
+        "stake_yen": 10000,
+        "payout_yen": 10560,
+        "any_hit": true,
+        "model_hit_probability": 0.6483559473679263,
+        "metrics": {
+          "ordered_top3_logloss": 6.537127561535043,
+          "umaren_logloss": 2.924765195129346,
+          "umaren_brier": 0.9181274017346637,
+          "sanrenpuku_logloss": 4.976113575306527,
+          "sanrenpuku_brier": 0.9951169466035623
+        }
+      },
+      "market": {
+        "ticket_count": 33,
+        "stake_yen": 10000,
+        "payout_yen": 10560,
+        "any_hit": true,
+        "model_hit_probability": 0.7468181159325014,
+        "metrics": {
+          "ordered_top3_logloss": 6.486851152813144,
+          "umaren_logloss": 2.7093655496216678,
+          "umaren_brier": 0.8995627372266142,
+          "sanrenpuku_logloss": 4.975798004652458,
+          "sanrenpuku_brier": 0.9987938119761922
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026022109010111",
+    "date": "2026-02-21",
+    "race_name": "GⅢ 阪急杯",
+    "variants": {
+      "old": {
+        "ticket_count": 91,
+        "stake_yen": 10000,
+        "payout_yen": 11090,
+        "any_hit": true,
+        "model_hit_probability": 0.4825108992891999,
+        "metrics": {
+          "ordered_top3_logloss": 7.756034959268215,
+          "umaren_logloss": 3.7493515830830013,
+          "umaren_brier": 0.9676056097047865,
+          "sanrenpuku_logloss": 6.111321463492406,
+          "sanrenpuku_brier": 0.999559538701616
+        }
+      },
+      "corrected": {
+        "ticket_count": 63,
+        "stake_yen": 10000,
+        "payout_yen": 11090,
+        "any_hit": true,
+        "model_hit_probability": 0.6073764741197879,
+        "metrics": {
+          "ordered_top3_logloss": 7.700666899315944,
+          "umaren_logloss": 4.76940894638617,
+          "umaren_brier": 1.0032915883308915,
+          "sanrenpuku_logloss": 6.000874378022635,
+          "sanrenpuku_brier": 1.001755798155061
+        }
+      },
+      "market": {
+        "ticket_count": 54,
+        "stake_yen": 10000,
+        "payout_yen": 11090,
+        "any_hit": true,
+        "model_hit_probability": 0.6562351224948385,
+        "metrics": {
+          "ordered_top3_logloss": 7.834409184841351,
+          "umaren_logloss": 5.057259064851789,
+          "umaren_brier": 1.0146614336238309,
+          "sanrenpuku_logloss": 6.141148132645125,
+          "sanrenpuku_brier": 1.0064054067051447
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026022205010811",
+    "date": "2026-02-22",
+    "race_name": "GⅠ フェブラリーS",
+    "variants": {
+      "old": {
+        "ticket_count": 90,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.49196458802773924,
+        "metrics": {
+          "ordered_top3_logloss": 5.696752114898362,
+          "umaren_logloss": 3.103199965240582,
+          "umaren_brier": 0.9294612253576517,
+          "sanrenpuku_logloss": 4.025012790695668,
+          "sanrenpuku_brier": 0.9702375323782021
+        }
+      },
+      "corrected": {
+        "ticket_count": 55,
+        "stake_yen": 10000,
+        "payout_yen": 10800,
+        "any_hit": true,
+        "model_hit_probability": 0.5909967924301242,
+        "metrics": {
+          "ordered_top3_logloss": 4.42753801846112,
+          "umaren_logloss": 2.6638698832314014,
+          "umaren_brier": 0.8985948008847413,
+          "sanrenpuku_logloss": 2.6160386468650025,
+          "sanrenpuku_brier": 0.8706377417118534
+        }
+      },
+      "market": {
+        "ticket_count": 46,
+        "stake_yen": 10000,
+        "payout_yen": 10800,
+        "any_hit": true,
+        "model_hit_probability": 0.69868027184947,
+        "metrics": {
+          "ordered_top3_logloss": 3.981036983259648,
+          "umaren_logloss": 2.4788379531216607,
+          "umaren_brier": 0.8911351249869741,
+          "sanrenpuku_logloss": 2.1158868982591796,
+          "sanrenpuku_brier": 0.7912600771988372
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026022210011011",
+    "date": "2026-02-22",
+    "race_name": "GⅢ 小倉大賞典",
+    "variants": {
+      "old": {
+        "ticket_count": 86,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.44984882152238737,
+        "metrics": {
+          "ordered_top3_logloss": 8.195865118677828,
+          "umaren_logloss": 4.721361981898122,
+          "umaren_brier": 0.9968949154988609,
+          "sanrenpuku_logloss": 6.435646317048565,
+          "sanrenpuku_brier": 1.0009426624442421
+        }
+      },
+      "corrected": {
+        "ticket_count": 62,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5859885201095385,
+        "metrics": {
+          "ordered_top3_logloss": 7.191230994381041,
+          "umaren_logloss": 3.575664740631642,
+          "umaren_brier": 0.9615065481095764,
+          "sanrenpuku_logloss": 5.4688133512747195,
+          "sanrenpuku_brier": 0.9971141269647132
+        }
+      },
+      "market": {
+        "ticket_count": 47,
+        "stake_yen": 10000,
+        "payout_yen": 11350,
+        "any_hit": true,
+        "model_hit_probability": 0.7009673051230038,
+        "metrics": {
+          "ordered_top3_logloss": 7.0940689246825075,
+          "umaren_logloss": 3.336167708859161,
+          "umaren_brier": 0.9503226884843081,
+          "sanrenpuku_logloss": 5.385574863066165,
+          "sanrenpuku_brier": 0.9984526650363215
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026022806020111",
+    "date": "2026-02-28",
+    "race_name": "GⅢ オーシャンS",
+    "variants": {
+      "old": {
+        "ticket_count": 84,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6901328667036649,
+        "metrics": {
+          "ordered_top3_logloss": 8.191240976995967,
+          "umaren_logloss": 4.801297672291241,
+          "umaren_brier": 1.0050405897431347,
+          "sanrenpuku_logloss": 6.367608695204593,
+          "sanrenpuku_brier": 1.0033969649680645
+        }
+      },
+      "corrected": {
+        "ticket_count": 75,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.48786295997627,
+        "metrics": {
+          "ordered_top3_logloss": 7.017954033250382,
+          "umaren_logloss": 4.8925542645277424,
+          "umaren_brier": 1.018176567423388,
+          "sanrenpuku_logloss": 5.021998861982424,
+          "sanrenpuku_brier": 1.0004816544113277
+        }
+      },
+      "market": {
+        "ticket_count": 53,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7156100188472662,
+        "metrics": {
+          "ordered_top3_logloss": 7.0888660319028185,
+          "umaren_logloss": 5.204725345566177,
+          "umaren_brier": 1.0409230733575339,
+          "sanrenpuku_logloss": 4.988800517351329,
+          "sanrenpuku_brier": 1.0123974513840768
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026030106020211",
+    "date": "2026-03-01",
+    "race_name": "GⅡ 中山記念",
+    "variants": {
+      "old": {
+        "ticket_count": 81,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.712376304830769,
+        "metrics": {
+          "ordered_top3_logloss": 6.400424628226769,
+          "umaren_logloss": 3.7069205499806515,
+          "umaren_brier": 0.9681769772130563,
+          "sanrenpuku_logloss": 4.623163858902812,
+          "sanrenpuku_brier": 0.9856821774233936
+        }
+      },
+      "corrected": {
+        "ticket_count": 57,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5896308273504856,
+        "metrics": {
+          "ordered_top3_logloss": 5.0562139866853695,
+          "umaren_logloss": 3.1033668534931063,
+          "umaren_brier": 0.9535523743045171,
+          "sanrenpuku_logloss": 3.2269907975111782,
+          "sanrenpuku_brier": 0.9436359944526816
+        }
+      },
+      "market": {
+        "ticket_count": 26,
+        "stake_yen": 10000,
+        "payout_yen": 10430,
+        "any_hit": true,
+        "model_hit_probability": 0.7188683595522342,
+        "metrics": {
+          "ordered_top3_logloss": 4.8837591863916465,
+          "umaren_logloss": 3.0729919046446175,
+          "umaren_brier": 0.9703605186307573,
+          "sanrenpuku_logloss": 3.0301068559992337,
+          "sanrenpuku_brier": 0.944785916703504
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026030109010411",
+    "date": "2026-03-01",
+    "race_name": "GⅡ チューリップ賞",
+    "variants": {
+      "old": {
+        "ticket_count": 98,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5094546306507832,
+        "metrics": {
+          "ordered_top3_logloss": 7.585690461373586,
+          "umaren_logloss": 4.579037042116783,
+          "umaren_brier": 0.992668650320264,
+          "sanrenpuku_logloss": 5.799286838831838,
+          "sanrenpuku_brier": 0.9975307978733923
+        }
+      },
+      "corrected": {
+        "ticket_count": 55,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6131825777033082,
+        "metrics": {
+          "ordered_top3_logloss": 5.863821103371954,
+          "umaren_logloss": 4.041433822784216,
+          "umaren_brier": 1.0019498137107272,
+          "sanrenpuku_logloss": 3.938798650129954,
+          "sanrenpuku_brier": 0.9774298060308706
+        }
+      },
+      "market": {
+        "ticket_count": 44,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6538595778459214,
+        "metrics": {
+          "ordered_top3_logloss": 5.7058452943422395,
+          "umaren_logloss": 4.143885795684523,
+          "umaren_brier": 1.0272910946365696,
+          "sanrenpuku_logloss": 3.6822807676777174,
+          "sanrenpuku_brier": 0.9814088563768607
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026030706020311",
+    "date": "2026-03-07",
+    "race_name": "GⅢ 中山牝馬S",
+    "variants": {
+      "old": {
+        "ticket_count": 89,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.48814792768162835,
+        "metrics": {
+          "ordered_top3_logloss": 8.67260946403324,
+          "umaren_logloss": 5.924832811316709,
+          "umaren_brier": 1.010368966446319,
+          "sanrenpuku_logloss": 6.833508273448025,
+          "sanrenpuku_brier": 1.0022891115970276
+        }
+      },
+      "corrected": {
+        "ticket_count": 55,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6294513867625637,
+        "metrics": {
+          "ordered_top3_logloss": 8.120975669885679,
+          "umaren_logloss": 5.55799362849429,
+          "umaren_brier": 1.0152754191519058,
+          "sanrenpuku_logloss": 6.2338032554773735,
+          "sanrenpuku_brier": 1.0042921082442622
+        }
+      },
+      "market": {
+        "ticket_count": 57,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6566455789455706,
+        "metrics": {
+          "ordered_top3_logloss": 8.317211215148882,
+          "umaren_logloss": 5.8191993721670325,
+          "umaren_brier": 1.0259299554551038,
+          "sanrenpuku_logloss": 6.407467882506494,
+          "sanrenpuku_brier": 1.0105096168996597
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026030709010511",
+    "date": "2026-03-07",
+    "race_name": "GⅡ フィリーズレビュー",
+    "variants": {
+      "old": {
+        "ticket_count": 93,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5658249264883184,
+        "metrics": {
+          "ordered_top3_logloss": 8.708417664071616,
+          "umaren_logloss": 5.556819116702194,
+          "umaren_brier": 1.000421864738661,
+          "sanrenpuku_logloss": 6.859691397913061,
+          "sanrenpuku_brier": 0.9996049067652072
+        }
+      },
+      "corrected": {
+        "ticket_count": 72,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5626912365789315,
+        "metrics": {
+          "ordered_top3_logloss": 7.422058414952388,
+          "umaren_logloss": 4.613394859559867,
+          "umaren_brier": 0.9948195957324704,
+          "sanrenpuku_logloss": 5.548248661906773,
+          "sanrenpuku_brier": 0.9963360817708853
+        }
+      },
+      "market": {
+        "ticket_count": 42,
+        "stake_yen": 10000,
+        "payout_yen": 14320,
+        "any_hit": true,
+        "model_hit_probability": 0.6963106835793319,
+        "metrics": {
+          "ordered_top3_logloss": 7.272421875191141,
+          "umaren_logloss": 4.551747627239297,
+          "umaren_brier": 0.9992915478865633,
+          "sanrenpuku_logloss": 5.3811137250619705,
+          "sanrenpuku_brier": 0.9976516654260434
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026030806020411",
+    "date": "2026-03-08",
+    "race_name": "GⅡ 弥生賞",
+    "variants": {
+      "old": {
+        "ticket_count": 67,
+        "stake_yen": 10000,
+        "payout_yen": 10600,
+        "any_hit": true,
+        "model_hit_probability": 0.7423162547508614,
+        "metrics": {
+          "ordered_top3_logloss": 4.555869990565632,
+          "umaren_logloss": 2.4163798422562373,
+          "umaren_brier": 0.8625750354399018,
+          "sanrenpuku_logloss": 2.8399685855602996,
+          "sanrenpuku_brier": 0.9042565862379544
+        }
+      },
+      "corrected": {
+        "ticket_count": 39,
+        "stake_yen": 10000,
+        "payout_yen": 10340,
+        "any_hit": true,
+        "model_hit_probability": 0.6529397551987304,
+        "metrics": {
+          "ordered_top3_logloss": 3.8280791300552415,
+          "umaren_logloss": 2.3709152281180232,
+          "umaren_brier": 0.9037649270907415,
+          "sanrenpuku_logloss": 1.770533843163357,
+          "sanrenpuku_brier": 0.721633507110885
+        }
+      },
+      "market": {
+        "ticket_count": 20,
+        "stake_yen": 10000,
+        "payout_yen": 10340,
+        "any_hit": true,
+        "model_hit_probability": 0.8295544028876234,
+        "metrics": {
+          "ordered_top3_logloss": 3.670705880702915,
+          "umaren_logloss": 2.3762354022965386,
+          "umaren_brier": 0.952625630917802,
+          "sanrenpuku_logloss": 1.4495796280801312,
+          "sanrenpuku_brier": 0.6343897893917685
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026031506020611",
+    "date": "2026-03-15",
+    "race_name": "GⅡ スプリングS",
+    "variants": {
+      "old": {
+        "ticket_count": 98,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.4160797588363782,
+        "metrics": {
+          "ordered_top3_logloss": 7.401794076104396,
+          "umaren_logloss": 4.231995781175944,
+          "umaren_brier": 0.9847708794191128,
+          "sanrenpuku_logloss": 5.596288340633612,
+          "sanrenpuku_brier": 0.9962394548402494
+        }
+      },
+      "corrected": {
+        "ticket_count": 54,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6037112187297652,
+        "metrics": {
+          "ordered_top3_logloss": 7.49166422312075,
+          "umaren_logloss": 4.085417389893236,
+          "umaren_brier": 1.007818009318667,
+          "sanrenpuku_logloss": 5.690538913647342,
+          "sanrenpuku_brier": 1.009207377288357
+        }
+      },
+      "market": {
+        "ticket_count": 43,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7374875579630209,
+        "metrics": {
+          "ordered_top3_logloss": 7.848779824800176,
+          "umaren_logloss": 4.2354164938589065,
+          "umaren_brier": 1.037109507131626,
+          "sanrenpuku_logloss": 6.04671217690567,
+          "sanrenpuku_brier": 1.023423765858218
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026031507010211",
+    "date": "2026-03-15",
+    "race_name": "GⅡ 金鯱賞",
+    "variants": {
+      "old": {
+        "ticket_count": 76,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6341547248164611,
+        "metrics": {
+          "ordered_top3_logloss": 7.493310236163948,
+          "umaren_logloss": 4.997303281757173,
+          "umaren_brier": 1.0048649672025167,
+          "sanrenpuku_logloss": 5.5889599419787865,
+          "sanrenpuku_brier": 0.9984778834795454
+        }
+      },
+      "corrected": {
+        "ticket_count": 47,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6391702832062433,
+        "metrics": {
+          "ordered_top3_logloss": 6.597227062694316,
+          "umaren_logloss": 4.406049202849647,
+          "umaren_brier": 1.0019555543936742,
+          "sanrenpuku_logloss": 4.641476464219657,
+          "sanrenpuku_brier": 0.9910061070826529
+        }
+      },
+      "market": {
+        "ticket_count": 52,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6036432393284391,
+        "metrics": {
+          "ordered_top3_logloss": 6.52495715369037,
+          "umaren_logloss": 4.461824921974822,
+          "umaren_brier": 1.0100449311402837,
+          "sanrenpuku_logloss": 4.522950937001949,
+          "sanrenpuku_brier": 0.9927880136367183
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026032106020711",
+    "date": "2026-03-21",
+    "race_name": "GⅢ フラワーC",
+    "variants": {
+      "old": {
+        "ticket_count": 87,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6522138339820388,
+        "metrics": {
+          "ordered_top3_logloss": 7.605187795128974,
+          "umaren_logloss": 5.343372362834696,
+          "umaren_brier": 1.00661290416652,
+          "sanrenpuku_logloss": 5.625421266097063,
+          "sanrenpuku_brier": 0.9972469482216229
+        }
+      },
+      "corrected": {
+        "ticket_count": 56,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6243269147956215,
+        "metrics": {
+          "ordered_top3_logloss": 7.705260438601659,
+          "umaren_logloss": 5.763258538572642,
+          "umaren_brier": 1.0326907293327898,
+          "sanrenpuku_logloss": 5.6540411687031815,
+          "sanrenpuku_brier": 1.010236808699338
+        }
+      },
+      "market": {
+        "ticket_count": 42,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7675245231635622,
+        "metrics": {
+          "ordered_top3_logloss": 8.11018749056342,
+          "umaren_logloss": 6.2955094900059745,
+          "umaren_brier": 1.0558916027653489,
+          "sanrenpuku_logloss": 5.990072981265209,
+          "sanrenpuku_brier": 1.027251231729896
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026032107010311",
+    "date": "2026-03-21",
+    "race_name": "GⅢ ファルコンS",
+    "variants": {
+      "old": {
+        "ticket_count": 98,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.42792999370810103,
+        "metrics": {
+          "ordered_top3_logloss": 6.860375352113448,
+          "umaren_logloss": 3.7803924788010197,
+          "umaren_brier": 0.9655632094106252,
+          "sanrenpuku_logloss": 5.160354044274557,
+          "sanrenpuku_brier": 0.9912024618544498
+        }
+      },
+      "corrected": {
+        "ticket_count": 43,
+        "stake_yen": 10000,
+        "payout_yen": 11220,
+        "any_hit": true,
+        "model_hit_probability": 0.6482742583588208,
+        "metrics": {
+          "ordered_top3_logloss": 5.649127300657128,
+          "umaren_logloss": 3.053277978150536,
+          "umaren_brier": 0.9428062258314946,
+          "sanrenpuku_logloss": 4.194864878889929,
+          "sanrenpuku_brier": 0.9807344383092244
+        }
+      },
+      "market": {
+        "ticket_count": 23,
+        "stake_yen": 10000,
+        "payout_yen": 11220,
+        "any_hit": true,
+        "model_hit_probability": 0.8084870229112759,
+        "metrics": {
+          "ordered_top3_logloss": 5.344823664509563,
+          "umaren_logloss": 2.9057073919512013,
+          "umaren_brier": 0.9512717876243973,
+          "sanrenpuku_logloss": 4.032796331309762,
+          "sanrenpuku_brier": 0.9829198729969413
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026032207010411",
+    "date": "2026-03-22",
+    "race_name": "GⅢ 愛知杯",
+    "variants": {
+      "old": {
+        "ticket_count": 95,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.43596727051483153,
+        "metrics": {
+          "ordered_top3_logloss": 9.080142055757218,
+          "umaren_logloss": 5.0693124169046975,
+          "umaren_brier": 0.9976315793163008,
+          "sanrenpuku_logloss": 7.317678979517474,
+          "sanrenpuku_brier": 1.00105867202832
+        }
+      },
+      "corrected": {
+        "ticket_count": 64,
+        "stake_yen": 10000,
+        "payout_yen": 16560,
+        "any_hit": true,
+        "model_hit_probability": 0.6057394315370366,
+        "metrics": {
+          "ordered_top3_logloss": 9.237900449047745,
+          "umaren_logloss": 5.08583081576371,
+          "umaren_brier": 1.000524889923747,
+          "sanrenpuku_logloss": 7.453659552434759,
+          "sanrenpuku_brier": 1.0022828243829787
+        }
+      },
+      "market": {
+        "ticket_count": 53,
+        "stake_yen": 10000,
+        "payout_yen": 16560,
+        "any_hit": true,
+        "model_hit_probability": 0.6657587011552675,
+        "metrics": {
+          "ordered_top3_logloss": 9.588522321402294,
+          "umaren_logloss": 5.229403493437555,
+          "umaren_brier": 1.0056291816153966,
+          "sanrenpuku_logloss": 7.801843511829873,
+          "sanrenpuku_brier": 1.0041092899312356
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026032209011011",
+    "date": "2026-03-22",
+    "race_name": "GⅡ 阪神大賞典",
+    "variants": {
+      "old": {
+        "ticket_count": 71,
+        "stake_yen": 10000,
+        "payout_yen": 10780,
+        "any_hit": true,
+        "model_hit_probability": 0.7158077125900938,
+        "metrics": {
+          "ordered_top3_logloss": 5.1738387053004935,
+          "umaren_logloss": 3.5269470588285663,
+          "umaren_brier": 0.9929914649368227,
+          "sanrenpuku_logloss": 3.124900981715308,
+          "sanrenpuku_brier": 0.939322814571571
+        }
+      },
+      "corrected": {
+        "ticket_count": 37,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6751672433666115,
+        "metrics": {
+          "ordered_top3_logloss": 4.958308864463439,
+          "umaren_logloss": 3.2598797471682905,
+          "umaren_brier": 0.9924528636844716,
+          "sanrenpuku_logloss": 3.112160116959506,
+          "sanrenpuku_brier": 0.9595295777989907
+        }
+      },
+      "market": {
+        "ticket_count": 25,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7520199978528067,
+        "metrics": {
+          "ordered_top3_logloss": 4.967498195818437,
+          "umaren_logloss": 3.3326560270393886,
+          "umaren_brier": 1.0164464658016492,
+          "sanrenpuku_logloss": 3.1407556075281358,
+          "sanrenpuku_brier": 0.9862273690662413
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026032806030111",
+    "date": "2026-03-28",
+    "race_name": "GⅡ 日経賞",
+    "variants": {
+      "old": {
+        "ticket_count": 90,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.4557402795257636,
+        "metrics": {
+          "ordered_top3_logloss": 5.791966958964114,
+          "umaren_logloss": 2.9329207154655137,
+          "umaren_brier": 0.9142489098146255,
+          "sanrenpuku_logloss": 4.050357227311261,
+          "sanrenpuku_brier": 0.9720938409280445
+        }
+      },
+      "corrected": {
+        "ticket_count": 54,
+        "stake_yen": 10000,
+        "payout_yen": 10680,
+        "any_hit": true,
+        "model_hit_probability": 0.6431720274512851,
+        "metrics": {
+          "ordered_top3_logloss": 5.491619869860949,
+          "umaren_logloss": 2.9990721437816936,
+          "umaren_brier": 0.9356504252552515,
+          "sanrenpuku_logloss": 3.6942078763036807,
+          "sanrenpuku_brier": 0.9654139930190359
+        }
+      },
+      "market": {
+        "ticket_count": 55,
+        "stake_yen": 10000,
+        "payout_yen": 10680,
+        "any_hit": true,
+        "model_hit_probability": 0.7377782574929757,
+        "metrics": {
+          "ordered_top3_logloss": 5.371076748456298,
+          "umaren_logloss": 2.938432995008678,
+          "umaren_brier": 0.9470712279184768,
+          "sanrenpuku_logloss": 3.562111746283136,
+          "sanrenpuku_brier": 0.9700995783739325
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026032809020111",
+    "date": "2026-03-28",
+    "race_name": "GⅢ 毎日杯",
+    "variants": {
+      "old": {
+        "ticket_count": 41,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7170128088640059,
+        "metrics": {
+          "ordered_top3_logloss": 4.214852820961646,
+          "umaren_logloss": 2.6390644919089183,
+          "umaren_brier": 0.9250861904489897,
+          "sanrenpuku_logloss": 2.29849855420896,
+          "sanrenpuku_brier": 0.8463657129082285
+        }
+      },
+      "corrected": {
+        "ticket_count": 23,
+        "stake_yen": 10000,
+        "payout_yen": 10080,
+        "any_hit": true,
+        "model_hit_probability": 0.7027687934061171,
+        "metrics": {
+          "ordered_top3_logloss": 3.4572535230432675,
+          "umaren_logloss": 2.085516461302529,
+          "umaren_brier": 0.8561750273023094,
+          "sanrenpuku_logloss": 1.6861669202623313,
+          "sanrenpuku_brier": 0.7243867247433515
+        }
+      },
+      "market": {
+        "ticket_count": 12,
+        "stake_yen": 10000,
+        "payout_yen": 10080,
+        "any_hit": true,
+        "model_hit_probability": 0.818224346289557,
+        "metrics": {
+          "ordered_top3_logloss": 3.215638925567396,
+          "umaren_logloss": 1.9669093085595806,
+          "umaren_brier": 0.8501064212339855,
+          "sanrenpuku_logloss": 1.4726106569888995,
+          "sanrenpuku_brier": 0.6724908016961653
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026032906030211",
+    "date": "2026-03-29",
+    "race_name": "GⅢ マーチS",
+    "variants": {
+      "old": {
+        "ticket_count": 76,
+        "stake_yen": 10000,
+        "payout_yen": 12720,
+        "any_hit": true,
+        "model_hit_probability": 0.6260166696870945,
+        "metrics": {
+          "ordered_top3_logloss": 6.8913294432046985,
+          "umaren_logloss": 3.6068998125620326,
+          "umaren_brier": 0.9608563606988836,
+          "sanrenpuku_logloss": 5.16991608799825,
+          "sanrenpuku_brier": 0.9930539232398052
+        }
+      },
+      "corrected": {
+        "ticket_count": 58,
+        "stake_yen": 10000,
+        "payout_yen": 12720,
+        "any_hit": true,
+        "model_hit_probability": 0.5900377424104746,
+        "metrics": {
+          "ordered_top3_logloss": 7.58726215311464,
+          "umaren_logloss": 4.330249683072694,
+          "umaren_brier": 0.9919470105414733,
+          "sanrenpuku_logloss": 5.801410612316696,
+          "sanrenpuku_brier": 0.9998432572187888
+        }
+      },
+      "market": {
+        "ticket_count": 40,
+        "stake_yen": 10000,
+        "payout_yen": 12720,
+        "any_hit": true,
+        "model_hit_probability": 0.7043746773252754,
+        "metrics": {
+          "ordered_top3_logloss": 7.8216665053175625,
+          "umaren_logloss": 4.50237825122555,
+          "umaren_brier": 1.0003446714498097,
+          "sanrenpuku_logloss": 6.029716024537543,
+          "sanrenpuku_brier": 1.0032066917576006
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026032907010611",
+    "date": "2026-03-29",
+    "race_name": "GⅠ 高松宮記念",
+    "variants": {
+      "old": {
+        "ticket_count": 94,
+        "stake_yen": 10000,
+        "payout_yen": 11220,
+        "any_hit": true,
+        "model_hit_probability": 0.4626488340034066,
+        "metrics": {
+          "ordered_top3_logloss": 8.694696925862388,
+          "umaren_logloss": 4.891123925860238,
+          "umaren_brier": 0.9954839578966387,
+          "sanrenpuku_logloss": 7.005679205393052,
+          "sanrenpuku_brier": 1.0006558529251057
+        }
+      },
+      "corrected": {
+        "ticket_count": 64,
+        "stake_yen": 10000,
+        "payout_yen": 11220,
+        "any_hit": true,
+        "model_hit_probability": 0.5249200210976509,
+        "metrics": {
+          "ordered_top3_logloss": 8.342889574720154,
+          "umaren_logloss": 4.892154677072456,
+          "umaren_brier": 1.0090539403518792,
+          "sanrenpuku_logloss": 6.705979490149415,
+          "sanrenpuku_brier": 1.00591793560364
+        }
+      },
+      "market": {
+        "ticket_count": 59,
+        "stake_yen": 10000,
+        "payout_yen": 11220,
+        "any_hit": true,
+        "model_hit_probability": 0.6380272332513942,
+        "metrics": {
+          "ordered_top3_logloss": 8.59577788929067,
+          "umaren_logloss": 5.090195180477767,
+          "umaren_brier": 1.0266017899571345,
+          "sanrenpuku_logloss": 6.998396703518363,
+          "sanrenpuku_brier": 1.015606527367898
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026040406030311",
+    "date": "2026-04-04",
+    "race_name": "GⅢ ダービー卿チャレンジT",
+    "variants": {
+      "old": {
+        "ticket_count": 83,
+        "stake_yen": 10000,
+        "payout_yen": 13450,
+        "any_hit": true,
+        "model_hit_probability": 0.4554334544475295,
+        "metrics": {
+          "ordered_top3_logloss": 7.450319881686206,
+          "umaren_logloss": 4.9179891724073475,
+          "umaren_brier": 1.0028896110824237,
+          "sanrenpuku_logloss": 5.561532290162508,
+          "sanrenpuku_brier": 0.9977698505198385
+        }
+      },
+      "corrected": {
+        "ticket_count": 60,
+        "stake_yen": 10000,
+        "payout_yen": 13450,
+        "any_hit": true,
+        "model_hit_probability": 0.6268409382696889,
+        "metrics": {
+          "ordered_top3_logloss": 7.488338804331353,
+          "umaren_logloss": 4.879026848653309,
+          "umaren_brier": 1.0003255822436605,
+          "sanrenpuku_logloss": 5.60710789327618,
+          "sanrenpuku_brier": 0.997257679041213
+        }
+      },
+      "market": {
+        "ticket_count": 48,
+        "stake_yen": 10000,
+        "payout_yen": 13450,
+        "any_hit": true,
+        "model_hit_probability": 0.6875920925175882,
+        "metrics": {
+          "ordered_top3_logloss": 7.5368223104312655,
+          "umaren_logloss": 4.988661886825839,
+          "umaren_brier": 1.0038267395596536,
+          "sanrenpuku_logloss": 5.638796274501174,
+          "sanrenpuku_brier": 0.9983707558509036
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026040409020311",
+    "date": "2026-04-04",
+    "race_name": "GⅢ チャーチルダウンズC",
+    "variants": {
+      "old": {
+        "ticket_count": 88,
+        "stake_yen": 10000,
+        "payout_yen": 135650,
+        "any_hit": true,
+        "model_hit_probability": 0.49583182608234583,
+        "metrics": {
+          "ordered_top3_logloss": 8.201154497423557,
+          "umaren_logloss": 4.850682203540757,
+          "umaren_brier": 1.006574178986459,
+          "sanrenpuku_logloss": 6.4459088613751385,
+          "sanrenpuku_brier": 1.004527120063963
+        }
+      },
+      "corrected": {
+        "ticket_count": 31,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6724466049480813,
+        "metrics": {
+          "ordered_top3_logloss": 9.68692568307005,
+          "umaren_logloss": 6.900323135992817,
+          "umaren_brier": 1.0491451130175802,
+          "sanrenpuku_logloss": 7.842971338528314,
+          "sanrenpuku_brier": 1.0233161761693501
+        }
+      },
+      "market": {
+        "ticket_count": 38,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7882303491450928,
+        "metrics": {
+          "ordered_top3_logloss": 10.61480346196057,
+          "umaren_logloss": 7.852649220749934,
+          "umaren_brier": 1.08043928546286,
+          "sanrenpuku_logloss": 8.753393030966656,
+          "sanrenpuku_brier": 1.0438744296004212
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026040509020411",
+    "date": "2026-04-05",
+    "race_name": "GⅠ 大阪杯",
+    "variants": {
+      "old": {
+        "ticket_count": 89,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.659306509653946,
+        "metrics": {
+          "ordered_top3_logloss": 6.771671745790713,
+          "umaren_logloss": 3.7759779494978707,
+          "umaren_brier": 0.9736127466320402,
+          "sanrenpuku_logloss": 5.041230147747495,
+          "sanrenpuku_brier": 0.9934857529148747
+        }
+      },
+      "corrected": {
+        "ticket_count": 46,
+        "stake_yen": 10000,
+        "payout_yen": 10500,
+        "any_hit": true,
+        "model_hit_probability": 0.7167095959857479,
+        "metrics": {
+          "ordered_top3_logloss": 4.079023721674007,
+          "umaren_logloss": 2.2729902365217023,
+          "umaren_brier": 0.8474155576004632,
+          "sanrenpuku_logloss": 2.3957875715686545,
+          "sanrenpuku_brier": 0.8479961192970265
+        }
+      },
+      "market": {
+        "ticket_count": 35,
+        "stake_yen": 10000,
+        "payout_yen": 21290,
+        "any_hit": true,
+        "model_hit_probability": 0.7922921957854747,
+        "metrics": {
+          "ordered_top3_logloss": 3.5113170492313417,
+          "umaren_logloss": 1.9747263125622105,
+          "umaren_brier": 0.8053539666807507,
+          "sanrenpuku_logloss": 1.8631127228412199,
+          "sanrenpuku_brier": 0.7495137344669138
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026041106030511",
+    "date": "2026-04-11",
+    "race_name": "GⅡ ニュージーランドT",
+    "variants": {
+      "old": {
+        "ticket_count": 91,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6097638212038646,
+        "metrics": {
+          "ordered_top3_logloss": 8.587020649818596,
+          "umaren_logloss": 4.695376060274007,
+          "umaren_brier": 1.0013103917713002,
+          "sanrenpuku_logloss": 6.7912813396611975,
+          "sanrenpuku_brier": 1.0043423421853708
+        }
+      },
+      "corrected": {
+        "ticket_count": 38,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6941766238457792,
+        "metrics": {
+          "ordered_top3_logloss": 6.692668009315893,
+          "umaren_logloss": 3.6531763838814038,
+          "umaren_brier": 1.0278644300224007,
+          "sanrenpuku_logloss": 4.788241372124687,
+          "sanrenpuku_brier": 1.0248783330761488
+        }
+      },
+      "market": {
+        "ticket_count": 30,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.8205338658319841,
+        "metrics": {
+          "ordered_top3_logloss": 6.796976254696799,
+          "umaren_logloss": 3.712212218289848,
+          "umaren_brier": 1.091185250432262,
+          "sanrenpuku_logloss": 4.825060308044924,
+          "sanrenpuku_brier": 1.0652960684977768
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026041109020511",
+    "date": "2026-04-11",
+    "race_name": "GⅡ 阪神牝馬S",
+    "variants": {
+      "old": {
+        "ticket_count": 75,
+        "stake_yen": 10000,
+        "payout_yen": 11460,
+        "any_hit": true,
+        "model_hit_probability": 0.6169169049937085,
+        "metrics": {
+          "ordered_top3_logloss": 5.223350391599444,
+          "umaren_logloss": 2.584268777200247,
+          "umaren_brier": 0.8894026575928758,
+          "sanrenpuku_logloss": 3.670373317092658,
+          "sanrenpuku_brier": 0.9671033256547116
+        }
+      },
+      "corrected": {
+        "ticket_count": 37,
+        "stake_yen": 10000,
+        "payout_yen": 11460,
+        "any_hit": true,
+        "model_hit_probability": 0.6915931415753661,
+        "metrics": {
+          "ordered_top3_logloss": 5.302464730415036,
+          "umaren_logloss": 2.6381282471834497,
+          "umaren_brier": 0.9231579614511914,
+          "sanrenpuku_logloss": 3.7327950261680187,
+          "sanrenpuku_brier": 0.9956892198080839
+        }
+      },
+      "market": {
+        "ticket_count": 21,
+        "stake_yen": 10000,
+        "payout_yen": 11460,
+        "any_hit": true,
+        "model_hit_probability": 0.8057956459589073,
+        "metrics": {
+          "ordered_top3_logloss": 5.387122751329459,
+          "umaren_logloss": 2.6289651189518737,
+          "umaren_brier": 0.9433005140015542,
+          "sanrenpuku_logloss": 3.8506033719624218,
+          "sanrenpuku_brier": 1.0260770724747508
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026041209020611",
+    "date": "2026-04-12",
+    "race_name": "GⅠ 桜花賞",
+    "variants": {
+      "old": {
+        "ticket_count": 93,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5780747662068761,
+        "metrics": {
+          "ordered_top3_logloss": 8.630200665238313,
+          "umaren_logloss": 5.036855189732424,
+          "umaren_brier": 0.9973618984742931,
+          "sanrenpuku_logloss": 6.855901083259601,
+          "sanrenpuku_brier": 1.0002371245748332
+        }
+      },
+      "corrected": {
+        "ticket_count": 49,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.600070943754481,
+        "metrics": {
+          "ordered_top3_logloss": 7.830034054121888,
+          "umaren_logloss": 3.463848485199809,
+          "umaren_brier": 0.9735217580975652,
+          "sanrenpuku_logloss": 6.258030343452498,
+          "sanrenpuku_brier": 1.0106709445399964
+        }
+      },
+      "market": {
+        "ticket_count": 49,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7033089488274533,
+        "metrics": {
+          "ordered_top3_logloss": 8.067901588736358,
+          "umaren_logloss": 3.2887170287241183,
+          "umaren_brier": 0.9883310231603474,
+          "sanrenpuku_logloss": 6.569583256830111,
+          "sanrenpuku_brier": 1.0281720260208527
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026041809020711",
+    "date": "2026-04-18",
+    "race_name": "GⅢ アンタレスS",
+    "variants": {
+      "old": {
+        "ticket_count": 87,
+        "stake_yen": 10000,
+        "payout_yen": 11450,
+        "any_hit": true,
+        "model_hit_probability": 0.6369863476456485,
+        "metrics": {
+          "ordered_top3_logloss": 6.72947417146759,
+          "umaren_logloss": 3.505219239127469,
+          "umaren_brier": 0.9542162023394452,
+          "sanrenpuku_logloss": 5.022761045912041,
+          "sanrenpuku_brier": 0.990808870029408
+        }
+      },
+      "corrected": {
+        "ticket_count": 57,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5852505827508714,
+        "metrics": {
+          "ordered_top3_logloss": 8.268657144632167,
+          "umaren_logloss": 3.6830590000698047,
+          "umaren_brier": 0.9726437133707755,
+          "sanrenpuku_logloss": 6.656006214218281,
+          "sanrenpuku_brier": 1.0056435912705335
+        }
+      },
+      "market": {
+        "ticket_count": 59,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6717380781854762,
+        "metrics": {
+          "ordered_top3_logloss": 8.8551733535474,
+          "umaren_logloss": 3.736142513537287,
+          "umaren_brier": 0.9844474675060427,
+          "sanrenpuku_logloss": 7.271392125074796,
+          "sanrenpuku_brier": 1.0123065288983557
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026041903010411",
+    "date": "2026-04-19",
+    "race_name": "GⅢ 福島牝馬S",
+    "variants": {
+      "old": {
+        "ticket_count": 88,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6133457466346747,
+        "metrics": {
+          "ordered_top3_logloss": 8.105330417652887,
+          "umaren_logloss": 4.671638734828646,
+          "umaren_brier": 0.9945196261531966,
+          "sanrenpuku_logloss": 6.298066918285619,
+          "sanrenpuku_brier": 0.9998653505542738
+        }
+      },
+      "corrected": {
+        "ticket_count": 72,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5410968925400806,
+        "metrics": {
+          "ordered_top3_logloss": 8.459251559393024,
+          "umaren_logloss": 4.172956279901515,
+          "umaren_brier": 1.0015850912601258,
+          "sanrenpuku_logloss": 6.671579506090257,
+          "sanrenpuku_brier": 1.010370685706992
+        }
+      },
+      "market": {
+        "ticket_count": 42,
+        "stake_yen": 10000,
+        "payout_yen": 11700,
+        "any_hit": true,
+        "model_hit_probability": 0.7267971848298946,
+        "metrics": {
+          "ordered_top3_logloss": 8.940724900206703,
+          "umaren_logloss": 4.237951193456159,
+          "umaren_brier": 1.025395049171284,
+          "sanrenpuku_logloss": 7.145998269705639,
+          "sanrenpuku_brier": 1.0239562194138583
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026041906030811",
+    "date": "2026-04-19",
+    "race_name": "GⅠ 皐月賞",
+    "variants": {
+      "old": {
+        "ticket_count": 97,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.4235565584571432,
+        "metrics": {
+          "ordered_top3_logloss": 8.918211267454383,
+          "umaren_logloss": 5.520493193193558,
+          "umaren_brier": 1.0019604506761683,
+          "sanrenpuku_logloss": 7.1225269526329305,
+          "sanrenpuku_brier": 1.0006660775042115
+        }
+      },
+      "corrected": {
+        "ticket_count": 54,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.594193708371449,
+        "metrics": {
+          "ordered_top3_logloss": 6.74192715300946,
+          "umaren_logloss": 3.2212543928957715,
+          "umaren_brier": 0.9397818839373417,
+          "sanrenpuku_logloss": 5.087319674883664,
+          "sanrenpuku_brier": 0.9940017256013012
+        }
+      },
+      "market": {
+        "ticket_count": 71,
+        "stake_yen": 10000,
+        "payout_yen": 10420,
+        "any_hit": true,
+        "model_hit_probability": 0.6354627166461229,
+        "metrics": {
+          "ordered_top3_logloss": 6.436436179160533,
+          "umaren_logloss": 2.797510368216001,
+          "umaren_brier": 0.9085750172394439,
+          "sanrenpuku_logloss": 4.841275194817283,
+          "sanrenpuku_brier": 0.9967192414403695
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026042505020111",
+    "date": "2026-04-25",
+    "race_name": "GⅡ 青葉賞",
+    "variants": {
+      "old": {
+        "ticket_count": 96,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.4405806685409995,
+        "metrics": {
+          "ordered_top3_logloss": 7.444427684417072,
+          "umaren_logloss": 5.12463513491592,
+          "umaren_brier": 1.0032982522464302,
+          "sanrenpuku_logloss": 5.5352111729798885,
+          "sanrenpuku_brier": 0.9961979025111942
+        }
+      },
+      "corrected": {
+        "ticket_count": 60,
+        "stake_yen": 10000,
+        "payout_yen": 11400,
+        "any_hit": true,
+        "model_hit_probability": 0.5933399402690779,
+        "metrics": {
+          "ordered_top3_logloss": 5.4170451809524,
+          "umaren_logloss": 3.664443955038476,
+          "umaren_brier": 0.9860981290803862,
+          "sanrenpuku_logloss": 3.372114118170002,
+          "sanrenpuku_brier": 0.9463191616945719
+        }
+      },
+      "market": {
+        "ticket_count": 52,
+        "stake_yen": 10000,
+        "payout_yen": 11400,
+        "any_hit": true,
+        "model_hit_probability": 0.7199007222658569,
+        "metrics": {
+          "ordered_top3_logloss": 5.092152397684606,
+          "umaren_logloss": 3.5385562011106027,
+          "umaren_brier": 1.0003819523010105,
+          "sanrenpuku_logloss": 2.935288173155083,
+          "sanrenpuku_brier": 0.9226908706928088
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026042605020211",
+    "date": "2026-04-26",
+    "race_name": "GⅡ フローラS",
+    "variants": {
+      "old": {
+        "ticket_count": 85,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7248784645309502,
+        "metrics": {
+          "ordered_top3_logloss": 5.949779466625959,
+          "umaren_logloss": 3.2443220425537715,
+          "umaren_brier": 0.9423756957922751,
+          "sanrenpuku_logloss": 4.24904727469423,
+          "sanrenpuku_brier": 0.9783839632367592
+        }
+      },
+      "corrected": {
+        "ticket_count": 50,
+        "stake_yen": 10000,
+        "payout_yen": 11450,
+        "any_hit": true,
+        "model_hit_probability": 0.6828477892015566,
+        "metrics": {
+          "ordered_top3_logloss": 4.559091424126896,
+          "umaren_logloss": 2.3716247059503592,
+          "umaren_brier": 0.8631054018215067,
+          "sanrenpuku_logloss": 2.9941478752459956,
+          "sanrenpuku_brier": 0.9242426441572635
+        }
+      },
+      "market": {
+        "ticket_count": 37,
+        "stake_yen": 10000,
+        "payout_yen": 11450,
+        "any_hit": true,
+        "model_hit_probability": 0.7963622600120548,
+        "metrics": {
+          "ordered_top3_logloss": 4.2480116789389,
+          "umaren_logloss": 2.169622389955403,
+          "umaren_brier": 0.8453561592787262,
+          "sanrenpuku_logloss": 2.762606535343996,
+          "sanrenpuku_brier": 0.9156550526155092
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026042608030211",
+    "date": "2026-04-26",
+    "race_name": "GⅡ マイラーズC",
+    "variants": {
+      "old": {
+        "ticket_count": 87,
+        "stake_yen": 10000,
+        "payout_yen": 12420,
+        "any_hit": true,
+        "model_hit_probability": 0.5365361026033967,
+        "metrics": {
+          "ordered_top3_logloss": 6.895803730000441,
+          "umaren_logloss": 4.263080195486899,
+          "umaren_brier": 0.9839674036797429,
+          "sanrenpuku_logloss": 5.062018483335093,
+          "sanrenpuku_brier": 0.99043564438357
+        }
+      },
+      "corrected": {
+        "ticket_count": 66,
+        "stake_yen": 10000,
+        "payout_yen": 12420,
+        "any_hit": true,
+        "model_hit_probability": 0.4897703174478194,
+        "metrics": {
+          "ordered_top3_logloss": 6.729940577325881,
+          "umaren_logloss": 4.033804412286914,
+          "umaren_brier": 0.988032738711673,
+          "sanrenpuku_logloss": 5.005068308099062,
+          "sanrenpuku_brier": 0.9951726611047876
+        }
+      },
+      "market": {
+        "ticket_count": 65,
+        "stake_yen": 10000,
+        "payout_yen": 13860,
+        "any_hit": true,
+        "model_hit_probability": 0.6026470614879357,
+        "metrics": {
+          "ordered_top3_logloss": 6.764831862901515,
+          "umaren_logloss": 4.069468634244,
+          "umaren_brier": 0.9998141684983227,
+          "sanrenpuku_logloss": 5.075118904887505,
+          "sanrenpuku_brier": 1.0025827007276042
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026050205020311",
+    "date": "2026-05-02",
+    "race_name": "GⅡ 京王杯スプリングC",
+    "variants": {
+      "old": {
+        "ticket_count": 75,
+        "stake_yen": 10000,
+        "payout_yen": 24590,
+        "any_hit": true,
+        "model_hit_probability": 0.5730419594250633,
+        "metrics": {
+          "ordered_top3_logloss": 8.65976933402348,
+          "umaren_logloss": 5.1689889839833825,
+          "umaren_brier": 1.0050078643767366,
+          "sanrenpuku_logloss": 6.896116538792573,
+          "sanrenpuku_brier": 1.0025290539958471
+        }
+      },
+      "corrected": {
+        "ticket_count": 64,
+        "stake_yen": 10000,
+        "payout_yen": 24590,
+        "any_hit": true,
+        "model_hit_probability": 0.5878254366002161,
+        "metrics": {
+          "ordered_top3_logloss": 8.821186944121447,
+          "umaren_logloss": 5.4361618375998955,
+          "umaren_brier": 1.0168214581419301,
+          "sanrenpuku_logloss": 7.107999291184139,
+          "sanrenpuku_brier": 1.0075569615232864
+        }
+      },
+      "market": {
+        "ticket_count": 61,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.68689315894966,
+        "metrics": {
+          "ordered_top3_logloss": 9.212984296532131,
+          "umaren_logloss": 5.750449767970544,
+          "umaren_brier": 1.0313715307734137,
+          "sanrenpuku_logloss": 7.522094657936237,
+          "sanrenpuku_brier": 1.0152433478164709
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026050208030311",
+    "date": "2026-05-02",
+    "race_name": "GⅢ ユニコーンS",
+    "variants": {
+      "old": {
+        "ticket_count": 96,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5300643396740281,
+        "metrics": {
+          "ordered_top3_logloss": 5.329721971336654,
+          "umaren_logloss": 2.7072334480857956,
+          "umaren_brier": 0.8943449694131879,
+          "sanrenpuku_logloss": 3.5635995403875533,
+          "sanrenpuku_brier": 0.9538758328123281
+        }
+      },
+      "corrected": {
+        "ticket_count": 49,
+        "stake_yen": 10000,
+        "payout_yen": 10320,
+        "any_hit": true,
+        "model_hit_probability": 0.6791723398059641,
+        "metrics": {
+          "ordered_top3_logloss": 3.9284292079677012,
+          "umaren_logloss": 1.5623253259291876,
+          "umaren_brier": 0.6584391248452259,
+          "sanrenpuku_logloss": 2.369627414124269,
+          "sanrenpuku_brier": 0.8572633115913064
+        }
+      },
+      "market": {
+        "ticket_count": 26,
+        "stake_yen": 10000,
+        "payout_yen": 10320,
+        "any_hit": true,
+        "model_hit_probability": 0.8117801647510164,
+        "metrics": {
+          "ordered_top3_logloss": 3.525392240333119,
+          "umaren_logloss": 1.2137425950674605,
+          "umaren_brier": 0.5293361706537572,
+          "sanrenpuku_logloss": 2.061027221051856,
+          "sanrenpuku_brier": 0.8220872007488147
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026050308030411",
+    "date": "2026-05-03",
+    "race_name": "GⅠ 天皇賞（春）",
+    "variants": {
+      "old": {
+        "ticket_count": 92,
+        "stake_yen": 10000,
+        "payout_yen": 18240,
+        "any_hit": true,
+        "model_hit_probability": 0.5933912890407935,
+        "metrics": {
+          "ordered_top3_logloss": 7.170188156445236,
+          "umaren_logloss": 4.583746981279332,
+          "umaren_brier": 1.000854569916507,
+          "sanrenpuku_logloss": 5.413884370898384,
+          "sanrenpuku_brier": 0.9983382077735835
+        }
+      },
+      "corrected": {
+        "ticket_count": 49,
+        "stake_yen": 10000,
+        "payout_yen": 28610,
+        "any_hit": true,
+        "model_hit_probability": 0.6805251458928793,
+        "metrics": {
+          "ordered_top3_logloss": 6.357619444511917,
+          "umaren_logloss": 4.879976833128643,
+          "umaren_brier": 1.0922874736804555,
+          "sanrenpuku_logloss": 4.605682566576039,
+          "sanrenpuku_brier": 1.057549653489777
+        }
+      },
+      "market": {
+        "ticket_count": 30,
+        "stake_yen": 10000,
+        "payout_yen": 10370,
+        "any_hit": true,
+        "model_hit_probability": 0.8800573865172303,
+        "metrics": {
+          "ordered_top3_logloss": 6.591906447588521,
+          "umaren_logloss": 5.38575669382567,
+          "umaren_brier": 1.1776652194268546,
+          "sanrenpuku_logloss": 4.824819755632435,
+          "sanrenpuku_brier": 1.1596787230206145
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026050905020511",
+    "date": "2026-05-09",
+    "race_name": "GⅢ エプソムC",
+    "variants": {
+      "old": {
+        "ticket_count": 80,
+        "stake_yen": 10000,
+        "payout_yen": 11640,
+        "any_hit": true,
+        "model_hit_probability": 0.6297753730863441,
+        "metrics": {
+          "ordered_top3_logloss": 7.100562971739887,
+          "umaren_logloss": 3.84407384827755,
+          "umaren_brier": 0.9752319938703395,
+          "sanrenpuku_logloss": 5.398888109136556,
+          "sanrenpuku_brier": 0.9961760752986342
+        }
+      },
+      "corrected": {
+        "ticket_count": 61,
+        "stake_yen": 10000,
+        "payout_yen": 11640,
+        "any_hit": true,
+        "model_hit_probability": 0.6071056630282595,
+        "metrics": {
+          "ordered_top3_logloss": 7.563909683319618,
+          "umaren_logloss": 3.8379800891085383,
+          "umaren_brier": 0.9909990506609063,
+          "sanrenpuku_logloss": 5.92490713430153,
+          "sanrenpuku_brier": 1.007889186304565
+        }
+      },
+      "market": {
+        "ticket_count": 54,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7168297983218572,
+        "metrics": {
+          "ordered_top3_logloss": 7.872506135351625,
+          "umaren_logloss": 3.890634496746804,
+          "umaren_brier": 1.0140857874735585,
+          "sanrenpuku_logloss": 6.262178548295504,
+          "sanrenpuku_brier": 1.0237582912084786
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026050908030511",
+    "date": "2026-05-09",
+    "race_name": "GⅡ 京都新聞杯",
+    "variants": {
+      "old": {
+        "ticket_count": 80,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6783940658318264,
+        "metrics": {
+          "ordered_top3_logloss": 7.77643264964037,
+          "umaren_logloss": 4.534212063362798,
+          "umaren_brier": 0.9937518270983703,
+          "sanrenpuku_logloss": 6.003910826259606,
+          "sanrenpuku_brier": 0.9991212992626448
+        }
+      },
+      "corrected": {
+        "ticket_count": 37,
+        "stake_yen": 10000,
+        "payout_yen": 10780,
+        "any_hit": true,
+        "model_hit_probability": 0.6711177671296913,
+        "metrics": {
+          "ordered_top3_logloss": 6.825736186994638,
+          "umaren_logloss": 3.079128342279983,
+          "umaren_brier": 0.945829405027986,
+          "sanrenpuku_logloss": 5.056567398371055,
+          "sanrenpuku_brier": 1.0021595522378546
+        }
+      },
+      "market": {
+        "ticket_count": 33,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6935575261360786,
+        "metrics": {
+          "ordered_top3_logloss": 6.909718948086958,
+          "umaren_logloss": 2.8623100231250214,
+          "umaren_brier": 0.9493504283175432,
+          "sanrenpuku_logloss": 5.10736405720741,
+          "sanrenpuku_brier": 1.0150727354525657
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026051005020611",
+    "date": "2026-05-10",
+    "race_name": "GⅠ NHKマイルC",
+    "variants": {
+      "old": {
+        "ticket_count": 94,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.4379333110865583,
+        "metrics": {
+          "ordered_top3_logloss": 6.761458964784577,
+          "umaren_logloss": 3.3176538205742383,
+          "umaren_brier": 0.9397201032614576,
+          "sanrenpuku_logloss": 5.077682575353678,
+          "sanrenpuku_brier": 0.990555207674825
+        }
+      },
+      "corrected": {
+        "ticket_count": 75,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5278786020655689,
+        "metrics": {
+          "ordered_top3_logloss": 6.282856364127184,
+          "umaren_logloss": 3.3695021550009865,
+          "umaren_brier": 0.9494186098390915,
+          "sanrenpuku_logloss": 4.581147100147371,
+          "sanrenpuku_brier": 0.9852616497996379
+        }
+      },
+      "market": {
+        "ticket_count": 65,
+        "stake_yen": 10000,
+        "payout_yen": 12320,
+        "any_hit": true,
+        "model_hit_probability": 0.604564681842689,
+        "metrics": {
+          "ordered_top3_logloss": 6.114813503041085,
+          "umaren_logloss": 3.275059577933023,
+          "umaren_brier": 0.9494821586797676,
+          "sanrenpuku_logloss": 4.428983800212539,
+          "sanrenpuku_brier": 0.985566503263928
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026051604010511",
+    "date": "2026-05-16",
+    "race_name": "GⅢ 新潟大賞典",
+    "variants": {
+      "old": {
+        "ticket_count": 72,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6678547340413848,
+        "metrics": {
+          "ordered_top3_logloss": 9.309709497476918,
+          "umaren_logloss": 6.15492950472684,
+          "umaren_brier": 1.0122097936816683,
+          "sanrenpuku_logloss": 7.48608336213334,
+          "sanrenpuku_brier": 1.0038658222865517
+        }
+      },
+      "corrected": {
+        "ticket_count": 52,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6683348673956445,
+        "metrics": {
+          "ordered_top3_logloss": 9.549203986468275,
+          "umaren_logloss": 5.98481958011081,
+          "umaren_brier": 1.0221077502365044,
+          "sanrenpuku_logloss": 7.762625822126484,
+          "sanrenpuku_brier": 1.0085390280820787
+        }
+      },
+      "market": {
+        "ticket_count": 35,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7418430319463791,
+        "metrics": {
+          "ordered_top3_logloss": 10.127710024821406,
+          "umaren_logloss": 6.361686580089812,
+          "umaren_brier": 1.0351888690727635,
+          "sanrenpuku_logloss": 8.345274022018183,
+          "sanrenpuku_brier": 1.0139021828046442
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026051705020811",
+    "date": "2026-05-17",
+    "race_name": "GⅠ ヴィクトリアマイル",
+    "variants": {
+      "old": {
+        "ticket_count": 96,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.3783264430364092,
+        "metrics": {
+          "ordered_top3_logloss": 6.219778505309661,
+          "umaren_logloss": 2.9216323408860974,
+          "umaren_brier": 0.9063673086296878,
+          "sanrenpuku_logloss": 4.590927113737122,
+          "sanrenpuku_brier": 0.9832463761449144
+        }
+      },
+      "corrected": {
+        "ticket_count": 69,
+        "stake_yen": 10000,
+        "payout_yen": 10710,
+        "any_hit": true,
+        "model_hit_probability": 0.5427868498897415,
+        "metrics": {
+          "ordered_top3_logloss": 4.530222632999376,
+          "umaren_logloss": 2.125042087448135,
+          "umaren_brier": 0.7954343530592237,
+          "sanrenpuku_logloss": 3.0390254891259545,
+          "sanrenpuku_brier": 0.9146391386442516
+        }
+      },
+      "market": {
+        "ticket_count": 43,
+        "stake_yen": 10000,
+        "payout_yen": 10710,
+        "any_hit": true,
+        "model_hit_probability": 0.7096147453181665,
+        "metrics": {
+          "ordered_top3_logloss": 3.8692284428887147,
+          "umaren_logloss": 1.7444235722882808,
+          "umaren_brier": 0.7090016161379773,
+          "sanrenpuku_logloss": 2.505034379748449,
+          "sanrenpuku_brier": 0.8562624342105267
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026052308030911",
+    "date": "2026-05-23",
+    "race_name": "GⅢ 平安S",
+    "variants": {
+      "old": {
+        "ticket_count": 88,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6726120674701864,
+        "metrics": {
+          "ordered_top3_logloss": 8.629085807224135,
+          "umaren_logloss": 5.523128334051372,
+          "umaren_brier": 1.003758168824022,
+          "sanrenpuku_logloss": 6.815269818323135,
+          "sanrenpuku_brier": 1.0008119778603084
+        }
+      },
+      "corrected": {
+        "ticket_count": 76,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.50315451690267,
+        "metrics": {
+          "ordered_top3_logloss": 6.707719068081432,
+          "umaren_logloss": 3.8829738507965974,
+          "umaren_brier": 0.987078983745953,
+          "sanrenpuku_logloss": 5.086479236893188,
+          "sanrenpuku_brier": 0.9975536013704278
+        }
+      },
+      "market": {
+        "ticket_count": 53,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6980653297123147,
+        "metrics": {
+          "ordered_top3_logloss": 6.481315467870825,
+          "umaren_logloss": 3.719175272987563,
+          "umaren_brier": 1.0019469199243316,
+          "sanrenpuku_logloss": 4.956587776084753,
+          "sanrenpuku_brier": 1.0071180076253299
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026052405021011",
+    "date": "2026-05-24",
+    "race_name": "GⅠ オークス",
+    "variants": {
+      "old": {
+        "ticket_count": 98,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.48786960534636153,
+        "metrics": {
+          "ordered_top3_logloss": 7.6831859873855475,
+          "umaren_logloss": 4.788400807034381,
+          "umaren_brier": 0.9930814530562097,
+          "sanrenpuku_logloss": 5.816100297744116,
+          "sanrenpuku_brier": 0.9962571091027184
+        }
+      },
+      "corrected": {
+        "ticket_count": 55,
+        "stake_yen": 10000,
+        "payout_yen": 12880,
+        "any_hit": true,
+        "model_hit_probability": 0.5859061004540962,
+        "metrics": {
+          "ordered_top3_logloss": 5.679394028261731,
+          "umaren_logloss": 3.6608433063632653,
+          "umaren_brier": 0.9929460470988563,
+          "sanrenpuku_logloss": 3.7015452099747326,
+          "sanrenpuku_brier": 0.9730418329848604
+        }
+      },
+      "market": {
+        "ticket_count": 36,
+        "stake_yen": 10000,
+        "payout_yen": 12880,
+        "any_hit": true,
+        "model_hit_probability": 0.7621801130857218,
+        "metrics": {
+          "ordered_top3_logloss": 5.5695236337320395,
+          "umaren_logloss": 3.6891004703931647,
+          "umaren_brier": 1.020266783218336,
+          "sanrenpuku_logloss": 3.535718890713667,
+          "sanrenpuku_brier": 0.9865704515670984
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026053008031111",
+    "date": "2026-05-30",
+    "race_name": "GⅢ 葵S",
+    "variants": {
+      "old": {
+        "ticket_count": 100,
+        "stake_yen": 10000,
+        "payout_yen": 11190,
+        "any_hit": true,
+        "model_hit_probability": 0.43947334695413703,
+        "metrics": {
+          "ordered_top3_logloss": 6.710567606684883,
+          "umaren_logloss": 3.884867120226072,
+          "umaren_brier": 0.970965570453488,
+          "sanrenpuku_logloss": 4.926414828710182,
+          "sanrenpuku_brier": 0.9886213123402151
+        }
+      },
+      "corrected": {
+        "ticket_count": 63,
+        "stake_yen": 10000,
+        "payout_yen": 14010,
+        "any_hit": true,
+        "model_hit_probability": 0.5966871485036848,
+        "metrics": {
+          "ordered_top3_logloss": 6.63917597474055,
+          "umaren_logloss": 3.957625255840238,
+          "umaren_brier": 0.9832273642297452,
+          "sanrenpuku_logloss": 4.8264797296110515,
+          "sanrenpuku_brier": 0.9914192795264909
+        }
+      },
+      "market": {
+        "ticket_count": 31,
+        "stake_yen": 10000,
+        "payout_yen": 14010,
+        "any_hit": true,
+        "model_hit_probability": 0.7230494053994776,
+        "metrics": {
+          "ordered_top3_logloss": 6.6691474689467025,
+          "umaren_logloss": 4.013357984750487,
+          "umaren_brier": 0.9942759837822734,
+          "sanrenpuku_logloss": 4.848567359932914,
+          "sanrenpuku_brier": 0.9967458315442105
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026053105021211",
+    "date": "2026-05-31",
+    "race_name": "GⅠ 日本ダービー",
+    "variants": {
+      "old": {
+        "ticket_count": 95,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.48757445724059834,
+        "metrics": {
+          "ordered_top3_logloss": 7.862977218718842,
+          "umaren_logloss": 4.60356052909922,
+          "umaren_brier": 0.9893462490058565,
+          "sanrenpuku_logloss": 6.067673116090165,
+          "sanrenpuku_brier": 0.997457513207332
+        }
+      },
+      "corrected": {
+        "ticket_count": 67,
+        "stake_yen": 10000,
+        "payout_yen": 10220,
+        "any_hit": true,
+        "model_hit_probability": 0.4910582682545857,
+        "metrics": {
+          "ordered_top3_logloss": 6.717894184782457,
+          "umaren_logloss": 3.0501579111905217,
+          "umaren_brier": 0.9286492096930955,
+          "sanrenpuku_logloss": 5.1443244228751785,
+          "sanrenpuku_brier": 0.9961246737630812
+        }
+      },
+      "market": {
+        "ticket_count": 35,
+        "stake_yen": 10000,
+        "payout_yen": 10220,
+        "any_hit": true,
+        "model_hit_probability": 0.6844604281848008,
+        "metrics": {
+          "ordered_top3_logloss": 6.597206701725432,
+          "umaren_logloss": 2.7449555389485973,
+          "umaren_brier": 0.9094638826046745,
+          "sanrenpuku_logloss": 5.120610072101663,
+          "sanrenpuku_brier": 1.0028451021586824
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026053105021212",
+    "date": "2026-05-31",
+    "race_name": "GⅡ 目黒記念",
+    "variants": {
+      "old": {
+        "ticket_count": 72,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5876394599497442,
+        "metrics": {
+          "ordered_top3_logloss": 4.872339910934448,
+          "umaren_logloss": 2.8192167972409323,
+          "umaren_brier": 0.9153312955320086,
+          "sanrenpuku_logloss": 2.9770507739832843,
+          "sanrenpuku_brier": 0.9126617305581741
+        }
+      },
+      "corrected": {
+        "ticket_count": 45,
+        "stake_yen": 10000,
+        "payout_yen": 10140,
+        "any_hit": true,
+        "model_hit_probability": 0.6802501336697734,
+        "metrics": {
+          "ordered_top3_logloss": 4.279693268649613,
+          "umaren_logloss": 2.384907595973376,
+          "umaren_brier": 0.8583892754353343,
+          "sanrenpuku_logloss": 2.440862871391718,
+          "sanrenpuku_brier": 0.8463716698011212
+        }
+      },
+      "market": {
+        "ticket_count": 43,
+        "stake_yen": 10000,
+        "payout_yen": 10140,
+        "any_hit": true,
+        "model_hit_probability": 0.7679861263125324,
+        "metrics": {
+          "ordered_top3_logloss": 3.896196075254786,
+          "umaren_logloss": 2.147815218133039,
+          "umaren_brier": 0.8245908483117308,
+          "sanrenpuku_logloss": 2.0545688292381556,
+          "sanrenpuku_brier": 0.7771046992016309
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026060705030211",
+    "date": "2026-06-07",
+    "race_name": "GⅠ 安田記念",
+    "variants": {
+      "old": {
+        "ticket_count": 88,
+        "stake_yen": 10000,
+        "payout_yen": 6390,
+        "any_hit": true,
+        "model_hit_probability": 0.5753942031765399,
+        "metrics": {}
+      },
+      "corrected": {
+        "ticket_count": 58,
+        "stake_yen": 10000,
+        "payout_yen": 13680,
+        "any_hit": true,
+        "model_hit_probability": 0.6131597904857254,
+        "metrics": {}
+      },
+      "market": {
+        "ticket_count": 58,
+        "stake_yen": 10000,
+        "payout_yen": 7290,
+        "any_hit": true,
+        "model_hit_probability": 0.6754720973040846,
+        "metrics": {}
+      }
+    }
+  },
+  {
+    "race_code": "2026061302010111",
+    "date": "2026-06-13",
+    "race_name": "GⅢ 函館スプリントS",
+    "variants": {
+      "old": {
+        "ticket_count": 74,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.783691351349567,
+        "metrics": {
+          "ordered_top3_logloss": 7.1740899175135375,
+          "umaren_logloss": 4.613084103832955,
+          "umaren_brier": 1.0025318275490038,
+          "sanrenpuku_logloss": 5.351411291141657,
+          "sanrenpuku_brier": 0.9985778555324283
+        }
+      },
+      "corrected": {
+        "ticket_count": 44,
+        "stake_yen": 10000,
+        "payout_yen": 12330,
+        "any_hit": true,
+        "model_hit_probability": 0.6999702369547346,
+        "metrics": {
+          "ordered_top3_logloss": 5.929216934253128,
+          "umaren_logloss": 3.72697737980055,
+          "umaren_brier": 0.9823021388220344,
+          "sanrenpuku_logloss": 4.042554952691589,
+          "sanrenpuku_brier": 0.9780990838890455
+        }
+      },
+      "market": {
+        "ticket_count": 50,
+        "stake_yen": 10000,
+        "payout_yen": 13530,
+        "any_hit": true,
+        "model_hit_probability": 0.7318811214292432,
+        "metrics": {
+          "ordered_top3_logloss": 5.784264857989001,
+          "umaren_logloss": 3.6792638303826277,
+          "umaren_brier": 0.9884341627282879,
+          "sanrenpuku_logloss": 3.8664136565546263,
+          "sanrenpuku_brier": 0.9776203447123132
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026061409030411",
+    "date": "2026-06-14",
+    "race_name": "GⅠ 宝塚記念",
+    "variants": {
+      "old": {
+        "ticket_count": 98,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.41055718218207826,
+        "metrics": {
+          "ordered_top3_logloss": 7.078613308822532,
+          "umaren_logloss": 4.0261657178011365,
+          "umaren_brier": 0.9763954309085128,
+          "sanrenpuku_logloss": 5.275868143504868,
+          "sanrenpuku_brier": 0.9927909366100347
+        }
+      },
+      "corrected": {
+        "ticket_count": 64,
+        "stake_yen": 10000,
+        "payout_yen": 11070,
+        "any_hit": true,
+        "model_hit_probability": 0.5650438395794677,
+        "metrics": {
+          "ordered_top3_logloss": 4.545735818352229,
+          "umaren_logloss": 2.175984832864209,
+          "umaren_brier": 0.8140403020088953,
+          "sanrenpuku_logloss": 2.8402755354833142,
+          "sanrenpuku_brier": 0.902027488187088
+        }
+      },
+      "market": {
+        "ticket_count": 49,
+        "stake_yen": 10000,
+        "payout_yen": 11070,
+        "any_hit": true,
+        "model_hit_probability": 0.7400107971428616,
+        "metrics": {
+          "ordered_top3_logloss": 3.98108259119246,
+          "umaren_logloss": 1.7539611313380459,
+          "umaren_brier": 0.7208139054742151,
+          "sanrenpuku_logloss": 2.32404421658377,
+          "sanrenpuku_brier": 0.8421619519117024
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026062105030611",
+    "date": "2026-06-21",
+    "race_name": "GⅢ 府中牝馬S",
+    "variants": {
+      "old": {
+        "ticket_count": 91,
+        "stake_yen": 10000,
+        "payout_yen": 13070,
+        "any_hit": true,
+        "model_hit_probability": 0.4943831559548136,
+        "metrics": {
+          "ordered_top3_logloss": 9.26995040822926,
+          "umaren_logloss": 4.807642980527235,
+          "umaren_brier": 1.0004899814635277,
+          "sanrenpuku_logloss": 7.5145150397546026,
+          "sanrenpuku_brier": 1.003459651094202
+        }
+      },
+      "corrected": {
+        "ticket_count": 51,
+        "stake_yen": 10000,
+        "payout_yen": 13070,
+        "any_hit": true,
+        "model_hit_probability": 0.61620780845973,
+        "metrics": {
+          "ordered_top3_logloss": 9.758618301761818,
+          "umaren_logloss": 4.86880284020483,
+          "umaren_brier": 1.0074932347322567,
+          "sanrenpuku_logloss": 8.040834678544307,
+          "sanrenpuku_brier": 1.007021291831774
+        }
+      },
+      "market": {
+        "ticket_count": 32,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7256486886458969,
+        "metrics": {
+          "ordered_top3_logloss": 10.3822631360526,
+          "umaren_logloss": 5.064500209163286,
+          "umaren_brier": 1.0184963563847513,
+          "sanrenpuku_logloss": 8.670675597216855,
+          "sanrenpuku_brier": 1.0116287087753633
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026062109030611",
+    "date": "2026-06-21",
+    "race_name": "GⅢ しらさぎS",
+    "variants": {
+      "old": {
+        "ticket_count": 94,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.4821726107685,
+        "metrics": {
+          "ordered_top3_logloss": 8.890752021388591,
+          "umaren_logloss": 5.413162019910459,
+          "umaren_brier": 1.002977671491143,
+          "sanrenpuku_logloss": 7.068718783149616,
+          "sanrenpuku_brier": 1.00131500212906
+        }
+      },
+      "corrected": {
+        "ticket_count": 56,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5911373322347288,
+        "metrics": {
+          "ordered_top3_logloss": 6.935385439350514,
+          "umaren_logloss": 4.725932390033189,
+          "umaren_brier": 1.000847125137723,
+          "sanrenpuku_logloss": 4.977207147068094,
+          "sanrenpuku_brier": 0.9918635795055345
+        }
+      },
+      "market": {
+        "ticket_count": 67,
+        "stake_yen": 10000,
+        "payout_yen": 10320,
+        "any_hit": true,
+        "model_hit_probability": 0.5839137633588872,
+        "metrics": {
+          "ordered_top3_logloss": 6.72070499488674,
+          "umaren_logloss": 4.793963532385538,
+          "umaren_brier": 1.011837147184578,
+          "sanrenpuku_logloss": 4.6661689687540076,
+          "sanrenpuku_brier": 0.9910824157184597
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026062802010611",
+    "date": "2026-06-28",
+    "race_name": "GⅢ 函館記念",
+    "variants": {
+      "old": {
+        "ticket_count": 64,
+        "stake_yen": 10000,
+        "payout_yen": 12080,
+        "any_hit": true,
+        "model_hit_probability": 0.654396074965261,
+        "metrics": {
+          "ordered_top3_logloss": 8.063881618257543,
+          "umaren_logloss": 4.965240430791918,
+          "umaren_brier": 1.0019697039235589,
+          "sanrenpuku_logloss": 6.26785432226044,
+          "sanrenpuku_brier": 1.0009988970948052
+        }
+      },
+      "corrected": {
+        "ticket_count": 57,
+        "stake_yen": 10000,
+        "payout_yen": 12080,
+        "any_hit": true,
+        "model_hit_probability": 0.6292457592573237,
+        "metrics": {
+          "ordered_top3_logloss": 7.879502367149981,
+          "umaren_logloss": 4.643372132638896,
+          "umaren_brier": 0.9960265986634028,
+          "sanrenpuku_logloss": 6.080113181551627,
+          "sanrenpuku_brier": 0.999958597114739
+        }
+      },
+      "market": {
+        "ticket_count": 42,
+        "stake_yen": 10000,
+        "payout_yen": 12080,
+        "any_hit": true,
+        "model_hit_probability": 0.6695009800192435,
+        "metrics": {
+          "ordered_top3_logloss": 7.958452138694788,
+          "umaren_logloss": 4.667345036739967,
+          "umaren_brier": 0.9981942835593924,
+          "sanrenpuku_logloss": 6.157654480064801,
+          "sanrenpuku_brier": 1.0011162101763311
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026062803020211",
+    "date": "2026-06-28",
+    "race_name": "GⅢ ラジオNIKKEI賞",
+    "variants": {
+      "old": {
+        "ticket_count": 91,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5711611807340929,
+        "metrics": {
+          "ordered_top3_logloss": 8.022289510889582,
+          "umaren_logloss": 4.756001827781337,
+          "umaren_brier": 0.9956230782003647,
+          "sanrenpuku_logloss": 6.215074998474103,
+          "sanrenpuku_brier": 0.9993762035741074
+        }
+      },
+      "corrected": {
+        "ticket_count": 65,
+        "stake_yen": 10000,
+        "payout_yen": 13650,
+        "any_hit": true,
+        "model_hit_probability": 0.607648646849946,
+        "metrics": {
+          "ordered_top3_logloss": 6.598694295909229,
+          "umaren_logloss": 4.060089841077866,
+          "umaren_brier": 0.9805077679804213,
+          "sanrenpuku_logloss": 4.80181575052079,
+          "sanrenpuku_brier": 0.9879179940288514
+        }
+      },
+      "market": {
+        "ticket_count": 42,
+        "stake_yen": 10000,
+        "payout_yen": 13650,
+        "any_hit": true,
+        "model_hit_probability": 0.7200258064288739,
+        "metrics": {
+          "ordered_top3_logloss": 6.345448273295647,
+          "umaren_logloss": 3.9787872107990165,
+          "umaren_brier": 0.981932706137748,
+          "sanrenpuku_logloss": 4.54993492944322,
+          "sanrenpuku_brier": 0.9852582626619952
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026070510020411",
+    "date": "2026-07-05",
+    "race_name": "GⅢ 北九州記念",
+    "variants": {
+      "old": {
+        "ticket_count": 74,
+        "stake_yen": 10000,
+        "payout_yen": 11790,
+        "any_hit": true,
+        "model_hit_probability": 0.6044292516362828,
+        "metrics": {
+          "ordered_top3_logloss": 7.101220139805585,
+          "umaren_logloss": 3.831776117406797,
+          "umaren_brier": 0.9804232444314402,
+          "sanrenpuku_logloss": 5.441442423904574,
+          "sanrenpuku_brier": 0.999786036858883
+        }
+      },
+      "corrected": {
+        "ticket_count": 62,
+        "stake_yen": 10000,
+        "payout_yen": 11790,
+        "any_hit": true,
+        "model_hit_probability": 0.5855456361465043,
+        "metrics": {
+          "ordered_top3_logloss": 6.363917570194186,
+          "umaren_logloss": 3.668562005806847,
+          "umaren_brier": 0.9782804315496145,
+          "sanrenpuku_logloss": 4.71743043384835,
+          "sanrenpuku_brier": 0.9931044473409857
+        }
+      },
+      "market": {
+        "ticket_count": 53,
+        "stake_yen": 10000,
+        "payout_yen": 30670,
+        "any_hit": true,
+        "model_hit_probability": 0.6961033692516805,
+        "metrics": {
+          "ordered_top3_logloss": 6.2109418583184866,
+          "umaren_logloss": 3.6286004724390284,
+          "umaren_brier": 0.9865382385989359,
+          "sanrenpuku_logloss": 4.602611734755777,
+          "sanrenpuku_brier": 0.9962499137261669
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026071203020611",
+    "date": "2026-07-12",
+    "race_name": "GⅢ 七夕賞",
+    "variants": {
+      "old": {
+        "ticket_count": 89,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6286897156526571,
+        "metrics": {
+          "ordered_top3_logloss": 10.243178537454673,
+          "umaren_logloss": 5.14550839509902,
+          "umaren_brier": 1.0015228092993076,
+          "sanrenpuku_logloss": 8.521781488341107,
+          "sanrenpuku_brier": 1.0031935660279776
+        }
+      },
+      "corrected": {
+        "ticket_count": 56,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6246531914401521,
+        "metrics": {
+          "ordered_top3_logloss": 8.66250857331962,
+          "umaren_logloss": 3.991386467976238,
+          "umaren_brier": 0.9808992252373575,
+          "sanrenpuku_logloss": 7.005044056339306,
+          "sanrenpuku_brier": 1.0038159230573132
+        }
+      },
+      "market": {
+        "ticket_count": 40,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7190579946463658,
+        "metrics": {
+          "ordered_top3_logloss": 8.75172237164577,
+          "umaren_logloss": 3.8344202804750847,
+          "umaren_brier": 0.980592125317803,
+          "sanrenpuku_logloss": 7.122294245187762,
+          "sanrenpuku_brier": 1.0071185027050973
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026071902011211",
+    "date": "2026-07-19",
+    "race_name": "GⅢ 函館2歳S",
+    "variants": {
+      "old": {
+        "ticket_count": 92,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6284897373561713,
+        "metrics": {
+          "ordered_top3_logloss": 7.486011873987085,
+          "umaren_logloss": 4.268870859248177,
+          "umaren_brier": 0.9869538002927334,
+          "sanrenpuku_logloss": 5.699650588565389,
+          "sanrenpuku_brier": 0.9977233596804009
+        }
+      },
+      "corrected": {
+        "ticket_count": 42,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7027597840375852,
+        "metrics": {
+          "ordered_top3_logloss": 7.57002254367636,
+          "umaren_logloss": 4.050827139431955,
+          "umaren_brier": 0.9977671673245588,
+          "sanrenpuku_logloss": 5.766432418476833,
+          "sanrenpuku_brier": 1.0077897198748984
+        }
+      },
+      "market": {
+        "ticket_count": 39,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6780382453546255,
+        "metrics": {
+          "ordered_top3_logloss": 7.901188474430247,
+          "umaren_logloss": 4.162137619507223,
+          "umaren_brier": 1.018327338858484,
+          "sanrenpuku_logloss": 6.091967986724677,
+          "sanrenpuku_brier": 1.0224369689666044
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026071910020811",
+    "date": "2026-07-19",
+    "race_name": "GⅢ 小倉記念",
+    "variants": {
+      "old": {
+        "ticket_count": 84,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5602038580392656,
+        "metrics": {
+          "ordered_top3_logloss": 7.744204713949688,
+          "umaren_logloss": 4.734287756412679,
+          "umaren_brier": 0.995437571518228,
+          "sanrenpuku_logloss": 5.915482970852362,
+          "sanrenpuku_brier": 0.9980408120272581
+        }
+      },
+      "corrected": {
+        "ticket_count": 70,
+        "stake_yen": 10000,
+        "payout_yen": 22060,
+        "any_hit": true,
+        "model_hit_probability": 0.5673675140599037,
+        "metrics": {
+          "ordered_top3_logloss": 7.209286476023597,
+          "umaren_logloss": 4.051466418472199,
+          "umaren_brier": 0.9921480500016314,
+          "sanrenpuku_logloss": 5.3590292604946175,
+          "sanrenpuku_brier": 1.0003350353442038
+        }
+      },
+      "market": {
+        "ticket_count": 64,
+        "stake_yen": 10000,
+        "payout_yen": 33360,
+        "any_hit": true,
+        "model_hit_probability": 0.6975387485590423,
+        "metrics": {
+          "ordered_top3_logloss": 7.255714557014204,
+          "umaren_logloss": 4.013724663257815,
+          "umaren_brier": 1.0059730384581982,
+          "sanrenpuku_logloss": 5.383442618822333,
+          "sanrenpuku_brier": 1.0082750966348117
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026072604020207",
+    "date": "2026-07-26",
+    "race_name": "GⅢ 関屋記念",
+    "variants": {
+      "old": {
+        "ticket_count": 88,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5587998528253044,
+        "metrics": {
+          "ordered_top3_logloss": 7.480070123563646,
+          "umaren_logloss": 4.314374280036197,
+          "umaren_brier": 0.9964382332586331,
+          "sanrenpuku_logloss": 5.842539515039627,
+          "sanrenpuku_brier": 1.0017787609358024
+        }
+      },
+      "corrected": {
+        "ticket_count": 56,
+        "stake_yen": 10000,
+        "payout_yen": 11280,
+        "any_hit": true,
+        "model_hit_probability": 0.6464404610793236,
+        "metrics": {
+          "ordered_top3_logloss": 6.745880525471647,
+          "umaren_logloss": 3.7614498165105057,
+          "umaren_brier": 0.9715720358767076,
+          "sanrenpuku_logloss": 5.044694369357007,
+          "sanrenpuku_brier": 0.9927715674621587
+        }
+      },
+      "market": {
+        "ticket_count": 43,
+        "stake_yen": 10000,
+        "payout_yen": 11280,
+        "any_hit": true,
+        "model_hit_probability": 0.6948880273916538,
+        "metrics": {
+          "ordered_top3_logloss": 6.587976985795749,
+          "umaren_logloss": 3.6279996905720333,
+          "umaren_brier": 0.9675247764640962,
+          "sanrenpuku_logloss": 4.8980379733970185,
+          "sanrenpuku_brier": 0.9919958111326899
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026072607020207",
+    "date": "2026-07-26",
+    "race_name": "GⅢ 東海S",
+    "variants": {
+      "old": {
+        "ticket_count": 69,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7685788071279135,
+        "metrics": {
+          "ordered_top3_logloss": 7.465684543305195,
+          "umaren_logloss": 4.528777722746874,
+          "umaren_brier": 1.0071138435133205,
+          "sanrenpuku_logloss": 5.649396998226345,
+          "sanrenpuku_brier": 1.0044098655510654
+        }
+      },
+      "corrected": {
+        "ticket_count": 23,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7224299484101475,
+        "metrics": {
+          "ordered_top3_logloss": 6.427166488699899,
+          "umaren_logloss": 4.752085264013978,
+          "umaren_brier": 1.0392132251554607,
+          "sanrenpuku_logloss": 4.240459404780542,
+          "sanrenpuku_brier": 0.9989291987017503
+        }
+      },
+      "market": {
+        "ticket_count": 29,
+        "stake_yen": 10000,
+        "payout_yen": 12540,
+        "any_hit": true,
+        "model_hit_probability": 0.8086551629894908,
+        "metrics": {
+          "ordered_top3_logloss": 6.58773144769308,
+          "umaren_logloss": 5.169584924491247,
+          "umaren_brier": 1.0753950502159046,
+          "sanrenpuku_logloss": 4.1521770237259465,
+          "sanrenpuku_brier": 1.0124242894451072
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026080201010411",
+    "date": "2026-08-02",
+    "race_name": "GⅢ クイーンS",
+    "variants": {
+      "old": {
+        "ticket_count": 94,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6455747185284666,
+        "metrics": {
+          "ordered_top3_logloss": 6.851586044936436,
+          "umaren_logloss": 3.9616101578323377,
+          "umaren_brier": 0.9748596568695965,
+          "sanrenpuku_logloss": 5.066782732454541,
+          "sanrenpuku_brier": 0.9909113640519168
+        }
+      },
+      "corrected": {
+        "ticket_count": 55,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6506685708542502,
+        "metrics": {
+          "ordered_top3_logloss": 5.7577732894698945,
+          "umaren_logloss": 3.004656955413186,
+          "umaren_brier": 0.9305013577073847,
+          "sanrenpuku_logloss": 4.12934050400284,
+          "sanrenpuku_brier": 0.9788308847473294
+        }
+      },
+      "market": {
+        "ticket_count": 52,
+        "stake_yen": 10000,
+        "payout_yen": 11120,
+        "any_hit": true,
+        "model_hit_probability": 0.6910812823616834,
+        "metrics": {
+          "ordered_top3_logloss": 5.551516819955081,
+          "umaren_logloss": 2.8068184493620087,
+          "umaren_brier": 0.928313931925649,
+          "sanrenpuku_logloss": 3.993201568401574,
+          "sanrenpuku_brier": 0.9835081940391137
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026080204020407",
+    "date": "2026-08-02",
+    "race_name": "GⅢ アイビスサマーダッシュ",
+    "variants": {
+      "old": {
+        "ticket_count": 93,
+        "stake_yen": 10000,
+        "payout_yen": 14560,
+        "any_hit": true,
+        "model_hit_probability": 0.5498043949634159,
+        "metrics": {
+          "ordered_top3_logloss": 7.056309910532652,
+          "umaren_logloss": 3.9825456607627063,
+          "umaren_brier": 0.9797599075328364,
+          "sanrenpuku_logloss": 5.33187500888848,
+          "sanrenpuku_brier": 0.9950736659132968
+        }
+      },
+      "corrected": {
+        "ticket_count": 58,
+        "stake_yen": 10000,
+        "payout_yen": 14560,
+        "any_hit": true,
+        "model_hit_probability": 0.5976696810910601,
+        "metrics": {
+          "ordered_top3_logloss": 8.625993393118755,
+          "umaren_logloss": 4.730008270025207,
+          "umaren_brier": 1.0192738459463069,
+          "sanrenpuku_logloss": 7.06183410877965,
+          "sanrenpuku_brier": 1.0134503142768632
+        }
+      },
+      "market": {
+        "ticket_count": 53,
+        "stake_yen": 10000,
+        "payout_yen": 14560,
+        "any_hit": true,
+        "model_hit_probability": 0.7032797652766004,
+        "metrics": {
+          "ordered_top3_logloss": 9.29970141771637,
+          "umaren_logloss": 5.07601641189447,
+          "umaren_brier": 1.0460777070803762,
+          "sanrenpuku_logloss": 7.798871782923297,
+          "sanrenpuku_brier": 1.0299150852504653
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026080801010511",
+    "date": "2026-08-08",
+    "race_name": "GⅢ エルムS",
+    "variants": {
+      "old": {
+        "ticket_count": 68,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6997469432777025,
+        "metrics": {
+          "ordered_top3_logloss": 6.0707178799856,
+          "umaren_logloss": 3.6360707968314827,
+          "umaren_brier": 0.9713599023928465,
+          "sanrenpuku_logloss": 4.258680402823524,
+          "sanrenpuku_brier": 0.9810551772698735
+        }
+      },
+      "corrected": {
+        "ticket_count": 43,
+        "stake_yen": 10000,
+        "payout_yen": 11800,
+        "any_hit": true,
+        "model_hit_probability": 0.7114821173921279,
+        "metrics": {
+          "ordered_top3_logloss": 5.261981713624647,
+          "umaren_logloss": 3.149270344125971,
+          "umaren_brier": 0.9576131142915877,
+          "sanrenpuku_logloss": 3.4388444523452026,
+          "sanrenpuku_brier": 0.9584237545766134
+        }
+      },
+      "market": {
+        "ticket_count": 37,
+        "stake_yen": 10000,
+        "payout_yen": 11800,
+        "any_hit": true,
+        "model_hit_probability": 0.7971572919149614,
+        "metrics": {
+          "ordered_top3_logloss": 5.135908434696501,
+          "umaren_logloss": 3.1017128024849225,
+          "umaren_brier": 0.9669303934657282,
+          "sanrenpuku_logloss": 3.3038396896138185,
+          "sanrenpuku_brier": 0.9603147551986254
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026080904020607",
+    "date": "2026-08-09",
+    "race_name": "GⅢ レパードS",
+    "variants": {
+      "old": {
+        "ticket_count": 82,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.766503488520787,
+        "metrics": {
+          "ordered_top3_logloss": 7.122503214569721,
+          "umaren_logloss": 4.524287376080797,
+          "umaren_brier": 0.9976999651436264,
+          "sanrenpuku_logloss": 5.236475997061196,
+          "sanrenpuku_brier": 0.9959010863934871
+        }
+      },
+      "corrected": {
+        "ticket_count": 43,
+        "stake_yen": 10000,
+        "payout_yen": 11360,
+        "any_hit": true,
+        "model_hit_probability": 0.7006023931073788,
+        "metrics": {
+          "ordered_top3_logloss": 6.1715989957912125,
+          "umaren_logloss": 4.248681434590868,
+          "umaren_brier": 1.0189424449078788,
+          "sanrenpuku_logloss": 4.104625722399535,
+          "sanrenpuku_brier": 0.9921925695722902
+        }
+      },
+      "market": {
+        "ticket_count": 37,
+        "stake_yen": 10000,
+        "payout_yen": 11940,
+        "any_hit": true,
+        "model_hit_probability": 0.807398113515915,
+        "metrics": {
+          "ordered_top3_logloss": 6.27106278662877,
+          "umaren_logloss": 4.487862896316361,
+          "umaren_brier": 1.049013374417873,
+          "sanrenpuku_logloss": 4.117674990518418,
+          "sanrenpuku_brier": 1.015460166251698
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026080907020607",
+    "date": "2026-08-09",
+    "race_name": "GⅢ CBC賞",
+    "variants": {
+      "old": {
+        "ticket_count": 90,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.44681628163725634,
+        "metrics": {
+          "ordered_top3_logloss": 8.98571934640546,
+          "umaren_logloss": 5.816885314371644,
+          "umaren_brier": 1.0073443018699024,
+          "sanrenpuku_logloss": 7.128928862296102,
+          "sanrenpuku_brier": 1.0016661322826967
+        }
+      },
+      "corrected": {
+        "ticket_count": 50,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.614988092162202,
+        "metrics": {
+          "ordered_top3_logloss": 7.658929109568802,
+          "umaren_logloss": 4.824867579745898,
+          "umaren_brier": 1.0026564862938183,
+          "sanrenpuku_logloss": 5.7750613695194755,
+          "sanrenpuku_brier": 0.9995854654081258
+        }
+      },
+      "market": {
+        "ticket_count": 36,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7025179518599302,
+        "metrics": {
+          "ordered_top3_logloss": 7.579956553244548,
+          "umaren_logloss": 4.817685553496454,
+          "umaren_brier": 1.0097552758681592,
+          "sanrenpuku_logloss": 5.679605471106093,
+          "sanrenpuku_brier": 1.0026723505171447
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026081601010811",
+    "date": "2026-08-16",
+    "race_name": "GⅡ 札幌記念",
+    "variants": {
+      "old": {
+        "ticket_count": 89,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5954045576587618,
+        "metrics": {
+          "ordered_top3_logloss": 7.988727217629644,
+          "umaren_logloss": 4.868824238664626,
+          "umaren_brier": 1.0013156564250705,
+          "sanrenpuku_logloss": 6.132748345087497,
+          "sanrenpuku_brier": 1.0006523142666888
+        }
+      },
+      "corrected": {
+        "ticket_count": 51,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6282919707209385,
+        "metrics": {
+          "ordered_top3_logloss": 7.824665651876967,
+          "umaren_logloss": 3.8836358087184886,
+          "umaren_brier": 0.982830588500604,
+          "sanrenpuku_logloss": 6.108045651371692,
+          "sanrenpuku_brier": 1.0043247740542929
+        }
+      },
+      "market": {
+        "ticket_count": 59,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.68045519008838,
+        "metrics": {
+          "ordered_top3_logloss": 8.064862355216242,
+          "umaren_logloss": 3.79450576473062,
+          "umaren_brier": 0.9862327715027108,
+          "sanrenpuku_logloss": 6.378968216273078,
+          "sanrenpuku_brier": 1.0097939229672979
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026081607020807",
+    "date": "2026-08-16",
+    "race_name": "GⅢ 中京記念",
+    "variants": {
+      "old": {
+        "ticket_count": 88,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6057478290858193,
+        "metrics": {
+          "ordered_top3_logloss": 7.134301482451839,
+          "umaren_logloss": 4.422935894253878,
+          "umaren_brier": 0.9886763861222008,
+          "sanrenpuku_logloss": 5.302792847736638,
+          "sanrenpuku_brier": 0.9934032934089447
+        }
+      },
+      "corrected": {
+        "ticket_count": 45,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6814932409684592,
+        "metrics": {
+          "ordered_top3_logloss": 5.631301551185088,
+          "umaren_logloss": 3.740354657984771,
+          "umaren_brier": 0.9781924883383443,
+          "sanrenpuku_logloss": 3.6831151049338606,
+          "sanrenpuku_brier": 0.9586633829800545
+        }
+      },
+      "market": {
+        "ticket_count": 64,
+        "stake_yen": 10000,
+        "payout_yen": 13040,
+        "any_hit": true,
+        "model_hit_probability": 0.7069719227117125,
+        "metrics": {
+          "ordered_top3_logloss": 5.3261886957363895,
+          "umaren_logloss": 3.68076087866568,
+          "umaren_brier": 0.9884251203862009,
+          "sanrenpuku_logloss": 3.2870359663303192,
+          "sanrenpuku_brier": 0.9409348449295506
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026082301020211",
+    "date": "2026-08-23",
+    "race_name": "GⅢ キーンランドC",
+    "variants": {
+      "old": {
+        "ticket_count": 91,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.628662833213675,
+        "metrics": {
+          "ordered_top3_logloss": 7.054234207326829,
+          "umaren_logloss": 3.7394933386119162,
+          "umaren_brier": 0.9673709053846145,
+          "sanrenpuku_logloss": 5.326996681181189,
+          "sanrenpuku_brier": 0.9945371762051117
+        }
+      },
+      "corrected": {
+        "ticket_count": 45,
+        "stake_yen": 10000,
+        "payout_yen": 10640,
+        "any_hit": true,
+        "model_hit_probability": 0.6482017019097179,
+        "metrics": {
+          "ordered_top3_logloss": 5.641477447349382,
+          "umaren_logloss": 2.8208876833787055,
+          "umaren_brier": 0.9148705236841872,
+          "sanrenpuku_logloss": 3.814545211075373,
+          "sanrenpuku_brier": 0.9672241186908231
+        }
+      },
+      "market": {
+        "ticket_count": 49,
+        "stake_yen": 10000,
+        "payout_yen": 13620,
+        "any_hit": true,
+        "model_hit_probability": 0.7287750861053559,
+        "metrics": {
+          "ordered_top3_logloss": 5.437191184478698,
+          "umaren_logloss": 2.62440102247447,
+          "umaren_brier": 0.9126556423848025,
+          "sanrenpuku_logloss": 3.5528126127584203,
+          "sanrenpuku_brier": 0.9631552028310358
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026082304030207",
+    "date": "2026-08-23",
+    "race_name": "GⅢ 新潟2歳S",
+    "variants": {
+      "old": {
+        "ticket_count": 53,
+        "stake_yen": 10000,
+        "payout_yen": 10780,
+        "any_hit": true,
+        "model_hit_probability": 0.7460953648069072,
+        "metrics": {
+          "ordered_top3_logloss": 4.4714193181782615,
+          "umaren_logloss": 2.421567490270192,
+          "umaren_brier": 0.8801392918063216,
+          "sanrenpuku_logloss": 2.694717301199507,
+          "sanrenpuku_brier": 0.9025193821160835
+        }
+      },
+      "corrected": {
+        "ticket_count": 42,
+        "stake_yen": 10000,
+        "payout_yen": 10780,
+        "any_hit": true,
+        "model_hit_probability": 0.6583520181130725,
+        "metrics": {
+          "ordered_top3_logloss": 4.352863517557535,
+          "umaren_logloss": 2.0759059077341906,
+          "umaren_brier": 0.8189049477153646,
+          "sanrenpuku_logloss": 2.754044532406585,
+          "sanrenpuku_brier": 0.923475217083406
+        }
+      },
+      "market": {
+        "ticket_count": 19,
+        "stake_yen": 10000,
+        "payout_yen": 10780,
+        "any_hit": true,
+        "model_hit_probability": 0.7775483557918098,
+        "metrics": {
+          "ordered_top3_logloss": 4.223383554066449,
+          "umaren_logloss": 1.9066233612587857,
+          "umaren_brier": 0.7881985623457901,
+          "sanrenpuku_logloss": 2.689981719817144,
+          "sanrenpuku_brier": 0.9338365603026177
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026083004030408",
+    "date": "2026-08-30",
+    "race_name": "GⅢ 新潟記念",
+    "variants": {
+      "old": {
+        "ticket_count": 43,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7969623836311769,
+        "metrics": {
+          "ordered_top3_logloss": 4.649407129272419,
+          "umaren_logloss": 2.8944054142393325,
+          "umaren_brier": 0.9420936505999633,
+          "sanrenpuku_logloss": 2.618826232787229,
+          "sanrenpuku_brier": 0.8787601101869209
+        }
+      },
+      "corrected": {
+        "ticket_count": 38,
+        "stake_yen": 10000,
+        "payout_yen": 10530,
+        "any_hit": true,
+        "model_hit_probability": 0.7221033266772817,
+        "metrics": {
+          "ordered_top3_logloss": 3.97754670969241,
+          "umaren_logloss": 2.3142654980400685,
+          "umaren_brier": 0.8561142903435829,
+          "sanrenpuku_logloss": 2.128701727475748,
+          "sanrenpuku_brier": 0.793177894385413
+        }
+      },
+      "market": {
+        "ticket_count": 36,
+        "stake_yen": 10000,
+        "payout_yen": 10530,
+        "any_hit": true,
+        "model_hit_probability": 0.8050607755643268,
+        "metrics": {
+          "ordered_top3_logloss": 3.592407539175472,
+          "umaren_logloss": 2.088705781506669,
+          "umaren_brier": 0.823472504735973,
+          "sanrenpuku_logloss": 1.7625692787006702,
+          "sanrenpuku_brier": 0.7062861755103416
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026083007030407",
+    "date": "2026-08-30",
+    "race_name": "GⅢ 中京2歳S",
+    "variants": {
+      "old": {
+        "ticket_count": 65,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7591111932956943,
+        "metrics": {
+          "ordered_top3_logloss": 5.505698449427457,
+          "umaren_logloss": 3.386384634600151,
+          "umaren_brier": 0.9799464491546162,
+          "sanrenpuku_logloss": 3.6059090585629914,
+          "sanrenpuku_brier": 0.9726662013129508
+        }
+      },
+      "corrected": {
+        "ticket_count": 21,
+        "stake_yen": 10000,
+        "payout_yen": 10560,
+        "any_hit": true,
+        "model_hit_probability": 0.7358853930405358,
+        "metrics": {
+          "ordered_top3_logloss": 3.870454046827443,
+          "umaren_logloss": 2.343335515464442,
+          "umaren_brier": 0.9058413752728764,
+          "sanrenpuku_logloss": 2.242850667157619,
+          "sanrenpuku_brier": 0.859505352664533
+        }
+      },
+      "market": {
+        "ticket_count": 18,
+        "stake_yen": 10000,
+        "payout_yen": 10560,
+        "any_hit": true,
+        "model_hit_probability": 0.8399877941723655,
+        "metrics": {
+          "ordered_top3_logloss": 3.5356858441260934,
+          "umaren_logloss": 2.2178331347637865,
+          "umaren_brier": 0.9274702391832813,
+          "sanrenpuku_logloss": 2.006391531800564,
+          "sanrenpuku_brier": 0.8449977319691144
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026090501020511",
+    "date": "2026-09-05",
+    "race_name": "GⅢ 札幌2歳S",
+    "variants": {
+      "old": {
+        "ticket_count": 57,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.8643611085858932,
+        "metrics": {
+          "ordered_top3_logloss": 5.118586358937884,
+          "umaren_logloss": 2.6827014405168605,
+          "umaren_brier": 0.9224912258140183,
+          "sanrenpuku_logloss": 3.401330550375931,
+          "sanrenpuku_brier": 0.9711199364119389
+        }
+      },
+      "corrected": {
+        "ticket_count": 20,
+        "stake_yen": 10000,
+        "payout_yen": 10080,
+        "any_hit": true,
+        "model_hit_probability": 0.736292872885105,
+        "metrics": {
+          "ordered_top3_logloss": 3.4224568372047712,
+          "umaren_logloss": 1.4816469149287244,
+          "umaren_brier": 0.6953048448430343,
+          "sanrenpuku_logloss": 2.2923852885156215,
+          "sanrenpuku_brier": 0.8904283787019689
+        }
+      },
+      "market": {
+        "ticket_count": 14,
+        "stake_yen": 10000,
+        "payout_yen": 10640,
+        "any_hit": true,
+        "model_hit_probability": 0.8400152829965658,
+        "metrics": {
+          "ordered_top3_logloss": 3.158332329289415,
+          "umaren_logloss": 1.31459778250884,
+          "umaren_brier": 0.6709324141100215,
+          "sanrenpuku_logloss": 2.2191633477922954,
+          "sanrenpuku_brier": 0.9175940468135371
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026090506040111",
+    "date": "2026-09-05",
+    "race_name": "GⅢ 京成杯オータムH",
+    "variants": {
+      "old": {
+        "ticket_count": 81,
+        "stake_yen": 10000,
+        "payout_yen": 17840,
+        "any_hit": true,
+        "model_hit_probability": 0.5682023163438776,
+        "metrics": {
+          "ordered_top3_logloss": 7.5877401572634415,
+          "umaren_logloss": 4.020520736377136,
+          "umaren_brier": 0.9814060949577605,
+          "sanrenpuku_logloss": 5.815932605542871,
+          "sanrenpuku_brier": 0.9992504836606718
+        }
+      },
+      "corrected": {
+        "ticket_count": 54,
+        "stake_yen": 10000,
+        "payout_yen": 17840,
+        "any_hit": true,
+        "model_hit_probability": 0.6124127379255396,
+        "metrics": {
+          "ordered_top3_logloss": 7.975906869420666,
+          "umaren_logloss": 4.591073754560149,
+          "umaren_brier": 0.9979284399625344,
+          "sanrenpuku_logloss": 6.171435622784385,
+          "sanrenpuku_brier": 1.0017056442669927
+        }
+      },
+      "market": {
+        "ticket_count": 41,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7043523586849072,
+        "metrics": {
+          "ordered_top3_logloss": 8.24671984650928,
+          "umaren_logloss": 4.795498985179011,
+          "umaren_brier": 1.0063866241671267,
+          "sanrenpuku_logloss": 6.437376395296406,
+          "sanrenpuku_brier": 1.0051281067125197
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026090606040211",
+    "date": "2026-09-06",
+    "race_name": "GⅡ 紫苑S",
+    "variants": {
+      "old": {
+        "ticket_count": 72,
+        "stake_yen": 10000,
+        "payout_yen": 11070,
+        "any_hit": true,
+        "model_hit_probability": 0.7698500681303971,
+        "metrics": {
+          "ordered_top3_logloss": 6.1249640209000376,
+          "umaren_logloss": 4.164740174232881,
+          "umaren_brier": 0.9964001624365508,
+          "sanrenpuku_logloss": 4.149645521786838,
+          "sanrenpuku_brier": 0.9787972953865904
+        }
+      },
+      "corrected": {
+        "ticket_count": 44,
+        "stake_yen": 10000,
+        "payout_yen": 11160,
+        "any_hit": true,
+        "model_hit_probability": 0.6947154379947393,
+        "metrics": {
+          "ordered_top3_logloss": 5.843789091466726,
+          "umaren_logloss": 4.043138705865284,
+          "umaren_brier": 1.0062530371516258,
+          "sanrenpuku_logloss": 3.76608006520871,
+          "sanrenpuku_brier": 0.9724767164774393
+        }
+      },
+      "market": {
+        "ticket_count": 38,
+        "stake_yen": 10000,
+        "payout_yen": 11160,
+        "any_hit": true,
+        "model_hit_probability": 0.7708580375383541,
+        "metrics": {
+          "ordered_top3_logloss": 5.865100681463433,
+          "umaren_logloss": 4.189876655943508,
+          "umaren_brier": 1.024471930430253,
+          "sanrenpuku_logloss": 3.6974172604650777,
+          "sanrenpuku_brier": 0.9780073277804644
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026090609040211",
+    "date": "2026-09-06",
+    "race_name": "GⅡ セントウルS",
+    "variants": {
+      "old": {
+        "ticket_count": 95,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.43699693545564183,
+        "metrics": {
+          "ordered_top3_logloss": 7.215634227497802,
+          "umaren_logloss": 3.6765410810528256,
+          "umaren_brier": 0.9661725445611485,
+          "sanrenpuku_logloss": 5.50884057907243,
+          "sanrenpuku_brier": 0.9968892582619667
+        }
+      },
+      "corrected": {
+        "ticket_count": 67,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6166272082401488,
+        "metrics": {
+          "ordered_top3_logloss": 5.130151279076596,
+          "umaren_logloss": 2.3953784994135083,
+          "umaren_brier": 0.8548929424232363,
+          "sanrenpuku_logloss": 3.5406403523401484,
+          "sanrenpuku_brier": 0.9588185424752057
+        }
+      },
+      "market": {
+        "ticket_count": 51,
+        "stake_yen": 10000,
+        "payout_yen": 10920,
+        "any_hit": true,
+        "model_hit_probability": 0.7597394366097453,
+        "metrics": {
+          "ordered_top3_logloss": 4.676486811459095,
+          "umaren_logloss": 2.0553701830947357,
+          "umaren_brier": 0.8005591505334424,
+          "sanrenpuku_logloss": 3.1624496845477217,
+          "sanrenpuku_brier": 0.9470829345293476
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026091209040311",
+    "date": "2026-09-12",
+    "race_name": "GⅢ チャレンジC",
+    "variants": {
+      "old": {
+        "ticket_count": 95,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6076340435376921,
+        "metrics": {
+          "ordered_top3_logloss": 7.671696852636514,
+          "umaren_logloss": 4.528559163144481,
+          "umaren_brier": 0.9897564728996341,
+          "sanrenpuku_logloss": 5.853818592271011,
+          "sanrenpuku_brier": 0.9971199722411458
+        }
+      },
+      "corrected": {
+        "ticket_count": 59,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6234642001573187,
+        "metrics": {
+          "ordered_top3_logloss": 7.470378111116647,
+          "umaren_logloss": 4.425661904198423,
+          "umaren_brier": 0.9961620361096404,
+          "sanrenpuku_logloss": 5.704810471075887,
+          "sanrenpuku_brier": 0.9998065592068723
+        }
+      },
+      "market": {
+        "ticket_count": 56,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6448429892721627,
+        "metrics": {
+          "ordered_top3_logloss": 7.653833704007943,
+          "umaren_logloss": 4.558535637485378,
+          "umaren_brier": 1.0099680800664705,
+          "sanrenpuku_logloss": 5.902130560660414,
+          "sanrenpuku_brier": 1.0064055082517203
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026091306040411",
+    "date": "2026-09-13",
+    "race_name": "GⅡ セントライト記念",
+    "variants": {
+      "old": {
+        "ticket_count": 99,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.3994341130226964,
+        "metrics": {
+          "ordered_top3_logloss": 8.197334149149732,
+          "umaren_logloss": 4.874631007884687,
+          "umaren_brier": 0.9985682055681199,
+          "sanrenpuku_logloss": 6.387172830346606,
+          "sanrenpuku_brier": 1.0001966090355259
+        }
+      },
+      "corrected": {
+        "ticket_count": 56,
+        "stake_yen": 10000,
+        "payout_yen": 11560,
+        "any_hit": true,
+        "model_hit_probability": 0.5970392074121266,
+        "metrics": {
+          "ordered_top3_logloss": 8.101323207693579,
+          "umaren_logloss": 4.903143080706335,
+          "umaren_brier": 1.0124790580492788,
+          "sanrenpuku_logloss": 6.249839903434196,
+          "sanrenpuku_brier": 1.0072461059297444
+        }
+      },
+      "market": {
+        "ticket_count": 52,
+        "stake_yen": 10000,
+        "payout_yen": 11560,
+        "any_hit": true,
+        "model_hit_probability": 0.695470224268298,
+        "metrics": {
+          "ordered_top3_logloss": 8.406941371651595,
+          "umaren_logloss": 5.14375748317307,
+          "umaren_brier": 1.0262643533681042,
+          "sanrenpuku_logloss": 6.549174909314945,
+          "sanrenpuku_brier": 1.0159774350736657
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026091309040411",
+    "date": "2026-09-13",
+    "race_name": "GⅡ ローズS",
+    "variants": {
+      "old": {
+        "ticket_count": 66,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7010457372199027,
+        "metrics": {
+          "ordered_top3_logloss": 4.9490726315610045,
+          "umaren_logloss": 3.1292198155078004,
+          "umaren_brier": 0.9453986912019727,
+          "sanrenpuku_logloss": 3.063679823134498,
+          "sanrenpuku_brier": 0.9202878466307784
+        }
+      },
+      "corrected": {
+        "ticket_count": 42,
+        "stake_yen": 10000,
+        "payout_yen": 11100,
+        "any_hit": true,
+        "model_hit_probability": 0.7138758791023475,
+        "metrics": {
+          "ordered_top3_logloss": 3.904553961850011,
+          "umaren_logloss": 2.122222514804064,
+          "umaren_brier": 0.819255235881043,
+          "sanrenpuku_logloss": 2.332224767343864,
+          "sanrenpuku_brier": 0.8352747179325997
+        }
+      },
+      "market": {
+        "ticket_count": 32,
+        "stake_yen": 10000,
+        "payout_yen": 11100,
+        "any_hit": true,
+        "model_hit_probability": 0.8138906320452345,
+        "metrics": {
+          "ordered_top3_logloss": 3.4414548790243953,
+          "umaren_logloss": 1.8277078845981445,
+          "umaren_brier": 0.7639616277737247,
+          "sanrenpuku_logloss": 1.9900375755091875,
+          "sanrenpuku_brier": 0.7729866395806679
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026092006040611",
+    "date": "2026-09-20",
+    "race_name": "GⅡ オールカマー",
+    "variants": {
+      "old": {
+        "ticket_count": 95,
+        "stake_yen": 10000,
+        "payout_yen": 30940,
+        "any_hit": true,
+        "model_hit_probability": 0.48697973134860334,
+        "metrics": {
+          "ordered_top3_logloss": 7.075004493553725,
+          "umaren_logloss": 4.286013116069544,
+          "umaren_brier": 0.9923604182768493,
+          "sanrenpuku_logloss": 5.226450565317893,
+          "sanrenpuku_brier": 0.9959100711705637
+        }
+      },
+      "corrected": {
+        "ticket_count": 58,
+        "stake_yen": 10000,
+        "payout_yen": 30940,
+        "any_hit": true,
+        "model_hit_probability": 0.5642050008629733,
+        "metrics": {
+          "ordered_top3_logloss": 7.774825239300842,
+          "umaren_logloss": 5.449597512179322,
+          "umaren_brier": 1.037565097499385,
+          "sanrenpuku_logloss": 5.796384303425142,
+          "sanrenpuku_brier": 1.0181898005337278
+        }
+      },
+      "market": {
+        "ticket_count": 35,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6866230206226028,
+        "metrics": {
+          "ordered_top3_logloss": 8.257601275199615,
+          "umaren_logloss": 6.027500699324561,
+          "umaren_brier": 1.0626109628286535,
+          "sanrenpuku_logloss": 6.2386142012682795,
+          "sanrenpuku_brier": 1.0407372168468605
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026092109040711",
+    "date": "2026-09-21",
+    "race_name": "GⅡ 神戸新聞杯",
+    "variants": {
+      "old": {
+        "ticket_count": 86,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.7578396117450804,
+        "metrics": {
+          "ordered_top3_logloss": 6.781740855337336,
+          "umaren_logloss": 3.5760577029171876,
+          "umaren_brier": 0.9680659064992208,
+          "sanrenpuku_logloss": 5.054642628142971,
+          "sanrenpuku_brier": 0.9963706317899466
+        }
+      },
+      "corrected": {
+        "ticket_count": 38,
+        "stake_yen": 10000,
+        "payout_yen": 14410,
+        "any_hit": true,
+        "model_hit_probability": 0.7073012434731606,
+        "metrics": {
+          "ordered_top3_logloss": 6.160600978524091,
+          "umaren_logloss": 2.1421024569109344,
+          "umaren_brier": 0.8298381456291082,
+          "sanrenpuku_logloss": 4.867259515964672,
+          "sanrenpuku_brier": 1.011589878434591
+        }
+      },
+      "market": {
+        "ticket_count": 26,
+        "stake_yen": 10000,
+        "payout_yen": 14410,
+        "any_hit": true,
+        "model_hit_probability": 0.8329091353382692,
+        "metrics": {
+          "ordered_top3_logloss": 6.240892792882708,
+          "umaren_logloss": 1.8850530150630378,
+          "umaren_brier": 0.7932543407004098,
+          "sanrenpuku_logloss": 5.126673521224857,
+          "sanrenpuku_brier": 1.0279568135685053
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026092609040811",
+    "date": "2026-09-26",
+    "race_name": "GⅢ シリウスS",
+    "variants": {
+      "old": {
+        "ticket_count": 87,
+        "stake_yen": 10000,
+        "payout_yen": 22870,
+        "any_hit": true,
+        "model_hit_probability": 0.5685975931078384,
+        "metrics": {
+          "ordered_top3_logloss": 8.50941604696505,
+          "umaren_logloss": 5.144805661877185,
+          "umaren_brier": 1.0031966057593231,
+          "sanrenpuku_logloss": 6.691960985822897,
+          "sanrenpuku_brier": 1.001784187592918
+        }
+      },
+      "corrected": {
+        "ticket_count": 63,
+        "stake_yen": 10000,
+        "payout_yen": 22870,
+        "any_hit": true,
+        "model_hit_probability": 0.602283036379889,
+        "metrics": {
+          "ordered_top3_logloss": 8.846623967631206,
+          "umaren_logloss": 5.333771259002588,
+          "umaren_brier": 1.0097097879697923,
+          "sanrenpuku_logloss": 7.057442441122234,
+          "sanrenpuku_brier": 1.004203393716909
+        }
+      },
+      "market": {
+        "ticket_count": 51,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6720624224948007,
+        "metrics": {
+          "ordered_top3_logloss": 9.231126589560766,
+          "umaren_logloss": 5.592748594547793,
+          "umaren_brier": 1.019659808920474,
+          "sanrenpuku_logloss": 7.446155422432012,
+          "sanrenpuku_brier": 1.0081553871801807
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026092706040911",
+    "date": "2026-09-27",
+    "race_name": "GⅠ スプリンターズS",
+    "variants": {
+      "old": {
+        "ticket_count": 94,
+        "stake_yen": 10000,
+        "payout_yen": 13560,
+        "any_hit": true,
+        "model_hit_probability": 0.5546290204413932,
+        "metrics": {
+          "ordered_top3_logloss": 7.348923567951882,
+          "umaren_logloss": 4.244847898513845,
+          "umaren_brier": 0.9830817354946485,
+          "sanrenpuku_logloss": 5.557883354348951,
+          "sanrenpuku_brier": 0.9952920100594913
+        }
+      },
+      "corrected": {
+        "ticket_count": 64,
+        "stake_yen": 10000,
+        "payout_yen": 13560,
+        "any_hit": true,
+        "model_hit_probability": 0.6018177884128385,
+        "metrics": {
+          "ordered_top3_logloss": 8.805159120098269,
+          "umaren_logloss": 4.96448648772721,
+          "umaren_brier": 1.0063444462474622,
+          "sanrenpuku_logloss": 7.016647980087234,
+          "sanrenpuku_brier": 1.004673574180008
+        }
+      },
+      "market": {
+        "ticket_count": 63,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6476771764306634,
+        "metrics": {
+          "ordered_top3_logloss": 9.411873673621606,
+          "umaren_logloss": 5.282358279124607,
+          "umaren_brier": 1.020973657062773,
+          "sanrenpuku_logloss": 7.6231306975466175,
+          "sanrenpuku_brier": 1.010598506775167
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026100405040211",
+    "date": "2026-10-04",
+    "race_name": "GⅡ 毎日王冠",
+    "variants": {
+      "old": {
+        "ticket_count": 84,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6757006759972859,
+        "metrics": {
+          "ordered_top3_logloss": 9.64810016772649,
+          "umaren_logloss": 6.4944836340086125,
+          "umaren_brier": 1.0162477374861412,
+          "sanrenpuku_logloss": 7.797246044194604,
+          "sanrenpuku_brier": 1.0052211190127125
+        }
+      },
+      "corrected": {
+        "ticket_count": 45,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6044565657560432,
+        "metrics": {
+          "ordered_top3_logloss": 8.892979193312533,
+          "umaren_logloss": 5.346710762491987,
+          "umaren_brier": 1.0223024689463873,
+          "sanrenpuku_logloss": 7.119861944595138,
+          "sanrenpuku_brier": 1.0112020300073963
+        }
+      },
+      "market": {
+        "ticket_count": 53,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6307983309185757,
+        "metrics": {
+          "ordered_top3_logloss": 9.324388109166488,
+          "umaren_logloss": 5.543806309793197,
+          "umaren_brier": 1.0438535471718051,
+          "sanrenpuku_logloss": 7.5639464882279555,
+          "sanrenpuku_brier": 1.0245217974821692
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026100408040211",
+    "date": "2026-10-04",
+    "race_name": "GⅡ 京都大賞典",
+    "variants": {
+      "old": {
+        "ticket_count": 85,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5956527117070781,
+        "metrics": {
+          "ordered_top3_logloss": 8.454771369494383,
+          "umaren_logloss": 5.2974953318733995,
+          "umaren_brier": 1.010501956719325,
+          "sanrenpuku_logloss": 6.661414425969166,
+          "sanrenpuku_brier": 1.00344563566123
+        }
+      },
+      "corrected": {
+        "ticket_count": 60,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5887904907406435,
+        "metrics": {
+          "ordered_top3_logloss": 8.48712331755082,
+          "umaren_logloss": 5.802767586358619,
+          "umaren_brier": 1.0107109926890585,
+          "sanrenpuku_logloss": 6.590687715768653,
+          "sanrenpuku_brier": 1.0023356739106208
+        }
+      },
+      "market": {
+        "ticket_count": 48,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.6608232197766309,
+        "metrics": {
+          "ordered_top3_logloss": 8.749702145285438,
+          "umaren_logloss": 6.183266846450715,
+          "umaren_brier": 1.0179027022903662,
+          "sanrenpuku_logloss": 6.8213660745519595,
+          "sanrenpuku_brier": 1.0056361831246765
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026101005040311",
+    "date": "2026-10-10",
+    "race_name": "GⅢ サウジアラビアロイヤルC",
+    "variants": {
+      "old": {
+        "ticket_count": 83,
+        "stake_yen": 10000,
+        "payout_yen": 10360,
+        "any_hit": true,
+        "model_hit_probability": 0.677916840295271,
+        "metrics": {
+          "ordered_top3_logloss": 5.9659847333781535,
+          "umaren_logloss": 3.9406187239049015,
+          "umaren_brier": 0.9865915802263853,
+          "sanrenpuku_logloss": 3.9930993452428147,
+          "sanrenpuku_brier": 0.9724427365361794
+        }
+      },
+      "corrected": {
+        "ticket_count": 60,
+        "stake_yen": 10000,
+        "payout_yen": 10200,
+        "any_hit": true,
+        "model_hit_probability": 0.6080816774121263,
+        "metrics": {
+          "ordered_top3_logloss": 5.783186888163444,
+          "umaren_logloss": 4.064973143196981,
+          "umaren_brier": 1.0139358127089575,
+          "sanrenpuku_logloss": 3.7389997274010227,
+          "sanrenpuku_brier": 0.976013749977849
+        }
+      },
+      "market": {
+        "ticket_count": 39,
+        "stake_yen": 10000,
+        "payout_yen": 10200,
+        "any_hit": true,
+        "model_hit_probability": 0.7832960849919692,
+        "metrics": {
+          "ordered_top3_logloss": 5.843624921416808,
+          "umaren_logloss": 4.270999875628913,
+          "umaren_brier": 1.0394365645310923,
+          "sanrenpuku_logloss": 3.7122878681872984,
+          "sanrenpuku_brier": 0.9882388185746047
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026101105040411",
+    "date": "2026-10-11",
+    "race_name": "GⅡ アイルランドT",
+    "variants": {
+      "old": {
+        "ticket_count": 93,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5368071375760349,
+        "metrics": {
+          "ordered_top3_logloss": 6.992714906985599,
+          "umaren_logloss": 3.7048444623196217,
+          "umaren_brier": 0.9627410948558882,
+          "sanrenpuku_logloss": 5.292342801905404,
+          "sanrenpuku_brier": 0.9929629359220055
+        }
+      },
+      "corrected": {
+        "ticket_count": 45,
+        "stake_yen": 10000,
+        "payout_yen": 11100,
+        "any_hit": true,
+        "model_hit_probability": 0.6486438768343349,
+        "metrics": {
+          "ordered_top3_logloss": 5.123664193186048,
+          "umaren_logloss": 2.849768461099849,
+          "umaren_brier": 0.9090389240607065,
+          "sanrenpuku_logloss": 3.424669032057083,
+          "sanrenpuku_brier": 0.9437552744830302
+        }
+      },
+      "market": {
+        "ticket_count": 55,
+        "stake_yen": 10000,
+        "payout_yen": 10500,
+        "any_hit": true,
+        "model_hit_probability": 0.6556839969215241,
+        "metrics": {
+          "ordered_top3_logloss": 4.634412992577478,
+          "umaren_logloss": 2.5961096067973415,
+          "umaren_brier": 0.8865722116581916,
+          "sanrenpuku_logloss": 2.9562681380453415,
+          "sanrenpuku_brier": 0.9112172195423888
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026101208040511",
+    "date": "2026-10-12",
+    "race_name": "GⅡ スワンS",
+    "variants": {
+      "old": {
+        "ticket_count": 96,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5782204133129801,
+        "metrics": {
+          "ordered_top3_logloss": 8.833201557251446,
+          "umaren_logloss": 5.3724155745816065,
+          "umaren_brier": 0.9995218156177065,
+          "sanrenpuku_logloss": 7.086464481643004,
+          "sanrenpuku_brier": 1.0002488361096917
+        }
+      },
+      "corrected": {
+        "ticket_count": 57,
+        "stake_yen": 10000,
+        "payout_yen": 17100,
+        "any_hit": true,
+        "model_hit_probability": 0.5731286306943142,
+        "metrics": {
+          "ordered_top3_logloss": 6.803368614575729,
+          "umaren_logloss": 4.492479208168291,
+          "umaren_brier": 0.9938933731408113,
+          "sanrenpuku_logloss": 4.954640934522745,
+          "sanrenpuku_brier": 0.9906770872574918
+        }
+      },
+      "market": {
+        "ticket_count": 44,
+        "stake_yen": 10000,
+        "payout_yen": 17100,
+        "any_hit": true,
+        "model_hit_probability": 0.6873903648544567,
+        "metrics": {
+          "ordered_top3_logloss": 6.5086596186637875,
+          "umaren_logloss": 4.461289108781738,
+          "umaren_brier": 1.0008124362694315,
+          "sanrenpuku_logloss": 4.605624542620842,
+          "sanrenpuku_brier": 0.9884042660399128
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026101705040611",
+    "date": "2026-10-17",
+    "race_name": "GⅡ 富士S",
+    "variants": {
+      "old": {
+        "ticket_count": 80,
+        "stake_yen": 10000,
+        "payout_yen": 12340,
+        "any_hit": true,
+        "model_hit_probability": 0.6172485080650458,
+        "metrics": {
+          "ordered_top3_logloss": 6.882243109427323,
+          "umaren_logloss": 4.003287337168424,
+          "umaren_brier": 0.9855873993404961,
+          "sanrenpuku_logloss": 5.0281473976772375,
+          "sanrenpuku_brier": 0.9946102082189828
+        }
+      },
+      "corrected": {
+        "ticket_count": 53,
+        "stake_yen": 10000,
+        "payout_yen": 12340,
+        "any_hit": true,
+        "model_hit_probability": 0.6521193449668031,
+        "metrics": {
+          "ordered_top3_logloss": 7.29182580332505,
+          "umaren_logloss": 4.421161352537973,
+          "umaren_brier": 1.0098746187520542,
+          "sanrenpuku_logloss": 5.408590665119192,
+          "sanrenpuku_brier": 1.005286913341128
+        }
+      },
+      "market": {
+        "ticket_count": 48,
+        "stake_yen": 10000,
+        "payout_yen": 12340,
+        "any_hit": true,
+        "model_hit_probability": 0.6755434481402478,
+        "metrics": {
+          "ordered_top3_logloss": 7.535911642775899,
+          "umaren_logloss": 4.636329549646404,
+          "umaren_brier": 1.0292044316055167,
+          "sanrenpuku_logloss": 5.641998044846431,
+          "sanrenpuku_brier": 1.0167239244161324
+        }
+      }
+    }
+  },
+  {
+    "race_code": "2026101808040711",
+    "date": "2026-10-18",
+    "race_name": "GⅠ 秋華賞",
+    "variants": {
+      "old": {
+        "ticket_count": 92,
+        "stake_yen": 10000,
+        "payout_yen": 0,
+        "any_hit": false,
+        "model_hit_probability": 0.5473514764882113,
+        "metrics": {
+          "ordered_top3_logloss": 6.579449432666617,
+          "umaren_logloss": 4.175738826448531,
+          "umaren_brier": 0.9818638399625146,
+          "sanrenpuku_logloss": 4.774096201803473,
+          "sanrenpuku_brier": 0.9862862749386593
+        }
+      },
+      "corrected": {
+        "ticket_count": 49,
+        "stake_yen": 10000,
+        "payout_yen": 10560,
+        "any_hit": true,
+        "model_hit_probability": 0.6494818738759613,
+        "metrics": {
+          "ordered_top3_logloss": 5.1327835343034955,
+          "umaren_logloss": 3.153759062983943,
+          "umaren_brier": 0.972907397063486,
+          "sanrenpuku_logloss": 3.704835407947554,
+          "sanrenpuku_brier": 0.969393820305308
+        }
+      },
+      "market": {
+        "ticket_count": 43,
+        "stake_yen": 10000,
+        "payout_yen": 10560,
+        "any_hit": true,
+        "model_hit_probability": 0.7462398758936339,
+        "metrics": {
+          "ordered_top3_logloss": 4.8014187493236555,
+          "umaren_logloss": 3.071493677233604,
+          "umaren_brier": 1.0040496328748987,
+          "sanrenpuku_logloss": 3.537370967887512,
+          "sanrenpuku_brier": 0.9743738245624757
+        }
+      }
+    }
+  }
+]

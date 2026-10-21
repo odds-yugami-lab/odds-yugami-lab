@@ -1,0 +1,3 @@
+"""Frozen 2025-only calibration. Production use requires explicit runner selection and live gates."""
+PARAMETERS = {'version': 'market_strength_calibration_v1_20261021', 'alpha_ai': 0.10902943648255348, 'beta_market': 0.7586398739642098, 'fitted_on_year': 2025, 'fitted_races': 119, '2026_labels_used_for_fitting': False}
+MODEL_SHA256 = {'top3_model.joblib': 'f0e1109be2bd6a4dfcd2099df46cb95f17d846d202b0e1b0a39f6e5123cd4115', 'top3_platt.joblib': '5df2d77bfb2e595158a740d76233183f6c11ad1f26139f7196d5af8fe7756dec', 'win_model.joblib': '0d098fe95abfe1453cedbca9803be68d6ce8b8f82bf36514b3f6557aac02b645', 'win_platt.joblib': '191cff046054aecd53ed62d72376e6a11fc9c3ee244bcffd0f0bd37569581ded'}

@@ -1,0 +1,23 @@
+{
+  "created_at": "2026-10-21T02:37:04.084082+00:00",
+  "training_end": "2024-12-31",
+  "prediction_year": 2025,
+  "training_rows": 677533,
+  "calibration_rows": 47497,
+  "graded_horses": 1931,
+  "graded_races": 130,
+  "original_calibrators_reproduced": {
+    "win": {
+      "max_parameter_difference": 0.008874317450245812,
+      "reproduced": false
+    },
+    "top3": {
+      "max_parameter_difference": 0.0029220866475636598,
+      "reproduced": false
+    }
+  },
+  "source_sha256": "d87a7e8116e5648ffb872672953e22d367dde772812db680a45f76fb2300bbd2",
+  "production_model_modified": false,
+  "reconstruction_scope": "Same archived algorithm, features, row counts and temporal split; exact historical fitted parameters are checked separately and are not assumed identical.",
+  "recreated_predictions_use": "Their own Platt calibrator fitted on 2025; all correction parameters fitted in 2025 only."
+}

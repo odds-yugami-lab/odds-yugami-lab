@@ -1,0 +1,737 @@
+{
+  "record_type": "time_separated_probability_correction_comparison",
+  "created_at": "2026-10-21T02:42:52.113479+00:00",
+  "fit_year": 2025,
+  "evaluation_year": 2026,
+  "evaluation_is_untouched": false,
+  "test_only": true,
+  "final_odds_used": true,
+  "model_or_original_records_overwritten": false,
+  "production_activated": false,
+  "coefficient": {
+    "alpha_ai": 0.10902943648255348,
+    "beta_market": 0.7586398739642098,
+    "fitted_races": 119,
+    "2026_labels_used_for_fitting": false
+  },
+  "aggregate": {
+    "old": {
+      "races": 103,
+      "horses": 1547,
+      "horse_WIN": {
+        "brier": 0.060249734549282445,
+        "logloss": 0.22856284956964942
+      },
+      "horse_TOP3": {
+        "brier": 0.14629671069502867,
+        "logloss": 0.45895256361354353
+      },
+      "combo": {
+        "ordered_top3_logloss": 7.283972758436611,
+        "umaren_logloss": 4.263610473126847,
+        "umaren_brier": 0.9784112651612673,
+        "sanrenpuku_logloss": 5.495849973472178,
+        "sanrenpuku_brier": 0.9880552295423289
+      },
+      "portfolio": {
+        "ticket_count": 8753,
+        "stake_yen": 1030000,
+        "payout_yen": 593130,
+        "recovery_percent": 57.585436893203884,
+        "hit_races": 31,
+        "actual_hit_rate": 0.30097087378640774,
+        "mean_model_hit_probability": 0.5836574777724842,
+        "absolute_hit_calibration_gap": 0.2826866039860766,
+        "model_expected_payout_yen": 7157942.610435117,
+        "stake_share_at_100x_or_more": 0.7614563106796116,
+        "max_allocation_seconds": 0.8540311320002729
+      },
+      "popularity_groups": [
+        {
+          "group": "1",
+          "horses": 103,
+          "pred_WIN": 0.1365664570561706,
+          "actual_WIN": 0.33980582524271846,
+          "pred_TOP3": 0.3423834969229729,
+          "actual_TOP3": 0.6310679611650486
+        },
+        {
+          "group": "2-3",
+          "horses": 206,
+          "pred_WIN": 0.10565791747815495,
+          "actual_WIN": 0.10679611650485436,
+          "pred_TOP3": 0.2959332461038349,
+          "actual_TOP3": 0.3640776699029126
+        },
+        {
+          "group": "4-6",
+          "horses": 309,
+          "pred_WIN": 0.07574324917764869,
+          "actual_WIN": 0.06796116504854369,
+          "pred_TOP3": 0.2329679083292225,
+          "actual_TOP3": 0.255663430420712
+        },
+        {
+          "group": "7-10",
+          "horses": 405,
+          "pred_WIN": 0.05534871926844763,
+          "actual_WIN": 0.04691358024691358,
+          "pred_TOP3": 0.17669958353744825,
+          "actual_TOP3": 0.14320987654320988
+        },
+        {
+          "group": "11+",
+          "horses": 524,
+          "pred_WIN": 0.03565332464133205,
+          "actual_WIN": 0.011450381679389313,
+          "pred_TOP3": 0.11586441606041993,
+          "actual_TOP3": 0.061068702290076333
+        }
+      ]
+    },
+    "corrected": {
+      "races": 103,
+      "horses": 1547,
+      "horse_WIN": {
+        "brier": 0.05579656218257911,
+        "logloss": 0.20642440348025795
+      },
+      "horse_TOP3": {
+        "brier": 0.13005082795013687,
+        "logloss": 0.4111115830189038
+      },
+      "combo": {
+        "ordered_top3_logloss": 6.657359082824362,
+        "umaren_logloss": 3.8485809454916327,
+        "umaren_brier": 0.9618094256089441,
+        "sanrenpuku_logloss": 4.893684354526625,
+        "sanrenpuku_brier": 0.9737281088174454
+      },
+      "portfolio": {
+        "ticket_count": 5399,
+        "stake_yen": 1030000,
+        "payout_yen": 815700,
+        "recovery_percent": 79.19417475728156,
+        "hit_races": 63,
+        "actual_hit_rate": 0.6116504854368932,
+        "mean_model_hit_probability": 0.6284322711792896,
+        "absolute_hit_calibration_gap": 0.016781785742396492,
+        "model_expected_payout_yen": 1081130.1292399752,
+        "stake_share_at_100x_or_more": 0.3284466019417476,
+        "max_allocation_seconds": 3.45735434900007
+      },
+      "popularity_groups": [
+        {
+          "group": "1",
+          "horses": 103,
+          "pred_WIN": 0.22828880717736044,
+          "actual_WIN": 0.33980582524271846,
+          "pred_TOP3": 0.5723757467536074,
+          "actual_TOP3": 0.6310679611650486
+        },
+        {
+          "group": "2-3",
+          "horses": 206,
+          "pred_WIN": 0.142999252299358,
+          "actual_WIN": 0.10679611650485436,
+          "pred_TOP3": 0.41954943367724556,
+          "actual_TOP3": 0.3640776699029126
+        },
+        {
+          "group": "4-6",
+          "horses": 309,
+          "pred_WIN": 0.08011453037341233,
+          "actual_WIN": 0.06796116504854369,
+          "pred_TOP3": 0.25675381678492504,
+          "actual_TOP3": 0.255663430420712
+        },
+        {
+          "group": "7-10",
+          "horses": 405,
+          "pred_WIN": 0.04084264721546019,
+          "actual_WIN": 0.04691358024691358,
+          "pred_TOP3": 0.1355595163208923,
+          "actual_TOP3": 0.14320987654320988
+        },
+        {
+          "group": "11+",
+          "horses": 524,
+          "pred_WIN": 0.01666363526606554,
+          "actual_WIN": 0.011450381679389313,
+          "pred_TOP3": 0.05606790314954701,
+          "actual_TOP3": 0.061068702290076333
+        }
+      ]
+    },
+    "market": {
+      "races": 103,
+      "horses": 1547,
+      "horse_WIN": {
+        "brier": 0.05532607769036099,
+        "logloss": 0.20512024879864443
+      },
+      "horse_TOP3": {
+        "brier": 0.1310562973052082,
+        "logloss": 0.4135407757286695
+      },
+      "combo": {
+        "ordered_top3_logloss": 6.684420437223038,
+        "umaren_logloss": 3.8744177929046857,
+        "umaren_brier": 0.9662847490429508,
+        "sanrenpuku_logloss": 4.925965257599169,
+        "sanrenpuku_brier": 0.9733058847382088
+      },
+      "portfolio": {
+        "ticket_count": 4515,
+        "stake_yen": 1030000,
+        "payout_yen": 878030,
+        "recovery_percent": 85.24563106796117,
+        "hit_races": 69,
+        "actual_hit_rate": 0.6699029126213593,
+        "mean_model_hit_probability": 0.7205612902897466,
+        "absolute_hit_calibration_gap": 0.050658377668387246,
+        "model_expected_payout_yen": 1026269.6543150746,
+        "stake_share_at_100x_or_more": 0.21233009708737863,
+        "max_allocation_seconds": 4.4624097719997735
+      },
+      "popularity_groups": [
+        {
+          "group": "1",
+          "horses": 103,
+          "pred_WIN": 0.2765462426895439,
+          "actual_WIN": 0.33980582524271846,
+          "pred_TOP3": 0.6528588520189685,
+          "actual_TOP3": 0.6310679611650486
+        },
+        {
+          "group": "2-3",
+          "horses": 206,
+          "pred_WIN": 0.1542059068647308,
+          "actual_WIN": 0.10679611650485436,
+          "pred_TOP3": 0.4633978891962735,
+          "actual_TOP3": 0.3640776699029126
+        },
+        {
+          "group": "4-6",
+          "horses": 309,
+          "pred_WIN": 0.07558910123572458,
+          "actual_WIN": 0.06796116504854369,
+          "pred_TOP3": 0.2543390722386376,
+          "actual_TOP3": 0.255663430420712
+        },
+        {
+          "group": "7-10",
+          "horses": 405,
+          "pred_WIN": 0.033333243282668214,
+          "actual_WIN": 0.04691358024691358,
+          "pred_TOP3": 0.11602678801981071,
+          "actual_TOP3": 0.14320987654320988
+        },
+        {
+          "group": "11+",
+          "horses": 524,
+          "pred_WIN": 0.011244893850234581,
+          "actual_WIN": 0.011450381679389313,
+          "pred_TOP3": 0.03953044007223578,
+          "actual_TOP3": 0.061068702290076333
+        }
+      ]
+    }
+  },
+  "halves": {
+    "H1": {
+      "old": {
+        "races": 68,
+        "horses": 1046,
+        "horse_WIN": {
+          "brier": 0.058340988935486206,
+          "logloss": 0.2203777210795964
+        },
+        "horse_TOP3": {
+          "brier": 0.14347875716040084,
+          "logloss": 0.45303212114313823
+        },
+        "combo": {
+          "ordered_top3_logloss": 7.352502217747279,
+          "umaren_logloss": 4.284957330195075,
+          "umaren_brier": 0.9768588057187507,
+          "sanrenpuku_logloss": 5.573992553799331,
+          "sanrenpuku_brier": 0.9889749113460768
+        },
+        "portfolio": {
+          "ticket_count": 5861,
+          "stake_yen": 680000,
+          "payout_yen": 437020,
+          "recovery_percent": 64.26764705882353,
+          "hit_races": 21,
+          "actual_hit_rate": 0.3088235294117647,
+          "mean_model_hit_probability": 0.5615092787783486,
+          "absolute_hit_calibration_gap": 0.25268574936658394,
+          "model_expected_payout_yen": 5130167.023118495,
+          "stake_share_at_100x_or_more": 0.7776470588235294,
+          "max_allocation_seconds": 0.8540311320002729
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 68,
+            "pred_WIN": 0.1336060034430669,
+            "actual_WIN": 0.3382352941176471,
+            "pred_TOP3": 0.3351693560228109,
+            "actual_TOP3": 0.6470588235294118
+          },
+          {
+            "group": "2-3",
+            "horses": 136,
+            "pred_WIN": 0.1077928433357674,
+            "actual_WIN": 0.10294117647058823,
+            "pred_TOP3": 0.2990601313278396,
+            "actual_TOP3": 0.34558823529411764
+          },
+          {
+            "group": "4-6",
+            "horses": 204,
+            "pred_WIN": 0.07234100180575648,
+            "actual_WIN": 0.0784313725490196,
+            "pred_TOP3": 0.22769279249605925,
+            "actual_TOP3": 0.25
+          },
+          {
+            "group": "7-10",
+            "horses": 267,
+            "pred_WIN": 0.054300868889414586,
+            "actual_WIN": 0.04868913857677903,
+            "pred_TOP3": 0.1737667184719068,
+            "actual_TOP3": 0.14606741573033707
+          },
+          {
+            "group": "11+",
+            "horses": 371,
+            "pred_WIN": 0.03474392162991039,
+            "actual_WIN": 0.005390835579514825,
+            "pred_TOP3": 0.11330599735716668,
+            "actual_TOP3": 0.06199460916442048
+          }
+        ]
+      },
+      "corrected": {
+        "races": 68,
+        "horses": 1046,
+        "horse_WIN": {
+          "brier": 0.05477431603263382,
+          "logloss": 0.19986254122980673
+        },
+        "horse_TOP3": {
+          "brier": 0.1277089219756739,
+          "logloss": 0.405716014770079
+        },
+        "combo": {
+          "ordered_top3_logloss": 6.721590427415477,
+          "umaren_logloss": 3.868056223963863,
+          "umaren_brier": 0.9635901963408579,
+          "sanrenpuku_logloss": 4.955884612361763,
+          "sanrenpuku_brier": 0.9742028301196941
+        },
+        "portfolio": {
+          "ticket_count": 3665,
+          "stake_yen": 680000,
+          "payout_yen": 485520,
+          "recovery_percent": 71.4,
+          "hit_races": 39,
+          "actual_hit_rate": 0.5735294117647058,
+          "mean_model_hit_probability": 0.6196301737813203,
+          "absolute_hit_calibration_gap": 0.04610076201661446,
+          "model_expected_payout_yen": 725878.5157836449,
+          "stake_share_at_100x_or_more": 0.34441176470588236,
+          "max_allocation_seconds": 3.45735434900007
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 68,
+            "pred_WIN": 0.22003334191418658,
+            "actual_WIN": 0.3382352941176471,
+            "pred_TOP3": 0.5615400502749659,
+            "actual_TOP3": 0.6470588235294118
+          },
+          {
+            "group": "2-3",
+            "horses": 136,
+            "pred_WIN": 0.14506883368719822,
+            "actual_WIN": 0.10294117647058823,
+            "pred_TOP3": 0.42151351193047193,
+            "actual_TOP3": 0.34558823529411764
+          },
+          {
+            "group": "4-6",
+            "horses": 204,
+            "pred_WIN": 0.08027177977135781,
+            "actual_WIN": 0.0784313725490196,
+            "pred_TOP3": 0.255791974237805,
+            "actual_TOP3": 0.25
+          },
+          {
+            "group": "7-10",
+            "horses": 267,
+            "pred_WIN": 0.040961154785385756,
+            "actual_WIN": 0.04868913857677903,
+            "pred_TOP3": 0.1352992577348828,
+            "actual_TOP3": 0.14606741573033707
+          },
+          {
+            "group": "11+",
+            "horses": 371,
+            "pred_WIN": 0.016162533604639796,
+            "actual_WIN": 0.005390835579514825,
+            "pred_TOP3": 0.054401548245369816,
+            "actual_TOP3": 0.06199460916442048
+          }
+        ]
+      },
+      "market": {
+        "races": 68,
+        "horses": 1046,
+        "horse_WIN": {
+          "brier": 0.05447501734595644,
+          "logloss": 0.19815877687630645
+        },
+        "horse_TOP3": {
+          "brier": 0.12849643509873043,
+          "logloss": 0.4081920735467984
+        },
+        "combo": {
+          "ordered_top3_logloss": 6.753869575864662,
+          "umaren_logloss": 3.891267477525474,
+          "umaren_brier": 0.96834737066878,
+          "sanrenpuku_logloss": 4.990981883042286,
+          "sanrenpuku_brier": 0.973254906180072
+        },
+        "portfolio": {
+          "ticket_count": 2998,
+          "stake_yen": 680000,
+          "payout_yen": 551740,
+          "recovery_percent": 81.13823529411765,
+          "hit_races": 45,
+          "actual_hit_rate": 0.6617647058823529,
+          "mean_model_hit_probability": 0.7172806144777845,
+          "absolute_hit_calibration_gap": 0.05551590859543156,
+          "model_expected_payout_yen": 676740.340696816,
+          "stake_share_at_100x_or_more": 0.21661764705882353,
+          "max_allocation_seconds": 3.4576598319999903
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 68,
+            "pred_WIN": 0.26593604953988986,
+            "actual_WIN": 0.3382352941176471,
+            "pred_TOP3": 0.6433911136917233,
+            "actual_TOP3": 0.6470588235294118
+          },
+          {
+            "group": "2-3",
+            "horses": 136,
+            "pred_WIN": 0.1570078169257954,
+            "actual_WIN": 0.10294117647058823,
+            "pred_TOP3": 0.4651163911932737,
+            "actual_TOP3": 0.34558823529411764
+          },
+          {
+            "group": "4-6",
+            "horses": 204,
+            "pred_WIN": 0.07628790485193743,
+            "actual_WIN": 0.0784313725490196,
+            "pred_TOP3": 0.2541585334123069,
+            "actual_TOP3": 0.25
+          },
+          {
+            "group": "7-10",
+            "horses": 267,
+            "pred_WIN": 0.03361741636177966,
+            "actual_WIN": 0.04868913857677903,
+            "pred_TOP3": 0.11610876153778711,
+            "actual_TOP3": 0.14606741573033707
+          },
+          {
+            "group": "11+",
+            "horses": 371,
+            "pred_WIN": 0.01084825544740946,
+            "actual_WIN": 0.005390835579514825,
+            "pred_TOP3": 0.03812451460910467,
+            "actual_TOP3": 0.06199460916442048
+          }
+        ]
+      }
+    },
+    "H2": {
+      "old": {
+        "races": 35,
+        "horses": 501,
+        "horse_WIN": {
+          "brier": 0.06423486012219834,
+          "logloss": 0.24565196014968027
+        },
+        "horse_TOP3": {
+          "brier": 0.1521801027054492,
+          "logloss": 0.4713134075737112
+        },
+        "combo": {
+          "ordered_top3_logloss": 7.152787793470474,
+          "umaren_logloss": 4.222746489596238,
+          "umaren_brier": 0.9813831160940847,
+          "sanrenpuku_logloss": 5.346262748274483,
+          "sanrenpuku_brier": 0.9862946958037243
+        },
+        "portfolio": {
+          "ticket_count": 2892,
+          "stake_yen": 350000,
+          "payout_yen": 156110,
+          "recovery_percent": 44.60285714285715,
+          "hit_races": 10,
+          "actual_hit_rate": 0.2857142857142857,
+          "mean_model_hit_probability": 0.6266882643896623,
+          "absolute_hit_calibration_gap": 0.3409739786753766,
+          "model_expected_payout_yen": 2027775.5873166216,
+          "stake_share_at_100x_or_more": 0.73,
+          "max_allocation_seconds": 0.8490664359997027
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 35,
+            "pred_WIN": 0.14231819550448632,
+            "actual_WIN": 0.34285714285714286,
+            "pred_TOP3": 0.35639954210043046,
+            "actual_TOP3": 0.6
+          },
+          {
+            "group": "2-3",
+            "horses": 70,
+            "pred_WIN": 0.10151006152622218,
+            "actual_WIN": 0.11428571428571428,
+            "pred_TOP3": 0.289858154811483,
+            "actual_TOP3": 0.4
+          },
+          {
+            "group": "4-6",
+            "horses": 105,
+            "pred_WIN": 0.08235332978589639,
+            "actual_WIN": 0.047619047619047616,
+            "pred_TOP3": 0.2432167048050826,
+            "actual_TOP3": 0.26666666666666666
+          },
+          {
+            "group": "7-10",
+            "horses": 138,
+            "pred_WIN": 0.05737608195831591,
+            "actual_WIN": 0.043478260869565216,
+            "pred_TOP3": 0.18237403985990883,
+            "actual_TOP3": 0.13768115942028986
+          },
+          {
+            "group": "11+",
+            "horses": 153,
+            "pred_WIN": 0.03785847834876625,
+            "actual_WIN": 0.026143790849673203,
+            "pred_TOP3": 0.1220681633735374,
+            "actual_TOP3": 0.058823529411764705
+          }
+        ]
+      },
+      "corrected": {
+        "races": 35,
+        "horses": 501,
+        "horse_WIN": {
+          "brier": 0.057930832587454885,
+          "logloss": 0.22012441927660914
+        },
+        "horse_TOP3": {
+          "brier": 0.13494031627206962,
+          "logloss": 0.4223765817978874
+        },
+        "combo": {
+          "ordered_top3_logloss": 6.534401937464228,
+          "umaren_logloss": 3.811299698130505,
+          "umaren_brier": 0.9584005216364249,
+          "sanrenpuku_logloss": 4.774615289527935,
+          "sanrenpuku_brier": 0.972819356610284
+        },
+        "portfolio": {
+          "ticket_count": 1734,
+          "stake_yen": 350000,
+          "payout_yen": 330180,
+          "recovery_percent": 94.33714285714287,
+          "hit_races": 24,
+          "actual_hit_rate": 0.6857142857142857,
+          "mean_model_hit_probability": 0.6455334889810587,
+          "absolute_hit_calibration_gap": 0.04018079673322702,
+          "model_expected_payout_yen": 355251.6134563303,
+          "stake_share_at_100x_or_more": 0.29742857142857143,
+          "max_allocation_seconds": 2.4478468779998366
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 35,
+            "pred_WIN": 0.24432799683152676,
+            "actual_WIN": 0.34285714285714286,
+            "pred_TOP3": 0.593427957054968,
+            "actual_TOP3": 0.6
+          },
+          {
+            "group": "2-3",
+            "horses": 70,
+            "pred_WIN": 0.1389783513172684,
+            "actual_WIN": 0.11428571428571428,
+            "pred_TOP3": 0.41573351021383426,
+            "actual_TOP3": 0.4
+          },
+          {
+            "group": "4-6",
+            "horses": 105,
+            "pred_WIN": 0.07980901725740398,
+            "actual_WIN": 0.047619047619047616,
+            "pred_TOP3": 0.25862253944790115,
+            "actual_TOP3": 0.26666666666666666
+          },
+          {
+            "group": "7-10",
+            "horses": 138,
+            "pred_WIN": 0.04061336083016944,
+            "actual_WIN": 0.043478260869565216,
+            "pred_TOP3": 0.1360630601068672,
+            "actual_TOP3": 0.13768115942028986
+          },
+          {
+            "group": "11+",
+            "horses": 153,
+            "pred_WIN": 0.017878724915666517,
+            "actual_WIN": 0.026143790849673203,
+            "pred_TOP3": 0.06010854151196361,
+            "actual_TOP3": 0.058823529411764705
+          }
+        ]
+      },
+      "market": {
+        "races": 35,
+        "horses": 501,
+        "horse_WIN": {
+          "brier": 0.057102942201832395,
+          "logloss": 0.21965457939897468
+        },
+        "horse_TOP3": {
+          "brier": 0.1364008399558584,
+          "logloss": 0.42470792639181765
+        },
+        "combo": {
+          "ordered_top3_logloss": 6.55147494325193,
+          "umaren_logloss": 3.842162682344893,
+          "umaren_brier": 0.9623363019306491,
+          "sanrenpuku_logloss": 4.801504860322344,
+          "sanrenpuku_brier": 0.9734034722637852
+        },
+        "portfolio": {
+          "ticket_count": 1517,
+          "stake_yen": 350000,
+          "payout_yen": 326290,
+          "recovery_percent": 93.22571428571429,
+          "hit_races": 24,
+          "actual_hit_rate": 0.6857142857142857,
+          "mean_model_hit_probability": 0.7269351747244154,
+          "absolute_hit_calibration_gap": 0.041220889010129755,
+          "model_expected_payout_yen": 349529.3136182586,
+          "stake_share_at_100x_or_more": 0.204,
+          "max_allocation_seconds": 4.4624097719997735
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 35,
+            "pred_WIN": 0.2971603322374431,
+            "actual_WIN": 0.34285714285714286,
+            "pred_TOP3": 0.671253315054759,
+            "actual_TOP3": 0.6
+          },
+          {
+            "group": "2-3",
+            "horses": 70,
+            "pred_WIN": 0.1487621958889481,
+            "actual_WIN": 0.11428571428571428,
+            "pred_TOP3": 0.46005908531638734,
+            "actual_TOP3": 0.4
+          },
+          {
+            "group": "4-6",
+            "horses": 105,
+            "pred_WIN": 0.07423142563851104,
+            "actual_WIN": 0.047619047619047616,
+            "pred_TOP3": 0.2546898333869373,
+            "actual_TOP3": 0.26666666666666666
+          },
+          {
+            "group": "7-10",
+            "horses": 138,
+            "pred_WIN": 0.032783430151343884,
+            "actual_WIN": 0.043478260869565216,
+            "pred_TOP3": 0.11586818708285636,
+            "actual_TOP3": 0.13768115942028986
+          },
+          {
+            "group": "11+",
+            "horses": 153,
+            "pred_WIN": 0.01220667716688896,
+            "actual_WIN": 0.026143790849673203,
+            "pred_TOP3": 0.04293957959394588,
+            "actual_TOP3": 0.058823529411764705
+          }
+        ]
+      }
+    }
+  },
+  "paired_comparisons": {
+    "old": {
+      "paired_races": 102,
+      "mean_ordered_top3_logloss_difference": -0.6266136756122485,
+      "paired_race_bootstrap95CI": [
+        -0.8069483037959498,
+        -0.4425866136081118
+      ]
+    },
+    "market": {
+      "paired_races": 102,
+      "mean_ordered_top3_logloss_difference": -0.027061354398676563,
+      "paired_race_bootstrap95CI": [
+        -0.0914618719351887,
+        0.03601950036293513
+      ]
+    }
+  },
+  "deployment_gates": {
+    "complete_103_races_309_variant_runs": true,
+    "ordered_top3_logloss_improves": true,
+    "both_combination_logloss_improve": true,
+    "both_horse_brier_do_not_worsen": true,
+    "both_halves_ordered_logloss_improve": true,
+    "hit_calibration_gap_narrows": true,
+    "historical_ROI_not_worse": true,
+    "competitive_with_market_baseline": true,
+    "retains_AI_contribution": true,
+    "fresh_in_sale_WIN_odds_pipeline_checked": false,
+    "full_candidate_publication_roundtrip_checked": true
+  },
+  "statistical_gates_pass": true,
+  "limitations": [
+    "final odds, final starter sets, original archive point-in-time alignment uncertified",
+    "103 races are too few for profit guarantees",
+    "future live validation remains necessary"
+  ],
+  "deployment_state": "ready_for_guarded_first_live_trial",
+  "live_activation_verified": false,
+  "original_103_portfolios_reproduced_exactly": true,
+  "runtime_rehearsal": "runtime_rehearsal.json",
+  "market_baseline_advantage_not_ruled_out": true,
+  "source_mapping_notes": {
+    "3_races_equal_displayed_odds_popularity_ties": "Official popularity retained; numeric equal displayed odds checked; no popularity used as model input.",
+    "2_checkpoint_races_missing_horse_IDs": "IDs joined by race/number after exact public/official horse-name match; original checkpoints not altered."
+  }
+}
