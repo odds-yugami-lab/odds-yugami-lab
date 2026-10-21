@@ -1,0 +1,471 @@
+{
+  "record_type": "2025_forward_validation_selection",
+  "created_at": "2026-10-21T09:24:22.916389+00:00",
+  "selection_year": 2025,
+  "2026_labels_used": false,
+  "fold_specific_base_calibrators": true,
+  "selection_rule": "Choose lowest-complexity method whose pooled 2025 forward-validation ordered-top3 mean logloss is within one standard error of the best mean; tie-break lower mean then name. Standard error computed over validation races. The prior shared_ai_market method is a prespecified incumbent.",
+  "best_mean_method": "stage_shared_ai",
+  "one_SE_threshold": 6.829545048956266,
+  "selected_method": "market_PL",
+  "selected_by_one_SE": true,
+  "ranking": [
+    {
+      "method": "stage_shared_ai",
+      "free_parameters": 4,
+      "validation_races": 74,
+      "mean_ordered_nll": 6.659069748098886,
+      "standard_error": 0.17047530085738036,
+      "mean_WIN_brier": 0.05910288137770399,
+      "mean_TOP3_brier": 0.13487899379278034
+    },
+    {
+      "method": "stage_market",
+      "free_parameters": 3,
+      "validation_races": 74,
+      "mean_ordered_nll": 6.660886219230764,
+      "standard_error": 0.1704637485754193,
+      "mean_WIN_brier": 0.05912080568546094,
+      "mean_TOP3_brier": 0.13493522678804515
+    },
+    {
+      "method": "stage_two_heads",
+      "free_parameters": 5,
+      "validation_races": 74,
+      "mean_ordered_nll": 6.662106979533897,
+      "standard_error": 0.17280354300063805,
+      "mean_WIN_brier": 0.05919534556170534,
+      "mean_TOP3_brier": 0.1348165769492149
+    },
+    {
+      "method": "shared_ai_market",
+      "free_parameters": 2,
+      "validation_races": 74,
+      "mean_ordered_nll": 6.678479921438967,
+      "standard_error": 0.16850349123452682,
+      "mean_WIN_brier": 0.059163012837703845,
+      "mean_TOP3_brier": 0.13498667817719695
+    },
+    {
+      "method": "market_PL",
+      "free_parameters": 0,
+      "validation_races": 74,
+      "mean_ordered_nll": 6.722380491578838,
+      "standard_error": 0.20832675140040172,
+      "mean_WIN_brier": 0.059134052687613625,
+      "mean_TOP3_brier": 0.13547573985977476
+    }
+  ],
+  "folds": [
+    {
+      "fold": 1,
+      "train_end": "2025-04-30",
+      "validate_start": "2025-05-01",
+      "validate_end": "2025-06-30",
+      "calibrator_training_rows": 16106,
+      "calibrator_latest_label_date": "2025-04-27",
+      "rank_training_races": 45,
+      "validation_races": 18,
+      "fits": {
+        "market_PL": {
+          "method": "market_PL",
+          "parameters": [],
+          "success": true,
+          "free_parameters": 0
+        },
+        "shared_ai_market": {
+          "method": "shared_ai_market",
+          "parameters": [
+            0.04122617895699171,
+            0.7594167666039893
+          ],
+          "success": true,
+          "projected_gradient_max": 3.455777965023622e-09,
+          "fit_nll": 6.63598447645869,
+          "free_parameters": 2
+        },
+        "stage_market": {
+          "method": "stage_market",
+          "parameters": [
+            0.9469922091729042,
+            0.8195942610992437,
+            0.5798237768479544
+          ],
+          "success": true,
+          "projected_gradient_max": 7.729568096692674e-11,
+          "fit_nll": 6.601203819727915,
+          "free_parameters": 3
+        },
+        "stage_shared_ai": {
+          "method": "stage_shared_ai",
+          "parameters": [
+            0.04572866886999973,
+            0.9297285204911666,
+            0.8032423283866962,
+            0.5627182165255784
+          ],
+          "success": true,
+          "projected_gradient_max": 1.1788450946268211e-08,
+          "fit_nll": 6.600749804070532,
+          "free_parameters": 4
+        },
+        "stage_two_heads": {
+          "method": "stage_two_heads",
+          "parameters": [
+            0.0012280008100822666,
+            0.30655416407831726,
+            0.9464374112359264,
+            0.7316402363518643,
+            0.4866232559676744
+          ],
+          "success": true,
+          "projected_gradient_max": 5.173565433046355e-07,
+          "fit_nll": 6.591416229118274,
+          "free_parameters": 5
+        }
+      }
+    },
+    {
+      "fold": 2,
+      "train_end": "2025-06-30",
+      "validate_start": "2025-07-01",
+      "validate_end": "2025-08-31",
+      "calibrator_training_rows": 24372,
+      "calibrator_latest_label_date": "2025-06-29",
+      "rank_training_races": 63,
+      "validation_races": 16,
+      "fits": {
+        "market_PL": {
+          "method": "market_PL",
+          "parameters": [],
+          "success": true,
+          "free_parameters": 0
+        },
+        "shared_ai_market": {
+          "method": "shared_ai_market",
+          "parameters": [
+            0.056624325265061025,
+            0.7369097422449448
+          ],
+          "success": true,
+          "projected_gradient_max": 1.0312367933130147e-08,
+          "fit_nll": 6.754720622574676,
+          "free_parameters": 2
+        },
+        "stage_market": {
+          "method": "stage_market",
+          "parameters": [
+            0.9118727462989745,
+            0.9357279064550523,
+            0.4773690895674492
+          ],
+          "success": true,
+          "projected_gradient_max": 2.2521745117883835e-08,
+          "fit_nll": 6.685710589703455,
+          "free_parameters": 3
+        },
+        "stage_shared_ai": {
+          "method": "stage_shared_ai",
+          "parameters": [
+            0.05623123847329162,
+            0.8909613220606158,
+            0.9155620142343895,
+            0.4573826968872583
+          ],
+          "success": true,
+          "projected_gradient_max": 7.218384253642326e-09,
+          "fit_nll": 6.68502589422348,
+          "free_parameters": 4
+        },
+        "stage_two_heads": {
+          "method": "stage_two_heads",
+          "parameters": [
+            0.11105876910655917,
+            0.1848032765822627,
+            0.863574945107163,
+            0.8810394384646079,
+            0.42151195729559854
+          ],
+          "success": true,
+          "projected_gradient_max": 2.4520862744172936e-08,
+          "fit_nll": 6.6806578363321565,
+          "free_parameters": 5
+        }
+      }
+    },
+    {
+      "fold": 3,
+      "train_end": "2025-08-31",
+      "validate_start": "2025-09-01",
+      "validate_end": "2025-10-31",
+      "calibrator_training_rows": 32674,
+      "calibrator_latest_label_date": "2025-08-31",
+      "rank_training_races": 79,
+      "validation_races": 19,
+      "fits": {
+        "market_PL": {
+          "method": "market_PL",
+          "parameters": [],
+          "success": true,
+          "free_parameters": 0
+        },
+        "shared_ai_market": {
+          "method": "shared_ai_market",
+          "parameters": [
+            0.09404336409616325,
+            0.7518943623109868
+          ],
+          "success": true,
+          "projected_gradient_max": 3.99240687766917e-09,
+          "fit_nll": 6.7294216022872915,
+          "free_parameters": 2
+        },
+        "stage_market": {
+          "method": "stage_market",
+          "parameters": [
+            0.9038195414625252,
+            1.0382893095896006,
+            0.4797464223323919
+          ],
+          "success": true,
+          "projected_gradient_max": 1.517575016425579e-09,
+          "fit_nll": 6.648933669160368,
+          "free_parameters": 3
+        },
+        "stage_shared_ai": {
+          "method": "stage_shared_ai",
+          "parameters": [
+            0.09003626256993084,
+            0.8707514283313118,
+            1.0057377209718716,
+            0.4482444775461851
+          ],
+          "success": true,
+          "projected_gradient_max": 7.915623082456627e-08,
+          "fit_nll": 6.647151414708899,
+          "free_parameters": 4
+        },
+        "stage_two_heads": {
+          "method": "stage_two_heads",
+          "parameters": [
+            0.28743164127710846,
+            0.1009414255589785,
+            0.7813540074530675,
+            1.0080862620381448,
+            0.449347522424583
+          ],
+          "success": true,
+          "projected_gradient_max": 2.3747858250904364e-08,
+          "fit_nll": 6.638332425544003,
+          "free_parameters": 5
+        }
+      }
+    },
+    {
+      "fold": 4,
+      "train_end": "2025-10-31",
+      "validate_start": "2025-11-01",
+      "validate_end": "2025-12-31",
+      "calibrator_training_rows": 39325,
+      "calibrator_latest_label_date": "2025-10-26",
+      "rank_training_races": 98,
+      "validation_races": 21,
+      "fits": {
+        "market_PL": {
+          "method": "market_PL",
+          "parameters": [],
+          "success": true,
+          "free_parameters": 0
+        },
+        "shared_ai_market": {
+          "method": "shared_ai_market",
+          "parameters": [
+            0.06348700292398163,
+            0.7520507399396461
+          ],
+          "success": true,
+          "projected_gradient_max": 2.793264837571175e-08,
+          "fit_nll": 6.714015352290624,
+          "free_parameters": 2
+        },
+        "stage_market": {
+          "method": "stage_market",
+          "parameters": [
+            0.8922963857008092,
+            0.9079712796743958,
+            0.5499434370434724
+          ],
+          "success": true,
+          "projected_gradient_max": 1.236884999139429e-07,
+          "fit_nll": 6.674136933864705,
+          "free_parameters": 3
+        },
+        "stage_shared_ai": {
+          "method": "stage_shared_ai",
+          "parameters": [
+            0.05705356017464455,
+            0.8711516045146047,
+            0.8873703698570731,
+            0.5301280987615806
+          ],
+          "success": true,
+          "projected_gradient_max": 1.7659238679067243e-08,
+          "fit_nll": 6.6734281547458325,
+          "free_parameters": 4
+        },
+        "stage_two_heads": {
+          "method": "stage_two_heads",
+          "parameters": [
+            0.1339996208619802,
+            0.1531557636787316,
+            0.8350472598353513,
+            0.8616501673189467,
+            0.5037815934146678
+          ],
+          "success": true,
+          "projected_gradient_max": 4.906252521712824e-08,
+          "fit_nll": 6.669562068936224,
+          "free_parameters": 5
+        }
+      }
+    }
+  ],
+  "final_full2025_fits": {
+    "market_PL": {
+      "method": "market_PL",
+      "parameters": [],
+      "success": true,
+      "free_parameters": 0
+    },
+    "shared_ai_market": {
+      "method": "shared_ai_market",
+      "parameters": [
+        0.10902932826145095,
+        0.7586399097181366
+      ],
+      "success": true,
+      "projected_gradient_max": 1.3846827550114234e-09,
+      "fit_nll": 6.6596532542519675,
+      "free_parameters": 2
+    },
+    "stage_market": {
+      "method": "stage_market",
+      "parameters": [
+        0.9642096492902011,
+        0.8904401308361455,
+        0.5667611234030862
+      ],
+      "success": true,
+      "projected_gradient_max": 6.555331142522891e-10,
+      "fit_nll": 6.618425784694609,
+      "free_parameters": 3
+    },
+    "stage_shared_ai": {
+      "method": "stage_shared_ai",
+      "parameters": [
+        0.09979687499909354,
+        0.9272050335326375,
+        0.855233222484238,
+        0.532750207984794
+      ],
+      "success": true,
+      "projected_gradient_max": 5.8863625846632724e-08,
+      "fit_nll": 6.616312142531569,
+      "free_parameters": 4
+    },
+    "stage_two_heads": {
+      "method": "stage_two_heads",
+      "parameters": [
+        0.19319049580333497,
+        0.26192486459306713,
+        0.8824424072865716,
+        0.81167368327799,
+        0.4886330965511855
+      ],
+      "success": true,
+      "projected_gradient_max": 3.932103279394982e-08,
+      "fit_nll": 6.60695415080647,
+      "free_parameters": 5
+    }
+  },
+  "fit_races": 119,
+  "validation_race_codes": [
+    "2025050305020311",
+    "2025050308020311",
+    "2025050408020411",
+    "2025051005020511",
+    "2025051008020511",
+    "2025051105020611",
+    "2025051704010511",
+    "2025051805020811",
+    "2025052408020911",
+    "2025052505021011",
+    "2025053108021111",
+    "2025060105021211",
+    "2025060805030211",
+    "2025061509030411",
+    "2025062205030611",
+    "2025062209030611",
+    "2025062902010611",
+    "2025062903020211",
+    "2025070610020411",
+    "2025071303020611",
+    "2025072002011211",
+    "2025072010020811",
+    "2025072707030207",
+    "2025080301010411",
+    "2025080304020407",
+    "2025080901010511",
+    "2025081004020607",
+    "2025081007030607",
+    "2025081701010811",
+    "2025081707030807",
+    "2025082401020211",
+    "2025082404030211",
+    "2025083104030411",
+    "2025083107040411",
+    "2025090601020511",
+    "2025090606040111",
+    "2025090709040211",
+    "2025091309040311",
+    "2025091409040411",
+    "2025091506040511",
+    "2025092106040711",
+    "2025092109040711",
+    "2025092709040811",
+    "2025092806040911",
+    "2025100505040211",
+    "2025100508030211",
+    "2025101105040311",
+    "2025101205040411",
+    "2025101308030511",
+    "2025101805040611",
+    "2025101908030711",
+    "2025102505040811",
+    "2025102608030911",
+    "2025110108031011",
+    "2025110205041111",
+    "2025110805050111",
+    "2025110905050211",
+    "2025111505050311",
+    "2025111508040311",
+    "2025111608040411",
+    "2025112203030511",
+    "2025112308040611",
+    "2025112405050611",
+    "2025112908040711",
+    "2025120606050111",
+    "2025120609050111",
+    "2025120707050211",
+    "2025121406050411",
+    "2025121409050411",
+    "2025122006050511",
+    "2025122109050611",
+    "2025122706050711",
+    "2025122709050711",
+    "2025122806050811"
+  ],
+  "protocol_sha256": "c70c869ded4caba048dbad0b3ab58033b8c223e9f4821d036272e42ca2ea8fdb",
+  "no_production_model_or_automation_changes": true,
+  "all_families_to_be_reported_in_2026_without_reselection": true
+}
