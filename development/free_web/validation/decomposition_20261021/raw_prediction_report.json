@@ -1,0 +1,22 @@
+{
+  "created_at": "2026-10-21T09:21:55.782372+00:00",
+  "rows": 47497,
+  "races": 3455,
+  "base_training_end": "2024-12-31",
+  "prediction_period": "2025",
+  "fold_specific_Platt_possible": true,
+  "reproduction": {
+    "win": {
+      "checked_horses": 1931,
+      "max_calibrated_probability_difference": 4.999306524311464e-11,
+      "checkpoint_sha256": "c01b0f840d7d70f263eae175be4f96ee76328c7207aef69446f7103c18802a1e"
+    },
+    "top3": {
+      "checked_horses": 1931,
+      "max_calibrated_probability_difference": 4.999131664185086e-11,
+      "checkpoint_sha256": "e3ed82dddd049dd8a4fefa4bcf4f3341125d5a39eed907315d3ce9ff300b391f"
+    }
+  },
+  "source_sha256": "d87a7e8116e5648ffb872672953e22d367dde772812db680a45f76fb2300bbd2",
+  "production_model_changed": false
+}

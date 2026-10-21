@@ -1,0 +1,108 @@
+{
+  "test_only": true,
+  "selected_before_2026_evaluation": "market_PL",
+  "created_at": "2026-10-21T09:33:41.419349+00:00",
+  "allocation_rule_unchanged": "balanced_A_v3 objective/constraints/default solver; only scenario probabilities supplied explicitly",
+  "aggregate": {
+    "market_PL": {
+      "races": 103,
+      "tickets": 4519,
+      "stake_yen": 1030000,
+      "payout_yen": 878030,
+      "recovery_percent": 85.24563106796117,
+      "hit_races": 69,
+      "actual_hit_rate": 0.6699029126213593,
+      "mean_predicted_hit_probability": 0.7197722214498891,
+      "absolute_hit_calibration_gap": 0.0498693088285298,
+      "stake_share_at_100x_or_more": 0.21291262135922331,
+      "maximum_allocation_seconds": 4.372929977998865
+    },
+    "incumbent_frozen": {
+      "races": 103,
+      "tickets": 5399,
+      "stake_yen": 1030000,
+      "payout_yen": 815700,
+      "recovery_percent": 79.19417475728156,
+      "hit_races": 63,
+      "actual_hit_rate": 0.6116504854368932,
+      "mean_predicted_hit_probability": 0.6284322711792897,
+      "absolute_hit_calibration_gap": 0.016781785742396527,
+      "stake_share_at_100x_or_more": 0.3284466019417476,
+      "maximum_allocation_seconds": 3.4237511069986795
+    }
+  },
+  "halves": {
+    "H1": {
+      "market_PL": {
+        "races": 68,
+        "tickets": 3002,
+        "stake_yen": 680000,
+        "payout_yen": 551740,
+        "recovery_percent": 81.13823529411765,
+        "hit_races": 45,
+        "actual_hit_rate": 0.6617647058823529,
+        "mean_predicted_hit_probability": 0.7160854072644709,
+        "absolute_hit_calibration_gap": 0.054320701382117975,
+        "stake_share_at_100x_or_more": 0.2175,
+        "maximum_allocation_seconds": 3.71764610199898
+      },
+      "incumbent_frozen": {
+        "races": 68,
+        "tickets": 3665,
+        "stake_yen": 680000,
+        "payout_yen": 485520,
+        "recovery_percent": 71.4,
+        "hit_races": 39,
+        "actual_hit_rate": 0.5735294117647058,
+        "mean_predicted_hit_probability": 0.6196301737813203,
+        "absolute_hit_calibration_gap": 0.046100762016614505,
+        "stake_share_at_100x_or_more": 0.34441176470588236,
+        "maximum_allocation_seconds": 3.4237511069986795
+      }
+    },
+    "H2": {
+      "market_PL": {
+        "races": 35,
+        "tickets": 1517,
+        "stake_yen": 350000,
+        "payout_yen": 326290,
+        "recovery_percent": 93.22571428571429,
+        "hit_races": 24,
+        "actual_hit_rate": 0.6857142857142857,
+        "mean_predicted_hit_probability": 0.7269351747244156,
+        "absolute_hit_calibration_gap": 0.04122088901012988,
+        "stake_share_at_100x_or_more": 0.204,
+        "maximum_allocation_seconds": 4.372929977998865
+      },
+      "incumbent_frozen": {
+        "races": 35,
+        "tickets": 1734,
+        "stake_yen": 350000,
+        "payout_yen": 330180,
+        "recovery_percent": 94.33714285714285,
+        "hit_races": 24,
+        "actual_hit_rate": 0.6857142857142857,
+        "mean_predicted_hit_probability": 0.6455334889810588,
+        "absolute_hit_calibration_gap": 0.04018079673322694,
+        "stake_share_at_100x_or_more": 0.29742857142857143,
+        "maximum_allocation_seconds": 2.4305190880004375
+      }
+    }
+  },
+  "approximate_solver_variations_vs_previous_runs": [
+    {
+      "method": "market_PL",
+      "race_code": "2026041903010411",
+      "previous_tickets": 42,
+      "new_tickets": 46,
+      "previous_payout_yen": 11700,
+      "new_payout_yen": 11700
+    }
+  ],
+  "prior_saved_comparison_ROI": {
+    "incumbent": 79.19417475728156,
+    "market": 85.24563106796117
+  },
+  "original_records_overwritten": false,
+  "production_or_automation_changed": false
+}

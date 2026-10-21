@@ -1,0 +1,268 @@
+{
+  "market_PL": {
+    "favorite": {
+      "WIN": {
+        "predicted_minus_observed": -0.06325958255317457,
+        "race_bootstrap_95CI": [
+          -0.152378069096937,
+          0.022570809566820404
+        ],
+        "horses": 103
+      },
+      "TOP3": {
+        "predicted_minus_observed": 0.021790890853919956,
+        "race_bootstrap_95CI": [
+          -0.06368133125247337,
+          0.10976340996445817
+        ],
+        "horses": 103
+      }
+    },
+    "popularity_11plus": {
+      "WIN": {
+        "predicted_minus_observed": -0.00020548782915473258,
+        "race_bootstrap_95CI": [
+          -0.00954294718156012,
+          0.007604163895575157
+        ],
+        "horses": 524
+      },
+      "TOP3": {
+        "predicted_minus_observed": -0.021538262217840554,
+        "race_bootstrap_95CI": [
+          -0.03966899500915838,
+          -0.004372477064231545
+        ],
+        "horses": 524
+      }
+    }
+  },
+  "shared_ai_market": {
+    "favorite": {
+      "WIN": {
+        "predicted_minus_observed": -0.11151701809289011,
+        "race_bootstrap_95CI": [
+          -0.2012072183890979,
+          -0.025532153447366968
+        ],
+        "horses": 103
+      },
+      "TOP3": {
+        "predicted_minus_observed": -0.05869221521062513,
+        "race_bootstrap_95CI": [
+          -0.14401757655385097,
+          0.028746257869756098
+        ],
+        "horses": 103
+      }
+    },
+    "popularity_11plus": {
+      "WIN": {
+        "predicted_minus_observed": 0.005213253622724686,
+        "race_bootstrap_95CI": [
+          -0.004150353715208159,
+          0.013076891014031101
+        ],
+        "horses": 524
+      },
+      "TOP3": {
+        "predicted_minus_observed": -0.005000799057776952,
+        "race_bootstrap_95CI": [
+          -0.023145690773530094,
+          0.012148699627107804
+        ],
+        "horses": 524
+      }
+    }
+  },
+  "stage_market": {
+    "favorite": {
+      "WIN": {
+        "predicted_minus_observed": -0.07162512374401893,
+        "race_bootstrap_95CI": [
+          -0.16120353534553875,
+          0.014058965348684414
+        ],
+        "horses": 103
+      },
+      "TOP3": {
+        "predicted_minus_observed": -0.05808034964539086,
+        "race_bootstrap_95CI": [
+          -0.14340065303734698,
+          0.029535037272635036
+        ],
+        "horses": 103
+      }
+    },
+    "popularity_11plus": {
+      "WIN": {
+        "predicted_minus_observed": 0.0006063268058127584,
+        "race_bootstrap_95CI": [
+          -0.008723222858240195,
+          0.00841515310491988
+        ],
+        "horses": 524
+      },
+      "TOP3": {
+        "predicted_minus_observed": -0.001842696332423336,
+        "race_bootstrap_95CI": [
+          -0.019976136196834308,
+          0.015300034567820062
+        ],
+        "horses": 524
+      }
+    }
+  },
+  "stage_shared_ai": {
+    "favorite": {
+      "WIN": {
+        "predicted_minus_observed": -0.07255798171299586,
+        "race_bootstrap_95CI": [
+          -0.16189010206406645,
+          0.013157610784578963
+        ],
+        "horses": 103
+      },
+      "TOP3": {
+        "predicted_minus_observed": -0.05821254763144055,
+        "race_bootstrap_95CI": [
+          -0.1434088132076162,
+          0.029290404892958664
+        ],
+        "horses": 103
+      }
+    },
+    "popularity_11plus": {
+      "WIN": {
+        "predicted_minus_observed": 0.0006734595287863628,
+        "race_bootstrap_95CI": [
+          -0.008702546495251467,
+          0.008490852551410582
+        ],
+        "horses": 524
+      },
+      "TOP3": {
+        "predicted_minus_observed": -0.0017585057513455952,
+        "race_bootstrap_95CI": [
+          -0.01989363407366995,
+          0.01541368475685042
+        ],
+        "horses": 524
+      }
+    }
+  },
+  "stage_two_heads": {
+    "favorite": {
+      "WIN": {
+        "predicted_minus_observed": -0.07318164832674494,
+        "race_bootstrap_95CI": [
+          -0.16181614418855259,
+          0.012514161188633733
+        ],
+        "horses": 103
+      },
+      "TOP3": {
+        "predicted_minus_observed": -0.059071355538032715,
+        "race_bootstrap_95CI": [
+          -0.14443102319023285,
+          0.028472006126188235
+        ],
+        "horses": 103
+      }
+    },
+    "popularity_11plus": {
+      "WIN": {
+        "predicted_minus_observed": 0.000873358538256556,
+        "race_bootstrap_95CI": [
+          -0.008525209007161805,
+          0.008727850264825164
+        ],
+        "horses": 524
+      },
+      "TOP3": {
+        "predicted_minus_observed": -0.0019365416029471212,
+        "race_bootstrap_95CI": [
+          -0.020138865269105063,
+          0.015330575561029673
+        ],
+        "horses": 524
+      }
+    }
+  },
+  "incumbent_frozen": {
+    "favorite": {
+      "WIN": {
+        "predicted_minus_observed": -0.11151701806535799,
+        "race_bootstrap_95CI": [
+          -0.2012072169470923,
+          -0.025532154440588817
+        ],
+        "horses": 103
+      },
+      "TOP3": {
+        "predicted_minus_observed": -0.058692214411441186,
+        "race_bootstrap_95CI": [
+          -0.14401757735176213,
+          0.028746260107319177
+        ],
+        "horses": 103
+      }
+    },
+    "popularity_11plus": {
+      "WIN": {
+        "predicted_minus_observed": 0.005213253586676224,
+        "race_bootstrap_95CI": [
+          -0.004150353785734909,
+          0.013076891045745683
+        ],
+        "horses": 524
+      },
+      "TOP3": {
+        "predicted_minus_observed": -0.005000799140529327,
+        "race_bootstrap_95CI": [
+          -0.0231456908853483,
+          0.01214869957014836
+        ],
+        "horses": 524
+      }
+    }
+  },
+  "raw_independent": {
+    "favorite": {
+      "WIN": {
+        "predicted_minus_observed": -0.20323936818654786,
+        "race_bootstrap_95CI": [
+          -0.29691240809654335,
+          -0.11322191260079138
+        ],
+        "horses": 103
+      },
+      "TOP3": {
+        "predicted_minus_observed": -0.28868446424207567,
+        "race_bootstrap_95CI": [
+          -0.3795790939554005,
+          -0.19223996227477128
+        ],
+        "horses": 103
+      }
+    },
+    "popularity_11plus": {
+      "WIN": {
+        "predicted_minus_observed": 0.024202942961942735,
+        "race_bootstrap_95CI": [
+          0.014219452678760597,
+          0.03259606676198138
+        ],
+        "horses": 524
+      },
+      "TOP3": {
+        "predicted_minus_observed": 0.054795713770343625,
+        "race_bootstrap_95CI": [
+          0.03458604785097837,
+          0.07417793774911904
+        ],
+        "horses": 524
+      }
+    }
+  }
+}

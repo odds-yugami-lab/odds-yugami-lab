@@ -1,0 +1,61 @@
+{
+  "record_type": "residual_bias_investigation_result",
+  "date_jst": "2026-10-21",
+  "task1_completed": true,
+  "task2_completed": true,
+  "further_correction_improvement_confirmed": false,
+  "production_or_automation_changed": false,
+  "main_finding": "Most original popularity-conditional bias already exists in separate WIN/TOP3 forecasts. Joint conversion trades off marginal accuracy; it is not the sole source.",
+  "additional_correction_decision": "No deployment. Rank-specific adjustments improve WIN marginal metrics but do not beat incumbent overall joint metrics on 2026.",
+  "training_selection_method": "market_PL",
+  "selection_rule": "Choose lowest-complexity method whose pooled 2025 forward-validation ordered-top3 mean logloss is within one standard error of the best mean; tie-break lower mean then name. Standard error computed over validation races. The prior shared_ai_market method is a prespecified incumbent.",
+  "selection_period": 2025,
+  "forward_validation_races": 74,
+  "evaluation_races": 103,
+  "evaluation_is_untouched": false,
+  "final_odds_used": true,
+  "cv_AI_increment_over_same_stage_market": {
+    "paired_races": 74,
+    "difference": -0.0018164711318773585,
+    "bootstrap_95CI": [
+      -0.010541434740904132,
+      0.007050765661631589
+    ]
+  },
+  "all_test_count": 5,
+  "tests_passed": true,
+  "portfolio": {
+    "market_PL": {
+      "races": 103,
+      "tickets": 4519,
+      "stake_yen": 1030000,
+      "payout_yen": 878030,
+      "recovery_percent": 85.24563106796117,
+      "hit_races": 69,
+      "actual_hit_rate": 0.6699029126213593,
+      "mean_predicted_hit_probability": 0.7197722214498891,
+      "absolute_hit_calibration_gap": 0.0498693088285298,
+      "stake_share_at_100x_or_more": 0.21291262135922331,
+      "maximum_allocation_seconds": 4.372929977998865
+    },
+    "incumbent_frozen": {
+      "races": 103,
+      "tickets": 5399,
+      "stake_yen": 1030000,
+      "payout_yen": 815700,
+      "recovery_percent": 79.19417475728156,
+      "hit_races": 63,
+      "actual_hit_rate": 0.6116504854368932,
+      "mean_predicted_hit_probability": 0.6284322711792897,
+      "absolute_hit_calibration_gap": 0.016781785742396527,
+      "stake_share_at_100x_or_more": 0.3284466019417476,
+      "maximum_allocation_seconds": 3.4237511069986795
+    }
+  },
+  "limits": [
+    "Final odds and final starter sets; original full archive point-in-time validity uncertified.",
+    "Some 2026 races use verified checkpoints or public reconstruction, as documented in previous audit.",
+    "Finite samples and approximate MILP; no profit guarantee.",
+    "No deployment, automation change, X sending or ticket purchases in this run."
+  ]
+}

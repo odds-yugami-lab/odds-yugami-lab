@@ -1,0 +1,1633 @@
+{
+  "record_type": "prediction_vs_joint_conversion_decomposition",
+  "created_at": "2026-10-21T09:30:54.205912+00:00",
+  "selected_in_2025": "market_PL",
+  "selection_repeated_after_2026": false,
+  "selection_sha256": "61f4de52fecbfa6459a7171f07468e3b9aeb38e56116d2583518ffa61678b4e7",
+  "2026_is_untouched": false,
+  "final_odds_used": true,
+  "test_only": true,
+  "production_or_automation_changed": false,
+  "decomposition": {
+    "raw_independent": {
+      "races": 103,
+      "horses": 1547,
+      "horse_WIN": {
+        "brier": 0.060249734549282445,
+        "logloss": 0.22856284956964942,
+        "predicted_events": 100.33511348895823,
+        "actual_events": 103
+      },
+      "horse_TOP3": {
+        "brier": 0.14629671069502867,
+        "logloss": 0.45895256361354353,
+        "predicted_events": 300.49111790251254,
+        "actual_events": 309
+      },
+      "popularity_groups": [
+        {
+          "group": "1",
+          "horses": 103,
+          "pred_WIN": 0.1365664570561706,
+          "actual_WIN": 0.33980582524271846,
+          "pred_TOP3": 0.3423834969229729,
+          "actual_TOP3": 0.6310679611650486
+        },
+        {
+          "group": "2-3",
+          "horses": 206,
+          "pred_WIN": 0.10565791747815495,
+          "actual_WIN": 0.10679611650485436,
+          "pred_TOP3": 0.2959332461038349,
+          "actual_TOP3": 0.3640776699029126
+        },
+        {
+          "group": "4-6",
+          "horses": 309,
+          "pred_WIN": 0.07574324917764869,
+          "actual_WIN": 0.06796116504854369,
+          "pred_TOP3": 0.2329679083292225,
+          "actual_TOP3": 0.255663430420712
+        },
+        {
+          "group": "7-10",
+          "horses": 405,
+          "pred_WIN": 0.05534871926844763,
+          "actual_WIN": 0.04691358024691358,
+          "pred_TOP3": 0.17669958353744825,
+          "actual_TOP3": 0.14320987654320988
+        },
+        {
+          "group": "11+",
+          "horses": 524,
+          "pred_WIN": 0.03565332464133205,
+          "actual_WIN": 0.011450381679389313,
+          "pred_TOP3": 0.11586441606041993,
+          "actual_TOP3": 0.061068702290076333
+        }
+      ],
+      "joint_metrics": {}
+    },
+    "normalized_WIN_PL": {
+      "races": 103,
+      "horses": 1547,
+      "horse_WIN": {
+        "brier": 0.059641166179988304,
+        "logloss": 0.2262280574724612,
+        "predicted_events": 103.0,
+        "actual_events": 103
+      },
+      "horse_TOP3": {
+        "brier": 0.14590379924193836,
+        "logloss": 0.45850831117518187,
+        "predicted_events": 309.0,
+        "actual_events": 309
+      },
+      "popularity_groups": [
+        {
+          "group": "1",
+          "horses": 103,
+          "pred_WIN": 0.13901803904687238,
+          "actual_WIN": 0.33980582524271846,
+          "pred_TOP3": 0.3809021843440468,
+          "actual_TOP3": 0.6310679611650486
+        },
+        {
+          "group": "2-3",
+          "horses": 206,
+          "pred_WIN": 0.10859104912316125,
+          "actual_WIN": 0.10679611650485436,
+          "pred_TOP3": 0.3127268020074302,
+          "actual_TOP3": 0.3640776699029126
+        },
+        {
+          "group": "4-6",
+          "horses": 309,
+          "pred_WIN": 0.07921043278616081,
+          "actual_WIN": 0.06796116504854369,
+          "pred_TOP3": 0.240203845159382,
+          "actual_TOP3": 0.255663430420712
+        },
+        {
+          "group": "7-10",
+          "horses": 405,
+          "pred_WIN": 0.056155864127318926,
+          "actual_WIN": 0.04691358024691358,
+          "pred_TOP3": 0.17483023031206033,
+          "actual_TOP3": 0.14320987654320988
+        },
+        {
+          "group": "11+",
+          "horses": 524,
+          "pred_WIN": 0.03643556709220053,
+          "actual_WIN": 0.011450381679389313,
+          "pred_TOP3": 0.11510710375648682,
+          "actual_TOP3": 0.061068702290076333
+        }
+      ],
+      "joint_metrics": {
+        "ordered_nll": 7.3288841295485305
+      }
+    },
+    "geometric_WIN_TOP3_PL": {
+      "races": 103,
+      "horses": 1547,
+      "horse_WIN": {
+        "brier": 0.05976750825616609,
+        "logloss": 0.22661949756875602,
+        "predicted_events": 103.0,
+        "actual_events": 103
+      },
+      "horse_TOP3": {
+        "brier": 0.14492149051952466,
+        "logloss": 0.455233649841996,
+        "predicted_events": 309.0,
+        "actual_events": 309
+      },
+      "popularity_groups": [
+        {
+          "group": "1",
+          "horses": 103,
+          "pred_WIN": 0.12815534348679802,
+          "actual_WIN": 0.33980582524271846,
+          "pred_TOP3": 0.35796391198388466,
+          "actual_TOP3": 0.6310679611650486
+        },
+        {
+          "group": "2-3",
+          "horses": 206,
+          "pred_WIN": 0.10558430135749454,
+          "actual_WIN": 0.10679611650485436,
+          "pred_TOP3": 0.30519706492511695,
+          "actual_TOP3": 0.3640776699029126
+        },
+        {
+          "group": "4-6",
+          "horses": 309,
+          "pred_WIN": 0.08011352317480185,
+          "actual_WIN": 0.06796116504854369,
+          "pred_TOP3": 0.2413981943006462,
+          "actual_TOP3": 0.255663430420712
+        },
+        {
+          "group": "7-10",
+          "horses": 405,
+          "pred_WIN": 0.057951125657519385,
+          "actual_WIN": 0.04691358024691358,
+          "pred_TOP3": 0.179105090757755,
+          "actual_TOP3": 0.14320987654320988
+        },
+        {
+          "group": "11+",
+          "horses": 524,
+          "pred_WIN": 0.037832727078066425,
+          "actual_WIN": 0.011450381679389313,
+          "pred_TOP3": 0.11856778224293003,
+          "actual_TOP3": 0.061068702290076333
+        }
+      ],
+      "joint_metrics": {
+        "ordered_nll": 7.28397275843661
+      }
+    }
+  },
+  "conversion_shift": {
+    "mean_absolute_WIN_shift": 0.014290277823279492,
+    "mean_absolute_TOP3_shift": 0.03127577232648232,
+    "source_WIN_Brier": 0.060249734549282445,
+    "converted_WIN_Brier": 0.05976750825616609,
+    "source_TOP3_Brier": 0.14629671069502867,
+    "converted_TOP3_Brier": 0.14492149051952466
+  },
+  "2026_aggregate": {
+    "market_PL": {
+      "races": 103,
+      "horses": 1547,
+      "horse_WIN": {
+        "brier": 0.05532607769036099,
+        "logloss": 0.20512024879864438,
+        "predicted_events": 103.0,
+        "actual_events": 103
+      },
+      "horse_TOP3": {
+        "brier": 0.1310562973052082,
+        "logloss": 0.4135407757286695,
+        "predicted_events": 309.0,
+        "actual_events": 309
+      },
+      "popularity_groups": [
+        {
+          "group": "1",
+          "horses": 103,
+          "pred_WIN": 0.27654624268954386,
+          "actual_WIN": 0.33980582524271846,
+          "pred_TOP3": 0.6528588520189685,
+          "actual_TOP3": 0.6310679611650486
+        },
+        {
+          "group": "2-3",
+          "horses": 206,
+          "pred_WIN": 0.15420590686473076,
+          "actual_WIN": 0.10679611650485436,
+          "pred_TOP3": 0.4633978891962735,
+          "actual_TOP3": 0.3640776699029126
+        },
+        {
+          "group": "4-6",
+          "horses": 309,
+          "pred_WIN": 0.07558910123572458,
+          "actual_WIN": 0.06796116504854369,
+          "pred_TOP3": 0.2543390722386376,
+          "actual_TOP3": 0.255663430420712
+        },
+        {
+          "group": "7-10",
+          "horses": 405,
+          "pred_WIN": 0.03333324328266821,
+          "actual_WIN": 0.04691358024691358,
+          "pred_TOP3": 0.11602678801981071,
+          "actual_TOP3": 0.14320987654320988
+        },
+        {
+          "group": "11+",
+          "horses": 524,
+          "pred_WIN": 0.01124489385023458,
+          "actual_WIN": 0.011450381679389313,
+          "pred_TOP3": 0.03953044007223578,
+          "actual_TOP3": 0.061068702290076333
+        }
+      ],
+      "joint_metrics": {
+        "ordered_nll": 6.6844204372230385,
+        "rank1_nll": 2.167386979935343,
+        "rank2_nll": 2.372369658304172,
+        "rank3_nll": 2.144663798983523,
+        "sanrenpuku_brier": 0.9733058847382088,
+        "sanrenpuku_nll": 4.925965257599169,
+        "umaren_brier": 0.9662847490429507,
+        "umaren_nll": 3.8744177929046857
+      }
+    },
+    "shared_ai_market": {
+      "races": 103,
+      "horses": 1547,
+      "horse_WIN": {
+        "brier": 0.05579656214076064,
+        "logloss": 0.20642440332671153,
+        "predicted_events": 103.0,
+        "actual_events": 103
+      },
+      "horse_TOP3": {
+        "brier": 0.13005082782159835,
+        "logloss": 0.4111115826290958,
+        "predicted_events": 309.0,
+        "actual_events": 309
+      },
+      "popularity_groups": [
+        {
+          "group": "1",
+          "horses": 103,
+          "pred_WIN": 0.22828880714982835,
+          "actual_WIN": 0.33980582524271846,
+          "pred_TOP3": 0.5723757459544233,
+          "actual_TOP3": 0.6310679611650486
+        },
+        {
+          "group": "2-3",
+          "horses": 206,
+          "pred_WIN": 0.1429992518699491,
+          "actual_WIN": 0.10679611650485436,
+          "pred_TOP3": 0.4195494329495122,
+          "actual_TOP3": 0.3640776699029126
+        },
+        {
+          "group": "4-6",
+          "horses": 309,
+          "pred_WIN": 0.0801145304524268,
+          "actual_WIN": 0.06796116504854369,
+          "pred_TOP3": 0.2567538169655597,
+          "actual_TOP3": 0.255663430420712
+        },
+        {
+          "group": "7-10",
+          "horses": 405,
+          "pred_WIN": 0.040842647333951966,
+          "actual_WIN": 0.04691358024691358,
+          "pred_TOP3": 0.13555951664941243,
+          "actual_TOP3": 0.14320987654320988
+        },
+        {
+          "group": "11+",
+          "horses": 524,
+          "pred_WIN": 0.016663635302113997,
+          "actual_WIN": 0.011450381679389313,
+          "pred_TOP3": 0.05606790323229938,
+          "actual_TOP3": 0.061068702290076333
+        }
+      ],
+      "joint_metrics": {
+        "ordered_nll": 6.657359076793577,
+        "rank1_nll": 2.1828662614282677,
+        "rank2_nll": 2.3378658911756385,
+        "rank3_nll": 2.136626924189671,
+        "sanrenpuku_brier": 0.9737281093976126,
+        "sanrenpuku_nll": 4.893684349158934,
+        "umaren_brier": 0.9618094257729563,
+        "umaren_nll": 3.8485809395023765
+      }
+    },
+    "stage_market": {
+      "races": 103,
+      "horses": 1547,
+      "horse_WIN": {
+        "brier": 0.055366222329996974,
+        "logloss": 0.20513994190860355,
+        "predicted_events": 103.0,
+        "actual_events": 103
+      },
+      "horse_TOP3": {
+        "brier": 0.1300514281285694,
+        "logloss": 0.4112913002324795,
+        "predicted_events": 309.0,
+        "actual_events": 309
+      },
+      "popularity_groups": [
+        {
+          "group": "1",
+          "horses": 103,
+          "pred_WIN": 0.2681807014986995,
+          "actual_WIN": 0.33980582524271846,
+          "pred_TOP3": 0.5729876115196577,
+          "actual_TOP3": 0.6310679611650486
+        },
+        {
+          "group": "2-3",
+          "horses": 206,
+          "pred_WIN": 0.15244637583801401,
+          "actual_WIN": 0.10679611650485436,
+          "pred_TOP3": 0.41353268754683276,
+          "actual_TOP3": 0.3640776699029126
+        },
+        {
+          "group": "4-6",
+          "horses": 309,
+          "pred_WIN": 0.07651489890618351,
+          "actual_WIN": 0.06796116504854369,
+          "pred_TOP3": 0.25352298768239995,
+          "actual_TOP3": 0.255663430420712
+        },
+        {
+          "group": "7-10",
+          "horses": 405,
+          "pred_WIN": 0.03459905015986782,
+          "actual_WIN": 0.04691358024691358,
+          "pred_TOP3": 0.1368432396621135,
+          "actual_TOP3": 0.14320987654320988
+        },
+        {
+          "group": "11+",
+          "horses": 524,
+          "pred_WIN": 0.012056708485202072,
+          "actual_WIN": 0.011450381679389313,
+          "pred_TOP3": 0.05922600595765299,
+          "actual_TOP3": 0.061068702290076333
+        }
+      ],
+      "joint_metrics": {
+        "ordered_nll": 6.691144042607592,
+        "rank1_nll": 2.1672468974272694,
+        "rank2_nll": 2.3481392560306693,
+        "rank3_nll": 2.1757578891496525,
+        "sanrenpuku_brier": 0.9751768116548292,
+        "sanrenpuku_nll": 4.898574455577759,
+        "umaren_brier": 0.9639030383956833,
+        "umaren_nll": 3.8549137105790456
+      }
+    },
+    "stage_shared_ai": {
+      "races": 103,
+      "horses": 1547,
+      "horse_WIN": {
+        "brier": 0.055385329429009166,
+        "logloss": 0.20521734846923384,
+        "predicted_events": 103.0,
+        "actual_events": 103
+      },
+      "horse_TOP3": {
+        "brier": 0.13008725593218637,
+        "logloss": 0.41143984612944035,
+        "predicted_events": 309.0,
+        "actual_events": 309
+      },
+      "popularity_groups": [
+        {
+          "group": "1",
+          "horses": 103,
+          "pred_WIN": 0.26724784352972264,
+          "actual_WIN": 0.33980582524271846,
+          "pred_TOP3": 0.5728554135336079,
+          "actual_TOP3": 0.6310679611650486
+        },
+        {
+          "group": "2-3",
+          "horses": 206,
+          "pred_WIN": 0.15265194009848249,
+          "actual_WIN": 0.10679611650485436,
+          "pred_TOP3": 0.41382964224281354,
+          "actual_TOP3": 0.3640776699029126
+        },
+        {
+          "group": "4-6",
+          "horses": 309,
+          "pred_WIN": 0.07652399839031276,
+          "actual_WIN": 0.06796116504854369,
+          "pred_TOP3": 0.25340116391908557,
+          "actual_TOP3": 0.255663430420712
+        },
+        {
+          "group": "7-10",
+          "horses": 405,
+          "pred_WIN": 0.034637936198667854,
+          "actual_WIN": 0.04691358024691358,
+          "pred_TOP3": 0.13670983572031215,
+          "actual_TOP3": 0.14320987654320988
+        },
+        {
+          "group": "11+",
+          "horses": 524,
+          "pred_WIN": 0.012123841208175676,
+          "actual_WIN": 0.011450381679389313,
+          "pred_TOP3": 0.05931019653873074,
+          "actual_TOP3": 0.061068702290076333
+        }
+      ],
+      "joint_metrics": {
+        "ordered_nll": 6.693577929663972,
+        "rank1_nll": 2.1687486426158027,
+        "rank2_nll": 2.3504641530441535,
+        "rank3_nll": 2.1743651340040167,
+        "sanrenpuku_brier": 0.974652737290539,
+        "sanrenpuku_nll": 4.900803214143815,
+        "umaren_brier": 0.9635260111171221,
+        "umaren_nll": 3.8583198028956014
+      }
+    },
+    "stage_two_heads": {
+      "races": 103,
+      "horses": 1547,
+      "horse_WIN": {
+        "brier": 0.05540081026491024,
+        "logloss": 0.20528654254528156,
+        "predicted_events": 103.0,
+        "actual_events": 103
+      },
+      "horse_TOP3": {
+        "brier": 0.1302967099454991,
+        "logloss": 0.4121188934457709,
+        "predicted_events": 309.0,
+        "actual_events": 309
+      },
+      "popularity_groups": [
+        {
+          "group": "1",
+          "horses": 103,
+          "pred_WIN": 0.2666241769159735,
+          "actual_WIN": 0.33980582524271846,
+          "pred_TOP3": 0.5719966056270159,
+          "actual_TOP3": 0.6310679611650486
+        },
+        {
+          "group": "2-3",
+          "horses": 206,
+          "pred_WIN": 0.15241228216427113,
+          "actual_WIN": 0.10679611650485436,
+          "pred_TOP3": 0.41446827389309854,
+          "actual_TOP3": 0.3640776699029126
+        },
+        {
+          "group": "4-6",
+          "horses": 309,
+          "pred_WIN": 0.07638119207098167,
+          "actual_WIN": 0.06796116504854369,
+          "pred_TOP3": 0.25370282388382104,
+          "actual_TOP3": 0.255663430420712
+        },
+        {
+          "group": "7-10",
+          "horses": 405,
+          "pred_WIN": 0.03476876895761752,
+          "actual_WIN": 0.04691358024691358,
+          "pred_TOP3": 0.13660360597106827,
+          "actual_TOP3": 0.14320987654320988
+        },
+        {
+          "group": "11+",
+          "horses": 524,
+          "pred_WIN": 0.01232374021764587,
+          "actual_WIN": 0.011450381679389313,
+          "pred_TOP3": 0.05913216068712922,
+          "actual_TOP3": 0.061068702290076333
+        }
+      ],
+      "joint_metrics": {
+        "ordered_nll": 6.698625624811571,
+        "rank1_nll": 2.170187802185111,
+        "rank2_nll": 2.3545560794616485,
+        "rank3_nll": 2.173881743164811,
+        "sanrenpuku_brier": 0.9741986692856496,
+        "sanrenpuku_nll": 4.91053164005628,
+        "umaren_brier": 0.9633172194025181,
+        "umaren_nll": 3.8671024977574335
+      }
+    },
+    "incumbent_frozen": {
+      "races": 103,
+      "horses": 1547,
+      "horse_WIN": {
+        "brier": 0.05579656218257911,
+        "logloss": 0.20642440348025792,
+        "predicted_events": 103.0,
+        "actual_events": 103
+      },
+      "horse_TOP3": {
+        "brier": 0.13005082795013687,
+        "logloss": 0.4111115830189038,
+        "predicted_events": 309.0,
+        "actual_events": 309
+      },
+      "popularity_groups": [
+        {
+          "group": "1",
+          "horses": 103,
+          "pred_WIN": 0.22828880717736044,
+          "actual_WIN": 0.33980582524271846,
+          "pred_TOP3": 0.5723757467536074,
+          "actual_TOP3": 0.6310679611650486
+        },
+        {
+          "group": "2-3",
+          "horses": 206,
+          "pred_WIN": 0.142999252299358,
+          "actual_WIN": 0.10679611650485436,
+          "pred_TOP3": 0.4195494336772455,
+          "actual_TOP3": 0.3640776699029126
+        },
+        {
+          "group": "4-6",
+          "horses": 309,
+          "pred_WIN": 0.08011453037341233,
+          "actual_WIN": 0.06796116504854369,
+          "pred_TOP3": 0.25675381678492504,
+          "actual_TOP3": 0.255663430420712
+        },
+        {
+          "group": "7-10",
+          "horses": 405,
+          "pred_WIN": 0.040842647215460194,
+          "actual_WIN": 0.04691358024691358,
+          "pred_TOP3": 0.1355595163208923,
+          "actual_TOP3": 0.14320987654320988
+        },
+        {
+          "group": "11+",
+          "horses": 524,
+          "pred_WIN": 0.016663635266065534,
+          "actual_WIN": 0.011450381679389313,
+          "pred_TOP3": 0.05606790314954701,
+          "actual_TOP3": 0.061068702290076333
+        }
+      ],
+      "joint_metrics": {
+        "ordered_nll": 6.657359082824362,
+        "rank1_nll": 2.1828662638750407,
+        "rank2_nll": 2.3378658950159714,
+        "rank3_nll": 2.1366269239333504,
+        "sanrenpuku_brier": 0.9737281088174454,
+        "sanrenpuku_nll": 4.893684354526625,
+        "umaren_brier": 0.9618094256089441,
+        "umaren_nll": 3.8485809454916327
+      }
+    }
+  },
+  "2026_halves": {
+    "H1": {
+      "market_PL": {
+        "races": 68,
+        "horses": 1046,
+        "horse_WIN": {
+          "brier": 0.05447501734595644,
+          "logloss": 0.19815877687630645,
+          "predicted_events": 68.0,
+          "actual_events": 68
+        },
+        "horse_TOP3": {
+          "brier": 0.12849643509873043,
+          "logloss": 0.4081920735467984,
+          "predicted_events": 204.0,
+          "actual_events": 204
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 68,
+            "pred_WIN": 0.26593604953988986,
+            "actual_WIN": 0.3382352941176471,
+            "pred_TOP3": 0.6433911136917233,
+            "actual_TOP3": 0.6470588235294118
+          },
+          {
+            "group": "2-3",
+            "horses": 136,
+            "pred_WIN": 0.1570078169257954,
+            "actual_WIN": 0.10294117647058823,
+            "pred_TOP3": 0.46511639119327364,
+            "actual_TOP3": 0.34558823529411764
+          },
+          {
+            "group": "4-6",
+            "horses": 204,
+            "pred_WIN": 0.07628790485193743,
+            "actual_WIN": 0.0784313725490196,
+            "pred_TOP3": 0.2541585334123069,
+            "actual_TOP3": 0.25
+          },
+          {
+            "group": "7-10",
+            "horses": 267,
+            "pred_WIN": 0.03361741636177966,
+            "actual_WIN": 0.04868913857677903,
+            "pred_TOP3": 0.11610876153778711,
+            "actual_TOP3": 0.14606741573033707
+          },
+          {
+            "group": "11+",
+            "horses": 371,
+            "pred_WIN": 0.01084825544740946,
+            "actual_WIN": 0.005390835579514825,
+            "pred_TOP3": 0.03812451460910466,
+            "actual_TOP3": 0.06199460916442048
+          }
+        ],
+        "joint_metrics": {
+          "ordered_nll": 6.753869575864662,
+          "rank1_nll": 2.1200481243691347,
+          "rank2_nll": 2.4427399938198735,
+          "rank3_nll": 2.191081457675653,
+          "sanrenpuku_brier": 0.973254906180072,
+          "sanrenpuku_nll": 4.990981883042287,
+          "umaren_brier": 0.96834737066878,
+          "umaren_nll": 3.891267477525474
+        }
+      },
+      "shared_ai_market": {
+        "races": 68,
+        "horses": 1046,
+        "horse_WIN": {
+          "brier": 0.054774316060213164,
+          "logloss": 0.19986254130415432,
+          "predicted_events": 68.0,
+          "actual_events": 68
+        },
+        "horse_TOP3": {
+          "brier": 0.12770892178343662,
+          "logloss": 0.40571601418241654,
+          "predicted_events": 204.0,
+          "actual_events": 204
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 68,
+            "pred_WIN": 0.2200333418097085,
+            "actual_WIN": 0.3382352941176471,
+            "pred_TOP3": 0.5615400501434016,
+            "actual_TOP3": 0.6470588235294118
+          },
+          {
+            "group": "2-3",
+            "horses": 136,
+            "pred_WIN": 0.14506883289360809,
+            "actual_WIN": 0.10294117647058823,
+            "pred_TOP3": 0.42151351011814014,
+            "actual_TOP3": 0.34558823529411764
+          },
+          {
+            "group": "4-6",
+            "horses": 204,
+            "pred_WIN": 0.08027178006467449,
+            "actual_WIN": 0.0784313725490196,
+            "pred_TOP3": 0.25579197485982097,
+            "actual_TOP3": 0.25
+          },
+          {
+            "group": "7-10",
+            "horses": 267,
+            "pred_WIN": 0.04096115490530462,
+            "actual_WIN": 0.04868913857677903,
+            "pred_TOP3": 0.13529925799709439,
+            "actual_TOP3": 0.14606741573033707
+          },
+          {
+            "group": "11+",
+            "horses": 371,
+            "pred_WIN": 0.016162533667113746,
+            "actual_WIN": 0.005390835579514825,
+            "pred_TOP3": 0.054401548403110386,
+            "actual_TOP3": 0.06199460916442048
+          }
+        ],
+        "joint_metrics": {
+          "ordered_nll": 6.721590419959354,
+          "rank1_nll": 2.147043130776707,
+          "rank2_nll": 2.396526334503122,
+          "rank3_nll": 2.178020954679526,
+          "sanrenpuku_brier": 0.9742028304658344,
+          "sanrenpuku_nll": 4.955884604251022,
+          "umaren_brier": 0.9635901966476916,
+          "umaren_nll": 3.868056218279087
+        }
+      },
+      "stage_market": {
+        "races": 68,
+        "horses": 1046,
+        "horse_WIN": {
+          "brier": 0.054501522531637536,
+          "logloss": 0.19829471297860327,
+          "predicted_events": 68.0,
+          "actual_events": 68
+        },
+        "horse_TOP3": {
+          "brier": 0.1276483745433989,
+          "logloss": 0.4055808332404759,
+          "predicted_events": 204.0,
+          "actual_events": 204
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 68,
+            "pred_WIN": 0.25795625866093236,
+            "actual_WIN": 0.3382352941176471,
+            "pred_TOP3": 0.5625564021413735,
+            "actual_TOP3": 0.6470588235294118
+          },
+          {
+            "group": "2-3",
+            "horses": 136,
+            "pred_WIN": 0.15506517398362907,
+            "actual_WIN": 0.10294117647058823,
+            "pred_TOP3": 0.41452293164909276,
+            "actual_TOP3": 0.34558823529411764
+          },
+          {
+            "group": "4-6",
+            "horses": 204,
+            "pred_WIN": 0.07716574602465764,
+            "actual_WIN": 0.0784313725490196,
+            "pred_TOP3": 0.25286750536493197,
+            "actual_TOP3": 0.25
+          },
+          {
+            "group": "7-10",
+            "horses": 267,
+            "pred_WIN": 0.03486021319928501,
+            "actual_WIN": 0.04868913857677903,
+            "pred_TOP3": 0.1363150386989418,
+            "actual_TOP3": 0.14606741573033707
+          },
+          {
+            "group": "11+",
+            "horses": 371,
+            "pred_WIN": 0.0116458804206032,
+            "actual_WIN": 0.005390835579514825,
+            "pred_TOP3": 0.05765487742061027,
+            "actual_TOP3": 0.06199460916442048
+          }
+        ],
+        "joint_metrics": {
+          "ordered_nll": 6.742306001807724,
+          "rank1_nll": 2.1223483159801653,
+          "rank2_nll": 2.411221799867523,
+          "rank3_nll": 2.2087358859600346,
+          "sanrenpuku_brier": 0.9755120402412197,
+          "sanrenpuku_nll": 4.9563191927424475,
+          "umaren_brier": 0.9658714890692844,
+          "umaren_nll": 3.8725057039566018
+        }
+      },
+      "stage_shared_ai": {
+        "races": 68,
+        "horses": 1046,
+        "horse_WIN": {
+          "brier": 0.054459317949262495,
+          "logloss": 0.19819089034159437,
+          "predicted_events": 68.0,
+          "actual_events": 68
+        },
+        "horse_TOP3": {
+          "brier": 0.12774644845388547,
+          "logloss": 0.405919214820084,
+          "predicted_events": 204.0,
+          "actual_events": 204
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 68,
+            "pred_WIN": 0.25705263151455904,
+            "actual_WIN": 0.3382352941176471,
+            "pred_TOP3": 0.5617570855187681,
+            "actual_TOP3": 0.6470588235294118
+          },
+          {
+            "group": "2-3",
+            "horses": 136,
+            "pred_WIN": 0.15561185428357777,
+            "actual_WIN": 0.10294117647058823,
+            "pred_TOP3": 0.41578678716693424,
+            "actual_TOP3": 0.34558823529411764
+          },
+          {
+            "group": "4-6",
+            "horses": 204,
+            "pred_WIN": 0.07697526441394205,
+            "actual_WIN": 0.0784313725490196,
+            "pred_TOP3": 0.2523288312763665,
+            "actual_TOP3": 0.25
+          },
+          {
+            "group": "7-10",
+            "horses": 267,
+            "pred_WIN": 0.03489320273256919,
+            "actual_WIN": 0.04868913857677903,
+            "pred_TOP3": 0.1362609571943031,
+            "actual_TOP3": 0.14606741573033707
+          },
+          {
+            "group": "11+",
+            "horses": 371,
+            "pred_WIN": 0.011692101898661081,
+            "actual_WIN": 0.005390835579514825,
+            "pred_TOP3": 0.05767320209909167,
+            "actual_TOP3": 0.06199460916442048
+          }
+        ],
+        "joint_metrics": {
+          "ordered_nll": 6.746603985400443,
+          "rank1_nll": 2.1222035485011777,
+          "rank2_nll": 2.414871600617625,
+          "rank3_nll": 2.209528836281641,
+          "sanrenpuku_brier": 0.9751890514158434,
+          "sanrenpuku_nll": 4.961182552318323,
+          "umaren_brier": 0.9654134246528864,
+          "umaren_nll": 3.8759131676756073
+        }
+      },
+      "stage_two_heads": {
+        "races": 68,
+        "horses": 1046,
+        "horse_WIN": {
+          "brier": 0.05441934791969115,
+          "logloss": 0.19803593655233534,
+          "predicted_events": 68.0,
+          "actual_events": 68
+        },
+        "horse_TOP3": {
+          "brier": 0.12800713607499664,
+          "logloss": 0.4068304915948241,
+          "predicted_events": 204.0,
+          "actual_events": 204
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 68,
+            "pred_WIN": 0.2565598194016912,
+            "actual_WIN": 0.3382352941176471,
+            "pred_TOP3": 0.5600009847745151,
+            "actual_TOP3": 0.6470588235294118
+          },
+          {
+            "group": "2-3",
+            "horses": 136,
+            "pred_WIN": 0.15590125695570453,
+            "actual_WIN": 0.10294117647058823,
+            "pred_TOP3": 0.4174553672510149,
+            "actual_TOP3": 0.34558823529411764
+          },
+          {
+            "group": "4-6",
+            "horses": 204,
+            "pred_WIN": 0.07648867619831669,
+            "actual_WIN": 0.0784313725490196,
+            "pred_TOP3": 0.25231234974837374,
+            "actual_TOP3": 0.25
+          },
+          {
+            "group": "7-10",
+            "horses": 267,
+            "pred_WIN": 0.035003502621968614,
+            "actual_WIN": 0.04868913857677903,
+            "pred_TOP3": 0.13625546822420115,
+            "actual_TOP3": 0.14606741573033707
+          },
+          {
+            "group": "11+",
+            "horses": 371,
+            "pred_WIN": 0.01186451803284892,
+            "actual_WIN": 0.005390835579514825,
+            "pred_TOP3": 0.05739642513386789,
+            "actual_TOP3": 0.06199460916442048
+          }
+        ],
+        "joint_metrics": {
+          "ordered_nll": 6.753085979830097,
+          "rank1_nll": 2.121260487127541,
+          "rank2_nll": 2.4217573234745084,
+          "rank3_nll": 2.210068169228048,
+          "sanrenpuku_brier": 0.9750083600555692,
+          "sanrenpuku_nll": 4.9747310999992616,
+          "umaren_brier": 0.9651783732695268,
+          "umaren_nll": 3.8854504709727027
+        }
+      },
+      "incumbent_frozen": {
+        "races": 68,
+        "horses": 1046,
+        "horse_WIN": {
+          "brier": 0.05477431603263382,
+          "logloss": 0.19986254122980676,
+          "predicted_events": 68.0,
+          "actual_events": 68
+        },
+        "horse_TOP3": {
+          "brier": 0.12770892197567388,
+          "logloss": 0.405716014770079,
+          "predicted_events": 204.0,
+          "actual_events": 204
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 68,
+            "pred_WIN": 0.2200333419141866,
+            "actual_WIN": 0.3382352941176471,
+            "pred_TOP3": 0.561540050274966,
+            "actual_TOP3": 0.6470588235294118
+          },
+          {
+            "group": "2-3",
+            "horses": 136,
+            "pred_WIN": 0.14506883368719822,
+            "actual_WIN": 0.10294117647058823,
+            "pred_TOP3": 0.42151351193047193,
+            "actual_TOP3": 0.34558823529411764
+          },
+          {
+            "group": "4-6",
+            "horses": 204,
+            "pred_WIN": 0.08027177977135781,
+            "actual_WIN": 0.0784313725490196,
+            "pred_TOP3": 0.255791974237805,
+            "actual_TOP3": 0.25
+          },
+          {
+            "group": "7-10",
+            "horses": 267,
+            "pred_WIN": 0.040961154785385756,
+            "actual_WIN": 0.04868913857677903,
+            "pred_TOP3": 0.1352992577348828,
+            "actual_TOP3": 0.14606741573033707
+          },
+          {
+            "group": "11+",
+            "horses": 371,
+            "pred_WIN": 0.016162533604639796,
+            "actual_WIN": 0.005390835579514825,
+            "pred_TOP3": 0.054401548245369816,
+            "actual_TOP3": 0.06199460916442048
+          }
+        ],
+        "joint_metrics": {
+          "ordered_nll": 6.721590427415477,
+          "rank1_nll": 2.1470431308672056,
+          "rank2_nll": 2.396526339914066,
+          "rank3_nll": 2.1780209566342057,
+          "sanrenpuku_brier": 0.9742028301196941,
+          "sanrenpuku_nll": 4.955884612361763,
+          "umaren_brier": 0.9635901963408579,
+          "umaren_nll": 3.868056223963863
+        }
+      }
+    },
+    "H2": {
+      "market_PL": {
+        "races": 35,
+        "horses": 501,
+        "horse_WIN": {
+          "brier": 0.057102942201832395,
+          "logloss": 0.21965457939897468,
+          "predicted_events": 35.0,
+          "actual_events": 35
+        },
+        "horse_TOP3": {
+          "brier": 0.1364008399558584,
+          "logloss": 0.4247079263918176,
+          "predicted_events": 105.0,
+          "actual_events": 105
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 35,
+            "pred_WIN": 0.2971603322374431,
+            "actual_WIN": 0.34285714285714286,
+            "pred_TOP3": 0.671253315054759,
+            "actual_TOP3": 0.6
+          },
+          {
+            "group": "2-3",
+            "horses": 70,
+            "pred_WIN": 0.14876219588894804,
+            "actual_WIN": 0.11428571428571428,
+            "pred_TOP3": 0.46005908531638734,
+            "actual_TOP3": 0.4
+          },
+          {
+            "group": "4-6",
+            "horses": 105,
+            "pred_WIN": 0.07423142563851103,
+            "actual_WIN": 0.047619047619047616,
+            "pred_TOP3": 0.2546898333869373,
+            "actual_TOP3": 0.26666666666666666
+          },
+          {
+            "group": "7-10",
+            "horses": 138,
+            "pred_WIN": 0.032783430151343884,
+            "actual_WIN": 0.043478260869565216,
+            "pred_TOP3": 0.11586818708285634,
+            "actual_TOP3": 0.13768115942028986
+          },
+          {
+            "group": "11+",
+            "horses": 153,
+            "pred_WIN": 0.01220667716688896,
+            "actual_WIN": 0.026143790849673203,
+            "pred_TOP3": 0.04293957959394588,
+            "actual_TOP3": 0.058823529411764705
+          }
+        ],
+        "joint_metrics": {
+          "ordered_nll": 6.55147494325193,
+          "rank1_nll": 2.258007074876369,
+          "rank2_nll": 2.2376607303169727,
+          "rank3_nll": 2.055807138058588,
+          "sanrenpuku_brier": 0.9734034722637852,
+          "sanrenpuku_nll": 4.8015048603223445,
+          "umaren_brier": 0.9623363019306491,
+          "umaren_nll": 3.842162682344893
+        }
+      },
+      "shared_ai_market": {
+        "races": 35,
+        "horses": 501,
+        "horse_WIN": {
+          "brier": 0.05793083240074599,
+          "logloss": 0.22012441864726023,
+          "predicted_events": 35.0,
+          "actual_events": 35
+        },
+        "horse_TOP3": {
+          "brier": 0.13494031627652292,
+          "logloss": 0.42237658182116483,
+          "predicted_events": 105.0,
+          "actual_events": 105
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 35,
+            "pred_WIN": 0.2443279969534898,
+            "actual_WIN": 0.34285714285714286,
+            "pred_TOP3": 0.5934279549586946,
+            "actual_TOP3": 0.6
+          },
+          {
+            "group": "2-3",
+            "horses": 70,
+            "pred_WIN": 0.13897835159541172,
+            "actual_WIN": 0.11428571428571428,
+            "pred_TOP3": 0.4157335115933207,
+            "actual_TOP3": 0.4
+          },
+          {
+            "group": "4-6",
+            "horses": 105,
+            "pred_WIN": 0.07980901692005987,
+            "actual_WIN": 0.047619047619047616,
+            "pred_TOP3": 0.25862253877099506,
+            "actual_TOP3": 0.26666666666666666
+          },
+          {
+            "group": "7-10",
+            "horses": 138,
+            "pred_WIN": 0.04061336094590008,
+            "actual_WIN": 0.043478260869565216,
+            "pred_TOP3": 0.13606306056367992,
+            "actual_TOP3": 0.13768115942028986
+          },
+          {
+            "group": "11+",
+            "horses": 153,
+            "pred_WIN": 0.017878724887637486,
+            "actual_WIN": 0.026143790849673203,
+            "pred_TOP3": 0.06010854141288187,
+            "actual_TOP3": 0.058823529411764705
+          }
+        ],
+        "joint_metrics": {
+          "ordered_nll": 6.534401934161946,
+          "rank1_nll": 2.251441968675541,
+          "rank2_nll": 2.2255730425201703,
+          "rank3_nll": 2.0573869229662347,
+          "sanrenpuku_brier": 0.9728193576384454,
+          "sanrenpuku_nll": 4.7746152894112255,
+          "umaren_brier": 0.9584005215270341,
+          "umaren_nll": 3.8112996915583874
+        }
+      },
+      "stage_market": {
+        "races": 35,
+        "horses": 501,
+        "horse_WIN": {
+          "brier": 0.05717156362557375,
+          "logloss": 0.21943157755886358,
+          "predicted_events": 35.0,
+          "actual_events": 35
+        },
+        "horse_TOP3": {
+          "brier": 0.13506858192116095,
+          "logloss": 0.42321375227566466,
+          "predicted_events": 105.0,
+          "actual_events": 105
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 35,
+            "pred_WIN": 0.28804533329779,
+            "actual_WIN": 0.34285714285714286,
+            "pred_TOP3": 0.5932539611688957,
+            "actual_TOP3": 0.6
+          },
+          {
+            "group": "2-3",
+            "horses": 70,
+            "pred_WIN": 0.1473584251551048,
+            "actual_WIN": 0.11428571428571428,
+            "pred_TOP3": 0.4116087847195848,
+            "actual_TOP3": 0.4
+          },
+          {
+            "group": "4-6",
+            "horses": 105,
+            "pred_WIN": 0.07525039593314806,
+            "actual_WIN": 0.047619047619047616,
+            "pred_TOP3": 0.2547964961849092,
+            "actual_TOP3": 0.26666666666666666
+          },
+          {
+            "group": "7-10",
+            "horses": 138,
+            "pred_WIN": 0.03409375645316931,
+            "actual_WIN": 0.043478260869565216,
+            "pred_TOP3": 0.13786519369955433,
+            "actual_TOP3": 0.13768115942028986
+          },
+          {
+            "group": "11+",
+            "horses": 153,
+            "pred_WIN": 0.013052899413085609,
+            "actual_WIN": 0.026143790849673203,
+            "pred_TOP3": 0.0630357359396324,
+            "actual_TOP3": 0.058823529411764705
+          }
+        ],
+        "joint_metrics": {
+          "ordered_nll": 6.59320543499591,
+          "rank1_nll": 2.2531956104831545,
+          "rank2_nll": 2.227381243542977,
+          "rank3_nll": 2.1126285809697776,
+          "sanrenpuku_brier": 0.9745350883608818,
+          "sanrenpuku_nll": 4.7880345301482095,
+          "umaren_brier": 0.9601348613919326,
+          "umaren_nll": 3.8212376089705833
+        }
+      },
+      "stage_shared_ai": {
+        "races": 35,
+        "horses": 501,
+        "horse_WIN": {
+          "brier": 0.057318678746005235,
+          "logloss": 0.2198873588514912,
+          "predicted_events": 35.0,
+          "actual_events": 35
+        },
+        "horse_TOP3": {
+          "brier": 0.13497445078708203,
+          "logloss": 0.42296595461164943,
+          "predicted_events": 105.0,
+          "actual_events": 105
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 35,
+            "pred_WIN": 0.28705568401632614,
+            "actual_WIN": 0.34285714285714286,
+            "pred_TOP3": 0.5944178793910112,
+            "actual_TOP3": 0.6
+          },
+          {
+            "group": "2-3",
+            "horses": 70,
+            "pred_WIN": 0.14690124968172596,
+            "actual_WIN": 0.11428571428571428,
+            "pred_TOP3": 0.41002718924737913,
+            "actual_TOP3": 0.4
+          },
+          {
+            "group": "4-6",
+            "horses": 105,
+            "pred_WIN": 0.07564725297297586,
+            "actual_WIN": 0.047619047619047616,
+            "pred_TOP3": 0.25548455305351114,
+            "actual_TOP3": 0.26666666666666666
+          },
+          {
+            "group": "7-10",
+            "horses": 138,
+            "pred_WIN": 0.03414405094829354,
+            "actual_WIN": 0.043478260869565216,
+            "pred_TOP3": 0.13757831808585141,
+            "actual_TOP3": 0.13768115942028986
+          },
+          {
+            "group": "11+",
+            "horses": 153,
+            "pred_WIN": 0.013170738488109755,
+            "actual_WIN": 0.026143790849673203,
+            "pred_TOP3": 0.06327964057210392,
+            "actual_TOP3": 0.058823529411764705
+          }
+        ],
+        "joint_metrics": {
+          "ordered_nll": 6.592070908682729,
+          "rank1_nll": 2.2578492513495143,
+          "rank2_nll": 2.2271698962606505,
+          "rank3_nll": 2.1070517610725648,
+          "sanrenpuku_brier": 0.9736260788220986,
+          "sanrenpuku_nll": 4.785219909638331,
+          "umaren_brier": 0.9599129623486587,
+          "umaren_nll": 3.82464107603102
+        }
+      },
+      "stage_two_heads": {
+        "races": 35,
+        "horses": 501,
+        "horse_WIN": {
+          "brier": 0.05744993124914012,
+          "logloss": 0.22042453429901757,
+          "predicted_events": 35.0,
+          "actual_events": 35
+        },
+        "horse_TOP3": {
+          "brier": 0.13507693802642837,
+          "logloss": 0.42316014760962406,
+          "predicted_events": 105.0,
+          "actual_events": 105
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 35,
+            "pred_WIN": 0.28617778580086467,
+            "actual_WIN": 0.34285714285714286,
+            "pred_TOP3": 0.595302383283303,
+            "actual_TOP3": 0.6
+          },
+          {
+            "group": "2-3",
+            "horses": 70,
+            "pred_WIN": 0.1456337025694863,
+            "actual_WIN": 0.11428571428571428,
+            "pred_TOP3": 0.4086647782262896,
+            "actual_TOP3": 0.4
+          },
+          {
+            "group": "4-6",
+            "horses": 105,
+            "pred_WIN": 0.07617236576644508,
+            "actual_WIN": 0.047619047619047616,
+            "pred_TOP3": 0.2564043164898329,
+            "actual_TOP3": 0.26666666666666666
+          },
+          {
+            "group": "7-10",
+            "horses": 138,
+            "pred_WIN": 0.03431461034615562,
+            "actual_WIN": 0.043478260869565216,
+            "pred_TOP3": 0.13727717682913726,
+            "actual_TOP3": 0.13768115942028986
+          },
+          {
+            "group": "11+",
+            "horses": 153,
+            "pred_WIN": 0.013437278979473763,
+            "actual_WIN": 0.026143790849673203,
+            "pred_TOP3": 0.06334103578686746,
+            "actual_TOP3": 0.058823529411764705
+          }
+        ],
+        "joint_metrics": {
+          "ordered_nll": 6.594372945204676,
+          "rank1_nll": 2.2638486624381735,
+          "rank2_nll": 2.2259136980656007,
+          "rank3_nll": 2.104610584700902,
+          "sanrenpuku_brier": 0.9726486898118034,
+          "sanrenpuku_nll": 4.787635531022572,
+          "umaren_brier": 0.959754439142816,
+          "umaren_nll": 3.831979234745347
+        }
+      },
+      "incumbent_frozen": {
+        "races": 35,
+        "horses": 501,
+        "horse_WIN": {
+          "brier": 0.057930832587454885,
+          "logloss": 0.22012441927660914,
+          "predicted_events": 35.0,
+          "actual_events": 35
+        },
+        "horse_TOP3": {
+          "brier": 0.1349403162720696,
+          "logloss": 0.4223765817978874,
+          "predicted_events": 104.99999999999999,
+          "actual_events": 105
+        },
+        "popularity_groups": [
+          {
+            "group": "1",
+            "horses": 35,
+            "pred_WIN": 0.24432799683152676,
+            "actual_WIN": 0.34285714285714286,
+            "pred_TOP3": 0.5934279570549679,
+            "actual_TOP3": 0.6
+          },
+          {
+            "group": "2-3",
+            "horses": 70,
+            "pred_WIN": 0.1389783513172684,
+            "actual_WIN": 0.11428571428571428,
+            "pred_TOP3": 0.41573351021383415,
+            "actual_TOP3": 0.4
+          },
+          {
+            "group": "4-6",
+            "horses": 105,
+            "pred_WIN": 0.07980901725740397,
+            "actual_WIN": 0.047619047619047616,
+            "pred_TOP3": 0.2586225394479011,
+            "actual_TOP3": 0.26666666666666666
+          },
+          {
+            "group": "7-10",
+            "horses": 138,
+            "pred_WIN": 0.04061336083016944,
+            "actual_WIN": 0.043478260869565216,
+            "pred_TOP3": 0.13606306010686714,
+            "actual_TOP3": 0.13768115942028986
+          },
+          {
+            "group": "11+",
+            "horses": 153,
+            "pred_WIN": 0.017878724915666513,
+            "actual_WIN": 0.026143790849673203,
+            "pred_TOP3": 0.06010854151196359,
+            "actual_TOP3": 0.058823529411764705
+          }
+        ],
+        "joint_metrics": {
+          "ordered_nll": 6.534401937464228,
+          "rank1_nll": 2.2514419756328965,
+          "rank2_nll": 2.2255730433539065,
+          "rank3_nll": 2.057386918477426,
+          "sanrenpuku_brier": 0.972819356610284,
+          "sanrenpuku_nll": 4.774615289527935,
+          "umaren_brier": 0.9584005216364249,
+          "umaren_nll": 3.811299698130506
+        }
+      }
+    }
+  },
+  "paired_2026": {
+    "market_PL": {
+      "incumbent_frozen": {
+        "paired_races": 102,
+        "difference": 0.027061354398676404,
+        "bootstrap_95CI": [
+          -0.037647960706636036,
+          0.09211767824384431
+        ]
+      }
+    },
+    "shared_ai_market": {
+      "incumbent_frozen": {
+        "paired_races": 102,
+        "difference": -6.030784830130085e-09,
+        "bootstrap_95CI": [
+          -1.9758958313638035e-08,
+          7.575509636041816e-09
+        ]
+      },
+      "market_PL": {
+        "paired_races": 102,
+        "difference": -0.027061360429461234,
+        "bootstrap_95CI": [
+          -0.09211768271510955,
+          0.03764795617202861
+        ]
+      }
+    },
+    "stage_market": {
+      "incumbent_frozen": {
+        "paired_races": 102,
+        "difference": 0.03378495978322906,
+        "bootstrap_95CI": [
+          -0.021462548590349285,
+          0.08535464881443301
+        ]
+      },
+      "market_PL": {
+        "paired_races": 102,
+        "difference": 0.006723605384552662,
+        "bootstrap_95CI": [
+          -0.08162676347344466,
+          0.08786324176909135
+        ]
+      }
+    },
+    "stage_shared_ai": {
+      "incumbent_frozen": {
+        "paired_races": 102,
+        "difference": 0.036218846839610894,
+        "bootstrap_95CI": [
+          -0.018491696164638624,
+          0.08746819885539979
+        ]
+      },
+      "market_PL": {
+        "paired_races": 102,
+        "difference": 0.00915749244093449,
+        "bootstrap_95CI": [
+          -0.07972382804846356,
+          0.09105570936892488
+        ]
+      }
+    },
+    "stage_two_heads": {
+      "incumbent_frozen": {
+        "paired_races": 102,
+        "difference": 0.04126654198720828,
+        "bootstrap_95CI": [
+          -0.017113539303935357,
+          0.09640339882130997
+        ]
+      },
+      "market_PL": {
+        "paired_races": 102,
+        "difference": 0.014205187588531874,
+        "bootstrap_95CI": [
+          -0.07748625908198123,
+          0.0993886299163298
+        ]
+      }
+    },
+    "incumbent_frozen": {
+      "market_PL": {
+        "paired_races": 102,
+        "difference": -0.027061354398676404,
+        "bootstrap_95CI": [
+          -0.09211767824384438,
+          0.037647960706636036
+        ]
+      }
+    }
+  },
+  "paired_2025_CV": {
+    "market_PL vs stage_market": {
+      "paired_races": 74,
+      "difference": 0.06149427234807413,
+      "bootstrap_95CI": [
+        -0.04856752315389593,
+        0.17666321257351555
+      ]
+    },
+    "market_PL vs shared_ai_market": {
+      "paired_races": 74,
+      "difference": 0.04390057013986953,
+      "bootstrap_95CI": [
+        -0.04123699529929609,
+        0.1308780492450574
+      ]
+    },
+    "shared_ai_market vs market_PL": {
+      "paired_races": 74,
+      "difference": -0.04390057013986953,
+      "bootstrap_95CI": [
+        -0.13087804924505742,
+        0.04123699529929609
+      ]
+    },
+    "shared_ai_market vs stage_market": {
+      "paired_races": 74,
+      "difference": 0.0175937022082046,
+      "bootstrap_95CI": [
+        -0.06426639530172416,
+        0.09802950372299847
+      ]
+    },
+    "stage_market vs market_PL": {
+      "paired_races": 74,
+      "difference": -0.06149427234807413,
+      "bootstrap_95CI": [
+        -0.17666321257351555,
+        0.048567523153895925
+      ]
+    },
+    "stage_market vs shared_ai_market": {
+      "paired_races": 74,
+      "difference": -0.0175937022082046,
+      "bootstrap_95CI": [
+        -0.09802950372299851,
+        0.06426639530172416
+      ]
+    },
+    "stage_shared_ai vs market_PL": {
+      "paired_races": 74,
+      "difference": -0.0633107434799515,
+      "bootstrap_95CI": [
+        -0.17818389468477577,
+        0.04660334037779475
+      ]
+    },
+    "stage_shared_ai vs stage_market": {
+      "paired_races": 74,
+      "difference": -0.0018164711318773585,
+      "bootstrap_95CI": [
+        -0.010541434740904132,
+        0.007050765661631589
+      ]
+    },
+    "stage_shared_ai vs shared_ai_market": {
+      "paired_races": 74,
+      "difference": -0.01941017334008196,
+      "bootstrap_95CI": [
+        -0.09795452357859377,
+        0.061259149779354365
+      ]
+    },
+    "stage_two_heads vs market_PL": {
+      "paired_races": 74,
+      "difference": -0.06027351204494054,
+      "bootstrap_95CI": [
+        -0.17558589561568153,
+        0.051799642741849346
+      ]
+    },
+    "stage_two_heads vs stage_market": {
+      "paired_races": 74,
+      "difference": 0.0012207603031336033,
+      "bootstrap_95CI": [
+        -0.026421067596428174,
+        0.03011682205528807
+      ]
+    },
+    "stage_two_heads vs shared_ai_market": {
+      "paired_races": 74,
+      "difference": -0.016372941905070996,
+      "bootstrap_95CI": [
+        -0.0989817280923619,
+        0.06903431325300274
+      ]
+    }
+  },
+  "evaluation_rule": "All prespecified families reported. The method chosen by 2025 one-SE rule remains market_PL even if another family looks better in 2026.",
+  "limits": [
+    "Final odds and final starter sets; original full archive point-in-time validity uncertified.",
+    "Some 2026 races use verified checkpoints or public reconstruction, as documented in previous audit.",
+    "Finite samples and approximate MILP; no profit guarantee.",
+    "No deployment, automation change, X sending or ticket purchases in this run."
+  ]
+}
