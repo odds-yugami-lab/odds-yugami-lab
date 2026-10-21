@@ -1,0 +1,60 @@
+{
+  "new_cases_attempted": 206,
+  "new_predictions_prepared": 200,
+  "settled_cases": 200,
+  "matched_races": 100,
+  "failures_unique_races": 3,
+  "failure_proof": [
+    {
+      "race_code": "2026032207010411",
+      "date": "2026-03-22",
+      "name": "GⅢ 愛知杯",
+      "top30_largest_required_stakes_yen": 9600,
+      "shortfall_to_10000_yen": 400,
+      "failure_kind": "mathematically_infeasible_under_fixed_rule",
+      "both_models_affected": true
+    },
+    {
+      "race_code": "2026040406030311",
+      "date": "2026-04-04",
+      "name": "GⅢ ダービー卿チャレンジT",
+      "top30_largest_required_stakes_yen": 9800,
+      "shortfall_to_10000_yen": 200,
+      "failure_kind": "mathematically_infeasible_under_fixed_rule",
+      "both_models_affected": true
+    },
+    {
+      "race_code": "2026062803020211",
+      "date": "2026-06-28",
+      "name": "GⅢ ラジオNIKKEI賞",
+      "top30_largest_required_stakes_yen": 9400,
+      "shortfall_to_10000_yen": 600,
+      "failure_kind": "mathematically_infeasible_under_fixed_rule",
+      "both_models_affected": true
+    }
+  ],
+  "original_reconstruction_tests_previously_passed": 5,
+  "new_prediction_isolation_tests_passed": 2,
+  "prediction_manifest_commit": "022bedd728226e2846463ddd75745b535a61581b",
+  "all_sealed_prediction_bytes_reverified_before_settlement": true,
+  "all_ticket_count_at_most30": true,
+  "all_stakes_exact_minimum": true,
+  "original_policy_equivalence_certified": false,
+  "normalizer_and_solver_are_unverified_reconstruction_settings": true,
+  "same100_prior_no_cap_comparison": {
+    "incumbent": {
+      "races": 100,
+      "payout_yen": 772200,
+      "recovery_percent": 77.22,
+      "hit_races": 60
+    },
+    "candidate": {
+      "races": 100,
+      "payout_yen": 865610,
+      "recovery_percent": 86.561,
+      "hit_races": 63
+    }
+  },
+  "no_cap_ROI103_not_directly_comparable_to_cap30_ROI100": true,
+  "production_or_automations_changed": false
+}

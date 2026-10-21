@@ -1,0 +1,10 @@
+{
+  "filename": "cap30_prediction_records_20261022.zip",
+  "size_bytes": 350932,
+  "sha256": "3649d344e0d61be5c42ae4c1abb3c1fb5e15f7cdae63379ba7e1d01c7c03c31f",
+  "sealed_prediction_files": 200,
+  "contains_models_or_history": false,
+  "contains_result_labels": false,
+  "test_only": true,
+  "prediction_manifest_commit": "022bedd728226e2846463ddd75745b535a61581b"
+}

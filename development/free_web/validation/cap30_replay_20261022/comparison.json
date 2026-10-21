@@ -1,0 +1,1039 @@
+{
+  "created_at": "2026-10-21T21:41:23.282852+00:00",
+  "test_only": true,
+  "status": "incomplete_report_failures_explicitly",
+  "allocation_rule": "cap30_E50_reconstruction_unverified",
+  "max_tickets": 30,
+  "original_policy_exactly_verified": false,
+  "same_model_probabilities_as_prior_79_21_88_28": true,
+  "probability_method": "same prior2025-frozen market correction for each model; no extra popularity boost",
+  "prediction_manifest_commit": "022bedd728226e2846463ddd75745b535a61581b",
+  "sealed_prediction_files_verified": 200,
+  "aggregate_all_prepared": {
+    "incumbent": {
+      "races": 100,
+      "stake_yen": 1000000,
+      "payout_yen": 715770,
+      "profit_yen": -284230,
+      "recovery_percent": 71.577,
+      "hit_races": 61,
+      "hit_rate": 0.61,
+      "ticket_count_min": 15,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.03,
+      "races_with_25_to_30_tickets": 95,
+      "model_mean_hit_probability": 0.6712145234596886,
+      "zero_gap_solutions": 59
+    },
+    "candidate": {
+      "races": 100,
+      "stake_yen": 1000000,
+      "payout_yen": 715360,
+      "profit_yen": -284640,
+      "recovery_percent": 71.536,
+      "hit_races": 61,
+      "hit_rate": 0.61,
+      "ticket_count_min": 15,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.12,
+      "races_with_25_to_30_tickets": 95,
+      "model_mean_hit_probability": 0.6741537435618778,
+      "zero_gap_solutions": 64
+    }
+  },
+  "common_races": 100,
+  "aggregate_common_cases": {
+    "incumbent": {
+      "races": 100,
+      "stake_yen": 1000000,
+      "payout_yen": 715770,
+      "profit_yen": -284230,
+      "recovery_percent": 71.577,
+      "hit_races": 61,
+      "hit_rate": 0.61,
+      "ticket_count_min": 15,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.03,
+      "races_with_25_to_30_tickets": 95,
+      "model_mean_hit_probability": 0.6712145234596886,
+      "zero_gap_solutions": 59
+    },
+    "candidate": {
+      "races": 100,
+      "stake_yen": 1000000,
+      "payout_yen": 715360,
+      "profit_yen": -284640,
+      "recovery_percent": 71.536,
+      "hit_races": 61,
+      "hit_rate": 0.61,
+      "ticket_count_min": 15,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.12,
+      "races_with_25_to_30_tickets": 95,
+      "model_mean_hit_probability": 0.6741537435618778,
+      "zero_gap_solutions": 64
+    }
+  },
+  "halves_common_cases": {
+    "H1": {
+      "incumbent": {
+        "races": 65,
+        "stake_yen": 650000,
+        "payout_yen": 421730,
+        "profit_yen": -228270,
+        "recovery_percent": 64.88153846153845,
+        "hit_races": 36,
+        "hit_rate": 0.5538461538461539,
+        "ticket_count_min": 15,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.153846153846153,
+        "races_with_25_to_30_tickets": 63,
+        "model_mean_hit_probability": 0.6696466396188455,
+        "zero_gap_solutions": 41
+      },
+      "candidate": {
+        "races": 65,
+        "stake_yen": 650000,
+        "payout_yen": 458030,
+        "profit_yen": -191970,
+        "recovery_percent": 70.46615384615384,
+        "hit_races": 39,
+        "hit_rate": 0.6,
+        "ticket_count_min": 15,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.338461538461537,
+        "races_with_25_to_30_tickets": 63,
+        "model_mean_hit_probability": 0.6719166613269466,
+        "zero_gap_solutions": 45
+      }
+    },
+    "H2": {
+      "incumbent": {
+        "races": 35,
+        "stake_yen": 350000,
+        "payout_yen": 294040,
+        "profit_yen": -55960,
+        "recovery_percent": 84.01142857142857,
+        "hit_races": 25,
+        "hit_rate": 0.7142857142857143,
+        "ticket_count_min": 17,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 28.8,
+        "races_with_25_to_30_tickets": 32,
+        "model_mean_hit_probability": 0.6741263077355407,
+        "zero_gap_solutions": 18
+      },
+      "candidate": {
+        "races": 35,
+        "stake_yen": 350000,
+        "payout_yen": 257330,
+        "profit_yen": -92670,
+        "recovery_percent": 73.52285714285715,
+        "hit_races": 22,
+        "hit_rate": 0.6285714285714286,
+        "ticket_count_min": 18,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 28.714285714285715,
+        "races_with_25_to_30_tickets": 32,
+        "model_mean_hit_probability": 0.6783083248553218,
+        "zero_gap_solutions": 19
+      }
+    }
+  },
+  "archive_only_common_cases": {
+    "incumbent": {
+      "races": 93,
+      "stake_yen": 930000,
+      "payout_yen": 641340,
+      "profit_yen": -288660,
+      "recovery_percent": 68.96129032258065,
+      "hit_races": 55,
+      "hit_rate": 0.5913978494623656,
+      "ticket_count_min": 15,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.043010752688172,
+      "races_with_25_to_30_tickets": 89,
+      "model_mean_hit_probability": 0.6712704262506343,
+      "zero_gap_solutions": 56
+    },
+    "candidate": {
+      "races": 93,
+      "stake_yen": 930000,
+      "payout_yen": 658030,
+      "profit_yen": -271970,
+      "recovery_percent": 70.75591397849462,
+      "hit_races": 56,
+      "hit_rate": 0.6021505376344086,
+      "ticket_count_min": 15,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.096774193548388,
+      "races_with_25_to_30_tickets": 88,
+      "model_mean_hit_probability": 0.6748365621676665,
+      "zero_gap_solutions": 59
+    }
+  },
+  "failures": [
+    {
+      "method": "incumbent",
+      "race_code": "2026032207010411",
+      "stage": "allocation",
+      "error_type": "RuntimeError",
+      "error": "Cannot spend10000 within30 tickets at exact minimum stakes"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026040406030311",
+      "stage": "allocation",
+      "error_type": "RuntimeError",
+      "error": "Cannot spend10000 within30 tickets at exact minimum stakes"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026062803020211",
+      "stage": "allocation",
+      "error_type": "RuntimeError",
+      "error": "Cannot spend10000 within30 tickets at exact minimum stakes"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026032207010411",
+      "stage": "allocation",
+      "error_type": "RuntimeError",
+      "error": "Cannot spend10000 within30 tickets at exact minimum stakes"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026040406030311",
+      "stage": "allocation",
+      "error_type": "RuntimeError",
+      "error": "Cannot spend10000 within30 tickets at exact minimum stakes"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026062803020211",
+      "stage": "allocation",
+      "error_type": "RuntimeError",
+      "error": "Cannot spend10000 within30 tickets at exact minimum stakes"
+    }
+  ],
+  "payout_difference_bootstrap": {
+    "paired_races": 100,
+    "mean_payout_difference_yen_per_race": -4.1,
+    "bootstrap95CI_yen_per_race": [
+      -864.2025,
+      850.2025
+    ]
+  },
+  "better_cases": 9,
+  "worse_cases": 6,
+  "same_payout_cases": 85,
+  "payout_difference_contributors": [
+    {
+      "race_code": "2026011808010711",
+      "date": "2026-01-18",
+      "race_name": "GⅡ 日経新春杯",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 12150,
+      "difference_yen": 12150
+    },
+    {
+      "race_code": "2026032907010611",
+      "date": "2026-03-29",
+      "race_name": "GⅠ 高松宮記念",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 11220,
+      "difference_yen": 11220
+    },
+    {
+      "race_code": "2026011806010711",
+      "date": "2026-01-18",
+      "race_name": "GⅢ 京成杯",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 11100,
+      "difference_yen": 11100
+    },
+    {
+      "race_code": "2026022109010111",
+      "date": "2026-02-21",
+      "race_name": "GⅢ 阪急杯",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 11090,
+      "difference_yen": 11090
+    },
+    {
+      "race_code": "2026032806030111",
+      "date": "2026-03-28",
+      "race_name": "GⅡ 日経賞",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 10640,
+      "difference_yen": 10640
+    },
+    {
+      "race_code": "2026080801010511",
+      "date": "2026-08-08",
+      "race_name": "GⅢ エルムS",
+      "incumbent_payout_yen": 11800,
+      "candidate_payout_yen": 21900,
+      "difference_yen": 10100
+    },
+    {
+      "race_code": "2026092109040711",
+      "date": "2026-09-21",
+      "race_name": "GⅡ 神戸新聞杯",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 10030,
+      "difference_yen": 10030
+    },
+    {
+      "race_code": "2026041109020511",
+      "date": "2026-04-11",
+      "race_name": "GⅡ 阪神牝馬S",
+      "incumbent_payout_yen": 10440,
+      "candidate_payout_yen": 11460,
+      "difference_yen": 1020
+    },
+    {
+      "race_code": "2026083007030407",
+      "date": "2026-08-30",
+      "race_name": "GⅢ 中京2歳S",
+      "incumbent_payout_yen": 10560,
+      "candidate_payout_yen": 10650,
+      "difference_yen": 90
+    },
+    {
+      "race_code": "2026010406010111",
+      "date": "2026-01-04",
+      "race_name": "GⅢ 中山金杯",
+      "incumbent_payout_yen": 10360,
+      "candidate_payout_yen": 10360,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026010408010111",
+      "date": "2026-01-04",
+      "race_name": "GⅢ 京都金杯",
+      "incumbent_payout_yen": 10620,
+      "candidate_payout_yen": 10620,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026011106010411",
+      "date": "2026-01-11",
+      "race_name": "GⅢ フェアリーS",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026011208010511",
+      "date": "2026-01-12",
+      "race_name": "GⅢ シンザン記念",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026012410010111",
+      "date": "2026-01-24",
+      "race_name": "GⅢ 小倉牝馬S",
+      "incumbent_payout_yen": 13410,
+      "candidate_payout_yen": 13410,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026012506010911",
+      "date": "2026-01-25",
+      "race_name": "GⅡ アメリカJCC",
+      "incumbent_payout_yen": 10200,
+      "candidate_payout_yen": 10200,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026012508010911",
+      "date": "2026-01-25",
+      "race_name": "GⅡ プロキオンS",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026020105010211",
+      "date": "2026-02-01",
+      "race_name": "GⅢ 根岸S",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026020108020211",
+      "date": "2026-02-01",
+      "race_name": "GⅢ シルクロードS",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026021005010411",
+      "date": "2026-02-10",
+      "race_name": "GⅢ 東京新聞杯",
+      "incumbent_payout_yen": 12050,
+      "candidate_payout_yen": 12050,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026021008020411",
+      "date": "2026-02-10",
+      "race_name": "GⅢ きさらぎ賞",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026021405010511",
+      "date": "2026-02-14",
+      "race_name": "GⅢ クイーンC",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026021505010611",
+      "date": "2026-02-15",
+      "race_name": "GⅢ 共同通信杯",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026021508020611",
+      "date": "2026-02-15",
+      "race_name": "GⅡ 京都記念",
+      "incumbent_payout_yen": 10400,
+      "candidate_payout_yen": 10400,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026022105010711",
+      "date": "2026-02-21",
+      "race_name": "GⅢ ダイヤモンドS",
+      "incumbent_payout_yen": 10560,
+      "candidate_payout_yen": 10560,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026022205010811",
+      "date": "2026-02-22",
+      "race_name": "GⅠ フェブラリーS",
+      "incumbent_payout_yen": 10680,
+      "candidate_payout_yen": 10680,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026022210011011",
+      "date": "2026-02-22",
+      "race_name": "GⅢ 小倉大賞典",
+      "incumbent_payout_yen": 11350,
+      "candidate_payout_yen": 11350,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026022806020111",
+      "date": "2026-02-28",
+      "race_name": "GⅢ オーシャンS",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026030106020211",
+      "date": "2026-03-01",
+      "race_name": "GⅡ 中山記念",
+      "incumbent_payout_yen": 10850,
+      "candidate_payout_yen": 10850,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026030109010411",
+      "date": "2026-03-01",
+      "race_name": "GⅡ チューリップ賞",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026030706020311",
+      "date": "2026-03-07",
+      "race_name": "GⅢ 中山牝馬S",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026030709010511",
+      "date": "2026-03-07",
+      "race_name": "GⅡ フィリーズレビュー",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026030806020411",
+      "date": "2026-03-08",
+      "race_name": "GⅡ 弥生賞",
+      "incumbent_payout_yen": 10340,
+      "candidate_payout_yen": 10340,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026031506020611",
+      "date": "2026-03-15",
+      "race_name": "GⅡ スプリングS",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026031507010211",
+      "date": "2026-03-15",
+      "race_name": "GⅡ 金鯱賞",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026032106020711",
+      "date": "2026-03-21",
+      "race_name": "GⅢ フラワーC",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026032107010311",
+      "date": "2026-03-21",
+      "race_name": "GⅢ ファルコンS",
+      "incumbent_payout_yen": 11220,
+      "candidate_payout_yen": 11220,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026032809020111",
+      "date": "2026-03-28",
+      "race_name": "GⅢ 毎日杯",
+      "incumbent_payout_yen": 10080,
+      "candidate_payout_yen": 10080,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026032906030211",
+      "date": "2026-03-29",
+      "race_name": "GⅢ マーチS",
+      "incumbent_payout_yen": 12720,
+      "candidate_payout_yen": 12720,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026040409020311",
+      "date": "2026-04-04",
+      "race_name": "GⅢ チャーチルダウンズC",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026040509020411",
+      "date": "2026-04-05",
+      "race_name": "GⅠ 大阪杯",
+      "incumbent_payout_yen": 21290,
+      "candidate_payout_yen": 21290,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026041106030511",
+      "date": "2026-04-11",
+      "race_name": "GⅡ ニュージーランドT",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026041209020611",
+      "date": "2026-04-12",
+      "race_name": "GⅠ 桜花賞",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026041809020711",
+      "date": "2026-04-18",
+      "race_name": "GⅢ アンタレスS",
+      "incumbent_payout_yen": 11450,
+      "candidate_payout_yen": 11450,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026041903010411",
+      "date": "2026-04-19",
+      "race_name": "GⅢ 福島牝馬S",
+      "incumbent_payout_yen": 11700,
+      "candidate_payout_yen": 11700,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026041906030811",
+      "date": "2026-04-19",
+      "race_name": "GⅠ 皐月賞",
+      "incumbent_payout_yen": 10800,
+      "candidate_payout_yen": 10800,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026042505020111",
+      "date": "2026-04-25",
+      "race_name": "GⅡ 青葉賞",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026042605020211",
+      "date": "2026-04-26",
+      "race_name": "GⅡ フローラS",
+      "incumbent_payout_yen": 22120,
+      "candidate_payout_yen": 22120,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026042608030211",
+      "date": "2026-04-26",
+      "race_name": "GⅡ マイラーズC",
+      "incumbent_payout_yen": 12420,
+      "candidate_payout_yen": 12420,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026050205020311",
+      "date": "2026-05-02",
+      "race_name": "GⅡ 京王杯スプリングC",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026050208030311",
+      "date": "2026-05-02",
+      "race_name": "GⅢ ユニコーンS",
+      "incumbent_payout_yen": 10320,
+      "candidate_payout_yen": 10320,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026050308030411",
+      "date": "2026-05-03",
+      "race_name": "GⅠ 天皇賞（春）",
+      "incumbent_payout_yen": 10370,
+      "candidate_payout_yen": 10370,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026050905020511",
+      "date": "2026-05-09",
+      "race_name": "GⅢ エプソムC",
+      "incumbent_payout_yen": 11640,
+      "candidate_payout_yen": 11640,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026051005020611",
+      "date": "2026-05-10",
+      "race_name": "GⅠ NHKマイルC",
+      "incumbent_payout_yen": 10260,
+      "candidate_payout_yen": 10260,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026051604010511",
+      "date": "2026-05-16",
+      "race_name": "GⅢ 新潟大賞典",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026051705020811",
+      "date": "2026-05-17",
+      "race_name": "GⅠ ヴィクトリアマイル",
+      "incumbent_payout_yen": 10260,
+      "candidate_payout_yen": 10260,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026052308030911",
+      "date": "2026-05-23",
+      "race_name": "GⅢ 平安S",
+      "incumbent_payout_yen": 12600,
+      "candidate_payout_yen": 12600,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026052405021011",
+      "date": "2026-05-24",
+      "race_name": "GⅠ オークス",
+      "incumbent_payout_yen": 12840,
+      "candidate_payout_yen": 12840,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026053008031111",
+      "date": "2026-05-30",
+      "race_name": "GⅢ 葵S",
+      "incumbent_payout_yen": 14010,
+      "candidate_payout_yen": 14010,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026053105021211",
+      "date": "2026-05-31",
+      "race_name": "GⅠ 日本ダービー",
+      "incumbent_payout_yen": 10220,
+      "candidate_payout_yen": 10220,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026053105021212",
+      "date": "2026-05-31",
+      "race_name": "GⅡ 目黒記念",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026060705030211",
+      "date": "2026-06-07",
+      "race_name": "GⅠ 安田記念",
+      "incumbent_payout_yen": 7290,
+      "candidate_payout_yen": 7290,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026061302010111",
+      "date": "2026-06-13",
+      "race_name": "GⅢ 函館スプリントS",
+      "incumbent_payout_yen": 12330,
+      "candidate_payout_yen": 12330,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026061409030411",
+      "date": "2026-06-14",
+      "race_name": "GⅠ 宝塚記念",
+      "incumbent_payout_yen": 10540,
+      "candidate_payout_yen": 10540,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026062105030611",
+      "date": "2026-06-21",
+      "race_name": "GⅢ 府中牝馬S",
+      "incumbent_payout_yen": 13070,
+      "candidate_payout_yen": 13070,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026062109030611",
+      "date": "2026-06-21",
+      "race_name": "GⅢ しらさぎS",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026062802010611",
+      "date": "2026-06-28",
+      "race_name": "GⅢ 函館記念",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026070510020411",
+      "date": "2026-07-05",
+      "race_name": "GⅢ 北九州記念",
+      "incumbent_payout_yen": 11790,
+      "candidate_payout_yen": 11790,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026071203020611",
+      "date": "2026-07-12",
+      "race_name": "GⅢ 七夕賞",
+      "incumbent_payout_yen": 13040,
+      "candidate_payout_yen": 13040,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026071902011211",
+      "date": "2026-07-19",
+      "race_name": "GⅢ 函館2歳S",
+      "incumbent_payout_yen": 10890,
+      "candidate_payout_yen": 10890,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026071910020811",
+      "date": "2026-07-19",
+      "race_name": "GⅢ 小倉記念",
+      "incumbent_payout_yen": 11300,
+      "candidate_payout_yen": 11300,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026072604020207",
+      "date": "2026-07-26",
+      "race_name": "GⅢ 関屋記念",
+      "incumbent_payout_yen": 11280,
+      "candidate_payout_yen": 11280,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026072607020207",
+      "date": "2026-07-26",
+      "race_name": "GⅢ 東海S",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026080201010411",
+      "date": "2026-08-02",
+      "race_name": "GⅢ クイーンS",
+      "incumbent_payout_yen": 10080,
+      "candidate_payout_yen": 10080,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026080204020407",
+      "date": "2026-08-02",
+      "race_name": "GⅢ アイビスサマーダッシュ",
+      "incumbent_payout_yen": 14560,
+      "candidate_payout_yen": 14560,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026080904020607",
+      "date": "2026-08-09",
+      "race_name": "GⅢ レパードS",
+      "incumbent_payout_yen": 11360,
+      "candidate_payout_yen": 11360,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026080907020607",
+      "date": "2026-08-09",
+      "race_name": "GⅢ CBC賞",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026081601010811",
+      "date": "2026-08-16",
+      "race_name": "GⅡ 札幌記念",
+      "incumbent_payout_yen": 12080,
+      "candidate_payout_yen": 12080,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026082301020211",
+      "date": "2026-08-23",
+      "race_name": "GⅢ キーンランドC",
+      "incumbent_payout_yen": 10640,
+      "candidate_payout_yen": 10640,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026082304030207",
+      "date": "2026-08-23",
+      "race_name": "GⅢ 新潟2歳S",
+      "incumbent_payout_yen": 10780,
+      "candidate_payout_yen": 10780,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026083004030408",
+      "date": "2026-08-30",
+      "race_name": "GⅢ 新潟記念",
+      "incumbent_payout_yen": 10530,
+      "candidate_payout_yen": 10530,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026090501020511",
+      "date": "2026-09-05",
+      "race_name": "GⅢ 札幌2歳S",
+      "incumbent_payout_yen": 10080,
+      "candidate_payout_yen": 10080,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026090609040211",
+      "date": "2026-09-06",
+      "race_name": "GⅡ セントウルS",
+      "incumbent_payout_yen": 10240,
+      "candidate_payout_yen": 10240,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026091209040311",
+      "date": "2026-09-12",
+      "race_name": "GⅢ チャレンジC",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026091306040411",
+      "date": "2026-09-13",
+      "race_name": "GⅡ セントライト記念",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026091309040411",
+      "date": "2026-09-13",
+      "race_name": "GⅡ ローズS",
+      "incumbent_payout_yen": 11100,
+      "candidate_payout_yen": 11100,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026092006040611",
+      "date": "2026-09-20",
+      "race_name": "GⅡ オールカマー",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026092609040811",
+      "date": "2026-09-26",
+      "race_name": "GⅢ シリウスS",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026092706040911",
+      "date": "2026-09-27",
+      "race_name": "GⅠ スプリンターズS",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026100405040211",
+      "date": "2026-10-04",
+      "race_name": "GⅡ 毎日王冠",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026100408040211",
+      "date": "2026-10-04",
+      "race_name": "GⅡ 京都大賞典",
+      "incumbent_payout_yen": 0,
+      "candidate_payout_yen": 0,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026101005040311",
+      "date": "2026-10-10",
+      "race_name": "GⅢ サウジアラビアロイヤルC",
+      "incumbent_payout_yen": 10360,
+      "candidate_payout_yen": 10360,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026101105040411",
+      "date": "2026-10-11",
+      "race_name": "GⅡ アイルランドT",
+      "incumbent_payout_yen": 11100,
+      "candidate_payout_yen": 11100,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026101705040611",
+      "date": "2026-10-17",
+      "race_name": "GⅡ 富士S",
+      "incumbent_payout_yen": 12340,
+      "candidate_payout_yen": 12340,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026101808040711",
+      "date": "2026-10-18",
+      "race_name": "GⅠ 秋華賞",
+      "incumbent_payout_yen": 11200,
+      "candidate_payout_yen": 11200,
+      "difference_yen": 0
+    },
+    {
+      "race_code": "2026032209011011",
+      "date": "2026-03-22",
+      "race_name": "GⅡ 阪神大賞典",
+      "incumbent_payout_yen": 10140,
+      "candidate_payout_yen": 0,
+      "difference_yen": -10140
+    },
+    {
+      "race_code": "2026050908030511",
+      "date": "2026-05-09",
+      "race_name": "GⅡ 京都新聞杯",
+      "incumbent_payout_yen": 10780,
+      "candidate_payout_yen": 0,
+      "difference_yen": -10780
+    },
+    {
+      "race_code": "2026081607020807",
+      "date": "2026-08-16",
+      "race_name": "GⅢ 中京記念",
+      "incumbent_payout_yen": 10920,
+      "candidate_payout_yen": 0,
+      "difference_yen": -10920
+    },
+    {
+      "race_code": "2026090606040211",
+      "date": "2026-09-06",
+      "race_name": "GⅡ 紫苑S",
+      "incumbent_payout_yen": 11070,
+      "candidate_payout_yen": 0,
+      "difference_yen": -11070
+    },
+    {
+      "race_code": "2026101208040511",
+      "date": "2026-10-12",
+      "race_name": "GⅡ スワンS",
+      "incumbent_payout_yen": 17100,
+      "candidate_payout_yen": 0,
+      "difference_yen": -17100
+    },
+    {
+      "race_code": "2026090506040111",
+      "date": "2026-09-05",
+      "race_name": "GⅢ 京成杯オータムH",
+      "incumbent_payout_yen": 17840,
+      "candidate_payout_yen": 0,
+      "difference_yen": -17840
+    }
+  ],
+  "final_odds_and_final_starters_used": true,
+  "2026_previously_inspected": true,
+  "original_source_point_in_time_certified": false,
+  "production_or_automations_changed": false,
+  "no_2026_parameter_tuning": true,
+  "no_original_predictions_overwritten": true,
+  "2025_replay_performed": false
+}
