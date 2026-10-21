@@ -1,0 +1,90 @@
+{
+  "experiment": "bias_decomposition_rankwise_20261021",
+  "created_at": "2026-10-21T09:20:57.649005+00:00",
+  "test_only": true,
+  "production_changes_authorized_in_this_run": false,
+  "base_commit": "8627931fd365127ad22cec836177bfb8cef89dd7",
+  "task1": [
+    "Compare separately calibrated WIN/TOP3 vs normalized WIN and implied marginals from legacy geometric strength.",
+    "Compare market-corrected shared-strength WIN/TOP3 vs observations and market-only baseline.",
+    "Keep raw prediction error distinct from marginal distortion caused by joint rank conversion."
+  ],
+  "fit_data": "2025 all-race raw predictions from saved reconstructed base models trained through 2024. Market calibration uses the same 119 complete flat graded races and fixed exclusions as the previous experiment.",
+  "folds": [
+    {
+      "train_end": "2025-04-30",
+      "validate_start": "2025-05-01",
+      "validate_end": "2025-06-30"
+    },
+    {
+      "train_end": "2025-06-30",
+      "validate_start": "2025-07-01",
+      "validate_end": "2025-08-31"
+    },
+    {
+      "train_end": "2025-08-31",
+      "validate_start": "2025-09-01",
+      "validate_end": "2025-10-31"
+    },
+    {
+      "train_end": "2025-10-31",
+      "validate_start": "2025-11-01",
+      "validate_end": "2025-12-31"
+    }
+  ],
+  "base_calibration_policy": "For each 2025 fold, refit Platt WIN/TOP3 on all available 2025 races through the fold train_end only. Do not reuse the Platt calibrator fitted on all of 2025 inside fold validation. Final refit uses all 2025. Base LightGBM remains trained through 2024 for 2025 predictions.",
+  "methods": {
+    "market_PL": {
+      "parameters": 0,
+      "scores": "log(q) at every stage"
+    },
+    "shared_ai_market": {
+      "parameters": 2,
+      "scores": "a log(sqrt(WIN*TOP3))+b log(q), shared at all 3 ranks"
+    },
+    "stage_market": {
+      "parameters": 3,
+      "scores": "b1/b2/b3 log(q) at stages1/2/3"
+    },
+    "stage_shared_ai": {
+      "parameters": 4,
+      "scores": "a log(sqrt(WIN*TOP3))+b1/b2/b3 log(q)"
+    },
+    "stage_two_heads": {
+      "parameters": 5,
+      "scores": "stage1 a1 log(WIN)+b1 log(q); stage2/3 a23 log(TOP3)+b2/b3 log(q)"
+    }
+  },
+  "bounds": {
+    "AI_coefficients": [
+      0,
+      1
+    ],
+    "market_coefficients": [
+      0,
+      2
+    ]
+  },
+  "optimizer": "L-BFGS-B with analytic gradient; deterministic fixed starts, verify convergence. Coefficients not selected for ROI.",
+  "selection": "Choose lowest-complexity method whose pooled 2025 forward-validation ordered-top3 mean logloss is within one standard error of the best mean; tie-break lower mean then name. Standard error computed over validation races. The prior shared_ai_market method is a prespecified incumbent.",
+  "evaluation": "After freezing method and coefficients using 2025 only, evaluate the selected family and all prespecified fixed families on 2026-01-04 through 2026-10-18. Report all results; do not reselect or retune from 2026.",
+  "evaluation_is_untouched": false,
+  "evaluation_warning": "2026 outcomes were previously inspected for bias and the previous correction. Treat this as a retrospective temporal comparison, not a new independent prospective holdout.",
+  "metrics": [
+    "ordered-top3 and each rank conditional logloss",
+    "WIN/TOP3 Brier and binary logloss",
+    "pair/triple multiclass Brier and logloss",
+    "popularity-group residuals with uncertainty",
+    "H1/H2 sensitivity",
+    "paired race bootstrap",
+    "fixed-allocation selected-method and incumbent portfolio official ROI and hit calibration"
+  ],
+  "joint_probability_policy": "Use exact rank-dependent conditional permutations, derive all horse/pair/triple marginals and union coverage from that same distribution. No ad-hoc independent probability rescaling.",
+  "allocation": "Preserve balanced_A_v3 objective/constraints/default solver settings; adapt only ordered-outcome probability input. Original budgets and old records unchanged.",
+  "limits": [
+    "Final odds and final starter sets; original full archive point-in-time validity uncertified.",
+    "Some 2026 races use verified checkpoints or public reconstruction, as documented in previous audit.",
+    "Finite samples and approximate MILP; no profit guarantee.",
+    "No deployment, automation change, X sending or ticket purchases in this run."
+  ]
+}
