@@ -1,0 +1,55 @@
+{
+  "record_type": "guarded_probability_correction_deployment",
+  "date_jst": "2026-10-21",
+  "steps": {
+    "1": "completed_candidate_fitted_on_2025",
+    "2": "completed_2026_retrospective_comparison",
+    "3": "configuration_verified_first_live_completion_pending"
+  },
+  "candidate_code_base_commit": "b543b5fbc47700ee175e2c237aee299ca3752733",
+  "automations": [
+    {
+      "title": "重賞予想・公開 15:45以降",
+      "enabled": true,
+      "schedule_unchanged": true,
+      "correction_method": "market_corrected_v1",
+      "prompt_readback_matches": true
+    },
+    {
+      "title": "重賞予想・公開 15:40前後",
+      "enabled": true,
+      "schedule_unchanged": true,
+      "correction_method": "market_corrected_v1",
+      "prompt_readback_matches": true
+    },
+    {
+      "title": "重賞予想・公開 15:35以前",
+      "enabled": true,
+      "schedule_unchanged": true,
+      "correction_method": "market_corrected_v1",
+      "prompt_readback_matches": true
+    }
+  ],
+  "test_count": 28,
+  "tests_passed": true,
+  "model_zip_or_history_modified": false,
+  "old_prediction_or_results_overwritten": false,
+  "prospective_performance_verified": false,
+  "first_in_sale_WIN_pipeline_completed": false,
+  "past_GitHub_prediction_receipt_settlement_roundtrip": true,
+  "production_activated": false,
+  "configuration_uses_correction_on_next_valid_new_prediction": true,
+  "live_activation_gate": "Require current official active field, fresh in-sale WIN/pair/triple odds, compatible model SHA, successful calculation and deadline-verified GitHub prediction+receipt before publication. No silent fallback to old probabilities.",
+  "historical_COMPARISON_ROI": {
+    "old_percent": 57.585436893203884,
+    "corrected_percent": 79.19417475728156,
+    "market_only_percent": 85.24563106796117
+  },
+  "AI_advantage_over_market_proven": false,
+  "linked_records": {
+    "prediction": "00c4b3c90e7cb167365b01879895d65f23a23c2c",
+    "receipt": "c4e5e80ef4c1100e40f44c641894b77218ac2e83",
+    "settlement": "8e1fca5955013a14b42718c900469559d5cb2ba1"
+  },
+  "cohort_policy": "Schema-6 settlements preserve probability method and parameter SHA; legacy records/results remain unchanged."
+}

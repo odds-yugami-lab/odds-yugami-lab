@@ -38,6 +38,19 @@ class CoherenceTests(unittest.TestCase):
         h.loc[0,'umaban']=2
         with self.assertRaisesRegex(ValueError,'identities'):probability_tables(h,np.ones(4))
 
+    def test_settlement_preserves_new_probability_cohort_without_changing_legacy_shape(self):
+        from settlement import settle
+        record={'race_code':RACE,'tickets':[{'bet_type':'umaren','kumiban':'0102','stake':10000}]}
+        payout={'race_code':RACE,'official_verified':True,'source_url':'https://www.jra.go.jp/test',
+            'payouts_per_100_yen':{'umaren':{'0102':210},'sanrenpuku':{'010203':500}}}
+        old=settle(record,payout,test_only=True)
+        self.assertNotIn('probability_method',old)
+        record.update(schema_version=6,probability_method='candidate',probability_correction_parameters_sha256='a'*64)
+        new=settle(record,payout,test_only=True)
+        self.assertEqual(new['probability_method'],'candidate')
+        self.assertEqual(new['probability_correction_parameters_sha256'],'a'*64)
+        self.assertEqual(new['payout_yen'],old['payout_yen'])
+
 class SourceTests(unittest.TestCase):
     def test_valid_snapshot(self):self.assertTrue(verify_snapshot(snapshot(),metadata(),runners(),NOW))
     def test_stale_WIN_blocks_even_if_other_odds_fresh(self):

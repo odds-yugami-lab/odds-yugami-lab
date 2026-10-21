@@ -71,7 +71,7 @@ def settle(record,payout_snapshot,publication=None,test_only=False):
         lines.append({'bet_type':kind,'kumiban':key,'stake':stake,'payout_yen':payout,'refund_yen':refund})
     if investment!=10000:raise ValueError('Saved budget mismatch')
     gross=returned+refunded
-    return {'record_type':'settlement_test' if test_only else 'virtual_bet_settlement',
+    result={'record_type':'settlement_test' if test_only else 'virtual_bet_settlement',
             'race_code':race,'is_live_performance_record':not test_only,
             'allocation_rule':record.get('allocation_rule'), 'model_package':record.get('model_package'),
             'prediction_commit_sha':publication['commit_sha'] if publication else None,
@@ -79,3 +79,9 @@ def settle(record,payout_snapshot,publication=None,test_only=False):
             'investment_yen':investment,'payout_yen':returned,'refund_yen':refunded,
             'profit_yen':gross-investment,'recovery_percent':100*gross/investment,
             'ticket_results':lines,'result_source_url':payout_snapshot['source_url']}
+    # Keep older immutable result bytes reproducible. New schema-6 predictions
+    # explicitly distinguish market calibration from legacy saved probabilities.
+    if record.get('schema_version',0)>=6:
+        result['probability_method']=record['probability_method']
+        result['probability_correction_parameters_sha256']=record['probability_correction_parameters_sha256']
+    return result

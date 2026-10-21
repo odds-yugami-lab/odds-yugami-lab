@@ -42,6 +42,8 @@
 
 補正版は`operation_runner.py live --probability-method market_corrected_v1`を明示する。`calibrated_live_pipeline`と`calibrated_pre_race`は、対応モデルSHA、全頭の新鮮な発売中単勝、従来の全馬連/3連複・正式出走・履歴・発走12分前・GitHub原本とreceipt保存ゲートを要求する。失敗を旧方式への自動変更で隠さない。既存原本は再利用し、後付け再予想しない。
 
-27テストと、保存済みモデルの再推論→スワンS59点10,000円→実GitHub保存/receipt/読戻し→公式払戻17,100円までの過去テストが成功。`publication_tests/correction_20261021`参照。近似solverにより、同じ確率でも独立実行の配分は57点と59点に変わった（両方とも同じ払戻・制約を満たす）。103レース集計を都合の良い再実行で置換していない。
+28テストと、保存済みモデルの再推論→スワンS59点10,000円→実GitHub保存/receipt/読戻し→公式払戻17,100円までの過去テストが成功。`publication_tests/correction_20261021`参照。近似solverにより、同じ確率でも独立実行の配分は57点と59点に変わった（両方とも同じ払戻・制約を満たす）。103レース集計を都合の良い再実行で置換していない。
 
 発売中WINを含む初回本番完走は未確認。次回予約を補正版の厳格検証付き入口へ接続することと、本番成功確認を区別する。詳細は`validation/correction_20261021/README.md`、数値は`comparison.json`。回顧的試算を本番成績に含めない。
+
+2026-10-21追記：予想の3予約は `--probability-method market_corrected_v1` を呼ぶ内容へ更新し、予約の有効状態・指示全文の読み戻し・従来時間枠の維持を確認済み。初回の発売中データと期限内公開成功は引き続き未確認。schema_version=6の収支にはprobability_methodと補正パラメータSHAを引き継ぐ。旧schemaの結果形式・原本は変更しない。設定確認記録：`validation/correction_20261021/deployment.json`。

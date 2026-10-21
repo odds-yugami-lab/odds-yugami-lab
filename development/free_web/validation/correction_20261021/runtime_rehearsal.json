@@ -25,6 +25,6 @@
     "fresh_rehearsal_payout_yen": 17100,
     "note": "Same model probabilities and fixed allocation algorithm. Solver is approximate (6% MIP gap and time limits); independently computed portfolios can differ. Both are retained; no best-return run was selected."
   },
-  "test_count": 27,
+  "test_count": 28,
   "tests_passed": true
 }
