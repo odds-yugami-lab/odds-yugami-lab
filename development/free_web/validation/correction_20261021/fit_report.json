@@ -1,0 +1,66 @@
+{
+  "version": "market_strength_calibration_v1_20261021",
+  "alpha_ai": 0.10902943648255348,
+  "beta_market": 0.7586398739642098,
+  "fitted_on_year": 2025,
+  "fitted_races": 119,
+  "2026_labels_used_for_fitting": false,
+  "fit_ordered_top3_nll": 6.6596532542594336,
+  "old_strength_nll": 7.175306061384685,
+  "market_only_nll": 6.716637929687513,
+  "optimizer_success": true,
+  "gradient": [
+    0.0,
+    8.881784152372424e-08
+  ],
+  "created_at": "2026-10-21T02:39:25.810620+00:00",
+  "exclusions": [
+    {
+      "race_code": "2025012510010111",
+      "reason": "missing/nonunique top3 ranking (including dead heat)"
+    },
+    {
+      "race_code": "2025020205010211",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025042003010411",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025060105021212",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025061402010111",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025072704020207",
+      "reason": "missing/nonunique top3 ranking (including dead heat)"
+    },
+    {
+      "race_code": "2025090706040211",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025110908040211",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025113005050812",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025113008040812",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025121307050311",
+      "reason": "incomplete archive or starter mismatch"
+    }
+  ],
+  "protocol_sha256": "d08dc8d6c63c41ce69c49b927ac8ada1ac6afde7dc5a842e89a92fefa910ca40",
+  "production_activated": false,
+  "test_only": true
+}
