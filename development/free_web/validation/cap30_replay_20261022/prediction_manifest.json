@@ -1,0 +1,1255 @@
+{
+  "created_at": "2026-10-21T21:40:51.276774+00:00",
+  "test_only": true,
+  "protocol_sha256": "4c1377a3fd0b8cab2cbd691975fdc1c0ce3d1dc6e790f97e4426c5d944d723c7",
+  "expected_cases": 206,
+  "prepared_cases": 200,
+  "complete": false,
+  "outcomes_loaded_in_prediction_phase": false,
+  "predictions": [
+    {
+      "method": "candidate",
+      "race_code": "2026010406010111",
+      "sha256": "e70617141e67cbf0c5a5f0609b0a81751a27d1272074c56d0c0db2f95245069c",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026010408010111",
+      "sha256": "42298c3fbf53bd80ad36d3bd4784e3f9eed810da3dec4aa0822751b1cdcbe6a9",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026011106010411",
+      "sha256": "6111513a473fdaf021ad3574066441e9f49b8f94fdc941b53f793df712112749",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026011208010511",
+      "sha256": "3dde44bbafc4b247f89f840a31b8c3347775b72a4cb1d56fde892c891ff4457e",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026011806010711",
+      "sha256": "acea09f7f38c2244beade811f8b8aa101d961f3c382c14d4ef2b5bb4bfd9078a",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026011808010711",
+      "sha256": "86adbe31a27f255c0738da2f7d5a0dbd485e846c01b8e9d1b12e24c17eb7a371",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026012410010111",
+      "sha256": "71476867a786a9900955c0812e5115cb20a5144183b61a584895848b4f1ecc8e",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026012506010911",
+      "sha256": "16d3663b7b4af76eeedc8190a92670252234d1356aba6850075e1aef051f67f4",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026012508010911",
+      "sha256": "8d724726cbcd71ce8e439686632f45f7326f5306d1c9bbaaa714a2a8cee3aeea",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026020105010211",
+      "sha256": "acae4f93d03d22e02f9a9d5ef0801055cf8e2046e6b49190166c8704b981946d",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026020108020211",
+      "sha256": "2a4c9745000ee5fbdf84349d92fcd6e6f5948811fea945715c7d72d81aae61eb",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026021005010411",
+      "sha256": "a2203d3d30aa14dc6b9fa499a6e551983360e731a998e72833c84d74def88f7d",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026021008020411",
+      "sha256": "edc9e9a70112827c39690d62307f66bad4d018c17779a7e5d3dc38a49b9c60e3",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026021405010511",
+      "sha256": "537d201526f566ede4706e0344513a77b81c6122ab1f5ad17d5f5d8ae91d9d70",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026021505010611",
+      "sha256": "f04a8019f50886635bb93b7ef319bdf5bab54cd202a114810d4e0ba7bd69d432",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026021508020611",
+      "sha256": "b50a0677dc33f4b7750291e3557f7d3bd41359db3a8df4d6732965d3cae7f2a2",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026022105010711",
+      "sha256": "7370e7aaf4508b1c1cf0f5cd78888a1aa22f4a9b4e5557d45c799211766b651d",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026022109010111",
+      "sha256": "5afd53006740e5bd42f5dc4d612722d7a3f089e3ecfaa2f5b014f00c42b3b7a4",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026022205010811",
+      "sha256": "8d709bbf473dcf342c57a504c2733db30c0d01d8d85cd73d1320d5030852c711",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026022210011011",
+      "sha256": "22fc73c4005ac71045eddcd8f13ca0e993687ca2e9b4507490405c9fb42e42fa",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026022806020111",
+      "sha256": "998df2f5f306090e5ce8e3e5714b33369afc20d278a7b025c722429408f79617",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026030106020211",
+      "sha256": "ff080ecd8f814b955d53b8be73a545fd97084d77404cf592fe40c07e3275d56f",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026030109010411",
+      "sha256": "9aaa11edf04344c3cbaed0bb19af77d32d595f4d45801c25a88c54a96687118c",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026030706020311",
+      "sha256": "ede068de2e6f61e0f450e37300067311339f52ad5c92c09940b1bbe7d621b64c",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026030709010511",
+      "sha256": "c754aa8b240d1f25fde76eb3f3a70834145dd710bdb0b665e7d90725c0af178d",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026030806020411",
+      "sha256": "c4d657c552359f064ef4d66ac7222df0d9ee32e7892ee94162f41e3092306748",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026031506020611",
+      "sha256": "08d385c09d89d31f219eb2a05badc3a2b2e745f39ec1e11a40206bc7f04bfd83",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026031507010211",
+      "sha256": "a2c416c44a87cc98cddfaf9b988980cd217f60f32abbe01b2d434d02c9dd9aa7",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026032106020711",
+      "sha256": "63b084e4252b410e30a9755d91b9dd1e3b05c6d68cc33876c54773152a1dcc0c",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026032107010311",
+      "sha256": "0efd6b0d0962831f9503bf3ab90666bda53f9b66912b33be53dd416906d4d397",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026032209011011",
+      "sha256": "f0e04706a64e0cf6a616766cf64e91593a078c326d70f72c998f761ace48bd85",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026032806030111",
+      "sha256": "7e011033f68f7084be152b1ba3ea62740282433a9f4d2c8751528d50856c9649",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026032809020111",
+      "sha256": "aca2f8d89160d77053a9e878bbdfd0716bfcd910c19fadcc28ed123d33cc92d0",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026032906030211",
+      "sha256": "79aa90746e905dd69b33ea73f5016a2a476eff15eb975554b84cfc86f04a94b9",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026032907010611",
+      "sha256": "f4a3c7d0251f39e3d1caefc5db24355ddd28a7406723920feb564c5bc6c49ed7",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026040409020311",
+      "sha256": "d283900f837b3bd0583ee4ae0dd5c6d948454086bb04fafc5e6231291399a369",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026040509020411",
+      "sha256": "2829355ef7f2760a997a506ebbecbbbf7e03f0cfcfbf8b4666610bc0c8381929",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026041106030511",
+      "sha256": "31e030ad7a9e77e1c8b1cc908ccfa7bbee90e0fb3e7e67c240d88bffc9b11862",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026041109020511",
+      "sha256": "4045375378f0ec4b4fc8d0f8c5f8830415c8d1c22962a22b73c95d0db04bfea1",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026041209020611",
+      "sha256": "0b95c4c6b2a3a8a4a73dacdc06404749341c7d5c170ee73822a7a5e7baa53f21",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026041809020711",
+      "sha256": "f93b90072ba9cc3890897eb9494a9fdf5780fd44918668e2e9f3d14c8e5e7824",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026041903010411",
+      "sha256": "22918072549ce2fcab7affe3f6c5c765a9e8ac2b94c9db9f4464c25a7bd0ac51",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026041906030811",
+      "sha256": "058494ed1fb0cd67f49b0f0c36448a30303ab89a07485d480f14e7f04e741354",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026042505020111",
+      "sha256": "387db99c20e218a98b32ed0a142b10505b31b012ffff5ba7a100bf6309a0207e",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026042605020211",
+      "sha256": "c7fae6c2dc36b63deb029d65b43589f77eef02e0bc4d5698a779067dd0ae92ee",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026042608030211",
+      "sha256": "6564d0670b204c5ce4bf61e90f6f8f8ddba0b4529a270cc061c7ee4cde44957b",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026050205020311",
+      "sha256": "a86bf642a6947f928b60433f01b1677713dfa93fd41bd12fb7e6af6ea3b2b85d",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026050208030311",
+      "sha256": "91b6a0850bf5cc59acf6920753565bbec074ab6f08bbccae8f164c23aed18691",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026050308030411",
+      "sha256": "1020ab7024012940ce9e5a8f780fc8184fcc473f36b9a2ce0b9410593e8cca1d",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026050905020511",
+      "sha256": "0a0e333a6ae8202134f5d05382ef40e722e9bb9a6524c3abf4340c8b77fe3c18",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026050908030511",
+      "sha256": "28333a6989366acf805aed95ec3183573c3061520643079bce3324b6ce6b1959",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026051005020611",
+      "sha256": "07cf49973905980013306de439ef7d3dc52e89ee65de8c1bb71e286cf984d98f",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026051604010511",
+      "sha256": "04177617ec6919aa1dfb85cd6a06790f6648acab5d0df13234186b2bbea921e9",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026051705020811",
+      "sha256": "18ce1ea67dba6a2cc56894a422726c84b978d6082cca57fe2c8a93056aa5a17a",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026052308030911",
+      "sha256": "c6a6e62e72107a116ab52b2d7e618315152efcc978cd885a66510bd19ce298b8",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026052405021011",
+      "sha256": "461fd3df8bff0cd045ce5800b6195bcf6f01cab9887795e9fe17777fe7dc65d7",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026053008031111",
+      "sha256": "e949e1104a8b773f7bf4e2631a3b1b9490e1fa16fa822af9a5f335338b25accb",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026053105021211",
+      "sha256": "52cc542d701cb504a956a5e194405633d22572c0e40aa44d4122168d4490f177",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026053105021212",
+      "sha256": "c0332e0bd9e385c168998f8aff32c4532084e0df4f1096280c1ab507d1eb0fec",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026060705030211",
+      "sha256": "2757b682f697537946903fd3421efcd51e42a055de58bd6fc3a18c5ac5206cea",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026061302010111",
+      "sha256": "a50d84e4180977c28567ec58548f18b2dc9f822cd1a9a48f5d5b416eb8d66c36",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026061409030411",
+      "sha256": "6b74fb6eef14f5770dc69be0ebbfb5e93d5596608e72e5fd787ed437d8583c29",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026062105030611",
+      "sha256": "00c7dc3e8407bdd1fbc494822ae6ddf79d85d7084c79e902ef5d11eaf77e5385",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026062109030611",
+      "sha256": "422e98afc6b1739a34300cf57b7fcb40e4412fda748865cf03d0fdf404bc52f3",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026062802010611",
+      "sha256": "259153928cbe36a3d90249ba7cd621153fe8bbd3e5996bf96b52eadbca5bacdb",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026070510020411",
+      "sha256": "922ea145981c0a1be81aa47d82f24639f27f60c63ce9d4679f70a3ed505598fa",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026071203020611",
+      "sha256": "c01cc50e67f98ecb49e062b40eb605647820cfc0baec5239c7fa0baa49514126",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026071902011211",
+      "sha256": "56179c2a26cb5d495f36b7f57003a7a486a4f857191b6e4667fc3c0111249a54",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026071910020811",
+      "sha256": "f5cb7407859b5b298e49d18828e1e029c5a93bf70fbfb7038beb1e21b009df24",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026072604020207",
+      "sha256": "9e110b274bf83ec9b0e2a7ebd516327b9489105664e1f25a0eb4c37faa70ff9b",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026072607020207",
+      "sha256": "33118d683ee060a6c87ec802288f02154075af3b6aa0d7b40c3b3c30c8238655",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026080201010411",
+      "sha256": "e68ed2ea164aeb887ca95347eef3992003e66d4cf21dc7860a0426e682a0ab9e",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026080204020407",
+      "sha256": "af6031dc22460a64d4b2693b5a31f1eb247ea5fa9282c0741ea97783a16159e8",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026080801010511",
+      "sha256": "aaf7d4c4676482a6eecd53dcccfe583b4016c4871be3dc1e9e53b797588c2fd7",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026080904020607",
+      "sha256": "62448f5cc84a3fab85e082d447c9d002cdf0a1ee2964e63a4553a65207020eff",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026080907020607",
+      "sha256": "2e9d6f249823fb53194e9f1bc3431a92dbaa2ec7bed30c048a44d2a4f4146587",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026081601010811",
+      "sha256": "f93eecdf4e956fad885873d93c43e29c312baafecd1dc6a55cd386b1f116a598",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026081607020807",
+      "sha256": "42100da163dd0605eb5759ca78f851de9cd3bcc7fcbb87989ef401d8ea90b9c1",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026082301020211",
+      "sha256": "c1de16f06318199023f37b79921c73d04e2580a123319820d5e915d9a28963b9",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026082304030207",
+      "sha256": "e52bcc4cb0b697f7bd12c4fa6780b33d5de829e5d45d791eb4184e45438358ef",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026083004030408",
+      "sha256": "f842c0f1996abdcd76a43a8ad6cecffc360a6902187e5503c77f546da9be3dfd",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026083007030407",
+      "sha256": "c56f55cf4d5adf6daefee159b25559d36e2f0f5b723a40f6449674e4503ccb3d",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026090501020511",
+      "sha256": "26bec9b82438957bf354e2242cb85696f3ddac5253825962a4239796284e7dd7",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026090506040111",
+      "sha256": "b8d4508bc3f1e40bd580165f65c7612f641bfc5a28c8129043f8ab1869e25a20",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026090606040211",
+      "sha256": "1073b6d169a65ac9c670e6eff3cdc7dcae598a6a308b604a1e0c2ceab5da9629",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026090609040211",
+      "sha256": "49a221cbb75fd497bb025a65328c3fefc668c97e65f3edb3129b31a82ccfabea",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026091209040311",
+      "sha256": "4071d9aec7b96b6e44b723d46a92cfad9ed9eb19742fed16cfc3a3b916520d15",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026091306040411",
+      "sha256": "64d03f5612cde2342499311bf64cfac8de53fcc0d532e7048d67f98615612828",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026091309040411",
+      "sha256": "17868b4cf723630db89a06c087f96bceb9de31c60de7be9bee0bbb32f9433e4d",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026092006040611",
+      "sha256": "fc870c389b7afd5e9366c8814879e4f515bf8a43d7d85b8931593a114b7a40eb",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026092109040711",
+      "sha256": "31716bec502a38f7eaf7968d1d046cc3ab02112e0244d88db7a536e2c33f6125",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026092609040811",
+      "sha256": "227eff5af81d047448c2f3692141a36f54d88c2166739b2535482b47908e5fb0",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026092706040911",
+      "sha256": "3d78a2f51b390edf31c6fef266292039a0704d9d21e85e3bddbf01151ca6b40e",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026100405040211",
+      "sha256": "fa501bed34ce26cd33842ff27d873db0fc64b76d8c4dd9d0d5aa6cc5d09cda13",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026100408040211",
+      "sha256": "64b65aa0fd763cdb8c7a35810ba94e1a002dcb3b5ba6db3086037e46ea7ff553",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026101005040311",
+      "sha256": "22561f5f7c2c7b10b1ecaf14fb30750319f0fda0e83d9800f0336bb04f401f73",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026101105040411",
+      "sha256": "d4b609f221be49ae452dff14786c8d32c457459976c427fe7eb6b61e844ac194",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026101208040511",
+      "sha256": "814a16e50688f5ee9e72fc15adc969f351d014b9e250d11fb474ab7c3db9d450",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026101705040611",
+      "sha256": "d57fc5490f9167924c90408d08597bea7e14b82f2931b2ac2bd49cb5b3eac892",
+      "status": "prepared"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026101808040711",
+      "sha256": "6c06ae65b036c834c502ec231ac1f1f0801aed1090cba5fa4993cca6f0c13437",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026010406010111",
+      "sha256": "2b4a5482d6cf25a5260386ead385105a3eb0df33390dfb44f368e7584b1ac26e",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026010408010111",
+      "sha256": "be6f96b3991d8de5c3709bd6621eb3984c0712a3eaea6a06fdf91021487ba27e",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026011106010411",
+      "sha256": "2c0fd6b67eb10ac8536eee0aa3fdddbf6ead46466287bfbd34032adbadc8a772",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026011208010511",
+      "sha256": "4af1f8aba5d60224a868f8a051b8fdda29d2add359c89977459ef884dc6a5b64",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026011806010711",
+      "sha256": "cf869f7dac47555e16a646d11582255ad20416e9b9d8cf76a797a2603ab0a145",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026011808010711",
+      "sha256": "2ceaefc911e4c88f49cd601688be5320b8c07c86f604da08ff9f58caa465abd9",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026012410010111",
+      "sha256": "8e85f37b8cb077dbdce97592f1e1d9943fc3ca3279d83aa3a95eff0f857286ea",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026012506010911",
+      "sha256": "c71a24bbc58a152842604a9a60511600f72ee9d1566d687e1a242773bbd68823",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026012508010911",
+      "sha256": "68b26b196ad6c52711434363ff50e13598ac40a3d1ac9d67f6650697a3806ccf",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026020105010211",
+      "sha256": "12ad3b8764e0cbc1de386e23bac37682497e446f896b471a7b3f7f1861d76c49",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026020108020211",
+      "sha256": "703d5333e11d49bae0fcc03460d5a104fde89fd588d9216fb53403fb2fd393ce",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026021005010411",
+      "sha256": "768a5f746b70945b6a565e421cd14149dfaae2eca7ac4b539726c6efee03c635",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026021008020411",
+      "sha256": "7d4f6abc280aa80aba5cb0f69c51be1035e0d94bcbd4086e034c4aba0fc15b6f",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026021405010511",
+      "sha256": "ae45c43e152dea8f0d3e279c0ae8b4a62eb138f68857c20b4e2b4d5e53f212ae",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026021505010611",
+      "sha256": "a098d729066c6edb5f25c18e06a314e31814233f6641ad4ed43a093058d30aa8",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026021508020611",
+      "sha256": "34506ea72859756d79ba86f99205e2bd4bcc6f70f52c131818ab40d3e9303a31",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026022105010711",
+      "sha256": "aaba607a4993f3480b55079c61b82f9d67ce30973c6695bf32dac4963eba3cf8",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026022109010111",
+      "sha256": "4d25df7f79c8633513473781137be60cf844ecc63c9c06bf4234f622a69f5ddf",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026022205010811",
+      "sha256": "3292f7dfb3ae5da24a27631486bc591403360c62d95511570060b0e2f7c5d6f9",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026022210011011",
+      "sha256": "44ac78bdc78c954cfc0f1ff3bdfce966ee297c1af5fef7cf8017286ebcd00f37",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026022806020111",
+      "sha256": "ce7d339e209399fa300bdb135cd3c2bc9b6a6e0a53e733854b3953a937180bb1",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026030106020211",
+      "sha256": "297ab2dfb716fd62023a54a9674dac8f6756e2df73fead84018982f7328b52dd",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026030109010411",
+      "sha256": "8e98b3240597a37332977b4670b5c910ebb137e4c944af607275f27e2e71e978",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026030706020311",
+      "sha256": "6762246ac25f50c153844a53f25b8d073a7518784fbf74b61eba94b21366cef7",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026030709010511",
+      "sha256": "4ea94cdd8494c951a42aa6645324f0a6eab4507a1e1c21879f2a7c8d2a5cf0ba",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026030806020411",
+      "sha256": "dcf575f495f8411dff398c69e22e231fd4c9862a1230e0d9652297db0103a5b9",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026031506020611",
+      "sha256": "565032d67413ec1ef485c25465152714b772c9abeb4dcba637323fa0d1f0c402",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026031507010211",
+      "sha256": "27efbcb3601f8ae1b989b1eba5f5b8efb4c3210b8d9ed2432eb4d3c1c77242a7",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026032106020711",
+      "sha256": "1a39d9328075808bea42febe27fd42afe1a49536ff9a0352cd105fbf7a73baa5",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026032107010311",
+      "sha256": "30ce2cc758e585f4d12af4a6c6635c9131dea99b4e7a461fe2dbdfc0f061f656",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026032209011011",
+      "sha256": "997ff84b252d728604a2b98267e6bf8674b2c66c49b7701a5c0aebbf8be5f62c",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026032806030111",
+      "sha256": "3e9d6236a383d5f8ccdccf76bdacdd1333fdd46097d95f53cd93e89dae605789",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026032809020111",
+      "sha256": "61af103615a9f48730cfac60cdbffaa4e9add34059247b793ba3c7d005b8b21d",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026032906030211",
+      "sha256": "c5c32b8325c39fdcafc2983afb930e65b5a48504607501ec0fe24c5ddb22068c",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026032907010611",
+      "sha256": "9612f0e80e9b739a59516b5abd794d520fe0ea551761f32e421c2d0c98f4fa4b",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026040409020311",
+      "sha256": "ea17b13931b09f13b54603c1b5efaa90cc6ff98e9d21fd41d32c94bb7a506aaf",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026040509020411",
+      "sha256": "301ce3757cc8cda460f90b8adee56cea963141cfc3a9a4fcaece46123407d93a",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026041106030511",
+      "sha256": "6a5bdc343e924e055d927d1521fbbe5ce19a13b90f872a8703d0494cac5a85ec",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026041109020511",
+      "sha256": "dedd2f2c6c1f96fa13a76fe463c83f7600d395763574d2ba2e478c4ad6f9b4c4",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026041209020611",
+      "sha256": "348819bc4c378f86476721c465bfac6a888d7dc06a75a292258c9ef8a17dcb9f",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026041809020711",
+      "sha256": "a81d16e16144de15e672000608b7e1f5c4dab3717416e4e6fc8d05b896d491ab",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026041903010411",
+      "sha256": "9cbdc0489117e7567518a043f13e2847a41aa15699d781c10bc118e25a1b3436",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026041906030811",
+      "sha256": "29422e10ad7be1e21b4e81cb44406dde55b53850bc4dba6c6e4e303d12b15ef0",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026042505020111",
+      "sha256": "4a55a9fd4d0dae8eeb59deb1d9b5c84b221afa8000cad1b5872e246740d1e3b4",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026042605020211",
+      "sha256": "acf0b57b8d533fece0c39c338051058362b1956f31a9052aabfc4610ddd28cad",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026042608030211",
+      "sha256": "147f98a6473bb10bbd4dd4cd294047584389a279e5cb447c6b9a825d3eb7d513",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026050205020311",
+      "sha256": "8e4af3495163c06960c08044abe479c1337d1a8aefa313810e05592e9a82d300",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026050208030311",
+      "sha256": "71bbb2a9ebdf78025ae3ca43479785c3da5f7b995f039f9390cbdd7b489893a2",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026050308030411",
+      "sha256": "3efa04d07b21dfff6f175ebec36036bb63d50e8a80698ea73270755620937ea7",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026050905020511",
+      "sha256": "c30227243f6bc7b225cc687799836c8782ad2803d3b8d31f628fc8dc1bfe8441",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026050908030511",
+      "sha256": "08e53bc5425b0fae1900b9d2f12b05ba23f632cc292ba9e89a1ba007d450841e",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026051005020611",
+      "sha256": "f814e638b8c7e8a3134bf04cc9ba4592d885a6f80d9bd70df8636d6119e94b5e",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026051604010511",
+      "sha256": "94c8b9343cd8fffa524a72eda1315d4f41594237b45373051a5e868ab22f4ccf",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026051705020811",
+      "sha256": "cd7922e0758e86d003cc8206a0d76acf1f8c7505d3c61a31603cecada829d41a",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026052308030911",
+      "sha256": "67996e0e1f62972e434082d0f90bf9b2daef9e6487df73a1d106ab131db0d303",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026052405021011",
+      "sha256": "2dd3f74d247ab0a740a5485654fb6b7292f2558c420c40c014650c62efa354af",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026053008031111",
+      "sha256": "c228eed99630da7aa4455516cd70a59fe65cac9d36b81e52902eb6c567e55906",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026053105021211",
+      "sha256": "e0f7a0fa4ab2d64da719ae1151bed3c1074d834144b2c326d085fa4ae0593fc9",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026053105021212",
+      "sha256": "40c5587cbb12a816deda4bd8e4e43285d72d86136424c505fb3de7cf35e73948",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026060705030211",
+      "sha256": "79a96aa9b87ecc45b292479704b59d50cbcb69b727e7618db27d574674b6ed50",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026061302010111",
+      "sha256": "0879cfa8aefb3383664b34330e476065efc5d6d96c0669c83f959864771f3a9b",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026061409030411",
+      "sha256": "ad8b7eacf05b7055c5c6eab374fb28becbd03ac9fad57f44f628179343ba6f03",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026062105030611",
+      "sha256": "8bda7f79bd1c1b14b4196048e84a4da765ea4bcd276430835de2422f6718adc0",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026062109030611",
+      "sha256": "c90cc54e41cb4f596da26e683ce604cf9d3ea69a702dbfc34717a6f3a52baa34",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026062802010611",
+      "sha256": "c2e41b5f53c37b8c5186505297b15d08166dfd72eed71cfe989e5b83f17e0c5a",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026070510020411",
+      "sha256": "ebfa6cdd63a46067f790df256f18870401a79940abcc43596b319e3d033683eb",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026071203020611",
+      "sha256": "75b7e06c900bf5cd0509a7eaac783a3c015cef71e39eba78334508ce32b8bd89",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026071902011211",
+      "sha256": "ac521a39ae2d1a6e678c4660989270c3caf9775903b9b58cd5d1206b89473122",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026071910020811",
+      "sha256": "f50795d4245f0ae71cc99ee711b8caeaef2e14aa7e24d3fc5ce61d55f2b34a10",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026072604020207",
+      "sha256": "db05cde3e3f1d89e5699a5fa14fe59f67094bd7c28061231c4431b8bc02c22fb",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026072607020207",
+      "sha256": "450520fb8b477afe839b487f14c3b7cb6022a35d0457c6642c161f0f80ad6deb",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026080201010411",
+      "sha256": "0af40460835e4c96a46dbe81f748955401d589a6b50222816d22fde182ea3479",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026080204020407",
+      "sha256": "612b5c629a45489cff79823a79846a87e92e2c10c57bb505de2253ac2369d44c",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026080801010511",
+      "sha256": "f111b7fe9b3d182431c2c33baff9bdaf5f1b060d29c679ef87c4dc4fdc0d4b30",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026080904020607",
+      "sha256": "f47d9f73559152b7fdbd53bf5133857327dfce9eecc1264f7106eb3489e2d255",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026080907020607",
+      "sha256": "5ded2cd27697363800847fda45bd9d55abc0047317f951d59c9b01192e3f4c11",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026081601010811",
+      "sha256": "b721dc93de44a1066885f898cf75c039f5926060d2798081dd034bb201ff84dc",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026081607020807",
+      "sha256": "318085c4309de259136a4228afa146a216b2ab9f91ce0e4abe3adee9257abb90",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026082301020211",
+      "sha256": "d87a6ff94a82591c2a9a71417e2a282bf4d0613d9a3b894eeac62e3a29595285",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026082304030207",
+      "sha256": "0dace51a946cc1d584b2144507779638371b2f4aef0220a11124e95c8a16449e",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026083004030408",
+      "sha256": "b0c94408c336625e3de3af9b118adb8bf321da269ecdc7f82a2fb7da3dc5e3cc",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026083007030407",
+      "sha256": "c153dbb85831d391372bfc71aa4ef690278a756c0f561e47572c9f3ad8bc5149",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026090501020511",
+      "sha256": "c394f8e1677bf6594522f835cf14e575382936540df6faf6138da285afb07ad3",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026090506040111",
+      "sha256": "dc8dc76064650efc23ab626f98b023e2fdfd291d349a6268b2d00f4beaf00c2e",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026090606040211",
+      "sha256": "d4ddc2258db9b17016a758dc993b8c3d1784a618746e70d5871647dc4c3d590a",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026090609040211",
+      "sha256": "e8c885a6108ca5e0a7fa9c2197be51d104555b82542434fb41042bf9c4e908f5",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026091209040311",
+      "sha256": "2592a7f2795d5daa889d9f9a3da17272a75b47bf7928d9f8ae48fccb7b3af514",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026091306040411",
+      "sha256": "68e3ed3b5e42fb9c1ff541e92a70d85ee1cb09eabc999431270e14f36d5a5dc9",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026091309040411",
+      "sha256": "9d0b16eaa054275809e3e3462947d1d6d9af4b1f9dab82971d61c7878b6ac3c5",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026092006040611",
+      "sha256": "704353b49997c652eb03ab4f4f91e2e3d4717197193b648b426bb402af9b89f5",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026092109040711",
+      "sha256": "1d4a559521c59835e25e0a2bcee826ecafa6947b52f2feee7a6c662c7bbcf45c",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026092609040811",
+      "sha256": "6e6e6c8b7379a2dff14947949f7a6755c40acb279d01d26fb92f0eec16d345ff",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026092706040911",
+      "sha256": "33a0680fb33e34281fe1846c7b077a2c530447362fead1153bb07045a83cb5fe",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026100405040211",
+      "sha256": "e843e89d25dc6560e1fda00d32d2b17bc4da778a38edf94345a7799c9ee86bde",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026100408040211",
+      "sha256": "ef90efd05fa40dab4ac887be26b9c524020fdae933c25f6d31d12cd02f24ab04",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026101005040311",
+      "sha256": "489eeeeba28ccacef31d1d68c6268de36c6b420dd275266ff26ffb656647785a",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026101105040411",
+      "sha256": "61ea45a84d3da00596ec491ec9ca03373776b8b99b88e49e20c6d0edd6f3b442",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026101208040511",
+      "sha256": "12113623809b44dece7570917445fa77be6b81addfc7f679fc94cf5a3e2a4e0e",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026101705040611",
+      "sha256": "4f77622456ee67caa987318311663b369b4acb0002ae06f81a3ca16a709e490a",
+      "status": "prepared"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026101808040711",
+      "sha256": "75a522e32667e93415aeff23b988b402b77bc2c97bb84110aa305bf8e4a1ebd6",
+      "status": "prepared"
+    }
+  ],
+  "failures": [
+    {
+      "method": "incumbent",
+      "race_code": "2026032207010411",
+      "stage": "allocation",
+      "error_type": "RuntimeError",
+      "error": "Cannot spend10000 within30 tickets at exact minimum stakes"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026040406030311",
+      "stage": "allocation",
+      "error_type": "RuntimeError",
+      "error": "Cannot spend10000 within30 tickets at exact minimum stakes"
+    },
+    {
+      "method": "incumbent",
+      "race_code": "2026062803020211",
+      "stage": "allocation",
+      "error_type": "RuntimeError",
+      "error": "Cannot spend10000 within30 tickets at exact minimum stakes"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026032207010411",
+      "stage": "allocation",
+      "error_type": "RuntimeError",
+      "error": "Cannot spend10000 within30 tickets at exact minimum stakes"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026040406030311",
+      "stage": "allocation",
+      "error_type": "RuntimeError",
+      "error": "Cannot spend10000 within30 tickets at exact minimum stakes"
+    },
+    {
+      "method": "candidate",
+      "race_code": "2026062803020211",
+      "stage": "allocation",
+      "error_type": "RuntimeError",
+      "error": "Cannot spend10000 within30 tickets at exact minimum stakes"
+    }
+  ]
+}
