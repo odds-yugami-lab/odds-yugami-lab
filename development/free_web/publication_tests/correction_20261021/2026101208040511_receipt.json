@@ -1,0 +1,9 @@
+{
+  "commit_sha": "00c4b3c90e7cb167365b01879895d65f23a23c2c",
+  "content_sha256": "23018a4b208d3fce4f9d4e9a51814cd6bc3b556ad3dc8e716b8e25bb86375092",
+  "race_code": "2026101208040511",
+  "record_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/00c4b3c90e7cb167365b01879895d65f23a23c2c/development/free_web/publication_tests/correction_20261021/2026101208040511.json",
+  "recorded_at": "2026-10-21T02:49:47+00:00",
+  "status": "test_saved",
+  "test_only": true
+}
