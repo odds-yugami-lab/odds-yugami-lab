@@ -1,0 +1,286 @@
+{
+  "created_at": "2026-10-21T16:02:36.838026+00:00",
+  "status": "blocked_original_algorithm_and_input_not_recovered",
+  "test_only": true,
+  "goal": "Restore the previously selected cap30_minimum_E50 exactly before retrospective evaluation; do not replace with a guessed algorithm.",
+  "confirmed_original_output": {
+    "race_code": "2026101808040711",
+    "ticket_count": 30,
+    "stake_yen": 10000,
+    "allocation_rule": "cap30_minimum_E50",
+    "all_tickets_preserved": true
+  },
+  "output_source_sha256": "df1a9f896a49b78689b7ae3c158f5eebe62afaea8b4385be138b3bcf6e99e50d",
+  "available_odds_status": "final_postrace",
+  "available_odds_sha256": "1653339d0ddf9f6d4ae4665aca657c5b0fb76890611f413ba10ae6b370f4f931",
+  "minimum_stake_checks_using_final_odds": {
+    "exact_matches": 26,
+    "different": 4,
+    "details": [
+      {
+        "bet_type": "umaren",
+        "kumiban": "0108",
+        "recorded_stake": 700,
+        "final_odds": 16.0,
+        "minimum_at_final_odds": 700,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0113",
+        "recorded_stake": 200,
+        "final_odds": 80.1,
+        "minimum_at_final_odds": 200,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0208",
+        "recorded_stake": 200,
+        "final_odds": 61.0,
+        "minimum_at_final_odds": 200,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0213",
+        "recorded_stake": 100,
+        "final_odds": 549.5,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0304",
+        "recorded_stake": 200,
+        "final_odds": 92.0,
+        "minimum_at_final_odds": 200,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0308",
+        "recorded_stake": 900,
+        "final_odds": 12.0,
+        "minimum_at_final_odds": 900,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0312",
+        "recorded_stake": 100,
+        "final_odds": 115.8,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0313",
+        "recorded_stake": 300,
+        "final_odds": 41.9,
+        "minimum_at_final_odds": 300,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0315",
+        "recorded_stake": 100,
+        "final_odds": 1660.5,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0316",
+        "recorded_stake": 100,
+        "final_odds": 330.0,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0408",
+        "recorded_stake": 1200,
+        "final_odds": 8.8,
+        "minimum_at_final_odds": 1200,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0412",
+        "recorded_stake": 100,
+        "final_odds": 134.6,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0413",
+        "recorded_stake": 300,
+        "final_odds": 52.6,
+        "minimum_at_final_odds": 200,
+        "match": false
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0508",
+        "recorded_stake": 300,
+        "final_odds": 42.3,
+        "minimum_at_final_odds": 300,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0513",
+        "recorded_stake": 100,
+        "final_odds": 258.1,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0613",
+        "recorded_stake": 300,
+        "final_odds": 53.4,
+        "minimum_at_final_odds": 200,
+        "match": false
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0713",
+        "recorded_stake": 100,
+        "final_odds": 1265.0,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0811",
+        "recorded_stake": 400,
+        "final_odds": 30.7,
+        "minimum_at_final_odds": 400,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0812",
+        "recorded_stake": 1100,
+        "final_odds": 8.7,
+        "minimum_at_final_odds": 1200,
+        "match": false
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0813",
+        "recorded_stake": 1700,
+        "final_odds": 5.8,
+        "minimum_at_final_odds": 1800,
+        "match": false
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0815",
+        "recorded_stake": 100,
+        "final_odds": 155.3,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0816",
+        "recorded_stake": 400,
+        "final_odds": 29.1,
+        "minimum_at_final_odds": 400,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "0913",
+        "recorded_stake": 100,
+        "final_odds": 217.5,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "1013",
+        "recorded_stake": 100,
+        "final_odds": 1094.4,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "1113",
+        "recorded_stake": 100,
+        "final_odds": 202.6,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "1213",
+        "recorded_stake": 200,
+        "final_odds": 61.2,
+        "minimum_at_final_odds": 200,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "1314",
+        "recorded_stake": 200,
+        "final_odds": 85.1,
+        "minimum_at_final_odds": 200,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "1315",
+        "recorded_stake": 100,
+        "final_odds": 833.3,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "1316",
+        "recorded_stake": 100,
+        "final_odds": 152.5,
+        "minimum_at_final_odds": 100,
+        "match": true
+      },
+      {
+        "bet_type": "umaren",
+        "kumiban": "1317",
+        "recorded_stake": 100,
+        "final_odds": 672.7,
+        "minimum_at_final_odds": 100,
+        "match": true
+      }
+    ],
+    "interpretation": "Final-odds comparison is an input-compatibility diagnostic, not a test of the original live stakes or an original algorithm replay."
+  },
+  "missing_original_artifacts": [
+    "cap30_minimum_E50 implementation or exact mathematical specification incl E normalization/constraints/solver selection",
+    "contemporaneous 2026-10-18T15:19:50+09:00 to15:19:51 odds",
+    "contemporaneous feature/probability input snapshot",
+    "original multi-rule comparison table"
+  ],
+  "searched": [
+    "public repository main and dev complete current trees",
+    "dev and main commit histories",
+    "private backup tree",
+    "Library filenames and text queries",
+    "personal conversation context",
+    "existing automation prompts",
+    "scoped local sources and historical output"
+  ],
+  "repository_search_limit": "GitHub code search returned incomplete_results=true; current trees and history independently inspected. Search absence is not proof of global nonexistence.",
+  "restored_algorithm_verified": false,
+  "historical_replay_started": false,
+  "new_ROI_computed": false,
+  "original_records_changed": false,
+  "model_or_history_changed": false,
+  "automation_status": "Three existing forecast prompts still specify unrestricted balanced_A_v3, so they do not implement the restored cap30 rule.",
+  "next_dependency": "Recover original implementation or comparison spec and contemporaneous inputs; never fit a substitute to known race outcomes or label a merely similar implementation restored."
+}
