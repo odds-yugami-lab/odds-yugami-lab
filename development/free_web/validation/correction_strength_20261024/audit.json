@@ -1,0 +1,11 @@
+{
+  "test_only": true,
+  "races": 222,
+  "portfolios": 1110,
+  "newly_allocated": 666,
+  "reused_hash_verified": 444,
+  "all_ticket_and_budget_invariants_passed": true,
+  "interpolated_scores_and_horse_probabilities_verified": true,
+  "endpoint_annual_results_reproduce_previous_comparison": true,
+  "no_production_or_tasks_changed": true
+}

@@ -1,0 +1,843 @@
+{
+  "test_only": true,
+  "strengths": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "annual": {
+    "2025": {
+      "000": {
+        "races": 117,
+        "stake_yen": 1098300,
+        "payout_yen": 861680,
+        "profit_yen": -236620,
+        "budget_limit_total_yen": 1170000,
+        "unspent_yen": 71700,
+        "recovery_percent": 78.45579532004007,
+        "hit_races": 73,
+        "hit_rate": 0.6239316239316239,
+        "ticket_count_min": 29,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.99145299145299,
+        "races_with_25_to_30_tickets": 117,
+        "model_mean_hit_probability": 0.6157475242438519,
+        "zero_gap_solutions": 95
+      },
+      "025": {
+        "races": 117,
+        "stake_yen": 1141200,
+        "payout_yen": 930810,
+        "profit_yen": -210390,
+        "budget_limit_total_yen": 1170000,
+        "unspent_yen": 28800,
+        "recovery_percent": 81.56414300736067,
+        "hit_races": 78,
+        "hit_rate": 0.6666666666666666,
+        "ticket_count_min": 29,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.99145299145299,
+        "races_with_25_to_30_tickets": 117,
+        "model_mean_hit_probability": 0.6319358031218286,
+        "zero_gap_solutions": 78
+      },
+      "050": {
+        "races": 117,
+        "stake_yen": 1155900,
+        "payout_yen": 970480,
+        "profit_yen": -185420,
+        "budget_limit_total_yen": 1170000,
+        "unspent_yen": 14100,
+        "recovery_percent": 83.95881996712518,
+        "hit_races": 81,
+        "hit_rate": 0.6923076923076923,
+        "ticket_count_min": 26,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.897435897435898,
+        "races_with_25_to_30_tickets": 117,
+        "model_mean_hit_probability": 0.6499913688043991,
+        "zero_gap_solutions": 67
+      },
+      "075": {
+        "races": 117,
+        "stake_yen": 1162500,
+        "payout_yen": 992950,
+        "profit_yen": -169550,
+        "budget_limit_total_yen": 1170000,
+        "unspent_yen": 7500,
+        "recovery_percent": 85.41505376344087,
+        "hit_races": 82,
+        "hit_rate": 0.7008547008547008,
+        "ticket_count_min": 23,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.82051282051282,
+        "races_with_25_to_30_tickets": 116,
+        "model_mean_hit_probability": 0.6657745965767338,
+        "zero_gap_solutions": 74
+      },
+      "100": {
+        "races": 117,
+        "stake_yen": 1164900,
+        "payout_yen": 1001780,
+        "profit_yen": -163120,
+        "budget_limit_total_yen": 1170000,
+        "unspent_yen": 5100,
+        "recovery_percent": 85.99708129453172,
+        "hit_races": 86,
+        "hit_rate": 0.7350427350427351,
+        "ticket_count_min": 18,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.307692307692307,
+        "races_with_25_to_30_tickets": 113,
+        "model_mean_hit_probability": 0.6848701855239151,
+        "zero_gap_solutions": 67
+      }
+    },
+    "2026": {
+      "000": {
+        "races": 103,
+        "stake_yen": 909400,
+        "payout_yen": 801640,
+        "profit_yen": -107760,
+        "budget_limit_total_yen": 1030000,
+        "unspent_yen": 120600,
+        "recovery_percent": 88.15042885418957,
+        "hit_races": 54,
+        "hit_rate": 0.5242718446601942,
+        "ticket_count_min": 22,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.883495145631066,
+        "races_with_25_to_30_tickets": 102,
+        "model_mean_hit_probability": 0.5953912979469934,
+        "zero_gap_solutions": 78
+      },
+      "025": {
+        "races": 103,
+        "stake_yen": 983900,
+        "payout_yen": 889390,
+        "profit_yen": -94510,
+        "budget_limit_total_yen": 1030000,
+        "unspent_yen": 46100,
+        "recovery_percent": 90.39434901920927,
+        "hit_races": 61,
+        "hit_rate": 0.5922330097087378,
+        "ticket_count_min": 22,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.87378640776699,
+        "races_with_25_to_30_tickets": 102,
+        "model_mean_hit_probability": 0.6064051011024918,
+        "zero_gap_solutions": 74
+      },
+      "050": {
+        "races": 103,
+        "stake_yen": 1012200,
+        "payout_yen": 916320,
+        "profit_yen": -95880,
+        "budget_limit_total_yen": 1030000,
+        "unspent_yen": 17800,
+        "recovery_percent": 90.52756372258447,
+        "hit_races": 67,
+        "hit_rate": 0.6504854368932039,
+        "ticket_count_min": 21,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.87378640776699,
+        "races_with_25_to_30_tickets": 102,
+        "model_mean_hit_probability": 0.6238446922102452,
+        "zero_gap_solutions": 66
+      },
+      "075": {
+        "races": 103,
+        "stake_yen": 1022400,
+        "payout_yen": 899990,
+        "profit_yen": -122410,
+        "budget_limit_total_yen": 1030000,
+        "unspent_yen": 7600,
+        "recovery_percent": 88.02719092331769,
+        "hit_races": 66,
+        "hit_rate": 0.6407766990291263,
+        "ticket_count_min": 21,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.74757281553398,
+        "races_with_25_to_30_tickets": 102,
+        "model_mean_hit_probability": 0.6432157292016313,
+        "zero_gap_solutions": 58
+      },
+      "100": {
+        "races": 103,
+        "stake_yen": 1025400,
+        "payout_yen": 773860,
+        "profit_yen": -251540,
+        "budget_limit_total_yen": 1030000,
+        "unspent_yen": 4600,
+        "recovery_percent": 75.46908523503024,
+        "hit_races": 63,
+        "hit_rate": 0.6116504854368932,
+        "ticket_count_min": 15,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.223300970873787,
+        "races_with_25_to_30_tickets": 98,
+        "model_mean_hit_probability": 0.6678068202510316,
+        "zero_gap_solutions": 54
+      }
+    }
+  },
+  "selected_on2025": 1.0,
+  "selection_commit": "3034cfe9c9a9f85398a1f4c0ffcbedd0998bd50d",
+  "2026_horse_metrics": {
+    "000": {
+      "win": {
+        "brier": 0.059763729669993014,
+        "logloss": 0.22657655868205853
+      },
+      "top3": {
+        "brier": 0.1449028138465838,
+        "logloss": 0.45517874089924487
+      },
+      "popularity_groups": {
+        "1-1": {
+          "horses": 103,
+          "win": {
+            "predicted": 0.1281254773020407,
+            "observed": 0.33980582524271846
+          },
+          "top3": {
+            "predicted": 0.35777883632360297,
+            "observed": 0.6310679611650486
+          }
+        },
+        "2-3": {
+          "horses": 206,
+          "win": {
+            "predicted": 0.1057258727885526,
+            "observed": 0.10679611650485436
+          },
+          "top3": {
+            "predicted": 0.30559254165338035,
+            "observed": 0.3640776699029126
+          }
+        },
+        "4-6": {
+          "horses": 309,
+          "win": {
+            "predicted": 0.080011038045744,
+            "observed": 0.06796116504854369
+          },
+          "top3": {
+            "predicted": 0.24112788390279052,
+            "observed": 0.255663430420712
+          }
+        },
+        "7-18": {
+          "horses": 929,
+          "win": {
+            "predicted": 0.046609402892694385,
+            "observed": 0.02691065662002153
+          },
+          "top3": {
+            "predicted": 0.14498191620248688,
+            "observed": 0.0968783638320775
+          }
+        }
+      }
+    },
+    "025": {
+      "win": {
+        "brier": 0.05847955750767867,
+        "logloss": 0.2190222373292281
+      },
+      "top3": {
+        "brier": 0.13854595608747683,
+        "logloss": 0.4366139278795547
+      },
+      "popularity_groups": {
+        "1-1": {
+          "horses": 103,
+          "win": {
+            "predicted": 0.15058360426136208,
+            "observed": 0.33980582524271846
+          },
+          "top3": {
+            "predicted": 0.41185994516877705,
+            "observed": 0.6310679611650486
+          }
+        },
+        "2-3": {
+          "horses": 206,
+          "win": {
+            "predicted": 0.11666055391319516,
+            "observed": 0.10679611650485436
+          },
+          "top3": {
+            "predicted": 0.3362204213734835,
+            "observed": 0.3640776699029126
+          }
+        },
+        "4-6": {
+          "horses": 309,
+          "win": {
+            "predicted": 0.08169412724542835,
+            "observed": 0.06796116504854369
+          },
+          "top3": {
+            "predicted": 0.24835226374183197,
+            "observed": 0.255663430420712
+          }
+        },
+        "7-18": {
+          "horses": 929,
+          "win": {
+            "predicted": 0.041134907789154095,
+            "observed": 0.02691065662002153
+          },
+          "top3": {
+            "predicted": 0.12979135559575058,
+            "observed": 0.0968783638320775
+          }
+        }
+      }
+    },
+    "050": {
+      "win": {
+        "brier": 0.05735585721977209,
+        "logloss": 0.2131799503956706
+      },
+      "top3": {
+        "brier": 0.13395521899866766,
+        "logloss": 0.4232437476163931
+      },
+      "popularity_groups": {
+        "1-1": {
+          "horses": 103,
+          "win": {
+            "predicted": 0.17511614006531742,
+            "observed": 0.33980582524271846
+          },
+          "top3": {
+            "predicted": 0.4673227742315699,
+            "observed": 0.6310679611650486
+          }
+        },
+        "2-3": {
+          "horses": 206,
+          "win": {
+            "predicted": 0.12672208107947558,
+            "observed": 0.10679611650485436
+          },
+          "top3": {
+            "predicted": 0.365760097670007,
+            "observed": 0.3640776699029126
+          }
+        },
+        "4-6": {
+          "horses": 309,
+          "win": {
+            "predicted": 0.08218704961785947,
+            "observed": 0.06796116504854369
+          },
+          "top3": {
+            "predicted": 0.2531885914323963,
+            "observed": 0.255663430420712
+          }
+        },
+        "7-18": {
+          "horses": 929,
+          "win": {
+            "predicted": 0.03601990370181029,
+            "observed": 0.02691065662002153
+          },
+          "top3": {
+            "predicted": 0.11548320708451715,
+            "observed": 0.0968783638320775
+          }
+        }
+      }
+    },
+    "075": {
+      "win": {
+        "brier": 0.05644132972063448,
+        "logloss": 0.20899600283794476
+      },
+      "top3": {
+        "brier": 0.13115269478238445,
+        "logloss": 0.41483740264086194
+      },
+      "popularity_groups": {
+        "1-1": {
+          "horses": 103,
+          "win": {
+            "predicted": 0.20123130524331048,
+            "observed": 0.33980582524271846
+          },
+          "top3": {
+            "predicted": 0.5216231723832246,
+            "observed": 0.6310679611650486
+          }
+        },
+        "2-3": {
+          "horses": 206,
+          "win": {
+            "predicted": 0.13556880527909906,
+            "observed": 0.10679611650485436
+          },
+          "top3": {
+            "predicted": 0.3936571538986155,
+            "observed": 0.3640776699029126
+          }
+        },
+        "4-6": {
+          "horses": 309,
+          "win": {
+            "predicted": 0.08159315123746551,
+            "observed": 0.06796116504854369
+          },
+          "top3": {
+            "predicted": 0.2558438285554495,
+            "observed": 0.255663430420712
+          }
+        },
+        "7-18": {
+          "horses": 929,
+          "win": {
+            "predicted": 0.03136029918198899,
+            "observed": 0.02691065662002153
+          },
+          "top3": {
+            "predicted": 0.1023936453366837,
+            "observed": 0.0968783638320775
+          }
+        }
+      }
+    },
+    "100": {
+      "win": {
+        "brier": 0.05579600987696958,
+        "logloss": 0.2064191745145571
+      },
+      "top3": {
+        "brier": 0.1300458568214916,
+        "logloss": 0.4111014091720203
+      },
+      "popularity_groups": {
+        "1-1": {
+          "horses": 103,
+          "win": {
+            "predicted": 0.22828220519636558,
+            "observed": 0.33980582524271846
+          },
+          "top3": {
+            "predicted": 0.5723455668789104,
+            "observed": 0.6310679611650486
+          }
+        },
+        "2-3": {
+          "horses": 206,
+          "win": {
+            "predicted": 0.1430243372466744,
+            "observed": 0.10679611650485436
+          },
+          "top3": {
+            "predicted": 0.41961309350538245,
+            "observed": 0.3640776699029126
+          }
+        },
+        "4-6": {
+          "horses": 309,
+          "win": {
+            "predicted": 0.08010054696506631,
+            "observed": 0.06796116504854369
+          },
+          "top3": {
+            "predicted": 0.2567198447221892,
+            "observed": 0.255663430420712
+          }
+        },
+        "7-18": {
+          "horses": 929,
+          "win": {
+            "predicted": 0.027204359935149552,
+            "observed": 0.02691065662002153
+          },
+          "top3": {
+            "predicted": 0.0907230111197061,
+            "observed": 0.0968783638320775
+          }
+        }
+      }
+    }
+  },
+  "halves": {
+    "2025": {
+      "H1": {
+        "000": {
+          "races": 62,
+          "stake_yen": 584600,
+          "payout_yen": 437190,
+          "profit_yen": -147410,
+          "budget_limit_total_yen": 620000,
+          "unspent_yen": 35400,
+          "recovery_percent": 74.78446801231611,
+          "hit_races": 38,
+          "hit_rate": 0.6129032258064516,
+          "ticket_count_min": 29,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.983870967741936,
+          "races_with_25_to_30_tickets": 62,
+          "model_mean_hit_probability": 0.6143388468822013,
+          "zero_gap_solutions": 52
+        },
+        "025": {
+          "races": 62,
+          "stake_yen": 606200,
+          "payout_yen": 458780,
+          "profit_yen": -147420,
+          "budget_limit_total_yen": 620000,
+          "unspent_yen": 13800,
+          "recovery_percent": 75.68129330254041,
+          "hit_races": 40,
+          "hit_rate": 0.6451612903225806,
+          "ticket_count_min": 29,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.983870967741936,
+          "races_with_25_to_30_tickets": 62,
+          "model_mean_hit_probability": 0.6328486461518856,
+          "zero_gap_solutions": 40
+        },
+        "050": {
+          "races": 62,
+          "stake_yen": 613100,
+          "payout_yen": 448440,
+          "profit_yen": -164660,
+          "budget_limit_total_yen": 620000,
+          "unspent_yen": 6900,
+          "recovery_percent": 73.14304354917631,
+          "hit_races": 39,
+          "hit_rate": 0.6290322580645161,
+          "ticket_count_min": 26,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.870967741935484,
+          "races_with_25_to_30_tickets": 62,
+          "model_mean_hit_probability": 0.6523892569192935,
+          "zero_gap_solutions": 37
+        },
+        "075": {
+          "races": 62,
+          "stake_yen": 615800,
+          "payout_yen": 447390,
+          "profit_yen": -168410,
+          "budget_limit_total_yen": 620000,
+          "unspent_yen": 4200,
+          "recovery_percent": 72.65183501136733,
+          "hit_races": 38,
+          "hit_rate": 0.6129032258064516,
+          "ticket_count_min": 25,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.822580645161292,
+          "races_with_25_to_30_tickets": 62,
+          "model_mean_hit_probability": 0.6682648185060285,
+          "zero_gap_solutions": 38
+        },
+        "100": {
+          "races": 62,
+          "stake_yen": 617000,
+          "payout_yen": 511930,
+          "profit_yen": -105070,
+          "budget_limit_total_yen": 620000,
+          "unspent_yen": 3000,
+          "recovery_percent": 82.9708265802269,
+          "hit_races": 44,
+          "hit_rate": 0.7096774193548387,
+          "ticket_count_min": 23,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.419354838709676,
+          "races_with_25_to_30_tickets": 60,
+          "model_mean_hit_probability": 0.6866221746938053,
+          "zero_gap_solutions": 36
+        }
+      },
+      "H2": {
+        "000": {
+          "races": 55,
+          "stake_yen": 513700,
+          "payout_yen": 424490,
+          "profit_yen": -89210,
+          "budget_limit_total_yen": 550000,
+          "unspent_yen": 36300,
+          "recovery_percent": 82.63383297644539,
+          "hit_races": 35,
+          "hit_rate": 0.6363636363636364,
+          "ticket_count_min": 30,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 30.0,
+          "races_with_25_to_30_tickets": 55,
+          "model_mean_hit_probability": 0.6173354878151673,
+          "zero_gap_solutions": 43
+        },
+        "025": {
+          "races": 55,
+          "stake_yen": 535000,
+          "payout_yen": 472030,
+          "profit_yen": -62970,
+          "budget_limit_total_yen": 550000,
+          "unspent_yen": 15000,
+          "recovery_percent": 88.22990654205607,
+          "hit_races": 38,
+          "hit_rate": 0.6909090909090909,
+          "ticket_count_min": 30,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 30.0,
+          "races_with_25_to_30_tickets": 55,
+          "model_mean_hit_probability": 0.6309067800697641,
+          "zero_gap_solutions": 38
+        },
+        "050": {
+          "races": 55,
+          "stake_yen": 542800,
+          "payout_yen": 522040,
+          "profit_yen": -20760,
+          "budget_limit_total_yen": 550000,
+          "unspent_yen": 7200,
+          "recovery_percent": 96.17538688282977,
+          "hit_races": 42,
+          "hit_rate": 0.7636363636363637,
+          "ticket_count_min": 29,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.927272727272726,
+          "races_with_25_to_30_tickets": 55,
+          "model_mean_hit_probability": 0.6472882949294275,
+          "zero_gap_solutions": 30
+        },
+        "075": {
+          "races": 55,
+          "stake_yen": 546700,
+          "payout_yen": 545560,
+          "profit_yen": -1140,
+          "budget_limit_total_yen": 550000,
+          "unspent_yen": 3300,
+          "recovery_percent": 99.7914761295043,
+          "hit_races": 44,
+          "hit_rate": 0.8,
+          "ticket_count_min": 23,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.818181818181817,
+          "races_with_25_to_30_tickets": 54,
+          "model_mean_hit_probability": 0.6629674373109837,
+          "zero_gap_solutions": 36
+        },
+        "100": {
+          "races": 55,
+          "stake_yen": 547900,
+          "payout_yen": 489850,
+          "profit_yen": -58050,
+          "budget_limit_total_yen": 550000,
+          "unspent_yen": 2100,
+          "recovery_percent": 89.40500091257529,
+          "hit_races": 42,
+          "hit_rate": 0.7636363636363637,
+          "ticket_count_min": 18,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.181818181818183,
+          "races_with_25_to_30_tickets": 53,
+          "model_mean_hit_probability": 0.6828952159142211,
+          "zero_gap_solutions": 31
+        }
+      }
+    },
+    "2026": {
+      "H1": {
+        "000": {
+          "races": 68,
+          "stake_yen": 604000,
+          "payout_yen": 552780,
+          "profit_yen": -51220,
+          "budget_limit_total_yen": 680000,
+          "unspent_yen": 76000,
+          "recovery_percent": 91.51986754966887,
+          "hit_races": 34,
+          "hit_rate": 0.5,
+          "ticket_count_min": 22,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.852941176470587,
+          "races_with_25_to_30_tickets": 67,
+          "model_mean_hit_probability": 0.5821431771991001,
+          "zero_gap_solutions": 49
+        },
+        "025": {
+          "races": 68,
+          "stake_yen": 652600,
+          "payout_yen": 613230,
+          "profit_yen": -39370,
+          "budget_limit_total_yen": 680000,
+          "unspent_yen": 27400,
+          "recovery_percent": 93.96720809071407,
+          "hit_races": 39,
+          "hit_rate": 0.5735294117647058,
+          "ticket_count_min": 22,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.83823529411765,
+          "races_with_25_to_30_tickets": 67,
+          "model_mean_hit_probability": 0.5969700047663719,
+          "zero_gap_solutions": 50
+        },
+        "050": {
+          "races": 68,
+          "stake_yen": 668200,
+          "payout_yen": 619210,
+          "profit_yen": -48990,
+          "budget_limit_total_yen": 680000,
+          "unspent_yen": 11800,
+          "recovery_percent": 92.66836276563903,
+          "hit_races": 43,
+          "hit_rate": 0.6323529411764706,
+          "ticket_count_min": 21,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.83823529411765,
+          "races_with_25_to_30_tickets": 67,
+          "model_mean_hit_probability": 0.6158993816824593,
+          "zero_gap_solutions": 41
+        },
+        "075": {
+          "races": 68,
+          "stake_yen": 674700,
+          "payout_yen": 592050,
+          "profit_yen": -82650,
+          "budget_limit_total_yen": 680000,
+          "unspent_yen": 5300,
+          "recovery_percent": 87.75011116051579,
+          "hit_races": 41,
+          "hit_rate": 0.6029411764705882,
+          "ticket_count_min": 21,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.66176470588235,
+          "races_with_25_to_30_tickets": 67,
+          "model_mean_hit_probability": 0.637428714519123,
+          "zero_gap_solutions": 36
+        },
+        "100": {
+          "races": 68,
+          "stake_yen": 676300,
+          "payout_yen": 449700,
+          "profit_yen": -226600,
+          "budget_limit_total_yen": 680000,
+          "unspent_yen": 3700,
+          "recovery_percent": 66.49415939671744,
+          "hit_races": 38,
+          "hit_rate": 0.5588235294117647,
+          "ticket_count_min": 15,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.279411764705884,
+          "races_with_25_to_30_tickets": 66,
+          "model_mean_hit_probability": 0.664298025869688,
+          "zero_gap_solutions": 35
+        }
+      },
+      "H2": {
+        "000": {
+          "races": 35,
+          "stake_yen": 305400,
+          "payout_yen": 248860,
+          "profit_yen": -56540,
+          "budget_limit_total_yen": 350000,
+          "unspent_yen": 44600,
+          "recovery_percent": 81.48657498362803,
+          "hit_races": 20,
+          "hit_rate": 0.5714285714285714,
+          "ticket_count_min": 28,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.942857142857143,
+          "races_with_25_to_30_tickets": 35,
+          "model_mean_hit_probability": 0.6211305039714716,
+          "zero_gap_solutions": 29
+        },
+        "025": {
+          "races": 35,
+          "stake_yen": 331300,
+          "payout_yen": 276160,
+          "profit_yen": -55140,
+          "budget_limit_total_yen": 350000,
+          "unspent_yen": 18700,
+          "recovery_percent": 83.35647449441593,
+          "hit_races": 22,
+          "hit_rate": 0.6285714285714286,
+          "ticket_count_min": 28,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.942857142857143,
+          "races_with_25_to_30_tickets": 35,
+          "model_mean_hit_probability": 0.6247361454126679,
+          "zero_gap_solutions": 24
+        },
+        "050": {
+          "races": 35,
+          "stake_yen": 344000,
+          "payout_yen": 297110,
+          "profit_yen": -46890,
+          "budget_limit_total_yen": 350000,
+          "unspent_yen": 6000,
+          "recovery_percent": 86.36918604651163,
+          "hit_races": 24,
+          "hit_rate": 0.6857142857142857,
+          "ticket_count_min": 28,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.942857142857143,
+          "races_with_25_to_30_tickets": 35,
+          "model_mean_hit_probability": 0.6392812955213727,
+          "zero_gap_solutions": 25
+        },
+        "075": {
+          "races": 35,
+          "stake_yen": 347700,
+          "payout_yen": 307940,
+          "profit_yen": -39760,
+          "budget_limit_total_yen": 350000,
+          "unspent_yen": 2300,
+          "recovery_percent": 88.56485475985045,
+          "hit_races": 25,
+          "hit_rate": 0.7142857142857143,
+          "ticket_count_min": 27,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.914285714285715,
+          "races_with_25_to_30_tickets": 35,
+          "model_mean_hit_probability": 0.6544590720133616,
+          "zero_gap_solutions": 22
+        },
+        "100": {
+          "races": 35,
+          "stake_yen": 349100,
+          "payout_yen": 324160,
+          "profit_yen": -24940,
+          "budget_limit_total_yen": 350000,
+          "unspent_yen": 900,
+          "recovery_percent": 92.8559152105414,
+          "hit_races": 25,
+          "hit_rate": 0.7142857142857143,
+          "ticket_count_min": 20,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.114285714285714,
+          "races_with_25_to_30_tickets": 32,
+          "model_mean_hit_probability": 0.6746239064776425,
+          "zero_gap_solutions": 19
+        }
+      }
+    }
+  },
+  "prediction_failures": [],
+  "2026_exclusions": [],
+  "same_2025_exclusions": [
+    {
+      "race_code": "2025060105021211",
+      "reason": "Same pre-existing unresolved official result"
+    },
+    {
+      "race_code": "2025122706050711",
+      "reason": "Same pre-existing unresolved official result"
+    }
+  ],
+  "original_endpoint_results_reproduced": true,
+  "no_production_or_automation_changes": true,
+  "2026_already_inspected_not_independent_holdout": true,
+  "final_odds_and_final_starters_used": true,
+  "future_feature_point_in_time_not_certified": true,
+  "new_allocations": 666,
+  "reused_hash_verified_allocations": 444
+}

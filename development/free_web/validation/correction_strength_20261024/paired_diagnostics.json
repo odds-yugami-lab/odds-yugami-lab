@@ -1,0 +1,67 @@
+{
+  "seed": 20261024,
+  "samples": 20000,
+  "not_independent_inference": true,
+  "years": {
+    "2025": {
+      "000": {
+        "roi_difference_vs_current_percentage_points": -7.541285974491657,
+        "descriptive_paired_bootstrap95_interval": [
+          -19.461726910544424,
+          4.744362589581318
+        ]
+      },
+      "025": {
+        "roi_difference_vs_current_percentage_points": -4.432938287171055,
+        "descriptive_paired_bootstrap95_interval": [
+          -16.035652992777713,
+          7.529194301891267
+        ]
+      },
+      "050": {
+        "roi_difference_vs_current_percentage_points": -2.038261327406545,
+        "descriptive_paired_bootstrap95_interval": [
+          -13.45600622664669,
+          9.811680855653151
+        ]
+      },
+      "075": {
+        "roi_difference_vs_current_percentage_points": -0.5820275310908585,
+        "descriptive_paired_bootstrap95_interval": [
+          -10.343499054671582,
+          9.90655310200015
+        ]
+      }
+    },
+    "2026": {
+      "000": {
+        "roi_difference_vs_current_percentage_points": 12.681343619159335,
+        "descriptive_paired_bootstrap95_interval": [
+          -16.566686154764152,
+          52.68101277456889
+        ]
+      },
+      "025": {
+        "roi_difference_vs_current_percentage_points": 14.925263784179037,
+        "descriptive_paired_bootstrap95_interval": [
+          -13.1321002661735,
+          52.56882517134401
+        ]
+      },
+      "050": {
+        "roi_difference_vs_current_percentage_points": 15.05847848755424,
+        "descriptive_paired_bootstrap95_interval": [
+          -7.05107430594875,
+          48.226065280470486
+        ]
+      },
+      "075": {
+        "roi_difference_vs_current_percentage_points": 12.558105688287455,
+        "descriptive_paired_bootstrap95_interval": [
+          -8.345727125878167,
+          44.79527542656716
+        ]
+      }
+    }
+  }
+}
