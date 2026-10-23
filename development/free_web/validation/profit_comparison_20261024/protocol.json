@@ -1,0 +1,46 @@
+{
+  "test_only": true,
+  "correction_strength": 0.5,
+  "model": "same incumbent52 forecasts",
+  "variants": {
+    "A_current": "prior50% correction portfolio, gross E50+H50, no eligibility filter",
+    "B_filter_gross": "EV>=1-1e-10, gross E50+H50, reoptimize",
+    "C_net_all": "net E50+H50, no eligibility filter, reoptimize",
+    "D_filter_net": "EV>=1-1e-10, net E50+H50, reoptimize",
+    "E_delete_only": "reference: delete EV<1-1e-10 fromA, no reallocation"
+  },
+  "net_E_definition": "sum(stake*(probability*decimal_odds-1))",
+  "H_definition": "union probability from same coherent ordered top3 scenarios",
+  "objective": ".5*economic_E/scale+.5*H",
+  "scale": "same max(probability*decimal_odds)*10000 from ALL combinations, held equal acrossA-D for each race",
+  "max_tickets": 30,
+  "min_tickets_optimized": 1,
+  "budget_ceiling_yen": 10000,
+  "minimum_stakes_only": true,
+  "single_ticket_payout_min_yen": 10000,
+  "no_topups": true,
+  "retain_unused_cash": true,
+  "solver_time_seconds": 30,
+  "mip_relative_gap": 0.01,
+  "expected_input_races": {
+    "2025": 119,
+    "2026": 103
+  },
+  "expected_official_common_races": {
+    "2025": 117,
+    "2026": 103
+  },
+  "new_optimized_portfolios": 666,
+  "no_candidate_or_threshold_tuning": true,
+  "no_new_fit_or_production_changes": true,
+  "periods_already_inspected_not_independent_holdout": true,
+  "infeasible_policy": "record explicit failure; no fallback, no increasing points or relaxing threshold",
+  "unit_test_passed": "known3horse example: gross buys negativeEV pair despite complete coverage; net andfilter do not",
+  "source_hashes": {
+    "replay.py": "d315e7e9d7ed5b55f4012c943e899fb4e496b8b2700daa598ead9920493ef91b",
+    "allocator_research.py": "375e3b3c78352f634d7f74089bebda9497d85622d8aa9a0bc0fdff2ea070ed62",
+    "test_research.py": "a246ba83c0bd81199992f39fee5e922e8e70816e82b866c9f7c655ee63d231be"
+  },
+  "original_source_manifest_sha256": "a455e97a5e996f7b685c07db0f8e3e903576942fa92f8f014218bcdcc99b9937"
+}
+
