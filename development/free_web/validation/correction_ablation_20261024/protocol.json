@@ -1,0 +1,49 @@
+{
+  "test_only": true,
+  "user_authorization": "Compare before and after popularity correction using same incumbent model and fixed maximum30 budget ceiling rule",
+  "years": [
+    2025,
+    2026
+  ],
+  "baseline_parameters": [
+    1.0,
+    0.0
+  ],
+  "correction_parameters": {
+    "2025": [
+      0.2513988601459648,
+      0.7108784324165885
+    ],
+    "2026": [
+      0.10902943648255348,
+      0.7586398739642098
+    ]
+  },
+  "expected_input_races": {
+    "2025": 119,
+    "2026": 103
+  },
+  "expected_official_common_races": {
+    "2025": 117,
+    "2026": 103
+  },
+  "allocation_source_sha256": "22708e56c7a0db32d94127613bb072dd91f87c8199f1d6caae7a1263c8bd2be6",
+  "replay_source_sha256": "cd2ef0a4be43cf797ab56828ab620e7ae5c1f8e1aa4759c2023c4009a6f8a784",
+  "time_limit": 30,
+  "mip_relative_gap": 0.01,
+  "max_tickets": 30,
+  "budget_ceiling_yen": 10000,
+  "exact_minimum_stakes": true,
+  "unspent_cash_retained": true,
+  "correction_fitting_cutoff": {
+    "2025": "2024-12-31",
+    "2026": "2025-12-31"
+  },
+  "no_refitting": true,
+  "no_live_changes": true,
+  "prior_correction_records_reused_and_hash_checked": true,
+  "all_baseline_allocations_recomputed": true,
+  "existing_platt_calibrators_kept_identical": true,
+  "normalizer_same_formula": "max(probability*odds)*10000 (numeric scale varies with model probability by existing fixed rule)",
+  "no_outcome_labels_in_forecasting_inputs": true
+}
