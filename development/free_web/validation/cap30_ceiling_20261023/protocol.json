@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-10-23T06:31:18.618545+00:00",
+  "test_only": true,
+  "races": 103,
+  "period": [
+    "2026-01-04",
+    "2026-10-18"
+  ],
+  "goal": "Compare same two previously evaluated model forecasts with restored-candidate cap30 E50 allocation; no retuning.",
+  "policy": "cap30_budget_ceiling_E50_v1_20261023",
+  "original_policy_exactly_verified": false,
+  "max_tickets": 30,
+  "min_tickets": 1,
+  "budget_yen": 10000,
+  "unit_yen": 100,
+  "single_ticket_return_floor_yen": 10000,
+  "exact_minimum_stakes_only": true,
+  "objective": "0.5*expected_payout/(max(ai_probability*decimal_odds)*10000)+0.5*probability_any_hit",
+  "expected_payout_normalizer_historically_verified": false,
+  "time_limit_seconds": 30,
+  "mip_relative_gap": 0.01,
+  "probability_source_sha256": "3cf089a36ec70e5c1f538c8f12db8fde6a3503413a13288e3f02b922800bfc35",
+  "allocation_source_sha256": "22708e56c7a0db32d94127613bb072dd91f87c8199f1d6caae7a1263c8bd2be6",
+  "parameters": {
+    "incumbent": [
+      0.10902943648255348,
+      0.7586398739642098
+    ],
+    "candidate": [
+      0.20128225159166283,
+      0.7307766351341288
+    ]
+  },
+  "probability_policy": "Reuse actual52-model predictions and prior2025-frozen market correction for both methods. Only allocation changes. No popularity boost.",
+  "prediction_phase": "Only whitelisted forecast inputs. Seal all ticket/stake files and commit hash manifest before loading official outcomes.",
+  "failure_policy": "Retain unused budget; never increase point count or per-ticket minimum stake. Report source/solver failures explicitly.",
+  "2026_previously_inspected": true,
+  "no_2026_reselection_or_tuning": true,
+  "final_odds_used": true,
+  "source_point_in_time_certified": false,
+  "production_or_automations_changed": false,
+  "2025_replay_in_this_run": false,
+  "budget_is_upper_limit": true,
+  "unused_cash_retained": true,
+  "exact_spend_required": false,
+  "user_authorized_rule_revision": true,
+  "2025_extension": "Annual available complete2025 graded cohort; base models trained<=2024. Calibrators and market coefficients fitted using out-of-time2024 predictions from bases trained<=2023. Freeze2024-derived parameters before2025 portfolio results. Report exclusions, final-odds use and prior family selection in2025."
+}
