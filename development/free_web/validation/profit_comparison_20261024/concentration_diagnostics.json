@@ -1,0 +1,191 @@
+{
+  "seed": 20261024,
+  "bootstrap_samples": 20000,
+  "periods_previously_inspected": true,
+  "annual": {
+    "2025": {
+      "A_current": {
+        "top2_payouts_yen": [
+          32490,
+          22520
+        ],
+        "top2_race_codes": [
+          "2025112908040711",
+          "2025122806050811"
+        ],
+        "top2_share_of_payout": 0.05668329074272525,
+        "recovery_after_remove_own_top2_percent": 80.59424245091998,
+        "own_top2_removal_is_concentration_diagnostic_not_a_common_cohort_comparison": true,
+        "paired_descriptive_bootstrap95_ROI_difference_vs_A": [
+          0.0,
+          0.0
+        ],
+        "mean_payout_per_hit_race_yen": 11981.234567901234
+      },
+      "B_filter_gross": {
+        "top2_payouts_yen": [
+          170450,
+          138570
+        ],
+        "top2_race_codes": [
+          "2025062902010611",
+          "2025041909020711"
+        ],
+        "top2_share_of_payout": 0.43028809334837154,
+        "recovery_after_remove_own_top2_percent": 82.20815752461323,
+        "own_top2_removal_is_concentration_diagnostic_not_a_common_cohort_comparison": true,
+        "paired_descriptive_bootstrap95_ROI_difference_vs_A": [
+          -11.526317963832149,
+          153.03309736688846
+        ],
+        "mean_payout_per_hit_race_yen": 24764.48275862069
+      },
+      "C_net_all": {
+        "top2_payouts_yen": [
+          32490,
+          22520
+        ],
+        "top2_race_codes": [
+          "2025112908040711",
+          "2025122806050811"
+        ],
+        "top2_share_of_payout": 0.05703473302229134,
+        "recovery_after_remove_own_top2_percent": 81.6345031864285,
+        "own_top2_removal_is_concentration_diagnostic_not_a_common_cohort_comparison": true,
+        "paired_descriptive_bootstrap95_ROI_difference_vs_A": [
+          -3.106760681336037,
+          5.708472251220644
+        ],
+        "mean_payout_per_hit_race_yen": 12056.25
+      },
+      "D_filter_net": {
+        "top2_payouts_yen": [
+          170450,
+          138570
+        ],
+        "top2_race_codes": [
+          "2025062902010611",
+          "2025041909020711"
+        ],
+        "top2_share_of_payout": 0.43028809334837154,
+        "recovery_after_remove_own_top2_percent": 83.0761421319797,
+        "own_top2_removal_is_concentration_diagnostic_not_a_common_cohort_comparison": true,
+        "paired_descriptive_bootstrap95_ROI_difference_vs_A": [
+          -10.826466950401063,
+          155.61275547520512
+        ],
+        "mean_payout_per_hit_race_yen": 24764.48275862069
+      },
+      "E_delete_only": {
+        "top2_payouts_yen": [
+          32490,
+          22520
+        ],
+        "top2_race_codes": [
+          "2025112908040711",
+          "2025122806050811"
+        ],
+        "top2_share_of_payout": 0.15970387574393963,
+        "recovery_after_remove_own_top2_percent": 96.25540405719987,
+        "own_top2_removal_is_concentration_diagnostic_not_a_common_cohort_comparison": true,
+        "paired_descriptive_bootstrap95_ROI_difference_vs_A": [
+          -6.2629300218365564,
+          65.46824625609429
+        ],
+        "mean_payout_per_hit_race_yen": 14976.08695652174
+      }
+    },
+    "2026": {
+      "A_current": {
+        "top2_payouts_yen": [
+          135650,
+          30940
+        ],
+        "top2_race_codes": [
+          "2026040409020311",
+          "2026092006040611"
+        ],
+        "top2_share_of_payout": 0.18180330015715035,
+        "recovery_after_remove_own_top2_percent": 75.5547717424166,
+        "own_top2_removal_is_concentration_diagnostic_not_a_common_cohort_comparison": true,
+        "paired_descriptive_bootstrap95_ROI_difference_vs_A": [
+          0.0,
+          0.0
+        ],
+        "mean_payout_per_hit_race_yen": 13676.41791044776
+      },
+      "B_filter_gross": {
+        "top2_payouts_yen": [
+          135650,
+          65620
+        ],
+        "top2_race_codes": [
+          "2026040409020311",
+          "2026020108020211"
+        ],
+        "top2_share_of_payout": 0.4085207436875863,
+        "recovery_after_remove_own_top2_percent": 69.49916527545909,
+        "own_top2_removal_is_concentration_diagnostic_not_a_common_cohort_comparison": true,
+        "paired_descriptive_bootstrap95_ROI_difference_vs_A": [
+          -23.370673313619005,
+          86.60806336979854
+        ],
+        "mean_payout_per_hit_race_yen": 21420.869565217392
+      },
+      "C_net_all": {
+        "top2_payouts_yen": [
+          135650,
+          30940
+        ],
+        "top2_race_codes": [
+          "2026040409020311",
+          "2026092006040611"
+        ],
+        "top2_share_of_payout": 0.19204122332760787,
+        "recovery_after_remove_own_top2_percent": 73.26016515104003,
+        "own_top2_removal_is_concentration_diagnostic_not_a_common_cohort_comparison": true,
+        "paired_descriptive_bootstrap95_ROI_difference_vs_A": [
+          -7.8927301776403125,
+          4.176010279904827
+        ],
+        "mean_payout_per_hit_race_yen": 13769.36507936508
+      },
+      "D_filter_net": {
+        "top2_payouts_yen": [
+          135650,
+          65620
+        ],
+        "top2_race_codes": [
+          "2026040409020311",
+          "2026020108020211"
+        ],
+        "top2_share_of_payout": 0.4085207436875863,
+        "recovery_after_remove_own_top2_percent": 70.20236087689713,
+        "own_top2_removal_is_concentration_diagnostic_not_a_common_cohort_comparison": true,
+        "paired_descriptive_bootstrap95_ROI_difference_vs_A": [
+          -22.828154665633786,
+          88.54072017275936
+        ],
+        "mean_payout_per_hit_race_yen": 21420.869565217392
+      },
+      "E_delete_only": {
+        "top2_payouts_yen": [
+          135650,
+          30940
+        ],
+        "top2_race_codes": [
+          "2026040409020311",
+          "2026092006040611"
+        ],
+        "top2_share_of_payout": 0.5242305997860155,
+        "recovery_after_remove_own_top2_percent": 64.00931414055884,
+        "own_top2_removal_is_concentration_diagnostic_not_a_common_cohort_comparison": true,
+        "paired_descriptive_bootstrap95_ROI_difference_vs_A": [
+          -28.812715317717906,
+          150.83832586120198
+        ],
+        "mean_payout_per_hit_race_yen": 22698.571428571428
+      }
+    }
+  }
+}

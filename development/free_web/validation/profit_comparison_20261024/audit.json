@@ -1,0 +1,12 @@
+{
+  "test_only": true,
+  "race_records": 222,
+  "portfolio_records": 1110,
+  "new_optimized_portfolios": 666,
+  "prior_current_portfolios_hash_verified": 222,
+  "deletion_reference_portfolios": 222,
+  "all_ticket_cost_threshold_objective_checks_passed": true,
+  "baseline_and_deletion_settlement_reproduced": true,
+  "known3horse_unit_case_passed": true,
+  "no_production_or_automations_changed": true
+}
