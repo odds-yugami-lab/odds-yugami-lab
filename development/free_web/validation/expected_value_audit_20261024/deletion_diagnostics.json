@@ -1,0 +1,16 @@
+{
+  "2025": {
+    "races": 117,
+    "actual_hits_original": 81,
+    "actual_hits_delete_bad_no_reallocation": 23,
+    "mean_tickets_after_delete_bad_no_reallocation": 16.136752136752136,
+    "profit_after_delete_bad_no_reallocation": 38050
+  },
+  "2026": {
+    "races": 103,
+    "actual_hits_original": 67,
+    "actual_hits_delete_bad_no_reallocation": 14,
+    "mean_tickets_after_delete_bad_no_reallocation": 14.728155339805825,
+    "profit_after_delete_bad_no_reallocation": 77080
+  }
+}
