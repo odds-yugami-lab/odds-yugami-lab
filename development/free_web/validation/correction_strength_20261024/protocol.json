@@ -1,0 +1,83 @@
+{
+  "test_only": true,
+  "model": "same incumbent52",
+  "strengths": [
+    0,
+    0.25,
+    0.5,
+    0.75,
+    1
+  ],
+  "interpolation": "alpha(s)=1-s+s*alpha_current; beta(s)=s*beta_current; log strength interpolated, not arithmetic probability average",
+  "parameters": {
+    "2025": {
+      "0": [
+        1.0,
+        0.0
+      ],
+      "0.25": [
+        0.8128497150364912,
+        0.17771960810414714
+      ],
+      "0.5": [
+        0.6256994300729823,
+        0.3554392162082943
+      ],
+      "0.75": [
+        0.4385491451094736,
+        0.5331588243124414
+      ],
+      "1": [
+        0.2513988601459648,
+        0.7108784324165885
+      ]
+    },
+    "2026": {
+      "0": [
+        1.0,
+        0.0
+      ],
+      "0.25": [
+        0.7772573591206384,
+        0.18965996849105246
+      ],
+      "0.5": [
+        0.5545147182412767,
+        0.3793199369821049
+      ],
+      "0.75": [
+        0.3317720773619151,
+        0.5689799054731574
+      ],
+      "1": [
+        0.10902943648255348,
+        0.7586398739642098
+      ]
+    }
+  },
+  "max_tickets": 30,
+  "budget_limit_yen": 10000,
+  "exact_minimum_stakes_only": true,
+  "unspent_cash_retained": true,
+  "objective": "same E50; same formula max(probability*odds)*10000; numeric scale depends on probabilities",
+  "solver_time_limit": 30,
+  "solver_relative_gap": 0.01,
+  "expected_input_races": {
+    "2025": 119,
+    "2026": 103
+  },
+  "expected_settled_races": {
+    "2025": 117,
+    "2026": 103
+  },
+  "expected_new_allocations": 666,
+  "expected_reused_hash_verified_endpoint_allocations": 444,
+  "selection_rule": "Highest2025 actual-stake ROI among all five levels; exact tie prefer larger strength. Freeze selection before scoring2026 in this run. Secondary metrics hit rate,profit,probability accuracy,popularity bias; no selection retune.",
+  "2026_previously_inspected_not_independent_holdout": true,
+  "no_fitting_or_model_switch": true,
+  "outcome_fields_excluded_from_allocator": true,
+  "replay_sha256": "618c2d7818afe3239d244891b88959b210defc1bdb840d3236498877c126ebb5",
+  "allocator_sha256": "22708e56c7a0db32d94127613bb072dd91f87c8199f1d6caae7a1263c8bd2be6",
+  "prior_ablation_manifest_sha256": "f7ccc587dda7483250c1d09b687c08b6b7c02013d6919cd81bb62342e3d7368a"
+}
+
