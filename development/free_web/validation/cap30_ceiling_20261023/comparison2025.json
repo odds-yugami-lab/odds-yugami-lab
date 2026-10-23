@@ -1,0 +1,135 @@
+{
+  "test_only": true,
+  "status": "incomplete_with_explicit_exclusions",
+  "aggregate_common": {
+    "incumbent": {
+      "races": 117,
+      "stake_yen": 1164900,
+      "payout_yen": 1001780,
+      "profit_yen": -163120,
+      "budget_limit_total_yen": 1170000,
+      "unspent_yen": 5100,
+      "recovery_percent": 85.99708129453172,
+      "hit_races": 86,
+      "hit_rate": 0.7350427350427351,
+      "ticket_count_min": 18,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.307692307692307,
+      "races_with_25_to_30_tickets": 113,
+      "model_mean_hit_probability": 0.6848701855239151,
+      "zero_gap_solutions": 67
+    },
+    "candidate": {
+      "races": 117,
+      "stake_yen": 1166100,
+      "payout_yen": 962880,
+      "profit_yen": -203220,
+      "budget_limit_total_yen": 1170000,
+      "unspent_yen": 3900,
+      "recovery_percent": 82.57267815796244,
+      "hit_races": 83,
+      "hit_rate": 0.7094017094017094,
+      "ticket_count_min": 16,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.358974358974358,
+      "races_with_25_to_30_tickets": 114,
+      "model_mean_hit_probability": 0.6890621110825682,
+      "zero_gap_solutions": 77
+    }
+  },
+  "halves": {
+    "H1": {
+      "incumbent": {
+        "races": 62,
+        "stake_yen": 617000,
+        "payout_yen": 511930,
+        "profit_yen": -105070,
+        "budget_limit_total_yen": 620000,
+        "unspent_yen": 3000,
+        "recovery_percent": 82.9708265802269,
+        "hit_races": 44,
+        "hit_rate": 0.7096774193548387,
+        "ticket_count_min": 23,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.419354838709676,
+        "races_with_25_to_30_tickets": 60,
+        "model_mean_hit_probability": 0.6866221746938053,
+        "zero_gap_solutions": 36
+      },
+      "candidate": {
+        "races": 62,
+        "stake_yen": 617900,
+        "payout_yen": 503690,
+        "profit_yen": -114210,
+        "budget_limit_total_yen": 620000,
+        "unspent_yen": 2100,
+        "recovery_percent": 81.51642660624697,
+        "hit_races": 43,
+        "hit_rate": 0.6935483870967742,
+        "ticket_count_min": 23,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.483870967741936,
+        "races_with_25_to_30_tickets": 61,
+        "model_mean_hit_probability": 0.6900687694330649,
+        "zero_gap_solutions": 43
+      }
+    },
+    "H2": {
+      "incumbent": {
+        "races": 55,
+        "stake_yen": 547900,
+        "payout_yen": 489850,
+        "profit_yen": -58050,
+        "budget_limit_total_yen": 550000,
+        "unspent_yen": 2100,
+        "recovery_percent": 89.40500091257529,
+        "hit_races": 42,
+        "hit_rate": 0.7636363636363637,
+        "ticket_count_min": 18,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.181818181818183,
+        "races_with_25_to_30_tickets": 53,
+        "model_mean_hit_probability": 0.6828952159142211,
+        "zero_gap_solutions": 31
+      },
+      "candidate": {
+        "races": 55,
+        "stake_yen": 548200,
+        "payout_yen": 459190,
+        "profit_yen": -89010,
+        "budget_limit_total_yen": 550000,
+        "unspent_yen": 1800,
+        "recovery_percent": 83.76322510032834,
+        "hit_races": 40,
+        "hit_rate": 0.7272727272727273,
+        "ticket_count_min": 16,
+        "ticket_count_max": 30,
+        "ticket_count_mean": 29.21818181818182,
+        "races_with_25_to_30_tickets": 53,
+        "model_mean_hit_probability": 0.6879273325783722,
+        "zero_gap_solutions": 34
+      }
+    }
+  },
+  "prediction_failures": [],
+  "settlement_failures": [
+    {
+      "race_code": "2025060105021211",
+      "stage": "official_settlement",
+      "reason": "Official graded result unavailable or ambiguous"
+    },
+    {
+      "race_code": "2025122706050711",
+      "stage": "official_settlement",
+      "reason": "Official graded result unavailable or ambiguous"
+    }
+  ],
+  "common_races": 117,
+  "2025_results_used_to_fit": false,
+  "prior_family_selection_used2025": true,
+  "seal_commit": "34b806acef3cecf874ea422b72de591c5fa28991",
+  "official_results_verified": 117,
+  "coverage": "119 complete races across2025;11 existing data/completeness exclusions from130 graded archive identities",
+  "production_or_automations_changed": false,
+  "original_rule_equivalence_unverified": true
+}

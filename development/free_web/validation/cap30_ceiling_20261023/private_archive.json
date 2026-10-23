@@ -1,0 +1,8 @@
+{
+  "filename": "JRA_ceiling_validation_private_20261023.zip",
+  "size_bytes": 4989256,
+  "sha256": "8394a248b7ab6927484a5edb56093c55cd5a444156a9630a6f85385901b42be6",
+  "test_only": true,
+  "contains_private_calibration_models": true,
+  "public_binary": false
+}

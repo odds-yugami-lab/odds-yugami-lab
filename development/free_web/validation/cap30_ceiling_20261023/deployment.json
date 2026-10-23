@@ -1,0 +1,16 @@
+{
+  "code_commit": "2de31a540d359b8681b7319ca073371ec193f38e",
+  "runtime_tests_passed": 31,
+  "budget_ceiling_tests_passed": 2,
+  "forecast_tasks_updated_and_readback_verified": 3,
+  "model_switched": false,
+  "probability_method_preserved": "market_strength_calibration_v1_20261021",
+  "prediction_test_commit": "b121059ffdaccdd103b505b19236e841079823b0",
+  "receipt_test_commit": "84f9822bf20f966c3b0abb48ac5b7b9519a87140",
+  "settlement_test_commit": "79128dbbf009a626c7786845eb2781d0c5bbbc21",
+  "historical_test_investment_yen": 9200,
+  "historical_test_unspent_yen": 800,
+  "live_execution_verified": false,
+  "source_model_history_or_original_records_changed": false,
+  "policy_authorized_by_user": true
+}
