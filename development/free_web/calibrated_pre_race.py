@@ -13,7 +13,7 @@ from infer_free_model import predict
 from strength_calibration import probability_tables, corrected_strength
 from probability_correction import PARAMETERS, MODEL_SHA256
 from win_odds import verify_snapshot
-from balanced_A_v3_explicit import allocate_balanced
+from cap30_budget_ceiling import allocate_balanced,VERSION
 
 def timestamp(value):
     stamp=dt.datetime.fromisoformat(value)
@@ -70,7 +70,7 @@ def prepare(model_dir,runners,snapshots,metadata,win_snapshot,now=None,clock=Non
     if not merged['_merge'].eq('both').all():raise ValueError('Incomplete or extra odds')
     if not merged['decimal_odds'].map(lambda x:pd.notna(x) and 1<=x<float('inf')).all():raise ValueError('Invalid odds')
     tickets, allocation_audit=allocate_balanced(merged.drop(columns='_merge'),pred)
-    if tickets.empty or tickets['stake'].sum()!=10000 or not ((tickets['stake']>0)&(tickets['stake']%100==0)).all():raise ValueError('Invalid budget allocation')
+    if tickets.empty or not 0<tickets['stake'].sum()<=10000 or len(tickets)>30 or not ((tickets['stake']>0)&(tickets['stake']%100==0)).all():raise ValueError('Invalid budget allocation')
     if not (tickets['stake']*tickets['decimal_odds']>=10000-1e-8).all():raise ValueError('Single-ticket payout condition failed')
     model_manifest=json.loads((Path(model_dir)/'manifest.json').read_text())
     input_json=json.dumps(runners,ensure_ascii=False,sort_keys=True,allow_nan=False,default=str)
@@ -86,14 +86,15 @@ def prepare(model_dir,runners,snapshots,metadata,win_snapshot,now=None,clock=Non
     if metadata.get('participation_obtained_at') and not dt.timedelta(0)<=finalized-timestamp(metadata['participation_obtained_at'])<=dt.timedelta(seconds=90):
         raise ValueError('Participation became stale during calculation; acquire again')
     verify_snapshot(win_snapshot, metadata, runners, finalized)
-    record={'schema_version':6,'status':'prepared_not_published','race_code':race,'race_name':metadata['race_name'],
+    record={'schema_version':7,'status':'prepared_not_published','race_code':race,'race_name':metadata['race_name'],
             'race_start_at':metadata['race_start_at'],'prediction_finalized_at':finalized.isoformat(),
             'features_obtained_at':metadata['features_obtained_at'],'active_horse_numbers':active,
             'model_package':model_manifest['package'],'model_file_sha256':model_files,
             'feature_spec_sha256':hashlib.sha256((Path(model_dir)/'feature_spec.json').read_bytes()).hexdigest(),
             'input_snapshot_sha256':hashlib.sha256(input_json.encode()).hexdigest(),
-            'allocation_rule':'balanced_A_v3','total_stake_yen':10000,
-            'allocation_core_sha256':hashlib.sha256(Path(__file__).with_name('balanced_A_v3_explicit.py').read_bytes()).hexdigest(),
+            'allocation_rule':VERSION,'total_stake_yen':int(tickets.stake.sum()),
+            'budget_limit_yen':10000,'unspent_yen':int(10000-tickets.stake.sum()),
+            'allocation_core_sha256':hashlib.sha256(Path(__file__).with_name('cap30_ceiling_allocator.py').read_bytes()).hexdigest(),
             'probability_method':PARAMETERS['version'],
             'probability_correction_parameters_sha256':hashlib.sha256(json.dumps(PARAMETERS,sort_keys=True).encode()).hexdigest(),
             'probability_correction_core_sha256':hashlib.sha256(Path(__file__).with_name('strength_calibration.py').read_bytes()).hexdigest(),

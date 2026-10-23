@@ -1,6 +1,19 @@
-# 無料予想の実行手順（2026-10-20更新）
+# 無料予想の実行手順（2026-10-23更新）
 
-追加料金なし。モデル・履歴は非公開。2026-10-18以降の本番買い目配分は balanced_A_v3（最低必要額・実オッズ方式）。旧corrected V2と試作balanced A v1/v2は保存・区別する。
+## 現行購入ルール：上限1万円・最大30点・最低必要額
+
+ユーザーが2026-10-23に承認。新規予想は `cap30_budget_ceiling_E50_v1_20261023`。元の保存済み52項目モデルを維持する。研究用recent52候補へ切り替えない。
+
+- 馬連＋3連複、最大30点、点数の下限・券種比率は固定しない。
+- 各券は単独払戻1万円以上になる最低必要額のみ。100倍以上は100円。余分な上乗せなし。
+- 予算は上限1万円。余りは使わず、`total_stake_yen` に実配分額、`budget_limit_yen=10000`、`unspent_yen` に残額を記録。
+- 期待払戻Eと1点以上的中機会Hを50:50で評価。尺度は旧A実装の `max(AI確率×実オッズ)×10000`。当時cap30元コードの完全再現という主張ではなく、新しい承認済み予算上限版として識別する。
+- `cap30_budget_ceiling.py` と `cap30_ceiling_allocator.py` を使用。原本schema7。旧原本は再配分・上書きしない。
+- 公開・X草稿では実配分額を表示し、1万円を使わなかったレースを「合計1万円」と書かない。回収率の分母は実配分額。未使用予算を損失や返還に混ぜない。
+- 発売中オッズ・取消・発走12分前までの原本とreceiptの保存確認を維持。過去テスト合格と本番での期限内完走は区別する。
+
+
+追加料金なし。モデル・履歴は非公開。過去の買い目配分balanced_A_v3は参照用に保存し、新規予想では上記の予算上限版を使う。旧corrected V2と試作balanced A v1/v2は保存・区別する。
 
 ## クラウド一括実行（2026-10-20・現行）
 
@@ -15,7 +28,7 @@
 
 過去テストは `--test-only --run-id <一意名>` で `publication_tests` 配下にだけ保存し、X草稿は返さず本番成績にも入れない。`test_operation_runner.py` は保存失敗・期限・再実行・改変拒否を検証する。10月20日の実GitHub往復テストは `publication_tests/repair_20261020/`、要約は `validation/operation_repair_20261020.json`。
 
-## balanced_A_v3 最低必要額・実オッズ選別方式（2026-10-18以降）
+## 過去方式：balanced_A_v3（新規予想には使用しない）
 - `development/free_web/balanced_A_v3.py` が選定・配分プログラム。`pre_race_record.py` は v3 の `allocate_balanced` を使用し、確率生成は変更しない。旧 `balanced_A_v1.py`、`balanced_A_v2.py`、`corrected_v2_core.py` は過去方式として不変。
 - まず実際に取得した全馬連・全3連複のオッズとAI的中確率を掛け、**期待回収倍率=ai_probability×decimal_odds** を算出。評価用の50倍等のオッズ上限は一切設けない。
 - 候補となる全買い目について、選択時の購入額を厳密に **ceil(10000/(100×decimal_odds))×100円（最低100円）** に固定する。100倍以上の全買い目は選択されても100円のみとし、同じ馬券への追加投資は禁止。
@@ -45,7 +58,7 @@
 2. 無料の当日出馬表と、JRA公式で確認した全頭の出走/取消/除外情報を取得する。出馬表の****や馬体重未発表だけで取消を推定しない。entry_changesの完全なhorse_statusesを作る。確認できなければverified=trueを設定しない。
 3. 前走通過順位から取得した脚質を出典付きで準備する。feature_pipeline.assembleを実行し、prediction_ready=trueであることを確認する。新しい騎手・取消に合わせて過去成績を再計算する。
 4. 馬連・3連複全組合せをodds.parseで取得する。この関数だけではverified_liveにならない。取得ページが発売中で当該レースに対応し、更新時刻・取得時刻・公式出走情報と整合することを実際に確認する。発走前であることを時計で確認する。未確認のまま状態を書き換えない。
-5. pre_race_record.prepareで52項目の推論とbalanced_A_v3配分を実行する（確率生成には従来のcorrected_v2_core.generate_combinationsを使用し、allocateのみ切替）。購入点数の上限・下限を固定しない。全馬連・3連複を候補とし、期待払戻Eと1点以上的中する確率Hを同時に評価する混合整数最適化。予算1万円、100円単位、各買い目が単独的中時に1万円以上払戻となる最低額を厳守。solverの解は近似であり大域最適保証なし。計算・検証失敗なら本番予想の完了扱いにせず、旧corrected V2やbalanced_A_v1/v2へ黙ってフォールバックしない。publication.requestでGitHub保存要求を作る。content_sha256とtest_onlyはGitHub create_fileへの引数から除く。
+5. pre_race_record.prepareで52項目の推論とcap30_budget_ceiling_E50_v1_20261023配分を実行する（確率生成には従来のcorrected_v2_core.generate_combinationsを使用し、allocateのみ切替）。購入点数は上限30点、下限は固定しない。全馬連・3連複を候補とし、期待払戻Eと1点以上的中する確率Hを同時に評価する混合整数最適化。予算上限1万円、100円単位、各買い目が単独的中時に1万円以上払戻となる最低額を厳守。余りは残す。solverの解は近似であり大域最適保証なし。計算・検証失敗なら本番予想の完了扱いにせず、旧corrected V2やbalanced_A_v1/v2へ黙ってフォールバックしない。publication.requestでGitHub保存要求を作る。content_sha256とtest_onlyはGitHub create_fileへの引数から除く。
 6. 対象pathをfetch_fileして存在確認する。既存なら上書きせず確認済み事前記録を参照する。404で存在しなければcreate_fileする。commit_shaを取得し、fetch_file(ref=commit_sha)のcontentとfetch_commitのcreated_atを確認してpublication.confirmへ渡す。保存/確認/提示のいずれも発走12分前を超えたら事前予想の完了を宣言しない。
 7. confirmのreceiptはpredictions/free52_receipts/<race_code>.jsonに新規保存する。記録本体を後から書き換えない。チャット用一覧とX投稿文を提示する。Xへ送信しない。test_onlyの記録にはX投稿文を作らない。
 
@@ -100,3 +113,4 @@ source_bundleが返すofficial_entry_pageからpublic_previous.acquireを呼ぶ�
 発売中WINを含む初回本番完走は未確認。次回予約を補正版の厳格検証付き入口へ接続することと、本番成功確認を区別する。詳細は`validation/correction_20261021/README.md`、数値は`comparison.json`。回顧的試算を本番成績に含めない。
 
 2026-10-21追記：予想の3予約は `--probability-method market_corrected_v1` を呼ぶ内容へ更新し、予約の有効状態・指示全文の読み戻し・従来時間枠の維持を確認済み。初回の発売中データと期限内公開成功は引き続き未確認。schema_version=6の収支にはprobability_methodと補正パラメータSHAを引き継ぐ。旧schemaの結果形式・原本は変更しない。設定確認記録：`validation/correction_20261021/deployment.json`。
+

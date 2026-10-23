@@ -1,0 +1,103 @@
+{
+  "created_at": "2026-10-23T06:38:52.510321+00:00",
+  "test_only": true,
+  "base_training_end_for2025": "2024-12-31",
+  "base_training_end_for_calibration2024": "2023-12-31",
+  "calibration_year": 2024,
+  "market_correction_year": 2024,
+  "2025_labels_used_to_fit": false,
+  "2025_portfolios_evaluated": false,
+  "2024_calibration_rows": 43052,
+  "2024_correction_races": 124,
+  "2024_exclusions": [
+    {
+      "race_code": "2024112405050812",
+      "reason": "AssertionError"
+    }
+  ],
+  "2025_expected_races": 119,
+  "2025_archive_graded_races": 130,
+  "2025_exclusions": [
+    {
+      "race_code": "2025012510010111",
+      "reason": "missing/nonunique top3 ranking (including dead heat)"
+    },
+    {
+      "race_code": "2025020205010211",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025042003010411",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025060105021212",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025061402010111",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025072704020207",
+      "reason": "missing/nonunique top3 ranking (including dead heat)"
+    },
+    {
+      "race_code": "2025090706040211",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025110908040211",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025113005050812",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025113008040812",
+      "reason": "incomplete archive or starter mismatch"
+    },
+    {
+      "race_code": "2025121307050311",
+      "reason": "incomplete archive or starter mismatch"
+    }
+  ],
+  "parameters": {
+    "incumbent": [
+      0.2513988601459648,
+      0.7108784324165885
+    ],
+    "candidate": [
+      0.31823088193385995,
+      0.6933455937314627
+    ]
+  },
+  "fit_details": {
+    "incumbent": {
+      "method": "shared_ai_market",
+      "parameters": [
+        0.2513988601459648,
+        0.7108784324165885
+      ],
+      "success": true,
+      "projected_gradient_max": 1.327564111688257e-08,
+      "fit_nll": 6.630714836503961,
+      "free_parameters": 2
+    },
+    "candidate": {
+      "method": "shared_ai_market",
+      "parameters": [
+        0.31823088193385995,
+        0.6933455937314627
+      ],
+      "success": true,
+      "projected_gradient_max": 2.7419642470528246e-09,
+      "fit_nll": 6.621494679113489,
+      "free_parameters": 2
+    }
+  },
+  "prior_model_family_selection_used2025": true,
+  "2025_not_independent_of_prior_research": true,
+  "point_in_time_source_features_certified": false
+}

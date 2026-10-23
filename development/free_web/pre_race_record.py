@@ -11,7 +11,7 @@ import re
 import pandas as pd
 from infer_free_model import predict
 from corrected_v2_core import generate_combinations
-from balanced_A_v3 import allocate_balanced
+from cap30_budget_ceiling import allocate_balanced,VERSION
 
 def timestamp(value):
     stamp=dt.datetime.fromisoformat(value)
@@ -62,7 +62,7 @@ def prepare(model_dir,runners,snapshots,metadata,now=None,clock=None):
     if not merged['_merge'].eq('both').all():raise ValueError('Incomplete or extra odds')
     if not merged['decimal_odds'].map(lambda x:pd.notna(x) and 1<=x<float('inf')).all():raise ValueError('Invalid odds')
     tickets, allocation_audit=allocate_balanced(merged.drop(columns='_merge'),pred)
-    if tickets.empty or tickets['stake'].sum()!=10000 or not ((tickets['stake']>0)&(tickets['stake']%100==0)).all():raise ValueError('Invalid budget allocation')
+    if tickets.empty or not 0<tickets['stake'].sum()<=10000 or len(tickets)>30 or not ((tickets['stake']>0)&(tickets['stake']%100==0)).all():raise ValueError('Invalid budget allocation')
     if not (tickets['stake']*tickets['decimal_odds']>=10000-1e-8).all():raise ValueError('Single-ticket payout condition failed')
     model_manifest=json.loads((Path(model_dir)/'manifest.json').read_text())
     input_json=json.dumps(runners,ensure_ascii=False,sort_keys=True,allow_nan=False,default=str)
@@ -77,14 +77,16 @@ def prepare(model_dir,runners,snapshots,metadata,now=None,clock=None):
         raise ValueError('Odds became stale during calculation; acquire again')
     if metadata.get('participation_obtained_at') and not dt.timedelta(0)<=finalized-timestamp(metadata['participation_obtained_at'])<=dt.timedelta(seconds=90):
         raise ValueError('Participation became stale during calculation; acquire again')
-    record={'schema_version':5,'status':'prepared_not_published','race_code':race,'race_name':metadata['race_name'],
+    record={'schema_version':7,'status':'prepared_not_published','race_code':race,'race_name':metadata['race_name'],
             'race_start_at':metadata['race_start_at'],'prediction_finalized_at':finalized.isoformat(),
             'features_obtained_at':metadata['features_obtained_at'],'active_horse_numbers':active,
             'model_package':model_manifest['package'],'model_file_sha256':model_files,
             'feature_spec_sha256':hashlib.sha256((Path(model_dir)/'feature_spec.json').read_bytes()).hexdigest(),
             'input_snapshot_sha256':hashlib.sha256(input_json.encode()).hexdigest(),
-            'allocation_rule':'balanced_A_v3','total_stake_yen':10000,
-            'allocation_core_sha256':hashlib.sha256(Path(__file__).with_name('balanced_A_v3.py').read_bytes()).hexdigest(),
+            'allocation_rule':VERSION,'total_stake_yen':int(tickets.stake.sum()),
+            'budget_limit_yen':10000,'unspent_yen':int(10000-tickets.stake.sum()),
+            'probability_method':'original_saved52','probability_correction_parameters_sha256':None,
+            'allocation_core_sha256':hashlib.sha256(Path(__file__).with_name('cap30_ceiling_allocator.py').read_bytes()).hexdigest(),
             'allocation_audit':allocation_audit,
             'horse_probabilities':pred.to_dict('records'),'tickets':tickets.to_dict('records'),
             'odds_sources':{k:{n:v[n] for n in ['source_url','retrieved_at','source_updated_at','page_sha256']} for k,v in snapshots.items()}}

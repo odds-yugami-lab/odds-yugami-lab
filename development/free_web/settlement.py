@@ -69,7 +69,9 @@ def settle(record,payout_snapshot,publication=None,test_only=False):
         payout=0 if refund else int(payouts[kind].get(key,0))*(stake//100)
         returned+=payout;refunded+=refund
         lines.append({'bet_type':kind,'kumiban':key,'stake':stake,'payout_yen':payout,'refund_yen':refund})
-    if investment!=10000:raise ValueError('Saved budget mismatch')
+    from cap30_budget_ceiling import validate_record_budget,VERSION
+    budget_record=dict(record,tickets=bets)
+    if validate_record_budget(budget_record)!=investment:raise ValueError('Saved budget mismatch')
     gross=returned+refunded
     result={'record_type':'settlement_test' if test_only else 'virtual_bet_settlement',
             'race_code':race,'is_live_performance_record':not test_only,
@@ -84,4 +86,6 @@ def settle(record,payout_snapshot,publication=None,test_only=False):
     if record.get('schema_version',0)>=6:
         result['probability_method']=record['probability_method']
         result['probability_correction_parameters_sha256']=record['probability_correction_parameters_sha256']
+    if record.get('allocation_rule')==VERSION:
+        result.update(budget_limit_yen=10000,unspent_yen=record['unspent_yen'])
     return result

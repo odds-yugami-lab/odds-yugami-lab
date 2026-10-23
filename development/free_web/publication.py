@@ -21,8 +21,8 @@ def request(record,branch,now=None,test_only=False):
     if record.get('status')!='prepared_not_published':raise ValueError('Not a prepared record')
     if not test_only and (record.get('test_only') is True or record.get('odds_status')=='final_postrace' or record.get('is_live_operation_ready') is False):
         raise ValueError('Historical/test record cannot become a live prediction')
-    if record['total_stake_yen']!=10000 or sum(t['stake'] for t in record['tickets'])!=10000:
-        raise ValueError('Invalid saved budget')
+    from cap30_budget_ceiling import validate_record_budget
+    validate_record_budget(record)
     payload=dict(record,is_pre_race_prediction=not test_only,
                  record_type='publication_test' if test_only else 'pre_race_prediction')
     prefix='development/free_web/publication_tests' if test_only else 'predictions/free52'
@@ -50,7 +50,7 @@ def confirm(write_request,commit_sha,committed_content,commit_recorded_at,now=No
              'race_code':record['race_code'],'commit_sha':commit_sha,
              'recorded_at':saved.isoformat(),'record_url':url,
              'content_sha256':write_request['content_sha256'],'test_only':write_request['test_only']}
-    lines=[f"{record['race_name']}：馬連・3連複 合計10,000円"]
+    lines=[f"{record['race_name']}：馬連・3連複 合計{record['total_stake_yen']:,}円"]
     for t in record['tickets']:
         key=t['kumiban'];nums='－'.join(str(int(key[i:i+2])) for i in range(0,len(key),2))
         name={'umaren':'馬連','sanrenpuku':'3連複'}[t['bet_type']]
