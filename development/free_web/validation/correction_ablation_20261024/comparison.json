@@ -1,0 +1,641 @@
+{
+  "test_only": true,
+  "model": "incumbent_only",
+  "allocation_rule": "cap30_budget_ceiling_E50_v1_20261023",
+  "baseline": "Original sqrt(WIN*TOP3) PL, parameters [1,0], independently Platt-calibrated heads retained; no market strength correction",
+  "corrected": "Frozen shared strength alpha*log(sqrt(WIN*TOP3))+beta*log(normalized inverse win odds)",
+  "annual": {
+    "2025": {
+      "portfolio": {
+        "baseline": {
+          "races": 117,
+          "stake_yen": 1098300,
+          "payout_yen": 861680,
+          "profit_yen": -236620,
+          "budget_limit_total_yen": 1170000,
+          "unspent_yen": 71700,
+          "recovery_percent": 78.45579532004007,
+          "hit_races": 73,
+          "hit_rate": 0.6239316239316239,
+          "ticket_count_min": 29,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.99145299145299,
+          "races_with_25_to_30_tickets": 117,
+          "model_mean_hit_probability": 0.6157475242438519,
+          "zero_gap_solutions": 95
+        },
+        "corrected": {
+          "races": 117,
+          "stake_yen": 1164900,
+          "payout_yen": 1001780,
+          "profit_yen": -163120,
+          "budget_limit_total_yen": 1170000,
+          "unspent_yen": 5100,
+          "recovery_percent": 85.99708129453172,
+          "hit_races": 86,
+          "hit_rate": 0.7350427350427351,
+          "ticket_count_min": 18,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.307692307692307,
+          "races_with_25_to_30_tickets": 113,
+          "model_mean_hit_probability": 0.6848701855239151,
+          "zero_gap_solutions": 67
+        }
+      },
+      "horse_metrics": {
+        "baseline": {
+          "win": {
+            "brier": 0.059961783626372805,
+            "logloss": 0.225920541878319
+          },
+          "top3": {
+            "brier": 0.14591902806633084,
+            "logloss": 0.4571184317947626
+          },
+          "popularity_groups": {
+            "1-1": {
+              "horses": 117,
+              "win": {
+                "predicted_mean": 0.1420354892254572,
+                "observed_rate": 0.21367521367521367,
+                "predicted_minus_observed": -0.07163972444975654
+              },
+              "top3": {
+                "predicted_mean": 0.3896358189482801,
+                "observed_rate": 0.5982905982905983,
+                "predicted_minus_observed": -0.20865477934231824
+              }
+            },
+            "2-3": {
+              "horses": 234,
+              "win": {
+                "predicted_mean": 0.10349256949585665,
+                "observed_rate": 0.1794871794871795,
+                "predicted_minus_observed": -0.0759946099913228
+              },
+              "top3": {
+                "predicted_mean": 0.30170987705491326,
+                "observed_rate": 0.41025641025641024,
+                "predicted_minus_observed": -0.10854653320149701
+              }
+            },
+            "4-6": {
+              "horses": 351,
+              "win": {
+                "predicted_mean": 0.08307677912889255,
+                "observed_rate": 0.07977207977207977,
+                "predicted_minus_observed": 0.0033046993568127767
+              },
+              "top3": {
+                "predicted_mean": 0.24961534310243694,
+                "observed_rate": 0.24786324786324787,
+                "predicted_minus_observed": 0.00175209523918907
+              }
+            },
+            "7-18": {
+              "horses": 1021,
+              "win": {
+                "predicted_mean": 0.04603784233530829,
+                "observed_rate": 0.021547502448579822,
+                "predicted_minus_observed": 0.024490339886728465
+              },
+              "top3": {
+                "predicted_mean": 0.1441699437054321,
+                "observed_rate": 0.09598432908912831,
+                "predicted_minus_observed": 0.04818561461630378
+              }
+            }
+          }
+        },
+        "corrected": {
+          "win": {
+            "brier": 0.05782938559599524,
+            "logloss": 0.20962593870075105
+          },
+          "top3": {
+            "brier": 0.13363564418249926,
+            "logloss": 0.42100350075506926
+          },
+          "popularity_groups": {
+            "1-1": {
+              "horses": 117,
+              "win": {
+                "predicted_mean": 0.23698891931685986,
+                "observed_rate": 0.21367521367521367,
+                "predicted_minus_observed": 0.023313705641646202
+              },
+              "top3": {
+                "predicted_mean": 0.5914218601721488,
+                "observed_rate": 0.5982905982905983,
+                "predicted_minus_observed": -0.0068687381184493745
+              }
+            },
+            "2-3": {
+              "horses": 234,
+              "win": {
+                "predicted_mean": 0.14257140130567234,
+                "observed_rate": 0.1794871794871795,
+                "predicted_minus_observed": -0.03691577818150716
+              },
+              "top3": {
+                "predicted_mean": 0.41957585314918594,
+                "observed_rate": 0.41025641025641024,
+                "predicted_minus_observed": 0.009319442892775675
+              }
+            },
+            "4-6": {
+              "horses": 351,
+              "win": {
+                "predicted_mean": 0.08308367167941444,
+                "observed_rate": 0.07977207977207977,
+                "predicted_minus_observed": 0.003311591907334665
+              },
+              "top3": {
+                "predicted_mean": 0.26616235423988294,
+                "observed_rate": 0.24786324786324787,
+                "predicted_minus_observed": 0.018299106376635062
+              }
+            },
+            "7-18": {
+              "horses": 1021,
+              "win": {
+                "predicted_mean": 0.026198060504334576,
+                "observed_rate": 0.021547502448579822,
+                "predicted_minus_observed": 0.004650558055754752
+              },
+              "top3": {
+                "predicted_mean": 0.0883446683494125,
+                "observed_rate": 0.09598432908912831,
+                "predicted_minus_observed": -0.007639660739715812
+              }
+            }
+          }
+        },
+        "original_heads": {
+          "win": {
+            "brier": 0.059894870860411,
+            "logloss": 0.2272096848622877
+          },
+          "top3": {
+            "brier": 0.146865579360322,
+            "logloss": 0.45980981820849565
+          },
+          "popularity_groups": {
+            "1-1": {
+              "horses": 117,
+              "win": {
+                "predicted_mean": 0.16495640448129395,
+                "observed_rate": 0.21367521367521367,
+                "predicted_minus_observed": -0.048718809193919695
+              },
+              "top3": {
+                "predicted_mean": 0.3939799301879597,
+                "observed_rate": 0.5982905982905983,
+                "predicted_minus_observed": -0.2043106681026387
+              }
+            },
+            "2-3": {
+              "horses": 234,
+              "win": {
+                "predicted_mean": 0.11542670280728622,
+                "observed_rate": 0.1794871794871795,
+                "predicted_minus_observed": -0.06406047667989326
+              },
+              "top3": {
+                "predicted_mean": 0.31466282835247067,
+                "observed_rate": 0.41025641025641024,
+                "predicted_minus_observed": -0.09559358190393967
+              }
+            },
+            "4-6": {
+              "horses": 351,
+              "win": {
+                "predicted_mean": 0.08855308844930472,
+                "observed_rate": 0.07977207977207977,
+                "predicted_minus_observed": 0.00878100867722495
+              },
+              "top3": {
+                "predicted_mean": 0.26335101967042884,
+                "observed_rate": 0.24786324786324787,
+                "predicted_minus_observed": 0.015487771807180964
+              }
+            },
+            "7-18": {
+              "horses": 1021,
+              "win": {
+                "predicted_mean": 0.04592912383589119,
+                "observed_rate": 0.021547502448579822,
+                "predicted_minus_observed": 0.024381621387311366
+              },
+              "top3": {
+                "predicted_mean": 0.1564369520655832,
+                "observed_rate": 0.09598432908912831,
+                "predicted_minus_observed": 0.06045262297645487
+              }
+            }
+          }
+        }
+      },
+      "halves": {
+        "H1": {
+          "baseline": {
+            "races": 62,
+            "stake_yen": 584600,
+            "payout_yen": 437190,
+            "profit_yen": -147410,
+            "budget_limit_total_yen": 620000,
+            "unspent_yen": 35400,
+            "recovery_percent": 74.78446801231611,
+            "hit_races": 38,
+            "hit_rate": 0.6129032258064516,
+            "ticket_count_min": 29,
+            "ticket_count_max": 30,
+            "ticket_count_mean": 29.983870967741936,
+            "races_with_25_to_30_tickets": 62,
+            "model_mean_hit_probability": 0.6143388468822013,
+            "zero_gap_solutions": 52
+          },
+          "corrected": {
+            "races": 62,
+            "stake_yen": 617000,
+            "payout_yen": 511930,
+            "profit_yen": -105070,
+            "budget_limit_total_yen": 620000,
+            "unspent_yen": 3000,
+            "recovery_percent": 82.9708265802269,
+            "hit_races": 44,
+            "hit_rate": 0.7096774193548387,
+            "ticket_count_min": 23,
+            "ticket_count_max": 30,
+            "ticket_count_mean": 29.419354838709676,
+            "races_with_25_to_30_tickets": 60,
+            "model_mean_hit_probability": 0.6866221746938053,
+            "zero_gap_solutions": 36
+          }
+        },
+        "H2": {
+          "baseline": {
+            "races": 55,
+            "stake_yen": 513700,
+            "payout_yen": 424490,
+            "profit_yen": -89210,
+            "budget_limit_total_yen": 550000,
+            "unspent_yen": 36300,
+            "recovery_percent": 82.63383297644539,
+            "hit_races": 35,
+            "hit_rate": 0.6363636363636364,
+            "ticket_count_min": 30,
+            "ticket_count_max": 30,
+            "ticket_count_mean": 30.0,
+            "races_with_25_to_30_tickets": 55,
+            "model_mean_hit_probability": 0.6173354878151673,
+            "zero_gap_solutions": 43
+          },
+          "corrected": {
+            "races": 55,
+            "stake_yen": 547900,
+            "payout_yen": 489850,
+            "profit_yen": -58050,
+            "budget_limit_total_yen": 550000,
+            "unspent_yen": 2100,
+            "recovery_percent": 89.40500091257529,
+            "hit_races": 42,
+            "hit_rate": 0.7636363636363637,
+            "ticket_count_min": 18,
+            "ticket_count_max": 30,
+            "ticket_count_mean": 29.181818181818183,
+            "races_with_25_to_30_tickets": 53,
+            "model_mean_hit_probability": 0.6828952159142211,
+            "zero_gap_solutions": 31
+          }
+        }
+      }
+    },
+    "2026": {
+      "portfolio": {
+        "baseline": {
+          "races": 103,
+          "stake_yen": 909400,
+          "payout_yen": 801640,
+          "profit_yen": -107760,
+          "budget_limit_total_yen": 1030000,
+          "unspent_yen": 120600,
+          "recovery_percent": 88.15042885418957,
+          "hit_races": 54,
+          "hit_rate": 0.5242718446601942,
+          "ticket_count_min": 22,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.883495145631066,
+          "races_with_25_to_30_tickets": 102,
+          "model_mean_hit_probability": 0.5953912979469934,
+          "zero_gap_solutions": 78
+        },
+        "corrected": {
+          "races": 103,
+          "stake_yen": 1025400,
+          "payout_yen": 773860,
+          "profit_yen": -251540,
+          "budget_limit_total_yen": 1030000,
+          "unspent_yen": 4600,
+          "recovery_percent": 75.46908523503024,
+          "hit_races": 63,
+          "hit_rate": 0.6116504854368932,
+          "ticket_count_min": 15,
+          "ticket_count_max": 30,
+          "ticket_count_mean": 29.223300970873787,
+          "races_with_25_to_30_tickets": 98,
+          "model_mean_hit_probability": 0.6678068202510316,
+          "zero_gap_solutions": 54
+        }
+      },
+      "horse_metrics": {
+        "baseline": {
+          "win": {
+            "brier": 0.059763729669993014,
+            "logloss": 0.22657655868205853
+          },
+          "top3": {
+            "brier": 0.1449028138465838,
+            "logloss": 0.45517874089924487
+          },
+          "popularity_groups": {
+            "1-1": {
+              "horses": 103,
+              "win": {
+                "predicted_mean": 0.1281254773020407,
+                "observed_rate": 0.33980582524271846,
+                "predicted_minus_observed": -0.21168034794067778
+              },
+              "top3": {
+                "predicted_mean": 0.35777883632360297,
+                "observed_rate": 0.6310679611650486,
+                "predicted_minus_observed": -0.27328912484144563
+              }
+            },
+            "2-3": {
+              "horses": 206,
+              "win": {
+                "predicted_mean": 0.1057258727885526,
+                "observed_rate": 0.10679611650485436,
+                "predicted_minus_observed": -0.0010702437163017638
+              },
+              "top3": {
+                "predicted_mean": 0.30559254165338035,
+                "observed_rate": 0.3640776699029126,
+                "predicted_minus_observed": -0.058485128249532295
+              }
+            },
+            "4-6": {
+              "horses": 309,
+              "win": {
+                "predicted_mean": 0.080011038045744,
+                "observed_rate": 0.06796116504854369,
+                "predicted_minus_observed": 0.012049872997200298
+              },
+              "top3": {
+                "predicted_mean": 0.24112788390279052,
+                "observed_rate": 0.255663430420712,
+                "predicted_minus_observed": -0.01453554651792146
+              }
+            },
+            "7-18": {
+              "horses": 929,
+              "win": {
+                "predicted_mean": 0.046609402892694385,
+                "observed_rate": 0.02691065662002153,
+                "predicted_minus_observed": 0.019698746272672856
+              },
+              "top3": {
+                "predicted_mean": 0.14498191620248688,
+                "observed_rate": 0.0968783638320775,
+                "predicted_minus_observed": 0.048103552370409364
+              }
+            }
+          }
+        },
+        "corrected": {
+          "win": {
+            "brier": 0.05579600987696958,
+            "logloss": 0.2064191745145571
+          },
+          "top3": {
+            "brier": 0.1300458568214916,
+            "logloss": 0.4111014091720203
+          },
+          "popularity_groups": {
+            "1-1": {
+              "horses": 103,
+              "win": {
+                "predicted_mean": 0.22828220519636558,
+                "observed_rate": 0.33980582524271846,
+                "predicted_minus_observed": -0.11152362004635291
+              },
+              "top3": {
+                "predicted_mean": 0.5723455668789104,
+                "observed_rate": 0.6310679611650486,
+                "predicted_minus_observed": -0.058722394286138166
+              }
+            },
+            "2-3": {
+              "horses": 206,
+              "win": {
+                "predicted_mean": 0.1430243372466744,
+                "observed_rate": 0.10679611650485436,
+                "predicted_minus_observed": 0.03622822074182004
+              },
+              "top3": {
+                "predicted_mean": 0.41961309350538245,
+                "observed_rate": 0.3640776699029126,
+                "predicted_minus_observed": 0.05553542360246985
+              }
+            },
+            "4-6": {
+              "horses": 309,
+              "win": {
+                "predicted_mean": 0.08010054696506631,
+                "observed_rate": 0.06796116504854369,
+                "predicted_minus_observed": 0.012139381916522623
+              },
+              "top3": {
+                "predicted_mean": 0.2567198447221892,
+                "observed_rate": 0.255663430420712,
+                "predicted_minus_observed": 0.0010564143014772723
+              }
+            },
+            "7-18": {
+              "horses": 929,
+              "win": {
+                "predicted_mean": 0.027204359935149552,
+                "observed_rate": 0.02691065662002153,
+                "predicted_minus_observed": 0.000293703315128022
+              },
+              "top3": {
+                "predicted_mean": 0.0907230111197061,
+                "observed_rate": 0.0968783638320775,
+                "predicted_minus_observed": -0.006155352712371411
+              }
+            }
+          }
+        },
+        "original_heads": {
+          "win": {
+            "brier": 0.060247026869789375,
+            "logloss": 0.22853379405516738
+          },
+          "top3": {
+            "brier": 0.14632168968103004,
+            "logloss": 0.4589869399146507
+          },
+          "popularity_groups": {
+            "1-1": {
+              "horses": 103,
+              "win": {
+                "predicted_mean": 0.13637985440151418,
+                "observed_rate": 0.33980582524271846,
+                "predicted_minus_observed": -0.2034259708412043
+              },
+              "top3": {
+                "predicted_mean": 0.3421481782476129,
+                "observed_rate": 0.6310679611650486,
+                "predicted_minus_observed": -0.2889197829174357
+              }
+            },
+            "2-3": {
+              "horses": 206,
+              "win": {
+                "predicted_mean": 0.10575121880548315,
+                "observed_rate": 0.10679611650485436,
+                "predicted_minus_observed": -0.0010448976993712156
+              },
+              "top3": {
+                "predicted_mean": 0.2960509054415149,
+                "observed_rate": 0.3640776699029126,
+                "predicted_minus_observed": -0.06802676446139766
+              }
+            },
+            "4-6": {
+              "horses": 309,
+              "win": {
+                "predicted_mean": 0.0756484228264215,
+                "observed_rate": 0.06796116504854369,
+                "predicted_minus_observed": 0.0076872577778778085
+              },
+              "top3": {
+                "predicted_mean": 0.23254038778291297,
+                "observed_rate": 0.255663430420712,
+                "predicted_minus_observed": -0.02312304263779899
+              }
+            },
+            "7-18": {
+              "horses": 929,
+              "win": {
+                "predicted_mean": 0.044225121885490146,
+                "observed_rate": 0.02691065662002153,
+                "predicted_minus_observed": 0.01731446526546862
+              },
+              "top3": {
+                "predicted_mean": 0.14235357612708632,
+                "observed_rate": 0.0968783638320775,
+                "predicted_minus_observed": 0.045475212295008845
+              }
+            }
+          }
+        }
+      },
+      "halves": {
+        "H1": {
+          "baseline": {
+            "races": 68,
+            "stake_yen": 604000,
+            "payout_yen": 552780,
+            "profit_yen": -51220,
+            "budget_limit_total_yen": 680000,
+            "unspent_yen": 76000,
+            "recovery_percent": 91.51986754966887,
+            "hit_races": 34,
+            "hit_rate": 0.5,
+            "ticket_count_min": 22,
+            "ticket_count_max": 30,
+            "ticket_count_mean": 29.852941176470587,
+            "races_with_25_to_30_tickets": 67,
+            "model_mean_hit_probability": 0.5821431771991001,
+            "zero_gap_solutions": 49
+          },
+          "corrected": {
+            "races": 68,
+            "stake_yen": 676300,
+            "payout_yen": 449700,
+            "profit_yen": -226600,
+            "budget_limit_total_yen": 680000,
+            "unspent_yen": 3700,
+            "recovery_percent": 66.49415939671744,
+            "hit_races": 38,
+            "hit_rate": 0.5588235294117647,
+            "ticket_count_min": 15,
+            "ticket_count_max": 30,
+            "ticket_count_mean": 29.279411764705884,
+            "races_with_25_to_30_tickets": 66,
+            "model_mean_hit_probability": 0.664298025869688,
+            "zero_gap_solutions": 35
+          }
+        },
+        "H2": {
+          "baseline": {
+            "races": 35,
+            "stake_yen": 305400,
+            "payout_yen": 248860,
+            "profit_yen": -56540,
+            "budget_limit_total_yen": 350000,
+            "unspent_yen": 44600,
+            "recovery_percent": 81.48657498362803,
+            "hit_races": 20,
+            "hit_rate": 0.5714285714285714,
+            "ticket_count_min": 28,
+            "ticket_count_max": 30,
+            "ticket_count_mean": 29.942857142857143,
+            "races_with_25_to_30_tickets": 35,
+            "model_mean_hit_probability": 0.6211305039714716,
+            "zero_gap_solutions": 29
+          },
+          "corrected": {
+            "races": 35,
+            "stake_yen": 349100,
+            "payout_yen": 324160,
+            "profit_yen": -24940,
+            "budget_limit_total_yen": 350000,
+            "unspent_yen": 900,
+            "recovery_percent": 92.8559152105414,
+            "hit_races": 25,
+            "hit_rate": 0.7142857142857143,
+            "ticket_count_min": 20,
+            "ticket_count_max": 30,
+            "ticket_count_mean": 29.114285714285714,
+            "races_with_25_to_30_tickets": 32,
+            "model_mean_hit_probability": 0.6746239064776425,
+            "zero_gap_solutions": 19
+          }
+        }
+      }
+    }
+  },
+  "exclusions": [
+    {
+      "year": 2025,
+      "race_code": "2025060105021211",
+      "reason": "No unambiguously matched official result; same previous exclusion"
+    },
+    {
+      "year": 2025,
+      "race_code": "2025122706050711",
+      "reason": "No unambiguously matched official result; same previous exclusion"
+    }
+  ],
+  "prediction_failures": [],
+  "prediction_seal_commit": "d53d29d90b9bef5a8ed4307202d396e14ab8594f",
+  "production_or_tasks_changed": false,
+  "final_odds_used": true,
+  "prior_inspection_and_model_selection_not_fully_independent": true,
+  "market_correction_changes_ai_temperature_and_market_weight_together": true,
+  "popularity_ties": "ascending displayed WIN odds then horse number; grouped diagnostics use deterministic rank",
+  "original_feature_point_in_time_not_certified": true
+}

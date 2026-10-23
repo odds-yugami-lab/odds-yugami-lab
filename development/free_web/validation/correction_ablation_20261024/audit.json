@@ -1,0 +1,13 @@
+{
+  "ticket_portfolios_checked": 444,
+  "races_checked": 222,
+  "all_invariants_passed": true,
+  "original_combination_conversion_verified_all222": true,
+  "source_data_container_may_include_result_fields": true,
+  "only_whitelisted_forecast_fields_reach_predict_and_allocator": true,
+  "original_heads_platt_calibration_not_removed": true,
+  "corrected_portfolios_reused_with_hash_and_probability_checks": true,
+  "solver_time_cap_same_seconds": 30,
+  "relative_gap_same": 0.01,
+  "same_formula_numeric_objective_scale_depends_on_probabilities": true
+}
