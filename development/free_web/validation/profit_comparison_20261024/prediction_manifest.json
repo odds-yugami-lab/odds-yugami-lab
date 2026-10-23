@@ -1,0 +1,1344 @@
+{
+  "test_only": true,
+  "created_at": "2026-10-23T23:54:11.900196+00:00",
+  "expected_races": 222,
+  "prepared_races": 222,
+  "predictions": [
+    {
+      "year": 2025,
+      "race_code": "2025010506010111",
+      "sha256": "120a9188980fc966cec3e03b49ae0ac252d48bca163de7ab06ad018447dc169e",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025010507010111",
+      "sha256": "25c9a96f26e6b87641af2ec3bfc922d1a0a4b6d1398203b2f4d3a8a38e2af677",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025011206010411",
+      "sha256": "f2178404e8ddb23f9a250a5da5c54ac1ab8d29252c86821b8cfae63857b48cf8",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025011307010511",
+      "sha256": "bbb92c57aa7f5620d8c98f10254d8c5fba02153e9f434f6bcebda1f6f9f55898",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025011906010711",
+      "sha256": "f9b43cd8076d99b1ac8a999a0d97a6217754dc5cdb3334d2741d59f52c8b3fa6",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025011907010711",
+      "sha256": "ebf83176f74200513b8234c9f9606838c04e9fcdd9c60abc9f2af0d4ac121cb1",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025012606010911",
+      "sha256": "2dfba26c958ac93afbc42a23c7177ee2e09a5af7e313f8317f7c983d2c4ee438",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025012607010911",
+      "sha256": "ef2ebb97b6ed7d582fe7454e3a4d355c01823069d59175b74fda7ae5126576db",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025020208010211",
+      "sha256": "0ac55ee1897bc787bd53d5caf9e7dc4e077b3e2e255b1faed23578f7fa908aeb",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025020905010411",
+      "sha256": "12cc93abb769331b8ce71cc71ababcdbbd8102815fea54eda76e9870733c45bc",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025020908010411",
+      "sha256": "930d40be3b241e20d7662928e922bce5bb7df9fc16b7631979a4d0153d6c1095",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025021505010511",
+      "sha256": "36887a8b14bcb1f37ca7b40517a22ef61e51944033ea5ca73ad17b549147d031",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025021605010611",
+      "sha256": "5a20831c9adb1c48e07f63de200bb0207033c50e0de5fc255c4da5f5917bc325",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025021608010611",
+      "sha256": "4d09b432bec2679235601b44f57b590bbed2a9c1b23d9c6ebe82b57073536cdd",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025022205010711",
+      "sha256": "23ce071c64a1b226ac8d903f2e205f99083addb5038753375d3365577690e339",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025022208010711",
+      "sha256": "ceb5156de8cf1828cf71a6bec3caac22e374e95118e9982e19146c1ac0e86aa4",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025022305010811",
+      "sha256": "3731907a631ea7ed2aeaf5922d0961a8193f56cf891934e13f3929f6218bb6e1",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025022310011011",
+      "sha256": "d368ae4095794356adfec6077a8916e6ad7ac8cceb0c342b939f4ee259767180",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025030106020111",
+      "sha256": "e01b056fca3f758537d839df5519f461d8df733dd11bf78ce565a41592102134",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025030206020211",
+      "sha256": "54d5d1e543f875dc9f9020f6aa72664ee4d3cec3b2b6bbf9401f7a77bf25e36c",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025030209010211",
+      "sha256": "76ade7fccea6697b18f9d4b4dcc38c8dd224d74a8fff0e0a6964e5bd7ee5a8da",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025030806020311",
+      "sha256": "c4d07cc2860ea3b8b1e2c72dfb479629c6f0eb4e949916373a696ed2ee3ab7ca",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025030809010311",
+      "sha256": "fa773e0ddde3bf55f95863bba1e1817196c9294a915dc1d85e4158684b56485f",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025030906020411",
+      "sha256": "d04abb7c00a1c9a3aae292c6ad82caea8670c2ab4f27109285dee7e016b96e72",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025031606020611",
+      "sha256": "b744601ccccabbb1b44852ed8528bf3e01cad943f79448daf52ae35b3e5ebd08",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025031607020211",
+      "sha256": "0bc1f11365abde604ba05b5b2079578bf540b7ef5ae78a0f4c52cea15ecbe845",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025032206020711",
+      "sha256": "0d82553ba2c76b00bf605b3143b68092cc69b5f17d11c4c71cf74619a2d37f15",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025032207020311",
+      "sha256": "3c54282002bc476518be1050cab7e52d16600a49300039362b19e0c093edb70f",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025032307020411",
+      "sha256": "dfdb2d6ac86d1e02f481a36b62aba5618d860cdf796ae3efdf53e68846ef2e3c",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025032309010811",
+      "sha256": "0700fa4500155221b068f0f00905ae29a9186f28abd8929f7e4d57189e5e36de",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025032906030111",
+      "sha256": "e7da0e220b429c60ea458fcc7aaeee32b1d63988779818f707212d0d54f8dc0f",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025032909020111",
+      "sha256": "751217e5d9d4ee8c50929bf099d8634bbd3f7471cd7ac93102a477e12217517d",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025033006030211",
+      "sha256": "144525e0937264290b31c3b6ff3ca7b744f37e8009a8326743becaf954677f1f",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025033007020611",
+      "sha256": "353192bfc080884a9c18b219cae0febed3535a9306c499dba212ddc243cc42d7",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025040506030311",
+      "sha256": "386b0f4caae410335aae86370056618b98754696ec1acc523795e3954833f3d5",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025040509020311",
+      "sha256": "b51582e2a549c41085505e3da5ccde1c10df17eba605e99fbe753c82c8ab25ed",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025040609020411",
+      "sha256": "e0c01ea7673963e8c50b6a1b3c95b1755efa8cc70e9830f009a08c50f3b8b638",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025041206030511",
+      "sha256": "ad22cb1ed0d28297451e10dbc118e1483457a47326d56327fe7c341637eb3f81",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025041209020511",
+      "sha256": "66e855f8b3883a4c8719e5138e553dccbbac3e0673bc1ad94d9a69feab18c9bf",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025041309020611",
+      "sha256": "f6d658337d95e0fb8ab27a05bd268591584253d214bd550e95f113e9cd157bef",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025041909020711",
+      "sha256": "0bb601387b86dbba98d8527faf6420751db03156508e8983b8ee0562210f5262",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025042006030811",
+      "sha256": "eabedd6797d0670ff12e856cdcff4127ec54064e776831d2cbf7ccb31184c90c",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025042605020111",
+      "sha256": "71a636acab1b7ddc4dcccc0df4e22acbdeb08efbddffa7a81214aebba322e521",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025042705020211",
+      "sha256": "9216aeeb4b8506cc9fcbcf16629f91ba5b0c125b1768acc6cdc3d563554ab09a",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025042708020211",
+      "sha256": "ad10bd1a4c099d21a0d59086ce0f2f3c1399b61b1db51535715dd1e4b509c5e2",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025050305020311",
+      "sha256": "6e96d2bd8bfcf7e0c6ea282d4fd2eee531003756f27ca89fb0f58eefd6064277",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025050308020311",
+      "sha256": "f13f7832a12b22c86c44e60f7ec1fe14c1a6f5e3025ff99a6b9827a76ef6f577",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025050408020411",
+      "sha256": "2eb09c2c699c690fddb02c655f7d814117ac33eb86d1e4c74da69bf075a4f8d3",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025051005020511",
+      "sha256": "a44427e0812c4523b183fc64da93847a790135cf5197aa9594b21908fdb6b7a4",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025051008020511",
+      "sha256": "f2938cd784ba4aa1a261f0c807abd4c078e0a3b57c2ef886d45498f08d99b58c",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025051105020611",
+      "sha256": "bd12bac92a985e39c4edc851e80b365a5e507b923152bfbf3dc734914f32bfa5",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025051704010511",
+      "sha256": "8cbb83e54aae335a83c250894454d745edef072793ab318129189a6fb9d41440",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025051805020811",
+      "sha256": "03c1c2f9a01177eae1afa44141d7070275bc828c04aa94f8c3684ad0006ab3fa",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025052408020911",
+      "sha256": "10a5bdfff512d9abd28db277f5c54a372d23d754fced0beca2b07b7755619482",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025052505021011",
+      "sha256": "690af48529dd1b8d23ce5578b51a6c09f4c83820b156e757ead7495319f11940",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025053108021111",
+      "sha256": "fe437c98b5933a2e47d0701203f0317009e44f93b6d72bc750d070d9e897e07a",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025060105021211",
+      "sha256": "ae7392fa577e5aebcdad5df29946aa93f8fbe015491d516b15b59d8116163808",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025060805030211",
+      "sha256": "c6456eea460659a77cee7645e01cc10a38aa16e9d77f2273a4566e074f790d54",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025061509030411",
+      "sha256": "c00c19bee82eb469a1b7ddb07903aa1ab7c126ae9fd7e59fb85c51c513b920d9",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025062205030611",
+      "sha256": "b78edad40100d7d5864e156dddc2dabd74e4fbf89d711f79cb7b2eafe627ed51",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025062209030611",
+      "sha256": "15fae393134e0babc575e39e22dbca3d68a20b6ce1ecbe8c6c0f37b8f8ec6142",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025062902010611",
+      "sha256": "368a5a4924abe2dafeb142e4760b916f13c2c01c6fef1c3f45f5123962ca5019",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025062903020211",
+      "sha256": "6871d141268bc6fdfca9da45ec03504f4753b80db6be1df800a85ea5d8726da9",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025070610020411",
+      "sha256": "60415d9e2857a6e4f84ceef916127953c0b3928e42fe5daf356514b631a49e61",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025071303020611",
+      "sha256": "f13898d5458d7aabf0ec356b101b784b81a980fd255eaf3ab900ccd690a39c18",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025072002011211",
+      "sha256": "671c2b43c3d844ec795f5c5a43af7b67926b932db31a86fd5c7193847e9b5472",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025072010020811",
+      "sha256": "222850b9d15da9470a787dac1324f32af10350b1c0e6218c895f90ba6d20791b",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025072707030207",
+      "sha256": "5c26003ca8e9e1f0c5421177302922de49700b7d71396d9948c3510387335d63",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025080301010411",
+      "sha256": "7458c55fe5d25f4f8bc6e5f5bf1e4d368b0c4d349f829ca100eac038ec9f0860",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025080304020407",
+      "sha256": "9d01e64b33d4b0cef861f4c7e1bdeef8c70fe500faf06690de345d5ba3db2f20",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025080901010511",
+      "sha256": "9cc8327145013f185f8c75615f81336e267e0eb7f8193fae90c37f276d716d51",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025081004020607",
+      "sha256": "4c9668fda472264ef86090295063de173a5759792629e5d39c10f8b72fba7cf4",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025081007030607",
+      "sha256": "7c5831cbac76c63a539ffef31a436ebe95d37508166ab95cd83ccf0cd0817f5a",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025081701010811",
+      "sha256": "d9bf228ac05c5d8e9e76dd397e96e70e17fbf6f69c61b444f96b91ba42a4082d",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025081707030807",
+      "sha256": "a1be3a71b0415537660e312535b8a7ff1d82e96931882ddae1ebbab1979d4e6c",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025082401020211",
+      "sha256": "71393a7ee49e96e06f233027a5e07743a037dd0dbf58162497b8e2133593d3e5",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025082404030211",
+      "sha256": "7c26c5f02d4a3fbd1187323128be7050ff773d7057296f5b282d6cc6ee4bf0d2",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025083104030411",
+      "sha256": "33d60c63cc499efb5c5af74e85b93a43df3008ab12b9a963bc3da9c7239ffde6",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025083107040411",
+      "sha256": "4a8476c7f8e767ba3b8bf1178fe79d2cbedc21f48600caa57408ee81e69c30f8",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025090601020511",
+      "sha256": "e87519b7f5a84c2f36da438d6cbdac438bc9f8441712a298b1152f4b4d3ef2ed",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025090606040111",
+      "sha256": "17228eec92ce96584bfbb05e1c9e39ad0ef878480980fc565e9003f89fab2de9",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025090709040211",
+      "sha256": "6c3e5e34f2abaaea2a8c16898264f1ed19f121d1ffe902d137f9bc85015bd0e0",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025091309040311",
+      "sha256": "95c5a963066342ebe0796692de4a7e5be90bb66e03d66851a545f17eaeed0ecd",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025091409040411",
+      "sha256": "ffc8aefb6dd6c2f28ad07baeaae172d2f773344b9b9712caca4da931b6a832b4",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025091506040511",
+      "sha256": "43c7d35710176e45e6bf2eba2982c1ed9dbc190951eaa3693adb9f95b497b95e",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025092106040711",
+      "sha256": "514f9fd74d16a805f7ed42b1361c284d48e65e6932d0f63f2d7cc22c5c2464b5",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025092109040711",
+      "sha256": "706f6fc1f7db274a5366c0c2eb95cbe0ed54f448ceed467463a31f0d3cc0ebd5",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025092709040811",
+      "sha256": "57e4722ff564e719b85e59147186e6cbade3842c3fba47cfd499eeb834c98af7",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025092806040911",
+      "sha256": "76ef6a6e995f056379c7db4410a342987ea583335e53d4a4e3ca5bdf79ae7be4",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025100505040211",
+      "sha256": "06c8e593fe5c1daabcdc6399f6937f648cb6597b403bb1850151dd27d45c17b7",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025100508030211",
+      "sha256": "439dc0278442c27b2ab458ff1a41dfdc2f107f4f16bd51f46c6ff8eb89759f5e",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025101105040311",
+      "sha256": "5c12fb5b98c88d8a1a4a82cad0b23fefdfae523f75336b4567bd23dc1f940c41",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025101205040411",
+      "sha256": "ba4f6e43504c31ac1bf5be15b1ea86d43b24c223bb50c88148d36ff9763a97b2",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025101308030511",
+      "sha256": "58ae37f989860ef4bf5fe8102ab4271d86c65fa5abc8d6dcd863bb0b612f0dc0",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025101805040611",
+      "sha256": "840b4ce9346e8d37b1c4112b38bb489767ab3735c467a6b8cc0da3f7b4512200",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025101908030711",
+      "sha256": "16e5fcac854eb4f5560eb0538cb2bee47afaa1d7e732b47cbe7475e7c204441b",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025102505040811",
+      "sha256": "fb4993dc609b96f2c06efd181e6904a36e8abb09837abba7b1674cf618e80b26",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025102608030911",
+      "sha256": "1cb5de381f94f0ea70a55bd08dcae7cc7414389b1e12f0d58f465221fc8c1b8c",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025110108031011",
+      "sha256": "a86946a7480aa9b9ecd63067b79015a6e792e19c560940a18e1688d2a71bc420",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025110205041111",
+      "sha256": "cd24acd8c93d64d4b47bf5ed39479fdfb1411e73e83225d5ff57fff596bdd316",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025110805050111",
+      "sha256": "964809dd243e28b2d8ad626f163e0f66a09a89a0550f60b0036e177287ba8c7b",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025110905050211",
+      "sha256": "3109b43d326f3de47a4b17fe2dbee297253aec295e570b0c9d27a646af18ff61",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025111505050311",
+      "sha256": "8313c51b694c549ea708654ad381869d4f00adefbe7f0e2b8e532ef79ca2f151",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025111508040311",
+      "sha256": "b7129a3d52e1b0abe1d4ec8c7a7469d8f002d30fd9f5cc0c6e4ee33247950a52",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025111608040411",
+      "sha256": "52ceca1c4a6faeec72629a862387e0f3a31848884c1e5a04efb81d2ef0cdc128",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025112203030511",
+      "sha256": "a0e129edfcd107465fd456b3737097650ec51655e3d53eb83217f91e81f67ded",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025112308040611",
+      "sha256": "2cefc001fc018479626a7b6447ae37257ebbf6910ebfd6befd3f5488a8efd563",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025112405050611",
+      "sha256": "4ae6b57e570a26703516f50e74dc21dcbb2135008cf9d7f2561172fc51d20bae",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025112908040711",
+      "sha256": "2de31e12a9098b1633fd19d5b79332ae9c8d9af3b226cc5ba1863d8bfb162088",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025120606050111",
+      "sha256": "8fffdc1067d084363d0c5bac884522667c4816b26166d4b10805feac6525dcbd",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025120609050111",
+      "sha256": "f95e24cfbfa1826a525b3bcfaad568321b7c5745e2685e3cbbe67941d33dc9fc",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025120707050211",
+      "sha256": "81cd9c801be6a91265b34bfef0a7db4ce0d439168cd612bee3b8897e8323b9a9",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025121406050411",
+      "sha256": "d16dd8b278b95dc358146779063a2f963ff652ce7b84763b7915a8080f2da645",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025121409050411",
+      "sha256": "f5e24dcb306fd63076ff74962fdb1573510acec6198afda44c6e921a806866b3",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025122006050511",
+      "sha256": "882d640a677df3ad878712053fe2b413b2389c1ff4e370542e701d7294a05fb7",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025122109050611",
+      "sha256": "6d7f397f38e9f18eeb20980256167a533bbaaf1c7abedcdf0afbf2dfb856416e",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025122706050711",
+      "sha256": "38649477ffc30ec0821b7c937760c73a47852f262d382c84e46511b10f0559d6",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025122709050711",
+      "sha256": "f52bd5732466acd3969abb456009a17b22bffecd88e0368e0459a960c334d78c",
+      "failures": []
+    },
+    {
+      "year": 2025,
+      "race_code": "2025122806050811",
+      "sha256": "1ca5c5ffb5b44ce14ef6cfc2cbdfa2b23b589e1c94487c01d5a0bd9a996f1d37",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026010406010111",
+      "sha256": "69d22988639ea94cb703192a2fb636c91619281264b675be858ac07e450f61e0",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026010408010111",
+      "sha256": "f0265f0ffe83f1edfde3978e332b934ee75a8ed0621b30fe80da478f7b9befb9",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026011106010411",
+      "sha256": "104ad3ac0f224b9f5f8842fc5e237fefdfe4ad626a5452534602e41fa86e8b71",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026011208010511",
+      "sha256": "84f93ccefdc2161ff2afdc639dbd9e62b2a34bc2ebbf47bf4a55c0c3fd5ed37c",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026011806010711",
+      "sha256": "96fb6cd1ffaa0d49d395150753bf26cddbff44b08eb2ea851e391d77915f71c8",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026011808010711",
+      "sha256": "67bb4c170aa6d0ad2a041d9a7c224d935b627dc159399fcbfcca8f3cd4b325dc",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026012410010111",
+      "sha256": "9b585477466026be5a7cd2e2210e6ec766bb09732981a0e797e1dbb14ceaf9c2",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026012506010911",
+      "sha256": "b0975596841dd8bd98b7c2e14f0c8d8bc139c9bb3cb52f95d2c8bd4e50a9ef23",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026012508010911",
+      "sha256": "a4a79c8a7457a4e21c8922a0530f9b667d20697436c066ab948286e990ff6de3",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026020105010211",
+      "sha256": "788ed8c15fabbf0a0a14e2c1ee63ddc146de3487695c35b0b75998c23aa497a7",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026020108020211",
+      "sha256": "47cbc2507c137f2e21aee68515ff2f0fb76bdd26f8309d7d428456a70b3b6b26",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026021005010411",
+      "sha256": "4c48ee35d3b8e0eae9453ba9b5bc5adc11d3099c682770eba42091c5fb5b5c52",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026021008020411",
+      "sha256": "73d0ba427b51c3e2dae5b1f2f3949e9792b2f7864c845c1a869d9c9ae91f503e",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026021405010511",
+      "sha256": "67947a0012fe075c76319648994510ef25749755034f75c5895af4a7cc8d7092",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026021505010611",
+      "sha256": "70f74d62b2f6e2346b20f198a5297c20ef16d34744939fdc85f2f297dd6b1b1b",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026021508020611",
+      "sha256": "16b2e7b72ca83412213367fa01701f52d57a7c186ce0554caa0fb67146598d76",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026022105010711",
+      "sha256": "2cb89eb7a109ec017fe1d985f9a6d0be5990f7e7b63397e0956095053221753f",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026022109010111",
+      "sha256": "3dc1f726998f13c966422d457731aa31757ef5fd3547000ca53518075866dcca",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026022205010811",
+      "sha256": "54999e41fad46a1e650c7c07663cc5241638c2ea45bdfebdbe1ee79b53dada3e",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026022210011011",
+      "sha256": "19971549a664a51ef2c0bb07464790448ca5fdc3e18f6a3d9caf8811c8be46a1",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026022806020111",
+      "sha256": "d066a737f06dcfc3a0a1578d89b40be46bac7145100cfc53bd5ce1ea599e9ce4",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026030106020211",
+      "sha256": "defb78902c206ce21b9454163af40ea04c1e1ab563d010cf6ae8b284337ddfde",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026030109010411",
+      "sha256": "505dc106418f317247a68a41363dbd02dd612f0545d5e393a586af67149f0cfe",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026030706020311",
+      "sha256": "44856c537352467fabe0058b8069b1d9ff69e859745d92cd0f24295c5837369d",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026030709010511",
+      "sha256": "269d537d36593c6ba9fc5e259566ebdd9ea85aa51354353e119972c532dff86d",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026030806020411",
+      "sha256": "314814f86e5d89210f8924d18f982e41e737b1cc6ee212d6c0e1f3cb33421409",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026031506020611",
+      "sha256": "282799d43c69823bc1e567f0355b5d3b92bc121005fdda528b4eaa26f2e5f3f0",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026031507010211",
+      "sha256": "2e56469aa1097b203d66e677e74fbf5fc639910781b486d8de99f00c346ea821",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026032106020711",
+      "sha256": "3ad798ea4bbb96af8b03d08c4b388c1452ddeb641da1cd7905b257702da3cd21",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026032107010311",
+      "sha256": "e49f1e326a1b31ed174930b2c3ee2810ee2ac749b096ba3798b6d1b034e5b88d",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026032207010411",
+      "sha256": "864fb841e07c2866c8d2b65c1798756a1b336ace47669e925ac76c1252b43843",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026032209011011",
+      "sha256": "2a24807c900aa0951032c730b9e0e5394feb7d1ca80a8c0186ad4e33e2cd2e01",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026032806030111",
+      "sha256": "cf408a8c4d5173a7b7e3e86626c32de6125d27ce0552df59ae2f92fe5b0c1b11",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026032809020111",
+      "sha256": "66145a2abb25c07c64c5dc96f108f639cd25e0b1139ea699292ee575101233a3",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026032906030211",
+      "sha256": "2221639998a5ed0bfcb90ef0d73070aa81d5e4514c5d0503653717155bd68215",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026032907010611",
+      "sha256": "fdf41310ec9c6637e8a999840f659c5949eb4b3a9ea39cb751a42bcd163ea0f4",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026040406030311",
+      "sha256": "f6f14e44ecaacaf0be034808bd06dbc8b876ce10d3e6ae6eacf6208188d1530e",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026040409020311",
+      "sha256": "dbe7f0de736f7d75beed40fef2f72c122ef73e25e1a39e35e96217ee2bc18c23",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026040509020411",
+      "sha256": "d819f91ffcd6cd2cf9219e11294fccb1be01141f0dbda2dedcc2a2567553ee6f",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026041106030511",
+      "sha256": "35f8fb549d95878ce83171858dac930c137f7dd983e7cfe6c9083461612fe20f",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026041109020511",
+      "sha256": "15455271179990bdf7fa6881f69a6fcf613d58a1b638835b33af49928303c0ca",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026041209020611",
+      "sha256": "2ba06243a08129c4f5041ff3374f5317a64d4e145b7c7cccf79fe43b171c80f9",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026041809020711",
+      "sha256": "20fba6678daca83b6c039a2532ca24dda76dd9840c38a2ba0054184fa6146b45",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026041903010411",
+      "sha256": "08db000001e420c37cb8e223b26908a9cfa155b8e6a034d6fa1b0b0632b39d92",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026041906030811",
+      "sha256": "99d5823c3a8556ce7f4e3e1ec3fe978927458dcaf77387656bd97310a554e6ff",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026042505020111",
+      "sha256": "efa33e85122d4baab1a3ea29506d6f8ce41f82dec11642dcb45ead435739594b",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026042605020211",
+      "sha256": "58854b3cdee4f0137864c27b4ebf8e4da15e7fbc07c661ed48399dfdb675f56e",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026042608030211",
+      "sha256": "ab4e34d32cc088d88b9cb5ab4d730a97808950b453a8a53620b8d16b35cdb5ed",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026050205020311",
+      "sha256": "ea07a0f576176f77f3fa9667da4d0c14b1fc6a683538b839addb768f2ed27a0a",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026050208030311",
+      "sha256": "f847688e63b2391c36539f8231746a5ce2c45cc0dd84c6db74dd0147038a1b25",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026050308030411",
+      "sha256": "4e030d81f84cd8023fb4156d05fa67502dbd6a5997dd02572149e991ed30cf17",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026050905020511",
+      "sha256": "357988fe57e9ed6ffcab99c6a6324821932ae9324dd49fe8c1baa3e6c41e9ef8",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026050908030511",
+      "sha256": "618f3b8975d630bffdfb1484442643af9b68f5b5fcf33fdf8eb4474fddf62f20",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026051005020611",
+      "sha256": "cd727d0a44d60c08f5636ac9be5aca5fa731781e00832efe8538eff6b2880395",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026051604010511",
+      "sha256": "63b231e4bf769817fc7c6a9c19d4a2eaee54dedf2489cc36f3e1302d438386a5",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026051705020811",
+      "sha256": "abb7af0050e2ad6be3ac44e9404d5d120afe976186ffce9eb86ac7ed497d09d3",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026052308030911",
+      "sha256": "7402595d7bf03fed683da89c96c06902dcd382bbc70a4a671ba8a7b568476eec",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026052405021011",
+      "sha256": "3557ab0d67fba2302253dfb21f3760138eb5c0338e96bdbb57f261b20019ed12",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026053008031111",
+      "sha256": "af2b4d08a9098fa48e0043ddc0f74ce9717a2d76d6390b967dbd51b40ba78dac",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026053105021211",
+      "sha256": "5392c4435e3c5f239b53b34d97022bcccac2e3bd5330fe688e51479503445d91",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026053105021212",
+      "sha256": "b96fe5dd0dc46f2f9613bcb3003c289d0c14d75dbb30f63786dba4f8b7549dc2",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026060705030211",
+      "sha256": "2067713611e9a5135836e349f19e233195cc3138968fcca4276cef49663fa2ae",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026061302010111",
+      "sha256": "7b1c91a2c7e52aa0a21b6fdd37b319a8e22647c5bf03e3656eb2794293e8add5",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026061409030411",
+      "sha256": "5e60c8bc55f557f90df30fb68bbd1740902ca5dcfcf4de287f4b17de87b7db27",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026062105030611",
+      "sha256": "e8f7add9099f667d37a2a6161d20226e08d052f6f47c10d04ecc2ec982848e94",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026062109030611",
+      "sha256": "ece4dadb4fcffc03cf4111c712865571985eb63bf2f9c94c68cc6d893a172090",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026062802010611",
+      "sha256": "3f479c802455cea8c7d08da20d3124253805c0262303795c4ea403833eeb15b5",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026062803020211",
+      "sha256": "13151adcbc95fdf21d19488dece369465ae649fffdecf36c6ebcebfc6d040537",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026070510020411",
+      "sha256": "b8c6f6de50cbd9e62dcabec51a2a6ac8553bc3f85884759bfc94f4aa9bf223b0",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026071203020611",
+      "sha256": "56f22b1a5d01ea9fd7ec51f214dab21d216414dd8fb9ac68c643db1bb30e3e98",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026071902011211",
+      "sha256": "59824e7bb8dfd7f5a11f4b03edd07c47448addb1fcd5f49f7c67903ae3869cd5",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026071910020811",
+      "sha256": "f438c7ed35dbb8605faed60c172545c30ef2730d4f4d067a61c3bdd8623e9724",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026072604020207",
+      "sha256": "e81f2461200a3819b016a742b7dafb7c6c5d445b76bc3dcfe83c785efaf6ce75",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026072607020207",
+      "sha256": "2ca4740b98a10f63841868ebe3de9c60c3857409de987eeda9c3280950df5eb1",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026080201010411",
+      "sha256": "d23337ab93106a4adb7ebd1565ffd119e1a64a8a3b66c293f2bcc4d28515b104",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026080204020407",
+      "sha256": "2a2f383a6563f40f9ece8ce1f8db8ef43438ceb617d04db1e65fe2bd05cc8578",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026080801010511",
+      "sha256": "1d34602459e12394536fbd2a6c1679e3d00062e0196477eb939f3ee8cef1a7b2",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026080904020607",
+      "sha256": "70f20a04965e6fcb812cf788f6840a726d1273c6116c0d8f7c8f16ae5aa4ebde",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026080907020607",
+      "sha256": "230082b40ce442830a1599a83f68c007a2f5e74921b197af902a4e452d7b1bcb",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026081601010811",
+      "sha256": "53ce2d918506e900d521b89e854f2d4a1a8c688cb17023be43fb8f8809c29391",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026081607020807",
+      "sha256": "a590db9810f97dc1de960efe56c9aa11ad5b517f24d4724eb014aa91822a25b6",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026082301020211",
+      "sha256": "3e683d83abc980260a76e13604d23cca56fac011c480c0433931327c76a46057",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026082304030207",
+      "sha256": "f777be1d86c8bb4331ef3b00d13e74d4225f7b0ca21c35e49702fffaf711a704",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026083004030408",
+      "sha256": "dcd728277bbf5f52915cb22a42f9d67c62e17ed71cbaca3e7ce4bca51ea0fbd7",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026083007030407",
+      "sha256": "421164c96af7c4ac59459b7a9ab820b61c74f4291b611189f778dde94855b821",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026090501020511",
+      "sha256": "47e3874ebb6c3c42fe6d41c3839282967c9c805e506e38615e5bd0e8e499f68b",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026090506040111",
+      "sha256": "891fddc3a272909d00498c35c1355fd3374591ea82b7b5d74bfb605d8e6b1939",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026090606040211",
+      "sha256": "8c1b7a1a01c0e08684454463852ff7eb4899ed0c8bf424e58d61fdff277c98fb",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026090609040211",
+      "sha256": "54319d2246f3c2369e1fcabffdc37121c9419665c6479023f950f14675f6c812",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026091209040311",
+      "sha256": "6d1de8d9f33765ca6adeaa481e3f03af40959dc7f16fad9b160c7b3b14c2b4c5",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026091306040411",
+      "sha256": "f38333264c37ca11d964f7ccb337f7b40094401a93c89b2f3ace8bdd32700504",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026091309040411",
+      "sha256": "f5883d286616fa91afa5028d8e68335b1d053f5c309c7df0e913e687186aa0a7",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026092006040611",
+      "sha256": "bc6b7a800979960ad85296d535fd54b3d376f22ab6c04b2b1bf45e8c8fc83b5f",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026092109040711",
+      "sha256": "6e182fe6e93f181cf7fdc39a36b198385f79960b029bf19a7b3af44c472706ed",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026092609040811",
+      "sha256": "3d7b5878cac52f257190e5c09f909a381257a2a11d0eb0aaa0974969e4c95792",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026092706040911",
+      "sha256": "a4408f4f30bc211c4620c540c32f5203c831021b7d21e3d74179e9ca0be1fd94",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026100405040211",
+      "sha256": "f8521a865940d96befa9da26ad5d7b557d6692becc14f78c8d4a24e4969b504f",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026100408040211",
+      "sha256": "7784cd6414fbaf0a755dbba8c82690a31970fa961c12b37b9d3d63dc4528aa14",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026101005040311",
+      "sha256": "e4f74b48706425c8aa8ab36a8acffe3c3a7227f1f2f2e068ff21abf6c6618aa6",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026101105040411",
+      "sha256": "8db0a686ce75c03641ed1ce2de16d29df855219a942ceea3d49f489f3cef32d9",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026101208040511",
+      "sha256": "8620e078c738ff8a19aac237ce8845caa4f1ed966835f7c585020aef3cd60d2b",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026101705040611",
+      "sha256": "a9c5c39b0e918efeee451d4cda222a019ab78bd9dd2a948b6420e08c66457017",
+      "failures": []
+    },
+    {
+      "year": 2026,
+      "race_code": "2026101808040711",
+      "sha256": "28c5a15b0fa1db0b733856b30149cfdee0fa40ae5f03842fa2d68f44f0c219d5",
+      "failures": []
+    }
+  ],
+  "failures": [],
+  "expected_new_allocations": 666,
+  "original_allocations_hash_verified": 222,
+  "outcomes_used_in_allocation": false
+}
