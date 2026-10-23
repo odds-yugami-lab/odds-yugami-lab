@@ -1,0 +1,388 @@
+{
+  "test_only": true,
+  "selected_strength": 1.0,
+  "selected_key": "100",
+  "selection_rule": "highest2025 actual-stake ROI; exact tie higher strength",
+  "selection_uses2026_results": false,
+  "portfolio": {
+    "000": {
+      "races": 117,
+      "stake_yen": 1098300,
+      "payout_yen": 861680,
+      "profit_yen": -236620,
+      "budget_limit_total_yen": 1170000,
+      "unspent_yen": 71700,
+      "recovery_percent": 78.45579532004007,
+      "hit_races": 73,
+      "hit_rate": 0.6239316239316239,
+      "ticket_count_min": 29,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.99145299145299,
+      "races_with_25_to_30_tickets": 117,
+      "model_mean_hit_probability": 0.6157475242438519,
+      "zero_gap_solutions": 95
+    },
+    "025": {
+      "races": 117,
+      "stake_yen": 1141200,
+      "payout_yen": 930810,
+      "profit_yen": -210390,
+      "budget_limit_total_yen": 1170000,
+      "unspent_yen": 28800,
+      "recovery_percent": 81.56414300736067,
+      "hit_races": 78,
+      "hit_rate": 0.6666666666666666,
+      "ticket_count_min": 29,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.99145299145299,
+      "races_with_25_to_30_tickets": 117,
+      "model_mean_hit_probability": 0.6319358031218286,
+      "zero_gap_solutions": 78
+    },
+    "050": {
+      "races": 117,
+      "stake_yen": 1155900,
+      "payout_yen": 970480,
+      "profit_yen": -185420,
+      "budget_limit_total_yen": 1170000,
+      "unspent_yen": 14100,
+      "recovery_percent": 83.95881996712518,
+      "hit_races": 81,
+      "hit_rate": 0.6923076923076923,
+      "ticket_count_min": 26,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.897435897435898,
+      "races_with_25_to_30_tickets": 117,
+      "model_mean_hit_probability": 0.6499913688043991,
+      "zero_gap_solutions": 67
+    },
+    "075": {
+      "races": 117,
+      "stake_yen": 1162500,
+      "payout_yen": 992950,
+      "profit_yen": -169550,
+      "budget_limit_total_yen": 1170000,
+      "unspent_yen": 7500,
+      "recovery_percent": 85.41505376344087,
+      "hit_races": 82,
+      "hit_rate": 0.7008547008547008,
+      "ticket_count_min": 23,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.82051282051282,
+      "races_with_25_to_30_tickets": 116,
+      "model_mean_hit_probability": 0.6657745965767338,
+      "zero_gap_solutions": 74
+    },
+    "100": {
+      "races": 117,
+      "stake_yen": 1164900,
+      "payout_yen": 1001780,
+      "profit_yen": -163120,
+      "budget_limit_total_yen": 1170000,
+      "unspent_yen": 5100,
+      "recovery_percent": 85.99708129453172,
+      "hit_races": 86,
+      "hit_rate": 0.7350427350427351,
+      "ticket_count_min": 18,
+      "ticket_count_max": 30,
+      "ticket_count_mean": 29.307692307692307,
+      "races_with_25_to_30_tickets": 113,
+      "model_mean_hit_probability": 0.6848701855239151,
+      "zero_gap_solutions": 67
+    }
+  },
+  "horse_metrics": {
+    "000": {
+      "win": {
+        "brier": 0.059961783626372805,
+        "logloss": 0.225920541878319
+      },
+      "top3": {
+        "brier": 0.14591902806633084,
+        "logloss": 0.4571184317947626
+      },
+      "popularity_groups": {
+        "1-1": {
+          "horses": 117,
+          "win": {
+            "predicted": 0.1420354892254572,
+            "observed": 0.21367521367521367
+          },
+          "top3": {
+            "predicted": 0.3896358189482801,
+            "observed": 0.5982905982905983
+          }
+        },
+        "2-3": {
+          "horses": 234,
+          "win": {
+            "predicted": 0.10349256949585665,
+            "observed": 0.1794871794871795
+          },
+          "top3": {
+            "predicted": 0.30170987705491326,
+            "observed": 0.41025641025641024
+          }
+        },
+        "4-6": {
+          "horses": 351,
+          "win": {
+            "predicted": 0.08307677912889255,
+            "observed": 0.07977207977207977
+          },
+          "top3": {
+            "predicted": 0.24961534310243694,
+            "observed": 0.24786324786324787
+          }
+        },
+        "7-18": {
+          "horses": 1021,
+          "win": {
+            "predicted": 0.04603784233530829,
+            "observed": 0.021547502448579822
+          },
+          "top3": {
+            "predicted": 0.1441699437054321,
+            "observed": 0.09598432908912831
+          }
+        }
+      }
+    },
+    "025": {
+      "win": {
+        "brier": 0.059039966542271526,
+        "logloss": 0.21949978210559076
+      },
+      "top3": {
+        "brier": 0.14055819439399247,
+        "logloss": 0.4412934588815911
+      },
+      "popularity_groups": {
+        "1-1": {
+          "horses": 117,
+          "win": {
+            "predicted": 0.16494194586390132,
+            "observed": 0.21367521367521367
+          },
+          "top3": {
+            "predicted": 0.4427039840790865,
+            "observed": 0.5982905982905983
+          }
+        },
+        "2-3": {
+          "horses": 234,
+          "win": {
+            "predicted": 0.11475562280476724,
+            "observed": 0.1794871794871795
+          },
+          "top3": {
+            "predicted": 0.33334350650107436,
+            "observed": 0.41025641025641024
+          }
+        },
+        "4-6": {
+          "horses": 351,
+          "win": {
+            "predicted": 0.08468519733268776,
+            "observed": 0.07977207977207977
+          },
+          "top3": {
+            "predicted": 0.2572120755778704,
+            "observed": 0.24786324786324787
+          }
+        },
+        "7-18": {
+          "horses": 1021,
+          "win": {
+            "predicted": 0.04027862128681156,
+            "observed": 0.021547502448579822
+          },
+          "top3": {
+            "predicted": 0.1282270468302282,
+            "observed": 0.09598432908912831
+          }
+        }
+      }
+    },
+    "050": {
+      "win": {
+        "brier": 0.05837882414358442,
+        "logloss": 0.21471968711503894
+      },
+      "top3": {
+        "brier": 0.13681502014182242,
+        "logloss": 0.4302386232791969
+      },
+      "popularity_groups": {
+        "1-1": {
+          "horses": 117,
+          "win": {
+            "predicted": 0.18871895327082555,
+            "observed": 0.21367521367521367
+          },
+          "top3": {
+            "predicted": 0.49513174146101974,
+            "observed": 0.5982905982905983
+          }
+        },
+        "2-3": {
+          "horses": 234,
+          "win": {
+            "predicted": 0.12517951038952774,
+            "observed": 0.1794871794871795
+          },
+          "top3": {
+            "predicted": 0.36381545073486143,
+            "observed": 0.41025641025641024
+          }
+        },
+        "4-6": {
+          "horses": 351,
+          "win": {
+            "predicted": 0.08512072854939007,
+            "observed": 0.07977207977207977
+          },
+          "top3": {
+            "predicted": 0.26235609270397847,
+            "observed": 0.24786324786324787
+          }
+        },
+        "7-18": {
+          "horses": 1021,
+          "win": {
+            "predicted": 0.035015182483181195,
+            "observed": 0.021547502448579822
+          },
+          "top3": {
+            "predicted": 0.1134669757473131,
+            "observed": 0.09598432908912831
+          }
+        }
+      }
+    },
+    "075": {
+      "win": {
+        "brier": 0.05797730694902577,
+        "logloss": 0.21146744110042634
+      },
+      "top3": {
+        "brier": 0.13456676304760826,
+        "logloss": 0.4236013176338033
+      },
+      "popularity_groups": {
+        "1-1": {
+          "horses": 117,
+          "win": {
+            "predicted": 0.21289246212021276,
+            "observed": 0.21367521367521367
+          },
+          "top3": {
+            "predicted": 0.5452078905608574,
+            "observed": 0.5982905982905983
+          }
+        },
+        "2-3": {
+          "horses": 234,
+          "win": {
+            "predicted": 0.13450032171791024,
+            "observed": 0.1794871794871795
+          },
+          "top3": {
+            "predicted": 0.39264616080056153,
+            "observed": 0.41025641025641024
+          }
+        },
+        "4-6": {
+          "horses": 351,
+          "win": {
+            "predicted": 0.08452101824520243,
+            "observed": 0.07977207977207977
+          },
+          "top3": {
+            "predicted": 0.26522413875415635,
+            "observed": 0.24786324786324787
+          }
+        },
+        "7-18": {
+          "horses": 1021,
+          "win": {
+            "predicted": 0.030315013952867828,
+            "observed": 0.021547502448579822
+          },
+          "top3": {
+            "predicted": 0.10013496814332949,
+            "observed": 0.09598432908912831
+          }
+        }
+      }
+    },
+    "100": {
+      "win": {
+        "brier": 0.05782938559599524,
+        "logloss": 0.20962593870075105
+      },
+      "top3": {
+        "brier": 0.13363564418249926,
+        "logloss": 0.42100350075506926
+      },
+      "popularity_groups": {
+        "1-1": {
+          "horses": 117,
+          "win": {
+            "predicted": 0.23698891931685986,
+            "observed": 0.21367521367521367
+          },
+          "top3": {
+            "predicted": 0.5914218601721488,
+            "observed": 0.5982905982905983
+          }
+        },
+        "2-3": {
+          "horses": 234,
+          "win": {
+            "predicted": 0.14257140130567234,
+            "observed": 0.1794871794871795
+          },
+          "top3": {
+            "predicted": 0.41957585314918594,
+            "observed": 0.41025641025641024
+          }
+        },
+        "4-6": {
+          "horses": 351,
+          "win": {
+            "predicted": 0.08308367167941444,
+            "observed": 0.07977207977207977
+          },
+          "top3": {
+            "predicted": 0.26616235423988294,
+            "observed": 0.24786324786324787
+          }
+        },
+        "7-18": {
+          "horses": 1021,
+          "win": {
+            "predicted": 0.026198060504334576,
+            "observed": 0.021547502448579822
+          },
+          "top3": {
+            "predicted": 0.0883446683494125,
+            "observed": 0.09598432908912831
+          }
+        }
+      }
+    }
+  },
+  "exclusions": [
+    {
+      "race_code": "2025060105021211",
+      "reason": "Same pre-existing unresolved official result"
+    },
+    {
+      "race_code": "2025122706050711",
+      "reason": "Same pre-existing unresolved official result"
+    }
+  ],
+  "2025_previously_inspected": true,
+  "not_new_independent_training_or_selection_dataset": true
+}
