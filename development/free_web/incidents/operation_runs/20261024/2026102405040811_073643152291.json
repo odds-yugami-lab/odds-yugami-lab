@@ -1,0 +1,10 @@
+{
+  "completed": false,
+  "error": "Publication receipt missing; do not recreate a pre-race record after the race",
+  "error_type": "ValueError",
+  "failed_at": "2026-10-24T07:36:43.152267+00:00",
+  "race_code": "2026102405040811",
+  "stage": "settle",
+  "status": "failed",
+  "x_draft": null
+}
