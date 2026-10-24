@@ -1,0 +1,10 @@
+{
+  "completed": false,
+  "error": "HTTP Error 403: Forbidden",
+  "error_type": "HTTPError",
+  "failed_at": "2026-10-24T06:20:58.035953+00:00",
+  "race_code": "2026102405040811",
+  "stage": "live_sources_features_inference_allocation",
+  "status": "failed",
+  "x_draft": null
+}
