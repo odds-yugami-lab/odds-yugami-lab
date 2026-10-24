@@ -1,0 +1,43 @@
+{
+  "test_only": true,
+  "methods": {
+    "ai_only": "Existing pretrained incumbent52 WIN/TOP3, existing Platt calibration, sqrt strength, parameters[1,0]",
+    "market_only": "Normalized inverse WIN odds, no AI features or fitted market coefficients, sequential PL",
+    "ai_market50": "Previously fixed50% interpolation between original AI strength and fitted AI+market correction"
+  },
+  "all_methods_use_pair_triple_odds_for_value_and_stakes": true,
+  "allocation_rule": "EV>=1-1e-10, .5*net_expected_profit/scale+.5*probability_any_hit",
+  "scale": "max(probability*decimal_odds)*10000 using all combinations; same formula, method-specific numeric values",
+  "budget_ceiling_yen": 10000,
+  "max_tickets": 30,
+  "min_tickets": 1,
+  "minimum_stake_only": true,
+  "single_ticket_payout_floor_yen": 10000,
+  "unspent_cash_retained": true,
+  "time_limit_seconds": 30,
+  "mip_relative_gap": 0.01,
+  "input_races": {
+    "2025": 119,
+    "2026": 103
+  },
+  "expected_official_common_races": {
+    "2025": 117,
+    "2026": 103
+  },
+  "expected_new_allocations": 444,
+  "existing_mixed_allocations_hash_verified": 222,
+  "no_outcome_labels_passed_to_prediction_or_allocation": true,
+  "seal_before_settlement": true,
+  "zero_eligible_or_solver_failure": "explicit error, no fallback or hidden exclusion; report all failures",
+  "no_hyperparameter_or_threshold_search": true,
+  "no_live_or_task_changes": true,
+  "periods_previously_inspected_not_new_holdout": true,
+  "unit_source_isolation_test_passed": true,
+  "source_hashes": {
+    "replay.py": "44e7b4cd30d0ae5a5dfbcfb7896f8b4f5ab279c75cb6721229d85731831ac14a",
+    "test_sources.py": "4c28af4e7721acaa9678277d5788df7f188f2433563201b176a755c0515c2713"
+  },
+  "allocator_sha256": "375e3b3c78352f634d7f74089bebda9497d85622d8aa9a0bc0fdff2ea070ed62",
+  "prior_manifest_sha256": "94b93231256cf08650c675775e80fbe89aca13e99a8e240483569ed3c3193f25"
+}
+
