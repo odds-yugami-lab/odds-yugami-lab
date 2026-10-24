@@ -1,0 +1,442 @@
+{
+  "test_only": true,
+  "annual": {
+    "2025": {
+      "ai_only": {
+        "races": 117,
+        "stake_yen": 473200,
+        "payout_yen": 394600,
+        "profit_yen": -78600,
+        "recovery_percent": 83.38968723584108,
+        "unspent_yen": 696800,
+        "hit_races": 26,
+        "hit_rate": 0.2222222222222222,
+        "mean_ticket_count": 30.0,
+        "min_ticket_count": 30,
+        "max_ticket_count": 30,
+        "mean_stake_yen": 4044.4444444444443,
+        "bad_tickets": 0,
+        "bad_stake_yen": 0,
+        "predicted_hit_probability_mean": 0.42776069730982913,
+        "expected_profit_yen": 1669389.4268977717
+      },
+      "market_only": {
+        "races": 117,
+        "stake_yen": 653000,
+        "payout_yen": 466420,
+        "profit_yen": -186580,
+        "recovery_percent": 71.42725880551302,
+        "unspent_yen": 517000,
+        "hit_races": 31,
+        "hit_rate": 0.26495726495726496,
+        "mean_ticket_count": 23.435897435897434,
+        "min_ticket_count": 1,
+        "max_ticket_count": 30,
+        "mean_stake_yen": 5581.196581196581,
+        "bad_tickets": 0,
+        "bad_stake_yen": 0,
+        "predicted_hit_probability_mean": 0.3984870711787714,
+        "expected_profit_yen": 144363.6304112103
+      },
+      "ai_market50": {
+        "races": 117,
+        "stake_yen": 501400,
+        "payout_yen": 718170,
+        "profit_yen": 216770,
+        "recovery_percent": 143.23294774631034,
+        "unspent_yen": 668600,
+        "hit_races": 29,
+        "hit_rate": 0.24786324786324787,
+        "mean_ticket_count": 30.0,
+        "min_ticket_count": 30,
+        "max_ticket_count": 30,
+        "mean_stake_yen": 4285.470085470086,
+        "bad_tickets": 0,
+        "bad_stake_yen": 0,
+        "predicted_hit_probability_mean": 0.34014620254725864,
+        "expected_profit_yen": 574913.8933310283
+      }
+    },
+    "2026": {
+      "ai_only": {
+        "races": 103,
+        "stake_yen": 415200,
+        "payout_yen": 373090,
+        "profit_yen": -42110,
+        "recovery_percent": 89.85789980732177,
+        "unspent_yen": 614800,
+        "hit_races": 14,
+        "hit_rate": 0.13592233009708737,
+        "mean_ticket_count": 30.0,
+        "min_ticket_count": 30,
+        "max_ticket_count": 30,
+        "mean_stake_yen": 4031.0679611650485,
+        "bad_tickets": 0,
+        "bad_stake_yen": 0,
+        "predicted_hit_probability_mean": 0.42778262470355466,
+        "expected_profit_yen": 1326111.9615967164
+      },
+      "market_only": {
+        "races": 103,
+        "stake_yen": 572000,
+        "payout_yen": 431560,
+        "profit_yen": -140440,
+        "recovery_percent": 75.44755244755245,
+        "unspent_yen": 458000,
+        "hit_races": 29,
+        "hit_rate": 0.2815533980582524,
+        "mean_ticket_count": 24.533980582524272,
+        "min_ticket_count": 2,
+        "max_ticket_count": 30,
+        "mean_stake_yen": 5553.398058252427,
+        "bad_tickets": 0,
+        "bad_stake_yen": 0,
+        "predicted_hit_probability_mean": 0.3869176078100557,
+        "expected_profit_yen": 123935.89540510699
+      },
+      "ai_market50": {
+        "races": 103,
+        "stake_yen": 422000,
+        "payout_yen": 492680,
+        "profit_yen": 70680,
+        "recovery_percent": 116.74881516587678,
+        "unspent_yen": 608000,
+        "hit_races": 23,
+        "hit_rate": 0.22330097087378642,
+        "mean_ticket_count": 29.95145631067961,
+        "min_ticket_count": 25,
+        "max_ticket_count": 30,
+        "mean_stake_yen": 4097.0873786407765,
+        "bad_tickets": 0,
+        "bad_stake_yen": 0,
+        "predicted_hit_probability_mean": 0.32189870425841915,
+        "expected_profit_yen": 447972.2624829204
+      }
+    }
+  },
+  "horse_probability_metrics": {
+    "2025": {
+      "ai_only": {
+        "win": {
+          "brier": 0.059961783626372805,
+          "logloss": 0.225920541878319
+        },
+        "top3": {
+          "brier": 0.14591902806633084,
+          "logloss": 0.4571184317947626
+        }
+      },
+      "market_only": {
+        "win": {
+          "brier": 0.058092445164920375,
+          "logloss": 0.209280078658947
+        },
+        "top3": {
+          "brier": 0.1344731442117821,
+          "logloss": 0.4249896152272634
+        }
+      },
+      "ai_market50": {
+        "win": {
+          "brier": 0.05837882414358442,
+          "logloss": 0.21471968711503894
+        },
+        "top3": {
+          "brier": 0.13681502014182242,
+          "logloss": 0.4302386232791969
+        }
+      }
+    },
+    "2026": {
+      "ai_only": {
+        "win": {
+          "brier": 0.059763729669993014,
+          "logloss": 0.22657655868205853
+        },
+        "top3": {
+          "brier": 0.1449028138465838,
+          "logloss": 0.45517874089924487
+        }
+      },
+      "market_only": {
+        "win": {
+          "brier": 0.05532607769036099,
+          "logloss": 0.20512024879864438
+        },
+        "top3": {
+          "brier": 0.1310562973052082,
+          "logloss": 0.4135407757286695
+        }
+      },
+      "ai_market50": {
+        "win": {
+          "brier": 0.05735585721977209,
+          "logloss": 0.2131799503956706
+        },
+        "top3": {
+          "brier": 0.13395521899866766,
+          "logloss": 0.4232437476163931
+        }
+      }
+    }
+  },
+  "methods": {
+    "ai_only": "Same pretrained incumbent WIN/TOP3 with existing Platt calibrators, sqrt strength, no market correction",
+    "market_only": "Normalize inverse WIN odds, sequential PL top3 without fitted parameters; no AI features",
+    "ai_market50": "Same previous50% frozen strength correction mix"
+  },
+  "allocation": "Same EV>=1 filter, net_E50+H50, cap30, budget ceiling10000, minimum stake only",
+  "new_allocations_expected": 444,
+  "reused_hash_verified_expected": 222,
+  "prediction_failures": [],
+  "allocation_failures": [],
+  "official_exclusions": [
+    {
+      "year": 2025,
+      "race_code": "2025060105021211",
+      "reason": "Same existing unresolved official result"
+    },
+    {
+      "year": 2025,
+      "race_code": "2025122706050711",
+      "reason": "Same existing unresolved official result"
+    }
+  ],
+  "no_production_or_tasks_changed": true,
+  "halves": {
+    "2025": {
+      "H1": {
+        "ai_only": {
+          "races": 62,
+          "stake_yen": 254400,
+          "payout_yen": 195060,
+          "profit_yen": -59340,
+          "recovery_percent": 76.6745283018868,
+          "unspent_yen": 365600,
+          "hit_races": 14,
+          "hit_rate": 0.22580645161290322,
+          "mean_ticket_count": 30.0,
+          "min_ticket_count": 30,
+          "max_ticket_count": 30,
+          "mean_stake_yen": 4103.225806451613,
+          "bad_tickets": 0,
+          "bad_stake_yen": 0,
+          "predicted_hit_probability_mean": 0.4237927011091128,
+          "expected_profit_yen": 902856.9058681458
+        },
+        "market_only": {
+          "races": 62,
+          "stake_yen": 345500,
+          "payout_yen": 214050,
+          "profit_yen": -131450,
+          "recovery_percent": 61.95369030390738,
+          "unspent_yen": 274500,
+          "hit_races": 15,
+          "hit_rate": 0.24193548387096775,
+          "mean_ticket_count": 22.693548387096776,
+          "min_ticket_count": 2,
+          "max_ticket_count": 30,
+          "mean_stake_yen": 5572.580645161291,
+          "bad_tickets": 0,
+          "bad_stake_yen": 0,
+          "predicted_hit_probability_mean": 0.3988189602900382,
+          "expected_profit_yen": 76206.58638126831
+        },
+        "ai_market50": {
+          "races": 62,
+          "stake_yen": 271800,
+          "payout_yen": 470810,
+          "profit_yen": 199010,
+          "recovery_percent": 173.21927888153053,
+          "unspent_yen": 348200,
+          "hit_races": 13,
+          "hit_rate": 0.20967741935483872,
+          "mean_ticket_count": 30.0,
+          "min_ticket_count": 30,
+          "max_ticket_count": 30,
+          "mean_stake_yen": 4383.870967741936,
+          "bad_tickets": 0,
+          "bad_stake_yen": 0,
+          "predicted_hit_probability_mean": 0.34134816528051415,
+          "expected_profit_yen": 303445.77517842146
+        }
+      },
+      "H2": {
+        "ai_only": {
+          "races": 55,
+          "stake_yen": 218800,
+          "payout_yen": 199540,
+          "profit_yen": -19260,
+          "recovery_percent": 91.19744058500915,
+          "unspent_yen": 331200,
+          "hit_races": 12,
+          "hit_rate": 0.21818181818181817,
+          "mean_ticket_count": 30.0,
+          "min_ticket_count": 30,
+          "max_ticket_count": 30,
+          "mean_stake_yen": 3978.181818181818,
+          "bad_tickets": 0,
+          "bad_stake_yen": 0,
+          "predicted_hit_probability_mean": 0.43223371120881837,
+          "expected_profit_yen": 766532.521029626
+        },
+        "market_only": {
+          "races": 55,
+          "stake_yen": 307500,
+          "payout_yen": 252370,
+          "profit_yen": -55130,
+          "recovery_percent": 82.07154471544716,
+          "unspent_yen": 242500,
+          "hit_races": 16,
+          "hit_rate": 0.2909090909090909,
+          "mean_ticket_count": 24.272727272727273,
+          "min_ticket_count": 1,
+          "max_ticket_count": 30,
+          "mean_stake_yen": 5590.909090909091,
+          "bad_tickets": 0,
+          "bad_stake_yen": 0,
+          "predicted_hit_probability_mean": 0.39811294163516164,
+          "expected_profit_yen": 68157.044029942
+        },
+        "ai_market50": {
+          "races": 55,
+          "stake_yen": 229600,
+          "payout_yen": 247360,
+          "profit_yen": 17760,
+          "recovery_percent": 107.73519163763066,
+          "unspent_yen": 320400,
+          "hit_races": 16,
+          "hit_rate": 0.2909090909090909,
+          "mean_ticket_count": 30.0,
+          "min_ticket_count": 30,
+          "max_ticket_count": 30,
+          "mean_stake_yen": 4174.545454545455,
+          "bad_tickets": 0,
+          "bad_stake_yen": 0,
+          "predicted_hit_probability_mean": 0.3387912627388615,
+          "expected_profit_yen": 271468.1181526069
+        }
+      }
+    },
+    "2026": {
+      "H1": {
+        "ai_only": {
+          "races": 68,
+          "stake_yen": 269900,
+          "payout_yen": 273070,
+          "profit_yen": 3170,
+          "recovery_percent": 101.17450907743608,
+          "unspent_yen": 410100,
+          "hit_races": 8,
+          "hit_rate": 0.11764705882352941,
+          "mean_ticket_count": 30.0,
+          "min_ticket_count": 30,
+          "max_ticket_count": 30,
+          "mean_stake_yen": 3969.1176470588234,
+          "bad_tickets": 0,
+          "bad_stake_yen": 0,
+          "predicted_hit_probability_mean": 0.4088410392944032,
+          "expected_profit_yen": 929238.7364665078
+        },
+        "market_only": {
+          "races": 68,
+          "stake_yen": 378700,
+          "payout_yen": 261710,
+          "profit_yen": -116990,
+          "recovery_percent": 69.10747293372063,
+          "unspent_yen": 301300,
+          "hit_races": 17,
+          "hit_rate": 0.25,
+          "mean_ticket_count": 24.808823529411764,
+          "min_ticket_count": 2,
+          "max_ticket_count": 30,
+          "mean_stake_yen": 5569.117647058823,
+          "bad_tickets": 0,
+          "bad_stake_yen": 0,
+          "predicted_hit_probability_mean": 0.3866414847031925,
+          "expected_profit_yen": 81645.8445376414
+        },
+        "ai_market50": {
+          "races": 68,
+          "stake_yen": 272500,
+          "payout_yen": 382300,
+          "profit_yen": 109800,
+          "recovery_percent": 140.29357798165137,
+          "unspent_yen": 407500,
+          "hit_races": 16,
+          "hit_rate": 0.23529411764705882,
+          "mean_ticket_count": 29.926470588235293,
+          "min_ticket_count": 25,
+          "max_ticket_count": 30,
+          "mean_stake_yen": 4007.3529411764707,
+          "bad_tickets": 0,
+          "bad_stake_yen": 0,
+          "predicted_hit_probability_mean": 0.30680806835678415,
+          "expected_profit_yen": 312776.0230545419
+        }
+      },
+      "H2": {
+        "ai_only": {
+          "races": 35,
+          "stake_yen": 145300,
+          "payout_yen": 100020,
+          "profit_yen": -45280,
+          "recovery_percent": 68.83688919476944,
+          "unspent_yen": 204700,
+          "hit_races": 6,
+          "hit_rate": 0.17142857142857143,
+          "mean_ticket_count": 30.0,
+          "min_ticket_count": 30,
+          "max_ticket_count": 30,
+          "mean_stake_yen": 4151.428571428572,
+          "bad_tickets": 0,
+          "bad_stake_yen": 0,
+          "predicted_hit_probability_mean": 0.4645834192127632,
+          "expected_profit_yen": 396873.2251302086
+        },
+        "market_only": {
+          "races": 35,
+          "stake_yen": 193300,
+          "payout_yen": 169850,
+          "profit_yen": -23450,
+          "recovery_percent": 87.86859803414382,
+          "unspent_yen": 156700,
+          "hit_races": 12,
+          "hit_rate": 0.34285714285714286,
+          "mean_ticket_count": 24.0,
+          "min_ticket_count": 7,
+          "max_ticket_count": 30,
+          "mean_stake_yen": 5522.857142857143,
+          "bad_tickets": 0,
+          "bad_stake_yen": 0,
+          "predicted_hit_probability_mean": 0.3874540755605329,
+          "expected_profit_yen": 42290.05086746559
+        },
+        "ai_market50": {
+          "races": 35,
+          "stake_yen": 149500,
+          "payout_yen": 110380,
+          "profit_yen": -39120,
+          "recovery_percent": 73.83277591973244,
+          "unspent_yen": 200500,
+          "hit_races": 7,
+          "hit_rate": 0.2,
+          "mean_ticket_count": 30.0,
+          "min_ticket_count": 30,
+          "max_ticket_count": 30,
+          "mean_stake_yen": 4271.428571428572,
+          "bad_tickets": 0,
+          "bad_stake_yen": 0,
+          "predicted_hit_probability_mean": 0.3512176540101672,
+          "expected_profit_yen": 135196.2394283785
+        }
+      }
+    }
+  },
+  "same_model_source_and_race_cohort": true,
+  "model_specific_probability_scales_same_formula_not_same_numeric_value": true,
+  "final_odds_and_final_starters_used": true,
+  "periods_previously_inspected_not_independent_holdout": true,
+  "feature_point_in_time_not_fully_certified": true,
+  "prediction_seal_commit": "1224d2a971c6a869d0dd79aa1124dfcbed7bdc06"
+}

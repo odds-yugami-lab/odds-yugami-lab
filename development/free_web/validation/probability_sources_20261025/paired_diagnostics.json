@@ -1,0 +1,112 @@
+{
+  "seed": 20261025,
+  "samples": 20000,
+  "annual": {
+    "2025": {
+      "ai_only": {
+        "top2_race_codes": [
+          "2025112908040711",
+          "2025020208010211"
+        ],
+        "top2_payouts_yen": [
+          32490,
+          23090
+        ],
+        "top2_payout_share": 0.14085149518499746,
+        "recovery_after_remove_own_top2_percent": 72.8761822871883,
+        "bootstrap95_ROI_difference_vs_market": [
+          -26.070931079287,
+          51.14773512583737
+        ],
+        "same_years_reused_not_independent_inference": true
+      },
+      "market_only": {
+        "top2_race_codes": [
+          "2025011307010511",
+          "2025072002011211"
+        ],
+        "top2_payouts_yen": [
+          33280,
+          32420
+        ],
+        "top2_payout_share": 0.14086016894644313,
+        "recovery_after_remove_own_top2_percent": 62.74976511118071,
+        "bootstrap95_ROI_difference_vs_market": [
+          0.0,
+          0.0
+        ],
+        "same_years_reused_not_independent_inference": true
+      },
+      "ai_market50": {
+        "top2_race_codes": [
+          "2025062902010611",
+          "2025041909020711"
+        ],
+        "top2_payouts_yen": [
+          170450,
+          138570
+        ],
+        "top2_payout_share": 0.43028809334837154,
+        "recovery_after_remove_own_top2_percent": 83.0761421319797,
+        "bootstrap95_ROI_difference_vs_market": [
+          -6.517955150699521,
+          173.87591654215777
+        ],
+        "same_years_reused_not_independent_inference": true
+      }
+    },
+    "2026": {
+      "ai_only": {
+        "top2_race_codes": [
+          "2026040409020311",
+          "2026020108020211"
+        ],
+        "top2_payouts_yen": [
+          135650,
+          65620
+        ],
+        "top2_payout_share": 0.5394676887614248,
+        "recovery_after_remove_own_top2_percent": 42.081802596130295,
+        "bootstrap95_ROI_difference_vs_market": [
+          -52.97193402520321,
+          104.17672793523872
+        ],
+        "same_years_reused_not_independent_inference": true
+      },
+      "market_only": {
+        "top2_race_codes": [
+          "2026012410010111",
+          "2026022105010711"
+        ],
+        "top2_payouts_yen": [
+          28070,
+          25060
+        ],
+        "top2_payout_share": 0.12311150245620539,
+        "recovery_after_remove_own_top2_percent": 67.75828111011639,
+        "bootstrap95_ROI_difference_vs_market": [
+          0.0,
+          0.0
+        ],
+        "same_years_reused_not_independent_inference": true
+      },
+      "ai_market50": {
+        "top2_race_codes": [
+          "2026040409020311",
+          "2026020108020211"
+        ],
+        "top2_payouts_yen": [
+          135650,
+          65620
+        ],
+        "top2_payout_share": 0.4085207436875863,
+        "recovery_after_remove_own_top2_percent": 70.20236087689713,
+        "bootstrap95_ROI_difference_vs_market": [
+          -27.57582230276754,
+          131.1217923644664
+        ],
+        "same_years_reused_not_independent_inference": true
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "test_only": true,
+  "races": 222,
+  "portfolios_checked": 666,
+  "new_allocations": 444,
+  "prior_mixed_portfolios_hash_verified": 222,
+  "full_source_probability_and_ticket_checks_passed": true,
+  "unit_source_isolation_and_inverse_odds_test_passed": true,
+  "no_production_or_tasks_changed": true
+}
