@@ -8,6 +8,7 @@ import hashlib
 import re
 import urllib.parse
 import urllib.request
+import urllib.error
 from result_store import text
 from official_results import VENUES
 
@@ -15,8 +16,12 @@ def fetch(source_url,race_code,historical_test=False,include_page=False):
     if urllib.parse.urlparse(source_url).hostname not in {'jra.jp','www.jra.jp','jra.go.jp','www.jra.go.jp'}:
         raise ValueError('Official entry URL required')
     req=urllib.request.Request(source_url,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
-    with urllib.request.urlopen(req,timeout=25) as response:
-        raw=response.read();final=response.url;charset=response.headers.get_content_charset()
+    try:
+        with urllib.request.urlopen(req,timeout=25) as response:
+            raw=response.read();final=response.url;charset=response.headers.get_content_charset()
+    except urllib.error.HTTPError as exc:
+        location=urllib.parse.urlsplit(source_url)
+        raise RuntimeError(f'OFFICIAL_ENTRY_HTTP_ERROR host={location.hostname} path={location.path} status={exc.code}') from exc
     if not charset:
         m=re.search(br'charset=["\x27]?([A-Za-z0-9_-]+)',raw[:2000],re.I)
         charset=m.group(1).decode() if m else 'utf-8'
