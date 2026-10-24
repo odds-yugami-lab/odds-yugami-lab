@@ -114,3 +114,11 @@ source_bundleが返すofficial_entry_pageからpublic_previous.acquireを呼ぶ�
 
 2026-10-21追記：予想の3予約は `--probability-method market_corrected_v1` を呼ぶ内容へ更新し、予約の有効状態・指示全文の読み戻し・従来時間枠の維持を確認済み。初回の発売中データと期限内公開成功は引き続き未確認。schema_version=6の収支にはprobability_methodと補正パラメータSHAを引き継ぐ。旧schemaの結果形式・原本は変更しない。設定確認記録：`validation/correction_20261021/deployment.json`。
 
+
+## 2026-10-25 HTTP 403 再発防止診断
+
+- `source_bundle.download` はHTTPエラー時に `host`、URLの `path`（クエリ・認証情報なし）、`status`、`phase` を例外に記録する。`free_entries`、`odds_umaren`、`odds_sanrenpuku`、`win_odds` を区別し、公式出馬表は `OFFICIAL_ENTRY_HTTP_ERROR` として記録する。
+- `operation_runner` の失敗時は例外文字列と工程をローカルJSONおよび append-only GitHub incident に記録する。生HTML・クッキー・秘密情報・非公開モデルは障害ログへ載せない。
+- 403は発走時間切れとは別原因として扱う。アクセス制限を回避せず、公開取得手段の接続可否を個別診断する。失敗のまま `verified_live=true` にしない。
+- 本番前に同じ実行環境からJRA公式出馬表、無料出馬表、馬連・3連複・単勝の取得経路を確認する。過去日のページが読めても当日の発売中オッズの成功証明にはならない。`HTTP 403` のホスト・phaseが分かったら、公開かつ利用条件に適合する代替取得元を別途実装・検証する。
+- 発走12分前の締切、最新更新90秒以内、全組合せ・全頭・原本とreceiptの保存確認は緩和しない。単なる診断コード保存は本番接続・予想完了ではない。
