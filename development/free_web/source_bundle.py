@@ -18,7 +18,7 @@ from entry_changes import reconcile
 
 JST=dt.timezone(dt.timedelta(hours=9))
 
-def download(url):
+def download(url, phase='unspecified'):
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
     try:
         with urllib.request.urlopen(req,timeout=25) as response:
@@ -26,7 +26,7 @@ def download(url):
     except urllib.error.HTTPError as exc:
         host=urllib.parse.urlsplit(url).hostname
         path=urllib.parse.urlsplit(url).path
-        raise RuntimeError(f'PUBLIC_SOURCE_HTTP_ERROR host={host} path={path} status={exc.code} phase=download') from exc
+        raise RuntimeError(f'PUBLIC_SOURCE_HTTP_ERROR host={host} path={path} status={exc.code} phase={phase}') from exc
     if not encoding:
         match=re.search(br'charset\s*=\s*["\x27]?([A-Za-z0-9_-]+)',raw[:3000],re.I)
         encoding=match.group(1).decode() if match else 'utf-8'
@@ -63,7 +63,7 @@ def acquire(race_code,official_entry_url=None):
     official_page=official.pop('entry_page')
     web_id=race_code[2:4]+race_code[8:]
     denma_url=f'https://sports.yahoo.co.jp/keiba/race/denma/{web_id}'
-    page,entry_time,entry_sha=download(denma_url)
+    page,entry_time,entry_sha=download(denma_url, phase='free_entries')
     runners=parse_entries(page,web_id,'entries')
     expected_start=dt.datetime.fromisoformat(official['race_start_at']).astimezone(JST).strftime('%H:%M')
     if any(r['race_code']!=race_code or r['start_time']!=expected_start for r in runners):
@@ -74,7 +74,7 @@ def acquire(race_code,official_entry_url=None):
     def odds(kind):
         part={'umaren':'ur','sanrenpuku':'sf'}[kind]
         url=f'https://sports.yahoo.co.jp/keiba/race/odds/{part}/{web_id}?ninki=0'
-        html,retrieved,sha=download(url)
+        html,retrieved,sha=download(url, phase='odds_'+kind)
         parsed=parse_odds(html,race_code,kind,horses)
         return kind,verify_odds(parsed,official,retrieved,sha,url)
     with concurrent.futures.ThreadPoolExecutor(max_workers=2) as pool:
