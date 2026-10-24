@@ -1,0 +1,10 @@
+{
+  "completed": false,
+  "error": "No module named 'duckdb'",
+  "error_type": "ModuleNotFoundError",
+  "failed_at": "2026-10-24T06:18:51.428385+00:00",
+  "race_code": "2026102405040811",
+  "stage": "live",
+  "status": "failed",
+  "x_draft": null
+}
