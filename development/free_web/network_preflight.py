@@ -40,7 +40,7 @@ def main():
     targets = dict(SOURCES)
     if args.race:
         import re
-        if not re.fullmatch(r"\\d{16}", args.race):
+        if not re.fullmatch(r"\d{16}", args.race):
             parser.error("--race must be a 16-digit JRA race code")
         web_id = args.race[2:4] + args.race[8:]
         targets.update({
