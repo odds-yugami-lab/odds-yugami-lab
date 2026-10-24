@@ -58,7 +58,7 @@ def acquire(race,official,runners,now=None):
     if official.get('verified') is not True or official.get('historical_test'):
         raise ValueError('Current verified official entries required for WIN odds')
     url='https://sports.yahoo.co.jp/keiba/race/odds/tfw/'+race[2:4]+race[8:]+'?ninki=0'
-    page,stamp,sha=download(url)
+    page,stamp,sha=download(url, phase='win_odds')
     snapshot=parse(page,race,[int(r['umaban']) for r in runners])
     if snapshot['status']!='unverified_live':raise ValueError('Final WIN odds forbidden in live mode')
     # Promote only inside this acquisition layer, then immediately validate all
