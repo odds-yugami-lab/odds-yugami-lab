@@ -9,6 +9,8 @@ import datetime as dt
 import hashlib
 import re
 import urllib.request
+import urllib.error
+import urllib.parse
 from entries import parse as parse_entries
 from official_entries import fetch as fetch_official,match_free_entries
 from odds import parse as parse_odds
@@ -18,8 +20,13 @@ JST=dt.timezone(dt.timedelta(hours=9))
 
 def download(url):
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
-    with urllib.request.urlopen(req,timeout=25) as response:
-        raw=response.read();encoding=response.headers.get_content_charset()
+    try:
+        with urllib.request.urlopen(req,timeout=25) as response:
+            raw=response.read();encoding=response.headers.get_content_charset()
+    except urllib.error.HTTPError as exc:
+        host=urllib.parse.urlsplit(url).hostname
+        path=urllib.parse.urlsplit(url).path
+        raise RuntimeError(f'PUBLIC_SOURCE_HTTP_ERROR host={host} path={path} status={exc.code} phase=download') from exc
     if not encoding:
         match=re.search(br'charset\s*=\s*["\x27]?([A-Za-z0-9_-]+)',raw[:3000],re.I)
         encoding=match.group(1).decode() if match else 'utf-8'
