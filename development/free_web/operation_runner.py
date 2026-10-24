@@ -244,6 +244,7 @@ def main():
         # Public diagnostics contain stage/type only; never dump private input values.
         failure = {'status': 'failed', 'stage': github.stage or stage, 'error_type': type(exc).__name__,
                    'error': str(exc)[:500], 'race_code': args.race,
+                   'diagnostic_hint': 'Inspect host/path/status/phase in error; access block is not a missed deadline',
                    'failed_at': dt.datetime.now(dt.timezone.utc).isoformat(),
                    'x_draft': None, 'completed': False}
         # Persist a small append-only incident whenever GitHub remains reachable.
