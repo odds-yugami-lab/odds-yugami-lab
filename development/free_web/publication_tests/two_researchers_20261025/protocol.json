@@ -1,0 +1,86 @@
+{
+  "constraints": {
+    "budget_ceiling_yen_each": 10000,
+    "cash_retained": true,
+    "max_tickets_each": 30,
+    "minimum_stakes_only": true,
+    "single_ticket_payout_floor_yen": 10000
+  },
+  "correction_parameters": {
+    "alpha_ai": 0.5545147182412767,
+    "base_fitted_year": 2025,
+    "beta_market": 0.3793199369821049
+  },
+  "correction_strength": 0.5,
+  "definitions": {
+    "kotsukotsu": "gross expected payout E50 + any-hit H50; all tickets eligible",
+    "soroban": "net expected profit E50 + any-hit H50; only probability*odds>=1-1e-10"
+  },
+  "feature_history_cutoff_exclusive": "2026-10-24",
+  "final_odds_used": true,
+  "historical_rehearsal": true,
+  "is_pre_race_prediction": false,
+  "model_sha256": {
+    "top3_model.joblib": "f0e1109be2bd6a4dfcd2099df46cb95f17d846d202b0e1b0a39f6e5123cd4115",
+    "top3_platt.joblib": "5df2d77bfb2e595158a740d76233183f6c11ad1f26139f7196d5af8fe7756dec",
+    "win_model.joblib": "0d098fe95abfe1453cedbca9803be68d6ce8b8f82bf36514b3f6557aac02b645",
+    "win_platt.joblib": "191cff046054aecd53ed62d72376e6a11fc9c3ee244bcffd0f0bd37569581ded"
+  },
+  "nar_previous_verified": {
+    "days_since_last_race": 62,
+    "days_since_previous_race": 62,
+    "horse_id": "2024101469",
+    "jra_nar_previous_fields_matched": true,
+    "jra_source_url": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde0105202604081120261024/2B",
+    "page_sha256": "8c47e861f407c1fec21be05ddc6a0dfdd8a372f135d024a967316f92c21c68d6",
+    "previous_body_weight_change_kg": 3,
+    "previous_body_weight_kg": 448,
+    "previous_distance_m": 1600,
+    "previous_finish_position": 2,
+    "previous_keibajo_code": "35",
+    "previous_race_date": "2026-08-23",
+    "previous_running_style_code": "3",
+    "previous_track_code": "11",
+    "source_url": "https://www.keiba.go.jp/KeibaWeb/TodayRaceInfo/RaceMarkTable?k_babaCode=10&k_raceDate=2026%2F08%2F23&k_raceNo=8"
+  },
+  "previous_evidence_count": 13,
+  "production_models_and_tasks_unchanged": true,
+  "race_code": "2026102405040811",
+  "race_name": "アルテミスステークス",
+  "results_previously_available_and_inspected": true,
+  "sire_id_source": "https://umanity.jp/racing/database/horse_pedigree.php?horse_id=1120002461",
+  "source_commit": "e9192773d593ec87282e4024d20f0cb142c387df",
+  "source_hashes": {
+    "allocator_research.py": "375e3b3c78352f634d7f74089bebda9497d85622d8aa9a0bc0fdff2ea070ed62",
+    "cap30_ceiling_allocator.py": "22708e56c7a0db32d94127613bb072dd91f87c8199f1d6caae7a1263c8bd2be6",
+    "replay_source": "5250f4df1cc5de594ab3904a8203faf7f6740814415bb88bf92a4086dfc659c6"
+  },
+  "sources": {
+    "sanrenpuku": {
+      "combination_count": 286,
+      "page_sha256": "83333d2dd03628f75b392a7d208e9a6696175d88a51c6b5aaa74eb580e00be0e",
+      "retrieved_at": "2026-10-25T04:34:26.714743+00:00",
+      "source_updated_at_text": "2026/10/24 15:55",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/sf/2605040811?ninki=0",
+      "status": "final_postrace"
+    },
+    "umaren": {
+      "combination_count": 78,
+      "page_sha256": "433604cf1ddc34462da17be2ea7c6b32ba3312ae4df13d4d8ee7f3d39de9eddc",
+      "retrieved_at": "2026-10-25T04:34:26.658374+00:00",
+      "source_updated_at_text": "2026/10/24 15:55",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/ur/2605040811?ninki=0",
+      "status": "final_postrace"
+    },
+    "win": {
+      "page_sha256": "64bb288fd02342681556f33671cab95207b944f4fcc373a1e661c09984b4a5b9",
+      "race_code": "2026102405040811",
+      "retrieved_at": "2026-10-25T04:34:26.537840+00:00",
+      "source_updated_at": "2026-10-24T15:55:00+09:00",
+      "source_updated_at_text": "2026/10/24 15:55",
+      "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/tfw/2605040811?ninki=0",
+      "status": "final_postrace"
+    }
+  },
+  "test_only": true
+}
