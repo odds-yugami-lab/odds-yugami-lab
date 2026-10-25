@@ -1,0 +1,23 @@
+{
+  "test_only": true,
+  "historical_allocator_smoke_test": true,
+  "test_race_code": "2026102405040811",
+  "actual_live_kikka_run_complete": false,
+  "same_probability_method_as_production": "market_strength_calibration_v1_20261021",
+  "allocator_seconds": 0.03483160700125154,
+  "ticket_count": 30,
+  "total_stake_yen": 3900,
+  "solver_status": 0,
+  "solver_gap": 0.0,
+  "all_EV_ge_one": true,
+  "minimum_stakes_only": true,
+  "label_input_rejection_passed": true,
+  "historical_status_rejection_passed": true,
+  "stale_input_rejection_passed": true,
+  "capture_record_unchanged": true,
+  "production_modules_changed": false,
+  "checked_at": "2026-10-25T04:43:27.485804+00:00",
+  "shadow_source_sha256": "fb76d7bc3865708379235c0d65218b7de6e41c957961ea096f33a8831d0b26cc",
+  "background_process_deadline_rejection_passed": true,
+  "background_computes_before_production_save_finishes": true
+}
