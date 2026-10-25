@@ -1,0 +1,29 @@
+{
+  "checked_at": "2026-10-25T04:34:20.065737+00:00",
+  "race_code": "2026102508040911",
+  "source_commit": "e9192773d593ec87282e4024d20f0cb142c387df",
+  "feature_count": 52,
+  "runners": 18,
+  "previous_verified": 18,
+  "unresolved_previous": [],
+  "missing_fields": [
+    "body_weight_change_kg",
+    "body_weight_kg"
+  ],
+  "model_hashes_verified": true,
+  "four_models_loaded": true,
+  "history_sha256_verified": true,
+  "history_complete_through": "2026-10-24",
+  "runtime_imports_passed": true,
+  "live_prediction_complete": false,
+  "production_files_unchanged": true,
+  "dependencies": {
+    "duckdb": "1.5.6",
+    "lightgbm": "4.7.0",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "pandas": "2.2.3",
+    "joblib": "1.5.3"
+  }
+}
