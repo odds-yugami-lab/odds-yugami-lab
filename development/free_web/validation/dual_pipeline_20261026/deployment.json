@@ -1,0 +1,98 @@
+{
+  "purpose": "deployment_validation_not_live_performance",
+  "as_of": "2026-10-26",
+  "code_commit": "12c84672813406b4ab8c275e0b0f4a56944c2cc7",
+  "policy": "two_researchers_half_v1_20261026",
+  "market_correction_strength": 0.5,
+  "researchers": {
+    "ichiro": "gross expected payout 50% + probability of any hit 50%",
+    "matsui": "EV>=1 eligibility; net expected profit 50% + probability of any hit 50%"
+  },
+  "budget": {
+    "maximum_points_each": 30,
+    "budget_ceiling_yen_each": 10000,
+    "no_topups": true,
+    "minimum_stake_for_10000_payout": true
+  },
+  "verification": {
+    "tests_passed": 39,
+    "actual_saved_model_inference": true,
+    "raw_heads_max_abs_error": {
+      "WIN": 0,
+      "TOP3": 0
+    },
+    "historical_clock_injected": true,
+    "current_wall_clock_live_run": false,
+    "github_five_artifact_roundtrip": true,
+    "fresh_official_result_fetch": true,
+    "x_transmission": false,
+    "bet_purchase": false
+  },
+  "test_commits": {
+    "prediction": "4eaf4f11deecd73727b282d293ce3fbc78b47c7e",
+    "receipt": "b7a5941edd9913137f457f02c5c73d75bd94b624",
+    "prediction_x_draft": "1547ed87f80846a3ddeb68ba7288e81e636e90e6",
+    "result": "d5ed9f74fb060e3475fe158c96321e9846a9ff52",
+    "result_x_draft": "8c3e5c4659c39078c8fad0ed8117f6dbce2004f1"
+  },
+  "kikka_automation_audit": {
+    "date": "2026-10-25",
+    "started_jst": "16:35:31",
+    "completed_jst": "16:47:44",
+    "recorded_status": "completed",
+    "notification_delivery": "unknown",
+    "old_prompt_result_x_draft_required": false,
+    "result_commit": "ab43f1c66da95a4cb67dde606e569b795bcfe9bb"
+  },
+  "automation_readback": [
+    {
+      "title": "2研究員予想 15:35以前",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Tokyo:20261021T145500\nRRULE:FREQ=DAILY;UNTIL=20261227T145959Z\nEND:VEVENT",
+      "default_timezone": "Asia/Tokyo",
+      "prompt_readback_exact": true,
+      "next_run_time": null
+    },
+    {
+      "title": "2研究員予想 15:40前後",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Tokyo:20261021T150500\nRRULE:FREQ=DAILY;UNTIL=20261227T145959Z\nEND:VEVENT",
+      "default_timezone": "Asia/Tokyo",
+      "prompt_readback_exact": true,
+      "next_run_time": null
+    },
+    {
+      "title": "2研究員予想 15:45以降",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Tokyo:20261021T151000\nRRULE:FREQ=DAILY;UNTIL=20261227T145959Z\nEND:VEVENT",
+      "default_timezone": "Asia/Tokyo",
+      "prompt_readback_exact": true,
+      "next_run_time": null
+    },
+    {
+      "title": "2研究員 答え合わせ・結果文",
+      "is_enabled": true,
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Tokyo:20261026T163500\nRRULE:FREQ=DAILY;BYHOUR=16,17;BYMINUTE=35;UNTIL=20261227T145959Z\nEND:VEVENT",
+      "default_timezone": "Asia/Tokyo",
+      "prompt_readback_exact": true,
+      "next_run_time": null
+    }
+  ],
+  "history": {
+    "private_saved_version": 7,
+    "results_present_for": "2026-10-25",
+    "race_count": 36,
+    "runner_count": 467,
+    "missing_sire_rows_before": 174,
+    "verified_repaired_rows": 173,
+    "missing_sire_rows_after": 1,
+    "coverage_not_advanced": "2026-10-24",
+    "all_other_history_values_and_rows_preserved": true,
+    "current_live_prediction_blocker": true
+  },
+  "remaining": [
+    "Resolve the one remaining sire identifier and validate history coverage; do not guess or silently advance coverage.",
+    "First real race of paired publication with current on-sale odds, actual deadline and final user delivery remains unverified.",
+    "Automation API returns enabled schedules but no next_run_time; settings readback is not proof of future execution or delivery."
+  ]
+}
