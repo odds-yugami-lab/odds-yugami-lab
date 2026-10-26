@@ -1,0 +1,81 @@
+{
+  "purpose": "closure_of_history_blocker_not_live_prediction",
+  "as_of_jst": "2026-10-26",
+  "supersedes_history_blocker_in": "development/free_web/validation/dual_pipeline_20261026/deployment.json",
+  "resolution": {
+    "initial_missing_sire_rows": 174,
+    "resolved_previous_revision": 173,
+    "resolved_this_revision": 1,
+    "remaining_missing_latest_day_sire_rows": 0,
+    "method": "Same public sire registration identity as four offspring already carrying the same breeding ID in current history; independent legacy-ID conversion crosscheck",
+    "independent_verified_existing_offspring": 4,
+    "old_8_to_10_conversion_rule_source": "https://developer.jra-van.jp/t/topic/955",
+    "indexed_legacy_id_source": "https://www.keibalab.jp/db/breed/11202634/",
+    "direct_legacy_page_fetch_status": "HTTP503; indexed source was not represented as a downloaded page",
+    "direct_offspring_profiles_fetched_and_matched": true
+  },
+  "data_preservation": {
+    "changed_sire_cells_this_revision": 1,
+    "all_other_values_and_rows_preserved": true,
+    "race_results_not_changed": true,
+    "existing_predictions_not_rewritten": true,
+    "model_not_changed": true,
+    "half_correction_not_changed": true,
+    "purchase_rules_not_changed": true
+  },
+  "private_history": {
+    "saved_version": 8,
+    "completed_race_day": "2026-10-25",
+    "race_count": 36,
+    "runner_count": 467,
+    "latest_day_duplicate_keys": 0,
+    "latest_day_labels_consistent": true,
+    "per_race_counts_match_original_ingestion": true,
+    "coverage_manifest_sha_checked": true
+  },
+  "verification": {
+    "historical_kikka_18_runner_prior_features_unchanged": true,
+    "actual_saved_model_inference": true,
+    "raw_WIN_max_abs_error": 0,
+    "raw_TOP3_max_abs_error": 0,
+    "same_day_result_exclusion_passed": true,
+    "known_sire_start_counts_before_day": 5,
+    "known_sire_start_counts_after_day": 6,
+    "previous_39_runtime_tests_passed": true,
+    "runtime_code_changed_this_revision": false,
+    "official_calendar_non_race_gap_gate_passed_through": "2026-10-30",
+    "current_history_gate_blocker_resolved": true
+  },
+  "automation_readback": [
+    {
+      "title": "2研究員予想 15:35以前",
+      "is_enabled": true,
+      "reads_latest_same_library_id": true,
+      "half_policy_in_prompt": true
+    },
+    {
+      "title": "2研究員予想 15:40前後",
+      "is_enabled": true,
+      "reads_latest_same_library_id": true,
+      "half_policy_in_prompt": true
+    },
+    {
+      "title": "2研究員予想 15:45以降",
+      "is_enabled": true,
+      "reads_latest_same_library_id": true,
+      "half_policy_in_prompt": true
+    },
+    {
+      "title": "2研究員 答え合わせ・結果文",
+      "is_enabled": true,
+      "reads_latest_same_library_id": true,
+      "half_policy_in_prompt": true,
+      "updated_settlement_exact": true
+    }
+  ],
+  "remaining_scope": [
+    "No remaining blocker from the one missing sire identifier.",
+    "This repair does not certify first future two-researcher publication with current on-sale odds and actual deadline.",
+    "Future execution and notification delivery must be observed on the race day."
+  ]
+}
