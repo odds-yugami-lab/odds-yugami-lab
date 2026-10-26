@@ -1,0 +1,1140 @@
+{
+  "policy_version": "two_researchers_half_v1_20261026",
+  "prediction_finalized_at": "2026-10-25T06:09:05.646169+00:00",
+  "race_code": "2026102508040911",
+  "race_name": "菊花賞・当日入力による事後動作テスト",
+  "race_start_at": "2026-10-25T15:40:00+09:00",
+  "record_type": "two_researcher_prediction",
+  "researchers": {
+    "ichiro": {
+      "active_horse_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "allocation_audit": {
+        "actual_mip_gap": 0.0007392415890993951,
+        "budget_limit_yen": 10000,
+        "budget_yen": 10000,
+        "economic_objective_yen": 10238.52208303499,
+        "exact_minimum_stakes_only": true,
+        "expected_net_profit_yen": 238.52208303498992,
+        "expected_payout_scale_explicit": 118313.15501748945,
+        "expected_payout_scale_historically_verified": false,
+        "expected_payout_weight": 0.5,
+        "expected_payout_yen": 10238.52208303499,
+        "globally_optimal_for_this_explicit_objective": false,
+        "hit_probability_weight": 0.5,
+        "maximum_tickets": 30,
+        "mip_relative_gap_requested": 0.01,
+        "net_profit_objective": false,
+        "nonnegative_ev_only": false,
+        "objective_value": 0.31808506595701785,
+        "original_implementation_verified": false,
+        "probability_any_win": 0.5496326536300571,
+        "production_ready": false,
+        "research_only": false,
+        "rule": "ichiro_half_gross_E50_H50_v1_20261026",
+        "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "solver_settings_historically_verified": false,
+        "solver_status": 0,
+        "ticket_count": 30,
+        "time_limit": 30.0,
+        "unspent_yen": 0
+      },
+      "allocation_core_sha256": "375e3b3c78352f634d7f74089bebda9497d85622d8aa9a0bc0fdff2ea070ed62",
+      "allocation_rule": "ichiro_half_gross_E50_H50_v1_20261026",
+      "budget_limit_yen": 10000,
+      "correction_parameters": {
+        "2026_labels_used_for_fitting": false,
+        "alpha_ai": 0.5545147182412767,
+        "base_version": "market_strength_calibration_v1_20261021",
+        "beta_market": 0.3793199369821049,
+        "correction_strength": 0.5,
+        "fitted_on_year": 2025,
+        "fitted_races": 119,
+        "version": "market_strength_half_v1_20261026"
+      },
+      "correction_strength": 0.5,
+      "feature_spec_sha256": "bea999ea5bb91efbdddea976147b7619cb9dfe39ce193a6c8ce428ef466927b7",
+      "features_obtained_at": "2026-10-25T06:08:57.532143+00:00",
+      "horse_probabilities": [
+        {
+          "ketto_toroku_bango": "2023107127",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.04382640962929742,
+          "raw_saved_top3_probability": 0.1908962350616288,
+          "raw_saved_win_probability": 0.05125011707015084,
+          "top3_probability": 0.14113321478601545,
+          "umaban": 1,
+          "win_probability": 0.04382640962929742
+        },
+        {
+          "ketto_toroku_bango": "2023106963",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.06794412051893091,
+          "raw_saved_top3_probability": 0.1729104517833451,
+          "raw_saved_win_probability": 0.10623529998762975,
+          "top3_probability": 0.21275515136291767,
+          "umaban": 2,
+          "win_probability": 0.06794412051893092
+        },
+        {
+          "ketto_toroku_bango": "2023107321",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.052597270661085736,
+          "raw_saved_top3_probability": 0.1795967996365105,
+          "raw_saved_win_probability": 0.04087364881101623,
+          "top3_probability": 0.16769565655304422,
+          "umaban": 3,
+          "win_probability": 0.052597270661085715
+        },
+        {
+          "ketto_toroku_bango": "2023105332",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.011345037938448743,
+          "raw_saved_top3_probability": 0.04988597546909654,
+          "raw_saved_win_probability": 0.015291982800972171,
+          "top3_probability": 0.037835480049687564,
+          "umaban": 4,
+          "win_probability": 0.011345037938448745
+        },
+        {
+          "ketto_toroku_bango": "2023106924",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.05371794666189466,
+          "raw_saved_top3_probability": 0.11651189297802275,
+          "raw_saved_win_probability": 0.04269047293483837,
+          "top3_probability": 0.17104755061903537,
+          "umaban": 5,
+          "win_probability": 0.053717946661894674
+        },
+        {
+          "ketto_toroku_bango": "2023107247",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.04983449270785508,
+          "raw_saved_top3_probability": 0.17595394043892507,
+          "raw_saved_win_probability": 0.0773793848516838,
+          "top3_probability": 0.15939142470708817,
+          "umaban": 6,
+          "win_probability": 0.04983449270785508
+        },
+        {
+          "ketto_toroku_bango": "2023105560",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.022254379105033525,
+          "raw_saved_top3_probability": 0.11730775885160263,
+          "raw_saved_win_probability": 0.03679512984067341,
+          "top3_probability": 0.07337527864279474,
+          "umaban": 7,
+          "win_probability": 0.022254379105033514
+        },
+        {
+          "ketto_toroku_bango": "2023107089",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.20591339156964863,
+          "raw_saved_top3_probability": 0.2197444627096023,
+          "raw_saved_win_probability": 0.1255799197966363,
+          "top3_probability": 0.5312772224402718,
+          "umaban": 8,
+          "win_probability": 0.20591339156964863
+        },
+        {
+          "ketto_toroku_bango": "2023105378",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.06935107759240461,
+          "raw_saved_top3_probability": 0.14271079939916284,
+          "raw_saved_win_probability": 0.05670372708306916,
+          "top3_probability": 0.216794195971838,
+          "umaban": 9,
+          "win_probability": 0.06935107759240468
+        },
+        {
+          "ketto_toroku_bango": "2023107005",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.16628783422792331,
+          "raw_saved_top3_probability": 0.3783009964619098,
+          "raw_saved_win_probability": 0.12226601508707015,
+          "top3_probability": 0.45582964918558866,
+          "umaban": 10,
+          "win_probability": 0.16628783422792312
+        },
+        {
+          "ketto_toroku_bango": "2023106400",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.04710850111044796,
+          "raw_saved_top3_probability": 0.15017715839956455,
+          "raw_saved_win_probability": 0.04402623147651535,
+          "top3_probability": 0.15114101762996063,
+          "umaban": 11,
+          "win_probability": 0.04710850111044797
+        },
+        {
+          "ketto_toroku_bango": "2023100724",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.016286970583522128,
+          "raw_saved_top3_probability": 0.06480888023116858,
+          "raw_saved_win_probability": 0.021095554362755984,
+          "top3_probability": 0.05403871905413115,
+          "umaban": 12,
+          "win_probability": 0.016286970583522135
+        },
+        {
+          "ketto_toroku_bango": "2023100021",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.017438907162291226,
+          "raw_saved_top3_probability": 0.05961970897026481,
+          "raw_saved_win_probability": 0.014904466081727871,
+          "top3_probability": 0.05779101188344813,
+          "umaban": 13,
+          "win_probability": 0.017438907162291226
+        },
+        {
+          "ketto_toroku_bango": "2023103531",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.057946346998558496,
+          "raw_saved_top3_probability": 0.2747097553458145,
+          "raw_saved_win_probability": 0.11634117897466911,
+          "top3_probability": 0.18360784760575122,
+          "umaban": 14,
+          "win_probability": 0.057946346998558475
+        },
+        {
+          "ketto_toroku_bango": "2023101200",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.03196266019421896,
+          "raw_saved_top3_probability": 0.14251564807918823,
+          "raw_saved_win_probability": 0.03683877683528307,
+          "top3_probability": 0.10428963199434711,
+          "umaban": 15,
+          "win_probability": 0.03196266019421894
+        },
+        {
+          "ketto_toroku_bango": "2023103828",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.03238933841149871,
+          "raw_saved_top3_probability": 0.12986406269216388,
+          "raw_saved_win_probability": 0.029624772536736805,
+          "top3_probability": 0.10563266294316798,
+          "umaban": 16,
+          "win_probability": 0.0323893384114987
+        },
+        {
+          "ketto_toroku_bango": "2023107389",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.022695475975898077,
+          "raw_saved_top3_probability": 0.11508233227283456,
+          "raw_saved_win_probability": 0.03875047584825276,
+          "top3_probability": 0.07479456100212953,
+          "umaban": 17,
+          "win_probability": 0.022695475975898088
+        },
+        {
+          "ketto_toroku_bango": "2023105046",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.031099838951041837,
+          "raw_saved_top3_probability": 0.19211652621163916,
+          "raw_saved_win_probability": 0.08191688587767182,
+          "top3_probability": 0.1015697235687826,
+          "umaban": 18,
+          "win_probability": 0.031099838951041833
+        }
+      ],
+      "input_snapshot_sha256": "d932125f0e8ad41cec639f0f0abf35d492e4a33f1a49b8e4501737f19bd7cd6d",
+      "is_pre_race_prediction": true,
+      "model_file_sha256": {
+        "top3_model.joblib": "f0e1109be2bd6a4dfcd2099df46cb95f17d846d202b0e1b0a39f6e5123cd4115",
+        "top3_platt.joblib": "5df2d77bfb2e595158a740d76233183f6c11ad1f26139f7196d5af8fe7756dec",
+        "win_model.joblib": "0d098fe95abfe1453cedbca9803be68d6ce8b8f82bf36514b3f6557aac02b645",
+        "win_platt.joblib": "191cff046054aecd53ed62d72376e6a11fc9c3ee244bcffd0f0bd37569581ded"
+      },
+      "model_package": "JRA_FREE_NO_WORKOUT_52_20261013",
+      "odds_sources": {
+        "sanrenpuku": {
+          "page_sha256": "436a5531d1db35a4113d80a6185720b57123818f30d80ec45d75a2031f2b65de",
+          "retrieved_at": "2026-10-25T06:08:57.344015+00:00",
+          "source_updated_at": "2026-10-25T15:08:00+09:00",
+          "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/sf/2608040911?ninki=0"
+        },
+        "umaren": {
+          "page_sha256": "2d1ff345faeb5f250cc6cf0ae9cd4d21aa99ec9a6bd7e021704ef35ddae36bdf",
+          "retrieved_at": "2026-10-25T06:08:57.482707+00:00",
+          "source_updated_at": "2026-10-25T15:08:00+09:00",
+          "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/ur/2608040911?ninki=0"
+        }
+      },
+      "prediction_finalized_at": "2026-10-25T06:09:05.646169+00:00",
+      "probability_correction_core_sha256": "260f60f96c1153bb643772790c4cc0868cda4476cead3976f476ce59c71824b9",
+      "probability_correction_parameters_sha256": "4a531ee17db56911ff9d45feb25a5cb3af60fe358a2faf70af4aa7b1a9d0237c",
+      "probability_method": "market_strength_half_v1_20261026",
+      "race_code": "2026102508040911",
+      "race_name": "菊花賞",
+      "race_start_at": "2026-10-25T15:40:00+09:00",
+      "researcher_id": "ichiro",
+      "researcher_name": "一郎研究員",
+      "schema_version": 8,
+      "status": "prepared_not_published",
+      "tickets": [
+        {
+          "ai_probability": 0.00032026125599235965,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 36942.7,
+          "kumiban": "020718",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.02080264156318664,
+          "bet_type": "umaren",
+          "decimal_odds": 25.1,
+          "kumiban": "0108",
+          "min_units": 4,
+          "race_code": "2026102508040911",
+          "stake": 400
+        },
+        {
+          "ai_probability": 0.016363221129349292,
+          "bet_type": "umaren",
+          "decimal_odds": 82.3,
+          "kumiban": "0110",
+          "min_units": 2,
+          "race_code": "2026102508040911",
+          "stake": 200
+        },
+        {
+          "ai_probability": 0.032628964650442176,
+          "bet_type": "umaren",
+          "decimal_odds": 14.6,
+          "kumiban": "0208",
+          "min_units": 7,
+          "race_code": "2026102508040911",
+          "stake": 700
+        },
+        {
+          "ai_probability": 0.010118620315116072,
+          "bet_type": "umaren",
+          "decimal_odds": 104.6,
+          "kumiban": "0209",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.025673668092891868,
+          "bet_type": "umaren",
+          "decimal_odds": 35.4,
+          "kumiban": "0210",
+          "min_units": 3,
+          "race_code": "2026102508040911",
+          "stake": 300
+        },
+        {
+          "ai_probability": 0.008403405595232906,
+          "bet_type": "umaren",
+          "decimal_odds": 313.8,
+          "kumiban": "0214",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.00444796249854018,
+          "bet_type": "umaren",
+          "decimal_odds": 2069.7,
+          "kumiban": "0218",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.019722631064205118,
+          "bet_type": "umaren",
+          "decimal_odds": 40.9,
+          "kumiban": "0310",
+          "min_units": 3,
+          "race_code": "2026102508040911",
+          "stake": 300
+        },
+        {
+          "ai_probability": 0.020154022080096205,
+          "bet_type": "umaren",
+          "decimal_odds": 28.4,
+          "kumiban": "0510",
+          "min_units": 4,
+          "race_code": "2026102508040911",
+          "stake": 400
+        },
+        {
+          "ai_probability": 0.023722298108560327,
+          "bet_type": "umaren",
+          "decimal_odds": 26.1,
+          "kumiban": "0608",
+          "min_units": 4,
+          "race_code": "2026102508040911",
+          "stake": 400
+        },
+        {
+          "ai_probability": 0.018661226709568577,
+          "bet_type": "umaren",
+          "decimal_odds": 68.6,
+          "kumiban": "0610",
+          "min_units": 2,
+          "race_code": "2026102508040911",
+          "stake": 200
+        },
+        {
+          "ai_probability": 0.010457525191217525,
+          "bet_type": "umaren",
+          "decimal_odds": 102.1,
+          "kumiban": "0708",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.008223603420317917,
+          "bet_type": "umaren",
+          "decimal_odds": 312.4,
+          "kumiban": "0710",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.03332779373940878,
+          "bet_type": "umaren",
+          "decimal_odds": 10.7,
+          "kumiban": "0809",
+          "min_units": 10,
+          "race_code": "2026102508040911",
+          "stake": 1000
+        },
+        {
+          "ai_probability": 0.0841902453149184,
+          "bet_type": "umaren",
+          "decimal_odds": 4.0,
+          "kumiban": "0810",
+          "min_units": 25,
+          "race_code": "2026102508040911",
+          "stake": 2500
+        },
+        {
+          "ai_probability": 0.022395461484824145,
+          "bet_type": "umaren",
+          "decimal_odds": 19.8,
+          "kumiban": "0811",
+          "min_units": 6,
+          "race_code": "2026102508040911",
+          "stake": 600
+        },
+        {
+          "ai_probability": 0.02769184889410099,
+          "bet_type": "umaren",
+          "decimal_odds": 28.6,
+          "kumiban": "0814",
+          "min_units": 4,
+          "race_code": "2026102508040911",
+          "stake": 400
+        },
+        {
+          "ai_probability": 0.015291476910300457,
+          "bet_type": "umaren",
+          "decimal_odds": 46.1,
+          "kumiban": "0816",
+          "min_units": 3,
+          "race_code": "2026102508040911",
+          "stake": 300
+        },
+        {
+          "ai_probability": 0.010666957683257892,
+          "bet_type": "umaren",
+          "decimal_odds": 142.2,
+          "kumiban": "0817",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.014673877353057167,
+          "bet_type": "umaren",
+          "decimal_odds": 167.9,
+          "kumiban": "0818",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.02622401254860184,
+          "bet_type": "umaren",
+          "decimal_odds": 20.6,
+          "kumiban": "0910",
+          "min_units": 5,
+          "race_code": "2026102508040911",
+          "stake": 500
+        },
+        {
+          "ai_probability": 0.008583937905016503,
+          "bet_type": "umaren",
+          "decimal_odds": 244.5,
+          "kumiban": "0914",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.017616855506647572,
+          "bet_type": "umaren",
+          "decimal_odds": 56.5,
+          "kumiban": "1011",
+          "min_units": 2,
+          "race_code": "2026102508040911",
+          "stake": 200
+        },
+        {
+          "ai_probability": 0.021786148271070695,
+          "bet_type": "umaren",
+          "decimal_odds": 74.3,
+          "kumiban": "1014",
+          "min_units": 2,
+          "race_code": "2026102508040911",
+          "stake": 200
+        },
+        {
+          "ai_probability": 0.011865596011386762,
+          "bet_type": "umaren",
+          "decimal_odds": 127.1,
+          "kumiban": "1015",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.01202644648057044,
+          "bet_type": "umaren",
+          "decimal_odds": 109.1,
+          "kumiban": "1016",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.008388342931049224,
+          "bet_type": "umaren",
+          "decimal_odds": 408.6,
+          "kumiban": "1017",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.011540530859675335,
+          "bet_type": "umaren",
+          "decimal_odds": 480.0,
+          "kumiban": "1018",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.0037729385114489197,
+          "bet_type": "umaren",
+          "decimal_odds": 2041.4,
+          "kumiban": "1418",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        }
+      ],
+      "total_stake_yen": 10000,
+      "unspent_yen": 0,
+      "win_odds_source": {
+        "page_sha256": "4e4fa5b2dafc07b592b166fe83543c44ef1279ab3074aa2adb0f59d4d6f3eeed",
+        "retrieved_at": "2026-10-25T06:09:05.003150+00:00",
+        "source_updated_at": "2026-10-25T15:08:00+09:00",
+        "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/tfw/2608040911?ninki=0"
+      }
+    },
+    "matsui": {
+      "active_horse_numbers": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "allocation_audit": {
+        "actual_mip_gap": 0.0,
+        "budget_limit_yen": 10000,
+        "budget_yen": 3300,
+        "economic_objective_yen": 14707.46473684696,
+        "exact_minimum_stakes_only": true,
+        "expected_net_profit_yen": 14707.46473684696,
+        "expected_payout_scale_explicit": 118313.15501748945,
+        "expected_payout_scale_historically_verified": false,
+        "expected_payout_weight": 0.5,
+        "expected_payout_yen": 18007.46473684696,
+        "globally_optimal_for_this_explicit_objective": true,
+        "hit_probability_weight": 0.5,
+        "maximum_tickets": 30,
+        "mip_relative_gap_requested": 0.01,
+        "net_profit_objective": true,
+        "nonnegative_ev_only": true,
+        "objective_value": 0.16391127802555866,
+        "original_implementation_verified": false,
+        "probability_any_win": 0.20351292425511924,
+        "production_ready": false,
+        "research_only": false,
+        "rule": "matsui_half_EV1_net_E50_H50_v1_20261026",
+        "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "solver_settings_historically_verified": false,
+        "solver_status": 0,
+        "ticket_count": 30,
+        "time_limit": 30.0,
+        "unspent_yen": 6700
+      },
+      "allocation_core_sha256": "375e3b3c78352f634d7f74089bebda9497d85622d8aa9a0bc0fdff2ea070ed62",
+      "allocation_rule": "matsui_half_EV1_net_E50_H50_v1_20261026",
+      "budget_limit_yen": 10000,
+      "correction_parameters": {
+        "2026_labels_used_for_fitting": false,
+        "alpha_ai": 0.5545147182412767,
+        "base_version": "market_strength_calibration_v1_20261021",
+        "beta_market": 0.3793199369821049,
+        "correction_strength": 0.5,
+        "fitted_on_year": 2025,
+        "fitted_races": 119,
+        "version": "market_strength_half_v1_20261026"
+      },
+      "correction_strength": 0.5,
+      "feature_spec_sha256": "bea999ea5bb91efbdddea976147b7619cb9dfe39ce193a6c8ce428ef466927b7",
+      "features_obtained_at": "2026-10-25T06:08:57.532143+00:00",
+      "horse_probabilities": [
+        {
+          "ketto_toroku_bango": "2023107127",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.04382640962929742,
+          "raw_saved_top3_probability": 0.1908962350616288,
+          "raw_saved_win_probability": 0.05125011707015084,
+          "top3_probability": 0.14113321478601545,
+          "umaban": 1,
+          "win_probability": 0.04382640962929742
+        },
+        {
+          "ketto_toroku_bango": "2023106963",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.06794412051893091,
+          "raw_saved_top3_probability": 0.1729104517833451,
+          "raw_saved_win_probability": 0.10623529998762975,
+          "top3_probability": 0.21275515136291767,
+          "umaban": 2,
+          "win_probability": 0.06794412051893092
+        },
+        {
+          "ketto_toroku_bango": "2023107321",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.052597270661085736,
+          "raw_saved_top3_probability": 0.1795967996365105,
+          "raw_saved_win_probability": 0.04087364881101623,
+          "top3_probability": 0.16769565655304422,
+          "umaban": 3,
+          "win_probability": 0.052597270661085715
+        },
+        {
+          "ketto_toroku_bango": "2023105332",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.011345037938448743,
+          "raw_saved_top3_probability": 0.04988597546909654,
+          "raw_saved_win_probability": 0.015291982800972171,
+          "top3_probability": 0.037835480049687564,
+          "umaban": 4,
+          "win_probability": 0.011345037938448745
+        },
+        {
+          "ketto_toroku_bango": "2023106924",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.05371794666189466,
+          "raw_saved_top3_probability": 0.11651189297802275,
+          "raw_saved_win_probability": 0.04269047293483837,
+          "top3_probability": 0.17104755061903537,
+          "umaban": 5,
+          "win_probability": 0.053717946661894674
+        },
+        {
+          "ketto_toroku_bango": "2023107247",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.04983449270785508,
+          "raw_saved_top3_probability": 0.17595394043892507,
+          "raw_saved_win_probability": 0.0773793848516838,
+          "top3_probability": 0.15939142470708817,
+          "umaban": 6,
+          "win_probability": 0.04983449270785508
+        },
+        {
+          "ketto_toroku_bango": "2023105560",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.022254379105033525,
+          "raw_saved_top3_probability": 0.11730775885160263,
+          "raw_saved_win_probability": 0.03679512984067341,
+          "top3_probability": 0.07337527864279474,
+          "umaban": 7,
+          "win_probability": 0.022254379105033514
+        },
+        {
+          "ketto_toroku_bango": "2023107089",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.20591339156964863,
+          "raw_saved_top3_probability": 0.2197444627096023,
+          "raw_saved_win_probability": 0.1255799197966363,
+          "top3_probability": 0.5312772224402718,
+          "umaban": 8,
+          "win_probability": 0.20591339156964863
+        },
+        {
+          "ketto_toroku_bango": "2023105378",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.06935107759240461,
+          "raw_saved_top3_probability": 0.14271079939916284,
+          "raw_saved_win_probability": 0.05670372708306916,
+          "top3_probability": 0.216794195971838,
+          "umaban": 9,
+          "win_probability": 0.06935107759240468
+        },
+        {
+          "ketto_toroku_bango": "2023107005",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.16628783422792331,
+          "raw_saved_top3_probability": 0.3783009964619098,
+          "raw_saved_win_probability": 0.12226601508707015,
+          "top3_probability": 0.45582964918558866,
+          "umaban": 10,
+          "win_probability": 0.16628783422792312
+        },
+        {
+          "ketto_toroku_bango": "2023106400",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.04710850111044796,
+          "raw_saved_top3_probability": 0.15017715839956455,
+          "raw_saved_win_probability": 0.04402623147651535,
+          "top3_probability": 0.15114101762996063,
+          "umaban": 11,
+          "win_probability": 0.04710850111044797
+        },
+        {
+          "ketto_toroku_bango": "2023100724",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.016286970583522128,
+          "raw_saved_top3_probability": 0.06480888023116858,
+          "raw_saved_win_probability": 0.021095554362755984,
+          "top3_probability": 0.05403871905413115,
+          "umaban": 12,
+          "win_probability": 0.016286970583522135
+        },
+        {
+          "ketto_toroku_bango": "2023100021",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.017438907162291226,
+          "raw_saved_top3_probability": 0.05961970897026481,
+          "raw_saved_win_probability": 0.014904466081727871,
+          "top3_probability": 0.05779101188344813,
+          "umaban": 13,
+          "win_probability": 0.017438907162291226
+        },
+        {
+          "ketto_toroku_bango": "2023103531",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.057946346998558496,
+          "raw_saved_top3_probability": 0.2747097553458145,
+          "raw_saved_win_probability": 0.11634117897466911,
+          "top3_probability": 0.18360784760575122,
+          "umaban": 14,
+          "win_probability": 0.057946346998558475
+        },
+        {
+          "ketto_toroku_bango": "2023101200",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.03196266019421896,
+          "raw_saved_top3_probability": 0.14251564807918823,
+          "raw_saved_win_probability": 0.03683877683528307,
+          "top3_probability": 0.10428963199434711,
+          "umaban": 15,
+          "win_probability": 0.03196266019421894
+        },
+        {
+          "ketto_toroku_bango": "2023103828",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.03238933841149871,
+          "raw_saved_top3_probability": 0.12986406269216388,
+          "raw_saved_win_probability": 0.029624772536736805,
+          "top3_probability": 0.10563266294316798,
+          "umaban": 16,
+          "win_probability": 0.0323893384114987
+        },
+        {
+          "ketto_toroku_bango": "2023107389",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.022695475975898077,
+          "raw_saved_top3_probability": 0.11508233227283456,
+          "raw_saved_win_probability": 0.03875047584825276,
+          "top3_probability": 0.07479456100212953,
+          "umaban": 17,
+          "win_probability": 0.022695475975898088
+        },
+        {
+          "ketto_toroku_bango": "2023105046",
+          "race_code": "2026102508040911",
+          "rank_strength": 0.031099838951041837,
+          "raw_saved_top3_probability": 0.19211652621163916,
+          "raw_saved_win_probability": 0.08191688587767182,
+          "top3_probability": 0.1015697235687826,
+          "umaban": 18,
+          "win_probability": 0.031099838951041833
+        }
+      ],
+      "input_snapshot_sha256": "d932125f0e8ad41cec639f0f0abf35d492e4a33f1a49b8e4501737f19bd7cd6d",
+      "is_pre_race_prediction": true,
+      "model_file_sha256": {
+        "top3_model.joblib": "f0e1109be2bd6a4dfcd2099df46cb95f17d846d202b0e1b0a39f6e5123cd4115",
+        "top3_platt.joblib": "5df2d77bfb2e595158a740d76233183f6c11ad1f26139f7196d5af8fe7756dec",
+        "win_model.joblib": "0d098fe95abfe1453cedbca9803be68d6ce8b8f82bf36514b3f6557aac02b645",
+        "win_platt.joblib": "191cff046054aecd53ed62d72376e6a11fc9c3ee244bcffd0f0bd37569581ded"
+      },
+      "model_package": "JRA_FREE_NO_WORKOUT_52_20261013",
+      "odds_sources": {
+        "sanrenpuku": {
+          "page_sha256": "436a5531d1db35a4113d80a6185720b57123818f30d80ec45d75a2031f2b65de",
+          "retrieved_at": "2026-10-25T06:08:57.344015+00:00",
+          "source_updated_at": "2026-10-25T15:08:00+09:00",
+          "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/sf/2608040911?ninki=0"
+        },
+        "umaren": {
+          "page_sha256": "2d1ff345faeb5f250cc6cf0ae9cd4d21aa99ec9a6bd7e021704ef35ddae36bdf",
+          "retrieved_at": "2026-10-25T06:08:57.482707+00:00",
+          "source_updated_at": "2026-10-25T15:08:00+09:00",
+          "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/ur/2608040911?ninki=0"
+        }
+      },
+      "prediction_finalized_at": "2026-10-25T06:09:05.646169+00:00",
+      "probability_correction_core_sha256": "260f60f96c1153bb643772790c4cc0868cda4476cead3976f476ce59c71824b9",
+      "probability_correction_parameters_sha256": "4a531ee17db56911ff9d45feb25a5cb3af60fe358a2faf70af4aa7b1a9d0237c",
+      "probability_method": "market_strength_half_v1_20261026",
+      "race_code": "2026102508040911",
+      "race_name": "菊花賞",
+      "race_start_at": "2026-10-25T15:40:00+09:00",
+      "researcher_id": "matsui",
+      "researcher_name": "マツイ研究員",
+      "schema_version": 8,
+      "status": "prepared_not_published",
+      "tickets": [
+        {
+          "ai_probability": 0.0001614421500577924,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 73259.4,
+          "kumiban": "020418",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.0007385519699977311,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 14367.7,
+          "kumiban": "020618",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.00032026125599235965,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 36942.7,
+          "kumiban": "020718",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.00023294285233632785,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 50259.3,
+          "kumiban": "021218",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.0008664684148829954,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 12438.2,
+          "kumiban": "021418",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.0001361592838004548,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 77646.1,
+          "kumiban": "041418",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.00023023385858519596,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 47848.3,
+          "kumiban": "060718",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.0008849869955190834,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 11384.4,
+          "kumiban": "071018",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.0002701055169986936,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 43223.0,
+          "kumiban": "071418",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.00019646228775028866,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 54828.3,
+          "kumiban": "121418",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.016363221129349292,
+          "bet_type": "umaren",
+          "decimal_odds": 82.3,
+          "kumiban": "0110",
+          "min_units": 2,
+          "race_code": "2026102508040911",
+          "stake": 200
+        },
+        {
+          "ai_probability": 0.010118620315116072,
+          "bet_type": "umaren",
+          "decimal_odds": 104.6,
+          "kumiban": "0209",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.008403405595232906,
+          "bet_type": "umaren",
+          "decimal_odds": 313.8,
+          "kumiban": "0214",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.00444796249854018,
+          "bet_type": "umaren",
+          "decimal_odds": 2069.7,
+          "kumiban": "0218",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.0034148516671421367,
+          "bet_type": "umaren",
+          "decimal_odds": 2332.4,
+          "kumiban": "0318",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.018661226709568577,
+          "bet_type": "umaren",
+          "decimal_odds": 68.6,
+          "kumiban": "0610",
+          "min_units": 2,
+          "race_code": "2026102508040911",
+          "stake": 200
+        },
+        {
+          "ai_probability": 0.006104535751587717,
+          "bet_type": "umaren",
+          "decimal_odds": 536.9,
+          "kumiban": "0614",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.010457525191217525,
+          "bet_type": "umaren",
+          "decimal_odds": 102.1,
+          "kumiban": "0708",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.008223603420317917,
+          "bet_type": "umaren",
+          "decimal_odds": 312.4,
+          "kumiban": "0710",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.0076325809916966275,
+          "bet_type": "umaren",
+          "decimal_odds": 172.3,
+          "kumiban": "0812",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.010666957683257892,
+          "bet_type": "umaren",
+          "decimal_odds": 142.2,
+          "kumiban": "0817",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.014673877353057167,
+          "bet_type": "umaren",
+          "decimal_odds": 167.9,
+          "kumiban": "0818",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.008583937905016503,
+          "bet_type": "umaren",
+          "decimal_odds": 244.5,
+          "kumiban": "0914",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.004543567315767065,
+          "bet_type": "umaren",
+          "decimal_odds": 1332.6,
+          "kumiban": "0918",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.021786148271070695,
+          "bet_type": "umaren",
+          "decimal_odds": 74.3,
+          "kumiban": "1014",
+          "min_units": 2,
+          "race_code": "2026102508040911",
+          "stake": 200
+        },
+        {
+          "ai_probability": 0.011865596011386762,
+          "bet_type": "umaren",
+          "decimal_odds": 127.1,
+          "kumiban": "1015",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.01202644648057044,
+          "bet_type": "umaren",
+          "decimal_odds": 109.1,
+          "kumiban": "1016",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.008388342931049224,
+          "bet_type": "umaren",
+          "decimal_odds": 408.6,
+          "kumiban": "1017",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.011540530859675335,
+          "bet_type": "umaren",
+          "decimal_odds": 480.0,
+          "kumiban": "1018",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.0037729385114489197,
+          "bet_type": "umaren",
+          "decimal_odds": 2041.4,
+          "kumiban": "1418",
+          "min_units": 1,
+          "race_code": "2026102508040911",
+          "stake": 100
+        }
+      ],
+      "total_stake_yen": 3300,
+      "unspent_yen": 6700,
+      "win_odds_source": {
+        "page_sha256": "4e4fa5b2dafc07b592b166fe83543c44ef1279ab3074aa2adb0f59d4d6f3eeed",
+        "retrieved_at": "2026-10-25T06:09:05.003150+00:00",
+        "source_updated_at": "2026-10-25T15:08:00+09:00",
+        "source_url": "https://sports.yahoo.co.jp/keiba/race/odds/tfw/2608040911?ninki=0"
+      }
+    }
+  },
+  "schema_version": 1,
+  "test_only": true
+}
