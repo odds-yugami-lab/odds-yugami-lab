@@ -10,7 +10,7 @@ def allocate_balanced(combo,horses):
 
 def validate_record_budget(record):
     tickets=record.get('tickets',[]);total=sum(t['stake'] for t in tickets)
-    if record.get('allocation_rule')==VERSION:
+    if record.get('allocation_rule') in (VERSION,'ichiro_half_gross_E50_H50_v1_20261026','matsui_half_EV1_net_E50_H50_v1_20261026'):
         if record.get('schema_version',0)<7 or record.get('budget_limit_yen')!=10000:
             raise ValueError('Missing budget-ceiling policy metadata')
         if not 1<=len(tickets)<=30 or not 0<total<=10000 or record.get('total_stake_yen')!=total:
@@ -23,3 +23,4 @@ def validate_record_budget(record):
     elif total!=10000 or record.get('total_stake_yen',10000)!=10000:
         raise ValueError('Legacy saved budget mismatch')
     return total
+

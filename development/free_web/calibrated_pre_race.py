@@ -21,7 +21,7 @@ def timestamp(value):
         raise ValueError('Timezone required')
     return stamp.astimezone(dt.timezone.utc)
 
-def prepare(model_dir,runners,snapshots,metadata,win_snapshot,now=None,clock=None):
+def prepare(model_dir,runners,snapshots,metadata,win_snapshot,now=None,clock=None,correction_parameters=None,allocation_function=None):
     now_was_supplied=now is not None
     now=now or dt.datetime.now(dt.timezone.utc)
     if now.tzinfo is None:raise ValueError('Timezone required')
@@ -63,13 +63,14 @@ def prepare(model_dir,runners,snapshots,metadata,win_snapshot,now=None,clock=Non
                        'win_probability':probabilities['win'],'top3_probability':probabilities['top3']})
     price_by_number={int(r['umaban']):r['decimal_odds'] for r in win_snapshot['rows']}
     prices=[price_by_number[int(n)] for n in pred.umaban]
-    strength=corrected_strength(pred,prices,PARAMETERS['alpha_ai'],PARAMETERS['beta_market'])
+    parameters=correction_parameters or PARAMETERS
+    strength=corrected_strength(pred,prices,parameters['alpha_ai'],parameters['beta_market'])
     pred,combos=probability_tables(pred,strength)
     odds=pd.DataFrame([r for s in snapshots.values() for r in s['rows']])
     merged=combos.merge(odds,on=['race_code','bet_type','kumiban'],how='outer',validate='one_to_one',indicator=True)
     if not merged['_merge'].eq('both').all():raise ValueError('Incomplete or extra odds')
     if not merged['decimal_odds'].map(lambda x:pd.notna(x) and 1<=x<float('inf')).all():raise ValueError('Invalid odds')
-    tickets, allocation_audit=allocate_balanced(merged.drop(columns='_merge'),pred)
+    tickets, allocation_audit=(allocation_function or allocate_balanced)(merged.drop(columns='_merge'),pred)
     if tickets.empty or not 0<tickets['stake'].sum()<=10000 or len(tickets)>30 or not ((tickets['stake']>0)&(tickets['stake']%100==0)).all():raise ValueError('Invalid budget allocation')
     if not (tickets['stake']*tickets['decimal_odds']>=10000-1e-8).all():raise ValueError('Single-ticket payout condition failed')
     model_manifest=json.loads((Path(model_dir)/'manifest.json').read_text())
@@ -95,8 +96,8 @@ def prepare(model_dir,runners,snapshots,metadata,win_snapshot,now=None,clock=Non
             'allocation_rule':VERSION,'total_stake_yen':int(tickets.stake.sum()),
             'budget_limit_yen':10000,'unspent_yen':int(10000-tickets.stake.sum()),
             'allocation_core_sha256':hashlib.sha256(Path(__file__).with_name('cap30_ceiling_allocator.py').read_bytes()).hexdigest(),
-            'probability_method':PARAMETERS['version'],
-            'probability_correction_parameters_sha256':hashlib.sha256(json.dumps(PARAMETERS,sort_keys=True).encode()).hexdigest(),
+            'probability_method':parameters['version'],
+            'probability_correction_parameters_sha256':hashlib.sha256(json.dumps(parameters,sort_keys=True).encode()).hexdigest(),
             'probability_correction_core_sha256':hashlib.sha256(Path(__file__).with_name('strength_calibration.py').read_bytes()).hexdigest(),
             'win_odds_source':{k:win_snapshot[k] for k in ['source_url','retrieved_at','source_updated_at','page_sha256']},
             'allocation_audit':allocation_audit,
@@ -110,3 +111,4 @@ def x_draft(record,url,commit_sha):
     if not re.fullmatch(r'[a-f0-9]{40}',commit_sha) or not url.startswith(prefix):
         raise ValueError('Confirmed immutable GitHub URL required')
     return f"【オッズの歪みラボ】{record['race_name']}\n馬連・3連複 計{len(record['tickets'])}点／{record['total_stake_yen']:,}円\n全買い目・金額・取得時オッズ：\n{url}"
+

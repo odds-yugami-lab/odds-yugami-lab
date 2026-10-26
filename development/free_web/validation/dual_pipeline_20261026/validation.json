@@ -1,0 +1,52 @@
+{
+  "test_only": true,
+  "deployment_date": "2026-10-26",
+  "policy_version": "two_researchers_half_v1_20261026",
+  "names": {
+    "ichiro": "一郎研究員",
+    "matsui": "マツイ研究員"
+  },
+  "unit_and_regression_tests_passed": 39,
+  "model_inference_replay": {
+    "test_only": true,
+    "historical_clock_injected": true,
+    "original_saved_heads_reproduced": true,
+    "max_abs_error": {
+      "win": 0.0,
+      "top3": 0.0
+    },
+    "counts": {
+      "ichiro": 30,
+      "matsui": 30
+    },
+    "stakes": {
+      "ichiro": 10000,
+      "matsui": 3300
+    },
+    "current_wall_clock_live_run": false,
+    "body_weights_from_new_historical_official_entry_fetch": true
+  },
+  "github_roundtrip": {
+    "prediction_status": "test_complete",
+    "prediction_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/4eaf4f11deecd73727b282d293ce3fbc78b47c7e/development/free_web/publication_tests/dual_pipeline_20261026/2026102508040911.json",
+    "prediction_x_draft_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/1547ed87f80846a3ddeb68ba7288e81e636e90e6/development/free_web/publication_tests/dual_pipeline_20261026/2026102508040911_prediction_x.txt",
+    "settlement_status": "settled",
+    "settlement_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/d5ed9f74fb060e3475fe158c96321e9846a9ff52/development/free_web/publication_tests/dual_pipeline_20261026/2026102508040911_result.json",
+    "result_x_draft_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/8c3e5c4659c39078c8fad0ed8117f6dbce2004f1/development/free_web/publication_tests/dual_pipeline_20261026/2026102508040911_result_x.txt",
+    "official_result_freshly_fetched": true,
+    "test_only_records_not_live_performance": true
+  },
+  "kikka_automation_audit": {
+    "task_id": "6ab8d2b0567c81919e4b127b865ff899",
+    "scheduled_for_jst": "2026-10-25T16:35:00+09:00",
+    "started_jst": "2026-10-25T16:35:31.152791+09:00",
+    "completed_jst": "2026-10-25T16:47:44.931866+09:00",
+    "recorded_status": "completed",
+    "notification_delivery": "unknown",
+    "result_x_draft_not_explicit_in_old_prompt": true,
+    "old_matsui_shadow_not_permanent_dual_operation": true
+  },
+  "live_future_run_verified": false,
+  "x_sending_or_purchases_performed": false,
+  "original_records_preserved": true
+}

@@ -1,3 +1,20 @@
+# 現行：一郎・マツイの2研究員運用（2026-10-26）
+
+新規の入口は two_researcher_runner.py。人気補正50%、同一52項目モデルの推論1回・同じ当日全オッズから2方式を計算する。一郎はichiro_half_gross_E50_H50_v1_20261026、マツイはmatsui_half_EV1_net_E50_H50_v1_20261026。両方最大30点、上限1万円、最低必要額だけ、余りを残す。
+
+- live: `python3 -u two_researcher_runner.py live --race <16桁> --window <担当範囲> --model-dir <展開先> --history-dir <展開先> --pedigree <必要な既知血統parquet> --output <結果JSON>`。connector_bridge.jsで既存GitHub接続へ橋渡しする。
+- 指定ブランチの先頭commitを固定し、直下の全Pythonとconnector_bridge.jsを同一commitから取得。旧菊花賞限定shadowラッパーを使わない。旧probability-method引数は新CLIに渡さない。既存モデルを再学習/切替しない。
+- 前走全頭照合・履歴完備・出走/取消・馬体重・全単勝/馬連/3連複オッズを従来収集層で検証。推論と両配分の終了後も更新/取得90秒・期限を検査する。履歴不足を推測で完備扱いにしない。
+- predictions/researchers/<race>.jsonに2人分を1つの原本として新規保存。predictions/researchers_receipts/<race>.jsonで本文hash/commit/branch/祖先/時刻を検証。publications/researchers/<race>_prediction_x.txtも新規保存・読戻しし、発走12分前までに完了した場合のみ両買い目一覧とX草稿を提示。
+- settle: `python3 -u two_researcher_runner.py settle --race <16桁> --output <結果JSON>`。公式結果を新規取得し原本通りに精算、results/researchers/<race>.jsonとpublications/researchers/<race>_result_x.txtを保存・照合。status=settledとx_draftを確認してユーザーへ提示する。実購入確認は求めない。
+- 再実行は同じ原本/receipt/収支/X草稿を再利用し、異なる内容の既存ファイルは上書きしない。発走後に新規予想を作らない。過去free52/旧shadowの原本を新ルールに付け替えない。旧原本の精算だけはoperation_runner.py settleを維持。
+- 過去動作確認は --test-only --run-id によるpublication_testsへ分離し、X草稿にもテスト表示。本番成績へ混ぜない。X送信・購入はしない。
+- 予想予約は既存14:55/15:05/15:10の3枠で正式発走時刻を分担。答え合わせは16:35、未完了時の再確認17:35へ更新する。既存同一収支は再利用。結果・X草稿を先に提示してから履歴更新を行う。
+
+コードテスト・菊花賞当日入力によるGitHub往復は実施。当日発売中データの取得から新しい2人の本番原本保存までの初回実走は、次の対象レースで確認が必要。予約の設定と実走成功は分ける。
+
+## 以下は旧方式・過去の運用記録（新規の入口には使用しない）
+
 # 無料予想の実行手順（2026-10-23更新）
 
 ## 現行購入ルール：上限1万円・最大30点・最低必要額
@@ -122,3 +139,4 @@ source_bundleが返すofficial_entry_pageからpublic_previous.acquireを呼ぶ�
 - 403は発走時間切れとは別原因として扱う。アクセス制限を回避せず、公開取得手段の接続可否を個別診断する。失敗のまま `verified_live=true` にしない。
 - 本番前に同じ実行環境からJRA公式出馬表、無料出馬表、馬連・3連複・単勝の取得経路を確認する。過去日のページが読めても当日の発売中オッズの成功証明にはならない。`HTTP 403` のホスト・phaseが分かったら、公開かつ利用条件に適合する代替取得元を別途実装・検証する。
 - 発走12分前の締切、最新更新90秒以内、全組合せ・全頭・原本とreceiptの保存確認は緩和しない。単なる診断コード保存は本番接続・予想完了ではない。
+

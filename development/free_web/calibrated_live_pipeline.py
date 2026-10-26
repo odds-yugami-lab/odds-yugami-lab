@@ -23,7 +23,7 @@ def check_window(start, window):
         raise ValueError('Official start outside this task window')
 
 
-def prepare_from_sources(bundle, model_dir, history_dir, pedigree_paths=(), coverage_check=None):
+def prepare_from_sources(bundle, model_dir, history_dir, pedigree_paths=(), coverage_check=None, record_prepare=None):
     if bundle.get('mode') != 'live' or bundle.get('race_code') != bundle['official_participation']['race_code']:
         raise ValueError('Current live collector output required')
     if bundle.get('unresolved_previous'):
@@ -59,7 +59,7 @@ def prepare_from_sources(bundle, model_dir, history_dir, pedigree_paths=(), cove
         'features_obtained_at': assembly['features_obtained_at'],
         'active_horse_numbers': sorted(numbers)}
     win_snapshot=acquire_win_odds(race,official,rows)
-    record, _, _ = prepare(model_dir, assembly['runners'], bundle['odds_snapshots'], metadata,win_snapshot)
+    record, _, _ = (record_prepare or prepare)(model_dir, assembly['runners'], bundle['odds_snapshots'], metadata,win_snapshot)
     record['history_coverage_check'] = {'results_complete_through':coverage['history_complete_through'],
         'calendar_checked_through':checked_through,'non_race_gap_evidence':calendar_evidence}
     record['entry_sources'] = {'official':{k:official[k] for k in ['source_url','obtained_at','page_sha256']},
@@ -68,7 +68,7 @@ def prepare_from_sources(bundle, model_dir, history_dir, pedigree_paths=(), cove
     return record
 
 
-def prepare_live(race, model_dir, history_dir, pedigree_paths=(), window=None):
+def prepare_live(race, model_dir, history_dir, pedigree_paths=(), window=None, record_prepare=None):
     from public_live_collector import collect_live
     from history_coverage import effective_coverage
     coverage = json.loads((Path(history_dir) / 'coverage_manifest.json').read_text())
@@ -76,4 +76,5 @@ def prepare_live(race, model_dir, history_dir, pedigree_paths=(), window=None):
     coverage_check = effective_coverage(coverage['history_complete_through'], yesterday.isoformat())
     bundle = collect_live(race)
     if window: check_window(bundle['official_participation']['race_start_at'], window)
-    return prepare_from_sources(bundle, model_dir, history_dir, pedigree_paths, coverage_check)
+    return prepare_from_sources(bundle, model_dir, history_dir, pedigree_paths, coverage_check, record_prepare)
+

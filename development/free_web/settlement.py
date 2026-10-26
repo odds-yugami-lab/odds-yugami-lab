@@ -86,6 +86,7 @@ def settle(record,payout_snapshot,publication=None,test_only=False):
     if record.get('schema_version',0)>=6:
         result['probability_method']=record['probability_method']
         result['probability_correction_parameters_sha256']=record['probability_correction_parameters_sha256']
-    if record.get('allocation_rule')==VERSION:
+    if record.get('allocation_rule') in (VERSION,'ichiro_half_gross_E50_H50_v1_20261026','matsui_half_EV1_net_E50_H50_v1_20261026'):
         result.update(budget_limit_yen=10000,unspent_yen=record['unspent_yen'])
     return result
+
