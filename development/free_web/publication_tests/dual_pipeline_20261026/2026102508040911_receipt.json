@@ -1,0 +1,10 @@
+{
+  "commit_sha": "4eaf4f11deecd73727b282d293ce3fbc78b47c7e",
+  "content_sha256": "a919de285bc7f6c64c1821be433acce1f073db005f20a9066ffbdd6600f1942d",
+  "policy_version": "two_researchers_half_v1_20261026",
+  "race_code": "2026102508040911",
+  "record_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/4eaf4f11deecd73727b282d293ce3fbc78b47c7e/development/free_web/publication_tests/dual_pipeline_20261026/2026102508040911.json",
+  "recorded_at": "2026-10-26T02:33:52Z",
+  "schema_version": 1,
+  "test_only": true
+}
