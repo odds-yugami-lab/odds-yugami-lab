@@ -1,0 +1,24 @@
+{
+  "test_only": true,
+  "not_live_performance": true,
+  "race_code": "2026102508040911",
+  "researcher_name": "一郎研究員",
+  "prediction_commit": "2bef9c8cc6dd27c6668111408b219250149133f3",
+  "prediction_sha256": "5de054a4dcb8a44cfb2e1a115f6c37336a70421c67d0156fb7c75e961585006a",
+  "official_verified": true,
+  "source_url": "https://www.jra.go.jp/datafile/seiseki/g1/kikka/result/kikka2026.html",
+  "official_page_sha256": "2e76b6453a52b410ccc6201374d0be32c8c42550b37585fd60659f16d6bd5227",
+  "official_obtained_at": "2026-10-25T07:40:27.178853+00:00",
+  "winning_payouts_per100yen": {
+    "umaren": {
+      "0609": 11530
+    },
+    "sanrenpuku": {
+      "060910": 8580
+    }
+  },
+  "stake_yen": 10000,
+  "payout_yen": 0,
+  "profit_yen": -10000,
+  "recovery_percent": 0.0
+}

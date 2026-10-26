@@ -1,0 +1,64 @@
+{
+  "test_only": true,
+  "not_live_performance": true,
+  "race_code": "2026102508040911",
+  "comparison": [
+    {
+      "researcher": "ichiro",
+      "setting": "100_percent_original",
+      "tickets": 29,
+      "stake_yen": 10000,
+      "payout_yen": 0,
+      "profit_yen": -10000,
+      "recovery_percent": 0.0,
+      "estimated_any_hit_probability": 0.6851807190747785
+    },
+    {
+      "researcher": "ichiro",
+      "setting": "50_percent_replay",
+      "tickets": 30,
+      "stake_yen": 10000,
+      "payout_yen": 0,
+      "profit_yen": -10000,
+      "recovery_percent": 0.0,
+      "estimated_any_hit_probability": 0.5496326536300563
+    },
+    {
+      "researcher": "matsui",
+      "setting": "100_percent_original",
+      "tickets": 30,
+      "stake_yen": 3500,
+      "payout_yen": 0,
+      "profit_yen": -3500,
+      "recovery_percent": 0.0,
+      "estimated_any_hit_probability": 0.1687739059150679
+    },
+    {
+      "researcher": "matsui",
+      "setting": "50_percent_replay",
+      "tickets": 30,
+      "stake_yen": 3300,
+      "payout_yen": 0,
+      "profit_yen": -3300,
+      "recovery_percent": 0.0,
+      "estimated_any_hit_probability": 0.20351292425511924
+    }
+  ],
+  "source_snapshot_authenticated": true,
+  "full_correction_probability_reproduced": true,
+  "same969_original_live_odds": true,
+  "raw_saved_heads_reused_not_new_model_inference": true,
+  "all30point_budget_minimum_stake_checks_passed": true,
+  "matsui_nonnegative_ev_verified": true,
+  "prediction_seal_readback_verified": true,
+  "official_result_verified_from_existing_authenticated_result": true,
+  "fresh_official_refetch_performed": false,
+  "original_records_and_receipts_unchanged": true,
+  "production_code_and_automations_unchanged": true,
+  "original_production_was_formal_shadow_was_test": true,
+  "replay_cannot_be_counted_as_pre_race_prediction": true,
+  "comparison_combination_overlap": {
+    "ichiro": 22,
+    "matsui": 11
+  }
+}
