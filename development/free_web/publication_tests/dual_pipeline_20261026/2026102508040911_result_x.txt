@@ -1,0 +1,6 @@
+【テスト・実戦成績外】オッズの歪みラボ｜菊花賞・当日入力による事後動作テスト 結果
+一郎研究員：不的中／回収率0.0%／損益-10,000円
+マツイ研究員：不的中／回収率0.0%／損益-3,300円
+仮想配分に基づく記録。全買い目・払戻はこちら
+https://github.com/odds-yugami-lab/odds-yugami-lab/blob/d5ed9f74fb060e3475fe158c96321e9846a9ff52/development/free_web/publication_tests/dual_pipeline_20261026/2026102508040911_result.json
+#競馬予想
