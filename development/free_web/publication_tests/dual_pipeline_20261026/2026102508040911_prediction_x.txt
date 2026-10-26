@@ -1,0 +1,7 @@
+【テスト・実戦成績外】オッズの歪みラボ｜菊花賞・当日入力による事後動作テスト
+的中派・一郎研究員 vs 収益派・マツイ研究員
+一郎研究員：30点・仮想10,000円
+マツイ研究員：30点・仮想3,300円
+全買い目・金額・確定時刻はこちら
+https://github.com/odds-yugami-lab/odds-yugami-lab/blob/4eaf4f11deecd73727b282d293ce3fbc78b47c7e/development/free_web/publication_tests/dual_pipeline_20261026/2026102508040911.json
+#競馬予想
