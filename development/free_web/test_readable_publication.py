@@ -32,7 +32,8 @@ class ReadablePublicationTest(unittest.TestCase):
     def test_live_path_has_readable_and_test_path_isolated(self):
         self.assertEqual(paths('2026110108040111')['readable'],
                          'publications/researchers/2026110108040111_readable.md')
-        self.assertNotIn('readable', paths('2026110108040111', True, 'regression'))
+        self.assertEqual(paths('2026110108040111', True, 'regression')['readable'],
+                         'development/free_web/publication_tests/regression/2026110108040111_readable.md')
 
 
 if __name__ == '__main__':
