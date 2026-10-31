@@ -1,0 +1,10 @@
+{
+  "commit_sha": "9ee3ec1b39d53453085e3a5237b42e7de1829044",
+  "content_sha256": "6ced602c73f791a850a66d6dd31cd3733768656ed9b3c0f3b9dde317dbcb883c",
+  "policy_version": "two_researchers_half_v1_20261026",
+  "race_code": "2026103108041011",
+  "record_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/9ee3ec1b39d53453085e3a5237b42e7de1829044/predictions/researchers/2026103108041011.json",
+  "recorded_at": "2026-10-31T06:22:04Z",
+  "schema_version": 1,
+  "test_only": false
+}
