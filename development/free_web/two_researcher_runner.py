@@ -10,7 +10,7 @@ def paths(race,test_only=False,run_id=None):
     if test_only:
         if not run_id or not re.fullmatch('[A-Za-z0-9_-]+',run_id):raise ValueError('Test run ID required')
         root='development/free_web/publication_tests/'+run_id
-        return {k:root+'/'+race+suffix for k,suffix in [('prediction','.json'),('receipt','_receipt.json'),('result','_result.json'),('prediction_x','_prediction_x.txt'),('result_x','_result_x.txt')]}
+        return {k:root+'/'+race+suffix for k,suffix in [('prediction','.json'),('receipt','_receipt.json'),('result','_result.json'),('prediction_x','_prediction_x.txt'),('result_x','_result_x.txt'),('readable','_readable.md')]}
     return {'prediction':'predictions/researchers/'+race+'.json','receipt':'predictions/researchers_receipts/'+race+'.json',
        'result':'results/researchers/'+race+'.json','prediction_x':'publications/researchers/'+race+'_prediction_x.txt',
        'result_x':'publications/researchers/'+race+'_result_x.txt',
@@ -58,11 +58,10 @@ def publish_pair(pair,github,test_only=False,run_id=None,clock=None):
     # Revalidate the real wall clock after storage, not just the computation timestamp.
     validate(record,now=clock(),test_only=test_only)
     readable_url=receipt['record_url']
-    if not test_only:
-        readable=readable_prediction(record,receipt['record_url'])
-        readable_sha,(_,_,readable_time)=github.save(p['readable'],readable,'Publish readable prediction '+record['race_code'])
-        timely(record,readable_time,test_only);validate(record,now=clock(),test_only=test_only)
-        readable_url=url(readable_sha,p['readable'])
+    readable=readable_prediction(record,receipt['record_url'])
+    readable_sha,(_,_,readable_time)=github.save(p['readable'],readable,'Publish readable prediction '+record['race_code'])
+    timely(record,readable_time,test_only);validate(record,now=clock(),test_only=test_only)
+    readable_url=url(readable_sha,p['readable'])
     draft=prediction_draft(record,readable_url,test_only)
     draft_sha,(_,_,draft_time)=github.save(p['prediction_x'],draft+'\n','Save prediction X draft '+record['race_code'])
     timely(record,draft_time,test_only);validate(record,now=clock(),test_only=test_only)
