@@ -1,0 +1,9 @@
+{
+  "completed": false,
+  "error": "Stale/future source data",
+  "error_type": "ValueError",
+  "race_code": "2026103108041011",
+  "stage": "live",
+  "status": "failed",
+  "x_draft": null
+}
