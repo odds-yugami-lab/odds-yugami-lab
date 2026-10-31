@@ -13,7 +13,8 @@ def paths(race,test_only=False,run_id=None):
         return {k:root+'/'+race+suffix for k,suffix in [('prediction','.json'),('receipt','_receipt.json'),('result','_result.json'),('prediction_x','_prediction_x.txt'),('result_x','_result_x.txt')]}
     return {'prediction':'predictions/researchers/'+race+'.json','receipt':'predictions/researchers_receipts/'+race+'.json',
        'result':'results/researchers/'+race+'.json','prediction_x':'publications/researchers/'+race+'_prediction_x.txt',
-       'result_x':'publications/researchers/'+race+'_result_x.txt'}
+       'result_x':'publications/researchers/'+race+'_result_x.txt',
+       'readable':'publications/researchers/'+race+'_readable.md'}
 def url(sha,path):return 'https://github.com/'+REPOSITORY+'/blob/'+sha+'/'+path
 def timely(pair,stamp,test_only):
     if not test_only and not timestamp(pair['prediction_finalized_at'])<=timestamp(stamp)<=timestamp(pair['race_start_at'])-dt.timedelta(minutes=12):raise ValueError('Late/invalid pre-race commit')
@@ -25,6 +26,25 @@ def listing(pair):
             nums='-'.join(str(int(t['kumiban'][i:i+2])) for i in range(0,len(t['kumiban']),2))
             out.append(('馬連' if t['bet_type']=='umaren' else '3連複')+' '+nums+f" {t['stake']:,}円")
     return '\n'.join(out)
+def readable_prediction(record, original_url):
+    """Render both immutable allocations in a simple Japanese Markdown table."""
+    lines=['# オッズの歪みラボ｜'+record['race_name'], '',
+           '発走：'+record['race_start_at']+' ／ 予想確定：'+record['prediction_finalized_at'],
+           '', '[発走前予想原本（JSON）]('+original_url+')', '',
+           '> 発走前に確定した買い目と金額を転記しています。仮想購入であり実購入ではありません。', '']
+    for key in ('ichiro','matsui'):
+        person=record['researchers'][key]
+        lines.extend(['## '+person['researcher_name'], '',
+            f"仮想購入 {person['total_stake_yen']:,}円／残額 {person['unspent_yen']:,}円／{len(person['tickets'])}点",
+            '', '| 券種 | 買い目 | 金額 | 取得時オッズ |', '|---|---|---:|---:|'])
+        for ticket in person['tickets']:
+            nums='-'.join(str(int(ticket['kumiban'][i:i+2])) for i in range(0,len(ticket['kumiban']),2))
+            kind='馬連' if ticket['bet_type']=='umaren' else '3連複'
+            lines.append(f"| {kind} | {nums} | {ticket['stake']:,}円 | {ticket['decimal_odds']}倍 |")
+        lines.append('')
+    lines.append('※発走時点の最終オッズ・払戻と異なる可能性があります。')
+    return '\n'.join(lines)+'\n'
+
 def publish_pair(pair,github,test_only=False,run_id=None,clock=None):
     clock=clock or (lambda:dt.datetime.now(dt.timezone.utc));validate(pair,now=clock(),test_only=test_only)
     record=copy.deepcopy(pair);record['test_only']=test_only
@@ -37,12 +57,19 @@ def publish_pair(pair,github,test_only=False,run_id=None,clock=None):
     timely(record,receipt_time,test_only)
     # Revalidate the real wall clock after storage, not just the computation timestamp.
     validate(record,now=clock(),test_only=test_only)
-    draft=prediction_draft(record,receipt['record_url'],test_only)
+    readable_url=receipt['record_url']
+    if not test_only:
+        readable=readable_prediction(record,receipt['record_url'])
+        readable_sha,(_,_,readable_time)=github.save(p['readable'],readable,'Publish readable prediction '+record['race_code'])
+        timely(record,readable_time,test_only);validate(record,now=clock(),test_only=test_only)
+        readable_url=url(readable_sha,p['readable'])
+    draft=prediction_draft(record,readable_url,test_only)
     draft_sha,(_,_,draft_time)=github.save(p['prediction_x'],draft+'\n','Save prediction X draft '+record['race_code'])
     timely(record,draft_time,test_only);validate(record,now=clock(),test_only=test_only)
     return {'status':'test_complete' if test_only else 'published','test_only':test_only,'race_code':record['race_code'],
        'prediction_commit_sha':commit,'receipt_commit_sha':receipt_sha,'record_url':receipt['record_url'],
-       'x_draft':draft,'x_draft_url':url(draft_sha,p['prediction_x']),'chat_listing':listing(record)}
+       'x_draft':draft,'x_draft_url':url(draft_sha,p['prediction_x']),
+       'readable_url':readable_url,'chat_listing':listing(record)}
 def settle_pair(race,github,payout_snapshot=None,test_only=False,run_id=None):
     from settlement import settle
     p=paths(race,test_only,run_id);receipt_bytes=github.optional(p['receipt'])
