@@ -1,0 +1,9 @@
+{
+  "completed": false,
+  "error": "Pair receipt missing; no retrospective pre-race fabrication",
+  "error_type": "ValueError",
+  "race_code": "2026110105041111",
+  "stage": "settle",
+  "status": "failed",
+  "x_draft": null
+}
