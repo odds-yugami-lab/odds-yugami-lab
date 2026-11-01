@@ -1,0 +1,10 @@
+{
+  "commit_sha": "ee909d963442b03a8c13969126bab0d7b27db01b",
+  "content_sha256": "4d973624554fa8ed3b88476c6b2b76f36b18d76857fbd9a65ee6eec689064447",
+  "policy_version": "two_researchers_half_v1_20261026",
+  "race_code": "2026102405040811",
+  "record_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/ee909d963442b03a8c13969126bab0d7b27db01b/development/free_web/publication_tests/dual_python_20261101_mvxboci1/2026102405040811.json",
+  "recorded_at": "2026-11-01T04:21:08Z",
+  "schema_version": 1,
+  "test_only": true
+}
