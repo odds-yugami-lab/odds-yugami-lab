@@ -1,0 +1,9 @@
+{
+  "completed": false,
+  "error": "Commit/branch/content readbacks differ",
+  "error_type": "ValueError",
+  "race_code": "2026102405040811",
+  "stage": "readback_ancestry_server_time:development/free_web/publication_tests/dual_python_20261101_mvxbmy3e/2026102405040811.json",
+  "status": "failed",
+  "x_draft": null
+}
