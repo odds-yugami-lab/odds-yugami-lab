@@ -1,0 +1,6 @@
+{
+  "test_only": true,
+  "record_type": "transport_probe_only",
+  "race_code": "2099010101010111",
+  "not_real_prediction": true
+}
