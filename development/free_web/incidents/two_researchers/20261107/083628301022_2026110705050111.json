@@ -1,0 +1,9 @@
+{
+  "completed": false,
+  "error": "Allocator hash mismatch",
+  "error_type": "ValueError",
+  "race_code": "2026110705050111",
+  "stage": "readback_ancestry_server_time:predictions/researchers_receipts/2026110705050111.json",
+  "status": "failed",
+  "x_draft": null
+}
