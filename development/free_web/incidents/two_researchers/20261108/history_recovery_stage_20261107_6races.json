@@ -1,0 +1,55 @@
+{
+  "status": "partial_evidence_acquired",
+  "stage": "history_recovery",
+  "race_date": "2026-11-07",
+  "expected_races": 36,
+  "staged_races": 6,
+  "staged_result_rows": 79,
+  "remaining_races": 30,
+  "staged_race_codes": [
+    "2026110703030101",
+    "2026110703030102",
+    "2026110705050101",
+    "2026110705050102",
+    "2026110708050101",
+    "2026110708050102"
+  ],
+  "additional_verified_result_sources": [
+    "https://sp.jra.jp/JRADB/accessS.html?CNAME=sw01sde1003202603010220261107%2FCA",
+    "https://sp.jra.jp/JRADB/accessS.html?CNAME=sw01sde1005202605010220261107%2FC0",
+    "https://sp.jra.jp/JRADB/accessS.html?CNAME=sw01sde1008202605010220261107%2F9E"
+  ],
+  "private_staging": {
+    "filename": "JRA_20261107_partial_official_results_private_v2.json",
+    "sha256": "c236951266152af40859882305cf5a0441e7971bd85b5d7c595f2dc0d52385cc",
+    "uploaded_to_public_github": false
+  },
+  "history_manifest": {
+    "source_version": 10,
+    "complete_through": "2026-11-01",
+    "rows": 1174997,
+    "history_sha256": "320943f80fe2ab4df3fce72fced5622a018578fe8014d791400771056a76833e",
+    "zip_crc_passed": true
+  },
+  "unresolved": [
+    "30 race results",
+    "full verified entries for all 36 races",
+    "horse IDs",
+    "jockey/trainer codes",
+    "sire codes",
+    "track and distance verification",
+    "cancellations/exclusions",
+    "duplicate-key checks"
+  ],
+  "completed": {
+    "history_append": false,
+    "library_version_upload": false,
+    "ichiro_live": false,
+    "matsui_live": false,
+    "prediction": false,
+    "receipt": false,
+    "x_draft": false
+  },
+  "deadline": "2026-11-08T15:33:00+09:00",
+  "policy": "Do not advance coverage or retrospectively publish; preserve original model/history and prediction records."
+}
