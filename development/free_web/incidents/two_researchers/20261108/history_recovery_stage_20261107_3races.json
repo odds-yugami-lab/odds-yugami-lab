@@ -1,0 +1,37 @@
+{
+  "status": "partial_evidence_acquired",
+  "stage": "history_recovery",
+  "race_date": "2026-11-07",
+  "official_full_result_pages_verified": 3,
+  "required_races": 36,
+  "official_result_rows_staged_privately": 35,
+  "staged_race_codes": [
+    "2026110703030101",
+    "2026110705050101",
+    "2026110708050101"
+  ],
+  "official_urls": [
+    "https://sp.jra.jp/JRADB/accessS.html?CNAME=sw01sde1003202603010120261107%2F15",
+    "https://sp.jra.jp/JRADB/accessS.html?CNAME=sw01sde1005202605010120261107%2F0B",
+    "https://sp.jra.jp/JRADB/accessS.html?CNAME=sw01sde1008202605010120261107%2FE9"
+  ],
+  "private_staging_sha256": "850c5560bd4ffebd6d67d4cf437769c3ec742e03a9871deef79a0a51b5eeff58",
+  "private_staging_not_uploaded_to_public_github": true,
+  "remaining_races_without_full_result_staging": 33,
+  "missing_identity_fields": [
+    "horse_id",
+    "jockey_code",
+    "trainer_code",
+    "sire_code",
+    "track_code_and_entry_metadata"
+  ],
+  "coverage_complete": false,
+  "history_modified": false,
+  "private_library_new_version": false,
+  "model_modified": false,
+  "prediction_created": false,
+  "receipt_created": false,
+  "x_draft_created": false,
+  "publication_deadline": "2026-11-08T15:33:00+09:00",
+  "notice": "Official result rows are not sufficient for appending verified history. Do not set history_complete_through to 2026-11-07 or retroactively publish live predictions."
+}
