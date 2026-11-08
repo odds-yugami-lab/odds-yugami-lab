@@ -1,0 +1,33 @@
+{
+  "status": "blocked",
+  "stage": "history_recovery",
+  "race_code": "2026110808050211",
+  "window": "15:43-23:59",
+  "race_start_at": "2026-11-08T15:45:00+09:00",
+  "publication_deadline": "2026-11-08T15:33:00+09:00",
+  "checked_at": "2026-11-08T06:36:24.513Z",
+  "error_type": "VerifiedHistoryIncomplete",
+  "error": "Private Library history v10 is complete only through 2026-11-01; verified full-field results and entries for JRA meeting 2026-11-07 are absent. Cannot truthfully advance coverage or publish after deadline.",
+  "source_history_version": "10",
+  "source_history_sha256": "320943f80fe2ab4df3fce72fced5622a018578fe8014d791400771056a76833e",
+  "required_missing_day": "2026-11-07",
+  "recovery_attempt": {
+    "history_zip_materialized": true,
+    "zip_manifest_checked": true,
+    "github_original_exists": false,
+    "github_receipt_exists": false,
+    "github_x_draft_exists": false,
+    "verified_20261107_full_race_data_acquired": false,
+    "history_zip_modified": false,
+    "github_predictions_modified": false,
+    "model_modified": false
+  },
+  "completed": {
+    "ichiro": false,
+    "matsui": false,
+    "prediction": false,
+    "receipt": false,
+    "x_draft": false
+  },
+  "next_action": "Acquire official and public full-field result plus verified entry metadata for every JRA race on 2026-11-07; append via history_bridge with row/key/sire checks, hash and manifest, save new private Library version. Do not retrospectively publish this race as live."
+}
