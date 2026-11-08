@@ -1,0 +1,9 @@
+{
+  "completed": false,
+  "error": "History missing completed JRA race days: 2026-11-07",
+  "error_type": "ValueError",
+  "race_code": "2026110805050211",
+  "stage": "live",
+  "status": "failed",
+  "x_draft": null
+}
