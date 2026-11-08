@@ -1,0 +1,101 @@
+{
+  "schema": "history_gap_evidence_v1",
+  "race_date": "2026-11-07",
+  "verified_meeting_count": 3,
+  "expected_race_count": 36,
+  "meetings": [
+    {
+      "code": "26030301",
+      "venue": "福島",
+      "calendar_url": "https://sports.yahoo.co.jp/keiba/race/list/26030301",
+      "expected_races": 12,
+      "race_ids": [
+        "2603030101",
+        "2603030102",
+        "2603030103",
+        "2603030104",
+        "2603030105",
+        "2603030106",
+        "2603030107",
+        "2603030108",
+        "2603030109",
+        "2603030110",
+        "2603030111",
+        "2603030112"
+      ]
+    },
+    {
+      "code": "26050501",
+      "venue": "東京",
+      "calendar_url": "https://sports.yahoo.co.jp/keiba/race/list/26050501",
+      "expected_races": 12,
+      "race_ids": [
+        "2605050101",
+        "2605050102",
+        "2605050103",
+        "2605050104",
+        "2605050105",
+        "2605050106",
+        "2605050107",
+        "2605050108",
+        "2605050109",
+        "2605050110",
+        "2605050111",
+        "2605050112"
+      ]
+    },
+    {
+      "code": "26080501",
+      "venue": "京都",
+      "calendar_url": "https://sports.yahoo.co.jp/keiba/race/list/26080501",
+      "expected_races": 12,
+      "race_ids": [
+        "2608050101",
+        "2608050102",
+        "2608050103",
+        "2608050104",
+        "2608050105",
+        "2608050106",
+        "2608050107",
+        "2608050108",
+        "2608050109",
+        "2608050110",
+        "2608050111",
+        "2608050112"
+      ]
+    }
+  ],
+  "evidence": {
+    "jra_official_home": "https://www.jra.go.jp/",
+    "official_result_examples": [
+      "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0103202603010120261107%2FA9",
+      "https://www.jra.go.jp/JRADB/accessS.html?CNAME=pw01sde0108202605011120261107%2FCF"
+    ],
+    "official_entry_example": "https://www.jra.go.jp/JRADB/accessD.html?CNAME=pw01dde1008202605011120261107%2FF2"
+  },
+  "private_history": {
+    "library_file_name": "JRA_free_history_20261012.zip",
+    "library_version": "10",
+    "complete_through": "2026-11-01",
+    "history_sha256": "320943f80fe2ab4df3fce72fced5622a018578fe8014d791400771056a76833e",
+    "zip_crc_ok": true
+  },
+  "verified_status": {
+    "race_calendar": true,
+    "all_36_result_pages_acquired": false,
+    "all_36_entry_pages_acquired": false,
+    "horse_ids_verified": false,
+    "jockey_trainer_codes_verified": false,
+    "sire_codes_verified": false,
+    "full_field_rows_verified": false,
+    "history_parquet_updated": false,
+    "private_library_new_version_saved": false
+  },
+  "rules": [
+    "Do not treat a calendar listing or a top-three result as a full-field historical row set.",
+    "Do not mark coverage complete before all 36 races, horse IDs, race dates, metadata, sire codes, result statuses and duplicate keys are independently checked.",
+    "Do not write private history or model to this public GitHub repository.",
+    "The 2026-11-08 15:33 JST live publication deadline has passed; do not fabricate retrospective live predictions."
+  ],
+  "next_required": "Acquire full 2026-11-07 public result and verified entry metadata for 36 races; validate and append to a separate private history parquet, regenerate manifest SHA, upload as new private Library version."
+}
