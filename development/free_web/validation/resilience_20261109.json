@@ -25,7 +25,7 @@
   },
   "scheduling": {
     "historical_window_evidence": [
-      "15:35以前",
+      "00:00-15:35",
       "15:36-15:42",
       "15:43-23:59"
     ],
@@ -45,5 +45,22 @@
     "Complete pedigree identity verification and append into a separate private history version remain unfinished.",
     "No connected tool exposes the existing hosted ChatGPT tasks for authoritative read/update; local automation directory is absent and browser is signed out.",
     "Private archive export into tool/session output was rejected by automatic approval review; archive is retained locally and was not uploaded."
-  ]
+  ],
+  "github_verification": {
+    "code_commit": "c9ad5f9b8a7819f5565794acc9087f7a76f5bb48",
+    "all_13_changed_files_readback_exact": true,
+    "branch_head_confirmed": true,
+    "original_prediction_result_model_policy_files_changed": false
+  },
+  "windows_entrypoint_network_test": {
+    "completed": false,
+    "attempts": 2,
+    "timeouts_seconds": [
+      180,
+      240
+    ],
+    "test_files_created": false,
+    "model_or_history_sent": false,
+    "prospective_live_prediction_verified": false
+  }
 }
