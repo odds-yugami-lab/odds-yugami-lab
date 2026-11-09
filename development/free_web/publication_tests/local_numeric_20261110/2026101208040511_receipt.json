@@ -1,0 +1,10 @@
+{
+  "commit_sha": "02e02cf583c13d9c4c850f83cca7816fd4f1d5da",
+  "content_sha256": "c730b607ba95b0de1bcac4680102c5aebe61f0c99960aaa437c6ebfa26918d59",
+  "policy_version": "two_researchers_half_v1_20261026",
+  "race_code": "2026101208040511",
+  "record_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/02e02cf583c13d9c4c850f83cca7816fd4f1d5da/development/free_web/publication_tests/local_numeric_20261110/2026101208040511.json",
+  "recorded_at": "2026-11-09T15:33:23Z",
+  "schema_version": 1,
+  "test_only": true
+}
