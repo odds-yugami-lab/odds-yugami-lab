@@ -1,0 +1,7 @@
+【テスト・実戦成績外】オッズの歪みラボ｜試験
+的中派・一郎研究員 vs 収益派・マツイ研究員
+一郎研究員：2点・仮想5,100円
+マツイ研究員：1点・仮想100円
+全買い目・金額・確定時刻はこちら
+https://github.com/odds-yugami-lab/odds-yugami-lab/blob/7c22c2005b225a240581002193f7adc9262e61c2/development/free_web/publication_tests/resilience_20261109/2026102405040811_readable.md
+#競馬予想
