@@ -1,0 +1,10 @@
+{
+  "commit_sha": "4d6f0a72f83286da96e29519443a607410c8587a",
+  "content_sha256": "b677bec8db3ead379c79743983cc6b7fd03c465d4efe4a02f4e9f49861cc1c73",
+  "policy_version": "two_researchers_half_v1_20261026",
+  "race_code": "2026102405040811",
+  "record_url": "https://github.com/odds-yugami-lab/odds-yugami-lab/blob/4d6f0a72f83286da96e29519443a607410c8587a/development/free_web/publication_tests/resilience_20261109/2026102405040811.json",
+  "recorded_at": "2026-11-09T02:42:38Z",
+  "schema_version": 1,
+  "test_only": true
+}
