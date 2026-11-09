@@ -8,6 +8,7 @@ import datetime as dt
 import hashlib
 import json
 import os
+import time
 from pathlib import Path
 import re
 import sys
@@ -182,6 +183,9 @@ def settle_saved(race, github, payout_snapshot=None, test_only=False, run_id=Non
 class ConnectorRPC:
     """One-line JSON over a noncanonical, non-echoing terminal; no tokens."""
     def __init__(self):
+        self.directory = Path(os.environ['JRA_RPC_DIRECTORY']).resolve() if os.environ.get('JRA_RPC_DIRECTORY') else None
+        if self.directory:
+            self.directory.mkdir(parents=True, exist_ok=True)
         if sys.stdin.isatty() and os.name != 'nt':
             import termios
             attr = termios.tcgetattr(0)
@@ -195,6 +199,21 @@ class ConnectorRPC:
         if method not in {'fetch', 'fetch_file', 'fetch_commit', 'create_file'}:
             raise ValueError('RPC method not allowed')
         self.sequence += 1
+        if self.directory:
+            from resilience import atomic_json
+            request_path = self.directory / ('request-' + str(self.sequence) + '.json')
+            response_path = self.directory / ('response-' + str(self.sequence) + '.json')
+            if request_path.exists() or response_path.exists():
+                raise ValueError('RPC directory must be unique to this process')
+            atomic_json(request_path, {'id':self.sequence,'method':method,'args':args})
+            limit = time.monotonic() + 120
+            while not response_path.exists():
+                if time.monotonic() >= limit:raise TimeoutError('GitHub connector response timed out')
+                time.sleep(.1)
+            response = json.loads(response_path.read_text(encoding='utf-8'))
+            if response.get('id') != self.sequence or response.get('error'):
+                raise RuntimeError('GitHub '+method+' failed: '+str(response.get('error','RPC ID mismatch')))
+            return response['result']
         print('JRA_RPC ' + json.dumps({'id': self.sequence, 'method': method, 'args': args}), flush=True)
         response = json.loads(sys.stdin.readline())
         if response.get('id') != self.sequence or response.get('error'):

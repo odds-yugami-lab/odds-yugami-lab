@@ -1,0 +1,40 @@
+{
+  "date_jst": "2026-11-09",
+  "overall": "blocked_not_autonomous_production_complete",
+  "unit_tests_passed": 48,
+  "entrypoint": "two_researcher_runner.py",
+  "windows_transport": "atomic file RPC; terminal input/output is no longer required",
+  "network_roundtrip": {
+    "completed": true,
+    "test_only": true,
+    "requests": 47,
+    "prediction_commit": "4d6f0a72f83286da96e29519443a607410c8587a",
+    "receipt_commit": "1972fcfe6802ffca1a6f7c275426e0a16b247b03",
+    "readable_commit": "7c22c2005b225a240581002193f7adc9262e61c2",
+    "draft_commit": "d82cd7a662d52099770582bc5480097c239df2a0",
+    "immutable_and_branch_readbacks": true,
+    "live_performance": false
+  },
+  "history": {
+    "official_full_field_crosschecks_races": 36,
+    "rows": 501,
+    "complete_pedigree_verification": false,
+    "history_append_complete": false,
+    "coverage_promoted": false
+  },
+  "scheduling": {
+    "current_hosted_tasks_accessed": false,
+    "connected": false,
+    "blocker": "Computer Use stopped because the current browser URL could not be determined sufficiently to enforce policy; no bypass attempted. No hosted task management connector or local automation configuration was available."
+  },
+  "protected": {
+    "original_model_52_unchanged": true,
+    "half_50_unchanged": true,
+    "allocation_unchanged": true,
+    "production_entrypoint_unchanged": true,
+    "deadline_and_freshness_unchanged": true,
+    "existing_live_records_overwritten": false,
+    "x_sent": false,
+    "tickets_purchased": false
+  }
+}

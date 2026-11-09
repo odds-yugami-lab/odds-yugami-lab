@@ -5,12 +5,29 @@ from pathlib import Path
 import tempfile
 import unittest
 import urllib.error
+import threading
+import time
+import os
 from unittest.mock import patch
 from resilience import retry, Journal, atomic_json
 from history_preflight import check, ready
 
 
 class ResilienceTests(unittest.TestCase):
+    def test_large_file_rpc_response_and_identity(self):
+        from operation_runner import ConnectorRPC
+        with tempfile.TemporaryDirectory() as root,patch.dict(os.environ,{'JRA_RPC_DIRECTORY':root}):
+            transport=ConnectorRPC()
+            def broker():
+                request=Path(root)/'request-1.json'
+                while not request.exists():time.sleep(.01)
+                data=json.loads(request.read_text(encoding='utf-8'))
+                self.assertEqual(data['method'],'fetch')
+                atomic_json(Path(root)/'response-1.json',{'id':1,'result':{'large':'x'*200000}})
+            worker=threading.Thread(target=broker);worker.start()
+            value=transport('fetch',{'url':'https://example.test'})
+            worker.join(timeout=3)
+            self.assertEqual(len(value['large']),200000)
     def test_retry_transport_but_not_validation_or_access_denied(self):
         calls=[]
         def work():
