@@ -1,0 +1,49 @@
+{
+  "date_jst": "2026-11-09",
+  "status": "blocked_not_production_complete",
+  "unit_tests": {
+    "run": 47,
+    "passed": 47
+  },
+  "real_model_smoke": {
+    "feature_count": 52,
+    "deterministic_reload": true,
+    "saved_model_files_unchanged": 4,
+    "test_only": true
+  },
+  "history_recovery": {
+    "date": "2026-11-07",
+    "staged_races": 36,
+    "result_rows": 501,
+    "entry_rows": 501,
+    "official_full_field_crosschecked_races": 36,
+    "official_full_field_crosschecked_rows": 501,
+    "metadata_mismatches": 0,
+    "private_history_append_complete": false,
+    "coverage_promoted": false,
+    "private_library_version_saved": false
+  },
+  "scheduling": {
+    "historical_window_evidence": [
+      "15:35以前",
+      "15:36-15:42",
+      "15:43-23:59"
+    ],
+    "current_hosted_schedule_readback_verified": false,
+    "new_preparation_schedule_connected": false,
+    "notification_policy_connected": false
+  },
+  "unchanged": [
+    "52-feature original model",
+    "HALF market correction 50%",
+    "both researcher allocation policies",
+    "12-minute publication deadline",
+    "90-second odds freshness",
+    "existing prediction and performance records"
+  ],
+  "blockers": [
+    "Complete pedigree identity verification and append into a separate private history version remain unfinished.",
+    "No connected tool exposes the existing hosted ChatGPT tasks for authoritative read/update; local automation directory is absent and browser is signed out.",
+    "Private archive export into tool/session output was rejected by automatic approval review; archive is retained locally and was not uploaded."
+  ]
+}

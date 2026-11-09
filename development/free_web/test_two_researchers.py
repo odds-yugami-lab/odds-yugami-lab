@@ -63,7 +63,7 @@ class DualTests(unittest.TestCase):
         official={'race_code':p['race_code'],'official_verified':True,'source_url':'https://www.jra.go.jp/test',
           'payouts_per_100_yen':{'umaren':{'0102':1000},'sanrenpuku':{'010203':10000}},'refunded_horse_numbers':[]}
         a=settle_pair(p['race_code'],git,official);b=settle_pair(p['race_code'],git,official);self.assertEqual(a,b)
-        self.assertIn('一郎研究員',a['x_draft']);self.assertIn('マツイ研究員',a['x_draft']);self.assertEqual(git.created,5)
+        self.assertIn('一郎研究員',a['x_draft']);self.assertIn('マツイ研究員',a['x_draft']);self.assertEqual(git.created,6)
         self.assertGreater(a['result']['researchers']['matsui']['profit_yen'],0)
     def test_legacy_or_missing_receipt_never_repredicted(self):
         with self.assertRaises(ValueError):settle_pair(self.pair()['race_code'],MemoryGitHub())

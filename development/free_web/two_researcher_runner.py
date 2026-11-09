@@ -1,9 +1,10 @@
 """Atomic two-policy publication, authenticated settlement, persisted X drafts."""
-import argparse,copy,datetime as dt,json,re,sys
+import argparse,contextlib,copy,datetime as dt,json,re,sys
 from pathlib import Path
 from operation_runner import GitHub,ConnectorRPC,BRANCH,REPOSITORY,dumps
 from pre_race_record import timestamp
 from two_researchers import VERSION,validate,digest,prediction_draft,result_draft
+from resilience import Journal,retry,atomic_json
 
 def paths(race,test_only=False,run_id=None):
     if not re.fullmatch(r'\d{16}',race):raise ValueError('Invalid race')
@@ -46,6 +47,15 @@ def readable_prediction(record, original_url):
     return '\n'.join(lines)+'\n'
 
 def publish_pair(pair,github,test_only=False,run_id=None,clock=None):
+    clock=clock or (lambda:dt.datetime.now(dt.timezone.utc))
+    previous=getattr(github,'write_guard',None)
+    github.write_guard=lambda:validate(pair,now=clock(),test_only=test_only)
+    try:
+        return _publish_pair(pair,github,test_only,run_id,clock)
+    finally:
+        github.write_guard=previous
+
+def _publish_pair(pair,github,test_only=False,run_id=None,clock=None):
     clock=clock or (lambda:dt.datetime.now(dt.timezone.utc));validate(pair,now=clock(),test_only=test_only)
     record=copy.deepcopy(pair);record['test_only']=test_only
     p=paths(record['race_code'],test_only,run_id);content=dumps(record)
@@ -100,9 +110,14 @@ def settle_pair(race,github,payout_snapshot=None,test_only=False,run_id=None):
 def main():
     parser=argparse.ArgumentParser();parser.add_argument('action',choices=['live','publish','settle'])
     for arg in ['race','model-dir','history-dir','window','record','payout','run-id','output']:parser.add_argument('--'+arg,required=arg in ['race','output'])
+    parser.add_argument('--state-dir',help='Private persistent restart directory; never publish it')
     parser.add_argument('--pedigree',action='append',default=[]);parser.add_argument('--test-only',action='store_true');args=parser.parse_args()
     github=GitHub(ConnectorRPC());stage=args.action
+    stack=contextlib.ExitStack()
     try:
+        identity=args.race+('_test_'+(args.run_id or 'missing') if args.test_only else '_live')
+        journal=Journal(args.state_dir or Path(args.output).parent/'.two_researcher_state',identity)
+        stack.enter_context(journal.locked())
         if args.action=='settle':
             if args.payout and not args.test_only:raise ValueError('Live settlement must fetch official result')
             payout=json.loads(Path(args.payout).read_text()) if args.payout else None
@@ -113,9 +128,24 @@ def main():
                 p=paths(args.race);existing=github.optional(p['prediction'])
                 if existing is not None:record=json.loads(existing)
                 else:
+                    from history_preflight import ready
+                    coverage_check=ready(args.history_dir)
                     from calibrated_live_pipeline import prepare_live
                     from two_researchers import prepare
-                    record=prepare_live(args.race,args.model_dir,args.history_dir,args.pedigree,args.window,record_prepare=prepare)
+                    record=journal.prepared()
+                    if record is not None:
+                        if record.get('race_code')!=args.race:raise ValueError('Restart race identity mismatch')
+                        # A restart never extends freshness or deadline. A stale
+                        # unsaved computation may be reacquired; a saved original
+                        # above is always authoritative and is never recalculated.
+                        try:validate(record,now=dt.datetime.now(dt.timezone.utc))
+                        except ValueError as exc:
+                            if 'stale' not in str(exc).lower():raise
+                            record=None
+                    if record is None:
+                        record=retry(lambda:prepare_live(args.race,args.model_dir,args.history_dir,args.pedigree,args.window,
+                            record_prepare=prepare,prepared_coverage=coverage_check))
+                    journal.save('prepared',record)
                 if args.window:
                     from calibrated_live_pipeline import check_window
                     check_window(record['race_start_at'],args.window)
@@ -124,7 +154,8 @@ def main():
                 record=json.loads(Path(args.record).read_text())
             stage='publish_both_receipts_prediction_x_draft'
             outcome=publish_pair(record,github,args.test_only,args.run_id)
-        Path(args.output).write_text(dumps(outcome));print('JRA_DONE '+json.dumps({'status':outcome['status'],'output':args.output}),flush=True)
+        journal.save('complete')
+        atomic_json(args.output,outcome);print('JRA_DONE '+json.dumps({'status':outcome['status'],'output':args.output}),flush=True)
     except Exception as exc:
         failure={'status':'failed','stage':github.stage or stage,'race_code':args.race,'error_type':type(exc).__name__,
           'error':str(exc)[:500],'completed':False,'x_draft':None}
@@ -133,5 +164,7 @@ def main():
             path='development/free_web/incidents/two_researchers/'+stamp+'_'+args.race+'.json'
             commit,_=github.save(path,dumps(failure),'Record interrupted dual operation');failure['incident_url']=url(commit,path)
         except Exception:failure['incident_saved']=False
-        Path(args.output).write_text(dumps(failure));print('JRA_FAILED '+json.dumps(failure),flush=True);raise SystemExit(1)
+        atomic_json(args.output,failure);print('JRA_FAILED '+json.dumps(failure),flush=True);raise SystemExit(1)
+    finally:
+        stack.close()
 if __name__=='__main__':main()

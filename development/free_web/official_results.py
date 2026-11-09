@@ -10,6 +10,7 @@ import re
 import urllib.parse
 import urllib.request
 from result_store import text
+from resilience import retry
 
 VENUES={'01':'札幌','02':'函館','03':'福島','04':'新潟','05':'東京',
         '06':'中山','07':'中京','08':'京都','09':'阪神','10':'小倉'}
@@ -31,6 +32,9 @@ def result_url(index_page,race_code):
     return candidates[0]
 
 def fetch_for_race(race_code):
+    return retry(lambda:_fetch_for_race_once(race_code))
+
+def _fetch_for_race_once(race_code):
     index_url=f'https://www.jra.go.jp/datafile/seiseki/replay/{race_code[:4]}/jyusyo.html'
     request=urllib.request.Request(index_url,headers={'User-Agent':'Mozilla/5.0'})
     with urllib.request.urlopen(request,timeout=25) as response:
@@ -93,6 +97,9 @@ def parse(page,race_code,source_url,obtained_at):
             'usable_for_pre_race_participation':False}
 
 def fetch(source_url,race_code):
+    return retry(lambda:_fetch_once(source_url,race_code))
+
+def _fetch_once(source_url,race_code):
     if urllib.parse.urlparse(source_url).hostname not in {'www.jra.go.jp','jra.go.jp','www.jra.jp','jra.jp'}:
         raise ValueError('Official URL required')
     request=urllib.request.Request(source_url,headers={'User-Agent':'Mozilla/5.0'})

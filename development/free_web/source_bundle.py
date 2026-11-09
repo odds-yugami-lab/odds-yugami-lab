@@ -15,10 +15,14 @@ from entries import parse as parse_entries
 from official_entries import fetch as fetch_official,match_free_entries
 from odds import parse as parse_odds
 from entry_changes import reconcile
+from resilience import retry
 
 JST=dt.timezone(dt.timedelta(hours=9))
 
 def download(url, phase='unspecified'):
+    return retry(lambda: _download_once(url, phase))
+
+def _download_once(url, phase):
     req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})
     try:
         with urllib.request.urlopen(req,timeout=25) as response:

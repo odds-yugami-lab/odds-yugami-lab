@@ -68,12 +68,12 @@ def prepare_from_sources(bundle, model_dir, history_dir, pedigree_paths=(), cove
     return record
 
 
-def prepare_live(race, model_dir, history_dir, pedigree_paths=(), window=None, record_prepare=None):
+def prepare_live(race, model_dir, history_dir, pedigree_paths=(), window=None, record_prepare=None, prepared_coverage=None):
     from public_live_collector import collect_live
     from history_coverage import effective_coverage
     coverage = json.loads((Path(history_dir) / 'coverage_manifest.json').read_text())
     yesterday = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).date() - dt.timedelta(days=1)
-    coverage_check = effective_coverage(coverage['history_complete_through'], yesterday.isoformat())
+    coverage_check = prepared_coverage or effective_coverage(coverage['history_complete_through'], yesterday.isoformat())
     bundle = collect_live(race)
     if window: check_window(bundle['official_participation']['race_start_at'], window)
     return prepare_from_sources(bundle, model_dir, history_dir, pedigree_paths, coverage_check, record_prepare)

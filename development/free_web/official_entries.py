@@ -11,8 +11,12 @@ import urllib.request
 import urllib.error
 from result_store import text
 from official_results import VENUES
+from resilience import retry
 
 def fetch(source_url,race_code,historical_test=False,include_page=False):
+    return retry(lambda:_fetch_once(source_url,race_code,historical_test,include_page))
+
+def _fetch_once(source_url,race_code,historical_test=False,include_page=False):
     if urllib.parse.urlparse(source_url).hostname not in {'jra.jp','www.jra.jp','jra.go.jp','www.jra.go.jp'}:
         raise ValueError('Official entry URL required')
     req=urllib.request.Request(source_url,headers={'User-Agent':'Mozilla/5.0','Cache-Control':'no-cache'})

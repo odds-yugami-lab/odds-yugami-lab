@@ -7,12 +7,14 @@ import argparse
 import datetime as dt
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 import sys
 import urllib.parse
 from publication import request, confirm, x_draft_after_receipt, REPOSITORY
 from pre_race_record import timestamp
+from resilience import retry
 
 BRANCH = 'dev/free-windows-probe-20261011'
 API = 'https://api.github.com/repos/' + REPOSITORY
@@ -26,9 +28,10 @@ class GitHub:
     def __init__(self, call):
         self.call = call
         self.stage = None
+        self.write_guard = None
 
     def get(self, suffix):
-        result = self.call('fetch', {'url': API + suffix})
+        result = retry(lambda: self.call('fetch', {'url': API + suffix}))
         content = result.get('content')
         return json.loads(content) if isinstance(content, str) else result
 
@@ -44,8 +47,8 @@ class GitHub:
         return head, {r['path']: r for r in tree['tree'] if r['type'] == 'blob'}
 
     def content(self, path, ref):
-        result = self.call('fetch_file', {'repository_full_name': REPOSITORY,
-                                        'path': path, 'ref': ref})
+        result = retry(lambda: self.call('fetch_file', {'repository_full_name': REPOSITORY,
+                                        'path': path, 'ref': ref}))
         content = result.get('content')
         if not isinstance(content, str) or not content:
             raise ValueError('Empty GitHub readback: ' + path)
@@ -61,7 +64,7 @@ class GitHub:
         return self.content(path, head)
 
     def commit_time(self, sha):
-        result = self.call('fetch_commit', {'repo_full_name': REPOSITORY, 'commit_sha': sha})
+        result = retry(lambda: self.call('fetch_commit', {'repo_full_name': REPOSITORY, 'commit_sha': sha}))
         return result['commit']['created_at']
 
     def verify(self, path, content, sha):
@@ -81,6 +84,11 @@ class GitHub:
 
     def save(self, path, content, message):
         """Reuse identical existing bytes, but never overwrite a different file."""
+        # Retry the whole existence-check/write/readback transaction. A lost
+        # create response is reconciled by reading, never blindly duplicated.
+        return retry(lambda: self._save_once(path, content, message))
+
+    def _save_once(self, path, content, message):
         self.stage = 'existence_check:' + path
         current = self.optional(path)
         if current is not None:
@@ -93,6 +101,8 @@ class GitHub:
             sha = commits[0]['sha']
         else:
             self.stage = 'create_file:' + path
+            if self.write_guard:
+                self.write_guard()
             result = self.call('create_file', {'repository_full_name': REPOSITORY,
                 'branch': BRANCH, 'path': path, 'content': content, 'message': message})
             sha = result['commit_sha']
@@ -172,7 +182,7 @@ def settle_saved(race, github, payout_snapshot=None, test_only=False, run_id=Non
 class ConnectorRPC:
     """One-line JSON over a noncanonical, non-echoing terminal; no tokens."""
     def __init__(self):
-        if sys.stdin.isatty():
+        if sys.stdin.isatty() and os.name != 'nt':
             import termios
             attr = termios.tcgetattr(0)
             attr[3] &= ~(termios.ECHO | termios.ICANON)
