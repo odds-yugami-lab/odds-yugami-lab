@@ -1,0 +1,281 @@
+{
+  "policy_version": "two_researchers_half_v1_20261026",
+  "prediction_finalized_at": "2026-10-24T05:50:00+00:00",
+  "race_code": "2026102405040811",
+  "race_name": "試験",
+  "race_start_at": "2026-10-24T15:30:00+09:00",
+  "researchers": {
+    "ichiro": {
+      "active_horse_numbers": [
+        1,
+        2,
+        3
+      ],
+      "allocation_audit": {
+        "actual_mip_gap": 6.573688961596325e-16,
+        "budget_limit_yen": 10000,
+        "budget_yen": 5100,
+        "economic_objective_yen": 13333.333333333325,
+        "exact_minimum_stakes_only": true,
+        "expected_net_profit_yen": 8233.333333333325,
+        "expected_payout_scale_explicit": 999999.9999999993,
+        "expected_payout_scale_historically_verified": false,
+        "expected_payout_weight": 0.5,
+        "expected_payout_yen": 13333.333333333325,
+        "globally_optimal_for_this_explicit_objective": true,
+        "hit_probability_weight": 0.5,
+        "maximum_tickets": 30,
+        "mip_relative_gap_requested": 0.01,
+        "net_profit_objective": false,
+        "nonnegative_ev_only": false,
+        "objective_value": 0.5066666666666664,
+        "original_implementation_verified": false,
+        "probability_any_win": 0.9999999999999993,
+        "production_ready": false,
+        "research_only": false,
+        "rule": "ichiro_half_gross_E50_H50_v1_20261026",
+        "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "solver_settings_historically_verified": false,
+        "solver_status": 0,
+        "ticket_count": 2,
+        "time_limit": 30.0,
+        "unspent_yen": 4900
+      },
+      "allocation_core_sha256": "375e3b3c78352f634d7f74089bebda9497d85622d8aa9a0bc0fdff2ea070ed62",
+      "allocation_rule": "ichiro_half_gross_E50_H50_v1_20261026",
+      "budget_limit_yen": 10000,
+      "correction_parameters": {
+        "2026_labels_used_for_fitting": false,
+        "alpha_ai": 0.5545147182412767,
+        "base_version": "market_strength_calibration_v1_20261021",
+        "beta_market": 0.3793199369821049,
+        "correction_strength": 0.5,
+        "fitted_on_year": 2025,
+        "fitted_races": 119,
+        "version": "market_strength_half_v1_20261026"
+      },
+      "correction_strength": 0.5,
+      "features_obtained_at": "2026-10-24T05:50:00+00:00",
+      "horse_probabilities": [
+        {
+          "race_code": "2026102405040811",
+          "rank_strength": 0.3333333333333333,
+          "raw_saved_top3_probability": 1.0,
+          "raw_saved_win_probability": 0.3333333333333333,
+          "top3_probability": 0.9999999999999993,
+          "umaban": 1,
+          "win_probability": 0.33333333333333315
+        },
+        {
+          "race_code": "2026102405040811",
+          "rank_strength": 0.3333333333333333,
+          "raw_saved_top3_probability": 1.0,
+          "raw_saved_win_probability": 0.3333333333333333,
+          "top3_probability": 0.9999999999999993,
+          "umaban": 2,
+          "win_probability": 0.33333333333333315
+        },
+        {
+          "race_code": "2026102405040811",
+          "rank_strength": 0.3333333333333333,
+          "raw_saved_top3_probability": 1.0,
+          "raw_saved_win_probability": 0.3333333333333333,
+          "top3_probability": 0.9999999999999993,
+          "umaban": 3,
+          "win_probability": 0.33333333333333315
+        }
+      ],
+      "input_snapshot_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "is_pre_race_prediction": true,
+      "model_file_sha256": {
+        "top3_model.joblib": "f0e1109be2bd6a4dfcd2099df46cb95f17d846d202b0e1b0a39f6e5123cd4115",
+        "top3_platt.joblib": "5df2d77bfb2e595158a740d76233183f6c11ad1f26139f7196d5af8fe7756dec",
+        "win_model.joblib": "0d098fe95abfe1453cedbca9803be68d6ce8b8f82bf36514b3f6557aac02b645",
+        "win_platt.joblib": "191cff046054aecd53ed62d72376e6a11fc9c3ee244bcffd0f0bd37569581ded"
+      },
+      "model_package": "test",
+      "odds_sources": {
+        "sanrenpuku": {
+          "page_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "retrieved_at": "2026-10-24T05:49:50+00:00",
+          "source_updated_at": "2026-10-24T05:49:40+00:00",
+          "source_url": "https://example.test"
+        },
+        "umaren": {
+          "page_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "retrieved_at": "2026-10-24T05:49:50+00:00",
+          "source_updated_at": "2026-10-24T05:49:40+00:00",
+          "source_url": "https://example.test"
+        }
+      },
+      "prediction_finalized_at": "2026-10-24T05:50:00+00:00",
+      "probability_correction_parameters_sha256": "4a531ee17db56911ff9d45feb25a5cb3af60fe358a2faf70af4aa7b1a9d0237c",
+      "probability_method": "market_strength_half_v1_20261026",
+      "race_code": "2026102405040811",
+      "race_name": "試験",
+      "race_start_at": "2026-10-24T15:30:00+09:00",
+      "researcher_name": "一郎研究員",
+      "schema_version": 8,
+      "tickets": [
+        {
+          "ai_probability": 0.9999999999999993,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 100.0,
+          "kumiban": "010203",
+          "min_units": 1,
+          "race_code": "2026102405040811",
+          "stake": 100
+        },
+        {
+          "ai_probability": 0.33333333333333315,
+          "bet_type": "umaren",
+          "decimal_odds": 2.0,
+          "kumiban": "0102",
+          "min_units": 50,
+          "race_code": "2026102405040811",
+          "stake": 5000
+        }
+      ],
+      "total_stake_yen": 5100,
+      "unspent_yen": 4900,
+      "win_odds_source": {
+        "page_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "retrieved_at": "2026-10-24T05:49:50+00:00",
+        "source_updated_at": "2026-10-24T05:49:40+00:00",
+        "source_url": "https://example.test"
+      }
+    },
+    "matsui": {
+      "active_horse_numbers": [
+        1,
+        2,
+        3
+      ],
+      "allocation_audit": {
+        "actual_mip_gap": 0.0,
+        "budget_limit_yen": 10000,
+        "budget_yen": 100,
+        "economic_objective_yen": 9899.999999999993,
+        "exact_minimum_stakes_only": true,
+        "expected_net_profit_yen": 9899.999999999993,
+        "expected_payout_scale_explicit": 999999.9999999993,
+        "expected_payout_scale_historically_verified": false,
+        "expected_payout_weight": 0.5,
+        "expected_payout_yen": 9999.999999999993,
+        "globally_optimal_for_this_explicit_objective": true,
+        "hit_probability_weight": 0.5,
+        "maximum_tickets": 30,
+        "mip_relative_gap_requested": 0.01,
+        "net_profit_objective": true,
+        "nonnegative_ev_only": true,
+        "objective_value": 0.5049499999999997,
+        "original_implementation_verified": false,
+        "probability_any_win": 0.9999999999999993,
+        "production_ready": false,
+        "research_only": false,
+        "rule": "matsui_half_EV1_net_E50_H50_v1_20261026",
+        "solver_message": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+        "solver_settings_historically_verified": false,
+        "solver_status": 0,
+        "ticket_count": 1,
+        "time_limit": 30.0,
+        "unspent_yen": 9900
+      },
+      "allocation_core_sha256": "375e3b3c78352f634d7f74089bebda9497d85622d8aa9a0bc0fdff2ea070ed62",
+      "allocation_rule": "matsui_half_EV1_net_E50_H50_v1_20261026",
+      "budget_limit_yen": 10000,
+      "correction_parameters": {
+        "2026_labels_used_for_fitting": false,
+        "alpha_ai": 0.5545147182412767,
+        "base_version": "market_strength_calibration_v1_20261021",
+        "beta_market": 0.3793199369821049,
+        "correction_strength": 0.5,
+        "fitted_on_year": 2025,
+        "fitted_races": 119,
+        "version": "market_strength_half_v1_20261026"
+      },
+      "correction_strength": 0.5,
+      "features_obtained_at": "2026-10-24T05:50:00+00:00",
+      "horse_probabilities": [
+        {
+          "race_code": "2026102405040811",
+          "rank_strength": 0.3333333333333333,
+          "raw_saved_top3_probability": 1.0,
+          "raw_saved_win_probability": 0.3333333333333333,
+          "top3_probability": 0.9999999999999993,
+          "umaban": 1,
+          "win_probability": 0.33333333333333315
+        },
+        {
+          "race_code": "2026102405040811",
+          "rank_strength": 0.3333333333333333,
+          "raw_saved_top3_probability": 1.0,
+          "raw_saved_win_probability": 0.3333333333333333,
+          "top3_probability": 0.9999999999999993,
+          "umaban": 2,
+          "win_probability": 0.33333333333333315
+        },
+        {
+          "race_code": "2026102405040811",
+          "rank_strength": 0.3333333333333333,
+          "raw_saved_top3_probability": 1.0,
+          "raw_saved_win_probability": 0.3333333333333333,
+          "top3_probability": 0.9999999999999993,
+          "umaban": 3,
+          "win_probability": 0.33333333333333315
+        }
+      ],
+      "input_snapshot_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "is_pre_race_prediction": true,
+      "model_file_sha256": {
+        "top3_model.joblib": "f0e1109be2bd6a4dfcd2099df46cb95f17d846d202b0e1b0a39f6e5123cd4115",
+        "top3_platt.joblib": "5df2d77bfb2e595158a740d76233183f6c11ad1f26139f7196d5af8fe7756dec",
+        "win_model.joblib": "0d098fe95abfe1453cedbca9803be68d6ce8b8f82bf36514b3f6557aac02b645",
+        "win_platt.joblib": "191cff046054aecd53ed62d72376e6a11fc9c3ee244bcffd0f0bd37569581ded"
+      },
+      "model_package": "test",
+      "odds_sources": {
+        "sanrenpuku": {
+          "page_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "retrieved_at": "2026-10-24T05:49:50+00:00",
+          "source_updated_at": "2026-10-24T05:49:40+00:00",
+          "source_url": "https://example.test"
+        },
+        "umaren": {
+          "page_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+          "retrieved_at": "2026-10-24T05:49:50+00:00",
+          "source_updated_at": "2026-10-24T05:49:40+00:00",
+          "source_url": "https://example.test"
+        }
+      },
+      "prediction_finalized_at": "2026-10-24T05:50:00+00:00",
+      "probability_correction_parameters_sha256": "4a531ee17db56911ff9d45feb25a5cb3af60fe358a2faf70af4aa7b1a9d0237c",
+      "probability_method": "market_strength_half_v1_20261026",
+      "race_code": "2026102405040811",
+      "race_name": "試験",
+      "race_start_at": "2026-10-24T15:30:00+09:00",
+      "researcher_name": "マツイ研究員",
+      "schema_version": 8,
+      "tickets": [
+        {
+          "ai_probability": 0.9999999999999993,
+          "bet_type": "sanrenpuku",
+          "decimal_odds": 100.0,
+          "kumiban": "010203",
+          "min_units": 1,
+          "race_code": "2026102405040811",
+          "stake": 100
+        }
+      ],
+      "total_stake_yen": 100,
+      "unspent_yen": 9900,
+      "win_odds_source": {
+        "page_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+        "retrieved_at": "2026-10-24T05:49:50+00:00",
+        "source_updated_at": "2026-10-24T05:49:40+00:00",
+        "source_url": "https://example.test"
+      }
+    }
+  },
+  "test_only": true
+}
